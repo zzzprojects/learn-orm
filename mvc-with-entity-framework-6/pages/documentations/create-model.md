@@ -30,7 +30,9 @@ namespace MvcWithEF6Demo.Models
     public class Author
     {
         public int AuthorId { get; set; }
-        public string Name { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public DateTime BirthDate { get; set; }
         public virtual ICollection<Book> Books { get; set; }
     }
 }
@@ -132,9 +134,10 @@ The default behavior is to create a database only if it doesn't exist and throw 
 In the DAL folder, add a new class `BookStoreInitializer` and replace the following code, which causes a database to be created when needed and loads test data into the new database.
 
 ```csharp
+using System;
+using System.Data.Entity;
 using MvcWithEF6Demo.Models;
 using System.Collections.Generic;
-using System.Data.Entity;
 
 namespace MvcWithEF6Demo.DAL
 {
@@ -144,11 +147,11 @@ namespace MvcWithEF6Demo.DAL
         {
             var authors = new List<Author>
             {
-                new Author{Name="Carson Alexander"},
-                new Author{Name="Meredith Alonso"},
-                new Author{Name="Arturo Anand"},
-                new Author{Name="Gytis Li"},
-                new Author{Name="Laura Norman"},
+                new Author { FirstName="Carson", LastName="Alexander", BirthDate = DateTime.Parse("1985-09-01")},
+                new Author { FirstName="Meredith", LastName="Alonso", BirthDate = DateTime.Parse("1970-09-01")},
+                new Author { FirstName="Arturo", LastName="Anand", BirthDate = DateTime.Parse("1963-09-01")},
+                new Author { FirstName="Gytis", LastName="Barzdukas", BirthDate = DateTime.Parse("1988-09-01")},
+                new Author { FirstName="Yan", LastName="Li", BirthDate = DateTime.Parse("2000-09-01")},
             };
 
             authors.ForEach(a => context.Authors.Add(a));

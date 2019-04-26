@@ -9,7 +9,9 @@ MVC controllers are responsible for responding to requests made against an ASP.N
 
 For example, you entered the following URL into the address bar of your browser.
 
+```csharp
 http://localhost/Author/Index/
+```
 
 In this case, a controller named `AuthorController` is invoked. The `AuthorController` is responsible for generating the response to the browser request.
 

@@ -106,12 +106,12 @@ In the above code, the URL pattern for the ***Author_Details*** route is ***auth
 
 The following table shows which `Controller`, `Action` method and `Id` parameter would handle different URLs considering above default route.
 
-|URL                                    |Controller            |Action        |Id |
+|URL                                    |Controller         |Action     |Id |
 |---------------------------------------|-------------------|-----------|---|
-|http://localhost:58379/                |HomeController        |Index        |   |
-|http://localhost:58379/Author/            |AuthorController   |Index        |   |
-|http://localhost:58379/Author/Create    |AuthorController   |Create        |   |
-|http://localhost:58379/Author/Edit/2    |AuthorController   |Edit         |2  |
+|http://localhost:58379/                |HomeController     |Index      |   |
+|http://localhost:58379/Author/         |AuthorController   |Index      |   |
+|http://localhost:58379/Author/Create   |AuthorController   |Create     |   |
+|http://localhost:58379/Author/Edit/2   |AuthorController   |Edit       |2  |
 |http://localhost:58379/Author/Delete/3 |AuthorController   |Delete     |3  |
 |http://localhost:58379/Authors/1       |AuthorController   |Details    |1  |
 

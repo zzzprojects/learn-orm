@@ -25,8 +25,7 @@ public ActionResult Index(string sortOrder, int? page)
     ViewBag.BirthDateSortParm = sortOrder == "birth_date" ? "birth_date_desc" : "birth_date";
 
     var authors = db.Authors.AsQueryable();
-    //var authors = from a in db.Authors
-    //               select a;
+
     switch (sortOrder)
     {                
         case "first_name_desc":
@@ -104,15 +103,12 @@ In ***Views\Author\Index.cshtml***, replace the existing code with the following
 <table class="table">
     <tr>
         <th>
-            @*@Html.DisplayNameFor(model => model.FirstName)*@
             @Html.ActionLink("First Name", "Index", new { sortOrder = ViewBag.FirstNameSortParm })
         </th>
         <th>
-            @*@Html.DisplayNameFor(model => model.LastName)*@
             @Html.ActionLink("Last Name", "Index", new { sortOrder = ViewBag.LastNameSortParm })
         </th>
         <th>
-            @*@Html.DisplayNameFor(model => model.BirthDate)*@
             @Html.ActionLink("Birth Date", "Index", new { sortOrder = ViewBag.BirthDateSortParm })
         </th>
         <th></th>
@@ -164,4 +160,4 @@ The `PagedListPager` helper provides a number of options that you can customize,
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/mvc-with-entity-framework-6/images/paging-2.png">
 
-Click the paging links in different sort orders to make sure paging works.
+Click the paging links to make sure paging works.

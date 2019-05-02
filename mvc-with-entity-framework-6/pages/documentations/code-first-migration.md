@@ -223,7 +223,7 @@ namespace MvcWithEF6Demo.Migrations
                 new Author { FirstName="Yan", LastName="Li", BirthDate = DateTime.Parse("2000-09-01")},
             };
 
-            authors.ForEach(a => context.Authors.Add(a));
+            authors.ForEach(a => context.Authors.AddOrUpdate(p => p.LastName, a));
             context.SaveChanges();
 
             var books = new List<Book>
@@ -240,12 +240,17 @@ namespace MvcWithEF6Demo.Migrations
                 new Book { Title = "Introduction to AI", AuthorId = 4 },
             };
 
-            books.ForEach(b => context.Books.Add(b));
+            books.ForEach(b => context.Books.AddOrUpdate(p => p.Title, b));
             context.SaveChanges();
         }
     }
 }
 ```
+
+The `Seed` method takes the database context object as an input parameter, and the code in the method uses that object to add new entities to the database.
+
+ - The `AddOrUpdate` method is used to perform an "upsert" operation, because the `Seed` method runs every time we execute the `update-database` command. 
+ - After each migration, we can't just insert data, because the rows you are trying to add will already be there after the first migration that creates the database. 
 
 When the `add-migration` command is executed, it generated the code in the `Migrations` folder, in the file named `<timestamp>_InitialCreate.cs` that would create the database from scratch. 
 

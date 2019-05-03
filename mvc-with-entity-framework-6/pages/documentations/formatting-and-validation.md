@@ -7,13 +7,13 @@ Name: Formatting & Validation
 
 In this article, we will discuss how to customize the data model by using attributes that specify formatting, validation, and database mapping rules.
 
-## DataType
+## DataType Attribute
 
 In `Author` entity, we have `BirthDate` property, and all of the web pages currently display the time along with the date. 
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/mvc-with-entity-framework-6/images/formatting-and-validation-1.png">
 
-But in this field, we only need the date, so by using data annotation attributes, we can make one code change that will fix the display format in every view that shows the birth date.
+In this field, we only need the date instead of date and time. We can use data annotation attributes and make one code change that will fix the display format in every view that shows the birth date.
 
 In ***Models\Author.cs***, add a `using` statement for the `System.ComponentModel.DataAnnotations` namespace and add `DataType` and `DisplayFormat` attributes to the `BirthDate` property, as shown below.
 
@@ -52,7 +52,7 @@ Let's run your application and go to the author `Index` page again and you will 
 
 The same will be true for any view that uses the `Author` model.
 
-## StringLength
+## StringLength Attribute
 
 You can also specify data validation rules and validation error messages using attributes. 
 
@@ -128,3 +128,92 @@ namespace MvcWithEF6Demo.Migrations
 ```
 
 It contains the code in the `Up` method that will update the database to match the current data model. The `update-database` command ran that code.
+
+## NotMapped Attribute
+
+The `NotMapped` attribute is used to specify an entity or property is not to be mapped to a table or column in the database.
+
+ - In EF, the default Code First conventions create a column for every property that is of a supported data type and which includes getters and setters.
+ - The `NotMapped` attribute overrides this default convention, and the entity or property will not be mapped to a table or column in the database.
+
+In the following example, the `FullName` property will not be mapped to a column in the `Authors` table in the database.
+
+```csharp
+using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace MvcWithEF6Demo.Models
+{
+    public class Author
+    {
+        public int AuthorId { get; set; }
+
+        [StringLength(50)]
+        public string FirstName { get; set; }
+
+        [StringLength(50)]
+        public string LastName { get; set; }
+
+        [NotMapped]
+        public string FullName
+        {
+            get
+            {
+                return FirstName + " " + LastName;
+            }
+        }
+
+        [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
+        public DateTime BirthDate { get; set; }
+        public virtual ICollection<Book> Books { get; set; }
+    }
+}
+```
+## Display Attribute
+
+The `Display` attribute specifies that the caption for the text boxes on views. For example, to show **First Name**, **Last Name**, **Full Name**, and **Birth Date** instead of the property name on the views, you can use `Display` attribute.
+
+```csharp
+using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace MvcWithEF6Demo.Models
+{
+    public class Author
+    {
+        public int AuthorId { get; set; }
+
+        [StringLength(50)]
+        [Display(Name = "First Name")]
+        public string FirstName { get; set; }
+
+        [StringLength(50)]
+        [Display(Name = "Last Name")]
+        public string LastName { get; set; }
+
+        [NotMapped]
+        [Display(Name = "Full Name")]
+        public string FullName
+        {
+            get
+            {
+                return FirstName + " " + LastName;
+            }
+        }
+
+        [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
+        public DateTime BirthDate { get; set; }
+        public virtual ICollection<Book> Books { get; set; }
+    }
+}
+```
+
+## Calculated Property
+
+`FullName` is a calculated property that returns a value by concatenating two other properties. Therefore, it has only a get accessor, and no FullName column will be generated in the database.

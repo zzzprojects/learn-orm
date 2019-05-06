@@ -101,3 +101,9 @@ To update the database, run the `Update` command in Package Manager Console wind
 ```csharp
 update-database
 ```
+
+Let's run your application in debug mode, and then click the **Books** tab and then try to delete any of the available books by clicking on the Delete link.
+
+<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/mvc-with-entity-framework-6/images/use-stored-procedures-1.png">
+
+Now if you look at the **Output** window, you will see that a stored procedure `Book_Delete` is used to delete the `Book` row.

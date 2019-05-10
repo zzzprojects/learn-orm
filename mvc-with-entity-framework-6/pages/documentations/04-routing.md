@@ -58,7 +58,7 @@ namespace MvcWithEF6Demo
 }
 ```
 
- - `The MapRout()` method is an extension method and we have to define the route `name` which is **default**; 
+ - The `MapRoute()` method is an extension method and we have to define the route `name` which is **default**; 
  - If you want to create a new route then you can specify another name because the name can't be the same. 
  - In the URL there are some variables like `controller`, `action` and `id`. 
  - In the defaults it will call a `Home` controller, `Index` action and `id` which is optional.

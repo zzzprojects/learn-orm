@@ -5,7 +5,7 @@ Name: Searching or Filtering
 
 # Searching or Filtering
 
-In this article, we will add searching or filtering to `Authors` index page. To add paging we will add a text box and a submit button to the view and make corresponding changes in the Index method. The text box lets you enter a string to search for in the first name and last name fields. 
+In this article, we will add searching or filtering to `Authors` index page. To add searching we will add a text box and a submit button to the view and make corresponding changes in the Index method. The text box lets you enter a string to search for in the first name and last name fields. 
 
 ## Update Index Action
 

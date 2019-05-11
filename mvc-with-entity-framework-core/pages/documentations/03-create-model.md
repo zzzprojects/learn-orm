@@ -69,8 +69,8 @@ namespace MvcWithEFCoreDemo.Models
 
 The database context class provides the main functionality to coordinate Entity Framework with a given data model. 
 
- - You create this class by deriving from the `Microsoft.EntityFrameworkCore.DbContext` class. 
- - In your code, you specify which entities are included in the data model. 
+ - You can create this class by deriving from the `Microsoft.EntityFrameworkCore.DbContext` class. 
+ - In your code, you can specify which entities are included in the data model. 
  - You can also customize certain Entity Framework behavior. 
 
 So let's create a folder in your project by right-clicking on your project in Solution Explorer and click **Add > New Folder**. Name the folder DAL (Data Access Layer). In that folder, create a new class file named **BookStore.cs**, and replace the following code.

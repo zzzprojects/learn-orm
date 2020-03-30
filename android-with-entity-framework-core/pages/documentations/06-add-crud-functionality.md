@@ -117,6 +117,7 @@ async void OnSaveButtonClicked(object sender, EventArgs e)
 
     await Navigation.PopAsync();
 }
+```
 It will get the selected customer record from the **BindingContext** of the **CustomerDetail** page and insert or update it to the database using **EntityFrameworkService.InsertOrUpdate()** function. 
 
 Let’s run your application and press the **“+”** symbol.

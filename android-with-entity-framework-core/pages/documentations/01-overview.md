@@ -26,9 +26,9 @@ Android is an open-source operating system based on Linux kernel. Android was or
 
 ### Xamarin.Android
 
- - Xamarin.Android applications compile from C# into Intermediate Language (IL) which is then Just-in-Time (JIT) compiled to a native assembly when the application launches. 
- - Xamarin.Android applications run within the Mono execution environment, side by side with the Android Runtime (ART) virtual machine. 
+ - Xamarin.Android applications compile from C# into **Intermediate Language (IL)** which is then **Just-in-Time (JIT)** compiled to a native assembly when the application launches. 
+ - Xamarin.Android applications run within the Mono execution environment, side by side with the **Android Runtime (ART)** virtual machine. 
  - Xamarin provides .NET bindings to the Android.* and Java.* namespaces. 
- - The Mono execution environment calls into these namespaces via Managed Callable Wrappers (MCW) and provides Android Callable Wrappers (ACW) to the ART, allowing both environments to invoke code in each other.
+ - The Mono execution environment calls into these namespaces via **Managed Callable Wrappers (MCW)** and provides **Android Callable Wrappers (ACW)** to the ART, allowing both environments to invoke code in each other.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/android-with-entity-framework-core/images/overview-1.png">

@@ -17,7 +17,7 @@ In this tutorial, we will set up a .NET Core framework on Ubuntu and create an A
 
 Entity Framework is an ORM that enables .NET developers to work with a database using .NET objects and eliminates the need for more of the data-access code that developers usually need to write. Entity Framework is great but was difficult to use in mobile development projects until Entity Framework Core was released. 
 
-## What is Entity Framework Core?	
+## What is Entity Framework Core?    
 
 Entity Framework Core is a lightweight, extensible, cross-platform version of Entity Framework data access technology. 
 
@@ -66,7 +66,7 @@ sudo apt upgrade
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/entity-framework-core-on-ubuntu/images/overview-2.png">
 
-This will show you how many and which all packages are going to be upgraded.
+This will show you how many packages are going to be upgraded.
 
 ## Install the .NET Core
 

@@ -25,7 +25,7 @@ Entity Framework Core is a lightweight, extensible, cross-platform version of En
  - If you have experience with Entity Framework, you’ll find EF Core very familiar. 
  - It doesn’t have all the features, and many will show up in future releases, such as lazy loading and connection resiliency.
 
-What is Ubuntu?
+## What is Ubuntu?
 
 Ubuntu is a free and open-source Linux distribution based on Debian. It is officially released in three editions. 
 

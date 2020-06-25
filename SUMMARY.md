@@ -1,6 +1,5 @@
 # Table of contents
 
-* [Summary](README.md)
 * [Entity Framework Core](mvc-with-entity-framework-core/pages/documentations/01-overview.md)
   * [Getting Started](mvc-with-entity-framework-core/pages/documentations/02-getting-started.md)
   * [Create Model](mvc-with-entity-framework-core/pages/documentations/03-create-model.md)

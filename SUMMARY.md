@@ -1,12 +1,10 @@
 # Table of contents
 
 * [Entity Framework Core](mvc-with-entity-framework-core/pages/documentations/01-overview.md)
-  * [Overview](mvc-with-entity-framework-core/pages/documentations/01-overview.md)
   * [Getting Started](mvc-with-entity-framework-core/pages/documentations/02-getting-started.md)
   * [Create Model](mvc-with-entity-framework-core/pages/documentations/03-create-model.md)
   * [Create Controller and Views](mvc-with-entity-framework-core/pages/documentations/04-create-controller-and-views.md)
 * [Entity Framework 6](mvc-with-entity-framework-6/pages/documentations/01-overview.md)
-  * [Overview](mvc-with-entity-framework-6/pages/documentations/01-overview.md)
   * [Getting Started](mvc-with-entity-framework-6/pages/documentations/02-getting-started.md)
   * [MVC Life Cycle](mvc-with-entity-framework-6/pages/documentations/03-mvc-life-cycle.md)
   * [Routing](mvc-with-entity-framework-6/pages/documentations/04-routing.md)
@@ -26,7 +24,6 @@
   * [Handle Concurrency](mvc-with-entity-framework-6/pages/documentations/18-handle-concurrency.md)
   * [Raw SQL Queries](mvc-with-entity-framework-6/pages/documentations/19-raw-sql-queries.md)
 * [Entity Framework Core on Android](android-with-entity-framework-core/pages/documentations/01-overview.md)
-  * [Overview](android-with-entity-framework-core/pages/documentations/01-overview.md)
   * [Getting Started](android-with-entity-framework-core/pages/documentations/02-getting-started.md)
   * [Folder Structure](android-with-entity-framework-core/pages/documentations/03-android-application-folder-structure.md)
   * [Add EF Core](android-with-entity-framework-core/pages/documentations/04-add-ef-core.md)
@@ -34,7 +31,6 @@
   * [Add CRUD Functionality](android-with-entity-framework-core/pages/documentations/06-add-crud-functionality.md)
   * [Remote Database](android-with-entity-framework-core/pages/documentations/07-remote-database.md)
 * [Entity Framework Core on Ubuntu](entity-framework-core-on-ubuntu/pages/documentations/01-overview.md)
-  * [Overview](entity-framework-core-on-ubuntu/pages/documentations/01-overview.md)
   * [Getting Started](entity-framework-core-on-ubuntu/pages/documentations/02-getting-started.md)
   * [Add EF Core](entity-framework-core-on-ubuntu/pages/documentations/03-add-ef-core.md)
   * [Controller and Views](entity-framework-core-on-ubuntu/pages/documentations/04-controller-and-views.md)

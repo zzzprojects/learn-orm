@@ -1,0 +1,8 @@
+* Entity Framework Core on Android
+  * [Overview](overview.md)
+  * [Getting Started](getting-started.md)
+  * [Folder Structure](android-application-folder-structure.md)
+  * [Add EF Core](add-ef-core.md)
+  * [Add Views](add-views.md)
+  * [Add CRUD Functionality](add-crud-functionality.md)
+  * [Remote Database](remote-database.md)

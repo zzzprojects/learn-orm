@@ -9,7 +9,7 @@ In the Xamarin.Forms, views are the building blocks of cross-platform mobile use
 
 Let’s create a **Views** folder and then add a content page.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/android-with-entity-framework-core/images/add-views-1.png">
+<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/android-with-entity-framework-core/images/add-views-1.png">
 
 Enter **CustomerList.xaml** in the name field and click **Add** button. Remove all the template code and add the following code in **CustomerList.xaml**.
 
@@ -154,4 +154,4 @@ namespace EFWithXamarin
 
 Let’s run your application and you will see all the customers on the first page.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/android-with-entity-framework-core/images/add-views-2.png">
+<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/android-with-entity-framework-core/images/add-views-2.png">

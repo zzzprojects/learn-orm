@@ -13,7 +13,7 @@ cd MVCWithEFCore
 dotnet new mvc
 ```
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/entity-framework-core-on-ubuntu/images/create-application-1.png">
+<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/entity-framework-core-on-ubuntu/images/create-application-1.png">
 
 |Command	             |Description                                    |
 |:---------------------|:----------------------------------------------|
@@ -28,10 +28,10 @@ dotnet restore
 dotnet run
 ```
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/entity-framework-core-on-ubuntu/images/create-application-2.png">
+<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/entity-framework-core-on-ubuntu/images/create-application-2.png">
 
 You can see the application runs successfully, let’s open the browser and enter the following URL.
 
 https://localhost:5001/
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/entity-framework-core-on-ubuntu/images/create-application-3.png">
+<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/entity-framework-core-on-ubuntu/images/create-application-3.png">

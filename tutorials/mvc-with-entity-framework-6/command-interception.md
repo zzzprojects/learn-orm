@@ -256,4 +256,4 @@ namespace MvcWithEF6Demo
 Let's run your application in debug mode, and then click the **Authors** tab. Now if you look at the **Output** window, you will see the tracing output.
 
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/mvc-with-entity-framework-6/images/command-interceptor-1.png">
+<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-entity-framework-6/images/command-interceptor-1.png">

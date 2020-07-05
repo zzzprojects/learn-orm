@@ -7,7 +7,7 @@ Name: Paging
 
 In this article, we will add paging to `Authors` index page. To add paging we will install the `PagedList.Mvc` NuGet package. 
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/mvc-with-entity-framework-6/images/paging-1.png">
+<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-entity-framework-6/images/paging-1.png">
 
 `PagedList.Mvc` is one of many good paging and sorting packages for ASP.NET MVC, and its use here is intended only as an example, not as a recommendation for it over other options.
 
@@ -158,6 +158,6 @@ The paging buttons are displayed by the `PagedListPager` helper.
 
 The `PagedListPager` helper provides a number of options that you can customize, including URLs and styling. Let's run your application and you will see pagination on `Author` index page.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/mvc-with-entity-framework-6/images/paging-2.png">
+<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-entity-framework-6/images/paging-2.png">
 
 Click the paging links to make sure paging works.

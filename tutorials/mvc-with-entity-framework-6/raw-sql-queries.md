@@ -55,7 +55,7 @@ public ActionResult Details(int? id)
 
 To verify that the new code works correctly, run your application and go to the **Authors** tab and then click on the Details for one of the authors. 
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/mvc-with-entity-framework-6/images/raw-sql-queries-1.png">
+<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-entity-framework-6/images/raw-sql-queries-1.png">
 
 Make sure all of the data displays as expected.
 

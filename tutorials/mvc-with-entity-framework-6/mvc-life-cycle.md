@@ -20,13 +20,13 @@ MVC has two life cycles
  - The application life cycle is the time at which the application process actually begins running IIS until the time it stops. 
  - This is marked by the application start and end events in the startup file of your application.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/mvc-with-entity-framework-6/images/mvc-life-cycle-1.png">
+<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-entity-framework-6/images/mvc-life-cycle-1.png">
 
 ## Request life Cycle
 
 When the user sends request from the browser, it's been handled by Routing concept and which navigates it to the appropriate Controller where controller picks up the relevant View and send it as a response to the User.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/mvc-with-entity-framework-6/images/mvc-life-cycle-2.png">
+<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-entity-framework-6/images/mvc-life-cycle-2.png">
 
  - The entry point for every MVC application begins with routing. After the ASP.NET platform has received a request, it figures out how it should be handled through the URL Routing Module.
  - The MVC framework handles converting the route data into a concrete controller that can handle requests. 

@@ -31,4 +31,4 @@ Android is an open-source operating system based on Linux kernel. Android was or
  - Xamarin provides .NET bindings to the Android.* and Java.* namespaces. 
  - The Mono execution environment calls into these namespaces via **Managed Callable Wrappers (MCW)** and provides **Android Callable Wrappers (ACW)** to the ART, allowing both environments to invoke code in each other.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/android-with-entity-framework-core/images/overview-1.png">
+<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/android-with-entity-framework-core/images/overview-1.png">

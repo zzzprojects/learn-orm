@@ -25,7 +25,7 @@ dotnet add package Microsoft.EntityFrameworkCore
 dotnet add package Microsoft.EntityFrameworkCore.Sqlite
 ```
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/entity-framework-core-on-ubuntu/images/add-ef-core-1.png">
+<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/entity-framework-core-on-ubuntu/images/add-ef-core-1.png">
 
 We are ready to start writing some Entity Framework code.
 
@@ -33,7 +33,7 @@ We are ready to start writing some Entity Framework code.
 
 The model plays a significant part in the Entity Framework. It contains configurations, mapping properties, relationships, and defines which objects map to which tables. Let’s open the Visual Code and open the project folder in it.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/entity-framework-core-on-ubuntu/images/add-ef-core-2.png">
+<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/entity-framework-core-on-ubuntu/images/add-ef-core-2.png">
 
 Let’s add a new class **Customer** to the **Models** folder.
 

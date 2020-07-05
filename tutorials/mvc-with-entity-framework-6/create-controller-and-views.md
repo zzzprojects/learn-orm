@@ -20,21 +20,21 @@ In this case, a controller named `AuthorController` is invoked. The `AuthorContr
 
 To create a controller, right-click the **Controllers** folder in Solution Explorer, and select **Add > New Scaffolded Item...**
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/mvc-with-entity-framework-6/images/create-controller-1.png">
+<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-entity-framework-6/images/create-controller-1.png">
 
 It will open the **Add Scaffold** dialog box. 
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/mvc-with-entity-framework-6/images/create-controller-2.png">
+<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-entity-framework-6/images/create-controller-2.png">
 
 Select **MVC 5 Controller with views, using Entity Framework**, and then click **Add** button.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/mvc-with-entity-framework-6/images/create-controller-3.png">
+<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-entity-framework-6/images/create-controller-3.png">
 
 In the **Add Controller** dialog box, select **Author (MvcWithEF6Demo.Models)** from the **Model class** and **BookStore (MvcWithEF6Demo.DAL)** from the **Data context class** dropdown.
 
 Enter **AuthorController** (not AuthorsController) as a **Controller name** and click **Add** button. The scaffolder creates an AuthorController.cs file and a set of views (.cshtml files) that work with the controller. 
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/mvc-with-entity-framework-6/images/create-controller-4.png">
+<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-entity-framework-6/images/create-controller-4.png">
 
 In the AuthorController.cs file, you will see that a class variable has been created that instantiates a database context object.
 
@@ -146,7 +146,7 @@ A few simple changes will set up the site menu, layout, and home page. Open ***V
 
 Press Ctrl+F5 to run the project, click the **Authors** tab to see the test data that the `Seed` method inserted.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/mvc-with-entity-framework-6/images/create-controller-5.png">
+<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-entity-framework-6/images/create-controller-5.png">
 
 ## View Database
 
@@ -154,4 +154,4 @@ When you clicked on the **Authors** menu, then the application tried to access t
 
 You can use SQL Server Object Explorer to view the database in Visual Studio, by right-clicking on the `Authors` table and click **View Data** to see the rows that were inserted into the table.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/mvc-with-entity-framework-6/images/create-controller-6.png">
+<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-entity-framework-6/images/create-controller-6.png">

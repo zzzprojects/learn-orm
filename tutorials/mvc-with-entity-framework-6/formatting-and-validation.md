@@ -11,7 +11,7 @@ In this article, we will discuss how to customize the data model by using attrib
 
 In `Author` entity, we have `BirthDate` property, and all of the web pages currently display the time along with the date. 
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/mvc-with-entity-framework-6/images/formatting-and-validation-1.png">
+<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-entity-framework-6/images/formatting-and-validation-1.png">
 
 In this field, we only need the date instead of date and time. We can use data annotation attributes and make one code change that will fix the display format in every view that shows the birth date.
 
@@ -48,7 +48,7 @@ The `DataType` attribute is used to specify a data type that is more specific th
 
 Let's run your application and go to the author `Index` page again and you will see that times are no longer displayed for the birth dates. 
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/mvc-with-entity-framework-6/images/formatting-and-validation-2.png">
+<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-entity-framework-6/images/formatting-and-validation-2.png">
 
 The same will be true for any view that uses the `Author` model.
 

@@ -241,7 +241,7 @@ Here is the code for **Views/Customer/Index.cshtml** file
 
 On the Index view, a list of all the customers available in the database will be displayed. You can also see a link to **Create**, **Edit**, **Details** and **Delete** views.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/entity-framework-core-on-ubuntu/images/controller-and-views-1.png">
+<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/entity-framework-core-on-ubuntu/images/controller-and-views-1.png">
 
 ### Create View
 
@@ -295,7 +295,7 @@ Here is the code for **Views/Customer/Create.cshtml** file
 
 On the Create view, you can enter information for a new customer and then click the **Create** button, it will save it to the database.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/entity-framework-core-on-ubuntu/images/controller-and-views-2.png">
+<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/entity-framework-core-on-ubuntu/images/controller-and-views-2.png">
 
 ### Delete View
 
@@ -345,7 +345,7 @@ Here is the code for **Views/Customer/Delete.cshtml** file
 
 User can navigate to delete view when clicking on **Delete** link available on **Index** view and it will display the customer information which user want to delete.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/entity-framework-core-on-ubuntu/images/controller-and-views-3.png">
+<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/entity-framework-core-on-ubuntu/images/controller-and-views-3.png">
 
 When user clicks the **Delete** button, it will delete this customer from the database.
 
@@ -394,7 +394,7 @@ Here is the code for **Views/Customer/Details.cshtml** file
 
 Users can navigate to details view when clicking on **Details** link available on **Index** view and it will display all the customer details.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/entity-framework-core-on-ubuntu/images/controller-and-views-4.png">
+<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/entity-framework-core-on-ubuntu/images/controller-and-views-4.png">
 
 ### Edit View
 
@@ -449,7 +449,7 @@ Here is the code for **Views/Customer/Edit.cshtml** file
 
 Users can navigate to edit view when clicking on **Edit** link available on **Index** view and it will display all the customer details for editing.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/entity-framework-core-on-ubuntu/images/controller-and-views-5.png">
+<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/entity-framework-core-on-ubuntu/images/controller-and-views-5.png">
 
 When a user clicks the **Save** button, it will update the customer information to the database.
 
@@ -464,20 +464,20 @@ dotnet restore
 dotnet run
 ```
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/entity-framework-core-on-ubuntu/images/controller-and-views-6.png">
+<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/entity-framework-core-on-ubuntu/images/controller-and-views-6.png">
 
 You can see the application runs successfully, let’s open the browser and enter the following URL.
 
 https://localhost:5001/customer
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/entity-framework-core-on-ubuntu/images/controller-and-views-7.png">
+<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/entity-framework-core-on-ubuntu/images/controller-and-views-7.png">
 
 Now there is no data in the database, to add some customer records, click on the **Create New** link. It will open the **Create** view.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/entity-framework-core-on-ubuntu/images/controller-and-views-2.png">
+<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/entity-framework-core-on-ubuntu/images/controller-and-views-2.png">
 
 Enter name and description for the customer and check the **IsActive** checkbox and click **Create** button.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/entity-framework-core-on-ubuntu/images/controller-and-views-8.png">
+<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/entity-framework-core-on-ubuntu/images/controller-and-views-8.png">
 
 Now you can see that a customer record is added to the database.

@@ -178,6 +178,6 @@ Let's run your application and click Authors tab, open the same author for editi
  - The browser shows the Index page with the changed value.
  - Now change a **Birth Date** field in the second browser tab with different value and click Save. 
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/mvc-with-entity-framework-6/images/handle-concurrency-1.png">
+<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-entity-framework-6/images/handle-concurrency-1.png">
 
 You can see an error message, if you click `Save` again, the value you entered in the second browser tab is saved along with the original value of the data you changed in the first browser. You see the saved values when the Index page appears.

@@ -7,13 +7,13 @@ Name: Basic CRUD Functionality
 
 In this article, we will customize the create, read, update, delete (CRUD) code that the MVC scaffolding automatically creates for you in controllers and views. Let's run your application.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/mvc-with-entity-framework-6/images/crud-1.png">
+<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-entity-framework-6/images/crud-1.png">
 
 In `Details` method, the key value is passed to the method as the `id` parameter and comes from route data in the Details hyperlink on the `Index` page.
 
 You can create new author, delete or edit an author, and you can also see the details of any particular author using the highlighted links. Let's click on Edit link and you only see the author's name.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/mvc-with-entity-framework-6/images/crud-2.png">
+<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-entity-framework-6/images/crud-2.png">
 
 ## Details View
 
@@ -148,7 +148,7 @@ Each field is displayed using a `DisplayFor` helper, so here we will display the
 ```
 Now run your application and go to the details page.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/mvc-with-entity-framework-6/images/crud-3.png">
+<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-entity-framework-6/images/crud-3.png">
 
 ## Create View
 

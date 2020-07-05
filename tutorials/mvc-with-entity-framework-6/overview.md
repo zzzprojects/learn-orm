@@ -14,7 +14,7 @@ MVC stands for Model, View, and Controller. MVC separates the application into t
  - **View:** User interface of the application, which displays the data.
  - **Controller:** Handles user's requests and renders appropriate View with Model data.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/mvc-with-entity-framework-6/images/overview-1.png">
+<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-entity-framework-6/images/overview-1.png">
 
 The MVC design pattern has been around for a few decades, and it's been used across many different technologies. 
 

@@ -14,9 +14,9 @@ In ***Controllers\AuthorController.cs***, replace the `Index` method with the fo
 ```csharp
 public async Task<IActionResult> Index(string sortOrder)
 {
-    ViewBag.FirstNameSortParm = sortOrder == "first_name" ? "first_name_desc" : "first_name";
-    ViewBag.LastNameSortParm = sortOrder == "last_name" ? "last_name_desc" : "last_name";
-    ViewBag.BirthDateSortParm = sortOrder == "birth_date" ? "birth_date_desc" : "birth_date";
+    ViewData["FirstNameSortParm"] = sortOrder == "first_name" ? "first_name_desc" : "first_name";
+    ViewData["LastNameSortParm"] = sortOrder == "last_name" ? "last_name_desc" : "last_name";
+    ViewData["BirthDateSortParm"] = sortOrder == "birth_date" ? "birth_date_desc" : "birth_date";
 
     var authors = _context.Authors.AsQueryable();
 
@@ -51,12 +51,12 @@ public async Task<IActionResult> Index(string sortOrder)
 
 The above code receives a `sortOrder` parameter from the query string in the URL. The parameter is a string that's either "first_name", "last_name" or " birth_date", optionally followed by an underscore and the string "desc" to specify descending order.
 
-The three ViewBag variables are used so that the view can configure the column heading hyperlinks with the appropriate query string values.
+The three ViewData variables are used so that the view can configure the column heading hyperlinks with the appropriate query string values.
 
 ```csharp
-ViewBag.FirstNameSortParm = sortOrder == "first_name" ? "first_name_desc" : "first_name";
-ViewBag.LastNameSortParm = sortOrder == "last_name" ? "last_name_desc" : "last_name";
-ViewBag.BirthDateSortParm = sortOrder == "birth_date" ? "birth_date_desc" : "birth_date";
+ViewData["FirstNameSortParm"] = sortOrder == "first_name" ? "first_name_desc" : "first_name";
+ViewData["LastNameSortParm"] = sortOrder == "last_name" ? "last_name_desc" : "last_name";
+ViewData["BirthDateSortParm"] = sortOrder == "birth_date" ? "birth_date_desc" : "birth_date";
 ```
 
 The method uses LINQ to Entities to specify the column to sort by. The code creates an `IQueryable<T>` variable before the switch statement, modifies it in the switch statement, and calls the `ToList` method after the switch statement. 
@@ -86,19 +86,19 @@ In ***Views\Authort\Index.cshtml***, replace the following code.
     <thead>
         <tr>
             <th>
-                @Html.ActionLink("First Name", "Index", new { sortOrder = ViewBag.FirstNameSortParm })
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["FirstNameSortParm"]">@Html.DisplayNameFor(model => model.FirstName)</a>
             </th>
             <th>
-                @Html.ActionLink("Last Name", "Index", new { sortOrder = ViewBag.LastNameSortParm })
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["LastNameSortParm"]">@Html.DisplayNameFor(model => model.LastName)</a>
             </th>
             <th>
-                @Html.ActionLink("Birth Date", "Index", new { sortOrder = ViewBag.BirthDateSortParm })
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["BirthDateSortParm"]">@Html.DisplayNameFor(model => model.BirthDate)</a>
             </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
+    @foreach (var item in Model) {
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.FirstName)
@@ -115,7 +115,7 @@ In ***Views\Authort\Index.cshtml***, replace the following code.
                 <a asp-action="Delete" asp-route-id="@item.AuthorId">Delete</a>
             </td>
         </tr>
-}
+    }
     </tbody>
 </table>
 ```

@@ -7,3 +7,5 @@
   * [Sorting](sorting.md)
   * [Searching or Filtering](searching-or-filtering.md)
   * [Paging](paging.md)
+  * [Migrations](migrations.md)
+  * [Formatting and Validation](formatting-and-validation.md)

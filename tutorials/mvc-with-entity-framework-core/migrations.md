@@ -55,7 +55,7 @@ As for the best practices, in the appsettings.json file, change the name of the 
 <connectionStrings>
 {
   "ConnectionStrings": {
-    "DefaultConnection": "Data Source=(localdb)\\ProjectsV13;Initial Catalog=BookStore;Trusted_Connection=True;MultipleActiveResultSets=true"
+    "DefaultConnection": "Data Source=(localdb)\\ProjectsV13;Initial Catalog=NewBookStore;Trusted_Connection=True;MultipleActiveResultSets=true"
   },
   "Logging": {
     "LogLevel": {

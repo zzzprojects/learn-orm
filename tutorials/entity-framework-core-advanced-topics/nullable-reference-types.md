@@ -33,7 +33,7 @@ The following example shows an entity type with required and optional properties
  }
  ```
 
- The following example shows an entity type with required and optional properties, with the nullable reference feature enabled.
+The following example shows an entity type with required and optional properties, with the nullable reference feature enabled.
 
  ```csharp
  public class Author

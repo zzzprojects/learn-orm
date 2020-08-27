@@ -318,7 +318,6 @@ public class BookCategory
 
 The Book and BookCategory have one-to-many relationship and Category and BookCategory have also one-to-many relationship. Now we need to configure the relationship using Fluent API.
 
-
 ```csharp
 public class MyContext : DbContext
 {

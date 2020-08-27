@@ -7,3 +7,4 @@
   * [Shadow Properties](shadow-properties.md)
   * [Relationships](relationships.md)
   * [Keyless Entity Types](keyless-entity-types.md)
+  * [Owned Entity Types](owned-entity-types.md)

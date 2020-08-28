@@ -11,7 +11,7 @@ A relationship defines how two entities relate to each other. In a relational da
  - One-to-One
  - Many-to-Many 
 
-By default, a relationship will be created when there is a navigation property discovered on a type. A property is considered a navigation property if the type it points to can not be mapped as a scalar type by the current database provider.
+By default, a relationship will be created when there is a navigation property discovered on a type. A property is considered a navigation property if the type it points to cannot be mapped as a scalar type by the current database provider.
 
 ## One-to-Many Relationship
 
@@ -156,7 +156,7 @@ public class Book
 
 ### Single navigation property
 
-By convention, when you include just one navigation property (no inverse navigation, and no foreign key property) is enough to have a relationship defined. You can also have a single navigation property and a foreign key property.
+By convention, when you include just one navigation property (no inverse navigation and no foreign key property) is enough to have a relationship defined. You can also have a single navigation property and a foreign key property.
 
 ```csharp
 public class Author
@@ -200,7 +200,7 @@ public class AuthorBiography
 }
 ```
 
-The `Author` class contains a **Biography** navigation property and the `AuthorBiography` class has a navigation property **Author**. Now when you run the migration, you will see the following code in migration file which will create the database.
+The `Author` class contains a **Biography** navigation property, and the `AuthorBiography` class has a navigation property **Author**. Now when you run the migration, you will see the following code in migration file which will create the database.
 
 
 ```csharp
@@ -316,7 +316,7 @@ public class BookCategory
 }
 ```
 
-The Book and BookCategory have one-to-many relationship and Category and BookCategory have also one-to-many relationship. Now we need to configure the relationship using Fluent API.
+The Book and BookCategory have one-to-many relationship and Category and BookCategory also have one-to-many relationship. Now we need to configure the relationship using Fluent API.
 
 ```csharp
 public class MyContext : DbContext

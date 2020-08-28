@@ -19,8 +19,8 @@ Pessimistic concurrency control is when a record is locked at the time the user 
 The alternative to pessimistic concurrency is optimistic concurrency. Optimistic concurrency means allowing concurrency conflicts to happen, and then reacting appropriately if they do.
 
  - The optimistic concurrency control approach doesn't actually lock anything, instead, it remembers when a row is retrieved from the database. 
- - When user want to update the row, the row will be updated to the database only if the row still looks like when it was rertrieved. 
- - It doesn't prevent a possible conflict, but it can detect it before any damage is done and fail safely. 
+ - When the user wants to update the row, the row will be updated to the database only if the row still looks like when it was retrieved. 
+ - It doesn't prevent a possible conflict, but it can detect it before any damage is done and fails safely. 
 
 ## Default Concurrency in EF
 
@@ -217,7 +217,7 @@ Let's run your application and click Authors tab, open the same author for editi
 
  - The two tabs display the same information, so let's change a **Birth Date** field in the first browser tab and click `Save`.
  - The browser shows the Index page with the changed value.
- - Now change a **Birth Date** field in the second browser tab with different value and click Save. 
+ - Now change a **Birth Date** field in the second browser tab with different values and click Save. 
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-entity-framework-core/images/handle-concurrency-1.png">
 

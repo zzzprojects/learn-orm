@@ -12,7 +12,7 @@ MVC stands for Model, View, and Controller. MVC separates the application into t
 
  - **Model:** Responsible for maintaining application data and business logic.
  - **View:** User interface of the application, which displays the data.
- - **Controller:** Handles user's requests and renders appropriate View with Model data.
+ - **Controller:** Handles users requests and renders appropriate View with Model data.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-entity-framework-core/images/overview-1.png">
 
@@ -38,7 +38,7 @@ The ASP.NET Core MVC framework is a lightweight, open source, highly testable pr
  - **Razor view engine:** Razor is a compact, expressive and fluid template markup language for defining views using embedded C# code.
  - **Strongly typed views:** Razor views in MVC can be strongly typed based on your model.
  - **Tag Helpers:** Enable server-side code to participate in creating and rendering HTML elements in Razor files. 
- - **View Components:** The `SetCompatibilityVersion` method allows an app to opt-in or opt-out of potentially breaking behavior changes introduced in ASP.NET Core MVC 2.1 or later.
+ - **View Components:** The `SetCompatibilityVersion` method allows an app to opt in or opt out of potentially breaking behavior changes introduced in ASP.NET Core MVC 2.1 or later.
 
 ## What is Entity Framework Core?
 

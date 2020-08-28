@@ -246,7 +246,7 @@ namespace MvcWithEFCoreDemo
 }
 ```
 
-On application startup, the `Main` method do the following operations.
+On application startup, the `Main` method does the following operations.
 
  - Get a database context instance from the dependency injection container.
  - Call the seed method, passing to it the context.

@@ -5,7 +5,7 @@ Name: Indexes
 
 # Indexes
 
-Indexes are a common concept across many data stores and data is stored in the form of records. Every record has a key field, which helps it to be recognized uniquely.
+Indexes are a common concept across many data stores, and data is stored in the form of records. Every record has a key field, which helps it to be recognized uniquely.
 
  - Indexing is a way to optimize the performance of a database by minimizing the number of disk accesses required when a query is processed. 
  - It is a data structure technique that is used to quickly locate and access the data in a database.

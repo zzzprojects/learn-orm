@@ -8,3 +8,5 @@
   * [Relationships](relationships.md)
   * [Keyless Entity Types](keyless-entity-types.md)
   * [Owned Entity Types](owned-entity-types.md)
+  * [Client vs Server Evaluation](client-vs-server-evaluation.md)
+

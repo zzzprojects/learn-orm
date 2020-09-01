@@ -30,7 +30,7 @@ using (var context = new EntityContext())
 
 No tracking query executes quickly because there is no need to setup change tracking information. It is useful when the results are used in a read-only scenario.
 
-You can convert a query to a no-tracking query by using `AsNoTracking()` method.
+You can convert a query to a no-tracking query by using the `AsNoTracking()` method.
 
 ### AsNoTracking
 

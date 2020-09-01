@@ -10,3 +10,5 @@
   * [Owned Entity Types](owned-entity-types.md)
   * [Client vs Server Evaluation](client-vs-server-evaluation.md)
   * [Tracking vs No-Tracking Queries](tracking-vs-no-tracking.md)
+  * [Projection Queries](projection-queries.md)
+

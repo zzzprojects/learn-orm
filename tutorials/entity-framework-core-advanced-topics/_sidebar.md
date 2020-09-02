@@ -11,4 +11,4 @@
   * [Client vs Server Evaluation](client-vs-server-evaluation.md)
   * [Tracking vs No-Tracking Queries](tracking-vs-no-tracking.md)
   * [Projection Queries](projection-queries.md)
-
+  * [Stored Procedures](stored-procedures.md)

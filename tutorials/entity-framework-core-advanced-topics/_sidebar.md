@@ -12,3 +12,4 @@
   * [Tracking vs No-Tracking Queries](tracking-vs-no-tracking.md)
   * [Projection Queries](projection-queries.md)
   * [Stored Procedures](stored-procedures.md)
+  * [Disconnected Entities](disconnected-entities.md)

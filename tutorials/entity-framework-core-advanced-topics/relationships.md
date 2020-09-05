@@ -129,10 +129,10 @@ public class Book
 
 If a pair of navigation properties is found between two types, then they will be configured as inverse navigation properties of the same relationship. If the dependent entity contains a property with a name matching one of these patterns then it will be configured as the foreign key:
 
- - \<navigation property name\>\<principal key property name\>
- - <navigation property name>Id
- - <principal entity name><principal key property name>
- - <principal entity name>Id
+ - _\<navigation property name\>\<principal key property name\>_
+ - _\<navigation property name\>Id_
+ - _\<principal entity name\>\<principal key property name\>_
+ - _\<principal entity name\>Id_
 
 ### No foreign key property
 

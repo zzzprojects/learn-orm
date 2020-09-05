@@ -13,3 +13,4 @@
   * [Projection Queries](projection-queries.md)
   * [Stored Procedures](stored-procedures.md)
   * [Disconnected Entities](disconnected-entities.md)
+  * [Cascade Delete](cascade-delete.md)

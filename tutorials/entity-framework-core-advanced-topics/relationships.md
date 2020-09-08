@@ -266,12 +266,11 @@ protected override void OnModelCreating(ModelBuilder modelBuilder)
 }
 ```
 
-### Many-to-Many Relationship
+## Many-to-Many Relationship
 
 In a many-to-many relationship, each row of data in one table is linked to many rows in the second table and vice versa. For example, a book can appear in multiple categories and a category can contain many books. 
 
 In EF Core, many-to-many relationships are not yet supported without an entity class to represent the join table. 
-
 
 ```csharp
 public class Book

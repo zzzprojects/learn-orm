@@ -188,7 +188,6 @@ namespace MvcWithEF6Demo.Migrations
         }
     }
 }
-
 ```
 
 The `Configuration` class includes a Seed method and its purpose is to enable you to insert or update test data after Code First creates or updates the database.

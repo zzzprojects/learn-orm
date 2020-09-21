@@ -45,5 +45,5 @@ You can even search for a string, for example, let's search for *Google Search*.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/selenium-webdriver/images/elements-identification-7.png">
 
-So you can see that the **Google Search** button is found.
+So, you can see that the **Google Search** button is found.
 

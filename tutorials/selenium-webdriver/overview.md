@@ -28,4 +28,16 @@ Nothing is perfect in this world so as selenium web drive, it does have some dis
  1. The API to use the commands is a little bit tough to learn especially if you are starting to learn a language like C# or Java.
  2. The hardest thing about selenium web driver is the identification of elements. Selenium doesn't have any such tool to help you just hover over a browser page and see the elements, you actually have to inspect the HTML in order to know how to recognize an object.
  3. The final disadvantage of selecting a web driver is that it's only for browsers.
+  
+## Supported Browsers
 
+The Selenium framework officially supports the following browsers,
+
+|Browser          |Maintainer       	   |Supported Versions     |
+|:----------------|:-----------------------|:----------------------|
+|Chrome           |Chromium                |All versions           |
+|Firefox          |Mozilla                 |54 and newer           |
+|Edge             |Microsoft               |84 and newer           |
+|Internet Explorer|Selenium                |6 and newer            |
+|Opera            |Opera Chromium / Presto |10.5 and newer         |
+|Safari           |Apple                   |10 and newer           |

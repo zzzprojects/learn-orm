@@ -5,7 +5,7 @@ Name: Finding Elements
 
 # Finding Elements
 
-One of the most fundamental techniques to learn when using `WebDriver` is how to find elements on the page. Selenium defines two methods for identifying web elements.
+One of the most fundamental technique to learn when using `WebDriver` is how to find elements on the page. Selenium defines two methods for identifying web elements.
 
  - **FindElement:** Used to uniquely identify a web element within the web page.
  - **FindElements:** Used to identify a list of web elements within the web page.

@@ -4,4 +4,4 @@
   * [Elements Identification](elements-identification.md)
   * [inding Elements](finding-elements.md)
   * [Choosing Best Locators](choosing-best-locators.md)
-
+  * [Selenium XPath](selenium-xpath.md)

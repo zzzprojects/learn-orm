@@ -5,3 +5,4 @@
   * [inding Elements](finding-elements.md)
   * [Choosing Best Locators](choosing-best-locators.md)
   * [Selenium XPath](selenium-xpath.md)
+  * [Navigation](navigation.md)

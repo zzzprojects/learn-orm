@@ -7,7 +7,7 @@ Name: Choosing Best Locators
 
 Locators in Selenium enables testers to select an HTML DOM element to act on. If you are familiar with all of the different locators, you also need to understand which ones are the best, because you shouldn't use all of the locators. 
 
-Sometimes you may want to use one but there are the best practices for using these location strategies
+Sometimes you may want to use one but there are best practices for using these location strategies;
 
  - Make sure that your code is as stable as possible 
  - Whenever there are changes in your application, you don't have to update your locators because that's one of the biggest problems in selenium web driver or any UI automation.
@@ -34,7 +34,7 @@ So let's take a look here.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/selenium-webdriver/images/finding-elements-4.png">
 
-So here you can see class works and class identifies a single element. However, there are cases where a class may not be unique so make sure you check your application to see if the class identifies only a single element.
+Here you can see class works and class identifies a single element. However, there are cases where a class may not be unique so make sure you check your application to see if the class identifies only a single element.
 
 ### Name 
 
@@ -61,7 +61,7 @@ Now, this XPath is the worse because it is absolute, so if anything here changes
 
 There is no excuse for ever doing that and as soon as we learn XPath in the next article then you are going to understand how you can use this kind of XPath.
 
- - Make sure it unique enough so that it's not absolute but relative.
+ - Make sure it is unique enough so that it's not absolute but relative.
  - And at least it is stable enough so that adding new elements will not throw off your XPath.
 
 ### Tag 

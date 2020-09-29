@@ -29,7 +29,7 @@ There are eight different built-in element location strategies in WebDriver.
 
 ### By Id
 
-The `id` is uniquely defined for each element and is the most common way to find elements using the `id` attribute. For example, let's take www.facebook.com for automating and find the elements. When you navigate through the **Email address or phone number** box and inspect the element, you will see various web elements as shown below.
+The `id` is uniquely defined for each element and is the most common way to find elements using the `id` attribute. For example, let's take www.facebook.com for automating and finding the elements. When you navigate through the **Email address or phone number** box and inspect the element, you will see various web elements as shown below.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/selenium-webdriver/images/finding-elements-1.png">
 
@@ -49,7 +49,7 @@ public void FindEmailFieldByIdOnFacebookLoginPage()
 
 ### By Name
 
-To find an element by name is similar to find an element by id except the driver will locate an element by `name` attribute instead of `id`. Let's take the same www.facebook.com webpage. The **Email address or phone number** box also has a name locator whose value is "email" as shown below.
+To find an element by name, it is similar to finding an element by id except the driver will locate an element by `name` attribute instead of `id`. Let's take the same www.facebook.com webpage. The **Email address or phone number** box also has a name locator whose value is "email" as shown below.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/selenium-webdriver/images/finding-elements-2.png">
 

@@ -58,9 +58,9 @@ The absolute XPath expression of the element is shown below.
 
 ### Relative XPath
 
-The relative Xpath starts from the middle of the HTML DOM structure. It is more compact, easy to use, and less prone to been broken. It doesn't need to start from the root node, which means it can search for the element anywhere on the webpage. 
+The relative Xpath starts from the middle of the HTML DOM structure. It is more compact, easy to use, and less prone to broke. It doesn't need to start from the root node, which means it can search for the element anywhere on the webpage. 
 
- - It starts with a double forward-slash (//) and can search elements anywhere on the webpage, which means no need to write a long XPath and you can start from the middle of the HTML DOM structure. 
+ - It starts with a double forward-slash (//) and can search elements anywhere on the webpage, which means there is no need to write a long XPath and you can start from the middle of the HTML DOM structure. 
  - It is always preferred as it is not a complete path from the root element.
 
  #### Example 
@@ -73,7 +73,7 @@ The relative XPath expression of the element is shown below.
 
 ## Create XPath Expressions
 
-XPath expressions are created manually and also by using Inbuilt utilities. In most cases, the HTML file is quite big and complex, and writing the XPath of every element manually would be a quite difficult task. 
+XPath expressions are created manually and also by using Inbuilt utilities. In most cases, the HTML file is quite big and complex, and writing the XPath of every element manually would be quite a difficult task. 
 
 So, it is always preferred to use some utility like a Chrome browser that has a built-in utility to inspect and generate the XPath for your elements. 
 

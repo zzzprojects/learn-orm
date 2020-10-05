@@ -5,11 +5,11 @@ Name: Elements Identification
 
 # Elements Identification
 
-The identification of web elements is one of the most critical sections not only for the selenium web browser but in general element identification is one of the most key aspects when it comes to doing any kind of functional test automation. It is one of the most critical skills that you can learn, if you can't identify an element you can't automate it.
+The identification of web elements is one of the most critical section not only for the selenium web browser but in general element identification, it is a key aspects when it comes to doing any kind of functional test automation. It is one of the most critical skill that you can learn, if you can't identify an element you can't automate it.
 
 ### Using HTML
 
-As automation engineers, you need to know how to use HTML to identify your web elements. The better you understand the HTML the easier it will be for you to identify web elements
+As automation engineers, you need to know how to use HTML to identify your web elements. The better you understand the HTML, the easier it will be for you to identify web elements.
 
 ### Using Chrome Browser
 
@@ -17,7 +17,7 @@ You can inspect the HTML of different elements using the chrome browser. The eas
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/selenium-webdriver/images/elements-identification-1.png">
 
-You can click the three little dots on the top right.
+You can click on the three little dots on the top right.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/selenium-webdriver/images/elements-identification-2.png">
 
@@ -29,13 +29,13 @@ Now if you want to interact with the **Google Search** button, you can go ahead 
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/selenium-webdriver/images/elements-identification-4.png">
 
-Now you can see in HTML that if you move over the mouse over different element tags, it provides you with a view of what that represents in the HTML. 
+Now you can see in HTML that if you move the mouse over different element tags, it provides you with a view of what that represents in the HTML. 
 
 The other feature of developer tools is the control of feature, if you hit **Ctrl+F** while in developer tools, you will see a search bar open up at the end.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/selenium-webdriver/images/elements-identification-5.png">
 
-In the search bar, it says **Find by string selector or XPath**, so you can use CSS, XPath, or strings to locate your element. So for example, let's say you want to find all the `input` tags, you can simply type `//input` in the search bar and it will show you all the input elements.
+In the search bar, it says **Find by string selector or XPath**, so you can use CSS, XPath, or strings to locate your element. For example, let's say you want to find all the `input` tags, you can simply type `//input` in the search bar and it will show you all the input elements.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/selenium-webdriver/images/elements-identification-6.png">
 
@@ -45,5 +45,5 @@ You can even search for a string, for example, let's search for *Google Search*.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/selenium-webdriver/images/elements-identification-7.png">
 
-So, you can see that the **Google Search** button is found.
+As you can see that the **Google Search** button is found.
 

@@ -6,3 +6,4 @@
   * [Choosing Best Locators](choosing-best-locators.md)
   * [Selenium XPath](selenium-xpath.md)
   * [Navigation](navigation.md)
+  * [Element Operations](element-operations.md)

@@ -7,3 +7,4 @@
   * [Selenium XPath](selenium-xpath.md)
   * [Navigation](navigation.md)
   * [Element Operations](element-operations.md)
+  * [Implicit and Explicit Wait](implicit-and-explicit-wait.md)

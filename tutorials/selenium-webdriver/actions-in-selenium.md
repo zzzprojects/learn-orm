@@ -14,9 +14,9 @@ The `Actions` class is a collection of individual actions that you want to perfo
 
 The `Actions` class is the user-facing API for emulating complex action events. You can directly use this class rather than using the input devices, i.e. keyboard and mouse.
 
-## Why we need Actions Class?
+## Why do we need Actions Class?
 
-You can do most of the user interactions like clicking on a button, entering text in textbox using the WebDriver Element Commands such as `WebElement.Click()` and WebElement.SendKeys() is used to click on buttons and enter text in text boxes. Submitting a form can be done using the WebElement.Submit() command. 
+You can do most of the user interactions like clicking on a button, entering text in textbox using the WebDriver Element Commands such as `WebElement.Click()`, and use  WebElement.SendKeys() to click on buttons and enter text in text boxes. Submitting a form can be done using the WebElement.Submit() command. 
 
  - However, there are complex interactions like Drag-n-Drop and Double-click which cannot be done by simple WebElement commands. 
  - To handle those types of advanced actions we have the `Actions` class in Selenium.
@@ -31,7 +31,7 @@ The most popular actions related to mouse events are as follows.
 
 | Method                       | Description                                                    |
 |:-----------------------------|:---------------------------------------------------------------|
-|Click()                       | Clicks at the current mouse location.                          |
+|Click()                       | Clicks on the current mouse location.                          |
 |DoubleClick()                 | Performs double click on the element                           |
 |ClickAndHold()                | Performs long click on the mouse without releasing it          |
 |DragAndDrop()                 | Drags the element from one point and drops to another          |

@@ -14,7 +14,7 @@ Element operations or element manipulation simply means that once you find an el
 
 All the operations used to interact with a web page are performed through the `IWebElement` Interface.
 
- - TagName
+ - [TagName](#tagname)
  - Text
  - Enabled
  - Selected
@@ -97,7 +97,7 @@ The `Size` property returns the width and height of the rendered element. It acc
 ```csharp
 IWebElement element = driver.FindElement(By.Id("SubmitBtn"));
 Dimension dimensions = element.Size();
-Console.WriteLine(ìHeight :î + dimensions.Height + îWidth : "+ dimensions.Width);
+Console.WriteLine(‚ÄúHeight :‚Äù + dimensions.Height + ‚ÄùWidth : "+ dimensions.Width);
 ```
 
 ### Displayed

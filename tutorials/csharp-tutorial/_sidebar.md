@@ -5,3 +5,4 @@
   * [Data Types](data-types.md)
   * [Strings](strings.md)
   * [Numbers](numbers.md)
+  * [User Input](user-input.md)

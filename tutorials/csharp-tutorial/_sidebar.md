@@ -7,3 +7,4 @@
   * [Numbers](numbers.md)
   * [User Input](user-input.md)
   * [Arrays](arrays.md)
+  * [Multidimensional Arrays](multidimensional-arrays.md)

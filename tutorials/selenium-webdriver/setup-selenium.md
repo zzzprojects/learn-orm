@@ -31,7 +31,7 @@ Select a unit test project and click **Next**. Enter the name in the **Project N
 
 ### Install Selenium.WebDriver
 
-Now that we have a unit test project, we are ready to install the selenium web driver. So let's right-click on your project in Solution Explorer and select **Manage NuGet Packages...**
+Now that we have a unit test project, we are ready to install the [selenium web driver](https://www.nuget.org/packages/Selenium.WebDriver/). So let's right-click on your project in Solution Explorer and select **Manage NuGet Packages...**
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/selenium-webdriver/images/setup-2.png">
 
@@ -39,7 +39,7 @@ Click on the Browse, search for selenium web driver, and install the latest stab
 
 ### Install ChromeDriver
 
-So, let's download the ChromeDriver so that we can utilize it in our automated functional testing. The easiest way to install it is by using **NuGet Package Manager**.
+So, let's install the [ChromeDriver](https://www.nuget.org/packages/Selenium.WebDriver.ChromeDriver/) so that we can utilize it in our automated functional testing. The easiest way to install it is by using **NuGet Package Manager**.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/selenium-webdriver/images/setup-3.png">
 
@@ -64,3 +64,9 @@ This code will open the google home page in the chrome browser. Then let's run t
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/selenium-webdriver/images/setup-4.png">
 
+## References
+
+ - Documentation - [https://www.selenium.dev/documentation/en/](https://www.selenium.dev/documentation/en/)
+ - Selenium.WebDriver - [https://www.nuget.org/packages/Selenium.WebDriver/](https://www.nuget.org/packages/Selenium.WebDriver/)
+ - Selenium.WebDriver.ChromeDriver - [https://www.nuget.org/packages/Selenium.WebDriver.ChromeDriver/](https://www.nuget.org/packages/Selenium.WebDriver.ChromeDriver/)
+ - DotNetSeleniumExtras.WaitHelpers - [https://www.nuget.org/packages/DotNetSeleniumExtras.WaitHelpers/](https://www.nuget.org/packages/DotNetSeleniumExtras.WaitHelpers/)

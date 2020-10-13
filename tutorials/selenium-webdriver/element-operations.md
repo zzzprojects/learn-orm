@@ -15,19 +15,19 @@ Element operations or element manipulation simply means that once you find an el
 All the operations used to interact with a web page are performed through the `IWebElement` Interface.
 
  - [TagName](#tagname)
- - Text
- - Enabled
- - Selected
- - Location
- - Size
- - Displayed
- - Clear()
- - Click()
- - GetAttribute(string attributeName)
- - GetCssValue(string propertyName)
- - GetProperty(string propertyName)
- - SendKeys(string text)
- - Submit()
+ - [Text](#Text)
+ - [Enabled](#Enabled)
+ - [Selected](#Selected)
+ - [Location](#Location)
+ - [Size](#Size)
+ - [Displayed](#Displayed)
+ - [Clear()](#Clear)
+ - [Click()](#Click)
+ - [GetAttribute(string attributeName)](#getattributestring-attributename)
+ - [GetCssValue(string propertyName)](#getcssvaluestring-propertyname)
+ - [GetProperty(string propertyName)](#getpropertystring-propertyname)
+ - [SendKeys(string text)](#sendkeysstring-text)
+ - [Submit()](#submit)
 
 ### TagName
 

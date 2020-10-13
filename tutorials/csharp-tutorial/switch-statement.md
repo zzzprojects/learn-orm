@@ -9,7 +9,7 @@ A switch statement allows a variable to be tested for equality against a list of
 
  - Each value is called a case, and the variable being switched on is checked for each switch case.
  - It provides an efficient way to transfer the execution to different parts of a code based on the value of the expression. 
- - The structure switch-case chooses which part of the programming code to execute based on the calculated value of a certain expression
+ - The structure switch-case chooses which part of the programming code to execute based on the calculated value of a certain expression.
 
 ```csharp
 switch (expression) 
@@ -61,7 +61,7 @@ switch (caseSwitch)
  - The switch expression and the case value must be of the same data type.
  - You can't use variables as the case value, it must be a constant or a literal.
  - To terminate the current sequence, use the `break` statement.
- - The default statement is optional and it is executed if none of the above cases matches the expression.
+ - The default statement is optional, and it is executed if none of the above cases match the expression.
 
 ## Multiple Labels
 
@@ -91,7 +91,7 @@ switch (number)
 ```
 In the above example, the multiple labels are implemented using case statements without a break statement. 
 
- - So here, first, the integer value of the expression is calculated and that is 6, and then this value is compared to every integer value in the case statements. 
+ - First, the integer value of the expression is calculated and it is 6, then this value is compared to every integer value in the case statements. 
  - When a match is found, the code block after it is executed. 
  - If no match is found, the default block is executed. 
 

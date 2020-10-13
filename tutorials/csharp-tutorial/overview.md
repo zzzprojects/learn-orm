@@ -19,7 +19,7 @@ C# is an object-oriented programming language developed by Microsoft. It is a si
 
 ## Why C#?
 
-C# is simple and easy to learn language and it will be instantly recognizable to anyone familiar with C, C++, or Java. Those developers who have worked in any of these languages can easily start working in C# within a short time. 
+C# is a simple and easy to learn language and it will be instantly recognizable to anyone familiar with C, C++, or Java. Those developers who have worked in any of these languages can easily start working in C# within a short time. 
 
  - The syntax of C# simplifies many of the complexities of C++ and provides powerful features such as nullable types, enumerations, delegates, lambda expressions, and direct memory access. 
  - It supports generic methods and types, which enable developers to define custom iteration behaviors that are simple to use by client code. 

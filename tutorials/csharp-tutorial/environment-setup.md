@@ -22,7 +22,7 @@ You can select one of the following editions.
  - Visual Studio 2019 Professional (Free trial)
  - Visual Studio 2019 Enterprise (Free trial)
 
-In this tutorial, we will use the Visual Studio 2019 Community Edition. It is a streamlined version of Visual Studio, specially created for those people learning programming. It has a simplified user interface and omits advanced features of the professional edition to avoid confusion. 
+In this tutorial, we will use the Visual Studio 2019 Community Edition. It is a streamlined version of Visual Studio, specially created for people learning programming. It has a simplified user interface and omits advanced features of the professional edition to avoid confusion. 
 
 So click on the **Free download** button, and once the *.exe file is downloaded, right-click and select the Run as administrator on the downloaded file to begin the installation.
 
@@ -34,7 +34,7 @@ Click on continue to go ahead with the installation.
 
 Select the required Workload, let's say we want to install the **.NET Desktop development** & **ASP.NET and web development**. Now, click on the Install button to begin the installation of Visual Studio 2019.
 
-The installer will now download and install each component from the internet. It will take some time depending on your internet speed. Once the installation is complete, you will see the Installation succeeded message.
+The installer will now download and install each component from the internet. It will take some time depending on your internet speed. Once the installation is completed, you will see the Installation succeeded message.
 
 If you are installing Visual Studio for the first time you will be asked to sign in.
 

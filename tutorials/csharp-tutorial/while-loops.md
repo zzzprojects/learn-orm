@@ -48,7 +48,7 @@ It will print the numbers in the range from 0 to 4 in ascending order on the con
 Number: 0
 Number: 1
 Number: 2
-Number : 3
+Number: 3
 Number: 4
 ```
 

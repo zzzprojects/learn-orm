@@ -54,7 +54,7 @@ It is recommended, when declaring a method, to follow the rules for method namin
 - The PascalCase rule must be applied, i.e. each new word, that concatenates so to form the method name, must start with a capital letter.
 - It is recommended that the method name must consist of a verb, or a verb and a noun.
 
-These rules are not mandatory, but recommendable, here some examples for well-named methods.
+These rules are not mandatory, but recommendable, here are some examples for well-named methods.
 
 ```csharp
 Print

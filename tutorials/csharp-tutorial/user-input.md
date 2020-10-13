@@ -5,7 +5,7 @@ Name: User Input
 
 #  User Input
 
-The simplest way to get user input is by using the `ReadLine()` method of the `Console` class. It receives the input as a string, therefore you need to convert it. You can also use `Read()` and `ReadKey()` method to get user input.
+The simplest way to get user input is by using the `ReadLine()` method of the `Console` class. It receives the input as a string, therefore you need to convert it. You can also use `Read()` and `ReadKey()` methods to get user input.
 
 ## ReadLine()
 

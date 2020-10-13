@@ -12,3 +12,4 @@
   * [Nullable Types](nullable-types.md)
   * [Return Statement](return-statement.md)
   * [Conditional Statements](conditional-statements.md)
+  * [Switch Statement](switch-statement.md)

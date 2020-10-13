@@ -97,5 +97,5 @@ Number: 4
 Number: 5
 ```
 
-As you can see that `do-while` is executed one more time and that is because the condition is checked after the body is executed, but in while loop the condition is checked at the start.
+You can see that `do-while` is executed one more time and that is because the condition is checked after the body is executed, but in while loop, the condition is checked at the start.
 

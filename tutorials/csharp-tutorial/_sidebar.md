@@ -14,3 +14,4 @@
   * [Conditional Statements](conditional-statements.md)
   * [Switch Statement](switch-statement.md)
   * [While Loops](while-loops.md)
+  * [For Loop](for-loop.md)

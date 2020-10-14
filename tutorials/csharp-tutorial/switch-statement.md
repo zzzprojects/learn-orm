@@ -53,6 +53,11 @@ switch (caseSwitch)
         break;
 }
 ```
+Let's run the above code and it will print the following output on the console window.
+
+```csharp
+Case 1
+```
 
 ## Rules
 

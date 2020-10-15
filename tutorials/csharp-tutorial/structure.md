@@ -144,4 +144,13 @@ Let's run the above code and it will print the following output on the console w
 Id: 2, Name: John, Address: 11 wall street
 ```
 
+## Limitations
+
+When you are working with structures, you must keep in mind the following limitations.
+
+ - Structure doesn't support a parameterless constructor but provides an implicit parameterless constructor that produces the default value of the type.
+ - It can't initialize an instance field or property at its declaration, it can only initialize a static or const field or a static property at its declaration.
+ - A constructor must initialize all instance fields of the structure.
+ - It can't be inherited from other class or structure type, but it can implement interfaces (will be discussed later).
+
 All the examples related to the structure are available in the `Structure.cs` file of the source code. Download the source code and try out all the examples for better understandings.

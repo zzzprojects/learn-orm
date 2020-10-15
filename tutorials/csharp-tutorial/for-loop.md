@@ -81,4 +81,4 @@ i=32, sum=63
 i=64, sum=127
 ```
 
-All the examples related to the `for` loop is available in the `ForLoop.cs` file of the source code. Download the source code and try out all the examples for better understandings.
+All the examples related to the `for` loop are available in the `ForLoop.cs` file of the source code. Download the source code and try out all the examples for better understandings.

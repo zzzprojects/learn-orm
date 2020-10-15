@@ -18,3 +18,4 @@
   * [Foreach Loop](foreach-loop.md)
   * [Break and Continue Statements](break-and-continue-statements.md)
   * [Structure](structure.md)
+  * [Enums](enums.md)

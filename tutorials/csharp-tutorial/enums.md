@@ -24,7 +24,7 @@ To define an enumeration type, use the `enum` keyword.
 }
 ```
 
- - **[<AccessModifiers>]:** It represent the access modifiers which can be `public`, `internal` and `private`. 
+ - **<AccessModifiers>:** It represent the access modifiers which can be `public`, `internal` and `private`. 
  - **<EnumName>:** It follows the rules for names in C#. 
  - **Constants:"" These are separated by commas and are declared in the enumeration block.
 

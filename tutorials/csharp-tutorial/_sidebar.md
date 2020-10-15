@@ -19,3 +19,4 @@
   * [Break and Continue Statements](break-and-continue-statements.md)
   * [Structure](structure.md)
   * [Enums](enums.md)
+  * [Classes and Objects](classes-and-objects.md)

@@ -22,3 +22,4 @@
   * [Classes and Objects](classes-and-objects.md)
   * [Comments](comments.md)
   * [Constructors](constructors.md)
+  * [Getters and Setters](getters-and-setters.md)

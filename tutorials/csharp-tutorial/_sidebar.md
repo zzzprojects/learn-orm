@@ -21,3 +21,4 @@
   * [Enums](enums.md)
   * [Classes and Objects](classes-and-objects.md)
   * [Comments](comments.md)
+  * [Constructors](constructors.md)

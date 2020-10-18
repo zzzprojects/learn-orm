@@ -26,3 +26,4 @@
   * [Static Members](static-members.md)
   * [Static Class](static-class.md)
   * [Operators](operators.md)
+  * [Inheritance](inheritance.md)

@@ -19,10 +19,10 @@ Below is a list of the different types of operators
 | Type                                           | Operators                                                          |
 |:-----------------------------------------------|:-------------------------------------------------------------------|
 | [Arithmetic](#arithmetic)                      | `-`, `+`, `*`, `/`, `%`, `++`, `--`                                |
-| [Logical](#logical)                            | `&&`, `||`, `!`, `^`                                               |
-| [Bitwise](#bitwise)                            | `&`, `|`, `^`, `~`, `<<`, `>>`                                     |
+| [Logical](#logical)                            | `&&`, `\|\|`, `!`, `^`                                               |
+| [Bitwise](#bitwise)                            | `&`, `\|`, `^`, `~`, `<<`, `>>`                                     |
 | [Comparison](#comparison)                      | `==`,`!=`, `>`, `<`, `>=`, `<=`                                    |
-| [Assignment](#assignment)                      | `=`, `+=`, `-=`, `*=`, `/=`, `%=`, `&=`, `|=`, `^=`, `<<=`, `>>=`  |
+| [Assignment](#assignment)                      | `=`, `+=`, `-=`, `*=`, `/=`, `%=`, `&=`, `\|=`, `^=`, `<<=`, `>>=`  |
 | [String Concatenation](#string-concatenation)  | `+`                                                                |
 | [Type Conversion](#type-conversion)            | `(type)`, `as`, `is`, `typeof`, `sizeof`                           |
 | [Others](#others)                              | `.`, `new`, `()`, `[]`, `?:`, `??`, `??=`                          |
@@ -103,7 +103,7 @@ Logical operators or you can say Boolean operators take Boolean values and retur
 
 The following table contains the logical operators in C# and the operations that they perform.
 
-| A        | B         | !A            | A && B              | A `||` B         | A ^ B               |
+| A        | B         | !A            | A && B              | A \|\| B         | A ^ B               |
 |:---------|:----------|:--------------|:--------------------|:-----------------|:--------------------|
 | true     | true      | false         | true                | true             | false               |
 | true     | false     | false         | false               | true             | true                |

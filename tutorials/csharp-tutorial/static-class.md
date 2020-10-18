@@ -73,3 +73,5 @@ Let's run the above code and you will see the following output.
 5 - 9 = -4
 5 * 9 = 45
 ```
+
+All the examples related to the static class are available in the `StaticClass.cs` file of the source code. Download the source code and try out all the examples for better understandings.

@@ -115,3 +115,5 @@ Let's run the above code and you will see the following output.
 ```csharp
 4 + 7 = 11
 ```
+
+All the examples related to the static members are available in the `StaticMembers.cs` file of the source code. Download the source code and try out all the examples for better understandings.

@@ -98,12 +98,14 @@ public class Rectangle : Shape
 
 As you can see that we have two child classes `Circle` and  `Rectangle` and both classes override the `CalculateArea()` method with their own implementation by calculating the area of circle and rectangle respectively.
 
-Now we can create `Circle` and  `Rectangle` objects and assign them to `Shape` instances.
+Now we can create `Shape`, `Circle` and  `Rectangle` objects and assign them to `Shape` instances.
 
 ```csharp
+Shape shape = new Shape();
 Shape circle = new Circle(3.0);
 Shape rectangle = new Rectangle(3.0, 4.0);
 
+Console.WriteLine("The area of the shape is " + shape.CalculateArea());
 Console.WriteLine("The area of the circle is " + circle.CalculateArea());
 Console.WriteLine("The area of the rectangle is " + rectangle.CalculateArea());
 ```
@@ -113,6 +115,7 @@ You can see that both objects can call the `CalculateArea()` but the right versi
 Let's run the above code and you will see the following output.
 
 ```csharp
+The area of the shape is 0
 The area of the circle is 28.26
 The area of the rectangle is 12
 ```

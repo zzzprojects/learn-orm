@@ -11,7 +11,7 @@ In programming, developers often require a repeated execution of a sequence of o
 
 ### What is While Loops?
 
-In a while loop, the code is repeated a fixed number of times or repeats until a given condition is true.
+In a while loop, the code is repeated a fixed number of times or it repeats until a given condition is true.
 
 ```csharp
 while (condition)
@@ -52,7 +52,7 @@ Number: 3
 Number: 4
 ```
 
-### What is do-while Loops
+### What is do-while Loops?
 
 The `do-while` loop is similar to the `while` loop, but it checks the condition after each execution of its body loop.
 

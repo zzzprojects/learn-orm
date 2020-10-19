@@ -1,15 +1,18 @@
-
+---
+PermaID: 100029
+Name: Abstract Class
+---
 
 # Abstract Class
 
 The term abstraction is used to hide certain details and showing only essential information to the user. The `abstract` modifier indicates that the class or member has a missing or incomplete implementation. 
 
  - The `abstract` modifier can be used with classes, methods, properties, indexers, and events. 
- - When `abstract` modifier is used in a class declaration then it is intended only to be a base class of other classes, and it can not instantiated on its own. 
+ - When the `abstract` modifier is used in a class declaration then it is intended only to be a base class of other classes, and it can not be instantiated on its own. 
  - Members marked as abstract must be implemented by non-abstract classes that derive from the abstract class.
  - You can use the `abstract` modifier in a method or property declaration to indicate that the method or property does not contain implementation.
 
-Let's have a look into the following simple example.
+Let's have a look at the following simple example.
 
 ```csharp
 public abstract class Shape
@@ -18,7 +21,7 @@ public abstract class Shape
 }
 ```
 
-We have declared the `Shape` class as an abtract. It contains a single method `CalculateArea()` which is also an abtract. So it means that we now need to inherit the `Shape` class and provide the implementation for the `CalculateArea()` method.
+We have declared the `Shape` class as an abstract. It contains a single method `CalculateArea()` which is also abstract. So it means that we now need to inherit the `Shape` class and provide the implementation for the `CalculateArea()` method.
 
 ```csharp
 public class Circle : Shape
@@ -50,9 +53,9 @@ public class Rectangle : Shape
 }
 ```
 
-As you can see that we have provided implementation for `CalculateArea()` abstract method in both child classes `Circle` and `Rectangle` with their own implementation by calculating the area of circle and rectangle respectively.
+As you can see that we have provided implementation for the `CalculateArea()` abstract method in both child classes `Circle` and `Rectangle` with their implementation by calculating the area of circle and rectangle respectively.
 
-Now we can create `Circle` and  `Rectangle` objects and assign them to `Shape` instances, but we can not create an object of `Shape` class, because it is an abstract class.
+Now we can create `Circle` and  `Rectangle` objects and assign them to `Shape` instances, but we can not create an object of the `Shape` class, because it is an abstract class.
 
 ```csharp
 Shape circle = new Circle(2.5);

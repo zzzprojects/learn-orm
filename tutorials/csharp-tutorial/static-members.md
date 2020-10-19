@@ -5,7 +5,7 @@ Name: Static Members
 
 # Static Members
 
-## Whats is Static Member?
+## What is a Static Member?
 
 When any member of the class is declared with the `static` modifier it is known as a static member. In C#, we can declare fields, methods, properties, constructors, and classes as static. In this article, we will understand the static fields, methods, properties of a class, and then in the next article we will discuss the concept of the static class.
 
@@ -116,4 +116,4 @@ Let's run the above code and you will see the following output.
 4 + 7 = 11
 ```
 
-All the examples related to the static members are available in the `StaticMembers.cs` file of the source code. Download the source code and try out all the examples for better understandings.
+All the examples related to the static members are available in the `StaticMembers.cs` file of the source code. Download the source code and try out all the examples for better understanding.

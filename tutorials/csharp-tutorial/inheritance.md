@@ -5,10 +5,10 @@ Name: Inheritance
 
 # Inheritance
 
-Inheritance is a fundamental principle of object-oriented programming. It allows a class to inherit the behavior or characteristics from base class to child class.
+Inheritance is a fundamental principle of object-oriented programming. It allows a class to inherit the behavior, or characteristics from base class to child class.
 
  - It is a concept in which you define parent classes and child classes.
- - The child classes inherit methods and properties of the parent class, but at the same time, they can also modify the behavior of the methods if required. 
+ - The child classes inherit methods, and properties of the parent class, but at the same time, they can also modify the behavior of the methods if required. 
  - The child class can also define methods of its own if required.
 
 Let's take a look at an example of class inheritance. The following is the base class `Animal` which contains a single `Name` property and a method `PrintName` which will print the name of the animal on the Console window.
@@ -75,6 +75,6 @@ dog.PrintName();
 dog.Bark();
 ```
 
-You can see that both child classes objects `cat` and `dog` can access the `PrintName()` method of the parent class as well as their own methods `Meow()` and and `Bark()` respectively.
+You can see that both child classes objects `cat` and `dog` can access the `PrintName()` method of the parent class as well as their own methods `Meow()` and `Bark()` respectively.
 
-All the examples related to the inheritance are available in the `inheritance.cs` file of the source code. Download the source code and try out all the examples for better understandings.
+All the examples related to the inheritance are available in the `inheritance.cs` file of the source code. Download the source code and try out all the examples for better understanding.

@@ -73,4 +73,4 @@ Key: 2, Value: Two
 Key: 3, Value: Three
 ```
 
-All the examples related to the `foreach` loop are available in the `ForeachLoop.cs` file of the source code. Download the source code and try out all the examples for better understandings.
+All the examples related to the `foreach` loop are available in the `ForeachLoop.cs` file of the source code. Download the source code and try out all the examples for better understanding.

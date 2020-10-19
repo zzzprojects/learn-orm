@@ -50,7 +50,7 @@ counter++;                                 // Increment the counter
 
 ## Multiple Line Comment
 
-The multiline or multiple line comments are used to comment more than one line. You can start multiline comment by specifying `/*` and end with `*/`, so everything in between these character sequences is treated as comments.
+The multiline or multiple line comments are used to comment on more than one line. You can start multiline comment by specifying `/*` and end with `*/`, so everything in between these character sequences is treated as comments.
 
  - It makes more sense to use the multi-line comment instead of using `//` at the start of each line.
  - It is also used to comment on an entire block of code statements.
@@ -103,4 +103,4 @@ public void Print()
 
 For more information, see the official page for [Documenting your code with XML comments](https://docs.microsoft.com/en-us/dotnet/csharp/codedoc)
 
-All the examples related to the comments are available in the `Comments.cs` file of the source code. Download the source code and try out all the examples for better understandings.
+All the examples related to the comments are available in the `Comments.cs` file of the source code. Download the source code and try out all the examples for better understanding.

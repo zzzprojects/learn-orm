@@ -27,3 +27,4 @@
   * [Static Class](static-class.md)
   * [Operators](operators.md)
   * [Inheritance](inheritance.md)
+  * [Polymorphism](polymorphism.md)

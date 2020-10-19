@@ -9,7 +9,7 @@ In object-oriented programming, when creating an object from a given class, it i
 
 ## What Is a Constructor?
 
-The constructor is a special method of a class, which does not have a return type, has the same name as the name of its class.
+The constructor is a special method of a class, which does not have a return type, it has the same name as the name of its class.
 
  - The main purpose of the constructor is to initialize the memory, allocated for the object, where its fields will be stored.
  - You can call the constructor using the `new` keyword.
@@ -52,7 +52,7 @@ The following code shows how to call a default parameterless constructor.
 CustomerInfo customer = new CustomerInfo();
 ```
 
-In the above example, using the `new` keyword we call the constructor of the class `CustomerInfo`. The memory is allocated for the newly created object of the `CustomerInfo` type.
+In the above example, using the `new` keyword, we call the constructor of the class `CustomerInfo`. The memory is allocated for the newly created object of the `CustomerInfo` type.
 
 ### Parameterized Constructor
 
@@ -137,7 +137,7 @@ New count: 10
 
 ### Static Constructor
 
-A static constructor is used to initialize any static data, or to perform a particular action that needs to be performed once only. It does not take any access modifiers or any parameters
+A static constructor is used to initialize any static data, or to perform a particular action that needs to be performed only once. It does not take any access modifiers or any parameters.
 
  - It is called automatically before the first instance is created or any static members are referenced.
  - When it is executing then the user has no control.
@@ -180,6 +180,6 @@ Default Constructor Called
 Minimum Age: 18
 ```
 
-As you can see that we have just called the default constructor, but the compiler calls the static constructor before the default constructor.
+As you can see, we just called the default constructor, but the compiler calls the static constructor before the default constructor.
 
-All the examples related to the constructors are available in the `ConstructorsTests.cs` file of the source code. Download the source code and try out all the examples for better understandings.
+All the examples related to the constructors are available in the `ConstructorsTests.cs` file of the source code. Download the source code and try out all the examples for better understanding.

@@ -8,7 +8,7 @@ Name: Static Class
 A static class is the same as a non-static class, the only difference is that a static class cannot be instantiated. 
 
  - In other words, you cannot use the new operator to create a variable of the class type. 
- - You access the members of a static class by using the class name itself.
+ - You can access the members of a static class by using the class name itself.
  - A static class can contain static members only, you can't add non-static members to a static class.
 
 Similar to static members, a class is static when the keyword static is used in its declaration. 
@@ -16,17 +16,17 @@ Similar to static members, a class is static when the keyword static is used in 
 ```csharp
 [<AccessModifier>] static class <ClassName>
 {
-// … Class body goes here
+// â€¦ Class body goes here
 }
 ```
 
-## Why We Need Static Class?
+## Why Do We Need Static Class?
 
 Let's suppose that we have a class with a single method that always works in the same manner. For example, we have a method that takes two numbers as a parameter and returns their sum as a result. 
 
- - In this scenario, there is no matter exactly which object of that class is going to call that method since it will always do the same thing by adding two numbers, independent of the calling object.
+ - In this scenario, it does not matter exactly which object of that class is going to call that method since it will always do the same thing by adding two numbers, independent of the calling object.
  - The behavior of the method does not depend on the object state.
- - So why the need to create an object to call that method provided that the method does not depend on any of the objects of that class?
+ - So why the need to create an object to call that method provided if the method does not depend on any of the objects of that class?
  - A static class can be used as a convenient container for sets of methods that just operate on input parameters and do not have to get or set any internal instance fields.   
 
 Let's have a look into the following static class which contains three static methods.
@@ -74,4 +74,4 @@ Let's run the above code and you will see the following output.
 5 * 9 = 45
 ```
 
-All the examples related to the static class are available in the `StaticClass.cs` file of the source code. Download the source code and try out all the examples for better understandings.
+All the examples related to the static class are available in the `StaticClass.cs` file of the source code. Download the source code and try out all the examples for better understanding.

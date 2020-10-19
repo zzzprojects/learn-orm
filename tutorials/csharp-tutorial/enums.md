@@ -7,7 +7,7 @@ Name: Enums
 
 An `enum` or enumeration type is a special data type that represents a group of constants. It is a value type defined by a set of named constants of the underlying integral numeric type. 
 
- - Enumeration is a structure, which resembles a class but differs from it in that in the enum body we can declare only constants. 
+ - Enumeration is a structure, which resembles a class but differs from it in that in the enum body we can only declare constants. 
  - It can take values only from the constants listed in the type. 
  - An enumerated variable cannot have a `null` value.
 
@@ -28,7 +28,7 @@ To define an enumeration type, use the `enum` keyword.
  - **<EnumName>:** It follows the rules for names in C#. 
  - **Constants:"" These are separated by commas and are declared in the enumeration block.
 
-The constants' names in C# follow the **PascalCase** rule according to the Microsoft's official C# coding convention. So, the naming of constants in one particular enumeration follows the same principles.
+The constants' names in C# follow the **PascalCase** rule according to the Microsoft's official C# coding convention. So, the naming of constants in one particular enumeration follows the same principle.
 
 Let's consider a simple example of defining an enumeration for the days of the week. The constants in this enumeration are the names of the days.
 
@@ -111,4 +111,4 @@ Let's run the above code and it will print the following output on the console w
 The numerical value of HealthCare in 33
 ```
 
-All the examples related to the enumeration are available in the `Enumeration.cs` file of the source code. Download the source code and try out all the examples for better understandings.
+All the examples related to the enumeration are available in the `Enumeration.cs` file of the source code. Download the source code and try out all the examples for better understanding.

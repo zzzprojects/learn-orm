@@ -31,7 +31,7 @@ switch (expression)
 
 The switch statement can be used to replace the `if...else if` statement in C#. 
 
- - The advantage of using a switch over the `if...else if` statement is the codes will look much cleaner and readable with switch.
+ - The advantage of using a switch over the `if...else if` statement is that the codes will look much cleaner and readable with switch.
  - The switch statement evaluates the expression and compares its value with the values of each case such as value1, value2, up to valueN. 
  - When it finds the matching value, the statements inside that case are executed.
 
@@ -97,7 +97,7 @@ switch (number)
 In the above example, the multiple labels are implemented using case statements without a break statement. 
 
  - First, the integer value of the expression is calculated and it is 6, then this value is compared to every integer value in the case statements. 
- - When a match is found, the code block after it is executed. 
+ - When a match is found, the code blocks after it is executed. 
  - If no match is found, the default block is executed. 
 
 The above example displays the following output.

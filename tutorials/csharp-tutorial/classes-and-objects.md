@@ -5,7 +5,7 @@ Name: Classes and Objects
 
 # Classes and Objects
 
-In the last few decades programming has experienced incredible growth and concepts which have changed the way programs are built. The classes and objects are interrelated terms and basics for OOP, these two terms are inseparable part from the life of any modern programmers.
+In the last few decades programming experienced incredible growth and new concepts changed the way programs are built. The classes and objects are interrelated terms and basics for OOP, these two terms are inseparable parts of the life of any modern programmers.
 
 ## What is Class?
 
@@ -84,4 +84,4 @@ Let's run the above code and it will print the following output on the console w
 Id: 2, Name: John, Address: 11 wall street
 ```
 
-All the examples related to the classes and objects are available in the `ClassesAndObjects.cs` file of the source code. Download the source code and try out all the examples for better understandings.
+All the examples related to the classes and objects are available in the `ClassesAndObjects.cs` file of the source code. Download the source code and try out all the examples for better understanding.

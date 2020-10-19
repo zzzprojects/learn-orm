@@ -5,7 +5,7 @@ Name: Getters and Setters
 
 # Getters and Setters
 
-In C#, properties combine aspects of both fields and methods. It is one or two code blocks, representing a get accessor and/or a set accessor or simply you can call them getter and setter. 
+In C#, properties combine aspects of both fields and methods. It is one or two code blocks, representing a get accessor and/or a set accessor or you can somply call them getter and setter. 
 
  - The code block for the `get` accessor is executed when the property is read
  - The code block for the `set` accessor is executed when the property is assigned a new value.
@@ -19,7 +19,7 @@ public class CustomerInfo
 }
 ```
 
-In C#, it is known as Auto-Implementated property, because when the code is compiled it will automatically convert the above line into a more traditional getter and setter as shown below.
+In C#, it is known as Auto-Implementated property, when the code is compiled it will automatically convert the above line into a more traditional getter and setter as shown below.
 
 ```csharp
 public class CustomerInfo
@@ -66,4 +66,4 @@ public string ReadOnly { get; private set; }
 public string WriteOnly { private get; set; }
 ```
 
-All the examples related to the constructors are available in the `GettersAndSetters.cs` file of the source code. Download the source code and try out all the examples for better understandings.
+All the examples related to the constructors are available in the `GettersAndSetters.cs` file of the source code. Download the source code and try out all the examples for better understanding.

@@ -55,7 +55,7 @@ public class Rectangle : Shape
 
 As you can see that we have provided implementation for the `CalculateArea()` abstract method in both child classes `Circle` and `Rectangle` with their implementation by calculating the area of circle and rectangle respectively.
 
-Now we can create `Circle` and  `Rectangle` objects and assign them to `Shape` instances, but we can not create an object of the `Shape` class, because it is an abstract class.
+Now we can create `Circle` and `Rectangle` objects and assign them to `Shape` instances, but we can not create an object of the `Shape` class, because it is an abstract class.
 
 ```csharp
 Shape circle = new Circle(2.5);

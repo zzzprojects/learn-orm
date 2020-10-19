@@ -98,7 +98,7 @@ public class Rectangle : Shape
 
 As you can see that we have two child classes `Circle` and  `Rectangle` and both classes override the `CalculateArea()` method with their own implementation by calculating the area of circle and rectangle respectively.
 
-Now we can create `Shape`, `Circle` and  `Rectangle` objects and assign them to `Shape` instances.
+Now we can create `Shape`, `Circle` and `Rectangle` objects and assign them to `Shape` instances.
 
 ```csharp
 Shape shape = new Shape();

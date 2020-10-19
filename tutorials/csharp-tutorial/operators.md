@@ -130,7 +130,7 @@ A bitwise operator is an operator that acts on the binary representation of nume
  - In computers, all the data and particularly numerical data is represented as a series of ones and zeros. 
  - For example, number 55 in the binary numeral system is represented as 00110111.
 
-Here is an example of using bitwise operators. The binary representation of the numbers and the results of the bitwise operators are shown in the comments.
+Here is an example of using bitwise operators. The binary representation of the numbers, and the results of the bitwise operators are shown in the comments.
 
 ```csharp
 byte a = 3;                // 0000 0011 = 3 
@@ -220,7 +220,7 @@ Generally, operators work with the same data type, in some cases, you might have
 
 #### Implicit Type Conversion
 
-Implicit type conversion is possible when converting from a lower range type to a larger range and there is no risk of data loss during the conversion. For example, converting data from `int` to `long`.
+Implicit type conversion is possible when converting from a lower range type to a larger range, and there is no risk of data loss during the conversion. For example, converting data from `int` to `long`.
 
 Here is an example of implicit type conversion.
 
@@ -236,12 +236,12 @@ Console.WriteLine(myLong + myInt); // 14
 
 #### Explicit Type Conversion
 
-Explicit type conversion is used whenever there is a possibility of data loss. When converting floating-point type to integer type there is always a loss of data coming from the elimination of the fractional part and an explicit conversion is obligatory (e.g. double to long). 
+Explicit type conversion is used whenever there is a possibility of data loss. When converting floating-point type to integer type there is always a loss of data coming from the elimination of the fractional part, and an explicit conversion is obligatory (e.g. double too long). 
 
  - To make such a conversion it is necessary to use the operator for data conversion (type). 
  - There may also be data loss when converting a type with a wider range to a type with a narrower one (double to float or long to int).
 
-The following example illustrates the use of explicit type conversion and data loss that may occur in some cases.
+The following example illustrates the use of explicit type conversion, and data loss that may occur in some cases.
 
 ```csharp
 double myDouble = 5.1d; 
@@ -259,7 +259,7 @@ Console.WriteLine(int.MinValue); // -2147483648
 
 ### Others
 
-So far we have examined arithmetic, logical and bitwise operators, the operator for concatenating strings, and type conversion operators, etc. Besides them, in C # there are several other operators worth mentioning.
+So far we have examined arithmetic, logical, and bitwise operators, the operator for concatenating strings, and type conversion operators, etc. Besides them, in C # there are several other operators worth mentioning.
 
 | Operator         | Description                                                    |
 |:-----------------|:---------------------------------------------------------------|
@@ -267,8 +267,8 @@ So far we have examined arithmetic, logical and bitwise operators, the operator 
 | `[]` (Square brackets) |  Used to access elements of an array by index, they are the so-called indexer. Indexers are also used for accessing characters in a string. |
 | `()` (brackets)  | used to override the priority of execution of expressions and operators. |
 | `new`            | It is used to create and initialize new objects. |
-| `is`             | It is used to check whether an object is compatible with a given type |
-| `??`             | It is similar to the conditional operator ?:. The difference is that it is placed between two operands and returns the left operand only if its value is not null, otherwise, it returns the right operand. |
+| `is`             | It is used to check whether an object is compatible with a given type. |
+| `??`             | It is similar to the conditional operator ?:. The difference is that it is placed between two operands and returns the left operand only if its value is not null. Otherwise, it returns the right operand. |
 | `??=`            | Assigns the value of its right-hand operand to its left-hand operand only if the left-hand operand evaluates to null. The ??= operator doesn't evaluate its right-hand operand if the left-hand operand evaluates to non-null. |
 
-All the examples related to the operators are available in the `Operators.cs` file of the source code. Download the source code and try out all the examples for better understandings.
+All the examples related to the operators are available in the `Operators.cs` file of the source code. Download the source code and try out all the examples for better understanding.

@@ -69,7 +69,7 @@ for (int i = 1, sum = 1; i <= 64; i = i * 2, sum += i)
 }
 ```
 
-In the above example, we have two variables `i` and `sum`, that initially have the value of 1, but we update them consecutively at each iteration of the loop. Let's this example and you will see the following output.
+In the above example, we have two variables `i` and `sum`, that initially have the value of 1, but we update them consecutively at each iteration of the loop. Let's try this example and you will see the following output.
 
 ```csharp
 i=1, sum=1
@@ -81,4 +81,4 @@ i=32, sum=63
 i=64, sum=127
 ```
 
-All the examples related to the `for` loop are available in the `ForLoop.cs` file of the source code. Download the source code and try out all the examples for better understandings.
+All the examples related to the `for` loop are available in the `ForLoop.cs` file of the source code. Download the source code and try out all the examples for better understanding.

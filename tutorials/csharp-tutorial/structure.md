@@ -73,7 +73,7 @@ X: 40, Y: 50, Z: 60
 
 ## Constructors in Structure
 
-A `struct` can't contain a constructor without parameters, it only supports constructors which contain parameters. Here in the Customer structure, a parametrized constructor is added.
+A `struct` only supports constructors which contain parameters. Here in the Customer structure, a parametrized constructor is added.
 
 ```csharp
 public struct Customer
@@ -153,4 +153,4 @@ When you are working with structures, you must keep in mind the following limita
  - A constructor must initialize all instance fields of the structure.
  - It can't be inherited from other class or structure type, but it can implement interfaces (will be discussed later).
 
-All the examples related to the structure are available in the `Structure.cs` file of the source code. Download the source code and try out all the examples for better understandings.
+All the examples related to the structure are available in the `Structure.cs` file of the source code. Download the source code and try out all the examples for better understanding.

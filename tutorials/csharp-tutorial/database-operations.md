@@ -50,6 +50,8 @@ Select the **View Data** option and it will display all the records.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/csharp-tutorial/images/database-operations-4.png">
 
+## Connect Database
+
 To connect to the SQL database, you can use the following code. 
 
 ```csharp
@@ -64,6 +66,8 @@ using (SqlConnection connection = new SqlConnection(connectionString))
 ```
 
 The above code will create a new connection to the SQL Server database that will be connected using the connection string. To ensure that connections are always closed, open the connection inside of a `using` block.
+
+### Read Data From Database
 
 Let's add some code to read data from the database we have created.
 
@@ -95,6 +99,8 @@ Let's run the above code and you will see the following output.
 2, John
 3, Stella
 ```
+
+## Write Data to Database
 
 Now let's insert one more record into the database and then read all the records using the following code.
 

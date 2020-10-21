@@ -34,3 +34,4 @@
   * [Regular Expressions](regular-expressions.md)
   * [File Handling](file-handling.md)
   * [Database Operations](database-operations.md)
+  * [Delegates](delegates.md)

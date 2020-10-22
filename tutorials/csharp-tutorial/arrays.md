@@ -69,3 +69,5 @@ In the example above we set a value of 100 to the element, which is at the posit
 ```csharp
 Console.WriteLine(myArray[3]);
 ```
+
+All the examples related to the arrays are available in the `Arrays.cs` file of the source code. Download the source code and try out all the examples for better understanding.

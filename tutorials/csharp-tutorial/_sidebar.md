@@ -37,3 +37,4 @@
   * [Delegates](delegates.md)
   * [Events](events.md)
   * [Collections](collections.md)
+  * [Generics](generics.md)

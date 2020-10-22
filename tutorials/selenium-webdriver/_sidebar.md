@@ -11,3 +11,4 @@
   * [Actions in Selenium](actions-in-selenium.md)
   * [Drag and Drop using Selenium](drag-and-drop-using-selenium.md)
   * [Resizing an Element](resizing-an-element.md)
+  * [Real Life Example](real-life-example.md)

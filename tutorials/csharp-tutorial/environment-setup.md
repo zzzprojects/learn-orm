@@ -48,7 +48,7 @@ Select the **Create a new project** option.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/csharp-tutorial/images/setup-5.png">
 
-Choose **C#** as language, **Windows** as platform and **Console** as project type. In the template pane, select **Console App (.NET Framework)** and click **Next** button.
+Choose **C#** as language, **Windows** as platform and **Console** as project type. In the template pane, select **Console App (.NET Core)** and click **Next** button.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/csharp-tutorial/images/setup-6.png">
 
@@ -85,3 +85,8 @@ Let's run the application by clicking on the **Debug > Start Without Debugging**
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/csharp-tutorial/images/setup-8.png">
 
+You will see the following output.
+
+```csharp
+Welcome to C# Tutorial.
+```

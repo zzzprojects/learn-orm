@@ -89,5 +89,10 @@ public void Caller()
 
     int result1 = Add(numA, numB);
     int result2 = Subtract(numA, numB);
+
+    Console.WriteLine(result1);
+    Console.WriteLine(result2);
 }
 ```
+
+All the examples related to the methods are available in the `Methods.cs` file of the source code. Download the source code and try out all the examples for better understanding.

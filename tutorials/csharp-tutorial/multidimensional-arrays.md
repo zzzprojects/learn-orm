@@ -79,11 +79,13 @@ myArray[1, 0] myArray[1, 1] myArray[1, 2] myArray[1, 3]
 The following example assigns a value to a particular array element.
 
 ```csharp
-myArray[2, 1] = 25;
+myArray[1, 2] = 25;
 ```
 
 Similarly, the following example gets the value of a particular array element and assigns it to variable `val`.
 
 ```
-int val = myArray[2, 1];
+int val = myArray[1, 2];
 ```
+
+All the examples related to the multidimensional arrays are available in the `MultidimensionalArrays.cs` file of the source code. Download the source code and try out all the examples for better understanding.

@@ -68,4 +68,7 @@ int? num = null;
 int n2 = (int)num;
 ```
 
-The above example will throw an exception if `num` is null.
+The above example will throw an exception if `num` is `null`.
+
+All the examples related to the nullable types are available in the `NullableTypes.cs` file of the source code. Download the source code and try out all the examples for better understanding.
+

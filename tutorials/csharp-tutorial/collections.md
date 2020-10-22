@@ -11,7 +11,7 @@ In C#, the collections represent the `System.Collections` namespace which contai
  - Collections provide a more flexible way to work with groups of objects.
  - The classes in the `System.Collections` namespace do not store elements as specifically typed objects but as objects of type `Object`.
 
-The following table lists some of the frequently used classes in the `System.Collections`.
+The following table lists some of the frequently used classes in the `System.Collections` namespace.
 
 | Class           | Description                                                                |
 |:----------------|:---------------------------------------------------------------------------|
@@ -97,6 +97,6 @@ Let's run the above code and you will see the following code.
 3, EF Tutorial
 ```
 
-For more information about events, visit [https://docs.microsoft.com/en-us/dotnet/api/system.collections](https://docs.microsoft.com/en-us/dotnet/api/system.collections)
+For more information about collections, visit [https://docs.microsoft.com/en-us/dotnet/api/system.collections](https://docs.microsoft.com/en-us/dotnet/api/system.collections)
 
 All the examples related to the collections are available in the `Collections.cs` file of the source code. Download the source code and try out all the examples for better understanding.

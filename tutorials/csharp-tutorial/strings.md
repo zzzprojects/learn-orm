@@ -57,6 +57,8 @@ You can use a const string to prevent if from being used to store another string
 const string str5 = "You can't change me now";
 ```
 
+If you try to assign another value to the `str5` which is constant, you will see an error.
+
 You can use the `String` constructor only when creating a string from a char*, char[], or sbyte*. 
 
 ```csharp
@@ -93,4 +95,6 @@ A text in the real world can include any character such as, double quote ("), si
 ```csharp
 string text = "This is a \"string\" in C#.";
 ```
+For more information about strings, visit [https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/strings/](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/strings/)
 
+All the examples related to the strings are available in the `Strings.cs` file of the source code. Download the source code and try out all the examples for better understanding.

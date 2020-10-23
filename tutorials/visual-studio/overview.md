@@ -47,12 +47,7 @@ Here is the basic information on the system requirements for installing and runn
 
 ### Visual Studio 2019 for Windows
 
-The following products support the minimum system requirements below.
-
- - Visual Studio Enterprise 2019
- - Visual Studio Professional 2019
- - Visual Studio Community 2019
- - Visual Studio Team Foundation Server Office Integration 2019
+The following are the minimum system requirements for Visual Studio 2019.
 
 <table>
 <tr>
@@ -72,11 +67,7 @@ The following products support the minimum system requirements below.
 
 ### Visual Studio 2019 for Mac
 
-The following products support the minimum system requirements below.
-
- - Visual Studio Enterprise 2019 for Mac.
- - Visual Studio Professional 2019 for Mac.
- - Visual Studio Community 2019 for Mac.
+The following are the minimum system requirements for Visual Studio 2019 for Mac.
 
 <table>
 <tr>
@@ -92,4 +83,41 @@ The following products support the minimum system requirements below.
     <td>English, Chinese (Simplified), Chinese (Traditional), Czech, French, German, Italian, Japanese, Korean, Polish, Portuguese (Brazil), Russian, Spanish, and Turkish.</td>
 </tr>
 </table>
- 
+
+## Editions
+
+Microsoft Visual Studio is available in the following three editions.
+
+### Community
+
+The Community Edition was announced on 12 November 2014, as a new free version, with similar functionality to Visual Studio Professional. 
+
+ - Before the only free editions of Visual Studio were the feature-limited Express variants. 
+ - Unlike the Express variants, Visual Studio Community supports multiple languages and provides support for extensions. 
+ - Individual developers have no restrictions on their use of the Community edition. 
+
+The following uses also allow unlimited usage.
+
+ - Contributing to Open Source projects.
+ - Academic research.
+ - Learning environment in a classroom.
+ - Developing and testing device drivers for the Windows operating system. 
+
+Visual Studio Community is oriented towards individual developers and small teams.
+
+### Professional
+
+As of Visual Studio 2010, the Professional edition is the entry-level commercial edition of Visual Studio. 
+
+ - Previously, a more feature restricted Standard edition was available.)[61] 
+ - It provides an IDE for all supported development languages. 
+ - MSDN support is available as MSDN Essentials or the full MSDN library depending on licensing. 
+ - It supports XML and XSLT editing and can create deployment packages that only use ClickOnce and MSI. 
+ - It includes tools like Server Explorer and integration with Microsoft SQL Server also. 
+ - Windows Mobile development support was included in Visual Studio 2005 Standard, however, with Visual Studio 2008, it is only available in Professional and higher editions. 
+ - Windows Phone 7 development support was added to all editions in Visual Studio 2010. 
+ - Windows Mobile development is no longer supported in Visual Studio 2010, it is superseded by Windows Phone 7.
+
+### Enterprise
+
+In addition to the features provided by the Professional edition, the Enterprise edition provides a new set of software development, database development, collaboration, metrics, architecture, testing, and reporting tools.

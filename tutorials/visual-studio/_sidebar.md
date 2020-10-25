@@ -4,3 +4,4 @@
   * [Project Types](project-types.md)
   * [Create Solution and Project](create-solution-and-project.md)
   * [Visual Studio Features](visual-studio-features.md)
+  * [Code Editor](code-editor.md)

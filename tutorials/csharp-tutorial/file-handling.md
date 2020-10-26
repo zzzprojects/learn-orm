@@ -35,7 +35,7 @@ Here are the most commonly used methods of the `File` class which are very usefu
 | WriteAllLines() | Creates a new file, writes a collection of strings to the file, and then closes the file. |
 | WriteAllText()  | Creates a new file and writes the contents to it. If the file already exists, it will be overwritten.|
 
-Let's consider the following simple example, where we the simple string is written to the file using the `WriteAllText()` method and then read all the contents from the file using the `ReadAllText()` method.
+Let's consider the following simple example, where the simple string is written to the file using the `WriteAllText()` method and then reads all the contents from the file using the `ReadAllText()` method.
 
 ```csharp
 string writeText = "This is a C# Tutorial, and you are learning file handling.";
@@ -97,7 +97,7 @@ and you are learning
 file handling.
 ```
 
-As you can see that for the first time the file doesn't exist, so first the file is created. Now if you run again the code then you will see that it won't create a file.
+As you can see that for the first time the file doesn't exist, so first the file is created. Now if you run the code again, you will see that it won't create a file.
 
 ```csharp
 File already exists, no need to create it.

@@ -38,7 +38,7 @@ When you write code and build your solution, you may see different-colored wavy 
 
 ## Brace Matching
 
-When the insertion point is placed on an open brace in a code file, both it and the closing brace are highlighted. 
+When the insertion point is placed on an open brace in a code file, both the open and closing braces are highlighted. 
 
  - It gives you immediate feedback on misplaced or missing braces. 
  - You can turn brace matching on or off with the **Automatic delimiter highlighting** option on **Tools > Options > Text Editor**
@@ -67,7 +67,7 @@ Line numbers can be displayed in the left margin of the code window. They are no
 The color of the left margin allows you to keep track of the changes you have made in a file. 
 
  - Changes you have made since the file was opened but not saved are denoted by a yellow bar on the left margin also known as the selection margin. 
- - After you have saved the changes before closing the file, the bar turns green. 
+ - After you saved the changes before closing the file, the bar turns green. 
  - If you undo a change after you have saved the file, the bar turns orange. 
 
 To turn this feature on or off, change the Track changes option on **Tools > Options > Text Editor**.

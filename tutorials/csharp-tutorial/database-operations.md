@@ -29,7 +29,7 @@ It will open the **Create Database** dialog.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/csharp-tutorial/images/database-operations-2.png">
 
-Enter the database name such as **MyTestDb** and click **Ok** button. Now right-click on the newly created database and select **New Query...** It will open the query editor, let's run the following script in the query editor.
+Enter the database name such as **MyTestDb** and click the **Ok** button. Now right-click on the newly created database and select **New Query...** It will open the query editor, let's run the following script in the query editor.
 
 ```csharp
 CREATE TABLE [dbo].[Authors] (
@@ -69,7 +69,7 @@ The above code will create a new connection to the SQL Server database that will
 
 ### Read Data From Database
 
-Let's add some code to read data from the database we have created.
+Let's add some code to read data from the database we created.
 
 ```csharp
 string connectionString = @"Data Source=(localdb)\ProjectsV13;Initial Catalog=MyTestDb;Integrated Security=True;";

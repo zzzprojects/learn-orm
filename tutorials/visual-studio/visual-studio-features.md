@@ -42,7 +42,7 @@ In Visual Studio, you can manage your source code and collaborate with others in
 
 ## Extend Visual Studio
 
-In Visual Studio doesn't have the exact functionality you need, you can add it by installing the extensions. Extensions are add-ons that allow you to customize and enhance your experience in Visual Studio by adding new features or integrating existing tools. 
+If Visual Studio doesn't have the exact functionality you need, you can add it by installing an extension. Extensions are add-ons that allow you to customize and enhance your experience in Visual Studio by adding new features or integrating existing tools. 
 
  - You can browse through thousands of extensions available in the Marketplace to find the tools you need. 
  - You can personalize the IDE based on your workflow and style, add support for external tools not yet integrated with Visual Studio, and modify existing functionality to increase your productivity. 

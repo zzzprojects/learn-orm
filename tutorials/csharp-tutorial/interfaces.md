@@ -10,8 +10,8 @@ In the C#, the interface is a definition of a role or you can say a group of abs
 
  - An interface can declare only a group of related functionalities, it is the responsibility of the deriving class to implement that functionality.
  - An interface is defined with the `interface` keyword.
- - An interface can contain declarations of methods, properties, indexers, and events, but it may not declare instance data such as fields, auto-implemented properties, or property-like events.
- - Multiple inheritance is possible with the help of interfaces but not with classes.
+ - An interface can contain declarations of methods, properties, indexers, and events, but it may not declare instance data, such as fields, auto-implemented properties, or property-like events.
+ - Multiple inheritance is possible with the help of interfaces, but not with classes.
 
 The following code shows how to define a simple interface.
 
@@ -25,7 +25,7 @@ public interface IShape
 }
 ```
 
-It is like an abstract class because all the methods which are declared inside the interface are abstract. It cannot have a method body and cannot be instantiated.
+It is like an abstract class because all the methods which are declared in the interface are abstract. It cannot have a method body and cannot be instantiated.
 
 Implementing an interface is simply done by inheriting it and defining all the methods and properties declared by the interface as shown below.
 
@@ -74,5 +74,5 @@ Draw rectangle of X = 5, Y = 7.
 The area of the rectangle is 35
 ```
 
-All the examples related to the interfaces are available in the `Interfaces.cs` file of the source code. Download the source code and try out all the examples for better understandings.
+All the examples related to the interfaces are available in the `Interfaces.cs` file of the source code. Download the source code and try out all the examples for better understanding.
 

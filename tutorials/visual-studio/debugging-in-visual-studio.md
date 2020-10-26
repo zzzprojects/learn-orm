@@ -51,7 +51,6 @@ If you need to go inside the `Add()` method, press **F11** and you will see the 
 
 Now press the **F10** and you will see the line by line execution of the code. If the method body ends and you press again the **F10** button then you will see that it will return to Main where the `Add()` method has been called.
 
-
 ## Locals Window
 
 The **Locals** window shows you the variables that are currently in scope.

@@ -7,3 +7,4 @@
   * [Code Editor](code-editor.md)
   * [Code Snippets](code-snippets.md)
   * [Debugging in Visual Studio](debugging-in-visual-studio.md)
+  * [Code Navigation](code-navigation.md)

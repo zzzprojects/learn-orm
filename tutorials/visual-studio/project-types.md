@@ -29,7 +29,7 @@ Visual Studio provides various platforms options and the list is available in th
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/project-types-4.png">
 
-Select the **Windows** as a platform and now you will see only project types that can be developed using C# language and can run on the Windows platform only.
+Select the **Windows** as a platform and you will only see project types that can be developed using C# language and can run on the Windows platform only.
 
 ## Project Types
 
@@ -37,7 +37,7 @@ In the **All project types**, you can see different types, such as Cloud, Deskto
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/project-types-5.png">
 
-Let's select Desktop from the **All project types** and now you will see only those projects which are desktop applications.
+Let's select Desktop from the **All project types**, and you will only see projects that are desktop applications.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/project-types-6.png">
 
@@ -45,7 +45,7 @@ You can also enter search text into the search box to further filter the templat
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/project-types-7.png">
 
-You can see now only templates which are console projects.
+You can only see now templates which are console projects.
 
 Here are the most commonly used Project templates.
 

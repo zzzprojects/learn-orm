@@ -38,7 +38,7 @@ delegate1("This is a C# Tutorial.");
 delegate1("You are learning Delegates.");
 ```
 
-Once a delegate is instantiated, a method call made to the delegate is pass by the delegate to that method. Let's run the above code and you will see the following output.
+Once a delegate is instantiated, a method call made to the delegate is passed by the delegate to that method. Let's run the above code and you will see the following output.
 
 ```csharp
 This is a C# Tutorial.

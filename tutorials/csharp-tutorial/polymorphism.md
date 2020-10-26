@@ -19,7 +19,7 @@ In C#, there are two types of polymorphism.
 
 Compile-time polymorphism is achieved using method overloading and operator overloading. The method overloading means defining multiple methods with the same name but with different parameters.
 
- - Using method overloading you can perform different tasks with the same method name by passing just different parameters.
+ - Using method overloading you can perform different tasks with the same method name by passing different parameters.
  - You can overload methods in the same class only, it doesn't need a parent-child relationship.
 
 Compile-time polymorphism is also known as static binding or early binding. The following code shows the method overloading of `Add()` methods, where both methods have the same name and different parameters.
@@ -96,7 +96,7 @@ public class Rectangle : Shape
 }
 ```
 
-As you can see that we have two child classes `Circle` and  `Rectangle` and both classes override the `CalculateArea()` method with their own implementation by calculating the area of circle and rectangle respectively.
+As you can see, we have two child classes `Circle` and  `Rectangle`; both classes override the `CalculateArea()` method with their own implementation by calculating the area of circle and rectangle respectively.
 
 Now we can create `Shape`, `Circle` and `Rectangle` objects and assign them to `Shape` instances.
 

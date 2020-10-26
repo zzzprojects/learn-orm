@@ -9,7 +9,7 @@ In C#, the collections represent the `System.Collections` namespace which contai
 
  - For many applications, you want to create and manage groups of related objects.
  - Collections provide a more flexible way to work with groups of objects.
- - The classes in the `System.Collections` namespace do not store elements as specifically typed objects but as objects of type `Object`.
+ - The classes in the `System.Collections` namespace does not store elements as specifically typed objects, but as objects of type `Object`.
 
 The following table lists some of the frequently used classes in the `System.Collections` namespace.
 
@@ -40,7 +40,7 @@ foreach (Object obj in myArrayList)
 }
 ```
 
-As you can see that we have added different types of data to the array list. The first data is `string`, then we have added `DataTime` object and the last one is an integer.
+As you can see we added different types of data to the array list. The first data is `string`, then we added `DataTime` object and the last one is an integer.
 
 Let's run the above code and you will see the following code.
 
@@ -73,7 +73,7 @@ John
 Mark
 ```
 
-Let's consider another example of a hash table`, it is similar to an array list but represents the items as a combination of a key and value.
+Let's consider another example of a `hash table`, it is similar to an array list but represents the items as a combination of a key and value.
 
 ```csharp
 Hashtable tutorials = new Hashtable();

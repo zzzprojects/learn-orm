@@ -5,16 +5,16 @@ Name: Create Solution and Project
 
 # Create Solution and Project
 
-In Visual Studio, a project holds the items needed to build your application, such as source files, images, icons, and references, etc. When you create a new project, Visual Studio creates a solution to contain the project. You can also add new or existing projects to the solution.
+In Visual Studio, a project holds the items needed to build your application, such as source files, images, icons, references, etc. When you create a new project, Visual Studio creates a solution to contain the project. You can also add new or existing projects to the solution.
 
-## What is Project?
+## What is a Project?
 
 When you create an application or website in Visual Studio, you start with a project. A project contains all files that are compiled into an executable, library, or website. 
 
  - Those files can include source code, icons, images, data files, and so on. 
  - A project also contains compiler settings and other configuration files that might be needed by various services or components that your program communicates with.
 
-## What is Solution?
+## What is a Solution?
 
 A Solution is simply a container for one or more related projects, along with build information, Visual Studio window settings, and any miscellaneous files that aren't associated with a particular project. 
 
@@ -58,7 +58,7 @@ When a new project is created, you can use **Solution Explorer** to view and man
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/create-solution-and-project-5.png">
 
-You can see that a solution is created which contains one project and both a solution and project have the same name. But you can choose a different name as well for a solution on the **Configure your new project** page.
+You can see that a solution is created which contains one project and both a solution and project have the same name. You can choose a different name for a solution on the **Configure your new project** page.
 
  - A project contains multiple files, folders, and references. 
  - Creating a new project from a template gives you a project with the essentials for that project type. 

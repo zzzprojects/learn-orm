@@ -5,7 +5,7 @@ Name: Regular Expressions
 
 # Regular Expressions
 
-Regular expressions are a powerful tool for text processing and allow searching matches by a pattern. Regular expressions make text processing easier and more accurate, such as, 
+Regular expressions are powerful tools for text processing and allow searching matches by a pattern. Regular expressions make text processing easier and more accurate, such as, 
 
  - Extracting some resources from texts
  - Searching for phone numbers
@@ -45,7 +45,7 @@ Stella
 Scarlett
 ```
 
-As you can see that the pattern only matches the names start with "S" and ignore the name start with "s". You can use the `RegexOptions.IgnoreCase` parameter to make sure that `Regex` does not look for uppercase or lowercase.
+As you can see the pattern only matches the names that start with "S" and ignore the name that start with "s". You can use the `RegexOptions.IgnoreCase` parameter to make sure that `Regex` does not look for uppercase or lowercase.
 
 ```csharp
 string customers = "John, samantha, Andy, Smith, Allen, Mark, Stella, Scarlett";
@@ -93,7 +93,7 @@ private static bool IsValidEmail(string email)
 }
 ```
 
-You can call the `IsValidEmail()` bypassing the user email as a parameter, if it a valid email it will return `true`, otherwise, `false`.
+You can call the `IsValidEmail()` bypassing the user email as a parameter, if it is a valid email it will return `true`, otherwise, `false`.
 
 ```csharp
 string[] emails =

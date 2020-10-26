@@ -158,3 +158,5 @@ Select the **File Exists** and you will see the following code snippet is insert
 ```csharp
 var exists = File.Exists("C:\\Temp\\Notes.txt"); 
 ```
+
+For more information about code snippets, visit the official documentation page [https://docs.microsoft.com/en-us/visualstudio/ide/code-snippets](https://docs.microsoft.com/en-us/visualstudio/ide/code-snippets) 

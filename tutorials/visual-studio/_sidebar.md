@@ -6,3 +6,4 @@
   * [Visual Studio Features](visual-studio-features.md)
   * [Code Editor](code-editor.md)
   * [Code Snippets](code-snippets.md)
+  * [Debugging in Visual Studio](debugging-in-visual-studio.md)

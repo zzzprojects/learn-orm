@@ -5,7 +5,7 @@ Name: Exception Handling
 
 # Exception Handling
 
-When we write a program, and in most of the cases we rely upon that the program will execute normally and most of the time, programs are following the normal pattern, but there are some exceptions. 
+When we write a program, in most of the cases we rely upon that the program will execute normally and most of the time, programs are following the normal pattern, but there are some exceptions. 
 
  - When you execute your code and an error occurs, C# will normally stop and generate an error message and will throw an exception.
  - Exceptions in the application must be handled to prevent the crashing of the program and unexpected results.
@@ -52,8 +52,8 @@ If any exception occurs inside the try block, the control transfers to the appro
 
  - In C#, both catch and finally blocks are optional. 
  - The try block can exist either with one or more catch blocks or a finally block or with both catch and finally blocks.
- - If there is no exception occurred inside the try block, the control directly transfers to the `finally` block. 
- - We can say that the statements inside the `finally` block are executed always.
+ - If no exception occurred inside the try block, the control directly transfers to the `finally` block. 
+ - We can say that the statements inside the `finally` block are always executed.
 
 In the following example, we have several statements in a `try` block. If an exception occurs inside a try block, then the program will jump to the catch block. Inside a catch block, we display a message to instruct the user about the error, and in the finally block we will display a message.
 

@@ -39,7 +39,7 @@ The first version of Visual Studio was released in 1997 and it was known as Visu
 |Visual Studio 6.0        | 6.0	    | 1998-09-02   |
 |Visual Studio 97         | 50      | 1997-03-19   |
 
-The currently supported Visual Studio version is 2019. It is generally available since 2 April 2019 for download.
+The currently supported Visual Studio version is 2019. It is available since 2 April 2019 for download.
 
 ## System Requirements
 

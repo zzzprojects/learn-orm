@@ -9,3 +9,4 @@
   * [Debugging in Visual Studio](debugging-in-visual-studio.md)
   * [Code Navigation](code-navigation.md)
   * [Go To Commands](go-to-commands.md)
+  * [Quick Actions](quick-actions.md)

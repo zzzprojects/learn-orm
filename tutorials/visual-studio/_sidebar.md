@@ -8,3 +8,4 @@
   * [Code Snippets](code-snippets.md)
   * [Debugging in Visual Studio](debugging-in-visual-studio.md)
   * [Code Navigation](code-navigation.md)
+  * [Go To Commands](go-to-commands.md)

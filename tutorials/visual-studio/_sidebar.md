@@ -11,3 +11,4 @@
   * [Go To Commands](go-to-commands.md)
   * [Quick Actions](quick-actions.md)
   * [Code Refactoring](code-refactoring.md)
+  * [IntelliSense](intellisense.md)

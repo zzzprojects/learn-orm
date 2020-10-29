@@ -14,3 +14,4 @@
   * [IntelliSense](intellisense.md)
   * [Visual Studio Search](visual-studio-search.md)
   * [Call Hierarchy](call-hierarchy.md)
+  * [Go To Definition](go-to-definition.md)

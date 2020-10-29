@@ -13,3 +13,4 @@
   * [Code Refactoring](code-refactoring.md)
   * [IntelliSense](intellisense.md)
   * [Visual Studio Search](visual-studio-search.md)
+  * [Call Hierarchy](call-hierarchy.md)

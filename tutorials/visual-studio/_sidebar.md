@@ -17,3 +17,4 @@
   * [Go To Definition](go-to-definition.md)
   * [Peek Definition](peek-definition.md)
   * [Customize Code Editor](customize-code-editor.md)
+  * [Code Style Preferences](code-style-preferences.md)

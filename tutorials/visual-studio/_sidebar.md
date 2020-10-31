@@ -18,3 +18,4 @@
   * [Peek Definition](peek-definition.md)
   * [Customize Code Editor](customize-code-editor.md)
   * [Code Style Preferences](code-style-preferences.md)
+  * [Customize Scroll Bar](customize-scroll-bar.md)

@@ -22,7 +22,7 @@ The scroll bar shows you the effect of the breakpoint and error. Now if you clic
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/customize-scroll-bar-3.png">
 
-Now let's remove the breakpoint and you will see the effect on the scroll bar as well.
+Now let's disable the breakpoint and you will see the effect on the scroll bar as well.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/customize-scroll-bar-4.png">
 

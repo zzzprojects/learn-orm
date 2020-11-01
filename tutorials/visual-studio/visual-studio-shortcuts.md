@@ -9,7 +9,7 @@ In Visual Studio, there are so many features and menu options that you can use f
 
  - These shortcuts include keyboard and mouse shortcuts as well as text you can enter to help accomplish a task more easily.
 
-The following are the most commanly used Visual Studio shortcuts.
+The following are the most commonly used Visual Studio shortcuts.
 
 ## Code editor
 

@@ -19,3 +19,5 @@
   * [Customize Code Editor](customize-code-editor.md)
   * [Code Style Preferences](code-style-preferences.md)
   * [Customize Scroll Bar](customize-scroll-bar.md)
+  * [Visual Studio Extensions](visual-studio-extensions.md)
+  * [Visual Studio Shortcuts](visual-studio-shortcuts.md)

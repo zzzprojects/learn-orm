@@ -49,7 +49,7 @@ You can change the settings from the **Tools > Options > Environment > Fonts and
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/customize-code-editor-5.png">
 
-Let's change the size to 12 and also change the color of the **Comment** display item and make it bold the as shown below.
+Let's change the size to 12 and also change the color of the **Comment** display item and make it bold as shown below.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/customize-code-editor-6.png">
 
@@ -65,7 +65,7 @@ Click the **Next** button and will see all the settings which you can export.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/customize-code-editor-8.png">
 
-You can exclude some settings which you don't want export by unchecking the check-boxes of that particular settings and click the **Next** button once you are done.
+You can exclude some settings which you don't want exported by unchecking the check-boxes of these particular settings and click the **Next** button once you are done.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/customize-code-editor-9.png">
 

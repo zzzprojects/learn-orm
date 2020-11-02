@@ -113,7 +113,7 @@ You can use a code snippet to add a using directive by including the `Imports` e
 </Imports>
 ``` 
 
-As you know that the method `File.Exists` is in the `System.IO` namespace so we need to define the `Imports` element to import the `System.IO` namespace. Here is the complete XML file.
+As you know the method `File.Exists` is in the `System.IO` namespace, so we need to define the `Imports` element to import the `System.IO` namespace. Here is the complete XML file.
 
 ```csharp
 <?xml version="1.0" encoding="utf-8"?>

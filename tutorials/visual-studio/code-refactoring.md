@@ -15,7 +15,7 @@ Refactoring is the process of modifying code in order to make it easier to maint
 
 In some cases, you might want to convert a `for` loop to a `foreach` statement to avoid the local loop variable inside the loop or to simplify your code and reduce the likelihood of logic errors in the initializer, condition, and iterator sections.
 
-Let's consider the following simple example of `for` loop which we can easily covert to `foreach` statement using code refactoring.
+Let's consider the following simple example of `for` loop which we can easily convert to `foreach` statement using code refactoring.
 
 ```csharp
 using System;
@@ -56,7 +56,7 @@ Now you can convert the `for` loop by placing your mouse cursor in the `for` key
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/code-refactoring-1.png">
 
-You can select the **Convert to 'foreach'** option if you want to change the code, but if you want see the changes before, select **Preview changes** to open the Preview Changes dialog. So let's click on the **Preview changes**.
+You can select the **Convert to 'foreach'** option if you want to change the code, but if you want to see the changes before, select **Preview changes** to open the Preview Changes dialog. So let's click on the **Preview changes**.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/code-refactoring-2.png">
 
@@ -89,7 +89,7 @@ foreach (Customer customer in customers)
 }
 ```
 
-Similarly, you can covert the `foreach` statement by placing your mouse cursor in the `for` keyword and click the screwdriver icon.
+Similarly, you can convert the `foreach` statement by placing your mouse cursor in the `for` keyword and click the screwdriver icon.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/code-refactoring-3.png">
 

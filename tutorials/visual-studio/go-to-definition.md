@@ -14,11 +14,11 @@ Let's right-click on the member name `RemoveHeaderDirective` in our case and you
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/go-to-definition-1.png">
 
-You will see that the member definition is open up.
+You will see that the member definition is opened up.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/go-to-definition-2.png">
 
-The **Go To Definition** can navigate to different files as well. If the calling method is defined on some other file **Go To Definition** will automatically navigation to that file in a new tab. 
+The **Go To Definition** can navigate to different files as well. If the calling method is defined on some other file **Go To Definition** will automatically navigate to that file in a new tab. 
 
 Let's right-click on a member which is defined in another file and select **Go To Definition**.
 

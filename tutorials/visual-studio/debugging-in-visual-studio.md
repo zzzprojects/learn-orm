@@ -11,9 +11,9 @@ In Visual Studio, you debug an app using the Visual Studio debugger which helps 
 
 The term debugging means removing bugs or errors from your code. Now, there are different ways to do this. For example; 
 
- - You might debug by scanning your code looking for typos, or by using a code analyzer. 
- - You might debug code by using a performance profiler. 
- - You might debug by using a debugger.
+ - Debug by scanning your code looking for typos, or by using a code analyzer. 
+ - Debug code by using a performance profiler. 
+ - Debug by using a debugger.
 
 ## What is Debugger?
 
@@ -29,7 +29,7 @@ To debug, you need to start your app with the debugger attached to the applicati
 
 ## Breakpoints
 
-Breakpoints are a useful feature when you know the line of code or the section of code that you want to examine in detail. A breakpoint indicates where Visual Studio should suspend your running code so you can take a look at the values of variables, or the behavior of memory, or whether or not a branch of code is getting run.
+Breakpoints are a useful feature when you know the line of code or the section of code that you want to examine in detail. A breakpoint indicates where Visual Studio should suspend your running code so you can take a look at the values of variables, or the behavior of memory, or whether a branch of code is getting run.
 
 If you have a file open in the code editor, you can set a breakpoint by clicking in the margin to the left of a line of code.
 
@@ -39,7 +39,7 @@ Press the **F5** button or use the **Debug > Start Debugging**  menu option, or 
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/debugging-2.png"> 
 
-The yellow arrow represents the statement on which the debugger paused, which also suspends app execution at the same point, you can now check the values of each variable just by hovering the mouse cursor on that variable and it will display it =s value.
+The yellow arrow represents the statement on which the debugger paused, which also suspends app execution at the same point, you can now check the values of each variable just by hovering the mouse cursor on that variable and it will display its =s value.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/debugging-3.png">
 
@@ -59,7 +59,7 @@ The **Locals** window shows you the variables that are currently in scope.
 
 ## Autos Window
 
-In the **Autos** window, you see variables along with their current value and their type. The **Autos** window shows all variables used on the current line or the preceding line.
+In the **Autos** window, you see variables along with their current values and their types. The **Autos** window shows all variables used on the current line or the preceding line.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/debugging-5.png"> 
 

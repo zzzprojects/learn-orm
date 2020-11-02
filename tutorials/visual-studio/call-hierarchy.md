@@ -7,10 +7,10 @@ Name: Call Hierarchy
 
 ## What is Call Hierarchy?
 
-The Call Hierarchy feature allows the developer to see all the methods that are called the current method as well as the methods that are called from the current one.
+The Call Hierarchy feature allows the developer to see all the current methods that are called, as well as the methods that are called from the current ones.
 
  - By viewing the call hierarchy for your code, you can navigate all calls to, and sometimes from, a selected method, property, or constructor. 
- - It enables you to better understand how code flows, and to evaluate the effects of changes to code. 
+ - It enables you to better understand how code flows, and to evaluate the effects of changes to the code. 
 
 ## How Call Hierarchy is different from Call Stack?
 

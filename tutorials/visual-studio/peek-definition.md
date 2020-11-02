@@ -19,11 +19,11 @@ Let's right-click on the member name and choosing **Peek Definition** from the r
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/peek-definition-1.png">
 
-You will see that the member definition is open up in the popup window.
+You will see that the member definition is opened up in the popup window.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/peek-definition-2.png">
 
-The definition window appears below the line contain the member in the original file. The window doesn't hide any of the code in your original file. 
+The definition window appears below the line that contains the member in the original file. The window doesn't hide any of the code in your original file. 
 
  - You can move the cursor to different locations in the peek definition window. 
  - You can also still move around in the opening code window.
@@ -43,4 +43,4 @@ The **CTRL + Click** will run the **Go To Definition** command, but you can make
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/peek-definition-5.png">
 
-Check the option **Open definition in peek view**  and click **OK** button. Now let's press **Ctrl** and click the member, you will see the **Peek Definition** window instead of **Go To Definition**.
+Check the option **Open definition in peek view**  and click **OK** button. Press **Ctrl** and click the member, you will see the **Peek Definition** window instead of **Go To Definition**.

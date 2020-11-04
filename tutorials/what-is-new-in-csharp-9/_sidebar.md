@@ -2,3 +2,4 @@
   * [Records](records.md)
   * [Init-only Properties](init-only-properties.md)
   * [Pattern Matching Improvements](pattern-matching-improvements.md)
+  * [Target-typed new Expressions](target-typed-new-expressions.md)

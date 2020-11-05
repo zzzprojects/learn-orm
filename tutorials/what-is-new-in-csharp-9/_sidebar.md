@@ -5,3 +5,4 @@
   * [Target-typed new Expressions](target-typed-new-expressions.md)
   * [Target-typed Conditional Expressions](target-typed-conditional-expressions.md)
   * [Top-Level Programs](top-level-programs.md)
+  * [With Expressions](with-expressions.md)

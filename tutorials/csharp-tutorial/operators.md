@@ -1,4 +1,4 @@
-﻿---
+---
 PermaID: 100026
 Name: Operators
 ---

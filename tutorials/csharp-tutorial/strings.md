@@ -1,4 +1,4 @@
-﻿---
+---
 PermaID: 100004
 Name: Strings
 ---

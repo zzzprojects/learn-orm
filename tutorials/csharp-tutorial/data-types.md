@@ -1,4 +1,4 @@
-﻿---
+---
 PermaID: 100003
 Name: Data Types
 ---

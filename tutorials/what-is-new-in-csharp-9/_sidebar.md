@@ -9,3 +9,4 @@
   * [Data Members](data-members.md)
   * [Native Integers](native-integers.md)
   * [Funtion Pointers](function-pointers.md)
+  * [Covariant Returns](covariant-returns.md)

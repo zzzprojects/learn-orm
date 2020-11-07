@@ -11,3 +11,4 @@
   * [Funtion Pointers](function-pointers.md)
   * [Covariant Returns](covariant-returns.md)
   * [GetEnumerator support for foreach loops](getenumerator-support-for-foreach-loops.md)
+  * [Unconstrained type parameter annotations](unconstrained-type-parameter-annotations.md)

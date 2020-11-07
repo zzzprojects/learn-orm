@@ -10,3 +10,4 @@
   * [Native Integers](native-integers.md)
   * [Funtion Pointers](function-pointers.md)
   * [Covariant Returns](covariant-returns.md)
+  * [GetEnumerator support for foreach loops](getenumerator-support-for-foreach-loops.md)

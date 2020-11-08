@@ -38,13 +38,22 @@ public record Customer
 }
 ```
 
-The important point about the record is that members are public by default. If you do not specify the `public` keyword then it won't affect anything and will behave similarly to the above declaration.
+Records support inheritance and you can declare a new record derived from the base class.
 
 ```csharp
-public record Customer
+public record Person
 {
-    string LastName { get; init; }
-    string FirstName { get; init; }
+    public string LastName { get; }
+    public string FirstName { get; }
+
+    public Person(string first, string last) => (FirstName, LastName) = (first, last);
+}
+
+public record Employee : Person
+{
+    public string Title { get; }
+
+    public Employe(string first, string last, string title) : base(first, last) => Title = title;
 }
 ```
 
@@ -52,6 +61,22 @@ public record Customer
 
 By default, regular classes are considered equal when they share the same underlying reference. 
 
- - If you create two instances of the same class, holding the exact same values, they will not be considered equal.
+ - If you create two instances of the same class, holding the same values, they will not be considered equal.
  - When you declare your class as a record and compare two instances of the record it will not compare the object's references, records are compared by value. 
- - It means that two different objects holding the same values will be considered equal
+ - It means that two different objects holding the same values will be considered equal.
+
+```csharp
+Customer customer1 = new Customer
+{
+    FirstName = "Mark",
+    LastName = "Upston"
+};
+
+Customer customer2 = new Customer
+{
+    FirstName = "Mark",
+    LastName = "Upston"
+};
+
+Console.WriteLine(customer1.Equals(customer2)); // True
+```

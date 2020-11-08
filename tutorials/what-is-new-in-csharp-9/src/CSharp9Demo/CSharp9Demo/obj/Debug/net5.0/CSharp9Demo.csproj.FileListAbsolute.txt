@@ -1,0 +1,16 @@
+C:\Users\Muhammad Waqas\Source\repos\CSharp9Demo\CSharp9Demo\bin\Debug\net5.0\CSharp9Demo.exe
+C:\Users\Muhammad Waqas\Source\repos\CSharp9Demo\CSharp9Demo\bin\Debug\net5.0\CSharp9Demo.deps.json
+C:\Users\Muhammad Waqas\Source\repos\CSharp9Demo\CSharp9Demo\bin\Debug\net5.0\CSharp9Demo.runtimeconfig.json
+C:\Users\Muhammad Waqas\Source\repos\CSharp9Demo\CSharp9Demo\bin\Debug\net5.0\CSharp9Demo.runtimeconfig.dev.json
+C:\Users\Muhammad Waqas\Source\repos\CSharp9Demo\CSharp9Demo\bin\Debug\net5.0\CSharp9Demo.dll
+C:\Users\Muhammad Waqas\Source\repos\CSharp9Demo\CSharp9Demo\bin\Debug\net5.0\ref\CSharp9Demo.dll
+C:\Users\Muhammad Waqas\Source\repos\CSharp9Demo\CSharp9Demo\bin\Debug\net5.0\CSharp9Demo.pdb
+C:\Users\Muhammad Waqas\Source\repos\CSharp9Demo\CSharp9Demo\obj\Debug\net5.0\CSharp9Demo.csprojAssemblyReference.cache
+C:\Users\Muhammad Waqas\Source\repos\CSharp9Demo\CSharp9Demo\obj\Debug\net5.0\CSharp9Demo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Muhammad Waqas\Source\repos\CSharp9Demo\CSharp9Demo\obj\Debug\net5.0\CSharp9Demo.AssemblyInfoInputs.cache
+C:\Users\Muhammad Waqas\Source\repos\CSharp9Demo\CSharp9Demo\obj\Debug\net5.0\CSharp9Demo.AssemblyInfo.cs
+C:\Users\Muhammad Waqas\Source\repos\CSharp9Demo\CSharp9Demo\obj\Debug\net5.0\CSharp9Demo.csproj.CoreCompileInputs.cache
+C:\Users\Muhammad Waqas\Source\repos\CSharp9Demo\CSharp9Demo\obj\Debug\net5.0\CSharp9Demo.dll
+C:\Users\Muhammad Waqas\Source\repos\CSharp9Demo\CSharp9Demo\obj\Debug\net5.0\ref\CSharp9Demo.dll
+C:\Users\Muhammad Waqas\Source\repos\CSharp9Demo\CSharp9Demo\obj\Debug\net5.0\CSharp9Demo.pdb
+C:\Users\Muhammad Waqas\Source\repos\CSharp9Demo\CSharp9Demo\obj\Debug\net5.0\CSharp9Demo.genruntimeconfig.cache

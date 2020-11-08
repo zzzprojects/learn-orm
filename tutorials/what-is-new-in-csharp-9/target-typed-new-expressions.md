@@ -71,7 +71,6 @@ class Customer
         LastName = lastName;
     }
 }
-
 ```
 
 The use of the `var` keyword is almost the reverse of the improvements to target typing in C# 9.

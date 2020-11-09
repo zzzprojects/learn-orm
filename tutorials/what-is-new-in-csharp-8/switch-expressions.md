@@ -27,7 +27,7 @@ var result = input switch
 Console.WriteLine(result);
 ```
 
-Let's implement the same functionality in the traditional `switch` statement and compared it with the new `switch` expressions.
+Let's implement the same functionality in the classic `switch` statement and compared it with the new `switch` expressions.
 
 ```csharp
 var input = 2;
@@ -56,7 +56,7 @@ switch (input)
 Console.WriteLine(result);
 ``` 
 
-You can see that the new `switch` expressions enable you to use more concise expression syntax. Now let's compare the new `switch` expressions with the traditional `switch` statement.
+You can see that the new `switch` expressions enable you to use more concise expression syntax. Now let's compare the new `switch` expressions with the classic `switch` statement.
 
  - In the `switch` expressions, you can see that there is no `case`, `break` (or `return`) statement, so it means that these keywords are not necessary.
  - The variable comes before the `switch` keyword, the different order makes it visually easy to distinguish the `switch` expression from the `switch` statement. 

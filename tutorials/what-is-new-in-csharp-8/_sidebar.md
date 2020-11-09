@@ -4,3 +4,4 @@
   * [Readonly Members](readonly-members.md)
   * [Switch Expressions](switch-expressions.md)
   * [Using Declaration](using-declaration.md)
+  * [Static Local Functions](static-local-functions.md)

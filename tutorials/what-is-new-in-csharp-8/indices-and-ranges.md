@@ -57,7 +57,7 @@ The `System.Range` struct represents a range that has start and end indexes.
 
  - It represents a sub range of a sequence.
  - The range operator `..`, which specifies the start and end of a range as its operands.
- - The start of the range is inclusive, but the end of the range is exclusive, meaning the start is included in the range but the end isn't included in the range.
+ - The start of the range is inclusive, but the end of the range is exclusive, meaning the start is included in the range but the end isn't.
  - The range `[0..^0]` represents the entire range, just as `[0..nameOfMonths.Length]` represents the entire range.
 
 Let's consider the same array which contains all the names of months. The following code creates a subrange with the months "March", "April", and "May". It includes `nameOfMonths[2]` through `nameOfMonths[5]`. The element `nameOfMonths[5]` isn't in the range.

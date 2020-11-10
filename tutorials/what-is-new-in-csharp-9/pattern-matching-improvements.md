@@ -30,7 +30,7 @@ public static LifeStage LifeStageAtAge(int age) => age switch
 };
 ```
 
-Relational patterns support the relational operators `<`, `<=`, `>`, and `>=` on all of the built-in types that support such binary relational operators with two operands of the same type in an expression. 
+Relational patterns support the relational operators `<`, `<=`, `>`, and `>=` on all the built-in types that support such binary relational operators with two operands of the same type in an expression. 
 
 ## Pattern Combinators
 

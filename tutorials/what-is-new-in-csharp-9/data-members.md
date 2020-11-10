@@ -31,7 +31,7 @@ If you want a private field, you can just add the private modifier explicitly as
 private string Name;
 ```
 
-Sometimes it's useful to have a more positional approach to a record, where its contents are given via constructor arguments and can be extracted with positional deconstruction. 
+Sometimes it's useful to have a more positional approach to a record, where its content is given via constructor arguments and can be extracted with positional deconstruction. 
 
 It is also possible to specify your constructor and deconstructor in a record.
 

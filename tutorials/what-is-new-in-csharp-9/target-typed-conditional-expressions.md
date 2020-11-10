@@ -7,7 +7,7 @@ Name: Target-typed Conditional Expressions
 
 C# 9 brings also some improvements with target-typed conditional operators, such as ternary statements. The goal of this new feature is to create a better conversion from expressions.
 
-Let's consider the following conditional expression 
+Let's consider the following conditional expression.
 
 ```csharp
 condition ? expr1 : expr2

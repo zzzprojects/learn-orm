@@ -5,7 +5,7 @@ Name: Init-only Properties
 
 # Init-only Properties
 
-The `init` feature is designed to be compatible with existing `get` only properties. Specifically, it is meant to be a completely additive change for a property that is `get` only today but desires more flexible object creation semantics.
+The `init` feature is designed to be compatible with existing `get` only properties. Specifically, it is meant to be a completely additive change for a property that gets only today but desires more flexible object creation semantics.
 
  - The init only properties can be set at the point of object creation but become effectively `get` only once object creation has completed. 
  - It allows for a much more flexible immutable model in C#.

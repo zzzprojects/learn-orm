@@ -74,7 +74,7 @@ obj.DefaultImplementationMethod();
 obj.AnotherMethod();
 ```
 
-Now you execute the above code you will see the following output.
+Now you execute the above code and you will see the following output.
 
 ```csharp
 This is a default method overridden in class B.

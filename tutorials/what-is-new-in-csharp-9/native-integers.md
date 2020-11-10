@@ -35,7 +35,7 @@ var result3 = y + 1 > x;               // True;
 var result4 = y - 1 == x;              // False
 ```
 
-As you can see that when you add an `int` to a `nint` the result is a `nint`, but if you add a `long` to a `nint` the result will be a `long`. This is because the native depending on the platform could be a 32-bit integer or a 64-bits integer.
+As you can see, when you add an `int` to a `nint` the result is a `nint`, but if you add a `long` to a `nint` the result will be a `long`. This is because the native depending on the platform could be a 32-bit integer or a 64-bits integer.
 
 An arrays support native-sized signed type as an index as shown below.
 

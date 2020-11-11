@@ -9,3 +9,4 @@
   * [Asynchronous Streams](asynchronous-streams.md)
   * [Null-coalescing Assignment](null-coalescing-assignment.md)
   * [Unmanaged Constructed Types](unmanaged-constructed-types.md)
+  * [Stackalloc in Nested Expressions](stackalloc-in-nested-expressions.md)

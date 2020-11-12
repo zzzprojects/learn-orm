@@ -55,9 +55,9 @@ public static void SimpleLoalFunctionExample()
 }
 ```
 
-It is the simplest form of a local function in which a `WriteMessage` function takes a `string` as a parameter and print that message to the console.
+It is the simplest form of a local function in which a `WriteMessage` function takes a `string` as a parameter and prints that message to the console.
 
-Local functions can access variables from enclosing scope of the containing method as shown in the below example.
+Local functions can access variables from the enclosing scope of the containing method as shown in the below example.
 
 ```csharp
 public static void AddExampleUsingLocalFunction()

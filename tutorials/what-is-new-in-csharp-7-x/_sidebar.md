@@ -6,3 +6,4 @@
   * [Binary Literals](binary-literals.md)
   * [Digit Separators](digit-separators.md)
   * [Async Reutrn Types](async-return-types.md)
+  * [Async Main](async-main.md)

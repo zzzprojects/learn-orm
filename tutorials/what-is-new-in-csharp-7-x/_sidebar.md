@@ -5,3 +5,4 @@
   * [Throw Expressions](throw-expressions.md)
   * [Binary Literals](binary-literals.md)
   * [Digit Separators](digit-separators.md)
+  * [Async Reutrn Types](async-return-types.md)

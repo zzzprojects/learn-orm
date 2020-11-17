@@ -10,12 +10,12 @@ Name: Async Main
 The `Main` method is the entry point of a C# application. When the application is started, the `Main` method is the first method that is invoked.
 
  - The `Main` is declared inside a class or struct. 
- - It must be `static` and it need not be public. 
+ - It must be `static`, and it need not be public. 
  - The enclosing `class` or `struct` is not required to be `static`.
  - The return type of `Main` method can be either `void` or `int`.
- - It can have one parameter of a string array, containing any command-line arguments.
+ - It can have one parameter of a string array containing any command-line arguments.
 
-Before C# 7.1, there are four overloaded versions that are considered as the valid `signatures` for the Main method in C# as shown below.
+Before C# 7.1, four overloaded versions were considered valid signatures for the Main method in C#, as shown below.
 
 ```csharp
 static void Main();  
@@ -32,7 +32,7 @@ static Task Main(string[] args);
 static Task < int > Main(string[] args); 
 ```
 
-An `async Main` method enables you to use `await` in your `Main` method. Before C# 7.1, when you want to call the `async` method from the `Main` method, you need to add some boilerplate code as shown below.
+An `async Main` method enables you to use `await` in your `Main` method. Before C# 7.1, when you want to call the `async` method from the `Main` method, you need to add some boilerplate code, as shown below.
 
 ```csharp
 static void Main(string[] args)
@@ -47,7 +47,7 @@ static Task<string> GetHelloWorldAsync()
 }
 ```
 
-Now in C# 7.1, the syntax is simpler and easy to use just by using the async main.
+Now in C# 7.1, the syntax is simpler and easy to use only using the async main.
 
 ```csharp
 static async Task Main(string[] args)

@@ -57,7 +57,7 @@ public static void SimpleLoalFunctionExample()
 
 It is the simplest form of a local function in which a `WriteMessage` function takes a `string` as a parameter and prints that message to the console.
 
-Local functions can access variables from the enclosing scope of the containing method as shown in the below example.
+Local functions can access variables from the enclosing scope of the containing method, as shown in the below example.
 
 ```csharp
 public static void AddExampleUsingLocalFunction()
@@ -73,5 +73,5 @@ public static void AddExampleUsingLocalFunction()
 }
 ```
 
-As you can see that local functions automatically capture the context of the enclosing scope to make any variables from the containing method available inside them. The local variables called `num1` and `num2` are accessible for the function as they are defined inside the container function.
+As you can see, the local functions automatically capture the enclosing context scope to make any variables from the containing method available inside them. The local variables called `num1` and `num2` are accessible for the function as they are defined inside the container function.
 

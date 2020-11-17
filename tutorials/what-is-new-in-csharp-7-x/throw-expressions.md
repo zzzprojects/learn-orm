@@ -5,12 +5,12 @@ Name: Throw Expressions
 
 # Throw Expressions
 
-In your application, when an unexpected runtime error arises due to a violation of system or application constraint, or a condition that is not expected to occur during normal execution of the program then it will throw an exception and you will need to provide a `catch` block to catch that exception. 
+In your application, when an unexpected runtime error arises due to a violation of system or application constraint or a condition that is not expected to occur during normal execution of the program, then it will throw an exception, and you will need to provide a `catch` block to catch that exception. 
 
- - In C# 7.0, a new feature **Throw Expressions** is introduced which will allow you to throw exceptions from conditional expressions, null-coalescing expressions, and most importantly, with expression-bodied members. 
- - Before C# 7, the throw was just a statement, but now it can be used within the body of the code because it now works as an expression. 
+ - In C# 7.0, a new feature **Throw Expressions** is introduced allowing you to throw exceptions from conditional expressions, null-coalescing expressions, and most importantly, with expression-bodied members. 
+ - Before C# 7, the throw was just a statement, but now it can be used within the code body because it now works as an expression. 
 
-Starting with C# 7.0, `throw` can be used as an expression as well as a statement. The following example uses a throw expression to throw an ArgumentException if a method is passed an empty string array. 
+Starting with C# 7.0, the `throw` can be used as an expression as well as a statement. The following example uses a throw expression to throw an ArgumentException if a method is passed an empty string array. 
 
 ```csharp
 private static void DisplayFirstNumber(string[] numbers)

@@ -5,9 +5,9 @@ Name: Stackalloc in Nested Expressions
 
 # Stackalloc in Nested Expressions
 
-The `stackalloc` operator allocates a memory block in the stack. A memory block is created during the execution of the method and it is automatically deleted when the method is returned.
+The `stackalloc` operator allocates a memory block in the stack. A memory block is created during the execution of the method, and it is automatically deleted when the method is returned.
 
- - The `Span<T>`, `ReadOnlySpan<T>`, and `Memory<T>` are `ref` `struct` instances that are guaranteed to be allocated on the stack, and therefore won't affect the garbage collector. 
+ - The `Span<T>`, `ReadOnlySpan<T>`, and `Memory<T>` are `ref` `struct` instances guaranteed to be allocated on the stack, and therefore won't affect the garbage collector. 
  - Using `Span`, it was also possible to avoid declaring the stackalloc statements that are directly assigned to `Span` or `ReadOnlySpan` as `unsafe`.
 
 In C# 8.0, if the result of a `stackalloc` expression is `Span<T>` or `ReadOnlySpan<T>`, you can use the stackalloc expression in other expressions as shown in the below example.

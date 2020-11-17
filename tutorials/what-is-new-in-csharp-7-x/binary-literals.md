@@ -16,7 +16,7 @@ Literal is a fixed value that is used by the variables. Before C# 7.0, the follo
  - Null
  - Boolean
 
-In C# 7.0, one more literal is introduced known as binary literal. It allows the developer to assign a binary value to the variable. You can define the binary literal as shown below.  
+In C# 7.0, one more literal is introduced, known as binary literal. It allows the developer to assign a binary value to the variable. You can define the binary literal, as shown below.  
 
 ```csharp
 var value1 = 0b1001;

@@ -31,7 +31,7 @@ public struct Point3D<T>
 }
 ```
 
-The above example defines the generic `Point3D<T>` type. The `Point3D<double>` type is an unmanaged type and for any unmanaged type, you can create a pointer to a variable of this type or allocate a block of memory on the stack for instances of this type as shown below.
+The above example defines the generic `Point3D<T>` type. The `Point3D<double>` type is an unmanaged type, and for any unmanaged type, you can create a pointer to a variable of this type or allocate a block of memory on the stack for instances of this type as shown below.
 
 ```csharp
 Span<Point3D<double>> points = stackalloc[] 
@@ -47,4 +47,4 @@ foreach (var point in points)
 }
 ```
 
-A generic struct may be the source of both unmanaged and not unmanaged constructed types. The above example defines a generic struct `Point3D<T>` and presents the examples of unmanaged constructed types.
+A generic struct may be the source of both unmanaged and not unmanaged constructed types. The above example defines a generic struct `Point3D<T>` and presents an unmanaged constructed types.

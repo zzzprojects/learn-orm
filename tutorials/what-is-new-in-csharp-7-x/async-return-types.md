@@ -9,13 +9,13 @@ Before C# 7.0, the async methods supported the following return types.
 
  - **Task:** Used for an async method that performs an operation but returns no value.
  - **Task\<TResult\>:** Used for an async method that returns a value.
- - **void:** Used for an event handler.
+ - **Void:** Used for an event handler.
 
 From C# 7.0, an async method can return any type that has an accessible `GetAwaiter` method. The object returned by the `GetAwaiter` method must implement the `ICriticalNotifyCompletion` interface.
 
 Returning a `Task` object from async methods can introduce performance bottlenecks in certain paths. `Task` is a reference type, so using it means allocating an object. 
 
- - In cases where a method declared with the async modifier returns a cached result or completes synchronously, the extra allocations can become a significant time cost in performance-critical sections of code. 
+ - In cases where a method declared with the async modifier returns a cached result or completes synchronously, the extra allocations can become a significant time cost in performance-critical code sections. 
  - It can become costly if those allocations occur in tight loops.
 
 Starting with C# 7.0, an asynchronous method also can return `ValueTask` or ValueTask<TResult>. 

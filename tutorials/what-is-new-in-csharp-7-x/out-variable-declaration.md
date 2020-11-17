@@ -5,9 +5,9 @@ Name: Out Variable Declaration
 
 # Out Variable Declaration
 
-The **out variable declaration** feature introduced in C# 7.0 enables you to declare a variable at the location that it is being passed as an `out` argument. A variable declared this way is called an out variable.
+The **out variable declaration** feature introduced in C# 7.0 enables you to declare a variable where that it is being passed as an `out` argument. A variable declared this way is called an out variable.
 
-Before C# 7.0, to use an out variable, you must first declare a variable of the correct type before using it and them pass it as an `out` parameter as shown below.
+Before C# 7.0, to use an out variable, you must first declare a variable of the correct type before using it, and then pass it as an `out` parameter as shown below.
 
 ```csharp
 string address;
@@ -22,7 +22,7 @@ GetAddress(out string address);
 Console.WriteLine(address);
 ```
 
-You can also declare more than one output parameters using the new syntax as shown below.
+You can also declare more than one output parameter using the new syntax, as shown below.
 
 ```csharp
 private static void GetCoords(out double x, out double y, out double z)
@@ -50,13 +50,13 @@ private static void GetEmployee(out string name, out string title, out int age, 
     salary = 5000;---
 PermaID: 100002
 Name: Out Variable Declaration
----
+```
 
 # Out Variable Declaration
 
 The **out variable declaration** feature introduced in C# 7.0 enables you to declare a variable at the location that it is being passed as an `out` argument. A variable declared this way is called an out variable.
 
-Before C# 7.0, to use an out variable, you must first declare a variable of the correct type before using it and then pass it as an `out` parameter as shown below.
+Before C# 7.0, to use an out variable, you must first declare a variable of the correct type before using it and then pass it as an `out` parameter, as shown below.
 
 ```csharp
 string address;
@@ -122,6 +122,7 @@ public static void Example5()
     GetEmployee(out var name, out var title, out var age, out _);
     Console.WriteLine("Name: {0}, Title: {1}, Age: {2}", name, title, age);
 }
+```
 ```
 }
 

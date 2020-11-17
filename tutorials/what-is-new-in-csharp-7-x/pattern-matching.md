@@ -5,16 +5,16 @@ Name: Pattern Matching
 
 # Pattern Matching
 
-Pattern matching concept was first introduced in C# 7.0 and it checks if an object reflects a certain shape. It will also chech that it can extract information from the value when it has the matching shape. 
+Pattern matching concept was first introduced in C# 7.0, and it checks if an object reflects a certain shape. It will also check that it can extract information from the value when it has the matching shape. 
 
  - It provides more concise syntax for algorithms you already use today. 
- - You already create pattern matching algorithms using existing syntax such as `if` or `switch` statements that test values and when those statements match, you extract and use information from that value. 
+ - You already create pattern matching algorithms using existing syntax such as `if` or `switch` statements that test values, when those statements match, you extract and use information from that value. 
  - The new syntax elements are extensions to statements you are already familiar with i.e. `is` and `switch`. 
  - These new extensions combine testing a value and extracting that information.
 
 ## `is` Type Pattern
 
-Before C# 7.0, you would need to test each type in a series of `if` and `is` statements. Let's consider the following simple example which a classic expression of the type pattern. 
+Before C# 7.0, you would need to test each type in a series of `if` and `is` statements. Let's consider the following simple example, which a classic expression of the type pattern. 
 
 ```csharp
 if (person is Teacher)
@@ -27,9 +27,9 @@ else if (person is Student)
 }
 ```
 
-As you can see that it is testing a variable to determine its type and taking a different action based on that type. 
+As you can see, it is testing a variable to determine its type and taking a different action based on that type. 
 
-Now in C# 7.0, this code becomes simpler using extensions to the `is` expression to assign a variable if the test succeeds.
+In C# 7.0, this code becomes simpler using extensions to the `is` expression to assign a variable if the test succeeds.
 
 ```csharp
 if (person is Teacher t)
@@ -42,7 +42,7 @@ else if (person is Student s)
 }
 ```
 
-The `is` expression both tests the variable and assigns it to a new variable of the proper type in C# 7.0 and later. 
+The `is` expression tests both the variable and assigns it to a new variable of the proper type in C# 7.0 and later. 
 
  - The new `is` expression works with value types as well as reference types.
  - The variables `t` and `s` are only in scope and definitely assigned when the respective pattern match expressions have true results. 
@@ -50,7 +50,7 @@ The `is` expression both tests the variable and assigns it to a new variable of 
 
 ## `switch` Type Pattern
 
-The traditional `switch` statement was a pattern expression and it supported the constant pattern by comparing a variable to any constant used in a `case` statement.
+The traditional `switch` statement was a pattern expression, and it supported the constant pattern by comparing a variable to any constant used in a `case` statement.
 
 ```csharp
 int caseSwitch = 1;
@@ -69,7 +69,7 @@ switch (caseSwitch)
 }
 ```
 
-The only pattern supported was the constant pattern and it was also limited to numeric types and the string type. 
+The only pattern supported was the constant pattern, and it was also limited to numeric types and the string type. 
 
 In C# 7.0, those restrictions have been removed, and you can now write a `switch` statement using the type pattern as shown below.
 
@@ -85,11 +85,11 @@ switch (person)
 }
 ```
 
-Each `case` is evaluated and the code beneath the condition that matches the input variable is executed. The syntax of the case statement requires that each case end with a `break`, `return`, or `goto`.
+Each `case` is evaluated, and the code beneath the condition that matches the input variable is executed. The case statement statement requires that each case end with a `break`, `return`, or `goto`.
 
 ### `when` Clause
 
-You can also use a `when` clause on the case label to specify an aditional condition. Let's consider the following example in which we have specify a condition using a `when` clause on the case label.
+You can also use a `when` clause on the case label to specify an additional condition. Let's consider the following example in which we specified a condition using a `when` clause on the case label.
 
 ```csharp
 switch (person)

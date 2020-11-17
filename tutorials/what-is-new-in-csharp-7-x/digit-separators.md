@@ -5,10 +5,10 @@ Name: Digit Separators
 
 # Digit Separators
 
-The digit separator feature is also introduced in C# 7.0. You can separate the large number into small parts which makes your code more readable using the digit separator. 
+The digit separator feature is also introduced in C# 7.0. You can separate the large number into small parts making your code more readable using the digit separator. 
 
  - The underscore (`_`) is used as a digit separator. 
- - When you use digit separator in your code they are ignored by the compiler.
+ - When you use a digit separator in your code, they are ignored by the compiler.
 
 Let's consider the following simple example without using digit separators.
 
@@ -30,9 +30,9 @@ Console.WriteLine(num1);
 Console.WriteLine(num2);
 ```
 
-As you can see that by adding the digit separator have a great readability impact and have no significant downside.
+As you can see, by adding the digit separator, you can have a great readability impact and no significant downside.
 
- - The digit separator can appear anywhere in the constant, the different groupings may make sense in different scenarios and especially for different numeric bases.
+ - The digit separator can appear anywhere in the constant. The different groupings may make sense in different scenarios, and especially for different numeric bases.
  - Any sequence of digits may be separated by one or more underscores. 
  - The `_` is allowed in decimals as well as exponents.
 

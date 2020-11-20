@@ -14,3 +14,4 @@
   * [Private Protected](private-protected.md)
   * [Conditional Ref Expressions](conditional-ref-expressions.md)
   * [Unmanaged Generic Constraints](unmanaged-generic-constraints.md)
+  * [Indexing Fixed Fields Without Pinning](indexing-fixed-fields-without-pinning.md)

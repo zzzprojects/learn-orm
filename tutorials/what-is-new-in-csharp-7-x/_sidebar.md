@@ -15,3 +15,4 @@
   * [Conditional Ref Expressions](conditional-ref-expressions.md)
   * [Unmanaged Generic Constraints](unmanaged-generic-constraints.md)
   * [Indexing Fixed Fields Without Pinning](indexing-fixed-fields-without-pinning.md)
+  * [Fixed Pattern](fixed-pattern.md)

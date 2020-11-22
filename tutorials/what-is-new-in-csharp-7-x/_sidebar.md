@@ -17,3 +17,4 @@
   * [Indexing Fixed Fields Without Pinning](indexing-fixed-fields-without-pinning.md)
   * [Fixed Pattern](fixed-pattern.md)
   * [Ref Returns and Ref Locals](ref-returns-and-ref-locals.md)
+  * [Stackalloc Array Initializers](stackalloc-array-initializers.md)

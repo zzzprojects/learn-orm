@@ -18,3 +18,4 @@
   * [Fixed Pattern](fixed-pattern.md)
   * [Ref Returns and Ref Locals](ref-returns-and-ref-locals.md)
   * [Stackalloc Array Initializers](stackalloc-array-initializers.md)
+  * [Tuple Equality and Inequality](tuple-equality-and-inequality.md)

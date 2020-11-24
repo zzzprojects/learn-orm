@@ -5,8 +5,6 @@ Name: Preview 2
 
 # Preview 2
 
-.NET 5 Preview 2 contains a set of smaller features and performance improvements. In this iteration, ASP.NET Core and EF Core are also being released.
-
 Here are some of the improvements in Preview 2.
 
 ## Code quality improvements in RyuJIT

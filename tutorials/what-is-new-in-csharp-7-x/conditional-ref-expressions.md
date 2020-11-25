@@ -75,7 +75,7 @@ Console.WriteLine(string.Join(" ", array1));
 Console.WriteLine(string.Join(" ", array2));
 ```
 
-Let's run the above example and you will see the following output.
+Let's run the above example and, you will see the following output.
  
 ```csharp
 21 37 19 100000 5
@@ -100,7 +100,7 @@ Console.WriteLine(string.Join(" ", array1));
 Console.WriteLine(string.Join(" ", array2));
 ```
 
-Let's run the above example and you will see the following output.
+Let's run the above example and, you will see the following output.
  
 ```csharp
 21 37 19 100000 5

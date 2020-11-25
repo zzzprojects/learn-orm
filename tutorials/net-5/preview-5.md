@@ -55,3 +55,7 @@ The support for Alpine 3.12, for .NET Core 3.1, and .NET 5 was added in this ite
  - The maintainers of Alpine Linux announced the release of Alpine 3.12 on May 29th. 
  - We are working on adding support for new Linux distro versions more quickly and predictably than what we have done in the past. 
  - We have heard feedback that you must have access to .NET on new versions of Alpine, Debian, Ubuntu, and others as quickly as possible.
+
+## Reloadable endpoints via configuration for Kestrel
+
+Kestrel now has the ability to observe changes to configuration passed to `KestrelServerOptions.Configure` and unbind from existing endpoints and bind to new endpoints without requiring you to restart your application.

@@ -36,9 +36,9 @@ class B : A
 }
 ```
 
-As you can see that we can access the base class `A` private protected member using the reference of derived class `B`.
+As you can see, we can access the base class `A` private protected member using the reference of derived class `B`.
 
-But if you uncomment the commented line you will get the following compile-time error.
+But if you uncomment the commented line, you will get the following compile-time error.
 
 ```csharp
 Error CS1540 Cannot access protected member 'A.privateProtectedIntVal' via a qualifier of type 'A'; the qualifier must be of type 'B' (or derived from it)

@@ -51,7 +51,7 @@ public unsafe void PrintArrayUsingPinning()
 Pointers to movable managed variables are useful only in a `fixed` context. Without a `fixed` context, garbage collection could relocate the variables unpredictably. The C# compiler only lets you assign a pointer to a managed variable in a `fixed` statement.
 
  - Basically, you need to take a reference to the `fixed` field and save it into a pointer. 
- - Then inside the `fixed` statement body you can use the pointer to make changes to the particular variable.
+ - Then inside the `fixed` statement body, you can use the pointer to make changes to the particular variable.
  - Similarly, you can use the same syntax to access elements of the fixed array.
 
 Now in C# 7.3, this new feature allows you to index fixed fields without doing any pinning. 

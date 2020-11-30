@@ -5,7 +5,7 @@ Name: Preview 6
 
 # Preview 6
 
-Here are some of the improvements in Preview 3.
+Here are some of the improvements in Preview 6.
 
 ## Windows Forms
 

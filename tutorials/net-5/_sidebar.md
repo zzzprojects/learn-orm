@@ -11,3 +11,4 @@
   * System.Text.Json new features
     * [Preserve References and Handle Circular References](preserve-references-and-handle-circular-references.md)
     * [HttpClient and HttpContent Extension Methods](httpclient-and-httpcontent-extension-methods.md)
+    * [Allow or Write Numbers in Quotes](allow-or-write-numbers-in-quotes.md)

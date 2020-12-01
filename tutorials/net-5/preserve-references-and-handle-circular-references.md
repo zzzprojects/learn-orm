@@ -20,37 +20,34 @@ public class Employee
     public List<Employee> DirectReports { get; set; }
 }
 
-public class Program
+public static void Example()
 {
-    public static void Main()
+    Employee tyler = new()
     {
-        Employee tyler = new()
-        {
-            Name = "Tyler Stein"
-        };
+        Name = "Tyler Stein"
+    };
 
-        Employee adrian = new()
-        {
-            Name = "Adrian King"
-        };
+    Employee adrian = new()
+    {
+        Name = "Adrian King"
+    };
 
-        tyler.DirectReports = new List<Employee> { adrian };
-        adrian.Manager = tyler;
+    tyler.DirectReports = new List<Employee> { adrian };
+    adrian.Manager = tyler;
 
-        JsonSerializerOptions options = new()
-        {
-            ReferenceHandler = ReferenceHandler.Preserve,
-            WriteIndented = true
-        };
+    JsonSerializerOptions options = new()
+    {
+        ReferenceHandler = ReferenceHandler.Preserve,
+        WriteIndented = true
+    };
 
-        string tylerJson = JsonSerializer.Serialize(tyler, options);
-        Console.WriteLine($"Tyler serialized:\n{tylerJson}");
+    string tylerJson = JsonSerializer.Serialize(tyler, options);
+    Console.WriteLine($"Tyler serialized:\n{tylerJson}");
 
-        Employee tylerDeserialized = JsonSerializer.Deserialize<Employee>(tylerJson, options);
+    Employee tylerDeserialized = JsonSerializer.Deserialize<Employee>(tylerJson, options);
 
-        Console.WriteLine("Tyler is manager of Tyler's first direct report: ");
-        Console.WriteLine(tylerDeserialized.DirectReports[0].Manager == tylerDeserialized);
-    }
+    Console.WriteLine("Tyler is manager of Tyler's first direct report: ");
+    Console.WriteLine(tylerDeserialized.DirectReports[0].Manager == tylerDeserialized);
 }
 ```
 

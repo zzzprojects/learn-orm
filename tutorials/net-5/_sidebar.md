@@ -9,4 +9,5 @@
   * [Preview 7](preview-7.md)
   * [Preview 8](preview-8.md)
   * System.Text.Json new features
-    * [Preserve References and Handle Circular References](preserve-references-and-handle-circular-references.md) 
+    * [Preserve References and Handle Circular References](preserve-references-and-handle-circular-references.md)
+    * [HttpClient and HttpContent Extension Methods](httpclient-and-httpcontent-extension-methods.md)

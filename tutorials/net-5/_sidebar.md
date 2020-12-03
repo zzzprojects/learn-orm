@@ -15,3 +15,4 @@
     * [Immutable Types and Records](immutable-types-and-records.md)
     * [Non-public Property Accessors](non-public-property-accessors.md)
     * [Include Fields](include-fields.md)
+    * [Ignore Properties](ignore-properties.md)

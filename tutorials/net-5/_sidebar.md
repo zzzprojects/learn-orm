@@ -17,3 +17,4 @@
     * [Include Fields](include-fields.md)
     * [Ignore Properties](ignore-properties.md)
     * [Allow Custom Converters to Handle Null](allow-custom-converters-to-handle-null.md)
+    * [Copy JsonSerializerOptions](copy-json-serializer-options.md)

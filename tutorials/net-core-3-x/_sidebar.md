@@ -4,4 +4,5 @@
   * [macOS appHost and Notarization](macos-apphost-and-notarization.md)
   * [Single-file Executables](single-file-executables.md)
   * [Assembly Linking](assembly-linking.md)
+  * [Tiered Compilation](tiered-compilation.md)
   

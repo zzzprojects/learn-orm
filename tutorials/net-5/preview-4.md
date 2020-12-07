@@ -9,7 +9,7 @@ The following improvements are new in Preview 4 and not otherwise covered in the
 
 ## F# 5
 
-Building on the F# 5 preview released earlier this year, the update to F# 5 includes support for consuming Default Interface Methods (DIMs) and some big performance improvements. Here’s a sneak peek at the DIMs support in F#:
+Building on the F# 5 preview released earlier this year, the update to F# 5 includes support for consuming Default Interface Methods (DIMs) and some big performance improvements. Hereâ€™s a sneak peek at the DIMs support in F#:
 
 ```csharp
 open CSharp
@@ -34,7 +34,7 @@ For more information, you can read the [F# 5 update for .NET 5 preview 4](https:
 
 An update to the C# Source Generators preview is included in this iteration. 
 
- - Besides some bug fixes, it includes support for passing an `analyzerconfig`, which is essentially a list of key-value pairs, to a Source Generator. 
+ - Besides some bug fixes, it includes support for passing an `analyzerconfig`, wich is essentially a list of key-value pairs, to a Source Generator. 
  - This lets your source generators work differently based on the input they receive. 
  - For example, you may want to generate source code differently if a consuming project targets .NET Framework vs. .NET 5. 
  - Using an `analyzerconfig` allows you to pass information like a consuming project's TFM to allow for exactly this scenario.
@@ -42,7 +42,7 @@ An update to the C# Source Generators preview is included in this iteration.
 ## Support for ICU on Windows
 
  - The ICU library provides Unicode and Globalization support for applications on Linux and macOS. 
- - This library can be used now on Windows and this change makes the behavior of globalization APIs such as culture-specific string comparison consistent between Windows 10 and other operating systems.
+ - This library can be used now on Windows, and this change makes the behavior of globalization APIs such as culture-specific string comparison consistent between Windows 10 and other operating systems.
 
 ## Support for cgroup v2 (for containers)
 
@@ -56,9 +56,9 @@ An update to the C# Source Generators preview is included in this iteration.
 
 ## Reducing the Size of Container Images
 
-Everyone always looking for opportunities to make .NET container images smaller and easier to use. 
+Everyone is always looking for opportunities to make .NET container images smaller and easier to use. 
 
- - In Preview 4, that dramatically reduces the size of the aggregate images you pull in multi-stage-build scenarios which is a very common pattern. 
+ - Preview 4, dramatically reduces the size of the aggregate images you pull in multi-stage-build scenarios which is a very common pattern. 
  - We re-based the SDK image on top of the ASP.NET image instead of buildpack-deps.
 
 This change has the following win for multi-stage builds.

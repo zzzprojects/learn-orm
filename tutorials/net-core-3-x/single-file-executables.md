@@ -63,7 +63,7 @@ To publish a single-file executable, set the `PublishSingleFile` in your project
 </PropertyGroup>
 ```
 
-Or you can run the `dotnet publish` from the command line as shown below
+Or you can run the `dotnet publish` from the command line as shown below.
 
 ```csharp
 dotnet publish -r win10-x64 -p:PublishSingleFile=true

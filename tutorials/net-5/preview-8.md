@@ -109,7 +109,7 @@ if (context?.IsReachable && context?.Length > 1 )
 }
 ```
 
-The following example uses relational patterns (like <, <=), and logical ones (like and, or and not). The following code produces the highway toll (as a decimal) for a delivery truck based on its gross weight. For those not familiar, m after a numeric literal tells the compiler then the number is a decimal and not a double.
+The following example uses relational patterns (like <, <=), and logical ones (like and, or and not). The following code produces the highway toll (as a decimal) for a delivery truck based on its gross weight. For those not familiar, m after a numeric literal tells the compiler, then the number is a decimal and not a double.
 
 ```csharp
 DeliveryTruck t when t.GrossWeightClass switch
@@ -138,7 +138,7 @@ many people read left-to-right and want the type information on the left-hand si
 
 ### F# 5
 
-Building on updates to the F# 5 preview released earlier this year, this final update to F# 5 wraps up language support and adds two new features, Interpolated Strings, and Open Type Declarations. Here's a sneak peek at what you can do with them:
+Building on updates to the F# 5 preview released earlier this year, this final update to F# 5 wraps up language support. It adds two new features, Interpolated Strings, and Open Type Declarations. Here's a sneak peek at what you can do with them:
 
 #### Interpolated Strings
 
@@ -188,7 +188,7 @@ Here are some of the improvements to the runtime diagnostic tools.
 
 The team has made improvements to the console log provider in the `Microsoft.Extensions.Logging` library. 
 
- - Developers can now implement a custom `ConsoleFormatter` to exercise complete control over formatting and colorization of the console output. 
+ - Developers can now implement a custom `ConsoleFormatter` to exercise complete control over formatting and colorizing the console output. 
  - The formatter APIs allow for rich formatting by implementing a subset of the VT-100 (supported by most modern terminals) escape sequences. The console logger can parse out escape sequences on unsupported terminals allowing you to author a single formatter for all terminals.
 
 Besides, to support custom formatters, a built-in JSON formatter is also added that emits structured JSON logs to the console. 
@@ -208,7 +208,7 @@ In Preview 8, the support for capturing ELF dumps from .NET processes running on
 
 ### Assembly load diagnostics added to event pipe
 
-The assembly load information is added to the event pipe. You can think of this as a replacement to the [Fusion Log Viewer](https://docs.microsoft.com/en-us/dotnet/framework/tools/fuslogvw-exe-assembly-binding-log-viewer). You can now use dotnet-trace to collect this information, using the following command:
+The assembly load information is added to the event pipe. You can think of this as a replacement for the [Fusion Log Viewer](https://docs.microsoft.com/en-us/dotnet/framework/tools/fuslogvw-exe-assembly-binding-log-viewer). You can now use dotnet-trace to collect this information, using the following command:
 
 ```csharp
 dotnet-trace collect --providers Microsoft-Windows-DotNETRuntime:4:4 --process-id [process ID]
@@ -255,7 +255,7 @@ Many new APIs were added and improved in .NET 5.0. The following are important c
 
 Nullable reference types were an important feature of C# 8 and .NET Core 3.0. It was released with a lot of promise but was missing exhaustive platform annotations to make it truly useful and practical. 
 
- - The platform is now 80% annotated for nullability and the team is looking into whether we can annotate the remaining 20% before we ship .NET 5.0 RTM. If not, then it is going to finish the remaining annotations early in .NET 6.0.
+ - The platform is now 80% annotated for nullability, and the team is looking into whether we can annotate the remaining 20% before we ship .NET 5.0 RTM. If not, then it is going to finish the remaining annotations early in .NET 6.0.
  - This also means that your existing .NET Core 3.1 code might generate new diagnostics (if you have nullability enabled) when you retarget it to .NET 5.0. If that happens, you can thank us for helping you avoid nulls.
 
 #### Regular expression performance improvements

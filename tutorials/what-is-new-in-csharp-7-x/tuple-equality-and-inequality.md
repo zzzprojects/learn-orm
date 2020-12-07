@@ -39,7 +39,7 @@ You can compare two tuples with the following conditions.
  - Both tuples have the same number of elements. For example, t1 != t2 doesn't compile if t1 and t2 have different numbers of elements.
  - For each tuple position, the corresponding elements from the left-hand and right-hand tuple operands are comparable with the equality (`==`) and inequality (`!=`) operators. For example, `(1, (2, 3)) == ((1, 2), 3)` doesn't compile because `1` is not comparable with `(1, 2)`.
 
-The equality (`==`) and inequality (`!=`) operators compare tuples in a short-circuiting way. That is, an operation stops as soon as it meets a pair of non-equal elements or reaches the ends of tuples. However, before any comparison, all tuple elements are evaluated as shown below.
+The equality (`==`) and inequality (`!=`) operators compare tuples in a short-circuiting way. An operation stops as soon as it meets a pair of non-equal elements or reaches the ends of tuples. However, before any comparison, all tuple elements are evaluated as shown below.
 
 ```csharp
 int Print(int number)

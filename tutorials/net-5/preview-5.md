@@ -5,13 +5,13 @@ Name: Preview 5
 
 # Preview 5
 
-Here are some of the improvements in Preview 3.
+Here are some of the improvements in Preview 5.
 
 ## RyuJIT improvements
 
 The following improvements were made to the RyuJIT JIT compiler:
 
- - [New, much faster, portable implementation of tail-call helpers](https://github.com/dotnet/runtime/pull/341): This implements tail-call-via-help support for all platforms supported by the runtime. In this new mechanism, the JIT asks the runtime for help whenever it realizes it will need a helper to perform a tail-call, i.e. when it sees an explicit tail. prefixed call that it cannot make into a fast jump-based tail-call.
+ - [New, much faster, portable implementation of tail-call helpers](https://github.com/dotnet/runtime/pull/341): This implements tail-call-via-help support for all platforms supported by the runtime. In this new mechanism, the JIT asks the runtime for help whenever it realizes it will need a helper to perform a tail-call, i.e., when it sees an explicit tail. Prefixed call that it cannot make into a fast jump-based tail-call.
  - Continued ARM64 hardware intrinsics implementation progress
    - Implement ASIMD Extract Insert ExtractVector64 ExtractVector128
    - Implement ASIMD widening, narrowing, saturating intrinsics
@@ -43,7 +43,7 @@ There are existing projects that enable similar scenarios, such as:
 
 ## Expanding System.DirectoryServices.Protocols to Linux and macOS
 
-In this iteration, the support of cross-platform is expanded in `System.DirectoryServices.Protocols`. In Preview 5, the support for Linux is added and for macOS, the support will be added in Preview 6. Support for windows was already available.
+In this iteration, the support of cross-platform is expanded in `System.DirectoryServices.Protocols`. In Preview 5, the support for Linux is added, and for macOS, the support will be added in Preview 6. Support for windows was already available.
 
  - The `System.DirectoryServices.Protocols` is a lower-level API than `System.DirectoryServices` and enables more scenarios. 
  - `System.DirectoryServices` includes Windows-only concepts/implementations, so it was not an obvious choice to make cross-platform. 

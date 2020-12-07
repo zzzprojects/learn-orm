@@ -9,7 +9,7 @@ Here are some of the improvements in Preview 6.
 
 ## Windows Forms
 
-Visual Basic users are used to being able to enforce that their applications are single-instanced (one instance launched at a time). 
+Visual Basic users are used to enforce that their applications are single-instanced (one instance launched at a time). 
 
  - This behavior is now available via `WindowsFormsApplicationBase.IsSingleInstance`. 
  - The Collapse Support is added to `ListViewGroup`, and this change makes it easier to manage a form with multiple `ListViewGroups`.
@@ -20,7 +20,7 @@ You can see the result shown below.
 
 ## RyuJIT code quality improvements
 
-The RyuJIT team continues to add important improvements in each preview specially with Preview 6. Let’s take a look:
+The RyuJIT team continues to add important improvements in each preview, specially with Preview 6. Letâ€™s take a look:
 
  - General improvements
    - [Struct handling improvements](https://github.com/dotnet/runtime/pull/36146)
@@ -38,11 +38,11 @@ The RyuJIT team continues to add important improvements in each preview speciall
 
 ## Single file apps
 
-The team has continuously improved the support **Single-File Apps** in .NET 5. The goal was to enable publishing an app as one file, for Windows, macOS, and Linux. 
+The team has continuously improved the support of **Single-File Apps** in .NET 5. The goal was to enable publishing an app as one file for Windows, macOS, and Linux. 
 
  - As you know in Preview 4 that for Windows **single file** apps required a few extra runtime files. 
  - A new option is added to include native binaries and any additional content like images in the single-file. 
- - These files will be extracted upon first launch and apps that target Linux and macOS don't need to use this option for native runtime binaries, unless they want to use it for media or other content.
+ - These files will be extracted upon first launch, and apps that target Linux and macOS don't need to use this option for native runtime binaries unless they want to use it for media or other content.
 
 ### Current limitations
 
@@ -53,7 +53,7 @@ The team has continuously improved the support **Single-File Apps** in .NET 5. T
 
 Over the years, you have seen a variety of hosting models for .NET in native applications. [@rseanhall](https://github.com/rseanhall) proposed and implemented [a novel new model](https://github.com/dotnet/runtime/issues/35465) for doing that.
 
- - It takes advantage of all the built-in application functionality offered by the .NET application hosting layer specifically loading dependencies while enabling a custom entry point to be called from native code. 
+ - It takes advantage of all the built-in application functionality offered by the .NET application hosting layer, specifically loading dependencies while enabling a custom entry point to be called from native code. 
  - That's perfect for a lot of scenarios, and that one can imagine becoming popular with developers that host .NET components from native applications that didn't exist before.
 
 ### Two primary PRs:
@@ -71,7 +71,7 @@ Windows Runtime (WinRT) is the technology and ABI that new APIs are exposed with
 
 The benefits are called out in Support WinRT APIs in .NET 5:
 
- - WinRT interop can be developed and improved separate from the .NET runtime.
+ - WinRT interop can be developed and improved separatly from the .NET runtime.
  - Makes WinRT interop symmetrical with interop systems provided for other operating systems, like iOS and Android.
  - Can take advantage of many other .NET features (AOT, C# features, IL linking).
  - Simplifies the .NET runtime codebase (removes 60k lines of code).
@@ -80,7 +80,7 @@ For more details, see the official docs issue at https://github.com/dotnet/docs/
  
 ## Platform support
 
-The [.NET 5 – Supported OS versions](https://github.com/dotnet/core/blob/master/release-notes/5.0/5.0-supported-os.md) page is updated to capture the latest plans for platform support for .NET 5.0.
+The [.NET 5 â€“ Supported OS versions](https://github.com/dotnet/core/blob/master/release-notes/5.0/5.0-supported-os.md) page is updated to capture the latest plans for platform support for .NET 5.0.
 
 The package manager and container support aren't listed on that page. This information will be added before the release of .NET 5.0.
 
@@ -97,9 +97,9 @@ You can now easily read and write JSON data from an `HttpRequest` and `HttpRespo
  - These extension methods use the `System.Text.Json` serializer to handle the JSON data. 
  - You can also check if a request has a JSON content type using the new `HasJsonContentType` extension method.
 
-The JSON extension methods can be combined with endpoint routing to create JSON APIs in a style of programming we call **route to code**. It is a new option for developers who want to create basic JSON APIs in a lightweight way. 
+The JSON extension methods can be combined with endpoint routing to create JSON APIs in a programming style we call **route to code**. It is a new option for developers who want to create basic JSON APIs in a lightweight way. 
 
-For example, a web app that has only a handful of endpoints might choose to use a route to code rather than the full functionality of ASP.NET Core MVC.
+For example, a web app with only a handful of endpoints might choose to use a route to code rather than the full functionality of ASP.NET Core MVC.
 
 ```csharp
 
@@ -138,7 +138,7 @@ public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
 
 Custom handling of authorization failures is now easier with the new `IAuthorizationMiddlewareResultHandler` interface that is invoked by the `AuthorizationMiddleware`. 
 
-The default implementation remains the same, but a custom handler can be registered in DI which allows things like custom HTTP responses based on why authorization failed. 
+The default implementation remains the same, but a custom handler can be registered in DI allowing things like custom HTTP responses based on why authorization failed. 
 
 The following example demonstrates the usage of the `IAuthorizationMiddlewareResultHandler`.
 

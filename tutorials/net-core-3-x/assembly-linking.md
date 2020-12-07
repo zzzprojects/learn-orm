@@ -18,7 +18,7 @@ The IL Linker is a tool one can use to only ship the minimal possible IL code an
  - This tool detects what code is required, and then trims unused libraries. 
  - This tool can significantly reduce the deployment size of some apps.
 
-To enable this tool, add the <PublishTrimmed> setting in your project and publish a self-contained app.
+To enable this tool, add the `<PublishTrimmed>` setting in your project and publish a self-contained app.
 
 ```csharp
 <PropertyGroup>

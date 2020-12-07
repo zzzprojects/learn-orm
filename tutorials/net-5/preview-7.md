@@ -13,24 +13,24 @@ Stephen Toub recently posted his [Performance Improvements in .NET 5](https://de
 
 ## System.Text.Json
 
-The usability feature was added to the new JSON API and the following features are new in Preview 7.
+The usability feature was added to the new JSON API, and the following features are new in Preview 7.
 
  - [Ability to ignore default values for value-type properties when serializing](https://github.com/dotnet/runtime/pull/36322/): Can be used to reduce serialization and wire costs.
  - [Ability to handle circular references when serializing](https://github.com/dotnet/runtime/pull/36829): API shape is now expected to be final.
 
 ## Garbage Collection (GC)
 
-The GC now exposes detailed information of the most recent collection, via the `GC.GetGCMemoryInfo` method, which returns a `GCMemoryInfo` struct. 
+The GC now exposes detailed information of the most recent collection via the `GC.GetGCMemoryInfo` method, which returns a `GCMemoryInfo` struct. 
 
- - The `GCMemoryInfo` provides information about machine memory, heap memory, and the most recent collection, or most recent collection of the kind of GC you specify ephemeral, full blocking, or background GC.
+ - The `GCMemoryInfo` provides information about machine memory, heap memory, and the most recent collection, or most recent collection of the kind of GC you specify ephemeral full blocking, or background GC.
  - The most likely use cases for using this new API are for logging/monitoring or to indicate to a loader balancer that a machine should be taken out of rotation to request a full GC. 
  - It could also be used to avoid container hard-limits by reducing the size of caches.
- - Another, small but impactful change, was made to defer the expensive reset memory operation to low-memory situations. 
- - We expect these changes in policy to lower the GC latency (and GC CPU usage in general).
+ - Another small but impactful change was made to defer the expensive reset memory operation to low-memory situations. 
+ - We expect these policy changes to lower the GC latency (and GC CPU usage in general).
 
 ## RyuJIT
 
-RyuJIT is the assembly code generator for .NET, target both Intel, and ARM chips. Most of the investment in RyuJIT is focused on performance.
+RyuJIT is the assembly code generator for .NET, target both Intel and ARM chips. Most of the investment in RyuJIT is focused on performance.
 
  - General Improvements
    - [Enable eliding some bounds checks](https://github.com/dotnet/runtime/pull/36263)

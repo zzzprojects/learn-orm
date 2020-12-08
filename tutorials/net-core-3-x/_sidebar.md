@@ -6,4 +6,5 @@
   * [Assembly Linking](assembly-linking.md)
   * [Tiered Compilation](tiered-compilation.md)
   * [ReadyToRun Images](ready-to-run-images.md)
+  * [Cross Platform/Architecture Restrictions](cross-platform-restrictions.md)
   

@@ -8,4 +8,5 @@
   * [ReadyToRun Images](ready-to-run-images.md)
   * [Cross Platform/Architecture Restrictions](cross-platform-restrictions.md)
   * [Major-version Runtime Roll Forward](major-version-runtime-roll-forward.md)
+  * [Local Tools](local-tools.md)
   

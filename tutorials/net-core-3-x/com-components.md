@@ -23,7 +23,7 @@ The project will only build and run on the Windows platform. You can build and r
  - Follow the instructions for COM server registration that were emitted during the build.
  - Navigate to `COMClient/` and run `dotnet.exe run`.
 
-Program should output an estimated value of `π`.
+The program should output an estimated value of `π`.
 
 ### RegFree COM
 
@@ -32,7 +32,7 @@ Program should output an estimated value of `π`.
     - If the Registered COM demo was previously run, the project should be cleaned first - `dotnet.exe clean`.
  - Run the generated binary directly. For example, `COMClient\bin\Debug\netcoreapp3.0\COMClient.exe`.
 
-Program should output an estimated value of `π`.
+The program should output an estimated value of `π`.
 
 ### Note
 
@@ -47,10 +47,7 @@ Windows offers a rich native API in the form of flat C APIs, COM, and WinRT. Whi
 
 ## MSIX Deployment
 
-[MSIX](https://docs.microsoft.com/en-us/windows/msix/overview) is a new Windows application package format that combines the best features of MSI, .appx, App-V, and ClickOnce to provide a modern and reliable packaging experience. 
-
- - It can be used to deploy .NET Core 3.0 desktop applications to Windows 10. 
- - The Windows Application Packaging Project, available in Visual Studio 2019, allows you to create MSIX packages with self-contained .NET Core applications.
+MSIX is a new Windows application package format. It can be used to deploy .NET Core 3.0 desktop applications to Windows 10. The Windows Application Packaging Project, available in Visual Studio 2019, allows you to create MSIX packages with self-contained .NET Core applications.
 
 The .NET Core project file must specify the supported runtimes in the `<RuntimeIdentifiers>` property.
 

@@ -11,3 +11,4 @@
   * [Local Tools](local-tools.md)
   * [New global.json Options](new-global-json-options.md)
   * [Garbage Collection](garbage-collection.md)
+  * [Windows Desktop](windows-desktop.md)

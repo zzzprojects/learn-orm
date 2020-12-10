@@ -17,7 +17,7 @@ By default, the serializer handles null values as follows.
 ## For non-nullable value types:
 
  - It passes `JsonTokenType.Null` to custom converters on deserialization. 
- - If no custom converter is available, a JsonException exception is thrown by the internal converter for the type.
+ - If no custom converter is available, a JsonException exception is thrown by the type's internal converter.
 
 This null-handling behavior is primarily to optimize performance by skipping an extra call to the converter. In addition, it avoids forcing converters for nullable types to check for null at the start of every Read and Write method override.
 

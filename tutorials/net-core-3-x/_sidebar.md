@@ -13,3 +13,4 @@
   * [Garbage Collection](garbage-collection.md)
   * [Windows Desktop](windows-desktop.md)
   * [COM Components](com-components.md)
+  * [Linux Improvements](linux-improvements.md)

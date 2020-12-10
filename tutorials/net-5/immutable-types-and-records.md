@@ -5,7 +5,7 @@ Name: Immutable Types and Records
 
 # Immutable Types and Records
 
-The `System.Text.Json` can use a parameterized constructor, which makes it possible to deserialize an immutable class or struct. 
+The `System.Text.Json` can use a parameterized constructor, makins it possible to deserialize an immutable class or struct. 
 
  - For a class, if the only constructor is a parameterized one, that constructor will be used. 
  - For a struct or a class with multiple constructors, specify the one to use by applying the `[JsonConstructor]` attribute. 
@@ -58,7 +58,7 @@ Address: 22 Ashdown
 Output JSON: {"name":"Mark","age":40,"address":"22 Ashdown"}
 ```
 
-Records in C# 9 are also supported as shown in the following example.
+Records in C# 9 are also supported, as shown in the following example.
 
 ```csharp
 public record Forecast(DateTime Date, int TemperatureC)

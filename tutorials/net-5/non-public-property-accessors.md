@@ -8,7 +8,7 @@ Name: Non-public Property Accessors
 To enable the use of a non-public property accessor, you can use the `[JsonInclude]` attribute.
 
  - It indicates that the member should be included for serialization and deserialization.
- - When applied to a property, indicates that non-public getters and setters can be used for serialization and deserialization. 
+ - When applied to a property, it indicates that non-public getters and setters can be used for serialization and deserialization. 
  - Non-public properties are not supported.
 
 The following shows the usage of the `[JsonInclude]` attribute.

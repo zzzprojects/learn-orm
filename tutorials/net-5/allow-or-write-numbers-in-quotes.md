@@ -23,7 +23,7 @@ Instead of:
 }
 ```
 
-To serialize numbers in quotes or accept numbers in quotes across the entire input object graph, set `JsonSerializerOptions.NumberHandling` as shown below.
+To serialize numbers in quotes or accept numbers in quotes across the entire input object graph, set `JsonSerializerOptions.NumberHandling`, as shown below.
 
 ```csharp
 public class Customer

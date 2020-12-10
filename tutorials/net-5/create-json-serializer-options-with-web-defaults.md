@@ -5,13 +5,13 @@ Name: Create JsonSerializerOptions with Web Defaults
 
 # Create JsonSerializerOptions with Web Defaults
 
-In web applicaitons, the following options have different defaults.
+In web applications, the following options have different defaults.
 
  - PropertyNameCaseInsensitive = true
  - JsonNamingPolicy = CamelCase
  - NumberHandling = AllowReadingFromString
 
-The `JsonSerializerOptions` constructor lets you create a new instance with the default options that ASP.NET Core uses for web apps as shown below.
+The `JsonSerializerOptions` constructor lets you create a new instance with the default options that ASP.NET Core uses for web apps, as shown below.
 
 ```csharp
 public class Customer

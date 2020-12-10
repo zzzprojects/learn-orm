@@ -14,7 +14,7 @@ When serializing C# objects to JSON, by default, all public properties are seria
 
 ## Ignore Individual Properties
 
-To ignore individual properties, you can use the `[JsonIgnore]` attribute, to prevents a property from being serialized or deserialized.
+To ignore individual properties, you can use the `[JsonIgnore]` attribute to prevents a property from being serialized or deserialized.
 
 ```csharp
 public class Customer
@@ -140,7 +140,7 @@ This option applies only to serialization. During deserialization, read-only pro
 
 ## Ignore All Null-value Properties
 
-To ignore all null-value properties, set the `DefaultIgnoreCondition` property to `WhenWritingNull` as shown below.
+To ignore all null-value properties, set the `DefaultIgnoreCondition` property to `WhenWritingNull`, as shown below.
 
 ```csharp
 public class Customer4
@@ -181,7 +181,7 @@ The above example will print the following output.
 
 ## Ignore All Default-value Properties
 
-To prevent serialization of default values in value type properties, set the `DefaultIgnoreCondition` property to `WhenWritingDefault` as shown below.
+To prevent serialization of default values in value type properties, set the `DefaultIgnoreCondition` property to `WhenWritingDefault`, as shown below.
 
 
 ```csharp

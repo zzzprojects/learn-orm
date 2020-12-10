@@ -5,9 +5,9 @@ Name: Copy JsonSerializerOptions
 
 # Copy JsonSerializerOptions
 
-`JsonSerializerOptions` provides options to be used with `JsonSerializer`. `JsonSerializer` provides functionality to serialize objects or value types to JSON and to deserialize JSON into objects or value types. 
+`JsonSerializerOptions` provides options to be used with `JsonSerializer`. `JsonSerializer` provides functionality to serialize objects or value types to JSON and deserialize JSON into objects or value types. 
 
-The `JsonSerializerOptions` lets you create a new instance with the same options as an existing instance as shown below.
+The `JsonSerializerOptions` lets you create a new instance with the same options as an existing instance, as shown below.
 
 ```csharp
 public class Customer

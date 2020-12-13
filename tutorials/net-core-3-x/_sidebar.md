@@ -18,3 +18,4 @@
   * [Cryptography Ciphers](cryptography-ciphers.md)
   * [Cryptographic Key Import/Export](cryptographic-key-import-export.md)
   * [Ranges and indices](ranges-and-indices.md)
+  * [Async Streams](async-streams.md)

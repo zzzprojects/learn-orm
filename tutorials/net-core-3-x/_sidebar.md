@@ -21,3 +21,4 @@
   * [Async Streams](async-streams.md)
   * [IEEE Floating Point](ieee-floating-point.md)
   * [Fast Built-in JSON Support](fast-built-in-json-support.md)
+  * [HTTP/2 Support](http2-support.md)

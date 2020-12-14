@@ -80,3 +80,12 @@ if (httpContext.Response.SupportsTrailers())
  - `SupportsTrailers` ensures that trailers are supported for the response.
  - `DeclareTrailer` adds the given trailer name to the Trailer response header. Declaring a response's trailers is optional, but recommended. If DeclareTrailer is called, it must be before the response headers are sent.
  - `AppendTrailer` appends the trailer.
+
+Many times when you are developing an application, you want to use an unencrypted connection. 
+
+ - If you know the target endpoint will be using `HTTP/2`, you can turn on unencrypted connections for `HTTP/2`. 
+ - You can turn it on by setting the `DOTNET_SYSTEM_NET_HTTP_SOCKETSHTTPHANDLER_HTTP2UNENCRYPTEDSUPPORT` environment variable to 1 or by enabling it in the app context:
+
+```csharp
+AppContext.SetSwitch("System.Net.Http.SocketsHttpHandler.Http2UnencryptedSupport", true);
+```

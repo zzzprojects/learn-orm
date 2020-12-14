@@ -20,4 +20,4 @@
   * [Ranges and indices](ranges-and-indices.md)
   * [Async Streams](async-streams.md)
   * [IEEE Floating Point](ieee-floating-point.md)
-
+  * [Fast Built-in JSON Support](fast-built-in-json-support.md)

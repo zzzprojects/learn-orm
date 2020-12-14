@@ -19,3 +19,5 @@
   * [Cryptographic Key Import/Export](cryptographic-key-import-export.md)
   * [Ranges and indices](ranges-and-indices.md)
   * [Async Streams](async-streams.md)
+  * [IEEE Floating Point](ieee-floating-point.md)
+

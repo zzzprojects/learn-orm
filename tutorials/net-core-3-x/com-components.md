@@ -9,7 +9,7 @@ Name: COM Components
 
 You can now create COM-callable managed components on Windows. 
 
- - This capability is critical to use .NET Core with COM add-in models and also to provide parity with .NET Framework.
+ - This capability is critical to use .NET Core with COM add-in models and provide parity with .NET Framework.
  - Unlike .NET Framework where the `mscoree.dll` was used as the COM server, .NET Core will add a native launcher `dll` to the bin directory when you build your COM component.
 
 ### Build and Run
@@ -29,7 +29,7 @@ The program should output an estimated value of `π`.
 
  - Install .NET Core 3.0 Preview 7 or later.
  - Navigate to the root directory and run `dotnet.exe build /p:RegFree=True`.
-    - If the Registered COM demo was previously run, the project should be cleaned first - `dotnet.exe clean`.
+ - If the Registered COM demo was previously run, the project should be cleaned first - `dotnet.exe clean`.
  - Run the generated binary directly. For example, `COMClient\bin\Debug\netcoreapp3.0\COMClient.exe`.
 
 The program should output an estimated value of `π`.

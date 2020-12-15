@@ -5,7 +5,7 @@ Name: Async Streams
 
 # Async Streams
 
-C# has support for iterator methods and async methods, but no support for a method that is both an iterator and an async method, or you can say iterate a collection asynchronously. In C# 8.0, you can create and consume streams asynchronously. A method that returns an asynchronous stream has the following properties.
+C# has support for iterator methods and async methods. Still, no support for a method that is both an iterator and an async method, or you can say iterate a collection asynchronously. In C# 8.0, you can create and consume streams asynchronously. A method that returns an asynchronous stream has the following properties.
 
  - It is declared with the `async` modifier.
  - It returns an `IAsyncEnumerable<T>`, it is similar to the `IEnumerable<T>` method used to iterate over a collection, except that `IAsyncEnumerable<T>` allows us to move through the collection asynchronously.

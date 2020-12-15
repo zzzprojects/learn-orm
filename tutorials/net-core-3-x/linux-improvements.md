@@ -17,7 +17,7 @@ Name: Linux Improvements
 
 Running .NET Core 3.0 on Linux with Docker works better with cgroup memory limits. Running a Docker container with memory limits, such as with `docker run -m`, changes how .NET Core behaves.
 
- - Default Garbage Collector (GC) heap size: maximum of **20MB** or **75%** of the memory limit on the container.
+ - Default Garbage Collector (GC) heap size: maximum of **20MB** or **75%** of the container's memory limit.
  - Explicit size can be set as an absolute number or percentage of cgroup limit.
  - Minimum reserved segment size per GC heap is **16MB**. This size reduces the number of heaps that are created on machines.
 

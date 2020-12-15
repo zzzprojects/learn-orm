@@ -22,12 +22,12 @@ You must specify one of the following values. If the setting is omitted, `Minor`
 
 #### Minor
 
- - Roll forward to the lowest higher minor version, if the requested minor version is missing. 
+ - Roll forward to the lowest higher minor version if the requested minor version is missing. 
  - If the requested minor version is present, then the `LatestPatch` policy is used.
 
 #### Major
 
- - Roll forward to the lowest higher major version, and lowest minor version, if the requested major version is missing. 
+ - Roll forward to the lowest higher major version and lowest minor version if the requested major version is missing. 
  - If the requested major version is present, then the `Minor` policy is used.
 
 #### LatestMinor

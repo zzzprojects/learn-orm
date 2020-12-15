@@ -9,12 +9,12 @@ Name: New global.json Options
 
 The `global.json` file allows you to define which .NET SDK version is used when you run .NET CLI commands. 
 
- - Selecting the .NET SDK is independent of specifying the runtime your project targets. 
+ - Selecting the .NET SDK is independent of specifying the runtime of your project targets. 
  - The .NET SDK version indicates which versions of the .NET CLI is used.
 
 In general, you want to use the latest version of the SDK tools, so no `global.json` file is needed. In some advanced scenarios, you might want to control the version of the SDK tools.
 
-In .NET Core 3.0, the new options are added to the global.json file that provides more flexibility when you are trying to define which version of the .NET Core SDK is used. 
+In .NET Core 3.0, the new options are added to the global.json file that provides more flexibility when defining which version of the .NET Core SDK is used. 
 
 The following are the new options.
 

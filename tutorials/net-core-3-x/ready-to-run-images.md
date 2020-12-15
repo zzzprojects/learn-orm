@@ -9,7 +9,7 @@ Name: ReadyToRun Images
 
  - R2R binaries improve startup performance by reducing the amount of work the just-in-time (JIT) compiler needs to do as your application loads. 
  - The binaries contain similar native code compared to what the JIT would produce. 
- - However, R2R binaries are larger because they contain both intermediate language (IL) code, which is still needed for some scenarios and the native version of the same code. 
+ - However, R2R binaries are larger because they contain both intermediate language (IL) code, which is still needed for some scenarios, and the native version of the same code. 
  - R2R is only available when you publish an app that targets specific runtime environments (RID) such as Linux x64 or Windows x64.
 
 To compile your project as `ReadyToRun`, the application must be published with the `PublishReadyToRun` property set to `true`.
@@ -28,7 +28,7 @@ Now run the following command to publish it.
 dotnet publish -c Release -r win-x64
 ```
 
-You can also specify the `PublishReadyToRun` flag directly to the `dotnet publish` command as shown below.
+You can also specify the `PublishReadyToRun` flag directly to the `dotnet publish` command, as shown below.
 
 ```csharp
 dotnet publish -c Release -r win-x64 -p:PublishReadyToRun=true
@@ -42,6 +42,6 @@ Ahead-of-time compilation has a complex performance impact on application perfor
  - This increase in the physical size of the file may reduce the performance of loading the assembly from disk, and increase a working set of the process. 
  - However, in return, the number of methods compiled at runtime is typically reduced substantially. 
  - The result is that most applications that have large amounts of code receive large performance benefits from enabling ReadyToRun. 
- - Applications, which have small amounts of code will likely not experience a significant improvement from enabling `ReadyToRun`, as the .NET runtime libraries have already been precompiled with `ReadyToRun`.
+ - Applications with small amounts of code will likely not experience a significant improvement from enabling `ReadyToRun`, as the .NET runtime libraries have already been precompiled with `ReadyToRun`.
 
 The startup improvement discussed here applies not only to the application startup but also to the first use of any code in the application. For instance, ReadyToRun can be used to reduce the response latency of the first use of Web API in an ASP.NET application.

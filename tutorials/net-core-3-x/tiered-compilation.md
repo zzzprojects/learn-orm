@@ -13,22 +13,22 @@ Tiered Compilation allows the .NET runtime to substitute different assembly code
 ## Startup 
 
  - Whenever code needs to be jitted, the runtime first generates a low-quality code body, then replaces it with a higher code quality version later if the method appears hot. 
- - The lower quality initial codegen saves JIT time and these savings typically dominate the additional cost to run the lower quality code for a short time.
+ - The lower quality initial codegen saves JIT time, and these savings typically dominate the additional cost to run the lower quality code for a short time.
 
 ## Steady-State
 
- - If code loaded from ReadyToRun images appears hot, the runtime replaces it with jitted code which is typically higher quality. 
- - At runtime the JIT can observe the exact dependencies that are loaded as well as CPU instruction support which allows it to generate superior code. 
- - In the future, it may also utilize profile-guided feedback but it does not currently do so.
+ - If code loaded from ReadyToRun images appears hot, the runtime replaces it with jitted code, which is typically higher quality. 
+ - At runtime, the JIT can observe the exact dependencies that are loaded and CPU instruction support which allows it to generate superior code. 
+ - In the future, it may also utilize profile-guided feedback, but it does not currently do so.
 
-The tiered compilation (TC) is on by default with .NET Core 3.0. This feature enables the runtime to more adaptively use the just-in-time (JIT) compiler to achieve better performance.
+The tiered compilation (TC) is on by default with .NET Core 3.0. This feature enables the runtime to adaptively use the just-in-time (JIT) compiler to achieve better performance.
 
 The main benefit of tiered compilation is to provide two ways of jitting methods. 
 
  - Lower-quality-but-faster tier
  - A higher-quality-but-slower tier. 
 
-The quality refers to how well the method is optimized. TC helps to improve the performance of an application as it goes through various stages of execution, from startup through the steady-state. 
+The quality refers to how well the method is optimized. TC helps to improve an application's performance as it goes through various stages of execution, from startup through the steady-state. 
 
 ## TC Disabled
 
@@ -36,9 +36,9 @@ When the tiered compilation is disabled, every method is compiled in a single wa
 
 ## TC Enabled
 
-When the tiered compilation is enabled, the following behavior applies for method compilation when an app starts up.
+When the tiered compilation is enabled, the following behavior applies for method compilation when an app starts.
 
- - If the method has ahead-of-time-compiled code, or `ReadyToRun`, the pregenerated code is used.
+ - If the method has ahead-of-time-compiled code or `ReadyToRun`, the pregenerated code is used.
  - Otherwise, the method is jitted. Typically, these methods are generics over value types.
  - Quick JIT produces lower-quality or less optimized code more quickly. 
  - In .NET Core 3.0, Quick JIT is enabled by default for methods that do not contain loops and is preferred during startup.

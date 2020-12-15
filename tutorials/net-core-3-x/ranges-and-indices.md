@@ -16,12 +16,12 @@ You can use these structs to index or slice collections at runtime.
 
 The `System.Range` struct represents a range that has start and end indexes.
 
- - It represents a sub range of a sequence.
+ - It represents a sub-range of a sequence.
  - The range operator `..`, which specifies the start and end of a range as its operands.
- - The start of the range is inclusive, but the end of the range is exclusive, meaning the start is included in the range but the end isn't.
+ - The start of the range is inclusive, but the end of the range is exclusive, meaning the start is included in the range, but the end isn't.
  - The range `[0..^0]` represents the entire range, just as `[0..nameOfMonths.Length]` represents the entire range.
 
-Let's consider the same array which contains all the names of months. The following code creates a subrange with the months "March", "April", and "May". It includes `nameOfMonths[2]` through `nameOfMonths[5]`. The element `nameOfMonths[5]` isn't in the range.
+Let's consider the same array, which contains all the names of months. The following code creates a subrange with the months "March", "April", and "May". It includes `nameOfMonths[2]` through `nameOfMonths[5]`. The element `nameOfMonths[5]` isn't in the range.
 
 ```csharp
 var names = nameOfMonths[2..5];
@@ -50,7 +50,7 @@ foreach (var name in names)
 }
 ```
 
-The following code shows the ranges that are open ended for the start, end, or both.
+The following code shows the ranges that are open-ended for the start, end, or both.
 
 ```csharp
 var allMonths = nameOfMonths[..];       // contains all names.
@@ -60,7 +60,7 @@ var lastThreeMonths = nameOfMonths[9..];     // contains the last three names.
 
 ## Index
 
-The `System.Index` struct represents a type that can be used to index a collection either from the start or the end. 
+The `System.Index` struct represents a type that can index a collection either from the start or the end. 
 
  - It represents an index in an array or sequence.
  - The `^` operator specifies the relative index from the end of an array.

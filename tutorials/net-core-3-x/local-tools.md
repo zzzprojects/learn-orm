@@ -20,7 +20,7 @@ The tool binaries are installed in a default directory that is added to the `PAT
 You can also install it as a global tool in a custom location (also known as a tool-path tool).
 
  - The tool binaries are installed in a location that you specify. 
- - You can invoke the tool from the installation directory or by providing the directory with the command name or by adding the directory to the `PATH` environment variable. 
+ - You can invoke the tool from the installation directory or provide the directory with the command name or by adding the directory to the `PATH` environment variable. 
 
 ## Local Tool
 
@@ -40,7 +40,7 @@ For both global and local tools, a compatible version of the runtime is required
 
 ### Install a Local Tool
 
-To install a tool for local access only for the current directory and subdirectories, it has to be added to a tool manifest file. To create a tool manifest file, run the dotnet new tool-manifest command:
+To install a tool for local access only for the current directory and subdirectories. It has to be added to a tool manifest file to create a tool manifest file, run the dotnet new tool-manifest command:
 
 ```csharp
 dotnet new tool-manifest

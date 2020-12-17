@@ -4,4 +4,5 @@
   * [Language Support](language-support.md)
   * [Platform Improvements](platform-improvements.md)
   * [API Changes](api-changes.md)
+  * [Visual Studio Integration](visual-studio-integration.md)
 

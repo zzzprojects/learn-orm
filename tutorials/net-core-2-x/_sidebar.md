@@ -7,4 +7,5 @@
   * [Visual Studio Integration](visual-studio-integration.md)
   * [Build Performance Improvements](build-performance-improvements.md)
   * [New CLI Commands](new-cli-commands.md)
+  * [Global Tools](global-tools.md)
 

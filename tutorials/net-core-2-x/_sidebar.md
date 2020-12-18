@@ -5,4 +5,5 @@
   * [Platform Improvements](platform-improvements.md)
   * [API Changes](api-changes.md)
   * [Visual Studio Integration](visual-studio-integration.md)
+  * [Build Performance Improvements](build-performance-improvements.md)
 

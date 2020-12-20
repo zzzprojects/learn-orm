@@ -9,4 +9,5 @@
   * [New CLI Commands](new-cli-commands.md)
   * [Global Tools](global-tools.md)
   * [Roll Forward](roll-forward.md)
+  * [Self-contained Application Servicing](self-contained-application-servicing.md)
 

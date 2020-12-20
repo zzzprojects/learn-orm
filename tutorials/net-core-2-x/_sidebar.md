@@ -10,4 +10,5 @@
   * [Global Tools](global-tools.md)
   * [Roll Forward](roll-forward.md)
   * [Self-contained Application Servicing](self-contained-application-servicing.md)
+  * [JIT Compiler Improvements](jit-compiler-improvements.md)
 

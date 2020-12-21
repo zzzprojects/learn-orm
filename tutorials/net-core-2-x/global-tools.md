@@ -67,7 +67,7 @@ Once installed, the tool can be run from the command line by specifying the tool
 
 In .NET Core 2.1 SDK, all tools operations use the `dotnet tool` command. The following options are available.
 
- - `dotnet tool` install to install a tool.
+ - `dotnet tool install` to install a tool.
  - `dotnet tool update` to uninstall and reinstall a tool, which effectively updates it.
  - `dotnet tool list` to list currently installed tools.
  - `dotnet tool uninstall` to uninstall currently installed tools.

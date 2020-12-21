@@ -8,6 +8,7 @@
   * [Build Performance Improvements](build-performance-improvements.md)
   * [New CLI Commands](new-cli-commands.md)
   * [Global Tools](global-tools.md)
+  * [Tool Management With Dotnet Tool Command](tool-management-with-dotnet-tool-command.md)
   * [Roll Forward](roll-forward.md)
   * [Self-contained Application Servicing](self-contained-application-servicing.md)
   * [JIT Compiler Improvements](jit-compiler-improvements.md)

@@ -14,4 +14,5 @@
   * [JIT Compiler Improvements](jit-compiler-improvements.md)
   * [Span\<T\> and Memory\<T\>](span-and-memory.md)
   * [Brotli Compression](brotli-compression.md)
+  * [New Cryptography APIs and Cryptography Improvements](new-cryptography-APIs-and-cryptography-improvements.md)
 

@@ -12,4 +12,5 @@
   * [Roll Forward](roll-forward.md)
   * [Self-contained Application Servicing](self-contained-application-servicing.md)
   * [JIT Compiler Improvements](jit-compiler-improvements.md)
+  * [Span\<T\> and Memory\<T\>](span-and-memory.md)
 

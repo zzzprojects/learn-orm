@@ -5,7 +5,7 @@ Name: Dotnet Restore Runs Implicitly
 
 # Dotnet Restore Runs Implicitly
 
-The `dotnet restore` command uses NuGet to restore dependencies as well as project-specific tools that are specified in the project file. In most cases, you don't need to explicitly use the `dotnet restore` command, since a NuGet restore is run implicitly if necessary when you run the following commands:
+The `dotnet restore` command uses NuGet to restore dependencies and project-specific tools specified in the project file. In most cases, you don't need to explicitly use the `dotnet restore` command, since a NuGet restore is run implicitly if necessary when you run the following commands:
 
  - dotnet new
  - dotnet build
@@ -19,7 +19,7 @@ In previous versions of .NET Core, you had to run the `dotnet restore` command t
 
 In .NET Core 2.0, you don't have to run `dotnet restore` because it's run implicitly by all commands that require a restore to occur, such as `dotnet new`, `dotnet build`, `dotnet run`, `dotnet test`, `dotnet publish`, and `dotnet pack`. 
 
-To disable implicit restore, use the `--no-restore` option as shown below.
+To disable implicit restore, use the `--no-restore` option, as shown below.
 
 ```csharp
 dotnet build --no-restore

@@ -5,13 +5,13 @@ Name: Visual Studio Integration
 
 # Visual Studio Integration
 
-Visual Studio 2017 version 15.3 and in some cases Visual Studio for Mac offer a number of significant enhancements for .NET Core developers.
+Visual Studio 2017 version 15.3 and, in some cases, Visual Studio for Mac offer a number of significant enhancements for .NET Core developers.
 
 ## Retargeting .NET Core apps and .NET Standard libraries
 
 If the .NET Core 2.0 SDK is installed, you can retarget .NET Core 1.x projects to .NET Core 2.0 and .NET Standard 1.x libraries to .NET Standard 2.0.
 
-To retarget your project in Visual Studio, you open the Application tab of the project's properties dialog and change the Target framework value to .NET Core 2.0 or .NET Standard 2.0. 
+To retarget your Visual Studio project, you open the Application tab of the project's properties dialog and change the Target framework value to .NET Core 2.0 or .NET Standard 2.0. 
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/net-core-2-x/images/vs-integration-1.png">
 
@@ -48,4 +48,4 @@ You can select the target framework before selecting the project button, in this
 You can now install the .NET Core SDK independently of Visual Studio. 
 
  - This makes it possible for a single version of Visual Studio to build projects that target different versions of .NET Core. 
- - Previously, Visual Studio and the .NET Core SDK were tightly coupled; a particular version of the SDK accompanied a particular version of Visual Studio.
+ - Previously, Visual Studio and the .NET Core SDK were tightly coupled; a particular version of the SDK accompanied a particular Visual Studio version.

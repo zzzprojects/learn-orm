@@ -13,7 +13,7 @@ A .NET tool is a special NuGet package that contains a console application. The 
 You can also install it as a global tool in a custom location (also known as a tool-path tool).
 
  - The tool binaries are installed in a location that you specify. 
- - You can invoke the tool from the installation directory or provide the directory with the command name or by adding the directory to the `PATH` environment variable. 
+ - You can invoke the tool from the installation directory, or provide the directory with the command name, add the directory to the `PATH` environment variable. 
 
 .NET Core 2.1 supports Global Tools that are available globally from the command line. The extensibility model in previous versions of .NET Core made custom tools available on a per-project basis only by using `DotnetCliToolReference`.
 

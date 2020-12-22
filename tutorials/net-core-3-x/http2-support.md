@@ -9,7 +9,7 @@ The `System.Net.Http.HttpClient` type supports the `HTTP/2` protocol. If `HTTP/2
 
 The default protocol remains `HTTP/1.1`, but `HTTP/2` can be enabled in the following two different ways. 
 
-You can set the `HTTP` request message to use `HTTP/2` as shown below.
+You can set the `HTTP` request message to use `HTTP/2`, as shown below.
 
 ```csharp
 var client = new HttpClient() { BaseAddress = new Uri("https://localhost:5001") };
@@ -48,8 +48,8 @@ HTTP/2 is supported with ASP.NET Core in the following IIS deployment scenarios.
 
 When hosting out-of-process: Public-facing edge server connections use HTTP/2, but the reverse proxy connection to the Kestrel server uses HTTP/1.1.
 
- - For an in-process deployment when an `HTTP/2` connection is established, `HttpRequest.Protocol` reports `HTTP/2`. 
- - For an out-of-process deployment when an `HTTP/2` connection is established, `HttpRequest.Protocol` reports `HTTP/1.1`.
+ - For an in-process deployment, when an `HTTP/2` connection is established, `HttpRequest.Protocol` reports `HTTP/2`. 
+ - For an out-of-process deployment, when an `HTTP/2` connection is established, `HttpRequest.Protocol` reports `HTTP/1.1`.
 
 ## Advanced HTTP/2 features to support gRPC
 
@@ -78,7 +78,7 @@ if (httpContext.Response.SupportsTrailers())
 ```
 
  - `SupportsTrailers` ensures that trailers are supported for the response.
- - `DeclareTrailer` adds the given trailer name to the Trailer response header. Declaring a response's trailers is optional, but recommended. If DeclareTrailer is called, it must be before the response headers are sent.
+ - `DeclareTrailer` adds the given trailer name to the Trailer response header. Declaring a response's trailers is optional but recommended. If DeclareTrailer is called, it must be before the response headers are sent.
  - `AppendTrailer` appends the trailer.
 
 Many times when you are developing an application, you want to use an unencrypted connection. 

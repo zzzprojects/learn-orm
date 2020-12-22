@@ -8,7 +8,7 @@ Name: Roll Forward
 All .NET Core applications starting with .NET Core 2.0 automatically roll forward to the latest minor version installed on a system.
 
  - Starting with .NET Core 2.0, if the version of .NET Core that an application was built with is not present at run time, the application automatically runs against the latest installed minor version of .NET Core. 
- - If an application is built with .NET Core 2.0, and .NET Core 2.0 is not present on the host system but .NET Core 2.1 is, the application runs with .NET Core 2.1.
+ - If an application is built with .NET Core 2.0, and .NET Core 2.0 is not present on the host system, but .NET Core 2.1 is, the application runs with .NET Core 2.1.
 
 ## Modification Options
 

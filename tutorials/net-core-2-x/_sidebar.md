@@ -17,4 +17,5 @@
   * [New Cryptography APIs and Cryptography Improvements](new-cryptography-APIs-and-cryptography-improvements.md)
   * [Sockets Improvements](sockets-improvements.md)
   * [New Deployment Mode](new-deployment-mode.md)
+  * [Handling Events in Runtime Services](handling-events-in-runtime-services.md)
 

@@ -18,4 +18,5 @@
   * [Sockets Improvements](sockets-improvements.md)
   * [New Deployment Mode](new-deployment-mode.md)
   * [Handling Events in Runtime Services](handling-events-in-runtime-services.md)
+  * [Tiered Compilation Remains an Opt-in Feature](tiered-compilation-remains-an-opt-in-feature.md)
 

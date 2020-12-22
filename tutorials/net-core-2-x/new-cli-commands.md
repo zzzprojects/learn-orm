@@ -5,7 +5,7 @@ Name: New CLI Commands
 
 # New CLI Commands
 
-Several tools that were available only on a per-project basis using DotnetCliToolReference are now available as part of the .NET Core SDK. These tools include:
+Several tools available only on a per-project basis using DotnetCliToolReference are now available as part of the .NET Core SDK. These tools include:
 
 ## `dotnet watch`
 
@@ -17,7 +17,7 @@ Several tools that were available only on a per-project basis using DotnetCliToo
 dotnet watch -- --verbose build
 ```
 
- - The `--` option that precedes the `--verbose` option delimits the options passed directly to the `dotnet watch` command from the arguments that are passed to the child dotnet process. 
+ - The `--` option that precedes the `--verbose` option delimits the options passed directly to the `dotnet watch` command from the arguments passed to the child dotnet process. 
  - Without the `--` option, the `--verbose` option applies to the `dotnet watch` command, not the `dotnet build` command.
 
 

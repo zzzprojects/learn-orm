@@ -16,4 +16,5 @@
   * [Brotli Compression](brotli-compression.md)
   * [New Cryptography APIs and Cryptography Improvements](new-cryptography-APIs-and-cryptography-improvements.md)
   * [Sockets Improvements](sockets-improvements.md)
+  * [New Deployment Mode](new-deployment-mode.md)
 

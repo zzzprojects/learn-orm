@@ -5,10 +5,10 @@ Name: JIT Compiler Improvements
 
 # JIT Compiler Improvements
 
-.NET Core incorporates a new JIT compiler technology called tiered compilation which is also known as adaptive optimization that can significantly improve performance. Tiered compilation is an opt-in setting.
+.NET Core incorporates a new JIT compiler technology called tiered compilation, which is also known as adaptive optimization that can significantly improve performance. Tiered compilation is an opt-in setting.
 
  - One of the important tasks performed by the JIT compiler is optimizing code execution. 
- - For little-used code paths, the compiler may spend more time optimizing code than the runtime spends running unoptimized code. 
+ - The compiler may spend more time optimizing code for little-used code paths than the runtime spends running unoptimized code.
  
 Tiered compilation introduces two stages in JIT compilation.
 
@@ -23,7 +23,7 @@ To use tiered compilation in all projects that use the .NET Core 2.1 SDK, set th
 COMPlus_TieredCompilation="1"
 ```
 
-To use tiered compilation on a per-project basis, add the <TieredCompilation> property to the <PropertyGroup> section of the MSBuild project file, as the following example shows:
+To use a tiered compilation on a per-project basis, add the <TieredCompilation> property to the <PropertyGroup> section of the MSBuild project file, as the following example shows:
 
 ```csharp
 <PropertyGroup>

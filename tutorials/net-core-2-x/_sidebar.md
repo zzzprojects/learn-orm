@@ -19,4 +19,5 @@
   * [New Deployment Mode](new-deployment-mode.md)
   * [Handling Events in Runtime Services](handling-events-in-runtime-services.md)
   * [Tiered Compilation Remains an Opt-in Feature](tiered-compilation-remains-an-opt-in-feature.md)
+  * [Injecting Code Before Executing the Main Method](injecting-code-before-executing-the-main-method.md)
 

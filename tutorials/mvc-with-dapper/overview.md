@@ -12,7 +12,7 @@ MVC stands for Model, View, and Controller. MVC separates the application into t
 
  - **Model:** Responsible for maintaining application data and business logic.
  - **View:** User interface of the application, which displays the data.
- - **Controller:** Handles users requests and renders appropriate View with Model data.
+ - **Controller:** Handles users' requests and renders appropriate View with Model data.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-dapper/images/overview-1.png">
 
@@ -20,10 +20,10 @@ The MVC design pattern has been around for a few decades, and it's been used acr
 
 ### What is ASP.NET Core MVC?
 
-The ASP.NET Core MVC framework is a lightweight, open source, highly testable presentation framework optimized for use with ASP.NET Core.
+The ASP.NET Core MVC framework is a lightweight, open-source, highly testable presentation framework optimized for use with ASP.NET Core.
 
  - It provides a patterns-based way to build dynamic websites that enables a clean separation of concerns. 
- - It gives you full control over markup, supports TDD-friendly development and uses the latest web standards.
+ - It gives you full control over markup, supports TDD-friendly development, and uses the latest web standards.
 
 ### Features
 
@@ -35,10 +35,10 @@ The ASP.NET Core MVC framework is a lightweight, open source, highly testable pr
  - **Areas:** Provide a way to partition a large ASP.NET Core MVC Web app into smaller functional groupings.
  - **Web APIs:** Support for building Web APIs, and you can build services that reach a broad range of clients including browsers and mobile devices.
  - **Testability:** The framework's use of interfaces and dependency injection make it well-suited to unit testing.
- - **Razor view engine:** Razor is a compact, expressive and fluid template markup language for defining views using embedded C# code.
+ - **Razor view engine:** Razor is a compact, expressive, and fluid template markup language for defining views using embedded C# code.
  - **Strongly typed views:** Razor views in MVC can be strongly typed based on your model.
  - **Tag Helpers:** Enable server-side code to participate in creating and rendering HTML elements in Razor files. 
- - **View Components:** The `SetCompatibilityVersion` method allows an app to opt in or opt out of potentially breaking behavior changes introduced in ASP.NET Core MVC 2.1 or later.
+ - **View Components:** The `SetCompatibilityVersion` method allows an app to opt-in or opt-out of potentially breaking behavior changes introduced in ASP.NET Core MVC 2.1 or later.
 
 ## What is Dapper?
 

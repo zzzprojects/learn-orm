@@ -40,3 +40,10 @@ You can also install **Dapper** by selecting the project in **Solution Explorer*
 Search for dapper and install the latest version by pressing the install button. You are now ready to start your application. Let's run your application and make sure everything is working fine.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-dapper/images/getting-started-6.png">
+
+We also need to install the following NuGet packages.
+
+```csharp
+PM> Install-Package System.Data.SqlClient
+PM> Install-Package Microsoft.VisualStudio.Web.CodeGeneration.Design
+```

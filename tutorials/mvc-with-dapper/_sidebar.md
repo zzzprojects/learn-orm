@@ -4,3 +4,5 @@
   * [Create Model](create-model.md)
   * [Create Controller](create-controller.md)
   * [Views](views.md)
+  * [Basic CRUD Functionality](basic-crud-functionality.md)
+

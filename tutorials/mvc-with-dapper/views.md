@@ -32,7 +32,7 @@ Select the **Razor View** in the middle page and click the **Add** button.
 
 On the **Add Razor View** dialog, enter `Index` in the **View name** field, select `List` from the **Template** and choose `Author (MvcWithDapper.Models)` from **Model class**. 
 
-Click **Add** button and you will see the following code id added automatically for you in the `Index.cshtml` file.
+Click the **Add** button and you will see the following code is added automatically for you in the `Index.cshtml` file.
 
 ```csharp
 @model IEnumerable<MvcWithDapper.Models.Author>
@@ -106,6 +106,16 @@ Click **Add** button and you will see the following code id added automatically 
 }
     </tbody>
 </table>
+```
+
+Uncomment the `id` in the `ActionLink` method and specify the primary key of the model class.
+
+```csharp
+<td>
+    @Html.ActionLink("Edit", "Edit", new { id = item.AuthorId }) |
+    @Html.ActionLink("Details", "Details", new {  id = item.AuthorId  }) |
+    @Html.ActionLink("Delete", "Delete", new { id = item.AuthorId })
+</td>
 ```
 
 Now let's update the `Index` action method of `AuthorController` to fetch all the authors from the database as shown below.

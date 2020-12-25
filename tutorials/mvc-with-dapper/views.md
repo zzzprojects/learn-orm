@@ -30,7 +30,9 @@ Select the **Razor View** in the middle page and click the **Add** button.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-dapper/images/views-4.png">
 
-On the **Add Razor View** dialog, enter `Index` in the **View name** field, select `List` from the **Template** and choose `Author (MvcWithDapper.Models)` from **Model class**. Click **Add** button and you will see the following code in the `Index.cshtml` file.
+On the **Add Razor View** dialog, enter `Index` in the **View name** field, select `List` from the **Template** and choose `Author (MvcWithDapper.Models)` from **Model class**. 
+
+Click **Add** button and you will see the following code id added automatically for you in the `Index.cshtml` file.
 
 ```csharp
 @model IEnumerable<MvcWithDapper.Models.Author>

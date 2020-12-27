@@ -6,4 +6,4 @@
   * [Views](views.md)
   * [Basic CRUD Functionality](basic-crud-functionality.md)
   * [Sorting](sorting.md)
-
+  * [Searching or Filtering](searching-or-filtering.md)

@@ -25,7 +25,7 @@ The Cryptographic Message Syntax RFC specifies the following MIME types and file
 
 New overloads of the following methods accept a hash algorithm identifier to enable callers to get certificate thumbprint values using algorithms other than SHA-1.
 
- - **`X509Certificate.GetCertHash`**: Returns the hash value for the X.509v3 certificate that is computed by using the specified cryptographic hash algorithm.
+ - **`X509Certificate.GetCertHash`**: Returns the hash value for the X.509v3 certificate computed by using the specified cryptographic hash algorithm.
  - **`X509Certificate.GetCertHashString`**: Returns a hexadecimal string containing the hash value for the X.509v3 certificate computed using the specified cryptographic hash algorithm.
 
 ## Span\<T\>
@@ -40,7 +40,7 @@ The performance of `System.Security.Cryptography.Rfc2898DeriveBytes` has improve
 
 The new `System.Security.Cryptography.CryptographicOperations` class includes two new methods.
 
- - `FixedTimeEquals` takes a fixed amount of time to return for any two inputs of the same length, which makes it suitable for use in cryptographic verification to avoid contributing to timing side-channel information.
+ - `FixedTimeEquals` takes a fixed amount of time to return for any two inputs of the same length, which making suitable for use in cryptographic verification to avoid contributing to timing side-channel information.
  - `ZeroMemory` is a memory-clearing routine that cannot be optimized.
 
 ## RandomNumberGenerator.Fill

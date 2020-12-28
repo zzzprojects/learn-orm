@@ -7,7 +7,7 @@ Name: Tiered Compilation Remains an Opt-in Feature
 
 ## What is the Tiered Compilation?
 
-Tiered Compilation allows the .NET runtime to substitute different assembly code method implementations for the same method during the lifetime of an application to achieve higher performance. It currently achieves this in the following two ways.
+Tiered Compilation allows the .NET runtime to substitute different assembly code method implementations for the same method during an application lifetime to achieve higher performance. It currently achieves this in the following two ways.
 
  - [Startup](#startup)
  - [Steady-State](#steady-state)
@@ -20,7 +20,7 @@ Tiered Compilation allows the .NET runtime to substitute different assembly code
 ### Steady-State
 
  - If code loaded from ReadyToRun images appears hot, the runtime replaces it with jitted code, which is typically higher quality. 
- - At runtime, the JIT can observe the exact dependencies that are loaded and CPU instruction support which allows it to generate superior code. 
+ - At runtime, the JIT can observe the exact dependencies loaded and CPU instruction support, which allows it to generate superior code. 
  - In the future, it may also utilize profile-guided feedback, but it does not currently do so.
 
 ## Concept
@@ -43,10 +43,10 @@ Eligible code can have two different variations called tiers.
  - This is whatever code the runtime thinks will run faster than **Tier0**. 
  - Currently, it is equivalent to code that would be jitted for a method when tiered compilation is not in use.
 
-When a method is first invoked the **Tier0** version is produced first. Once it appears that the method is hot then a **Tier1** version of the same method is produced and made active.
+When a method is first invoked, the **Tier0** version is produced first. Once it appears that the method is hot, then a **Tier1** version of the same method is produced and made active.
 
- - Most of the mechanics to make new code versions, configure them, and switch the active one are handled by the `CodeVersionManager`. 
- - Tiered Compilation owns the policy to decide when to switch versions, the counters and timers that provide inputs to that policy, queues to track needed work, and the background threads that are used to do a compilation.
+ - Most of the mechanics to make new code versions, configure them, and switch the active ones are handled by the `CodeVersionManager`. 
+ - Tiered Compilation owns the policy to decide when to switch versions, the counters and timers that provide inputs to that policy, queues to track needed work, and the background threads used to do a compilation.
 
 ## Opt-in Feature
 
@@ -54,7 +54,7 @@ In .NET Core 2.1, the JIT compiler implemented a new compiler technology, tiered
 
  - The goal of tiered compilation is improved performance. 
  - One of the important tasks performed by the JIT compiler is optimizing code execution. 
- - For little-used code paths, however, the compiler may spend more time optimizing code than the runtime spends executing unoptimized code. 
+ - However, For little-used code paths the compiler may spend more time optimizing code than the runtime spends executing unoptimized code. 
  
 Tiered compilation introduces two stages in JIT compilation.
 

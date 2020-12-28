@@ -5,7 +5,7 @@ Name: Handling Events in Runtime Services
 
 # Handling Events in Runtime Services
 
-Most of the time you may want to monitor your application's use of runtime services, such as the GC, JIT, and ThreadPool, to understand how they impact your application. 
+Most of the time, you may want to monitor your application's use of runtime services, such as the GC, JIT, and ThreadPool, to understand how they impact your application. 
 
  - On Windows systems, this is commonly done by monitoring the ETW events of the current process. 
  - While this continues to work well, it is not always possible to use ETW if you are running in a low-privilege environment or on Linux or macOS.

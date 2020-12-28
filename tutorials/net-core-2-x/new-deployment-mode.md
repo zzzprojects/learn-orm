@@ -9,7 +9,7 @@ Name: New Deployment Mode
 
 Apps published as framework-dependent are cross-platform and don't include the .NET Core runtime. The user of your app is required to install the .NET Core runtime.
 
- - Publishing an app as framework-dependent produces a cross-platform binary as a `dll` file, and a platform-specific executable that targets your current platform. 
+ - Publishing an app as framework-dependent produces a cross-platform binary as a `dll` file and a platform-specific executable that targets your current platform. 
  - The `dll` is cross-platform while the executable isn't. 
  - For example, if you publish an app named `excel_processor` and target Windows, a `excel_processor.exe` executable is created along with `excel_processor.dll`. 
  - When targeting Linux or macOS, a `excel_processor` executable is created along with `excel_processor.dll`.
@@ -27,7 +27,7 @@ Starting with .NET Core 2.2, you can deploy framework-dependent executables, whi
 ### Small Deployment
 
  - Only your app and its dependencies are distributed. 
- - The .NET Core runtime and libraries are installed by the user and all apps share the runtime.
+ - The user installs The .NET Core runtime and libraries and all apps share the runtime.
 
 ### Cross-platform
 

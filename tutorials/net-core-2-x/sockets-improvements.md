@@ -5,7 +5,7 @@ Name: Sockets Improvements
 
 # Sockets Improvements
 
-In .NET Core, a new type `System.Net.Http.SocketsHttpHandler`, and a rewritten `System.Net.Http.HttpMessageHandler` are added that form the basis of higher-level networking APIs. 
+In .NET Core, a new type `System.Net.Http.SocketsHttpHandler`, and a rewritten `System.Net.Http.HttpMessageHandler` are added. They form the basis of higher-level networking APIs. 
 
  - `System.Net.Http.SocketsHttpHandler` is the basis of the `HttpClient` implementation. 
  - In previous versions of .NET Core, higher-level APIs were based on native networking implementations.

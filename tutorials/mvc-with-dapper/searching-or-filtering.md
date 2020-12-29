@@ -5,7 +5,7 @@ Name: Searching or Filtering
 
 # Searching or Filtering
 
-In this article, we will add searching or filtering to the `Authors` index page. To add searching we will add a text box and a submit button to the view and make corresponding changes in the `Index` method. The text box lets you enter a string to search for in the first name and last name fields. 
+In this article, we will add searching or filtering to the `Authors` index page. To add searching, we will add a text box and a submit button to the view and make corresponding changes in the `Index` method. The text box lets you enter a string to search for in the first and last name fields. 
 
 ## Update Index Action
 
@@ -84,7 +84,7 @@ public ActionResult Index(string sortOrder, string searchString)
 
  - The above code adds a `searchString` parameter to the Index method. The `searchString` value is received from a text box that the user will add to the Index view. 
  - It has also added a where clause to the LINQ statement that selects only authors whose first name or last name contains the search string. 
- - The statement that adds the where clause is executed only if there's a value to search for.
+ - The statement that adds the where clause is only executed if there's a value to search for.
 
 ## Update Index View
 

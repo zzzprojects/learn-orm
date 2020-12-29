@@ -5,7 +5,7 @@ Name: Sorting
 
 # Sorting
 
-With the help of sorting, you can sort any column by clicking a column heading repeatedly to toggles between ascending and descending sort order. To add sorting to the `Author` Index page, we need to change the `Index` method of the `AuthorController` and the ***Views\Author\Index.cshtml*** view.
+With the help of sorting, you can sort any column by clicking a column repeatedly heading to toggles between ascending and descending sort order. To add sorting to the `Author` Index page, we need to change the `Index` method of the `AuthorController` and the ***Views\Author\Index.cshtml*** view.
 
 ## Update Index Action
 

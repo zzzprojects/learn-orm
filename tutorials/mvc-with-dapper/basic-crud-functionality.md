@@ -9,7 +9,7 @@ In this article, we will learn about CRUD (Create, Read, Update, Delete) functio
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-dapper/images/crud-1.png">
 
-You can create a new author, delete or edit an existing author, and you can also see the details of any particular author using the highlighted links. But the views associated with these links are not available and we need to add these views and also update their respective actions in `AuthorController`. 
+You can create a new author, delete or edit an existing author, and you can also see the details of any particular author using the highlighted links. But the views associated with these links are not available, and we need to add these views and update their respective actions in `AuthorController`. 
 
 ## Details View
 
@@ -84,7 +84,7 @@ You will see the following code is added automatically for you in the `Details.c
 
 Each field is displayed using a `DisplayFor` helper, so here it will display the contents of the author in an HTML table.
 
-Now let's update the `Details` action method of `AuthorController` to fetch the particular author from the database as shown below.
+Now let's update the `Details` action method of `AuthorController` to fetch the particular author from the database, as shown below.
 
 ```csharp
 // GET: AuthorController/Details/5
@@ -239,7 +239,7 @@ Now run your application and go to the create page.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-dapper/images/crud-5.png">
 
-Enter the information of an author you want to add and click on the **Create** button and you will see a new author is added to the list.
+Enter the information of an author you want to add and click on the **Create** button, and you will see a new author is added to the list.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-dapper/images/crud-6.png">
 
@@ -342,7 +342,7 @@ public ActionResult Edit(int id)
 }
 ```
 
-To update the author data, we will also need to update the `HttpPost` `Edit` action as shown below.
+To update the author data, we will also need to update the `HttpPost` `Edit` action, as shown below.
 
 ```csharp
 // POST: AuthorController/Edit/5
@@ -397,7 +397,7 @@ Now run your application and go to the edit page.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-dapper/images/crud-8.png">
 
-Update the information of an author you want, here we will update the `Address` field and click on the **Save** button and you will see the specified author information is updated.
+To update an author's information, here we will update the `Address` field and click on the **Save** button, and you will see the specified author information is updated.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-dapper/images/crud-9.png">
 
@@ -529,6 +529,6 @@ Run the app, select the Authors tab, and click a `Delete` hyperlink.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-dapper/images/crud-11.png">
 
-Now click on the **Delete** button and you will see that the specified author is deleted from the list.
+Now click on the **Delete** button, and you will see that the specified author is deleted from the list.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-dapper/images/crud-12.png">

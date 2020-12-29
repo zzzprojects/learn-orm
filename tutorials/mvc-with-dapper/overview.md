@@ -11,7 +11,7 @@ IsHome: 1
 MVC stands for Model, View, and Controller. MVC separates the application into three components 
 
  - **Model:** Responsible for maintaining application data and business logic.
- - **View:** User interface of the application, which displays the data.
+ - **View:** The user interface of the application, which displays the data.
  - **Controller:** Handles users' requests and renders appropriate View with Model data.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-dapper/images/overview-1.png">
@@ -20,7 +20,7 @@ The MVC design pattern has been around for a few decades, and it's been used acr
 
 ### What is ASP.NET Core MVC?
 
-The ASP.NET Core MVC framework is a lightweight, open-source, highly testable presentation framework optimized for use with ASP.NET Core.
+The ASP.NET Core MVC framework is a lightweight, open-source, highly testable presentation framework optimized for ASP.NET Core.
 
  - It provides a patterns-based way to build dynamic websites that enables a clean separation of concerns. 
  - It gives you full control over markup, supports TDD-friendly development, and uses the latest web standards.
@@ -33,7 +33,7 @@ The ASP.NET Core MVC framework is a lightweight, open-source, highly testable pr
  - **Dependency Injection (DI):** Built-in support for dependency injection, controllers can request needed services through their constructors, allowing them to follow the Explicit Dependencies Principle.
  - **Filters:** Encapsulate cross-cutting concerns, like exception handling or authorization.
  - **Areas:** Provide a way to partition a large ASP.NET Core MVC Web app into smaller functional groupings.
- - **Web APIs:** Support for building Web APIs, and you can build services that reach a broad range of clients including browsers and mobile devices.
+ - **Web APIs:** Support for building Web APIs, and you can build services that reach a broad range of clients, including browsers and mobile devices.
  - **Testability:** The framework's use of interfaces and dependency injection make it well-suited to unit testing.
  - **Razor view engine:** Razor is a compact, expressive, and fluid template markup language for defining views using embedded C# code.
  - **Strongly typed views:** Razor views in MVC can be strongly typed based on your model.

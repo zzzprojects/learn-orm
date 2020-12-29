@@ -13,15 +13,15 @@ The easiest way to create an ASP.NET Core Web Application is to open Visual Stud
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-dapper/images/getting-started-1.png">
 
-Click the **Next** button and it will open the **Configure your new project** page.
+Click the **Next** button, and it will open the **Configure your new project** page.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-dapper/images/getting-started-2.png">
 
-Enter the name of the project **MvcWithDapper**, you can also change the **Location** and **Solution name**. Click the **Create** button and it will open the **Create a new ASP.NET Core web application** page.
+Enter the name of the project **MvcWithDapper**; you can also change the **Location** and **Solution name**. Click the **Create** button, and it will open the **Create a new ASP.NET Core web application** page.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-dapper/images/getting-started-3.png">
 
-Select **ASP.NET Core 5.0** and the **ASP.NET Core Web App (Model-View-Controller)** template, and make sure **Authentication** is set to **No Authentication**. Click the **Create** button and it will create a project containing the following files.
+Select **ASP.NET Core 5.0** and the **ASP.NET Core Web App (Model-View-Controller)** template, and ensure **Authentication** is set to **No Authentication**. Click the **Create** button, and it will create a project containing the following files.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-dapper/images/getting-started-4.png">
 

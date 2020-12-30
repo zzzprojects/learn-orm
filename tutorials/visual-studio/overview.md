@@ -109,7 +109,7 @@ Visual Studio Community is oriented towards individual developers and small team
 
 As of Visual Studio 2010, the Professional edition is the entry-level commercial edition of Visual Studio. 
 
- - Previously, a more feature restricted Standard edition was available.)[61] 
+ - Previously, a more feature restricted Standard edition was available.
  - It provides an IDE for all supported development languages. 
  - MSDN support is available as MSDN Essentials or the full MSDN library depending on licensing. 
  - It supports XML and XSLT editing and can create deployment packages that only use ClickOnce and MSI. 

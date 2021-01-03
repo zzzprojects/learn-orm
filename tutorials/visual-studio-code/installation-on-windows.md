@@ -62,8 +62,6 @@ After the installation is completed, click on the **Finish** button and it will 
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/installation-on-windows-8.png">
 
-It will only take a minute. 
-
 ## Windows Subsystem for Linux
 
 With [Windows Subsystem for Linux (WSL)](https://docs.microsoft.com/en-us/windows/wsl/install-win10), you can install and run Linux distributions on Windows. 

@@ -5,7 +5,7 @@ Name: Installation on Linux
 
 # Installation on Linux
 
-Microsoft did the unexpected by releasing Visual Studio Code for all major desktop platforms that include Linux as well. Visual Studio Code is officially distributed as a Snap package in the [Snap Store]().
+Microsoft did the unexpected by releasing Visual Studio Code for all major desktop platforms that include Linux. Visual Studio Code is officially distributed as a Snap package in the [Snap Store]().
 
 You can install it by running the following command.
 
@@ -27,7 +27,7 @@ sudo apt install ./<file>.deb
 # sudo apt-get install -f # Install dependencies
 ```
 
-Installing the `.deb` package will automatically install the apt repository and signing key to enable auto-updating using the system's package manager. 
+Installing the `.deb` package will automatically install the apt repository and signing key enabling auto-updating using the system's package manager. 
 
 You can also install the repository and key manually using the following script.
 
@@ -88,4 +88,4 @@ yum check-update
 sudo yum install code
 ```
 
-Due to the manual signing process and the system we use to publish, the yum repo may lag behind and not get the latest version of Visual Studio Code immediately.
+Due to the manual signing process and the system we use to publish, the yum repo may lag behind and not immediately get the latest version of Visual Studio Code.

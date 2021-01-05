@@ -11,7 +11,7 @@ Double-click on the downloaded archive to expand its contents.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/installation-on-macos-1.png">
 
-Double-click on the **Visual Studio Code.app** file and it will open the Visual Studio code.
+Double-click on the **Visual Studio Code.app** file, and it will open the Visual Studio code.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/installation-on-macos-2.png">
 

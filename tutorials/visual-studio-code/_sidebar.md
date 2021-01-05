@@ -9,3 +9,4 @@
   * [Themes](themes.md)
   * [User and Workspace Settings](user-and-workspace-settings.md)
   * [Keyboard Shortcuts](keyboard-shortcuts.md)
+  * [Code Editing](code-editing.md)

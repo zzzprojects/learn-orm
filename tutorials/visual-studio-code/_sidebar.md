@@ -7,3 +7,4 @@
   * [Personalize VS Code](personalize-vs-code.md)
   * [User Interface](user-interface.md)
   * [Themes](themes.md)
+  * [User and Workspace Settings](user-and-workspace-settings.md)

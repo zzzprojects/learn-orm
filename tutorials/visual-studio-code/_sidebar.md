@@ -8,3 +8,4 @@
   * [User Interface](user-interface.md)
   * [Themes](themes.md)
   * [User and Workspace Settings](user-and-workspace-settings.md)
+  * [Keyboard Shortcuts](keyboard-shortcuts.md)

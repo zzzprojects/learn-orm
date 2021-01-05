@@ -10,3 +10,4 @@
   * [User and Workspace Settings](user-and-workspace-settings.md)
   * [Keyboard Shortcuts](keyboard-shortcuts.md)
   * [Code Editing](code-editing.md)
+  * [VS Code Extensions](vs-code-extensions.md)

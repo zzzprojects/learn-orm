@@ -25,7 +25,7 @@ VS Code provides both Windows user and system level setups.
 
 ### User Setup
 
- - Installing the user setup does not require **Administrator** privileges as the location will be under your user **Local AppData (LOCALAPPDATA)** folder. 
+ - Installing the user setup does not require **Administrator** privileges as the location will be under your user's **Local AppData (LOCALAPPDATA)** folder. 
  - User setup also provides a smoother background update experience.
 
 ### System Setup
@@ -58,7 +58,7 @@ You will see the summary of all the options you have selected. Click on the **In
  
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/installation-on-windows-7.png">
 
-After the installation is completed, click on the **Finish** button and it will open the Visual Studio Code.
+After the installation is completed, click on the **Finish** button, and it will open the Visual Studio Code.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/installation-on-windows-8.png">
 

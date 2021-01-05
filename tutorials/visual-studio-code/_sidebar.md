@@ -6,3 +6,4 @@
   * [Basics of VS Code](basics-of-vs-code.md)
   * [Personalize VS Code](personalize-vs-code.md)
   * [User Interface](user-interface.md)
+  * [Themes](themes.md)

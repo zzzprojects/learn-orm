@@ -15,3 +15,4 @@
   * [Code Navigation](code-navigation.md)
   * [Refactoring](refactoring.md)
   * [Debugging](debugging.md)
+  * [Version Control](version-control.md)

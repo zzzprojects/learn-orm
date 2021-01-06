@@ -14,3 +14,4 @@
   * [IntelliSense](intellisense.md)
   * [Code Navigation](code-navigation.md)
   * [Refactoring](refactoring.md)
+  * [Debugging](debugging.md)

@@ -12,3 +12,4 @@
   * [Code Editing](code-editing.md)
   * [VS Code Extensions](vs-code-extensions.md)
   * [IntelliSense](intellisense.md)
+  * [Code Navigation](code-navigation.md)

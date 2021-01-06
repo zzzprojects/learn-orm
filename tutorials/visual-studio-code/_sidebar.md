@@ -11,3 +11,4 @@
   * [Keyboard Shortcuts](keyboard-shortcuts.md)
   * [Code Editing](code-editing.md)
   * [VS Code Extensions](vs-code-extensions.md)
+  * [IntelliSense](intellisense.md)

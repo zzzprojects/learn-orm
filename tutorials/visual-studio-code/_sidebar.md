@@ -13,3 +13,4 @@
   * [VS Code Extensions](vs-code-extensions.md)
   * [IntelliSense](intellisense.md)
   * [Code Navigation](code-navigation.md)
+  * [Refactoring](refactoring.md)

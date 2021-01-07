@@ -17,3 +17,4 @@
   * [Debugging](debugging.md)
   * [Version Control](version-control.md)
   * [Settings Sync](settings-sync.md)
+  * [Code Snippets](code-snippets.md)

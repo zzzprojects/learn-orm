@@ -16,3 +16,4 @@
   * [Refactoring](refactoring.md)
   * [Debugging](debugging.md)
   * [Version Control](version-control.md)
+  * [Settings Sync](settings-sync.md)

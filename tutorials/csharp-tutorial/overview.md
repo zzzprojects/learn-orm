@@ -15,7 +15,8 @@ C# is an object-oriented programming language developed by Microsoft. It is a si
  - Web services
  - Web sites
  - Games
- - Database applications etc.
+ - Database applications
+ - etc.
 
 ## Why C#?
 

@@ -27,7 +27,7 @@ The system will stores 99 in the memory space allocated for the variable `num`.
 The value types include simple types such as, `int`, `float`, `bool`, and `char`, `enum`, `struct`, and Nullable value types. These data types are called primitive (built-in types), because they are embedded in C# language at the lowest level.
 
 | Data Type              | Description                                          | Range                                 |
-|:-----------------------|:-----------------------------------------------------|:--------------------------------------|
+| :--------------------- | :--------------------------------------------------- | :------------------------------------ |
 | byte	                 | 8-bit unsigned integer                               | 0 to 255                              |	
 | sbyte	                 | 8-bit signed integer                                 | -128 to 127                           |	
 | short                  | 16-bit signed integer                                | -32,768 to 32,767                     |

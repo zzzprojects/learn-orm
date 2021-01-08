@@ -1,10 +1,6 @@
 ﻿// C# program file to demonstrate the different types of comments
 
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CSharpTutorialDemo
 {

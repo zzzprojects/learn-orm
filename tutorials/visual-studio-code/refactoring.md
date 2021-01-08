@@ -60,7 +60,6 @@ namespace TestApp
         }
     }
 }
-
 ```
 
 ## Extract Variable

@@ -17,3 +17,4 @@
 - [Version Control](version-control.md)
 - [Settings Sync](settings-sync.md)
 - [Code Snippets](code-snippets.md)
+- [VS Code Command Line Interface](vs-code-command-line-interface.md)

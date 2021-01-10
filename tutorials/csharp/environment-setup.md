@@ -14,7 +14,7 @@ To create Windows applications with the C# programming language, you will first 
 
 To download Visual Studio, go to the Visual Studio download page [https://visualstudio.microsoft.com/downloads/](https://visualstudio.microsoft.com/downloads/).
 
-<img src="../images/setup-1.png">
+<img src="images/setup-1.png">
 
 You can select one of the following editions.
 

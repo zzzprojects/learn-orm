@@ -26,11 +26,11 @@ In this tutorial, we will use the Visual Studio 2019 Community Edition. It is a 
 
 So click on the **Free download** button, and once the *.exe file is downloaded, right-click and select the Run as administrator on the downloaded file to begin the installation.
 
-<img src="/images/setup-2.png">
+<img src="images/setup-2.png">
 
 Click on continue to go ahead with the installation. 
 
-<img src="/images/setup-3.png">
+<img src="images/setup-3.png">
 
 Select the required Workload, let's say we want to install the **.NET Desktop development** & **ASP.NET and web development**. Now, click on the Install button to begin the installation of Visual Studio 2019.
 
@@ -42,23 +42,23 @@ If you are installing Visual Studio for the first time you will be asked to sign
 
 Let's create a new Console Application project by launching the Visual Studio.
 
-<img src="/images/setup-4.png">
+<img src="images/setup-4.png">
 
 Select the **Create a new project** option.
 
-<img src="/images/setup-5.png">
+<img src="images/setup-5.png">
 
 Choose **C#** as language, **Windows** as platform and **Console** as project type. In the template pane, select **Console App (.NET Core)** and click **Next** button.
 
-<img src="/images/setup-6.png">
+<img src="images/setup-6.png">
 
 Enter the project name, you can change the location and solution name, but we will leave it as is and click on the **Create** button.  
 
-<img src="/images/setup-6.png">
+<img src="images/setup-6.png">
 
 You can see a new console application project is created. 
 
-<img src="/images/setup-7.png">
+<img src="images/setup-7.png">
 
 Now let's add the following simple code which will print a message on the console window.
 
@@ -83,7 +83,7 @@ namespace CSharpTutorialDemo
 
 Let's run the application by clicking on the **Debug > Start Without Debugging** menu option. 
 
-<img src="/images/setup-8.png">
+<img src="images/setup-8.png">
 
 You will see the following output.
 

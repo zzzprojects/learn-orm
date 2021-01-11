@@ -1,2 +1,3 @@
 - [Overview](overview.md)
 - [Create MVC Application](create-mvc-application.md)
+- [MVC Web Application Folder Structure](mvc-web-application-folder-structure.md)

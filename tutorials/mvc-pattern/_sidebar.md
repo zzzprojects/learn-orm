@@ -3,3 +3,4 @@
 - [MVC Web Application Folder Structure](mvc-web-application-folder-structure.md)
 - [Routing in MVC Application](routing-in-mvc-application.md)
 - [Entity Framework](entity-framework.md)
+- [Entity Framework Extensions](entity-framework-extensions.md)

@@ -5,21 +5,21 @@ Name: User Interface
 
 # User Interface
 
-Visual Studio Code adopts a common user interface and layout of an explorer on the left, showing all of the files and folders you have access to, and an editor on the right, showing the content of the files you have opened.
+Visual Studio Code adopts a common user interface and layout of an explorer on the left, showing all of the files and folders you have access to, and an editor on the right, showing the content of the files you opened.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/user-interface-1.png">
 
 ## Basic Layout
 
-Visual Studio Code has a simple and intuitive layout that maximizes the space provided for the editor while leaving ample room to browse and access the full context of your folder or project. The UI is divided into five areas:
+Visual Studio Code has a simple and intuitive layout that maximizes the editor's space while leaving ample room to browse and access the full context of your folder or project. The UI is divided into five areas:
 
  - **Editor area:** The main area to edit your files. You can also open as many editors as you like side by side vertically and horizontally.
  - **Side Bar:** Contains different views like the Explorer to assist you while working on your project.
  - **Status Bar:** Information about the opened project and the files you edit.
  - **Activity Bar:** Located on the far left-hand side, this lets you switch between views and gives you additional context-specific indicators, like the number of outgoing changes when Git is enabled.
- - **Panels:** You can display different panels below the editor region for output or debug information, errors, and warnings, or an integrated terminal. The panel can also be moved to the right for more vertical space.
+ - **Panels:** You can display different panels below the editor region for output or debug information, errors, warnings, or an integrated terminal. The panel can also be moved to the right for more vertical space.
 
-Each time you start VS Code, it opens up in the same state it was in when you last closed it. The folder, layout, and opened files are preserved.
+Each time you start VS Code, it opens up in the same state as when you last closed it. The folder, layout, and opened files are preserved.
 
 ## Side by Side Editing
 
@@ -43,7 +43,7 @@ The editor has a navigation bar above its contents called Breadcrumbs. It shows 
 
 ## Explorer
 
-The **Explorer** is used to browse, open, and manage all of the files and folders in your project. Visual Studio Code is file and folder-based, you can get started immediately by opening a file or folder in VS Code, the contents of the folder are shown in the **Explorer**. 
+The **Explorer** is used to browse, open, and manage all of the files and folders in your project. Visual Studio Code is file and folder-based. You can get started immediately by opening a file or folder in VS Code. The contents of the folder are shown in the **Explorer**. 
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/user-interface-4.png">
 

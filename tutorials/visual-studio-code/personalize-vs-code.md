@@ -23,21 +23,21 @@ You can choose any of the available themes according to your preferences.
 
 File icons are the little icons next to file and folders names in the **Explorer**.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/personalize-of-vs-code-3.png">
+<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/personalize-vs-code-3.png">
 
 Let's open the **View > Command Palette...** and type ***file icon***.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/personalize-of-vs-code-4.png">
+<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/personalize-vs-code-4.png">
 
 Select the **File Icon Theme**, and you will see different file icon themes in a drop-down list.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/personalize-of-vs-code-5.png">
+<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/personalize-vs-code-5.png">
 
 ## Settings
 
 You can also change the settings, by opening the **Open Settings (JSON)** from **View > Command Palette...** menu.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/personalize-of-vs-code-6.png">
+<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/personalize-vs-code-6.png">
 
 To change the color of comments, update the following code in the `settings.json` file.
 
@@ -53,4 +53,4 @@ To change the color of comments, update the following code in the `settings.json
 
 Now you will see a different color for comments.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/personalize-of-vs-code-7.png">
+<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/personalize-vs-code-7.png">

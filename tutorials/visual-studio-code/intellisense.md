@@ -5,7 +5,7 @@ Name: IntelliSense
 
 # IntelliSense
 
-**IntelliSense** is a general term for a variety of code editing features including code completion, parameter info, quick info, and member lists. 
+**IntelliSense** is a general term for various code editing features including code completion, parameter info, quick info, and member lists. 
 
  - IntelliSense features are sometimes called by other names such as **code completion**, **content assist**, and **code hinting**.
  - Visual Studio Code IntelliSense is provided for C#, JavaScript, TypeScript, JSON, HTML, CSS, SCSS, and Less out of the box. 
@@ -54,7 +54,7 @@ The settings shown below are the default settings. You can change these settings
 
 ### Tab Completion
 
-The editor supports tab-completion which inserts the best matching completion when pressing **Tab**. 
+The editor supports tab-completion, which inserts the best matching completion when pressing **Tab**. 
 
  - It works regardless of the suggested widget showing or not. 
  - When you press a **Tab** after inserting a suggestion will insert the next best suggestion.
@@ -67,5 +67,5 @@ The **Tab Completion** drop-down contains the following values.
 
  - **off:** Tab completion is disabled. It is the default value.
  - **on:** Tab completion is enabled for all suggestions and repeated invocations insert the next best suggestion.
- - **onlySnippets:** Tab completion only inserts static snippets which prefix match the current line prefix.
+ - **onlySnippets:** Tab completion only inserts static snippets that prefix match the current line prefix.
 

@@ -18,7 +18,7 @@ Settings that apply globally to any instance of VS Code you open.
 Workspace settings are stored inside your workspace and only apply when the workspace is opened. 
 
  - Workspace settings override user settings, and these settings are specific to a project and can be shared across developers on a project.
- - A workspace is usually just your project root folder and workspace settings are stored at the root in a `.vscode` folder. 
+ - A workspace is usually just your project root folder, and workspace settings are stored at the root in a `.vscode` folder. 
  - You can also have more than one root folder in a VS Code workspace through a feature called Multi-root workspaces.
 
 To open your user and workspace settings, go to the **File** menu and select **Preferences > Settings**
@@ -29,7 +29,7 @@ You can see two tabs for User and Workspace settings. Workspace settings are use
 
  - Default settings are represented in groups so that you can navigate them easily. 
  - It has a Commonly Used group at the top, which shows popular customizations. 
- - Each setting can be edited by either a checkbox, an input, or by a drop-down. 
+ - Each setting can be edited by either a checkbox, an input, or a drop-down. 
  - Edit the text or select the option you want to change to the desired settings.
 
 Let's change the color theme from the drop-down list.
@@ -38,13 +38,13 @@ Let's change the color theme from the drop-down list.
 
 The modified settings are now indicated with a blue line similar to modified lines in the editor. The gear icon opens a context menu with options to reset the setting to its default value as well as copy setting as JSON.
 
-You can also search for and discover the settings you are looking for. When you search using the Search bar, it will not only show and highlight the settings matching your criteria but also filter out those which are not matching.
+You can also search for and discover the settings you are looking for. When you search using the Search bar, it will show and highlight the settings matching your criteria and filter out those that are not matching.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/settings-3.png">
 
 ## Settings File Location
 
-By default Visual Studio Code shows the Settings editor, but you can still edit the underlying `settings.json` file by using the **Open Settings (JSON)** command or by changing your default settings editor with the `workbench.settings.editor` setting.
+By default Visual Studio Code shows the Settings editor, but you can still edit the underlying `settings.json` file using the **Open Settings (JSON)** command or by changing your default settings editor with the `workbench.settings.editor` setting.
 
 Depending on your platform, the user settings file is located here:
 

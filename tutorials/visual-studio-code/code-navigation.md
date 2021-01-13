@@ -5,7 +5,7 @@ Name: Code Navigation
 
 # Code Navigation
 
-Visual Studio Code has a high productivity code editor, when it is combined with programming language services, it gives you the power of an IDE and the speed of a text editor. 
+Visual Studio Code has a high productivity code editor. When it is combined with programming language services, it gives you the power of an IDE and the speed of a text editor. 
 
 ## Quick File Navigation
 
@@ -48,7 +48,7 @@ If you press `Ctrl` and hover over a symbol, a preview of the declaration will a
 Some languages also support jumping to the type definition of a symbol by running the **Go to Type Definition** command from either the editor context menu or the **Command Palette**. 
 
  - It will take you to the definition of the type of a symbol. 
- - The command `editor.action.goToTypeDefinition` is not bound to a keyboard shortcut by default but you can add your own custom keybinding.
+ - The command `editor.action.goToTypeDefinition` is not bound to a keyboard shortcut by default, but you can add your own custom keybinding.
 
 ## Go to Implementation
 

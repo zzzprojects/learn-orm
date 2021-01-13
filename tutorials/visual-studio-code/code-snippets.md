@@ -11,11 +11,11 @@ Code snippets are templates that make it easier to enter repeating code patterns
  - You can also use the **Insert Snippet** command in the **Command Palette**. 
  - There is also support for tab-completion, you can enable it with `"editor.tabCompletion": "on"` in **User Settings**, type a snippet prefix, and press **Tab** to insert a snippet.
 
-For example, type `cw` in the editor and you will see a snippet name appears on the right side.
+For example, type `cw` in the editor, and you will see a snippet name appears on the right side.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/code-snippets-1.png">
 
-Press **Tab** and you will see `Console.WriteLine();` is inserted.
+Press **Tab**, and you will see `Console.WriteLine();` is inserted.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/code-snippets-2.png">
 
@@ -25,13 +25,13 @@ You can easily define your snippets without any extension. To create or edit you
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/code-snippets-3.png">
 
-Select the language (by language identifier) for which the snippets should appear, here will see select `csharp (C#)`. You can also select the **New Global Snippets** file option if they should appear for all languages. VS Code manages the creation and refreshing of the underlying snippets file(s) for you.
+Select the language (by language identifier) for which the snippets should appear, and you will see select `csharp (C#)`. You can also select the **New Global Snippets** file option if they should appear for all languages. VS Code manages the creation and refreshing of the underlying snippets file(s) for you.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/code-snippets-4.png">
 
-Snippets files are written in JSON, support C-style comments, and can define an unlimited number of snippets. Snippets support most TextMate syntax for dynamic behavior, intelligently format whitespace based on the insertion context, and allow easy multiline editing.
+Snippets files are written in JSON, support C-style comments, and define an unlimited number of snippets. Snippets support most TextMate syntax for dynamic behavior, intelligently format whitespace based on the insertion context, and allow easy multiline editing.
 
-Let's add the following script which will add a code snippet for checking whether the specified file exists or not.
+Let's add the following script to add a code snippet for checking whether the specified file exists or not.
 
 ```csharp
 "File Exists": {
@@ -46,11 +46,11 @@ Let's add the following script which will add a code snippet for checking whethe
 In the above code:
 
  - `"File Exists"` is the snippet name. It is displayed via IntelliSense if no description is provided.
- - `prefix` defines one or more trigger words that display the snippet in IntelliSense. 
- - `body` is one or more lines of content, which will be joined as multiple lines upon insertion. Newlines and embedded tabs will be formatted according to the context in which the snippet is inserted.
- - `description` is an optional description of the snippet displayed by IntelliSense.
+ - `Prefix` defines one or more trigger words that display the snippet in IntelliSense. 
+ - `Body` is one or more lines of content, which will be joined as multiple lines upon insertion. Newlines and embedded tabs will be formatted according to the context in which the snippet is inserted.
+ - `Description` is an optional description of the snippet displayed by IntelliSense.
 
-Let's save the `csharp.json` file and type `fexist` in the C# code file.
+Let's save the `csharp.json` file, and type `fexist` in the C# code file.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/code-snippets-5.png">
 

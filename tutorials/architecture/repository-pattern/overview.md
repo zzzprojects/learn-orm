@@ -35,6 +35,6 @@ Repository systems are good for testing and one reason being that you can use De
  - Then you can later make a fake object using moq for instance which implements that interface. 
  - Using something like StructureMap you can then bind the proper type to that interface. Boom you've just taken a dependence out of the equation and replaced it with something testable.
 
-### Easily swapped out with various data stores without changing the API: 
+### Easily Swapped out with various data stores without changing the API 
 
 For example, in one instance, you may need to retrieve data from the database, in other cases you may need to retrieve something from a third-party API, or perhaps there's some other place from which you need to retrieve data. Regardless, the idea behind the repository pattern is that whatever sits behind it doesn't matter so long as the API it provides works for the layer of the application calling into it.

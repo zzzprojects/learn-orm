@@ -5,7 +5,7 @@ Name: Settings Sync
 
 # Settings Sync
 
-Settings Sync lets you share your Visual Studio Code configurations such as settings, keybindings, and installed extensions across your machines so you are always working with your favorite setup.
+Settings Sync lets you share your Visual Studio Code configurations such as settings, keybindings, and installed extensions across your machines, so you are always working with your favorite setup.
 
 You can turn on **Settings Sync** using the **Turn On Settings Sync...** entry in the **Manage** gear menu at the bottom of the **Activity Bar**.
 
@@ -27,7 +27,7 @@ You can check the status of your latest syncs by opening the **Command Palette**
 
 ## Real-Time Sync
 
-If you get this set up on two different instances of VS Code you can see that changing settings on one will update the settings on another in real-time.
+If you get this set up on two different VS Code instances, you can see that changing settings on one will update the settings on another in real-time.
 
 ## Conflicts
 
@@ -35,7 +35,7 @@ When synchronizing settings between multiple machines, there may occasionally be
 
  - **Accept Local:** Selecting this option will overwrite remote settings in the cloud with your local settings.
  - **Accept Remote:** Selecting this option will overwrite local settings with remote settings from the cloud.
- - **Show Conflicts:** Selecting this will display a diff editor similar to the Source Control diff editor, where you can preview the local and remote settings and choose to either accept local or remote or manually resolve the changes in your local settings file and then accept the local file.
+ - **Show Conflicts:** Selecting this will display a diff editor similar to the Source Control diff editor, where you can preview the local and remote settings and choose to either accept local or remote or manually resolve the changes in your local settings file, then accept the local file.
 
 ## Switching Accounts
 

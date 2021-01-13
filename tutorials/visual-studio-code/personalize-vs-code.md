@@ -11,11 +11,11 @@ Visual Studio Code is a powerful editor used by millions of developers all over 
 
 Themes are significant since developers stare at a screen most of their time, so make sure it looks good and change it when you want it. Visual Studio Code has many built-in themes. Let's open the **View > Command Palette...** and type **theme**.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/personalize-of-vs-code-1.png">
+<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/personalize-vs-code-1.png">
 
 Select the **Color Theme**, and you will see different color themes in a drop-down list.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/personalize-of-vs-code-2.png">
+<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/personalize-vs-code-2.png">
 
 You can choose any of the available themes according to your preferences.
 

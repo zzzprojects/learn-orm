@@ -8,7 +8,7 @@ Name: Code Editing
 Visual Studio Code is an editor first and foremost and includes the features you need for highly productive source code editing. 
 
  - Being able to keep your hands on the keyboard when writing code is crucial for high productivity. 
- - Visual Studio Code has a rich set of default keyboard shortcuts as well as allowing you to customize them.
+ - Visual Studio Code has a rich set of default keyboard shortcuts, as well as allowing you to customize them.
 
 ## Multiple Selections
 

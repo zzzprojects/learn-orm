@@ -9,7 +9,7 @@ The features that Visual Studio Code includes out-of-the-box are just the start.
 
 ## Install Extensions
 
-You can browse and install extensions from within Visual Studio Code. To open the **Extensions** view, click on the **Extensions** icon in the **Activity Bar** on the side of Visual Studio Code.
+You can browse and install extensions from within Visual Studio Code. To open the **Extensions** view, click on the **Extensions** icon in the **Activity Bar** on the Visual Studio Code side.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/vs-code-extensions-1.png">
 
@@ -20,7 +20,7 @@ You can use the **View > Command Palette...** and select **View: Extensions** co
 It will show you a list of the most popular Visual Studio Code extensions on the **VS Code Marketplace**.
 
  - Each extension in the list includes a brief description, the publisher, the download count, and a five-star rating. 
- - You can click on the extension item to display the extension's details page where you can learn more.
+ - You can click on the extension item to display the extension's details page, where you can learn more.
 
 To install an extension, click on the **Install** button. 
 
@@ -40,7 +40,7 @@ If an extension is an Extension Pack, the **Extension Pack** section will displa
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/vs-code-extensions-6.png">
 
-You can sort the extension list by **Install Count**, **Rating**, **Name** or **Publised Date**. 
+You can sort the extension list by **Install Count**, **Rating**, **Name**, or **Publised Date**. 
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/vs-code-extensions-7.png">
 

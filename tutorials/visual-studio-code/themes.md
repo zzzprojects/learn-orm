@@ -5,13 +5,13 @@ Name: Themes
 
 # Themes
 
-Themes in Visual Studio Code, let you modify the colors in user interface to suit your preferences and work environment.
+Themes in Visual Studio Code let you modify the user interface colors to suit your preferences and work environment.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/themes-1.png">
 
-In Visual Studio Code, you can open the Color Theme picker with **File > Preferences > Color Theme** or you can also use the keyboard shortcut `Ctrl+K Ctrl+T` to display the picker.
+In Visual Studio Code, you can open the Color Theme picker with **File > Preferences > Color Theme**, or you can also use the keyboard shortcut `Ctrl+K Ctrl+T` to display the picker.
 
-To preview the colors of the theme, use the cursor keys, select the theme you want and press Enter.
+To preview the theme's colors, use the cursor keys, select the theme you want and press Enter.
 
 <img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/themes-2.png">
 
@@ -21,7 +21,7 @@ The active color theme is stored in your user settings (`settings.json`).
 
 ## Install Color Themes from the Marketplace
 
-On VS Code Extension Marketplace, you will a see alot of themes have been uploaded by the community. If you find one you want to use, install it and restart VS Code and the new theme will be available.
+On VS Code Extension Marketplace, you will a see the community uploaded alot of themes. If you find one you want to use, install it and restart VS Code, and the new theme will be available.
 
 To search for themes, type 'theme' in the Extensions view (`Ctrl+Shift+X`) search box.
 

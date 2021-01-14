@@ -1,5 +1,6 @@
 - [Overview](overview.md)
 - [The Repository and Unit of Work Patterns](repository-and-unit-of-work-patterns.md)
 - [Create Application](create-application.md)
-
+- [Create Model](create-model.md)
+- [Create Controller and Views](create-controller-and-views.md)
 

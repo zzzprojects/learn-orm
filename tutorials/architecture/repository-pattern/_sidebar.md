@@ -4,4 +4,5 @@
 - [Create Model](create-model.md)
 - [Create Controller and Views](create-controller-and-views.md)
 - [Create Repository](create-repository.md)
+- [Update Author Controller to Use the Repository](update-author-controller-to-use-the-repository.md)
 

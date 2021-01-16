@@ -11,7 +11,7 @@ Visual Studio Code has a powerful command-line interface built-in that lets you 
 
 To get an overview of the VS Code command-line interface, open a terminal or command prompt and type code `--help`. 
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/command-line-1.png">
+<img src="images/command-line-1.png">
 
 You will see the version, usage example, and list of command-line options.
 
@@ -19,11 +19,11 @@ You will see the version, usage example, and list of command-line options.
 
 You can launch the VS Code from the command line to quickly open a file, folder, or project. Open terminal or command prompt, navigate to your project folder, and type `code .`
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/command-line-2.png">
+<img src="images/command-line-2.png">
 
 You see that the folder is open the Visual Studio Code.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/command-line-3.png">
+<img src="images/command-line-3.png">
 
 Windows and Linux installations should add the VS Code binaries location to your system path. If this isn't the case, you can manually add the location to the `Path` environment variable. 
 
@@ -46,11 +46,11 @@ Here are optional arguments you can use when starting VS Code at the command lin
 
 To open a file, you can open it by using the `code <file name>` command.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/command-line-4.png">
+<img src="images/command-line-4.png">
 
 Now you can see that the specified file is open in the editor.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/command-line-5.png">
+<img src="images/command-line-5.png">
 
 If the specified file does not exist, VS Code will create them for you along with any new intermediate folders.
 

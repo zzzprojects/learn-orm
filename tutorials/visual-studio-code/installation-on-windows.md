@@ -11,7 +11,7 @@ Visual Studio Code is a popular lightweight and convenient code editor that you 
 
 You can download the Visual Studio Code installer for Windows from the [Visual Studio Code's official website](https://code.visualstudio.com/Download).
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/installation-on-windows-1.png">
+<img src="images/installation-on-windows-1.png">
 
 Alternatively, you can also download a Zip archive from the [Visual Studio Code's download page](https://code.visualstudio.com/Download), extract it, and run Code from there.
 
@@ -36,31 +36,31 @@ The system setup requires elevation to **Administrator** privileges and will pla
 
 After the installer is downloaded, run the installer (`VSCodeUserSetup-{version}.exe`). 
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/installation-on-windows-2.png">
+<img src="images/installation-on-windows-2.png">
 
 Accept the agreement and click on the **Next** button.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/installation-on-windows-3.png">
+<img src="images/installation-on-windows-3.png">
 
 By default, VS Code is installed under **C:\users\{username}\AppData\Local\Programs\Microsoft VS Code**, you can also change the location. Click on the **Next** button. 
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/installation-on-windows-4.png">
+<img src="images/installation-on-windows-4.png">
 
 Select the start menu folder, and click on the **Next** button.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/installation-on-windows-5.png">
+<img src="images/installation-on-windows-5.png">
 
 Check all the additional tasks, and click on the **Next** button.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/installation-on-windows-6.png">
+<img src="images/installation-on-windows-6.png">
 
 You will see the summary of all the options you have selected. Click on the **Install** button. It will only take a moment to install. 
  
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/installation-on-windows-7.png">
+<img src="images/installation-on-windows-7.png">
 
 After the installation is completed, click on the **Finish** button, and it will open the Visual Studio Code.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/installation-on-windows-8.png">
+<img src="images/installation-on-windows-8.png">
 
 ## Windows Subsystem for Linux
 

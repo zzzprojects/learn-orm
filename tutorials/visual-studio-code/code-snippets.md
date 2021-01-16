@@ -13,21 +13,21 @@ Code snippets are templates that make it easier to enter repeating code patterns
 
 For example, type `cw` in the editor, and you will see a snippet name appears on the right side.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/code-snippets-1.png">
+<img src="images/code-snippets-1.png">
 
 Press **Tab**, and you will see `Console.WriteLine();` is inserted.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/code-snippets-2.png">
+<img src="images/code-snippets-2.png">
 
 ## Create a Code Snippet
 
 You can easily define your snippets without any extension. To create or edit your snippets, select **User Snippets** under **File > Preferences** menu.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/code-snippets-3.png">
+<img src="images/code-snippets-3.png">
 
 Select the language (by language identifier) for which the snippets should appear, and you will see select `csharp (C#)`. You can also select the **New Global Snippets** file option if they should appear for all languages. VS Code manages the creation and refreshing of the underlying snippets file(s) for you.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/code-snippets-4.png">
+<img src="images/code-snippets-4.png">
 
 Snippets files are written in JSON, support C-style comments, and define an unlimited number of snippets. Snippets support most TextMate syntax for dynamic behavior, intelligently format whitespace based on the insertion context, and allow easy multiline editing.
 
@@ -52,11 +52,11 @@ In the above code:
 
 Let's save the `csharp.json` file, and type `fexist` in the C# code file.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/code-snippets-5.png">
+<img src="images/code-snippets-5.png">
 
 Now press **Tab** and you will see the following code line is inserted.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/code-snippets-6.png">
+<img src="images/code-snippets-6.png">
 
 ## Snippet Scope
 

@@ -13,7 +13,7 @@ If the .NET Core 2.0 SDK is installed, you can retarget .NET Core 1.x projects t
 
 To retarget your Visual Studio project, you open the Application tab of the project's properties dialog and change the Target framework value to .NET Core 2.0 or .NET Standard 2.0. 
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/net-core-2-x/images/vs-integration-1.png">
+<img src="images/vs-integration-1.png">
 
 You can also change it by right-clicking on the project and selecting the Edit *.csproj file option. 
 
@@ -39,7 +39,7 @@ If you are building a project for multiple target frameworks, you can now select
 
 The following project targets **64-bit macOS X 10.11 (osx.10.11-x64)** and **64-bit** Windows 10/Windows Server 2016 (win10-x64). 
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/net-core-2-x/images/vs-integration-2.png">
+<img src="images/vs-integration-2.png">
 
 You can select the target framework before selecting the project button, in this case, to run a debug build.
 

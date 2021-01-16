@@ -187,6 +187,6 @@ The column header links use the query string to pass the current search string t
 
 Let's run your application and you will see pagination on `Author` index page.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-entity-framework-6/images/searching-or-filtering-1.png">
+<img src="images/searching-or-filtering-1.png">
 
 Enter a search string, and click Search to verify that filtering is working and also click the paging links in different sort orders to make sure paging works.

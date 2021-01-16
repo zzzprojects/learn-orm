@@ -20,15 +20,15 @@ In this case, a controller named `AuthorController` is invoked. The `AuthorContr
 
 To create a controller, right-click the **Controllers** folder in Solution Explorer, and select **Add > Controller...**
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-dapper/images/create-controller-1.png">
+<img src="images/create-controller-1.png">
 
 It will open the **Add Scaffold** dialog box. 
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-dapper/images/create-controller-2.png">
+<img src="images/create-controller-2.png">
 
 Select **MVC controller with read/write actions**, and then click **Add** button.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-dapper/images/create-controller-3.png">
+<img src="images/create-controller-3.png">
 
 Enter **AuthorController** (not AuthorsController) as a **Controller name** and click **Add** button. The scaffolder creates an `AuthorController.cs` file. 
 

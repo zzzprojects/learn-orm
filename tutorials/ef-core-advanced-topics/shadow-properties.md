@@ -48,7 +48,7 @@ class MyContext : DbContext
 
 This code creates a shadow property `AuthorId` to the `Book` entity.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/entity-framework-core-advanced-topics/images/shadow-properties-1.png">
+<img src="images/shadow-properties-1.png">
 
 ## Define Shadow Properties
 
@@ -66,7 +66,7 @@ protected override void OnModelCreating(ModelBuilder modelBuilder)
 
 The `Property` method is used to configure a shadow property by specifying the name of the shadow property as a string and the type as a generic parameter. If the name specified in the `Property` method matches the name of an existing property, then the EF Core will configure that existing property as a shadow property rather than introducing a new shadow property.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/entity-framework-core-advanced-topics/images/shadow-properties-2.png">
+<img src="images/shadow-properties-2.png">
 
 ## Access Shadow Properties
 

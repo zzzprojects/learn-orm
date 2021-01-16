@@ -83,7 +83,7 @@ protected override void Up(MigrationBuilder migrationBuilder)
 
 Now, look at the database in SQL Server Object Explorer.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/entity-framework-core-advanced-topics/images/relationships-1.png"> 
+<img src="images/relationships-1.png"> 
 
  - The primary key in Authors table is AuthorId, while in Books table the primary key is BookId. 
  - The AuthorId column in the Books table is a Foreign Key (FK), linking a book to its author. 
@@ -252,7 +252,7 @@ protected override void Up(MigrationBuilder migrationBuilder)
 
 Now, look at the database in SQL Server Object Explorer.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/entity-framework-core-advanced-topics/images/relationships-2.png"> 
+<img src="images/relationships-2.png"> 
 
 Now if your model does not follow the default conventions, the Fluent API can be used to configure the correct relationship between entities.
 
@@ -411,4 +411,4 @@ protected override void Up(MigrationBuilder migrationBuilder)
 
 Now, look at the database in SQL Server Object Explorer.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/entity-framework-core-advanced-topics/images/relationships-3.png"> 
+<img src="images/relationships-3.png"> 

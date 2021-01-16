@@ -48,7 +48,7 @@ sudo apt install code # or code-insiders
 
 Once installed, use the application manager to search Visual Code Studio and launch it as shown.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/installation-on-linux-1.png">
+<img src="images/installation-on-linux-1.png">
 
 ## openSUSE and SLE-based distributions#
 

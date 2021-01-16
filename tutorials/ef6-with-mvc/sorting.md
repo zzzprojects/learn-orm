@@ -119,7 +119,7 @@ In ***Views\Authort\Index.cshtml***, replace the following code.
 
 This code uses the information in the `ViewBag` properties to set up hyperlinks with the appropriate query string values. Let's run your application and click on the **Authors** menu option.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-entity-framework-6/images/sorting-1.png">
+<img src="images/sorting-1.png">
 
 The column headings are links that the user can click to sort by that column.
 

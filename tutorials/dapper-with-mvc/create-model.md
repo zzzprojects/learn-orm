@@ -68,7 +68,7 @@ CREATE TABLE [dbo].[Authors] (
 
 Now you can see a database is created which contains an **Authors** table.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-dapper/images/create-model-1.png">
+<img src="images/create-model-1.png">
 
 ## Initialize Database
 
@@ -85,7 +85,7 @@ INSERT INTO Authors (FirstName, LastName, Address, City, PostalCode, Country) VA
 
 Now you will see the above-inserted records in the database.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-dapper/images/create-model-2.png">
+<img src="images/create-model-2.png">
 
 
 ## Setup Connection String

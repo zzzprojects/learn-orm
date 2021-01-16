@@ -9,11 +9,11 @@ Settings Sync lets you share your Visual Studio Code configurations such as sett
 
 You can turn on **Settings Sync** using the **Turn On Settings Sync...** entry in the **Manage** gear menu at the bottom of the **Activity Bar**.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/settings-sync-1.png">
+<img src="images/settings-sync-1.png">
 
 You will be asked to sign in and what preferences you would like to sync; currently Settings, Keyboard Shortcuts, Extensions, User Snippets, and UI State are supported.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/settings-sync-2.png">
+<img src="images/settings-sync-2.png">
 
 Selecting the **Sign in & Turn on** button will ask you to choose between signing in with your **Microsoft** or **GitHub** account.
 
@@ -23,7 +23,7 @@ After signing in to the **GitHub** account, **Settings Sync** will be turned on 
 
 You can check the status of your latest syncs by opening the **Command Palette** and run the **Settings Sync: Show Synced Data** command.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/settings-sync-3.png">
+<img src="images/settings-sync-3.png">
 
 ## Real-Time Sync
 

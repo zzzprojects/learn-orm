@@ -10,7 +10,7 @@ You can personalize Visual Studio in various ways to best support your developme
  - You can also reset to Visual Studio default settings by using the **Import and Export Settings...** wizard command on the Tools menu. 
  - In the **Import and Export Settings...** wizard, you can change selected general settings or language and project-specific settings.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/customize-code-editor-1.png">
+<img src="images/customize-code-editor-1.png">
 
 But there are also few customizations which developer can make to increase their productivity and write code with ease on that particular Visual Studio instance or particular machine, such as, Full-Screen Mode, Split window, etc. 
  
@@ -20,17 +20,17 @@ In **Virtual Space** mode, spaces are inserted at the end of each line of code. 
 
 You can enable/disable this option from **Tools > Options > Text Editor > All Languages > General**, and under **Settings**, select **Enable Virtual Space**.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/customize-code-editor-2.png">
+<img src="images/customize-code-editor-2.png">
 
 ## Split an Editor Window
 
 An instance of an editor window can be split into two separate views for easier editing. Click within the editor window to give it focus.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/customize-code-editor-3.png">
+<img src="images/customize-code-editor-3.png">
 
 Select the **Window > Split** menu option and you will see the editing area divides into two panes separated by a splitter bar. 
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/customize-code-editor-4.png">
+<img src="images/customize-code-editor-4.png">
 
  - You can scroll these panes independently to view and edit different parts of the active document at the same time. 
  - Any changes made in one pane are reflected in the other.
@@ -47,31 +47,31 @@ You can change the default **Font** and **Size**, and change the foreground and 
 
 You can change the settings from the **Tools > Options > Environment > Fonts and Colors**.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/customize-code-editor-5.png">
+<img src="images/customize-code-editor-5.png">
 
 Let's change the size to 12 and also change the color of the **Comment** display item and make it bold as shown below.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/customize-code-editor-6.png">
+<img src="images/customize-code-editor-6.png">
 
 Now you will see the changes in the editor.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/customize-code-editor-7.png">
+<img src="images/customize-code-editor-7.png">
 
 You can export all your setting from **Tools > Import and Export Settings...** menu.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/customize-code-editor-1.png">
+<img src="images/customize-code-editor-1.png">
 
 Click the **Next** button and will see all the settings which you can export. 
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/customize-code-editor-8.png">
+<img src="images/customize-code-editor-8.png">
 
 You can exclude some settings which you don't want exported by unchecking the check-boxes of these particular settings and click the **Next** button once you are done.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/customize-code-editor-9.png">
+<img src="images/customize-code-editor-9.png">
 
 Specify the name for your file and click the **Finish** button.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/customize-code-editor-10.png">
+<img src="images/customize-code-editor-10.png">
 
 You will see the **Export Complete** message when the file is successfully created.
 

@@ -28,15 +28,15 @@ RESTful web services typically use JSON messages to return data to the client. J
 
 To create a web service, let’s open a Visual Studio and create a new web application.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/android-with-entity-framework-core/images/remote-database-1.png">
+<img src="images/remote-database-1.png">
 
 On Add a new project page, select ASP.NET Core Web Application template click Next button. 
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/android-with-entity-framework-core/images/remote-database-2.png">
+<img src="images/remote-database-2.png">
 
 Enter the project name and choose a location for your project to Configure your new project page and click the Create button. 
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/android-with-entity-framework-core/images/remote-database-3.png">
+<img src="images/remote-database-3.png">
 
 In the Create a new ASP.NET Core Web Application dialog, confirm that .NET Core and ASP.NET Core 3.1 is selected. Select the API template and click Create.
 
@@ -144,11 +144,11 @@ public void ConfigureServices(IServiceCollection services)
 
 We will create the controller classes in which API methods will reside using the scaffolding process. Right-click the Controllers folder and select Add > New Scaffolded Item.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/android-with-entity-framework-core/images/remote-database-4.png">
+<img src="images/remote-database-4.png">
 
 Select API Controller with actions, using Entity Framework, and then select Add.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/android-with-entity-framework-core/images/remote-database-5.png">
+<img src="images/remote-database-5.png">
 
 In the Add API Controller with actions, using Entity Framework dialog. Select Customer (EFWebServices.Models) in the Model class, EntityContext (EFWebServices.Data) in the Data context class and enter CustomerController in the Controller name. Click the Add button.
 
@@ -385,6 +385,6 @@ async void OnCustomersMoveClicked(object sender, EventArgs e)
 
 Let’s run your application.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/android-with-entity-framework-core/images/remote-database-6.png">
+<img src="images/remote-database-6.png">
 
 Tap the Move button and it will export all the customers from the local database to the remote database using the web service. 

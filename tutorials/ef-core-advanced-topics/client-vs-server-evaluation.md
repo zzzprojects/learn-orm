@@ -59,7 +59,7 @@ protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 
 Now the configuration is added in the `DbContext.OnConfiguring` to throw an exception. If a poorly performing query is found, it will throw the following exception with a warning.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/entity-framework-core-advanced-topics/images/client-vs-server-evaluation.png">
+<img src="images/client-vs-server-evaluation.png">
 
 ## Explicit Client Evaluation
 

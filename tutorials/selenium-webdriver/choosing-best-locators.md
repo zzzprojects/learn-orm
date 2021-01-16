@@ -20,7 +20,7 @@ Sometimes you may want to use one, but there are best practices for using these 
 
 So the most important locator is `id`, it is the best locator to use whenever you want to deal with an element because an `id` will always be unique.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/selenium-webdriver/images/finding-elements-1.png">
+<img src="images/finding-elements-1.png">
 
 That's why if you look for `id="email"` on the entire page, you will see that it is only a single match and it will always refer to this element. Use `id` whenever possible.
 
@@ -32,7 +32,7 @@ If you still don't have an `id` in your desired element you might want to use an
 
 Let's take a look.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/selenium-webdriver/images/finding-elements-4.png">
+<img src="images/finding-elements-4.png">
 
 Here you can see class works and class identifies a single element. However, there are cases where a class may not be unique so make sure you check your application to see if the class identifies only a single element.
 
@@ -40,7 +40,7 @@ Here you can see class works and class identifies a single element. However, the
 
 You could also use a name if it is supplied for an element, but it is not very common. 
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/selenium-webdriver/images/finding-elements-2.png">
+<img src="images/finding-elements-2.png">
 
 You can see that it also contains an `id`, but you can use the name as well and make sure the name is unique to your application.
 
@@ -49,7 +49,7 @@ You can see that it also contains an `id`, but you can use the name as well and 
 ### Absolute XPath
 One of the worst things is using absolute XPath, which you can easily get by right-clicking on the element and select **Copy > Copy full XPath**
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/selenium-webdriver/images/choosing-locators-1.png">
+<img src="images/choosing-locators-1.png">
 
 It will copy the xpath to clip-board and when you paste it, you will see something like this:
 

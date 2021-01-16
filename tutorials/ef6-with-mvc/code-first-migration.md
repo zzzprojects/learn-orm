@@ -96,7 +96,7 @@ The first step is to enable automated migration by running the following command
 PM> enable-migrations -EnableAutomaticMigrations:$true
 ```
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-entity-framework-6/images/code-first-migration-1.png">
+<img src="images/code-first-migration-1.png">
 
 After executing `enable-migrations` command successfully, a folder named Migrations will be created in your project which contains `Configuration` class.
 

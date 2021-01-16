@@ -12,11 +12,11 @@ Code snippets are ready-made snippets of code you can quickly insert into your c
 
 Code snippets are available for a multitude of languages, including C#, C++, VB, XML, etc. To view all the available installed snippets for a language, select the **Tools > Code Snippets Manager...** 
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/code-snippets-4.png">
+<img src="images/code-snippets-4.png">
 
 You can see all the languages which contain code snippets, choose the **CSharp** from the **Language** drop-down and expand the **Visual C#**.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/code-snippets-5.png">
+<img src="images/code-snippets-5.png">
 
 You can see all the available code snippets for the C# language.
 
@@ -30,31 +30,31 @@ Code snippets can be accessed in the following general ways:
 
 For example, the `for` code snippet creates an empty `for` loop. Let's open the `Main` method and press **Ctrl+K, Ctrl+KX**.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/code-snippets-1.png">
+<img src="images/code-snippets-1.png">
 
 Now select the **Visual C#** option and you will see all the code snippets.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/code-snippets-2.png">
+<img src="images/code-snippets-2.png">
 
 Double-click on the `for` and you will see an empty for loop is inserted.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/code-snippets-3.png">
+<img src="images/code-snippets-3.png">
 
 ## Create a Code Snippet
 
 A snippet is nothing more than an XML file, with a `.snippet` extension, containing configuration settings. All the code snippets XML files are located in the Visual Studio installation directory and the path is also provided on the **Code Snippets Manager...**
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/code-snippets-6.png">
+<img src="images/code-snippets-6.png">
 
 You can create your own code snippet with only a few steps. All you need to do is create an XML file, fill in the appropriate elements, and add your code to it.
 
 Let's create a code snippet that checks the existence of a file. The first step is to create a new XML file in Visual Studio from **File > New > File...** menu.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/code-snippets-7.png">
+<img src="images/code-snippets-7.png">
 
 Select **XML File**, and click **Open** button. Once the new XML file is opened, let's save it with a `.snippet` extension and call it `fexists.snippet`.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/code-snippets-8.png">
+<img src="images/code-snippets-8.png">
 
 Now in our `fexists.snippet` file, we have only an XML declaration. Let's add the following basic snippet template to the XML file.
 
@@ -141,17 +141,17 @@ As you know the method `File.Exists` is in the `System.IO` namespace, so we need
 
 You can import a snippet to your Visual Studio installation by using the **Code Snippets Manager** by opening it from **Tools > Code Snippets Manager**.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/code-snippets-9.png">
+<img src="images/code-snippets-9.png">
 
 Click the **Import...** button, browse to the location where you saved the code snippet, select the file and click the **Open** button.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/code-snippets-10.png">
+<img src="images/code-snippets-10.png">
 
 The **Import Code Snippet** dialog opens, click the **Finish** button, then **OK**.
 
 Let's try it by typing `fexists` and press the **Tab** button twice, or you can also use the keyboard by pressing **Ctrl+K** and **Ctrl+X**, and then select **My Code Snippets**.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/code-snippets-11.png">
+<img src="images/code-snippets-11.png">
 
 Select the **File Exists** and you will see the following code snippet is inserted.
 

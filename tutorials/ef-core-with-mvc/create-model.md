@@ -254,6 +254,6 @@ On application startup, the `Main` method does the following operations.
 
 Now when you run your application for the first time, the database will be created and seeded with test data.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-entity-framework-core/images/create-model-1.png">
+<img src="images/create-model-1.png">
 
 So far, whenever you change your data model, you can delete the database, update your seed method, and start afresh with a new database the same way.

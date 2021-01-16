@@ -22,23 +22,23 @@ Visual Studio Code **IntelliSense** features are powered by a language service.
 
 You can trigger IntelliSense in any editor window by typing `Ctrl+Space` or by typing a trigger character such as the `.` (dot character).
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/intellisense-1.png">
+<img src="images/intellisense-1.png">
 
 The suggestions widget supports **CamelCase** filtering, which means you can type the letters which are uppercased in a method name to limit the suggestions. For example, "sc" will quickly bring up `SaveChanges`.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/intellisense-2.png">
+<img src="images/intellisense-2.png">
 
 As provided by the language service, you can see quick info for each method by either pressing `Ctrl+Space` or click on the `>` symbol. 
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/intellisense-3.png">
+<img src="images/intellisense-3.png">
 
 The accompanying documentation for the method will now expand to the side. 
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/intellisense-4.png">
+<img src="images/intellisense-4.png">
 
 The expanded documentation will stay so and will update as you navigate the list. 
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/intellisense-5.png">
+<img src="images/intellisense-5.png">
 
 You can close this by pressing `Ctrl+Space` again or by clicking on the close (`x`) icon.
 
@@ -50,7 +50,7 @@ You can customize your IntelliSense experience in settings and key bindings.
 
 The settings shown below are the default settings. You can change these settings in your `settings.json` file.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/intellisense-6.png">
+<img src="images/intellisense-6.png">
 
 ### Tab Completion
 
@@ -61,7 +61,7 @@ The editor supports tab-completion, which inserts the best matching completion w
 
 By default, tab completion is disabled. You can enable it on User Settings. 
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/intellisense-7.png">
+<img src="images/intellisense-7.png">
 
 The **Tab Completion** drop-down contains the following values.
 

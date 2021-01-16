@@ -90,4 +90,4 @@ public class EntityContext : DbContext
 
 Let's run the application and insert a new author, you will see the `INSERT` statement and all the log information.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-entity-framework-core/images/logging-1.png">
+<img src="images/logging-1.png">

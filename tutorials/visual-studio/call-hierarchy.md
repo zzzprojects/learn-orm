@@ -24,25 +24,25 @@ In Visual Studio, you can view a call hierarchy at design time. So, it means you
 
 You can open the **Call Hierarchy** window by right-clicking on the name of a method, property, or constructor in the code editor.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/call-hierarchy-1.png">
+<img src="images/call-hierarchy-1.png">
 
 Select the **View Call Hierarchy** and you will see the member name appears in a tree view pane in the **Call Hierarchy** window. 
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/call-hierarchy-2.png">
+<img src="images/call-hierarchy-2.png">
 
 If you expand the member node, **Calls To 'ReadDirectory'**, all members that call the selected member are displayed. 
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/call-hierarchy-3.png">
+<img src="images/call-hierarchy-3.png">
 
 For C++, if you expand the **Calls From 'node'**, all members that are called by the selected member are displayed.
 
 You can then expand each calling member to see its Calls To, and for C++, Calls From nodes. 
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/call-hierarchy-4.png">
+<img src="images/call-hierarchy-4.png">
 
 This enables you to navigate into the stack of callers.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/call-hierarchy-5.png">
+<img src="images/call-hierarchy-5.png">
 
 When you select a child member in the **Call Hierarchy** tree view pane, the **Call Hierarchy** details pane appears and displays all lines of code in which that child member is called from the parent member.
 
@@ -50,7 +50,7 @@ When you select a child member in the **Call Hierarchy** tree view pane, the **C
 
 When you right-click on a node in the **Call Hierarchy** tree view pane, you will see different shortcut menu options that appear based on the node type.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/call-hierarchy-6.png">
+<img src="images/call-hierarchy-6.png">
 
 
 The following table describes several shortcut menu options that are available when you right-click a node in the tree view pane.

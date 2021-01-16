@@ -32,23 +32,23 @@ Visual Studio uses two file types (`.sln` and `.suo`) to store settings for solu
 
 There are multiple ways to create a new project in Visual Studio 2019. When you first open Visual Studio, the start window appears, and from there, you can choose **Create a new project**.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/project-types-1.png">
+<img src="images/project-types-1.png">
 
 Select the **Create a new project** option.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/create-solution-and-project-1.png">
+<img src="images/create-solution-and-project-1.png">
 
 In the template pane, select **ASP.NET Core Web Application** and click the **Next** button.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/create-solution-and-project-2.png">
+<img src="images/create-solution-and-project-2.png">
 
 Enter the project name, you can change the location and solution name, but we will leave it as is and click on the **Create** button.  
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/create-solution-and-project-3.png">
+<img src="images/create-solution-and-project-3.png">
 
 Select the **Web Application** template and click on the **Create** button. You can see a new web application project is created.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/create-solution-and-project-4.png">
+<img src="images/create-solution-and-project-4.png">
 
 When you create a new project, it is saved by default at `%USERPROFILE%\source\repos`. You can change this location in the Projects location setting under **Tools > Options > Projects and Solutions > Locations**.
 
@@ -56,7 +56,7 @@ When you create a new project, it is saved by default at `%USERPROFILE%\source\r
 
 When a new project is created, you can use **Solution Explorer** to view and manage the projects and a solution and their associated items. 
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/create-solution-and-project-5.png">
+<img src="images/create-solution-and-project-5.png">
 
 You can see that a solution is created which contains one project and both a solution and project have the same name. You can choose a different name for a solution on the **Configure your new project** page.
 

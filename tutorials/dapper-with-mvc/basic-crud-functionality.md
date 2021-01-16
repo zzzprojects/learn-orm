@@ -7,7 +7,7 @@ Name: Basic CRUD Functionality
 
 In this article, we will learn about CRUD (Create, Read, Update, Delete) functionality in ASP.NET MVC using Dapper. Let's run your application.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-dapper/images/crud-1.png">
+<img src="images/crud-1.png">
 
 You can create a new author, delete or edit an existing author, and you can also see the details of any particular author using the highlighted links. But the views associated with these links are not available, and we need to add these views and update their respective actions in `AuthorController`. 
 
@@ -15,7 +15,7 @@ You can create a new author, delete or edit an existing author, and you can also
 
 First, we will add a `Details` view by right-clicking on **Author** folder and select **Add > Views...** option. It will open the **Add New Scaffolded Item** dialog, select the **Razor View** and enter the following details.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-dapper/images/crud-2.png">
+<img src="images/crud-2.png">
 
 You will see the following code is added automatically for you in the `Details.cshtml` file.
 
@@ -102,13 +102,13 @@ public ActionResult Details(int id)
 
 Now run your application and go to the details page.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-dapper/images/crud-3.png">
+<img src="images/crud-3.png">
 
 ## Create View
 
 First, we will add a `Create` view by right-clicking on the **Author** folder and select the **Add > Views...** option. It will open the **Add New Scaffolded Item** dialog, select the **Razor View** and enter the following details.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-dapper/images/crud-4.png">
+<img src="images/crud-4.png">
 
 You will see the following code is added automatically for you in the `Details.cshtml` file.
 
@@ -237,17 +237,17 @@ public ActionResult Create([Bind("FirstName,LastName,Address, City, PostalCode, 
 
 Now run your application and go to the create page.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-dapper/images/crud-5.png">
+<img src="images/crud-5.png">
 
 Enter the information of an author you want to add and click on the **Create** button, and you will see a new author is added to the list.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-dapper/images/crud-6.png">
+<img src="images/crud-6.png">
 
 ## Edit View
 
 First, we will add an `Edit` view by right-clicking on **Author** folder and select **Add > Views...** option. It will open the **Add New Scaffolded Item** dialog, select the **Razor View** and enter the following details.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-dapper/images/crud-7.png">
+<img src="images/crud-7.png">
 
 You will see the following code is added automatically for you in the `Edit.cshtml` file.
 
@@ -395,17 +395,17 @@ public ActionResult Edit(int id, [Bind("FirstName,LastName,Address, City, Postal
 
 Now run your application and go to the edit page.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-dapper/images/crud-8.png">
+<img src="images/crud-8.png">
 
 To update an author's information, here we will update the `Address` field and click on the **Save** button, and you will see the specified author information is updated.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-dapper/images/crud-9.png">
+<img src="images/crud-9.png">
 
 ## Delete View
 
 First, we will add a `Delete` view by right-clicking on **Author** folder and select **Add > Views...** option. It will open the **Add New Scaffolded Item** dialog, select the **Razor View** and enter the following details.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-dapper/images/crud-10.png">
+<img src="images/crud-10.png">
 
 You will see the following code is added automatically for you in the `Delete.cshtml` file.
 
@@ -527,8 +527,8 @@ public ActionResult DeleteConfirmed(int id)
 
 Run the app, select the Authors tab, and click a `Delete` hyperlink.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-dapper/images/crud-11.png">
+<img src="images/crud-11.png">
 
 Now click on the **Delete** button, and you will see that the specified author is deleted from the list.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-dapper/images/crud-12.png">
+<img src="images/crud-12.png">

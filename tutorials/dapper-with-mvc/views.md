@@ -16,19 +16,19 @@ In the Model-View-Controller (MVC) pattern, the view handles the application's d
 
 Now, we need to create all the required views for an `AuthorController`. Let's add a folder inside the **Views** folder and call it **Author**.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-dapper/images/views-1.png">
+<img src="images/views-1.png">
 
 Add the `Index.cshtml` file by right-clicking on **Author** folder.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-dapper/images/views-2.png">
+<img src="images/views-2.png">
 
 Select **Add > Views...** option, and it will open the **Add New Scaffolded Item** dialog.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-dapper/images/views-3.png">
+<img src="images/views-3.png">
 
 Select the **Razor View** in the middle page and click the **Add** button.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-dapper/images/views-4.png">
+<img src="images/views-4.png">
 
 On the **Add Razor View** dialog, enter `Index` in the **View name** field, select `List` from the **Template** and choose `Author (MvcWithDapper.Models)` from **Model class**. 
 
@@ -167,5 +167,5 @@ Open ***Views\Shared\\_Layout.cshtml***, and add menu entry for **Authors** afte
 
 Press Ctrl+F5 to run the project, click the **Authors** tab to see the test data.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-dapper/images/views-5.png">
+<img src="images/views-5.png">
 

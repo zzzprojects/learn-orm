@@ -17,11 +17,11 @@ The **Peek Definition** and **Go To Definition** are almost similar, the only di
 
 Let's right-click on the member name and choosing **Peek Definition** from the right-click menu. 
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/peek-definition-1.png">
+<img src="images/peek-definition-1.png">
 
 You will see that the member definition is opened up in the popup window.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/peek-definition-2.png">
+<img src="images/peek-definition-2.png">
 
 The definition window appears below the line that contains the member in the original file. The window doesn't hide any of the code in your original file. 
 
@@ -33,14 +33,14 @@ The definition window appears below the line that contains the member in the ori
 
 You can open another **Peek Definition** window inside an already open **Peek Definition** window. A set of breadcrumb dots appears next to the definition window tab, which you can use to navigate between definition windows. 
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/peek-definition-3.png">
+<img src="images/peek-definition-3.png">
 
 The tooltip on each dot shows the file name that the dot represents.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/peek-definition-4.png">
+<img src="images/peek-definition-4.png">
 
 The **CTRL + Click** will run the **Go To Definition** command, but you can make it open a **Peek Definition** window by changing an option on **Tools > Options > Text Editor > General**.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/peek-definition-5.png">
+<img src="images/peek-definition-5.png">
 
 Check the option **Open definition in peek view**  and click **OK** button. Press **Ctrl** and click the member, you will see the **Peek Definition** window instead of **Go To Definition**.

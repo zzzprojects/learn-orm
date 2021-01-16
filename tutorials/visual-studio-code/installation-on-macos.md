@@ -9,11 +9,11 @@ To install Visual Studio Code on macOS, download Visual Studio Code for macOS fr
 
 Double-click on the downloaded archive to expand its contents.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/installation-on-macos-1.png">
+<img src="images/installation-on-macos-1.png">
 
 Double-click on the **Visual Studio Code.app** file, and it will open the Visual Studio code.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/installation-on-macos-2.png">
+<img src="images/installation-on-macos-2.png">
 
 Drag `Visual Studio Code.app` to the **Applications** folder, making it available in the macOS Launchpad.
 
@@ -26,7 +26,7 @@ You can also run Visual Studio Code from the terminal by typing `code` after add
  - Launch VS Code.
  - Open the Command Palette (`Ctrl+Shift+P`) and type `shell command` to find the **Shell Command: Install 'code' command in PATH command**.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/installation-on-macos-3.png">
+<img src="images/installation-on-macos-3.png">
 
 Restart the terminal for the new `$PATH` value to take effect. You will be able to type `code .` in any folder to start editing files in that folder.
 

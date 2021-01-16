@@ -9,11 +9,11 @@ Name: Getting Started
 
 The easiest way to create ASP.NET application is to open Visual Studio and create a C# web project using the ASP.NET Web Application (.NET Framework) template. 
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-entity-framework-6/images/getting-started-1.png">
+<img src="images/getting-started-1.png">
 
 Name the project **MvcWithEF6Demo** and select **OK**.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-entity-framework-6/images/getting-started-2.png">
+<img src="images/getting-started-2.png">
 
 In **New ASP.NET Web Application - MvcWithEF6Demo**, select **MVC**.
 
@@ -29,10 +29,10 @@ PM> Install-Package EntityFramework
 
 You can also install EF6 by select the project in Solution Explorer. 
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-entity-framework-6/images/getting-started-3.png">
+<img src="images/getting-started-3.png">
 
 Right click on your project and select **Manage Nuget Packages...**.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-entity-framework-6/images/getting-started-4.png">
+<img src="images/getting-started-4.png">
 
 Search for Entity Framework and install the latest version by pressing the install button. You are now ready to start your application.

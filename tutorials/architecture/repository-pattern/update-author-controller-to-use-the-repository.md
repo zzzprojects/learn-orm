@@ -201,8 +201,9 @@ To update an author, use the `UpdateAuthor` method.
 ```csharp
 await repository.UpdateAuthor(author);
 ```
-Press Ctrl+F5 to run the project, click the **Authors** tab to see the test data.
+
+Press `Ctrl+F5` to run the project, click the **Authors** tab to see the test data.
 
 <img src="images/update-controller-1.png">
 
-The page looks and works the same as it did before you changed the code to use the repository.
+The pages look and work the same as it did before you changed the code to use the repository.

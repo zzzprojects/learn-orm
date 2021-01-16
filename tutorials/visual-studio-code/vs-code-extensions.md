@@ -11,11 +11,11 @@ The features that Visual Studio Code includes out-of-the-box are just the start.
 
 You can browse and install extensions from within Visual Studio Code. To open the **Extensions** view, click on the **Extensions** icon in the **Activity Bar** on the Visual Studio Code side.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/vs-code-extensions-1.png">
+<img src="images/vs-code-extensions-1.png">
 
 You can use the **View > Command Palette...** and select **View: Extensions** command or use the keyboard shortcut `Ctrl+Shift+X`.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/vs-code-extensions-2.png">
+<img src="images/vs-code-extensions-2.png">
 
 It will show you a list of the most popular Visual Studio Code extensions on the **VS Code Marketplace**.
 
@@ -24,31 +24,31 @@ It will show you a list of the most popular Visual Studio Code extensions on the
 
 To install an extension, click on the **Install** button. 
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/vs-code-extensions-3.png">
+<img src="images/vs-code-extensions-3.png">
 
 Once the installation is complete, the Install button will change to the different settings buttons.
 
 On the extension details page, you can read the extension's README.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/vs-code-extensions-4.png">
+<img src="images/vs-code-extensions-4.png">
 
 On the **Feature Contributions** page, you can see the extension's additions to VS Code such as settings, commands, and keyboard shortcuts, language grammars, debugger, etc.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/vs-code-extensions-5.png">
+<img src="images/vs-code-extensions-5.png">
 
 If an extension is an Extension Pack, the **Extension Pack** section will display which extensions will be installed when you install the pack. Extension Packs bundle separate extensions together so they can be easily installed at one time.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/vs-code-extensions-6.png">
+<img src="images/vs-code-extensions-6.png">
 
 You can sort the extension list by **Install Count**, **Rating**, **Name**, or **Publised Date**. 
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/vs-code-extensions-7.png">
+<img src="images/vs-code-extensions-7.png">
 
 ## Recommended Extensions
 
 You can see a list of recommended extensions. 
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/vs-code-extensions-8.png">
+<img src="images/vs-code-extensions-8.png">
 
 Extension recommendations can either be:
 

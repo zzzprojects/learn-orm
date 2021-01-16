@@ -54,7 +54,7 @@ sudo apt update
 
 When you run this command, you will see the package information is retrieved from various servers.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/entity-framework-core-on-ubuntu/images/overview-1.png">
+<img src="images/overview-1.png">
 
 ### Upgrade installed packages with apt
 
@@ -64,7 +64,7 @@ Once you have updated the package repository, you can now upgrade the installed 
 sudo apt upgrade
 ```
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/entity-framework-core-on-ubuntu/images/overview-2.png">
+<img src="images/overview-2.png">
 
 This will show you how many packages are going to be upgraded.
 
@@ -104,7 +104,7 @@ Visual Studio Code is a free code editor from Microsoft. It combines the simplic
 
 [https://code.visualstudio.com/Download](https://code.visualstudio.com/Download)
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/entity-framework-core-on-ubuntu/images/overview-3.png">
+<img src="images/overview-3.png">
 
 Click on the .deb link for Linux 64 Bit. After the file downloads, open your terminal and go to the Downloads folder.
 

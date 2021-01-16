@@ -12,15 +12,15 @@ Visual Studio Code lets you perform most tasks directly from the keyboard. Visua
 
 You can open this editor by going to the menu under **File > Preferences > Keyboard Shortcuts**.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/keyboard-shortcuts-1.png">
+<img src="images/keyboard-shortcuts-1.png">
 
 You can change the keyboard shortcut by right-clicking on the command and select the **Change Keybinding...** option.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/keyboard-shortcuts-2.png">
+<img src="images/keyboard-shortcuts-2.png">
 
 For demo purposes, let's update the **Copy** keyboard shortcut from `Ctrl + C` to `Shift + C` and press **Enter**.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/keyboard-shortcuts-3.png">
+<img src="images/keyboard-shortcuts-3.png">
 
 ## Keyboard Rules
 
@@ -58,9 +58,9 @@ The additional `keybindings.json` rules are appended at runtime to the bottom of
 
 Keyboard shortcuts are vital to productivity, and changing keyboarding habits can be tough. To help with this, **File > Preferences > Keymaps** shows you a list of popular keymap extensions. 
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/keyboard-shortcuts-4.png">
+<img src="images/keyboard-shortcuts-4.png">
 
 These extensions modify the Visual Studio Code shortcuts to match those of other editors, so you don't need to learn new keyboard shortcuts. There is also a Keymaps category of extensions in the Marketplace.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/keyboard-shortcuts-5.png">
+<img src="images/keyboard-shortcuts-5.png">
 

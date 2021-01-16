@@ -22,7 +22,7 @@ int num = 99;
 
 The system will stores 99 in the memory space allocated for the variable `num`.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/csharp-tutorial/images/data-type-1.png">
+<img src="images/data-type-1.png">
 
 The value types include simple types such as, `int`, `float`, `bool`, and `char`, `enum`, `struct`, and Nullable value types. These data types are called primitive (built-in types), because they are embedded in C# language at the lowest level.
 
@@ -55,7 +55,7 @@ string message = "Welcome to C# Tutorial.";
 
 The system will select a random location in memory for the variable `message`. The value of a variable `message` is the memory address of the actual data value. 
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/csharp-tutorial/images/data-type-2.png">
+<img src="images/data-type-2.png">
 
 Thus, reference type stores the address of the location where the actual value is stored instead of the value itself.
 

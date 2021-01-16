@@ -16,7 +16,7 @@ Visual Basic users are used to enforce that their applications are single-instan
 
 You can see the result shown below.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/net-5/images/preview-6-1.png">
+<img src="images/preview-6-1.png">
 
 ## RyuJIT code quality improvements
 

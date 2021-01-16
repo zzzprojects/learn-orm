@@ -12,15 +12,15 @@ So far we have learned about the Selenium and how to identify and find an elemen
  
 Now let's have a look into a real example, where we will log in to a Facebook and then navigate to the profile. When you navigate through the **Email address or phone number** box and inspect the element, you will see various web elements as shown below.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/selenium-webdriver/images/real-example-1.png">
+<img src="images/real-example-1.png">
 
 You can see an `id` whose value is "email". Now you can use the following code to find the **Email address or phone number** box using the `id` locator. Now look for a **Password** box and you can see that `id` value is "pass" as shown below.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/selenium-webdriver/images/real-example-2.png">
+<img src="images/real-example-2.png">
 
 Similarly, locate the Login button locator as shown below.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/selenium-webdriver/images/real-example-3.png">
+<img src="images/real-example-3.png">
 
 Let's write some code to automate the Facebook login. The following code will open the driver to maximize the browser window and then navigate to the Facebook login page.
 

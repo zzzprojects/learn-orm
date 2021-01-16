@@ -21,7 +21,7 @@ You can browse thousands of extensions available in the Marketplace to find the 
 
 You can also download the extensions directly using Visual Studio from **Extensions > Manage Extensions...** menu.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/visual-studio-extensions-1.png">
+<img src="images/visual-studio-extensions-1.png">
 
 The following are some of the important extensions you can use to increase your productivity.
 

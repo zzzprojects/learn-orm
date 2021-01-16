@@ -140,4 +140,4 @@ The following code will create a caption, a text box, and a Search button.
 
 Let's run your application, select the Authors tab, enter a search string, and click Search to verify that filtering is working.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-entity-framework-core/images/searching-or-filtering-1.png">
+<img src="images/searching-or-filtering-1.png">

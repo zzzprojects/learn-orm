@@ -9,17 +9,17 @@ In Visual Studio, **Go To** commands perform a focused search of your code to he
 
 Go To has the following commands, which are available in the **Edit > Go To** menu.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/go-to-commands.png">
+<img src="images/go-to-commands.png">
 
 ## Go To All
 
 The **Go To All** command can be used from the **Edit > Go To > Go To All** menu or you can also use the keyboard shortcut **Ctrl + T**. A small window is displayed at the top right of your code editor.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/go-to-commands-1.png">
+<img src="images/go-to-commands-1.png">
 
 By default, **Go To All** will display any item in your solution that matches your search term.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/go-to-commands-2.png">
+<img src="images/go-to-commands-2.png">
 
 As you type in the text box, the results appear in a drop-down list below the text box. To go to an element, choose it in the list.
 
@@ -27,7 +27,7 @@ As you type in the text box, the results appear in a drop-down list below the te
 
 You can also filter your code search to specific element types by prefacing your search term with certain characters or selecting one of the icons above the search box.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/go-to-commands-3.png">
+<img src="images/go-to-commands-3.png">
 
 Here is the prefix you can use in the search box.
 
@@ -44,7 +44,7 @@ Here is the prefix you can use in the search box.
 
 To narrow your search to a specific location, select one of the two document icons.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/go-to-commands-4.png">
+<img src="images/go-to-commands-4.png">
 
  - **Current Document**: Search current document only
  - **External Documents**: Search external documents in addition to those located in the project/solution.
@@ -53,6 +53,6 @@ To narrow your search to a specific location, select one of the two document ico
 
 In your code, you can find code elements faster by entering only the capital letters of the code element name. For example, if your code has a type called `SitePageNav`, you can narrow down the search by entering just the capital letters of the name `SPM` in the Go To dialog box. 
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/go-to-commands-5.png">
+<img src="images/go-to-commands-5.png">
 
 This feature can be helpful if your code has long names.

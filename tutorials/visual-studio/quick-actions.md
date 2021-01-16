@@ -20,23 +20,23 @@ The icon that appears when a Quick Action is available gives an indication of th
 
 Let's consider the following code where accidentally `int` is written as `itn`.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/quick-actions-1.png">
+<img src="images/quick-actions-1.png">
 
 When you hover the mouse at the location of an error and if a fix is available, light bulbs appear.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/quick-actions-2.png">
+<img src="images/quick-actions-2.png">
 
 To see potential fixes, select either the down arrow next to the light bulb or the Show potential fixes link. A list of available Quick Actions is displayed.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/quick-actions-3.png">
+<img src="images/quick-actions-3.png">
 
 Now let's select the right action, like Change the `itn` to `int` and you will see that it automatically fixes the issue.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/quick-actions-4.png">
+<img src="images/quick-actions-4.png">
 
 The Quick Action also enables you to remove variables that have been declared but never used in your code.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/quick-actions-5.png">
+<img src="images/quick-actions-5.png">
 
 
 For more information about the quick actions in Visual Studio, visit the official documentation page [https://docs.microsoft.com/en-us/visualstudio/ide/common-quick-actions](https://docs.microsoft.com/en-us/visualstudio/ide/common-quick-actions)

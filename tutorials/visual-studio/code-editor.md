@@ -9,11 +9,11 @@ The Visual Studio editor provides many features that make it easier for you to w
 
 By default, **Solution Explorer** shows your code organized by files. 
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/code-editor-1.png">
+<img src="images/code-editor-1.png">
 
 You can click on the **Class View** tab at the bottom of the window to view your code organized by classes.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/code-editor-2.png">
+<img src="images/code-editor-2.png">
 
 The following are the most commonly used editor features.
 
@@ -27,7 +27,7 @@ In Visual Studio, some syntax elements of code and markup files are colored diff
 
 You can see the default color for each type, and you can change the color for any specific syntax element by clicking **Tools > Options**, and then selecting **Environment > Fonts and Colors**.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/code-editor-3.png">
+<img src="images/code-editor-3.png">
 
 ## Error and Warning Marks
 
@@ -43,23 +43,23 @@ When the insertion point is placed on an open brace in a code file, both the ope
  - It gives you immediate feedback on misplaced or missing braces. 
  - You can turn brace matching on or off with the **Automatic delimiter highlighting** option on **Tools > Options > Text Editor**
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/code-editor-4.png">
+<img src="images/code-editor-4.png">
 
 ## Structure Visualizer	
 
 The dotted lines connect matching braces in code files, making it easier to see the opening and closing brace pairs. 
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/code-editor-5.png">
+<img src="images/code-editor-5.png">
 
 You can turn these lines on or off with the **Show structure guide lines** option on the **Tools > Options > Text Editor > General** page.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/code-editor-6.png">
+<img src="images/code-editor-6.png">
 
 ## Line Numbers	
 
 Line numbers can be displayed in the left margin of the code window. They are not displayed by default. You can turn this option on **Tools > Options > Text Editor > All Languages**.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/code-editor-7.png">
+<img src="images/code-editor-7.png">
 
 
 ## Change Tracking
@@ -72,7 +72,7 @@ The color of the left margin allows you to keep track of the changes you have ma
 
 To turn this feature on or off, change the Track changes option on **Tools > Options > Text Editor**.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/code-editor-8.png"> 
+<img src="images/code-editor-8.png"> 
 
 ## Selecting Code and Text
 
@@ -86,7 +86,7 @@ You can select text either in the standard continuous stream mode or in the box 
 
 You can zoom in or out in any code window by pressing and holding the **Ctrl** key and moving the scroll wheel on the mouse. You can also use the Zoom box in the lower-left corner of the code window to set a specific zoom percentage. 
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/code-editor-9.png"> 
+<img src="images/code-editor-9.png"> 
 
 ## Navigate and Find Code
 
@@ -94,7 +94,7 @@ You can move around in the code editor in several different ways.
 
 Including navigating backward and forward to previous insertion points. 
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/code-editor-10.png"> 
+<img src="images/code-editor-10.png"> 
 
 Viewing the definition of a type or member, and jumping to a specific method using the navigation bar. We will discuss it further in the [Code Navigation](code-navigation.md) article.
 

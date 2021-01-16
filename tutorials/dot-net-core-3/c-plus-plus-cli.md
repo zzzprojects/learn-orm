@@ -17,7 +17,7 @@ To add support for C++/CLI in Visual Studio 2019 version 16.4, install the **Des
 
 For core C and C++ support, choose the **Desktop development with C++** workload. 
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/net-core-3-x/images/workloads.png">
+<img src="images/workloads.png">
 
  - The default code editor, includes basic code editing support for over 20 languages, the ability to open and edit code from any folder without requiring a project, and integrated source code control.
  - Additional workloads support other kinds of development. 

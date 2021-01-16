@@ -20,21 +20,21 @@ In this case, a controller named `AuthorController` is invoked. The `AuthorContr
 
 To create a controller, right-click the **Controllers** folder in Solution Explorer, and select **Add > New Scaffolded Item...**
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-entity-framework-core/images/create-controller-1.png">
+<img src="images/create-controller-1.png">
 
 It will open the **Add Scaffold** dialog box. 
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-entity-framework-core/images/create-controller-2.png">
+<img src="images/create-controller-2.png">
 
 Select **MVC controller with views, using Entity Framework**, and then click **Add** button.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-entity-framework-core/images/create-controller-3.png">
+<img src="images/create-controller-3.png">
 
 In the **Add MVC Controller with views, using Entity Framework** dialog box, select **Author (MvcWithEFCoreDemo.Models)** from the **Model class** and **BookStore (MvcWithEFCoreDemo.DAL)** from the **Data context class** dropdown.
 
 Enter **AuthorController** (not AuthorsController) as a **Controller name** and click **Add** button. The scaffolder creates an AuthorController.cs file and a set of views (.cshtml files) that work with the controller. 
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-entity-framework-core/images/create-controller-4.png">
+<img src="images/create-controller-4.png">
 
 In the AuthorController.cs file, you will see that the controller takes a `BookStore` as a constructor parameter.
 
@@ -153,10 +153,10 @@ Change each occurrence of "MvcWithEFCoreDemo" to "Book Store".
 
 Press Ctrl+F5 to run the project, click the **Authors** tab to see the test data.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-entity-framework-core/images/create-controller-5.png">
+<img src="images/create-controller-5.png">
 
 ## View Database
 
 You can use SQL Server Object Explorer to view the database in Visual Studio, by right-clicking on the `Authors` table and click **View Data** to see the rows that were inserted into the table.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-entity-framework-core/images/create-controller-6.png">
+<img src="images/create-controller-6.png">

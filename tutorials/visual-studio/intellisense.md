@@ -24,15 +24,15 @@ These features help you to learn more about the code you're using, keep track of
 
 A list of valid members from a type appears after typing a trigger character such as a period (`.`) in managed code or `::` in C++. 
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/intellisense-1.png">
+<img src="images/intellisense-1.png">
 
 If you continue typing characters, the list is filtered to include only the members that begin with those characters or where the beginning of any word within the name starts with those characters. 
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/intellisense-2.png">
+<img src="images/intellisense-2.png">
 
 IntelliSense also performs **CamelCase** matching, so you can just type the first letter of each camel-cased word in the member name to see the matches.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/intellisense-3.png">
+<img src="images/intellisense-3.png">
 
 After selecting an item, you can insert it into your code by pressing either **Tab** or **Space** or **Enter** button.
 
@@ -40,11 +40,11 @@ After selecting an item, you can insert it into your code by pressing either **T
 
 Parameter Info gives you information about the number, names, and types of parameters required by a method, attribute generic type parameter, or template, etc.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/intellisense-4.png">
+<img src="images/intellisense-4.png">
 
 The parameter in bold indicates the next parameter that is required as you type the function.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/intellisense-5.png">
+<img src="images/intellisense-5.png">
 
 For overloaded functions, you can use the Up and Down arrow keys to view alternative parameter information for the function overloads.
 
@@ -52,7 +52,7 @@ For overloaded functions, you can use the Up and Down arrow keys to view alterna
 
 Quick Info displays the complete declaration for any identifier in your code. When you select a member from the List Members box, Quick Info also appears.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/intellisense-6.png">
+<img src="images/intellisense-6.png">
 
 If a function is overloaded, IntelliSense may not display information for all forms of the overload.
 

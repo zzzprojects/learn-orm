@@ -79,15 +79,15 @@ So, it is always preferred to use some utility like a Chrome browser that has a 
 
 Let's create XPath expression for the **Create a Page** link on the Facebook sign-in page by right-clicking on the link and select **Inspect**.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/selenium-webdriver/images/xpath-1.png">
+<img src="images/xpath-1.png">
 
 It will open the HTML DOM structure as shown below.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/selenium-webdriver/images/xpath-2.png">
+<img src="images/xpath-2.png">
 
 To get the Xpath of **Create a Page** link, right-click on HTML Structure and select **Copy > Copy XPath**.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/selenium-webdriver/images/xpath-3.png">
+<img src="images/xpath-3.png">
 
 It will copy the XPath to the clipboard and when you paste it, you will see something like this:
 

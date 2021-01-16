@@ -264,6 +264,6 @@ The paging buttons are displayed by tag helpers.
 
 Let's run your application and you will see pagination on the `Author` index page.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-entity-framework-core/images/paging-1.png">
+<img src="images/paging-1.png">
 
 Click the paging links to make sure paging works.

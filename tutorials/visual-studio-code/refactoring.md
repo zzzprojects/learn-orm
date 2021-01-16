@@ -29,11 +29,11 @@ A common refactoring used to avoid duplicating code is the **Extract Method** re
 
 For example, we have to perform an addition operation on two variables `a` and `b` and `sum` will store the result, now to move the sum operation to the method, select `a + b` and you will see a lightbulb appears on the left side.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/refactoring-1.png">
+<img src="images/refactoring-1.png">
  
 Click on the lightbulb in the gutter or press (`Ctrl+.`) to see available refactorings.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/refactoring-2.png">
+<img src="images/refactoring-2.png">
 
 Select the **Extract Method** option and you will see a method is inserted into the source code.
 
@@ -66,7 +66,7 @@ namespace TestApp
 
 You can also create a new local variable for the currently selected expression. For example, select `a + b` and press `Ctrl+.` or click on the lightbulb. 
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/refactoring-4.png">
+<img src="images/refactoring-4.png">
 
 Select the **Introduce Local** option and you will see a local variable added.
 
@@ -104,7 +104,7 @@ Renaming is a common operation related to refactoring source code and VS Code ha
 
 Let rename it using this feature by selecting the `v` variable and press `F2`. 
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/refactoring-4.png">
+<img src="images/refactoring-4.png">
 
 Type the new desired name and press **Enter** and you will see all the occurrences are renamed. 
 

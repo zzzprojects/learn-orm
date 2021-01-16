@@ -7,7 +7,7 @@ Name: Resizing an Element
 
 In some web applications, you will see a resizing functionality where you can resize an element by either increasing or decreasing its width and height. To demonstrate the resizing functionality, we will be using the example mentioned [here](https://jqueryui.com/resizable/). 
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/selenium-webdriver/images/resizing-1.png">
+<img src="images/resizing-1.png">
 
 It is a simple jQuery UI that allows you to click and hold the mouse left button on the handle at the right-bottom of the element to resize by moving in a horizontal and vertical direction.
 
@@ -29,7 +29,7 @@ The `MoveByOffset()` method needs the horizontal and vertical offsets as paramet
 
 Let's open the page source and locate the resizable element.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/selenium-webdriver/images/resizing-2.png">
+<img src="images/resizing-2.png">
 
 You can see only the class attribute, so we will identify this element using XPath. The following example will resize the web element by moving 150px in the horizontal direction and 100px in the vertical direction.
 
@@ -48,4 +48,4 @@ action.ClickAndHold(element).MoveByOffset(150, 100).Perform();
 
 So it will perform the resizing operation and the element has been resized.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/selenium-webdriver/images/resizing-3.png">
+<img src="images/resizing-3.png">

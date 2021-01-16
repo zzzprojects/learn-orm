@@ -25,11 +25,11 @@ Enter the following command on console.
 dotnet new console -lang vb.
 ```
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/net-core-2-x/images/lang-support-1.png">
+<img src="images/lang-support-1.png">
 
 The command creates a project file with a `.vbproj` file extension, along with a Visual Basic source code file named `Program.vb`. 
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/net-core-2-x/images/lang-support-2.png">
+<img src="images/lang-support-2.png">
 
 The `Program.vb` file contains the source code to write the string "Hello World!" to the console window.
 

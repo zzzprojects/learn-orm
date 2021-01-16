@@ -14,11 +14,11 @@ Visual Studio Code is an editor first and foremost and includes the features you
 
 Visual Studio Code supports multiple cursors for fast simultaneous edits. You can add secondary cursors (rendered thinner) with Alt+Click. Each cursor operates independently based on the context it sits in. A common way to add more cursors is with `Ctrl+Alt+Down` or `Ctrl+Alt+Up` that insert cursors below or above.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/code-editing-1.png">
+<img src="images/code-editing-1.png">
 
 The `Ctrl+D` selects the word at the cursor or the next occurrence of the current selection.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/code-editing-2.png">
+<img src="images/code-editing-2.png">
 
 ## Shrink/Expand Selection
 
@@ -28,7 +28,7 @@ You can quickly shrink or expand the current selection using `Shift+Alt+Left` an
 
 To use column box selection, place the cursor in one corner and then hold |Shift+Alt| while dragging to the opposite corner.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/code-editing-3.png">
+<img src="images/code-editing-3.png">
 
 There are also default key bindings for column selection on macOS and Windows, but not on Linux.
 
@@ -50,11 +50,11 @@ By default, Visual Studio Code requires an explicit action to save your changes 
  - It is very easy to turn-on **Auto Save**, which will save your changes after a configured delay or when focus leaves the editor. 
  - With this option turned on, there is no need to explicitly save the file. The easiest way to turn on Auto Save is with the **File > Auto Save** toggle that turns on and off save after a delay.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/code-editing-4.png">
+<img src="images/code-editing-4.png">
 
 For more control over **Auto Save**, open **User or Workspace settings** and find the associated settings. 
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/code-editing-4.png">
+<img src="images/code-editing-4.png">
 
 You will see that the **Auto Save** drop-down has the following values.
 

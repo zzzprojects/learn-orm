@@ -27,7 +27,7 @@ For high traffic situations, potential performance improvement is substantial.
 
 Let's create a `BookController` the same way we created an `AuthorController`, except this time we will select the **Use async controller actions** check box.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-entity-framework-6/images/use-async-1.png">
+<img src="images/use-async-1.png">
 
 If you open the `BookController` and look at the `Index` action, you will see some changes as compared to synchronous code.
 
@@ -236,4 +236,4 @@ Repeat the same changes in `Delete` view as well.
 
 Now run your application and click on **Books** tab.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/mvc-with-entity-framework-6/images/use-async-2.png">
+<img src="images/use-async-2.png">

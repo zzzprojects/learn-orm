@@ -17,21 +17,21 @@ Visual Studio Code ships with a Git source control manager (SCM) extension. Most
 
 You can search for and clone a repository from GitHub using the **Git: Clone command** in the **Command Palette** or by using the **Clone Repository** button in the Source Control view available when you have no folder open.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/version-control-1.png">
+<img src="images/version-control-1.png">
  
 Enter the repository URL you want to clone.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/version-control-2.png">
+<img src="images/version-control-2.png">
 
 Click on the **Clone from URL** and select the folder for **Repository Location**. It will start cloning, once cloning is completed and you can open it.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/version-control-3.png">
+<img src="images/version-control-3.png">
 
 ## GitHub Extension
 
 Using GitHub with Visual Studio Code lets you share your source code and collaborate with others. GitHub integration is provided through the GitHub Pull Requests and Issues extension.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/version-control-4.png">
+<img src="images/version-control-4.png">
 
 ## Branches and Tags
 

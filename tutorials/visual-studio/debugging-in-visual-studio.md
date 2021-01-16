@@ -33,21 +33,21 @@ Breakpoints are a useful feature when you know the line of code or the section o
 
 If you have a file open in the code editor, you can set a breakpoint by clicking in the margin to the left of a line of code.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/debugging-1.png">
+<img src="images/debugging-1.png">
 
 Press the **F5** button or use the **Debug > Start Debugging**  menu option, or you can also press the green arrow button in the toolbar. It starts the debugger and stops at the first breakpoint. 
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/debugging-2.png"> 
+<img src="/images/debugging-2.png"> 
 
 The yellow arrow represents the statement on which the debugger paused, which also suspends app execution at the same point, you can now check the values of each variable just by hovering the mouse cursor on that variable and it will display its =s value.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/debugging-3.png">
+<img src="images/debugging-3.png">
 
 The line with the `Add()` method call hasn't yet been executed. Now there are two ways, you can either go inside the `Add()` method and see line by line execution of the code or you can skip that and just move to the next line which is called the `Subtract()` method.
 
 If you need to go inside the `Add()` method, press **F11** and you will see the yellow arrow inside the `Add()` method.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/debugging-3.png"> 
+<img src="images/debugging-3.png"> 
 
 Now press the **F10** and you will see the line by line execution of the code. If the method body ends and you press again the **F10** button then you will see that it will return to Main where the `Add()` method has been called.
 
@@ -55,18 +55,18 @@ Now press the **F10** and you will see the line by line execution of the code. I
 
 The **Locals** window shows you the variables that are currently in scope.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/debugging-4.png"> 
+<img src="images/debugging-4.png"> 
 
 ## Autos Window
 
 In the **Autos** window, you see variables along with their current values and their types. The **Autos** window shows all variables used on the current line or the preceding line.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/debugging-5.png"> 
+<img src="images/debugging-5.png"> 
 
 ## Watch Window
 
 You can use a **Watch** window to specify a variable (or an expression) that you want to keep an eye on. While debugging, right-click an object or variable and choose **Add Watch**.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/debugging-6.png"> 
+<img src="images/debugging-6.png"> 
 
 For more information about the debugging in Visual Studio, visit the official documentation page [https://docs.microsoft.com/en-us/visualstudio/debugger/](https://docs.microsoft.com/en-us/visualstudio/debugger/)

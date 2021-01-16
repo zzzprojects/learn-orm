@@ -7,7 +7,7 @@ Name: Android Application Folder Structure
 
 In the following picture, we have the complete folder structure of a Xamarin.Android application. We will go through every folder and describe the contents of it, as to get a bit more familiarized with the structure of a Xamarin.Android app.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/android-with-entity-framework-core/images/folder-structure.png">
+<img src="images/folder-structure.png">
 
 Let’s look at the items inside the Project to see each folder and its purpose.
 

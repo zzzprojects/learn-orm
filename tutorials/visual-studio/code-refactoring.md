@@ -54,11 +54,11 @@ namespace VisualStudioTutorial
 
 Now you can convert the `for` loop by placing your mouse cursor in the `for` keyword and click the screwdriver icon in the margin of the code file.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/code-refactoring-1.png">
+<img src="images/code-refactoring-1.png">
 
 You can select the **Convert to 'foreach'** option if you want to change the code, but if you want to see the changes before, select **Preview changes** to open the Preview Changes dialog. So let's click on the **Preview changes**.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/code-refactoring-2.png">
+<img src="images/code-refactoring-2.png">
 
 Click the **Apply** button and you will see that `for` loop is converted to `foreach` statement.
 
@@ -91,7 +91,7 @@ foreach (Customer customer in customers)
 
 Similarly, you can convert the `foreach` statement by placing your mouse cursor in the `for` keyword and click the screwdriver icon.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio/images/code-refactoring-3.png">
+<img src="images/code-refactoring-3.png">
 
 Click the **Convert to 'for'** option and you will see that the `forearch` statement is converted to the following `for` loop.
 

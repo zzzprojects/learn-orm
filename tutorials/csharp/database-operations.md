@@ -23,11 +23,11 @@ C# provides a `SqlConnection` class which represents a connection to a SQL Serve
 
 To create a database, let's open the **SQL Server Object Explorer**, expand the **SQL Server** and right-click on the **Databases** and select the **Add New Database**.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/csharp-tutorial/images/database-operations-1.png">
+<img src="images/database-operations-1.png">
 
 It will open the **Create Database** dialog.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/csharp-tutorial/images/database-operations-2.png">
+<img src="images/database-operations-2.png">
 
 Enter the database name such as **MyTestDb** and click the **Ok** button. Now right-click on the newly created database and select **New Query...** It will open the query editor, let's run the following script in the query editor.
 
@@ -44,11 +44,11 @@ INSERT INTO [dbo].[Authors] VALUES (3, 'Stella');
 
 It will create a table with the name `Authors` and add three records to that table. To check the data in the database table, right-click on the `Authors` table in **SQL Server Object Explorer**.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/csharp-tutorial/images/database-operations-3.png">
+<img src="images/database-operations-3.png">
 
 Select the **View Data** option and it will display all the records. 
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/csharp-tutorial/images/database-operations-4.png">
+<img src="images/database-operations-4.png">
 
 ## Connect Database
 

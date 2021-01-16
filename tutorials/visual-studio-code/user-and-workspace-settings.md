@@ -23,7 +23,7 @@ Workspace settings are stored inside your workspace and only apply when the work
 
 To open your user and workspace settings, go to the **File** menu and select **Preferences > Settings**
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/settings-1.png">
+<img src="images/settings-1.png">
 
 You can see two tabs for User and Workspace settings. Workspace settings are useful for sharing project-specific settings across a team. 
 
@@ -34,13 +34,13 @@ You can see two tabs for User and Workspace settings. Workspace settings are use
 
 Let's change the color theme from the drop-down list.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/settings-2.png">
+<img src="images/settings-2.png">
 
 The modified settings are now indicated with a blue line similar to modified lines in the editor. The gear icon opens a context menu with options to reset the setting to its default value as well as copy setting as JSON.
 
 You can also search for and discover the settings you are looking for. When you search using the Search bar, it will show and highlight the settings matching your criteria and filter out those that are not matching.
 
-<img src="https://raw.githubusercontent.com/zzzprojects/learn-orm/master/tutorials/visual-studio-code/images/settings-3.png">
+<img src="images/settings-3.png">
 
 ## Settings File Location
 

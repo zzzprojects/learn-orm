@@ -31,7 +31,7 @@ namespace IoCDemo
 }
 ```
 
-Now to use the logging, we need to pass the ILogger interface to the `CustomerService` class. Let's create an instance of the `FileLogger` class and use constructor injection to pass the dependency.
+Now to use the logging, we need to pass the `ILogger` interface to the `CustomerService` class. Let's create an instance of the `FileLogger` class and use constructor injection to pass the dependency.
 
 ```csharp
 using System;

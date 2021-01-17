@@ -1,3 +1,4 @@
 - [Overview](overview.md)
 - [Create Application](create-application.md)
 - [Inflexible Implementation](inflexible-implementation.md)
+- [Flexible Implementation](flexible-implementation.md)

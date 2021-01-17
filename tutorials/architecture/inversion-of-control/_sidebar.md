@@ -2,3 +2,4 @@
 - [Create Application](create-application.md)
 - [Inflexible Implementation](inflexible-implementation.md)
 - [Flexible Implementation](flexible-implementation.md)
+- [Invert the Control using Dependency Injection](invert-the-control-using-dependency-injection.md)

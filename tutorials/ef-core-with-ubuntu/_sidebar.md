@@ -1,4 +1,4 @@
 - [Overview](overview.md)
-- [Getting Started](getting-started.md)
+- [Create Application](create-application.md)
 - [Add EF Core](add-ef-core.md)
 - [Controller and Views](controller-and-views.md)

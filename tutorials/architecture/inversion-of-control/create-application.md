@@ -64,4 +64,4 @@ namespace IoCDemo
 }
 ```
 
-In the above implementation, there is nothing wrong, but it has a limitation that we can only log the data to a text file. You can't in any way log data to other data sources or different log targets.
+There is nothing wrong with the above implementation, but it has a limitation that we can only log the data to a text file. You can't in any way log data to other data sources or different log targets.

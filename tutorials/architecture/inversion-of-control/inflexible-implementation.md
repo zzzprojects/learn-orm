@@ -5,7 +5,7 @@ Name: Inflexible Implementation
 
 # Inflexible Implementation
 
-Now if you want to add the support of database for logging. The existing implementation wouldn't support this and you would be compelled to change the implementation. You can either change the implementation of the FileLogger class, or you can add a new class and implement the database support.
+Now, if you want to add the support of database for logging. The existing implementation wouldn't support this, and you would be compelled to change the implementation. You can change the FileLogger class's implementation or add a new class and implement the database support.
 
 Let's add a new class file named `DatabaseLogger.cs` and add the following code.
 
@@ -31,7 +31,7 @@ namespace IoCDemo
 }
 ```
 
-Similarly, you can also add another target for logging such as XML, JSON, etc. Let's add a new class file named `XMLLogger.cs` and add the following code.
+Similarly, you can also add another target for logging, such as XML, JSON, etc. Let's add a new class file named `XMLLogger.cs` and add the following code.
 
 ```csharp
 using System;
@@ -55,7 +55,7 @@ namespace IoCDemo
 }
 ```
 
-You can create an instance of the `DatabaseLogger` and `XMLLogger` classes inside the `CustomerService` class as shown below.
+You can create an instance of the `DatabaseLogger` and `XMLLogger` classes inside the `CustomerService` class, as shown below.
 
 ```csharp
 using System;
@@ -86,6 +86,6 @@ namespace IoCDemo
 }
 ```
 
-As you can see that we have added support for the database and XML, but this design is not flexible and you will need to change the `CustomerService` class every time you need to log to a new log target. 
+As you can see, we have added support for the database and XML, but this design is not flexible and you will need to change the `CustomerService` class every time you need to log to a new log target. 
 
 It is not only cumbersome but also will make it extremely difficult for you to manage the `CustomerService` class over time.

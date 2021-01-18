@@ -5,9 +5,9 @@ Name: Entity Framework Extensions
 
 # Entity Framework Extensions
 
-The methods we used for adding, updating, and deleting items to and from the database are part of the Entity Framework and are very easy to get started and work with. But, the problem with Entity Framework, in general, is that it can be quite slow when dealing with big data sets. So, when doing CRUD operations with Entity Framework with thousands of items, you can and will experience performance issues.
+The methods we used to add, update, and deleting items to and from the database is part of the Entity Framework and are very easy to get started and work with. But, the problem with Entity Framework, in general, is that it can be quite slow when dealing with big data sets. So, when doing CRUD operations with Entity Framework with thousands of items, you can experience performance issues.
 
-To be able to solve the performance issues that Entity Framework can have, we can take advantage of some additional packages that offer support for Entity Framework and significantly improve CRUD operations when dealing with massive data sets.
+To solve the performance issues that Entity Framework can have, we can take advantage of some additional packages that offer support for Entity Framework and significantly improve CRUD operations when dealing with massive data sets.
 
 We will take a look at the Entity Framework Extensions package and the methods it includes in the following chapters.
 
@@ -15,7 +15,7 @@ We will take a look at the Entity Framework Extensions package and the methods i
 
 To be able to use the Entity Framework Extensions methods, we need first to install a NuGet package in Visual Studio.
 
-Back to Visual Studio, right-click the project and choose **Manage NuGet packages**. Under **Browse** search for the following package: `Z.EntityFramework.Extensions`. 
+Back to Visual Studio, right-click the project and choose **Manage NuGet packages**. Under **Browse**, search for the following package: `Z.EntityFramework.Extensions`. 
 
 The NuGet package can also be downloaded and installed from https://www.nuget.org/packages/Z.EntityFramework.Extensions/.
 
@@ -54,7 +54,7 @@ The method returns a list of employees, where the number of employees returned i
 
 To test the `DeleteFromQuery` extension method, we will add two new actions that are removing all employees from the database.
 
-The first action will use `SaveChanges()` and the second will use `DeleteFromQuery()`. We will also measure the time needed for both actions to do the deletion on the same number of users.
+The first action will use `SaveChanges()`, and the second will use `DeleteFromQuery()`. We will also measure the time needed for both actions to do the deletion on the same number of users.
 
 Back in Visual Studio, add the following action links at the beginning of the `Index.cshtml` view under the **Employee** folder.
 
@@ -98,7 +98,7 @@ The `UpdateMultiple()` method is another action method defined in the `EmployeeC
 
 <img src="images/entity-framework-extensions-11.png">
 
-Again, we define a different JIT method in this case `JIT_ BulkSaveChanges()` to make sure that the JIT compilation is executed before we start measuring the execution of the `BulkSaveChanges` extension method. The JIT method is as follows.
+Again, we define a different JIT method in this case, `JIT_ BulkSaveChanges()`, to make sure that the JIT compilation is executed before we start measuring the execution of the `BulkSaveChanges` extension method. The JIT method is as follows.
 
 <img src="images/entity-framework-extensions-12.png">
 

@@ -10,7 +10,7 @@ There are many ways to implement the repository and unit of work patterns. You c
  - You can implement a single repository for all entity types, or one for each type. 
  - If you implement one for each type, you can use separate classes, a generic base class and derived classes, or an abstract base class and derived classes. 
  - You can include business logic in your repository or restrict it to data access logic. 
- - You can also build an abstraction layer into your database context class by using `IDbSet` interfaces there instead of `DbSet` types for your entity sets. 
+ - You can also build an abstraction layer into your database context class using `IDbSet` interfaces instead of `DbSet` types for your entity sets.
  - The approach to implementing an abstraction layer shown in this tutorial is one option for you to consider, not a recommendation for all scenarios and environments.
 
 ## Create Author Repository Class
@@ -128,4 +128,4 @@ public AuthorRepository(BookStore context)
 
 You could instantiate a new context in the repository, but then if you used multiple repositories in one controller, each would end up with a separate context. 
 
-The repository implements `IDisposable` and disposes the database context as you saw earlier in the controller, and its CRUD methods make calls to the database context in the same way that you saw earlier.
+The repository implements `IDisposable` and disposes the database context as you saw earlier in the controller. Its CRUD methods make calls to the database context in the same way that you saw earlier.

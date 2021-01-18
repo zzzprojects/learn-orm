@@ -5,13 +5,13 @@ Name: MVC Web Application Folder Structure
 
 # MVC Web Application Folder Structure
 
-In the following picture, we have the complete folder structure of an MVC web application. We will go through every folder and describe the contents of it, to get a bit more familiarized with the structure of an MVC web app.
+In the following picture, we have the complete folder structure of an MVC web application. We will go through every folder and describe its contents to get a bit more familiarized with the structure of an MVC web app.
 
 <img src="images/mvc-web-application-folder-structure-1.png">
 
 ## App_Data
 
-The **App_Data** folder contains the data files of an MVC web application, such as .mdf database files, XML files, LocalDB, or any other data file type.  In our case, this folder is empty, since we still haven't defined any data sources that the application will use.
+The **App_Data** folder contains the data files of an MVC web application, such as .mdf database files, XML files, LocalDB, or any other data file type.  In our case, this folder is empty since we still haven't defined any data sources that the application will use.
 
 ## App_Start
 
@@ -27,13 +27,13 @@ Other files that possibly be present in this folder, depending on the MVC applic
 
 ## Content
 
-The **Content** folder consists of the static files of an MVC web application, like the **CSS** files, icons, and images. By default, every MVC web app includes the bootstrap.css files (both full and minified) and the Site.css.
+The Content folder consists of an MVC web application's static files, like the CSS files, icons, and images. By default, every MVC web app includes the bootstrap.css files (both full and minified) and the Site.css.
 
 <img src="images/mvc-web-application-folder-structure-3.png">
 
 ## Controllers
 
-The **Controller** folder contains class files for all of the controllers defined in the MVC web applications. Like we learned before, Controllers handle users' requests and return an appropriate response. Our MVC app has only one **Controller** defined, and that is the **HomeController**.
+The **Controller** folder contains class files for all of the controllers defined in the MVC web applications. Like we learned before, Controllers handle user's requests and return an appropriate response. Our MVC app has only one **Controller** defined, and that is the **HomeController**.
 
 <img src="images/mvc-web-application-folder-structure-4.png">
 
@@ -47,7 +47,7 @@ The **Fonts** folder contains custom fonts that our MVC web application might us
 
 The **Models** folder is where model class files are stored. Usually, a model class includes public application properties. Those public properties are used by the MVC web application to hold and manipulate application data.
 
-In our case, the Model folder is empty, since we haven’t' defined any Models for our MVC web application.
+In our case, the Model folder is empty, since we havenâ€™t' defined any Models for our MVC web application.
 
 ## Scripts
 

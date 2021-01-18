@@ -16,7 +16,7 @@ http://localhost/Author/Index/
 In this case, a controller named `AuthorController` is invoked. The `AuthorController` is responsible for generating the response to the browser request.
 
  - The controller decides which model will be selected, and then it takes the data from the model and passes the same to the respective view after that view is rendered. 
- - Actually, controllers are controlling the overall flow of the application taking the input and rendering the proper output.
+ - Controllers control the overall flow of the application taking the input and rendering the proper output.
 
 To create a controller, right-click the **Controllers** folder in Solution Explorer, and select **Add > New Scaffolded Item...**
 
@@ -59,7 +59,7 @@ public async Task<IActionResult> Index()
 }
 ```
 
-Now if you open ***Views/Author/Index.cshtml*** file, you will see that the view displays the list of authors in a table.
+If you open ***Views/Author/Index.cshtml*** file, you will see that the view displays the list of authors in a table.
 
 ```csharp
 @model IEnumerable<RepositoryPatternDemo.Models.Author>

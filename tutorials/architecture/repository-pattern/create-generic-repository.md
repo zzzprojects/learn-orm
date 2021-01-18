@@ -5,10 +5,10 @@ Name: Create Generic Repository
 
 # Create Generic Repository
 
-To create a repository class for each entity type could result in a lot of redundant code, and it could result in partial updates. 
+Creating a repository class for each entity type could result in a lot of redundant code, and resulting in partial updates. 
 
  - For example, suppose you have to update two different entity types as part of the same transaction. 
- - If each uses a separate database context instance, one might succeed and the other might fail. 
+ - If each uses a separate database context instance, one might succeed, and the other might fail. 
  - One way to minimize redundant code is to use a generic repository.
 
 ## Create a Generic Repository

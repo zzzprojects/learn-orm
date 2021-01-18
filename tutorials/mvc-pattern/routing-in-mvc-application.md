@@ -33,7 +33,7 @@ To better understand MVC's routing mechanism, we can take a look at the table be
 
 | URL                          | Description                                                             |
 | :----------------------------| :-----------------------------------------------------------------------|
-| https://somewebsite.com/     | Since no controller, action, or ID is provided the default values for controller and action will be used. This means that the URL will be handled by the Index action of the Home controller. |
+| https://somewebsite.com/     | Since no controller, action, or ID is provided the default values for controller and action will be used.  |
 | https://somewebsite.com/home | The name of the controller that will be used is Home, the name of the action will be index (from the defaults since it is not provided). |
 | https://somewebsite.com/home/index | The name of the controller that will be used is Home, and the action is Index. |
 | https://somewebsite.com/home/index/1 | The name of the controller that will be used is Home, the action Index and the parameter id will be 1. |
@@ -79,7 +79,7 @@ The action method **Details** in the `StudentController` that will handle these 
 
 <img src="images/routing-in-mvc-application-7.png">
 
-Unfortunately, this method will only work for URLs that have integer values for the parameter studentId (the 2nd URL in the URLs given above). In every other case, it will fail with an error "The parameters dictionary contains a null entry for a parameter 'studentId' of non-nullable type 'System.Int32'". So, it would be nice to exclude URLs that do not contain a proper integer value for the parameter `studentId`.
+Unfortunately, this method will only work for URLs that have integer values for the parameter studentId (the 2nd URL in the URLs given above). In every other case, it will fail with an error "The parameters dictionary contains a null entry for a parameter 'studentId' of non-nullable type 'System.Int32'". It would be nice to exclude URLs that do not contain a proper integer value for the parameter `studentId`.
 
 To restrict the URLs that match a specific route, you can use something called route constraints.
  

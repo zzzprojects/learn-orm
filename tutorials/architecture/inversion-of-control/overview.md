@@ -19,7 +19,7 @@ The inversion of control design pattern states that objects should not create ob
  - They should get those objects from an outside service or a container. 
  - The idea is analogous to the Hollywood principle that says, **"Don't call us, we'll call you."** It means, instead of the application calling the methods in a framework, the framework would call the implementation that has been provided by the application. 
 
-You can take advantage of the inversion of control pattern to decouple the components of your application, swap dependency implementations, mock dependencies, and make your application modular and testable.
+You can take advantage of the inversion of control pattern to decouple your application components, swap dependency implementations, mock dependencies, and make your application modular and testable.
 
  - Dependency injection is a subset of the inversion of control principle. 
  - In other words, dependency injection is just one way of implementing inversion of control. 
@@ -30,7 +30,7 @@ The terms Inversion of Control (IoC), Dependency Inversion Principle (DIP), Depe
 <img src="images/ioc-1.png">
 
  - **IoC** and **DIP** are high-level design principles that should be used while designing application classes. As they are principles, they recommend certain best practices but do not provide any specific implementation details. 
- - **Dependency Injection (DI)** is a pattern and **IoC Container** is a framework.
+ - **Dependency Injection (DI)** is a pattern, and **IoC Container** is a framework.
 
 We cannot achieve loosely coupled classes by using IoC alone. Along with IoC, we also need to use DIP, DI, and IoC container.
 

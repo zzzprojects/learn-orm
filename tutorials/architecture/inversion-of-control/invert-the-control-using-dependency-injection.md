@@ -5,9 +5,9 @@ Name: Invert the Control using Dependency Injection
 
 # Invert the Control using Dependency Injection
 
-Dependency Injection (DI) is a software design pattern, which is used for achieving Inversion of Control (IoC) between classes and their dependencies.
+Dependency Injection (DI) is a software design pattern used to achieve Inversion of Control (IoC) between classes and their dependencies.
 
-You can take advantage of dependency injection to pass an instance of a concrete logger class using constructor injection as shown below.
+You can take advantage of dependency injection to pass an instance of a concrete logger class using constructor injection, as shown below.
 
 ```csharp
 using System;
@@ -31,7 +31,7 @@ namespace IoCDemo
 }
 ```
 
-Now to use the logging, we need to pass the `ILogger` interface to the `CustomerService` class. Let's create an instance of the `FileLogger` class and use constructor injection to pass the dependency.
+Now, to use the logging, we need to pass the `ILogger` interface to the `CustomerService` class. Let's create an instance of the `FileLogger` class and use constructor injection to pass the dependency.
 
 ```csharp
 using System;
@@ -50,7 +50,7 @@ namespace IoCDemo
 }
 ```
 
-Now if you want to use the `DatabaseLogger`, you don't need to change the implementation of the `CustomerService` class, but you will only need to create an instance of `DatabaseLogger` and pass it to the `CustomerService` constructor.
+Now, if you want to use the `DatabaseLogger`, you don't need to change the implementation of the `CustomerService` class, but you will only need to create an instance of `DatabaseLogger` and pass it to the `CustomerService` constructor.
 
 ```csharp
 using System;
@@ -77,7 +77,7 @@ namespace IoCDemo
 }
 ```
  
-Let's run your application and you will see the following output.
+Let's run your application, and you will see the following output.
 
 ```csharp
 Inside Log method of FileLogger.

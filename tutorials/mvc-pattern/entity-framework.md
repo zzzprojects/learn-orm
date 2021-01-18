@@ -399,7 +399,7 @@ If we compare the cardinality matrix we defined before, with the EDMX diagram wh
  - `Employee` has a One-to-many relationship with `Registration`.
  - `Event` has a One-to-many relationship with `Registration`.
 
-Below is the code that is generated from the database. If we compare it with the code we wrote before, we will see that it is completely the same.
+Below is the code that is generated from the database. If we compare it with the code we wrote before. We will see that it is completely the same.
 
 The only difference is the `RegistrationID` field we defined as a separate field in the table `Registration`.
 
@@ -456,7 +456,7 @@ public partial class Registration
 }
 ```
 
-The wizard has also created a context class for us. If you remember from the previous tutorial, when we were working with the Code First Approach, the context class is the class that coordinates Entity Framework. The context class that is created automatically in the Database First approach is given in the image below.
+The wizard has also created a context class for us. If you remember from the previous tutorial, when we worked with the Code First Approach, the context class coordinates Entity Framework. The context class that is created automatically in the Database First approach is given in the image below.
 
 <img src="images/entity-framework-16.png">
 
@@ -465,7 +465,7 @@ The context class contains the following properties/features.
  - The name of the connection string that will be specified in the `web.config` is passed into the constructor.
  - The connection string contains information such as database name, database server, and how the application will authenticate towards the database server. 
  - Our database server is **localhost**, the name of the database is **Test**, and we are using **Integrated Security**, which means that the application will use the current windows credentials to authenticate with the database server. 
- - When configuring the application with Database First approach, the EDMX wizard will create a new connection string entry with the same name that is passed to the constructor of the context class.
+ - When configuring the application with Database First approach, the EDMX wizard will create a new connection string entry with the same name passed to the constructor of the context class.
 
 ```csharp
 <connectionStrings>
@@ -510,7 +510,7 @@ The code given below creates a table and fills each row of the table with employ
 
 HTML helpers are MVC classes that help render HTML. You can, of course, use HTML tags such as span or label to display the information you need, but the advantage of using MVC HTML helpers is that they can easily bind with the **Model** data.
 
-For example, if we take a look at the code below and the way these helpers are used, we can see that `@Html.DisplayNameFor` will generate HTML text for each employee property's name, where `@Html.DisplayFor` will generate HTML text for each employee property's value. Every time the model gets updated, the values of the properties will get updated too.
+For example, if we look at the code below and how these helpers are used, we can see that `@Html.DisplayNameFor` will generate HTML text for each employee property's name, where `@Html.DisplayFor` will generate HTML text for each employee property's value. Every time the model gets updated, the values of the properties will get updated too.
 
 <img src="images/entity-framework-19.png">
 
@@ -528,7 +528,7 @@ The last thing that we will change is the name of each employee column:
  - EmployeeFirstName > First Name
  - EmployeeDepartment > Department
 
-As said earlier, the `@Html.DisplayNameFor` generates the name of each Employee property, respectively. If we want to change the display name of each column, we have to look at the current `Employee` class.
+As said earlier, the `@Html.DisplayNameFor` generates the name of each Employee property, respectively. If we want to change each column's display name, we have to look at the current `Employee` class.
 
 The class Employee is defined as follows.
 
@@ -555,7 +555,7 @@ Adding records in the database is one of the fundamental actions we can perform 
 
 ##### Adding data using database insert scripts
 
-We can, of course, add data in the database by merely preparing `INSERT` statements, which we will then execute directly on the database.
+Of course, we can add data to the database by merely preparing `INSERT` statements, which we will then execute directly on the database.
 
 Following is an example of how we can do that.
 
@@ -587,7 +587,7 @@ After executing these statements on the database, we can just run the applicatio
 	
 For us to be able to add data to our database using EF, we must write the code to do so.
 
-The first thing we need to do is to create a View, with which we will create a form that will allow us to add a new employee to the database.  
+The first thing we need to do is create a View, with which we will create a form that will allow us to add a new employee to the database.  
 
 The view will consist of three fields, namely the attributes of the model `Employee`:
 
@@ -607,7 +607,7 @@ Because we chose the template **Create**, Visual Studio will create the code for
 
 <img src="images/entity-framework-28.png">
 
-After the View is created, we have to go back to the `EmployeeController` and update the method for creating an employee. That would then allow the application to pass the data through to the database and write it in the proper table.
+After the View is created, we have to go back to the `EmployeeController` and update the method for creating an employee. That would allow the application to pass the data through to the database and write it in the proper table.
 
 <img src="images/entity-framework-29.png">
 
@@ -619,7 +619,7 @@ To test the form we created, we need to input data in text boxes, and then click
 
 <img src="images/entity-framework-31.png">
 
-If we click **Back to List**, the application would then lead us to the display data section, where we would be able to see the full list of employees that are currently in the database.
+If we click **Back to List**, the application would then lead us to the display data section, where we would be able to see the full list of employees currently in the database.
 
 <img src="images/entity-framework-32.png">
 
@@ -635,24 +635,24 @@ If we switch to Visual Studio and open the **Home > Index** view, we can configu
 
 Since we can identify each employee by each employee's ID in the database, we set up the HTML helper to pass the `EmployeeID` to the controller.
 
-The first string in the `ActionLink` helper is the title of the link that will be generated, and the second string is the name of the action that will be called once the user clicks the link. 
+The first string in the `ActionLink` helper is the title of the link generated, and the second string is the name of the action that will be called once the user clicks the link. 
 
 The result of adding the action link to the `Index` view is displayed below.
 
 <img src="images/entity-framework-34.png">
 
-Currently, the **Edit** link is not working because we still haven't created an `Edit` action, we can do that now in the EmployeeController. The definition of the `Edit` action is as follows.
+The **Edit** link is currently not working because we still haven't created an Edit action. We can do that now in the EmployeeController. The definition of the `Edit` action is as follows.
 
  - The method is decorated with an `HttpGet` attribute because `Html.ActionLink` renders an anchor tag that can only trigger a `GET` request to the server.
  - The parameter of the `Edit` action is the employee id that we expect to get on the server-side.
  - Before doing anything with the id, we first check whether the obtained id is null. In case the id is null, we send an error back that the request made to the `EmployeeController` is a bad request. 
  - In case the id is not null, we then try to obtain the employee that corresponds to that id.
  - We do not need to create a new View for this action since we can reuse the already existing **Create** view. 
- - We used the same view in the previous chapter, where we talked about adding items to the database. The difference between this implementation and the previous one is in the employee object that is being sent to the View. When adding items in the database, we are sending an empty object, wherein in this case, we are sending the employee object corresponding to the employee with `EmployeeID` equal to id.
+ - We used the same view in the previous chapter, where we talked about adding items to the database. The difference between this implementation and the previous one is in the employee object that is being sent to the View. When adding items in the database, we are sending an empty object, where in this case, we are sending the employee object corresponding to the employee with `EmployeeID` equal to id.
 
 <img src="images/entity-framework-35.png">
 
-If we now start the application, we will be able to click on the **Edit** link and edit the chosen employee.
+If we now start the application, we will click on the **Edit** link and edit the chosen employee.
 
 <img src="images/entity-framework-36.png">
 
@@ -660,7 +660,7 @@ We can edit the employee's first, last name, and/or department, and after clicki
 
 <img src="images/entity-framework-37.png">
 
-After clicking the **Save** button, we are navigated to the employee list, where we can see the results of the edit action.
+After clicking the **Save** button, we are navigated to the employee list, where we can see the edit action results.
 
 <img src="images/entity-framework-38.png">
 
@@ -680,7 +680,7 @@ Back in Visual Studio, let's create another action called `Delete` as follows.
 
 <img src="images/entity-framework-40.png">
 
-Again, the method is decorated with an `HttpGet` attribute because it is being called from a simple anchor tag. In the same way, as with the `Edit` action, we send the id of the employee that we want to delete. If there isn't an employee in the database with that id, we throw an error if not found. In case an employee with that id exists in the database, we use the `db.Employees` set and call the Remove method on that set to remove the employee. We then save the changes on the db context and redirect the user to the Index view, which displays the employee list.
+Again, the method is decorated with an `HttpGet` attribute because it is called from a simple anchor tag. In the same way, as with the `Edit` action, we send the id of the employee that we want to delete. If there isn't an employee in the database with that id, we throw an error if not found. In case an employee with that id exists in the database, we use the `db.Employees` set and call the Remove method on that set to remove the employee. We then save the db context changes and redirect the user to the Index view, which displays the employee list.
 
 If we run the application and navigate to the employee list and then click on the **Delete** link for a particular employee, the employee will be removed from the database and, therefore, not displayed on the employee list anymore.
 

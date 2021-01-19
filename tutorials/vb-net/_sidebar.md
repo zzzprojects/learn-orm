@@ -3,3 +3,4 @@
 - [Program Structure](program-structure.md)
 - [Basic Syntax](basic-syntax.md)
 - [Keywords](keywords.md)
+- [Data Types](data-types.md)

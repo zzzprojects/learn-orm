@@ -2,3 +2,4 @@
 - [Environment Setup](environment-setup.md)
 - [Program Structure](program-structure.md)
 - [Basic Syntax](basic-syntax.md)
+- [Keywords](keywords.md)

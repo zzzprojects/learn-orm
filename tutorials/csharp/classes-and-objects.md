@@ -18,8 +18,8 @@ A class is nothing but a collection of various fields, properties, and functions
 }
 ```
 
- - **<AccessModifiers>:** It represents the access modifiers that can be `public`, `internal` or `private`, etc. 
- - **<name>:** The name of the class follows the class keyword. The name of the class must be a valid C# identifier name. 
+ - **\<AccessModifiers>:** It represents the access modifiers that can be `public`, `internal` or `private`, etc. 
+ - **\<name>:** The name of the class follows the class keyword. The name of the class must be a valid C# identifier name. 
 
 The remainder of the definition is the class body, where the behavior and data are defined. Fields, properties, methods, and events in a class are collectively referred to as class members.
 

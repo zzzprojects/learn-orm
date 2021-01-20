@@ -7,3 +7,4 @@
 - [Variables](variables.md)
 - [Constants](constants.md)
 - [Functions and Subs](functions-and-subs.md)
+- [Classes and Objects](classes-and-objects.md)

@@ -5,3 +5,4 @@
 - [Keywords](keywords.md)
 - [Data Types](data-types.md)
 - [Variables](variables.md)
+- [Constants](constants.md)

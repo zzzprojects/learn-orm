@@ -6,3 +6,4 @@
 - [Data Types](data-types.md)
 - [Variables](variables.md)
 - [Constants](constants.md)
+- [Functions and Subs](functions-and-subs.md)

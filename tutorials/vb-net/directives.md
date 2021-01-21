@@ -14,10 +14,10 @@ The VB.Net compiler directives give instructions to the compiler to preprocess t
 
 In VB.Net, the following types of directives are available. 
 
- - `#Const` Directive
- - `#ExternalSource` Directive
- - `#If...Then...#Else` Directive
- - `#Region` Directive
+ - [`#Const` Directive](#const-directive)
+ - [`#ExternalSource` Directive](#externalsource-directive)
+ - [`#If...Then...#Else` Directive](#ifthenelse-directive)
+ - [`#Region` Directive](#region-directive)
 
 ## `#Const` Directive
 

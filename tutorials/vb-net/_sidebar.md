@@ -11,3 +11,4 @@
 - [Access Modifiers](access-modifiers.md)
 - [Statements](statements.md)
 - [Directives](directives.md)
+- [Operators](operators.md)

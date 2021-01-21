@@ -10,3 +10,4 @@
 - [Classes and Objects](classes-and-objects.md)
 - [Access Modifiers](access-modifiers.md)
 - [Statements](statements.md)
+- [Directives](directives.md)

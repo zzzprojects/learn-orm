@@ -14,3 +14,5 @@
 - [Operators](operators.md)
 - [Do Loop](do-loop.md)
 - [For Next Loop](for-next-loop.md)
+- [For Each Loop](for-each-loop.md)
+

@@ -9,7 +9,7 @@ The `For Next Loop` is used to repeatedly execute a sequence of code or a block 
 
 You use a `For Next Loop` when you want to repeat some statements a set number of times.
 
-In the following example, the `index` variable starts with a value of 1 and is incremented with each iteration of the loop, ending after the value of index reaches 10.
+In the following example, the `index` variable starts with a value of 1 and is incremented with each iteration of the loop, ending after the value of the `index` reaches 10.
 
 ```csharp
 Public Sub Example1()
@@ -19,7 +19,6 @@ Public Sub Example1()
 
     Console.WriteLine("")
 End Sub
-
 ```
 
 Let's consider another example in which the `number` variable starts at 5 and is reduced by 0.5 on each iteration of the loop, ending after the value of `number` reaches 0. The `Step` argument of -.5 reduces the value by 0.5 on each iteration of the loop.
@@ -31,7 +30,6 @@ Public Sub Example2()
     Next
     Console.WriteLine("")
 End Sub
-
 ```
 
 ## Nesting Loops
@@ -87,4 +85,4 @@ End Sub
 
 You can put any number of `Exit For` statements in a `For Next` loop. When used within nested `For Next` loops, `Exit For` exits the innermost loop and transfers control to the next higher level of nesting.
 
-`Exit For` is often used after you evaluate some condition such as, an `If...Then...Else` structure. 
+`Exit For` is often used after you evaluate some condition such as an `If...Then...Else` structure. 

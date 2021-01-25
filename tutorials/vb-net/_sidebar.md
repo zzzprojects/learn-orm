@@ -18,4 +18,5 @@
 - [While End Loop](while-end-loop.md)
 - [With End With Statement](with-end-with.md)
 - [Exit Statement](exit-statement.md)
+- [Continue Statement](continue-statement.md)
 

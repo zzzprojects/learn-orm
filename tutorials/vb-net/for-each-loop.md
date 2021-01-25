@@ -48,6 +48,7 @@ Yahoo!
 ```
 
 Here is another example that is a little bit more complicated. A `For Each Loop` can also be used to traverse all the elements of a `Dictionary` that contains key-value pairs. 
+
 The data types of the key and value must be specified as a comma-separated pair within `<>` (angled brackets) in the declaration.
 
 ```csharp

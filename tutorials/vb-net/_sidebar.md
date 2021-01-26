@@ -22,4 +22,5 @@
 - [GoTo Statement](goto-statement.md)
 - [Enums](enums.md)
 - [List](list.md)
+- [Hashtable](hashtable.md)
 

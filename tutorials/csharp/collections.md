@@ -42,7 +42,7 @@ foreach (Object obj in myArrayList)
 
 As you can see we added different types of data to the array list. The first data is `string`, then we added `DataTime` object and the last one is an integer.
 
-Let's run the above code and you will see the following code.
+Let's run the above code and you will see the following output.
 
 ```csharp
 This is a C# Tutorial.

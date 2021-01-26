@@ -20,4 +20,5 @@
 - [Exit Statement](exit-statement.md)
 - [Continue Statement](continue-statement.md)
 - [GoTo Statement](goto-statement.md)
+- [Enums](enums.md)
 

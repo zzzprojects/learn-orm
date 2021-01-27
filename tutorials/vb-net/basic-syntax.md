@@ -5,7 +5,7 @@ Name: Basic Syntax
 
 # Basic Syntax
 
-Visual Basic has a very simple programming syntax. The language is not case-sensitive and it is easy even for beginners to start coding.
+Visual Basic has a very simple programming syntax. The language is not case-sensitive, and it is easy even for beginners to start coding.
 
  - It is an object-oriented programming language and is based on .NET Framework.
  - It is more easy, simple, and powerful than C or C++, and we also don't need to add semicolons after each statement. 
@@ -14,7 +14,7 @@ VB.Net program is defined as a collection of objects that communicate via invoki
 
  - **Object:** Objects have states and behaviors. Example: A dog has states - color, name, breed as well as behaviors - wagging, barking, eating, etc. An object is an instance of a class.
  - **Class:** A class can be defined as a template/blueprint that describes the behaviors/states that objects of its type support.
- - **Methods:** A method is behavior and a class can contain many methods. It is in methods where the logic is written, data is manipulated and all the actions are executed.
+ - **Methods:** A method is behavior, and a class can contain many methods. It is in methods where the logic is written, data is manipulated, and all the actions are executed.
  - **Instance Variables:** Each object has its unique set of instance variables. An object's state is created by the values assigned to these instance variables.
 
 Let's have a look at a simple code that would print the string ***"Welcome to VB.NET Tutorial."***
@@ -64,7 +64,7 @@ In the Option Compare statement syntax, the braces and vertical bar indicate a m
 Option Compare { Binary | Text | Database }
 ```
 
-The following statement specifies that within the module, strings will be compared in a sort order that is not case-sensitive.
+The following statement specifies that strings will be compared in a sort order that is not case-sensitive within the module.
 
 ```csharp
 Option Compare Text

@@ -13,7 +13,7 @@ VB.NET is a simple, multi-paradigm object-oriented programming language designed
  - It is an evolution of classic Visual Basic language, it is not backward-compatible with VB6, and any code written in the old version does not compile under VB.NET. 
  - It supports the OOPs concept, such as abstraction, encapsulation, inheritance, and polymorphism, etc. 
  - Everything in the VB.NET language is an object, including all primitive data types such as, Integer, String, char, long, short, Boolean, user-defined data types, events, and all objects that inherit from its base class. 
- - It is not a case sensitive language, whereas, C++, Java, and C# are case sensitive language.
+ - It is not a case sensitive language, whereas, C++, Java, and C# are case-sensitive language.
 
 ## Why VB.NET?
 

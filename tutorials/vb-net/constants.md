@@ -5,11 +5,11 @@ Name: Constants
 
 # Constants
 
-The constants refer to fixed values that the program may not alter during its execution and these values are also known as literals.
+The constants refer to fixed values that the program may not alter during its execution, and these values are also known as literals.
 
  - Constants store values that, as the name implies, remain constant throughout the execution of an application.
  - Constants can be of any of the basic data types like an integer constant, a floating constant, a character constant, or a string literal. 
- - The constants are treated just like regular variables except that their values cannot be modified after their definition.
+ - The constants are treated just like regular variables, except that their values cannot be modified after their definition.
 
 ## Constant Declaration
 

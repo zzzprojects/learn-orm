@@ -26,4 +26,5 @@
 - [Stack](stack.md)
 - [Queue](queue.md)
 - [Conditional Statements](conditional-statements.md)
+- [Select Case](select-case.md)
 

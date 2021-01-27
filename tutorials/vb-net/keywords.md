@@ -94,7 +94,7 @@ Here is the list of the most commonly used reserved keywords.
 <tr>
     <td>Finally</td>
     <td>For</td>
-    <td>For Each…Next</td>
+    <td>For Eachâ€¦Next</td>
     <td>Friend</td>
     <td>Function</td>
     <td>Get</td>
@@ -206,7 +206,7 @@ Here is the list of the most commonly used reserved keywords.
 <tr>
     <td>Try</td>
     <td>TryCast</td>
-    <td>TypeOf…Is</td>
+    <td>TypeOfâ€¦Is</td>
     <td>UInteger</td>
     <td>ULong</td>
     <td>UShort</td>
@@ -239,7 +239,7 @@ Here is the list of the most commonly used reserved keywords.
 
 ## Unreserved Keywords
 
-Unreserved keywords can be used as names for your programming elements. However, it is not recommended, because it can make your code hard to read and can lead to subtle errors that can be difficult to find.
+Unreserved keywords can be used as names for your programming elements. However, it is not recommended because it can make your code hard to read and can lead to subtle errors that can be difficult to find.
 
 <table>
 <tr>
@@ -302,7 +302,7 @@ Unreserved keywords can be used as names for your programming elements. However,
 
 ## Use Keywords as Variable Names
 
-In case, if you want to use Keywords as variable names (identifiers), then we need to enclose the variable name in brackets ([]). For example, [Class] is a valid identifier but Class is not because it’s a keyword and having a special meaning for the compiler.
+If you want to use Keywords as variable names (identifiers), then we need to enclose the variable name in brackets ([]). For example, [Class] is a valid identifier, but Class is not because itâ€™s a keyword and having a special meaning for the compiler.
 
 The following example shows how to use the reserve keywords as a variable name by enclosing the variable name with brackets (`[]`).
 
@@ -322,4 +322,4 @@ Module Program
 End Module
 ```
 
-As you can see that a `Class` keyword is used as a variable name `[Class]` by enclosing it with brackets (`[]`).		
+As you can see a `Class` keyword is used as a variable name `[Class]` by enclosing it with brackets (`[]`).		

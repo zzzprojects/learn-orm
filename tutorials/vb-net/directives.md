@@ -9,7 +9,7 @@ The VB.Net compiler directives give instructions to the compiler to preprocess t
 
  - All these directives begin with `#`, and only white-space characters may appear before a directive on a line. 
  - These directives are not statements.
- - VB.Net compiler does not have a separate preprocessor, but, the directives work like a preprocessor. 
+ - VB.Net compiler does not have a separate preprocessor, but the directives work like a preprocessor. 
  - It also helps in conditional compilation. 
 
 In VB.Net, the following types of directives are available. 
@@ -21,7 +21,7 @@ In VB.Net, the following types of directives are available.
 
 ## `#Const` Directive
 
-The `#Const` directive defines conditional compiler constants and these constants are always private to the file in which they appear. 
+The `#Const` directive defines conditional compiler constants, and these constants are always private to the file in which they appear. 
 
  - You cannot create public compiler constants using the `#Const` directive. 
  - You can create them only in the user interface or with the `/define` compiler option.
@@ -97,7 +97,7 @@ The following code uses the `#If...Then...#Else` directive.
 
 The `#Region` directive collapses and hides sections of code in Visual Basic files.
 
- - Use the `#Region` directive to specify a block of code to expand or collapse when using the outlining feature of the Visual Studio Code Editor. 
+ - Use the `#Region` directive to specify a block of code to expand or collapse when using the Visual Studio Code Editor's outlining feature.
  - You can place, or nest, regions within other regions to group similar regions together.
 
 The following code uses the `#Region` directive.

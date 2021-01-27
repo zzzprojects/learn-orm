@@ -5,7 +5,7 @@ Name: Access Modifiers
 
 # Access Modifiers
 
-In visual basic, access modifiers are the keywords and those are useful to define an accessibility level for all the types and type members. Access modifiers can control whether they can be accessed in other classes or current assembly or other assemblies based on your requirements.
+In visual basic, access modifiers are the keywords, and those are useful to define an accessibility level for all the types and type members. Access modifiers can control whether they can be accessed in other classes or current assembly or other assemblies based on your requirements.
 
 The keywords that specify access level are called access modifiers. 
 

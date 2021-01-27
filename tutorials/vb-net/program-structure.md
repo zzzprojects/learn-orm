@@ -19,7 +19,7 @@ When you create a project or file, you will see that some code is available in a
  - Imports statements
  - Namespace statements and namespace-level elements
 
-If you enter statements in a different order you will get a compilation error.
+If you enter statements in a different order, you will get a compilation error.
 
 A program can also contain conditional compilation statements. You can intersperse these in the source file among the statements of the preceding sequence.
 

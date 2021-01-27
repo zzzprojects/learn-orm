@@ -23,4 +23,5 @@
 - [Enums](enums.md)
 - [List](list.md)
 - [Hashtable](hashtable.md)
+- [Stack](stack.md)
 

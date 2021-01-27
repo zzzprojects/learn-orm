@@ -97,7 +97,7 @@ Console.WriteLine((5 > 7) Xor (a = b))
 
 A bitwise operator is an operator that acts on the binary representation of numeric types. 
 
- - In computers, all the data and particularly numerical data is represented as a series of ones and zeros. 
+ - In computers, all the data and particularly numerical data are represented as a series of ones and zeros. 
  - For example, number 55 in the binary numeral system is represented as 00110111.
 
 Here is an example of using bitwise operators. The binary representation of the numbers and the results of the bitwise operators are shown in the comments.

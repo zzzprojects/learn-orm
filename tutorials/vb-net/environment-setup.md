@@ -48,7 +48,7 @@ Select the **Create a new project** option.
 
 <img src="images/setup-5.png">
 
-Choose **Visual Basic** as language and in the template pane, select **Console App (.NET Core)** and click **Next** button.
+Choose **Visual Basic** as language, and in the template pane, select **Console App (.NET Core)** and click **Next** button.
 
 <img src="images/setup-6.png">
 
@@ -60,7 +60,7 @@ You can see a new console application project is created.
 
 <img src="images/setup-7.png">
 
-Now let's add the following simple code which will print a message on the console window.
+Now let's add the following simple code, which will print a message on the console window.
 
 ```csharp
 Imports System

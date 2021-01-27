@@ -7,7 +7,7 @@ Name: Functions and Subs
 
 ## Function Procedure
 
-In VB.NET, a function is a separate group of codes that are used to perform a specific task when the defined function is called in a program. 
+In VB.NET, a function is a separate group of codes used to perform a specific task when the defined function is called in a program. 
 
  - When the Function procedure returns to the calling code, execution continues with the statement that follows the statement that called the procedure. 
  - You can create more than one function in a program to perform various functionalities. 
@@ -18,10 +18,10 @@ In VB.NET, a function is a separate group of codes that are used to perform a sp
 
 You can define a `Function` procedure only at the module level. Therefore, the declaration context for a function must be a class, a structure, a module, or an interface and can't be a source file, a namespace, a procedure, or a block.
 
- - By default, the `Function` procedure is public but you can adjust their access levels with the access modifiers.
+ - By default, the `Function` procedure is public, but you can adjust their access modifiers' access levels.
  - A `Function` procedure can declare the data type of the value that the procedure returns.
 
-The following code defines a function called `Add` which takes two parameters and returns the sum.
+The following code defines a function called `Add`, which takes two parameters and returns the sum.
 
 ```csharp
 Public Module Functions

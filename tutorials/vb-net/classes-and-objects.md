@@ -75,7 +75,7 @@ Dim customer As Customer = New Customer(2, "John", "11 wall street")
 customer.Print()
 ```
 
-Let's run the above code and it will print the following output on the console window.
+Let's run the above code, and it will print the following output on the console window.
 
 ```csharp
 Id: 1, Name: Andy, Address: 22 wall street

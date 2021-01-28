@@ -45,13 +45,13 @@ To declare and initialize a string variable with a verbatim string literal.
 string vsPath = @"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community";
 ```
 
-In local variables you can use implicit typing.
+In local variables, you can use implicit typing.
 
 ```csharp
-var str4 = "It is sample message of a strongly-typed System.String!";
+var str4 = "It is a sample message of a strongly-typed System.String!";
 ```
 
-You can use a const string to prevent if from being used to store another string value.
+You can use a const string to prevent it from being used to store another string value.
 
 ```csharp
 const string str5 = "You can't change me now";
@@ -66,7 +66,7 @@ char[] letters = { 'A', 'B', 'C' };
 string alphabet = new string(letters);
 ```
 
-You can concatinate multiple string variables using `+` operator.
+You can concatenate multiple string variables using the `+` operator.
 
 ```csharp
 string firstName = "John ";
@@ -76,7 +76,7 @@ string name = firstName + lastName;
 
 ## Special Characters
 
-A text in the real world can include any character such as, double quote ("), single quote (') etc. In C#, a string is surrounded with double quotes, you can't include these special characters include in a string directly. To use them in a string you will need to include escaping character `\` (backslash) before these special characters.
+A text in the real world can include any character such as double quote ("), single quote ('), etc. In C#, a string is surrounded with double quotes, you can't include these special characters include in a string directly. To use them in a string you will need to include escaping character `\` (backslash) before these special characters.
 
 | Escape sequence   | Character       |
 |:------------------|:----------------|

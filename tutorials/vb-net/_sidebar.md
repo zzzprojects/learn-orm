@@ -30,4 +30,5 @@
 - [Strings](strings.md)
 - [DateTime](datetime.md)
 - [Arrays](arrays.md)
+- [Collections](collections.md)
 

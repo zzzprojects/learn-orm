@@ -7,7 +7,7 @@ Name: Strings
 
 A string is an object of type `System.String` whose value is text. Internally, the text is stored as a sequential read-only collection of `Char` objects. 
 
- - A string can contain any number of embedded null characters ('\0'), because there is no null-terminating character at the end of a string. 
+ - A string can contain any number of embedded null characters ('\0') because there is no null-terminating character at the end of a string. 
  - The `Length` of a string represents the number of `Char` objects it contains, not the number of Unicode characters.
 
 ## String Declaration and Initialization
@@ -45,13 +45,13 @@ Dim vsPath As String = "C:\Program Files (x86)\Microsoft Visual Studio\2019\Comm
 
 ```
 
-In local variables you can use implicit typing.
+In local variables, you can use implicit typing.
 
 ```csharp
-Dim str4 = "It is sample message of a strongly-typed System.String!"
+Dim str4 = "It is a sample message of a strongly-typed System.String!"
 ```
 
-You can use a const string to prevent if from being used to store another string value.
+You can use a const string to prevent it from being used to store another string value.
 
 ```csharp
 Const str5 As String = "You can't change me now"
@@ -66,7 +66,7 @@ Dim letters As Char() = {"A", "B", "C"}
 Dim alphabet As String = New String(letters)
 ```
 
-You can concatinate multiple string variables using `+` operator.
+You can concatenate multiple string variables using the `&` operator.
 
 ```csharp
 Dim firstName As String = "John "
@@ -76,7 +76,7 @@ Dim name As String = firstName & lastName
 
 ## Special Characters
 
-A text in the real world can include any character such as, double quote ("), single quote (') etc. In C#, a string is surrounded with double quotes, you can't include these special characters include in a string directly. To use them in a string you will need to include escaping character `\` (backslash) before these special characters.
+A text in the real world can include any character such as double quote ("), single quote ('), etc. In C#, a string is surrounded with double quotes, you can't include these special characters include in a string directly. To use them in a string you will need to include escaping character `\` (backslash) before these special characters.
 
 | Escape sequence   | Character       |
 |:------------------|:----------------|

@@ -31,4 +31,5 @@
 - [DateTime](datetime.md)
 - [Arrays](arrays.md)
 - [Collections](collections.md)
+- [Exception Handling](exception-handling.md)
 

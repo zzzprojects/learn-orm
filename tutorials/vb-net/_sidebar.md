@@ -33,6 +33,7 @@
 - [Collections](collections.md)
 - [Exception Handling](exception-handling.md)
 - [File Handling](file-handling.md)
+- [Windows Forms Application](windows-forms-application.md)
 - [Basic Controls](basic-controls.md)
 - [Dialog Box](dialog-box.md)
 

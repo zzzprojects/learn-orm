@@ -1,11 +1,11 @@
 ---
-PermaID: 100035
+PermaID: 100036
 Name: Basic Controls
 ---
 
 # Basic Controls
 
-VB.NET Controls are the pillars that help in creating GUI Based Applications in VB.Net quickly and easily.
+VB.NET Controls are the pillars that help in creating GUI Based Applications in VB.Net quickly and easily. Windows Forms contains a variety of controls that you can add to forms: controls that display text boxes, buttons, drop-down boxes, radio buttons, and even Web pages.
 
  - Controls are objects that are contained within form objects. 
  - Each type of control has its own set of properties, methods, and events that make it suitable for a particular purpose. 
@@ -37,29 +37,15 @@ The following are the most commonly used controls in the VB.Net.
 | RadioButtonList  | Used to give multiple items in one control                      |
 | GridView         | Used to display the backend database in the front view          |
 
-## Create Windows Forms Application
-
-Let's start with creating a new Window Forms Application by selecting the **Window Forms App(.NET)** template.
-
-<img src="images/winforms-1.png">
-
-Click on the **Next** button.
-
-<img src="images/winforms-2.png">
-
-On the **Configure your new project** dialog, enter the name for your application and click the **Create** button.
-
-<img src="images/winforms-3.png">
-
-It will create the VB.NET Windows Forms application with all the required files.
+On the Toolbox pane, you will see all the available controls and you can easily drag it to the form.
 
 <img src="images/winforms-4.png">
 
-On the Toolbox pane and you will see all the available controls and you can easily drag it to the form.
+Let's drag a **Button** control to the form. 
 
 <img src="images/winforms-5.png">
 
-Let's drag a **Button** control and select the **Properties** from the right-click context menu.
+Select the **Properties** from the right-click context menu.
  
 <img src="images/winforms-6.png">
 

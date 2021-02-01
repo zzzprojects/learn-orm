@@ -34,4 +34,5 @@
 - [Exception Handling](exception-handling.md)
 - [File Handling](file-handling.md)
 - [Basic Controls](basic-controls.md)
+- [Dialog Box](dialog-box.md)
 

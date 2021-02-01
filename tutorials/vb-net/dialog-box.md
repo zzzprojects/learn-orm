@@ -55,7 +55,7 @@ Private Sub openFileBtn_Click(sender As Object, e As EventArgs) Handles openFile
 End Sub
 ```
 
-We have a text file called `MyText.txt` which contains the following text.
+We have a text file called `MyTest.txt` which contains the following text.
 
 ```csharp
 This is a VB.NET Tutorial,

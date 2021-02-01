@@ -31,13 +31,13 @@ The following are the most commonly used controls in the VB.Net.
 | ListBox          | Used to display the list of items at a time                     |
 | Image            | Used to display an image                                        |
 | ImageButton      | Used to display an image and also to perform an action          |
-| LinkButton       | Used to redirect from one page to another page                     |
-| Panel            | Used to hold a list of controls                                   |
+| LinkButton       | Used to redirect from one page to another page                  |
+| Panel            | Used to hold a list of controls                                 |
 | CheckBoxList     | Used to give multiple items in one control                      |
 | RadioButtonList  | Used to give multiple items in one control                      |
 | GridView         | Used to display the backend database in the front view          |
 
-## Create Windows Application
+## Create Windows Forms Application
 
 Let's start with creating a new Window Forms Application by selecting the **Window Forms App(.NET)** template.
 

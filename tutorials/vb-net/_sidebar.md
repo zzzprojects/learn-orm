@@ -21,6 +21,7 @@
 - [Exit Statement](exit-statement.md)
 - [Continue Statement](continue-statement.md)
 - [GoTo Statement](goto-statement.md)
+- [Structure](structure.md)
 - [Enums](enums.md)
 - [List](list.md)
 - [Hashtable](hashtable.md)

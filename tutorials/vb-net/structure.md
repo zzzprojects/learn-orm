@@ -62,7 +62,7 @@ X: 40, Y: 50, Z: 60
 
 ## Constructors in Structure
 
-A `Structure` only supports constructors that contain parameters. Here in the Customer structure, a parametrized constructor is added.
+A `Structure` only supports constructors that contain parameters. Here in the `CustomerInfo` structure, a parametrized constructor is added.
 
 ```csharp
 Public Structure CustomerInfo

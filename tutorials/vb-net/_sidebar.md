@@ -41,3 +41,4 @@
 - [Dialog Box](dialog-box.md)
 - [Events Handling](events-handling.md)
 - [Inheritance](inheritance.md)
+- [Polymorphism](polymorphism.md)

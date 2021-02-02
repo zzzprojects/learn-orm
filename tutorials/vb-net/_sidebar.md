@@ -8,6 +8,7 @@
 - [Constants](constants.md)
 - [Functions and Subs](functions-and-subs.md)
 - [Classes and Objects](classes-and-objects.md)
+- [Constructors](constructors.md)
 - [Module Statement](module-statement.md)
 - [Access Modifiers](access-modifiers.md)
 - [Statements](statements.md)

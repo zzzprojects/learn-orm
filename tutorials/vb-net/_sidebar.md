@@ -40,3 +40,4 @@
 - [Basic Controls](basic-controls.md)
 - [Dialog Box](dialog-box.md)
 - [Events Handling](events-handling.md)
+- [Inheritance](inheritance.md)

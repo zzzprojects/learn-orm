@@ -41,7 +41,7 @@ Stella
 Scarlett
 ```
 
-As you can see the pattern only matches the names that start with "S" and ignore the name that start with "s". You can use the `RegexOptions.IgnoreCase` parameter to make sure that `Regex` does not look for uppercase or lowercase.
+As you can see the pattern only matches the names that start with "S" and ignore the name that starts with "s". You can use the `RegexOptions.IgnoreCase` parameter to make sure that `Regex` does not look for uppercase or lowercase.
 
 ```csharp
 Public Sub Example2()

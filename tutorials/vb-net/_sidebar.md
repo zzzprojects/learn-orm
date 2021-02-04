@@ -46,3 +46,4 @@
 - [Interfaces](interfaces.md)
 - [Regular Expressions](regular-expressions.md)
 - [Database Operations](database-operations.md)
+- [Delegates](delegates.md)

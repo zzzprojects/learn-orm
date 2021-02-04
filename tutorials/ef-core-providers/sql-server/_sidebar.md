@@ -1,1 +1,2 @@
 - [Getting Started](getting-started.md)
+- [Generated Values](generated-values.md)

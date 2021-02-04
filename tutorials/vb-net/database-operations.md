@@ -19,6 +19,12 @@ VB.NET provides a `SqlConnection` class which represents a connection to a SQL S
  - With a client/server database system, it is equivalent to a network connection to the server. 
  - It is used together with `SqlDataAdapter` and `SqlCommand` to increase performance when connecting to a Microsoft SQL Server database.
 
+To use these functionalities, we need to install [System.Data.SqlClient](https://www.nuget.org/packages/System.Data.SqlClient) NuGet package by running the following command in **Package Manager Console**.
+
+```csharp
+PM > Install-Package System.Data.SqlClient
+```
+
 ## Create Database
 
 To create a database, let's open the **SQL Server Object Explorer**, expand the **SQL Server** and right-click on the **Databases** and select the **Add New Database**.

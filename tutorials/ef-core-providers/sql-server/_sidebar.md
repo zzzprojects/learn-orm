@@ -1,2 +1,3 @@
 - [Getting Started](getting-started.md)
 - [Generated Values](generated-values.md)
+- [Indexes](indexes.md)

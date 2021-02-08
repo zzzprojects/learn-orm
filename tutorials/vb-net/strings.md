@@ -14,7 +14,7 @@ A string is an object of type `System.String` whose value is text. Internally, t
 
 The string declaration and initialization can be done in different ways.
 
-You can declare the string variable without initialization as shown below.
+You can declare the string variable without initialization, as shown below.
 
 ```csharp
 Dim str1 As String
@@ -76,7 +76,7 @@ Dim name As String = firstName & lastName
 
 ## Special Characters
 
-A text in the real world can include any character such as double quote ("), single quote ('), etc. In C#, a string is surrounded with double quotes, you can't include these special characters include in a string directly. To use them in a string you will need to include escaping character `\` (backslash) before these special characters.
+A text in the real world can include any character such as double quote ("), single quote ('), etc. In C#, a string is surrounded with double quotes, you can't include these special characters include in a string directly. To use them in a string, you will need to include escaping character `\` (backslash) before these special characters.
 
 | Escape sequence   | Character       |
 |:------------------|:----------------|

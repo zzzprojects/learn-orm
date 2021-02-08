@@ -108,7 +108,7 @@ Public Sub EmailValidation()
 End Sub
 ```
 
-Let's run the above code and you will see the following output.
+Let's run the above code, and you will see the following output.
 
 ```csharp
      parth@gmail.com: is a valid E-mail address.

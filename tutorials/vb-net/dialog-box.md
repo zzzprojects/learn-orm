@@ -29,10 +29,10 @@ The `ShowDialog()` method is used to display all the dialog box controls at run-
 | `No`       | Returns `DialogResult.No`, when user clicks a **No** button.               |
 | `None`     | Returns nothing and the dialog box continues running.                        |
 | `OK`       | Returns `DialogResult.OK`, when user clicks an **OK** button.              |
-| `Retry`    | Returns `DialogResult.Retry`, when user clicks an **Retry** button.       |
-| `Yes`      | Returns `DialogResult.Yes`, when user clicks an **Yes** button.           |
+| `Retry`    | Returns `DialogResult.Retry`, when user clicks a **Retry** button.       |
+| `Yes`      | Returns `DialogResult.Yes`, when user clicks a **Yes** button.           |
 
-Let's consider the following simple example in which we will open the text file, read all the data and write it on the Label control. So first we need to add a label and a button to our windows forms application as shown below.
+Let's consider the following simple example in which we will open the text file, read all the data and write it on the Label control. So first we need to add a label and a button to our windows forms application, as shown below.
 
 <img src="images/dialog-box-1.png">
 
@@ -55,7 +55,7 @@ Private Sub openFileBtn_Click(sender As Object, e As EventArgs) Handles openFile
 End Sub
 ```
 
-We have a text file called `MyTest.txt` which contains the following text.
+We have a text file called `MyTest.txt`, which contains the following text.
 
 ```csharp
 This is a VB.NET Tutorial,
@@ -67,7 +67,7 @@ Let's run your application and you will see the following dialog.
 
 <img src="images/dialog-box-3.png">
 
-Now click the **Open File** button and you will see the Open File Dialog in which you can select the file.
+Now click the **Open File** button, and you will see the Open File Dialog in which you can select the file.
 
 <img src="images/dialog-box-4.png">
 

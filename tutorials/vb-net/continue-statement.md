@@ -28,7 +28,7 @@ End Sub
 
 The statements inside the `For Loop` after the `Continue For` statement are skipped in the iterations where `i` is greater than 3 and `i` is less than 8. 
 
-Let's run the above code and it will print the following output on the console window.
+Let's run the above code, and it will print the following output on the console window.
 
 ```csharp
 Counter: 0

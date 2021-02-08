@@ -7,7 +7,7 @@ Name: Getting Started
 
 ## SQL Server Provider
 
-Microsoft SQL Server is a relational database management system (RDBMS) that supports a wide variety of transaction processing, business intelligence, and analytic applications in corporate IT environments.
+Microsoft SQL Server is a relational database management system (RDBMS) that supports various transaction processing, business intelligence, and analytic applications in corporate IT environments.
 
  - You can install SQL Server provider by installing the [Microsoft.EntityFrameworkCore.SqlServer](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer/) nuget package.
  - It allows Entity Framework Core to be used with Microsoft SQL Server (including SQL Azure).
@@ -65,7 +65,7 @@ public class Book
 }
 ```
 
-There's a one-to-many relationship between `Author` and `Book` entities. In other words, an author can write any number of books, and a book can be written by only one author.
+There's a one-to-many relationship between `Author` and `Book` entities. In other words, an author can write any number of books, and only one author can write a book.
 
 ## Create Database Context
 
@@ -75,7 +75,7 @@ The database context class provides the main functionality to coordinate Entity 
  - In your code, you specify which entities are included in the data model. 
  - You can also customize certain Entity Framework behaviors. 
 
-So, let's add a new `BookStore` class which will inherit the `DbContext` class.
+So, let's add a new `BookStore` class that will inherit the `DbContext` class.
 
 ```csharp
 public class BookStore : DbContext
@@ -89,10 +89,10 @@ public class BookStore : DbContext
     public DbSet<Book> Books { get; set; }
 }
 ```
-In EF Core, the DbContext has a virtual method called `OnConfiguring` which will get called internally by EF Core. 
+In EF Core, the DbContext has a virtual method called `OnConfiguring` will get called internally by EF Core. 
 
- - It will pass in an `optionsBuilder` instance which can be used to configure options for the `DbContext`.
- - The `optionsBuilder` has the `UseSqlServer` method which expects a connection string as a parameter. 
+ - It will pass in an `optionsBuilder` instance, which can be used to configure options for the `DbContext`.
+ - The `optionsBuilder` has the `UseSqlServer` method, which expects a connection string as a parameter. 
 
 ## Create Database
 

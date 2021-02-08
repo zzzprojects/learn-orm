@@ -5,13 +5,13 @@ Name: Basic Controls
 
 # Basic Controls
 
-VB.NET Controls are the pillars that help in creating GUI Based Applications in VB.Net quickly and easily. Windows Forms contains a variety of controls that you can add to forms: controls that display text boxes, buttons, drop-down boxes, radio buttons, and even Web pages.
+VB.NET Controls are the pillars that help in creating GUI Based Applications in VB.Net quickly and easily. Windows Forms contains various controls that you can add to forms: controls that display text boxes, buttons, drop-down boxes, radio buttons, and even Web pages.
 
  - Controls are objects that are contained within form objects. 
  - Each type of control has its own set of properties, methods, and events that make it suitable for a particular purpose. 
  - You can manipulate controls in the designer and write code to add controls dynamically at run time.
 
-A control is a user interface element that is used to place in the VB.Net Form to perform some action. Every control has three features in VB.Net.
+A control is a user interface element used in the VB.Net Form to perform some action. Every control has three features in VB.Net.
 
  - Properties
  - Methods
@@ -37,7 +37,7 @@ The following are the most commonly used controls in the VB.Net.
 | RadioButtonList  | Used to give multiple items in one control                      |
 | GridView         | Used to display the backend database in the front view          |
 
-On the Toolbox pane, you will see all the available controls and you can easily drag it to the form.
+On the Toolbox pane, you will see all the available controls, and you can easily drag it to the form.
 
 <img src="images/winforms-4.png">
 
@@ -49,11 +49,11 @@ Select the **Properties** from the right-click context menu.
  
 <img src="images/winforms-6.png">
 
-It will open the **Properties** windows and you can easily update the properties on the selected control from this window.
+It will open the **Properties** windows, and you can easily update the properties on the selected control from this window.
 
 <img src="images/winforms-7.png">
 
-Let's change the **Text** property of a Button control to **Click Me!** and you will see that the text of the button is changed. Now to define the click event of a button, double click on the button and it will open the code file which contains the event definition.
+Let's change the **Text** property of a Button control to **Click Me!** and you will see that the text of the button is changed. Now to define the click event of a button, double click on the button and it will open the code file containing the event definition.
 
 ### Button Control Events 
 
@@ -96,7 +96,7 @@ The following are the most commonly used methods of the **Button** control.
 
 <img src="images/winforms-8.png">
 
-Let's add the following code which will display a message when you click the button.
+Let's add the following code, which will display a message when you click the button.
 
 ```csharp
 Public Class Form1
@@ -106,11 +106,11 @@ Public Class Form1
 End Class
 ```
 
-Let's run your application and you will see the following dialog.
+Let's run your application, and you will see the following dialog.
 
 <img src="images/winforms-9.png">
 
-Now click the button and you will see the following message.
+Now click the button, and you will see the following message.
 
 <img src="images/winforms-10.png">
 

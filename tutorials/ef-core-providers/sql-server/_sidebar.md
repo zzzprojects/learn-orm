@@ -3,3 +3,4 @@
 - [Indexes](indexes.md)
 - [Memory-Optimized Tables](memory-optimized-tables.md)
 - [Database Functions](database-functions.md)
+- [Spatial Data](spatial-data.md)

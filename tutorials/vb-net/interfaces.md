@@ -5,12 +5,12 @@ Name: Interfaces
 
 # Interfaces
 
-The interface is a definition of a role or you can say a group of abstract actions. It defines what sort of behavior a certain object must exhibit, without specifying how this behavior should be implemented. It can neither be directly instantiated as an object nor can data members be defined. So, an interface is nothing but a collection of method and property declarations.
+The interface is a definition of a role, or you can say a group of abstract actions. It defines what sort of behavior a certain object must exhibit, without specifying how this behavior should be implemented. It can neither be directly instantiated as an object nor can data members be defined. So, an interface is nothing but a collection of method and property declarations.
 
  - An interface can declare only a group of related functionalities, it is the responsibility of the deriving class to implement that functionality.
  - An interface is defined with the `Interface` keyword.
  - An interface can contain declarations of methods, properties, indexers, and events, but it may not declare instance data, such as fields, auto-implemented properties, or property-like events.
- - Multiple inheritance is possible with the help of interfaces, but not with classes.
+ - Multiple inheritances is possible with the help of interfaces, but not with classes.
 
 The following code shows how to define a simple interface.
 

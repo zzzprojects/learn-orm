@@ -31,13 +31,13 @@ Any object capable of raising an event is an event ***sender***, also known as a
 
 ## Event Handlers
 
-Event handlers are procedures that are called when a corresponding event occurs. You can use any valid subroutine with a matching signature as an event handler. You cannot use a function as an event handler, however, because it cannot return a value to the event source.
+Event handlers are procedures that are called when a corresponding event occurs. However, you cannot use a function as an event handler because it cannot return a value to the event source.
 
 Visual Basic uses a standard naming convention for event handlers that combines the name of the event sender, an underscore, and the name of the event. For example, the `Click` event of a button named `button1` would be named `Sub button1_Click`.
 
 ## Associating Events with Event Handlers
 
-The event handler becomes usable when you associate it with an event by using either the `Handles` or `AddHandler` statement.
+The event handler becomes usable when you associate it with an event using either the `Handles` or `AddHandler` statement.
 
 ```csharp
 Dim WithEvents ec As New EventClass
@@ -45,7 +45,7 @@ Dim WithEvents ec As New EventClass
 
 ### AddHandler and RemoveHandler
 
-The `AddHandler` statement allows you to specify an event handler and `RemoveHandler` removes the event handler. 
+The `AddHandler` statement allows you to specify an event handler, and `RemoveHandler` removes the event handler. 
 
  - The `AddHandler`, used with `RemoveHandler`, provides greater flexibility by allowing you to dynamically add, remove, and change the event handler associated with an event. 
  - If you want to handle shared events or events from a structure, you must use `AddHandler`.
@@ -100,6 +100,6 @@ Module EventsHandling
 End Module
 ```
 
-Once the event is raised then the first event handler is removed and a different event handler is associated with the event. When the event is raised again, a different message is displayed.
+Once the event is raised first event handler is removed and a different event handler is associated with the event. When the event is raised again, a different message is displayed.
 
-Finally, the second event handler is removed and the event is raised for the third time. Because there is no longer an event handler associated with the event, no action is taken.
+Finally, the second event handler is removed, and the event is raised for the third time. Because there is no longer an event handler associated with the event, no action is taken.

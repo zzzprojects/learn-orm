@@ -7,7 +7,7 @@ Name: While End Loop
 
 In programming, developers often require a repeated execution of a sequence of operations. A loop is a basic programming construct that allows repeated execution of a fragment of source code. 
 
-In a `While End Loop`, the code is repeated a fixed number of times or it repeats until a given condition is `true`.
+In a `While End Loop`, the code is repeated a fixed number of times, or it repeats until a given condition is `true`.
 
 Here is how a while end loop looks like:
 

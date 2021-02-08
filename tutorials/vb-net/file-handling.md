@@ -5,7 +5,7 @@ Name: File Handling
 
 # File Handling
 
-In most of the applications, you will see that file is used to store the data. The file handling term is used when different operations are performed such as;
+In most of the applications, you will see that file is used to store the data. The file handling term is used when different operations are performed, such as;
 
  - Creating the file
  - Opening the file
@@ -13,7 +13,7 @@ In most of the applications, you will see that file is used to store the data. T
  - Writing data to the file
  - Appending data to the file, etc. 
  
-VB.NET provides `System.IO.File`class which contains static methods for operations the creation, copying, deletion, moving, and opening of a single file.
+VB.NET provides `System.IO.File`class, which contains static methods for operations the creation, copying, deletion, moving, and opening of a single file.
 
 Here are the most commonly used methods of the `File` class which are very useful for creating and getting information about files.
 
@@ -50,7 +50,7 @@ Private Sub Example1()
 End Sub
 ```
 
-Let's run the above code and you will see the following output.
+Let's run the above code, and you will see the following output.
 
 ```csharp
 This is a VB.NET Tutorial, and you are learning file handling.
@@ -95,7 +95,7 @@ and you are learning
 file handling.
 ```
 
-As you can see that for the first time the file doesn't exist, so first the file is created. Now if you run the code again, you will see that it won't create a file.
+As you can see, the file doesn't exist for the first time, so first the file is created. Now, if you rerun the code, you will see that it won't create a file.
 
 ```csharp
 File already exists, no need to create it.

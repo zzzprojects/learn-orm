@@ -5,10 +5,10 @@ Name: List
 
 # List
 
-The `List` class is a collection and defined in the `System.Collections.Generic` namespace and it provides the methods and properties like other `Collection` classes such as `Add`, `Insert`, `Remove`, etc.
+The `List` class is a collection and defined in the `System.Collections.Generic` namespace, and provides the methods and properties like other `Collection` classes such as `Add`, `Insert`, `Remove`, etc.
 
  - It is used to store generic types of collections objects. By using a generic class on the list, we can store one type of object. 
- - The `List` size can be dynamically different depending on the need of the application, such as adding, searching, or inserting elements into a list. 
+ - The `List` size can be dynamically different depending on the application's need, such as adding, searching, or inserting elements into a list. 
 
 The following example shows how to create and initialize a `List` and how to display its values.
 

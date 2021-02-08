@@ -5,14 +5,14 @@ Name: Collections
 
 # Collections
 
-In many applications, you will need to manage groups of related objects. There are two ways to group objects: by creating arrays of objects, and by creating collections of objects.
+In many applications, you will need to manage groups of related objects. There are two ways to group objects: creating arrays of objects and creating collections of objects.
 
  - Arrays are most useful for creating and working with a fixed number of strongly typed objects. For information about arrays, see Arrays.
- - Collections provide a more flexible way to work with groups of objects. Unlike arrays, the group of objects you work with can grow and shrink dynamically as the needs of the application change. 
+ - Collections provide a more flexible way to work with groups of objects. Unlike arrays, the group of objects you work with can grow and shrink dynamically as the application change needs.
 
-For some collections, you can assign a key to any object that you put into the collection so that you can quickly retrieve the object by using the key.
+For some collections, you can assign a key to any object that you put into the collection to quickly retrieve the object by using the key.
 
-A collection is a class, so you must declare an instance of the class before you can add elements to that collection.
+A collection is a class, so you must declare an instance of the class before adding elements to that collection.
 
 ## Types
 
@@ -39,7 +39,7 @@ The following table lists some of the frequently used classes of the System.Coll
 | Dictionary<TKey,TValue> | Represents a collection of key/value pairs that are organized based on the key.|
 | List<T>               | Represents a list of objects that can be accessed by index. Provides methods to search, sort, and modify lists. |
 | Queue<T>              | Represents a first-in, first-out (FIFO) collection of objects.|
-| SortedList<TKey,TValue> | Represents a collection of key/value pairs that are sorted by key based on the associated IComparer<T> implementation. |
+| SortedList<TKey,TValue> | Represents a collection of key/value pairs sorted by key based on the associated IComparer<T> implementation. |
 | Stack<T>              | Represents a last-in, first-out (LIFO) collection of objects. |
 
 The following example shows how to create and initialize a `List` and how to display its values.
@@ -73,7 +73,7 @@ The following table lists some of the frequently used classes in the `System.Col
 | Class                 | Description                                                                     |
 | :---------------------| :-------------------------------------------------------------------------------|
 | ArrayList             | Represents an array of objects whose size is dynamically increased as required. |
-| Hashtable             | Represents a collection of key/value pairs that are organized based on the hash code of the key. |
+| Hashtable             | Represents a collection of key/value pairs organized based on the hash code of the key. |
 | Queue                 | Represents a first-in, first-out (FIFO) collection of objects.                  |
 | Stack                 | Represents a last-in, first-out (LIFO) collection of objects.                   |
 
@@ -96,7 +96,7 @@ Next
 
 ### System.Collections.Concurrent Classes
 
-The collections in the `System.Collections.Concurrent` namespace provide efficient thread-safe operations for accessing collection items from multiple threads.
+The collections in the `System.Collections.Concurrent` namespace provides efficient thread-safe operations for accessing collection items from multiple threads.
 
  - The classes in the `System.Collections.Concurrent` namespace should be used instead of the corresponding types in the `System.Collections.Generic` and `System.Collections` namespaces whenever multiple threads are accessing the collection concurrently. 
  - Some classes included in the `System.Collections.Concurrent` namespace are `BlockingCollection<T>`, `ConcurrentDictionary<TKey,TValue>`, `ConcurrentQueue<T>`, and `ConcurrentStack<T>`.

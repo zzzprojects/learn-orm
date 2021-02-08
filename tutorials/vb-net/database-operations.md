@@ -13,7 +13,7 @@ Nowadays, you can't imagine any application without a database. If your applicat
 
 ## SqlConnection
 
-VB.NET provides a `SqlConnection` class which represents a connection to a SQL Server database, it cannot be inherited.
+VB.NET provides a `SqlConnection` class that represents a connection to a SQL Server database, it cannot be inherited.
 
  - A `SqlConnection` object represents a unique session to a SQL Server data source. 
  - With a client/server database system, it is equivalent to a network connection to the server. 
@@ -52,7 +52,7 @@ It will create a table with the name `Authors` and add three records to that tab
 
 <img src="images/database-operations-3.png">
 
-Select the **View Data** option and it will display all the records. 
+Select the **View Data** option, and it will display all the records. 
 
 <img src="images/database-operations-4.png">
 
@@ -93,7 +93,7 @@ Public Sub ReadData()
 End Sub
 ```
 
-Let's run the above code and you will see the following output.
+Let's run the above code, and you will see the following output.
 
 ```csharp
 1, Mark

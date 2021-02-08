@@ -7,8 +7,8 @@ Name: Delegates
 
 A delegate is a data type that holds a reference to a method with a compatible signature. It is similar to a function pointer in C and C++.
 
- - A delegate is a reference type variable that holds the reference to a method and the reference can be changed at runtime.
- - It is mainly used for implementing events and the call-back methods and all delegates are implicitly derived from the `System.Delegate` class.
+ - A delegate is a reference type variable that holds the reference to a method, and the reference can be changed at runtime.
+ - It is mainly used for implementing events, and the call-back methods and all delegates are implicitly derived from the `System.Delegate` class.
  - It provides a way that tells which method is to be called when an event is triggered.
 
 The following example declares a delegate named `MyDelegate` that can encapsulate a method that takes a string as an argument and returns `void`.
@@ -50,7 +50,7 @@ Public Sub Example1()
 End Sub
 ```
 
-Let's run the above code and you will see the following output.
+Let's run the above code, and you will see the following output.
 
 ```csharp
 This is a VB.NET Tutorial.
@@ -102,7 +102,7 @@ Multiply(10, 20) = 200
 
 ## Combine Delegates
 
-A useful property of delegate objects is that multiple objects can be assigned to one delegate instance by using the `Delegate.Combine` method. 
+A useful property of delegate objects is that multiple objects can be assigned to one delegate instance using the `Delegate.Combine` method. 
 
  - The multicast delegate contains a list of the assigned delegates. 
  - When the multicast delegate is called, it invokes the delegates in the list, in order. 

@@ -8,7 +8,7 @@ Name: Memory-Optimized Tables
 Memory-Optimized Tables are a feature of SQL Server where the entire table resides in memory. 
 
  - A second copy of the table data is maintained on disk, but only for durability purposes. 
- - Data in memory-optimized tables is only read from disk during database recovery, such as, after a server restart.
+ - Data in memory-optimized tables is only read from disk during database recovery, such as after a server restart.
 
 ## Configuration
 

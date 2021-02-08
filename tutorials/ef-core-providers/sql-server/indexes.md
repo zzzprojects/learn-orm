@@ -7,18 +7,18 @@ Name: Indexes
 
 Indexes are a common concept across many data stores, and data is stored in the form of records. Every record has a key field, which helps it to be recognized uniquely.
 
- - Indexing is a way to optimize the performance of a database by minimizing the number of disk accesses required when a query is processed. 
- - It is a data structure technique that is used to quickly locate and access the data in a database.
+ - Indexing is a way to optimize a database's performance by minimizing the number of disk accesses required when a query is processed.
+ - It is a data structure technique used to quickly locate and access the data in a database.
 
 ## Indexing in EF Core
 
-By convention, an index is created in each property (or set of properties) that are used as a foreign key.
+By convention, an index is created in each property (or set of properties) used as a foreign key.
 
  - EF Core only supports one index per distinct set of properties. 
  - If you use the Fluent API to configure an index on a set of properties that already have an index defined, either by convention or previous configuration, then you will be changing the definition of that index. 
  - This is useful if you want to further configure an index that was created by convention.
 
-Indexes cannot be created using data annotations, instead, you can use the Fluent API to specify an index on one or more columns.
+Indexes cannot be created using data annotations. Instead, you can use the Fluent API to specify an index on one or more columns.
 
 The following example specifies an index on a single column.
 
@@ -42,7 +42,7 @@ protected override void OnModelCreating(ModelBuilder modelBuilder)
 
 ### Unique Index
 
-By default, indexes are not unique, multiple rows are allowed to have the same value(s) for the index's column set. You can make an index unique as shown below.
+By default, indexes are not unique, multiple rows are allowed to have the same value(s) for the index's column set. You can make an index unique, as shown below.
 
 ```csharp
 protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -73,7 +73,7 @@ protected override void OnModelCreating(ModelBuilder modelBuilder)
 
 ### Index Filter
 
-In some relational databases, you can specify a filtered or partial index to index only a subset of a column's values, reducing the index's size and improving both performance and disk space usage. 
+In some relational databases, you can specify a filtered or partial index to index only a subset of a column's values, reduce the index's size, and improve performance and disk space usage.
 
 ```csharp
 protected override void OnModelCreating(ModelBuilder modelBuilder)

@@ -16,7 +16,7 @@ A structure is a generalization of the user-defined type. In addition to fields,
 
 You can declare a structure using the `Structure` statement. You can specify the access level of a structure using the `Public`, `Protected`, `Friend`, or `Private` keyword.
 
-Let's consider the following simple example where we have declared a structure named `Point3D` which contains three integers `X`, `Y`, and `Z`.
+Let's consider the following simple example where we have declared a structure named `Point3D`, which contains three integers `X`, `Y`, and `Z`.
 
 ```csharp
 Public Structure Point3D
@@ -87,7 +87,7 @@ Public Sub Example2()
 End Sub
 ```
 
-Let's run the above code and it will print the following output on the console window.
+Let's run the above code, and it will print the following output on the console window.
 
 ```csharp
 Id: 1, Name: Mark, Address: 22 wall street

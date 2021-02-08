@@ -32,8 +32,8 @@ Exit { Do | For | Function | Property | Select | Sub | Try | While }
 ### Exit Function
 
  - It immediately exits the `Function` procedure in which it appears. 
- - The execution continues with the statement following the statement that is called the `Function` procedure. 
- - The `Exit Function` can be used only inside a `Function` procedure.
+ - The execution continues with the statement following the statement called the `Function` procedure. 
+ - The `Exit Function` can only be used inside a `Function` procedure.
  - To specify a return value, you can assign the value to the function name on a line before the `Exit Function` statement. 
  - To assign the return value and exit the function in one statement, you can instead use the `Return` Statement.
 
@@ -41,7 +41,7 @@ Exit { Do | For | Function | Property | Select | Sub | Try | While }
 
  - It immediately exits the `Property` procedure in which it appears. 
  - The execution continues with the statement that is called the `Property` procedure, that is, with the statement requesting or setting the property's value. 
- - The `Exit Property` can be used only inside a property's `Get` or `Set` procedure.
+ - The `Exit Property` can only be used inside a property's `Get` or `Set` procedure.
  - To specify a return value in a Get procedure, you can assign the value to the function name on a line before the Exit Property statement. To assign the return value and exit the Get procedure in one statement, you can instead use the Return statement.
  - In a `Set` procedure, the `Exit Property` statement is equivalent to the `Return` statement.
 
@@ -61,13 +61,13 @@ Exit { Do | For | Function | Property | Select | Sub | Try | While }
 
  - It immediately exits the `Try` or `Catch` block in which it appears. 
  - The execution continues with the `Finally` block if there is one, or with the statement following the `End Try` statement otherwise. 
- - The `Exit Try` can be used only inside a Try or Catch block, and not inside a Finally block.
+ - The `Exit Try` can only be used inside a Try or Catch block, and not inside a Finally block.
 
 ### Exit While
 
  - It immediately exits the `While` loop in which it appears. 
  - The execution continues with the statement following the `End While` statement. 
- - The `Exit While` can be used only inside a `While` loop. 
+ - The `Exit While` can only be used inside a `While` loop. 
  - When used within nested `While` loops, the `Exit While` transfers control to the loop that is one nested level above the loop where `Exit While` occurs.
 
 The following example shows that the loop stops using the `Exit Do` statement when the `index` variable is greater than 10. 

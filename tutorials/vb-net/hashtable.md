@@ -5,7 +5,7 @@ Name: Hashtable
 
 # Hashtable
 
-The `Hashtable` represents a collection of key/value pairs that are organized based on the hash code of the key.
+The `Hashtable` represents a collection of key/value pairs organized based on the hash code of the key.
 
  - The `HashTable` stores a `Key`/`Value` pair type collection of data. 
  - We can retrieve items from `HashTable` to provide the key. 

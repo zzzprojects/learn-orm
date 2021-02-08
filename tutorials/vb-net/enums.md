@@ -7,7 +7,7 @@ Name: Enums
 
 An `Enum` or enumeration type is a special data type that represents a group of constants. It is a value type defined by a set of named constants of the underlying integral numeric type. 
 
- - Enumeration is a structure, which resembles a class but differs from it in that in the enum body we can only declare constants. 
+ - Enumeration is a structure, which resembles a class but differs from it in that in the enum body, we can only declare constants. 
  - It can take values only from the constants listed in the type. 
  - An enumerated variable cannot have a `null` value.
 
@@ -19,7 +19,7 @@ Enum enumerationname [ As datatype ]
 End Enum
 ```
 
-If you have a set of unchanging values that are logically related to each other, you can define them together in an enumeration. 
+If you have a set of unchanging values logically related to each other, you can define them together in an enumeration. 
 
  - It provides meaningful names for the enumeration and its members, which are easier to remember than their values. 
  - You can then use the enumeration members in many places in your code.
@@ -63,7 +63,7 @@ Let's run the above code and it will print the following output on the console w
 The day is Tuesday
 ```
 
-Here is another enum example where we have assigned a value to the first constant only, so the compiler will assign the values to the remaining constants.
+Here is another enum example where we have assigned a value to the first constant only so that the compiler will assign the remaining constants values.
 
 ```csharp
 Enum Months
@@ -82,9 +82,9 @@ Enum Months
 End Enum
 ```
 
-When you assign a different value to the `enum` first constant and it is other than the default value, it will automatically assign incremental values to the other members sequentially.
+When you assign a different value to the `enum` first constant, and it is other than the default value, it will automatically assign incremental values to the other members sequentially.
 
-You can also assign different values to each constant as shown below.
+You can also assign different values to each constant, as shown below.
 
 ```csharp
 Enum Categories
@@ -106,7 +106,7 @@ Dim intVal As Integer = CInt(category)
 Console.WriteLine("The numerical value of {0} is {1}", category, intVal)
 ```
 
-Let's run the above code and it will print the following output on the console window.
+Let's run the above code, and it will print the following output on the console window.
 
 ```csharp
 The numerical value of HealthCare in 33

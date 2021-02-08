@@ -5,7 +5,7 @@ Name: DateTime
 
 # DateTime
 
-In most of the applications, you need some form of date function returning the current date and time. VB.Net also provides powerful tools for date arithmetic that makes manipulating dates easy.
+In most applications, you need some form of date function returning the current date and time. VB.Net also provides powerful tools for date arithmetic that makes manipulating dates easy.
 
  - It represents an instant in time, typically expressed as a date and time of day.
  - The `DateTime` value type represents dates and times with values ranging from **00:00:00, January 1, 0001** to **11:59:59 P.M., December 31, 9999** in the **Gregorian** calendar.

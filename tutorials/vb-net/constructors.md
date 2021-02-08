@@ -5,7 +5,7 @@ Name: Constructors
 
 # Constructors
 
-In object-oriented programming, when creating an object from a given class, it is necessary to call a special method of the class known as a constructor.
+In object-oriented programming, when creating an object from a given class, it is necessary to call a special class method known as a constructor.
 
 ## What Is a Constructor?
 
@@ -40,7 +40,7 @@ In the above example, using the `New` keyword, we call the constructor of the cl
 
 ### Parameterized Constructor
 
-Similar to the methods, if we need extra data to create an object, the constructor gets it through a parameter list. The following example passes two strings variables `name` and `address` as a parameter to the constructor.
+Similar to the methods, if we need extra data to create an object, the constructor gets it through a parameter list. The following example passes two strings variables `name` and `address`, as a parameter to the constructor.
 
 ```csharp
 Public Sub New(ByVal name As String, ByVal address As String)
@@ -55,7 +55,7 @@ Similarly, the call of a constructor with parameters is done in the same way as 
 Dim customer1 As CustomerInfo = New CustomerInfo("John", "11 wall street")
 ```
 
-There is no limit to parameters, you can have as many parameters as you want.
+There is no limit to parameters. You can have as many parameters as you want.
 
 ### Copy Constructor
 
@@ -78,7 +78,7 @@ customer1.Print()
 customer2.Print()
 ```
 
-Let's execute the above code and you will see the same values for both objects.
+Let's execute the above code, and you will see the same values for both objects.
 
 ```csharp
 Name: John, Address: 11 wall street

@@ -19,7 +19,7 @@ There are two types of polymorphism.
 
 Compile-time polymorphism is achieved using method overloading and operator overloading. The method overloading means defining multiple methods with the same name but with different parameters.
 
- - Using method overloading you can perform different tasks with the same method name by passing different parameters.
+ - Using method overloading, you can perform different tasks with the same method name by passing different parameters.
  - You can overload methods in the same class only, it doesn't need a parent-child relationship.
 
 Compile-time polymorphism is also known as static binding or early binding. The following code shows the method overloading of `Add()` methods, where both methods have the same name and different parameters.
@@ -36,7 +36,7 @@ Public Class MathUtility
 End Class
 ```
 
-In the above class, we defined two methods with the same name `Add` but with different parameters to achieve method overloading and it is called a compile-time polymorphism.
+In the above class, we defined two methods with the same name `Add` but with different parameters to achieve method overloading, and it is called a compile-time polymorphism.
 
 You can call these methods to achieve a different result.
 
@@ -51,7 +51,7 @@ End Sub
 
 ### Runtime Polymorphism
 
-Runtime polymorphism is achieved by method overriding which is also known as dynamic binding or late binding. The method overriding means defining methods in parent and child class with the same name and signature but different implementation.
+Runtime polymorphism is achieved by method overriding, which is also known as dynamic binding or late binding. The method overriding means defining methods in parent and child class with the same name and signature but different implementation.
 
  - In this type of polymorphism, we override a base class method in the derived class by creating a similar function with a different implementation.
  - This can be achieved by using `Overridable` & `Overrides` keywords along with the inheritance principle.
@@ -70,7 +70,7 @@ The following modifiers are used to control how properties and methods are overr
 | MustOverride  | Requires that a class member be overridden in the derived class.       |
 | Shadows       | Hides a member inherited from a base class                                |
 
-Here is the simple example of method overriding, where the `Shape` class contains an `Overridable` method `CalculateArea()` which we will override in child classes.
+Here is the simple example of method overriding, where the `Shape` class contains an `Overridable` method `CalculateArea()`, which we will override in child classes.
 
 ```csharp
 Public Class Shape
@@ -110,7 +110,7 @@ Public Class Rectangle
 End Class
 ```
 
-As you can see, we have two child classes `Circle` and  `Rectangle` and both classes override the `CalculateArea()` method with their implementation by calculating the area of circle and rectangle respectively.
+As you can see, we have two child classes `Circle` and  `Rectangle`, and both classes override the `CalculateArea()` method with their implementation by calculating the area of circle and rectangle respectively.
 
 Now we can create `Shape`, `Circle`, and `Rectangle` objects and assign them to `Shape` instances.
 
@@ -128,7 +128,7 @@ End Sub
 
 You can see that both objects can call the `CalculateArea()` but the right version of the `CalculateArea()` method is not being determined at compile time but determined at runtime. 
 
-Let's run the above code and you will see the following output.
+Let's run the above code, and you will see the following output.
 
 ```csharp
 The area of the shape is 0

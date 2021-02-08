@@ -5,7 +5,7 @@ Name: Inheritance
 
 # Inheritance
 
-Inheritance is a fundamental principle of object-oriented programming. It allows a class to inherit the behavior, or characteristics from base class to child class.
+Inheritance is a fundamental principle of object-oriented programming. It allows a class to inherit the behavior or characteristics from base class to child class.
 
  - It is a concept in which you define parent classes and child classes.
  - The child classes inherit methods and properties of the parent class, but at the same time, they can also modify the behavior of the methods if required. 
@@ -18,8 +18,8 @@ Here are some of the inheritance rules, and the modifiers you can use to change 
 
  - By default, all classes are inheritable unless marked with the `NotInheritable` keyword. 
  - Classes can inherit from other classes in your project or from classes in other assemblies that your project references.
- - Unlike languages that allow multiple inheritance, Visual Basic allows only single inheritance in classes. 
- - Although multiple inheritance is not allowed in classes, classes can implement multiple interfaces, which can effectively accomplish the same ends.
+ - Unlike languages that allow multiple inheritances, Visual Basic allows only single inheritance in classes. 
+ - Although multiple inheritances are not allowed in classes, classes can implement multiple interfaces to effectively accomplish the same ends.
  - To prevent exposing restricted items in a base class, the access type of a derived class must be equal to or more restrictive than its base class. For example, a `Public` class cannot inherit a `Friend` or a `Private` class, and a `Friend` class cannot inherit a `Private` class.
 
 ## Inheritance Modifiers

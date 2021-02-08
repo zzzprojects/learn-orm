@@ -10,20 +10,20 @@ The `Module` statement declares the name of a module and introduces the definiti
  - It defines a reference type available throughout its namespace.  
  - Every module has exactly one instance and does not need to be created or assigned to a variable. 
  - Modules do not support inheritance or implement interfaces. 
- - A module is not a type as a class or structure and you cannot declare a programming element to have the data type of a module.
+ - A module is not a type as a class or structure, and you cannot declare a programming element to have the data type of a module.
  - You can use `Module` only at the namespace level and must be declared in a source file or namespace, and it cannot be declared in a class, structure, module, interface, procedure, or block. 
  - You cannot nest a module within another module, or any type. 
 
 ## Different Between Class and Module
 
-A module is similar to a class but there are some important differences as well.
+A module is similar to a class, but there are some important differences as well.
 
  - Previous versions of Visual Basic recognize two types of modules: **class modules (.cls files)** and **standard modules (.bas files)**. 
  - The current version calls these classes and modules, respectively.
  - You can control whether a member of a class is a shared or instance member.
  - Classes are object-oriented, but modules are not, so only classes can be instantiated as objects.
 
-Modules are VB.NET counterparts to C# `static` classes. When your class is designed solely for helper functions and extension methods and you don't want to allow **inheritance** and **instantiation**, you use a `Module`.
+Modules are VB.NET counterparts to C# `static` classes. When your class is designed solely for helper functions and extension methods, and you don't want to allow **inheritance** and **instantiation**, you use a `Module`.
 
 Let's consider the following example in which we have defined a `Module`.
 

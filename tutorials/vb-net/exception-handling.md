@@ -5,9 +5,9 @@ Name: Exception Handling
 
 # Exception Handling
 
-When we write a program, in most of the cases we rely upon that the program will execute normally and most of the time, programs are following the normal pattern, but there are some exceptions. 
+When we write a program, in most of the cases, we rely upon that the program will execute normally, and most of the time, programs follow the normal pattern, but there are some exceptions. 
 
- - When you execute your code and an error occurs, VB.NET will normally stop and generate an error message and will throw an exception.
+ - When you execute your code, and an error occurs, VB.NET will normally stop and generate an error message and throw an exception.
  - Exceptions in the application must be handled to prevent the crashing of the program and unexpected results.
 
 In VB.NET, exception handling is done with the `Try...Catch...Finally` statement. The `Try` encloses the statements that might throw an exception, the `Catch` handles an exception, and the `Finally` can be used for any cleanup work.
@@ -32,7 +32,7 @@ If any exception occurs inside the `Try` block, then control transfers to the ap
 
 A `Try` block is used to write a portion of code that might be affected by an exception. 
 
- - If any code throws an exception within that `Try` block, the exception will be handled by the corresponding `Catch` block.
+ - If any code throws an exception within that `Try` block, the corresponding `Catch` block will handle the exception.
  - A `Try` block requires one or more associated `Catch` blocks, or a `Finally` block, or both.
 
 ## Catch Block
@@ -41,7 +41,7 @@ When an exception occurs, the `Catch` block of code is executed. This is where y
 
 ## Finally Block
 
-A `Finally` block contains code that is run regardless of whether or not an exception is thrown in the `Try` block, such as releasing resources that are allocated in the `Try` block. 
+A `Finally block` contains code that is run regardless of whether an exception is thrown in the `Try` block, such as releasing resources allocated in the `Try` block.
 
 ## How It Works?
 
@@ -64,7 +64,7 @@ Public Sub Example1()
     Catch
         Console.Write("Error occurred.")
     Finally
-        Console.Write("It will be executed always because I am in Finally block.")
+        Console.Write("It will always be executed because I am in Finally block.")
     End Try
 End Sub
 ```
@@ -94,7 +94,7 @@ Public Sub Example2()
 End Sub
 ```
 
-Let's run the above code and now you will see the actual error when a character is parsed to an integer.
+Let's run the above code, and now you will see the actual error when a character is parsed to an integer.
 
 ```csharp
 The number is 6

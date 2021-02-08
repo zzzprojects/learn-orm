@@ -28,7 +28,7 @@ The following are basic methods of the `Stack` class.
 | `Peek()`         | Returns the object at the top of the `Stack` without removing it.            |
 | `Pop()`          | Removes and returns the object at the top of the `Stack`.             |
 | `Push(Object)`  | Inserts an object at the top of the `Stack`.                           |
-| `Synchronized(Stack)` | Returns a synchronized (thread safe) wrapper for the `Stack`.   |
+| `Synchronized(Stack)` | Returns a synchronized (thread-safe) wrapper for the `Stack`.   |
 | `ToArray()`     | Copies the Stack to a new array.                                     |
 | `ToString()`    | Returns a string that represents the current object. <br> (Inherited from `Object`) |
 
@@ -50,7 +50,7 @@ Public Sub Example()
 End Sub
 ```
 
-Let's run the above code and you will see the following output.
+Let's run the above code, and you will see the following output.
 
 ```csharp
 myStack
@@ -58,7 +58,7 @@ myStack
         Values:    !    World    Hello
 ```
 
-If `Count` is less than the capacity of the stack, `Push` is an `O(1)` operation. 
+If `Count` is less than the stack's capacity, `Push` is an `O(1)` operation. 
 
  - If the capacity needs to be increased to accommodate the new element, `Push` becomes an `O(n)` operation, where `n` is `Count`. 
  - `Pop` is an `O(1)` operation.

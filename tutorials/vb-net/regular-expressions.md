@@ -41,7 +41,7 @@ Stella
 Scarlett
 ```
 
-As you can see the pattern only matches the names that start with "S" and ignore the name that starts with "s". You can use the `RegexOptions.IgnoreCase` parameter to make sure that `Regex` does not look for uppercase or lowercase.
+As you can see, the pattern only matches the names that start with "S" and ignore the name that starts with "s". You can use the `RegexOptions.IgnoreCase` parameter to make sure that `Regex` does not look for uppercase or lowercase.
 
 ```csharp
 Public Sub Example2()
@@ -57,7 +57,7 @@ Public Sub Example2()
 End Sub
 ```
 
-Let's run the above code and you will see the following output.
+Let's run the above code, and you will see the following output.
 
 ```csharp
 The following names of the customers start with "S" or  or "s"
@@ -68,7 +68,7 @@ Stella
 Scarlett
 ```
 
-Let's consider another example, where we want to validate an email Ids.
+Let's consider another example where we want to validate an email Ids.
 
 ```csharp
 Private Function IsValidEmail(ByVal email As String) As Boolean

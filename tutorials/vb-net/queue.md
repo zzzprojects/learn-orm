@@ -11,7 +11,7 @@ Three main operations can be performed on a Queue and its elements:
 
  - **Enqueue** adds an element to the end of the Queue.
  - **Dequeue** removes the oldest element from the start of the Queue.
- - **Peek** returns the oldest element that is at the start of the Queue but does not remove it from the Queue.
+ - **Peek** returns the oldest element at the start of the Queue but does not remove it from the Queue.
 
 The capacity of a Queue is the number of elements the Queue can hold. As elements are added to a Queue, the capacity is automatically increased as required through reallocation.
 
@@ -33,7 +33,7 @@ The following are basic methods of the `Queue` class.
 | `GetType()`       | Gets the Type of the current instance. <br> (Inherited from `Object`) |
 | `MemberwiseClone()` | Creates a shallow copy of the current Object. <br> (Inherited from `Object`) |
 | `Peek()`          | Returns the object at the beginning of the Queue without removing it. |
-| `Synchronized(Queue)` | Returns a new Queue that wraps the original queue, and is thread safe. |
+| `Synchronized(Queue)` | Returns a new Queue that wraps the original queue, and is thread-safe. |
 | `ToArray()`       | Copies the Queue elements to a new array.                         |
 | `ToString()`      | Returns a string that represents the current object. <br> (Inherited from `Object`) |
 | `TrimToSize()`    | Sets the capacity to the actual number of elements in the Queue.  |
@@ -58,7 +58,7 @@ Public Sub Example()
 End Sub
 ```
 
-Let's run the above code and you will see the following output.
+Let's run the above code, and you will see the following output.
 
 ```csharp
 myQ

@@ -5,7 +5,7 @@ Name: Conditional Statements
 
 # Conditional Statements
 
-The `If...Then` and `If...Then...Else` are conditional control statements. Using conditional statements, the program can behave differently based on a defined condition checked during the execution of the statement.
+The `If...Then` and `If...Then...Else` are conditional control statements. Using conditional statements, the program can behave differently based on a defined condition checked during the statement's execution.
 
 ## If...Then
 

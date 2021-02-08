@@ -57,7 +57,7 @@ This is a VB.NET Tutorial.
 You are learning Delegates.
 ```
 
-Let's have a look into another example where we use a single delegate object and different methods with that object. Here are the delegate declaration and `MathUtility` class implementation.
+Let's look into another example where we use a single delegate object and different methods with that object. Here are the delegate declaration and `MathUtility` class implementation.
 
 ```csharp
 Private Delegate Function MyMathDelegate(ByVal number1 As Integer, ByVal number2 As Integer) As Integer

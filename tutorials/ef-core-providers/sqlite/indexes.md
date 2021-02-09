@@ -1,5 +1,5 @@
 ---
-PermaID: 100002
+PermaID: 100003
 Name: Indexes
 ---
 
@@ -30,6 +30,10 @@ protected override void OnModelCreating(ModelBuilder modelBuilder)
 }
 ```
 
+After database creation, open it in SQLite viewer and you will see an index is created.
+
+<img src="images/indexes-1.png">
+
 You can also specify an index over more than one column:
 
 ```csharp
@@ -39,6 +43,8 @@ protected override void OnModelCreating(ModelBuilder modelBuilder)
         .HasIndex(a => new { a.FirstName, a.LastName });
 }
 ```
+
+<img src="images/indexes-2.png">
 
 ### Unique Index
 
@@ -84,7 +90,7 @@ protected override void OnModelCreating(ModelBuilder modelBuilder)
 }
 ```
 
-In SQL Server provider, EF Core adds an `IS NOT NULL` filter for all nullable columns that are part of a unique index. To override this convention you can supply a `null` value as shown below.
+In SQLite provider, EF Core adds an `IS NOT NULL` filter for all nullable columns that are part of a unique index. To override this convention you can supply a `null` value as shown below.
 
 ```csharp
 protected override void OnModelCreating(ModelBuilder modelBuilder)

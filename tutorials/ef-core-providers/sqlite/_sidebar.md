@@ -1,3 +1,4 @@
 - [Getting Started](getting-started.md)
 - [Database Functions](database-functions.md)
 - [Generated Values](generated-values.md)
+- [Indexes](indexes.md)

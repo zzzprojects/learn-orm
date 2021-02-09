@@ -73,6 +73,7 @@ Let's have a look at the following example.
 using (var context = new BookStore())
 {
     var list = context.Authors
+        .Include(a => a.Books)
         .Where(a => EF.Functions.Like(a.LastName, "Al%"))
         .ToList();
 

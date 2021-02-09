@@ -2,3 +2,4 @@
 - [Database Functions](database-functions.md)
 - [Generated Values](generated-values.md)
 - [Indexes](indexes.md)
+- [Spatial Data](spatial-data.md)

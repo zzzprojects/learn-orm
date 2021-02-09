@@ -1,5 +1,5 @@
 ---
-PermaID: 100001
+PermaID: 100002
 Name: Generated Values
 ---
 
@@ -100,7 +100,7 @@ protected override void OnModelCreating(ModelBuilder modelBuilder)
 {
     modelBuilder.Entity<Author>()
         .Property(a => a.Created)
-        .HasDefaultValueSql("getdate()");
+        .HasDefaultValueSql("datetime('now', 'localtime')");
 }
 ```
 
@@ -136,18 +136,3 @@ protected override void OnModelCreating(ModelBuilder modelBuilder)
         .ValueGeneratedOnAddOrUpdate();
 }
 ```
-
-### Computed Columns
-
-In some relational databases, you can configure a column in a way that its value is computed in the database.
-
-```csharp
-protected override void OnModelCreating(ModelBuilder modelBuilder)
-{
-    modelBuilder.Entity<Author>()
-        .Property(a => a.DisplayName)
-        .HasComputedColumnSql("[LastName] + ', ' + [FirstName]");
-}
-```
-
-In some cases, the column's value is computed every time it is fetched, and in others, it is computed on every update of the row and stored.

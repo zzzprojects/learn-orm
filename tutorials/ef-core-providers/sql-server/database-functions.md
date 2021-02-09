@@ -25,7 +25,7 @@ By default, EF Core providers provide mappings for various built-in functions ov
  - The same feature is also used to provide common translations for some of the C# member accesses. For example, `String.Length` translates to `LEN` in SqlServer. 
  - This extensibility is useful when plugins add support for more types as primitive types and want to translate methods over them.
 
-### EF.Functions mapping
+### EF.Functions Mapping
 
 Since not all database functions have equivalent C# functions, EF Core providers have special C# methods to invoke certain database functions. 
 
@@ -34,7 +34,7 @@ Since not all database functions have equivalent C# functions, EF Core providers
  - So a method that works for one provider will likely not work for any other provider. 
  - These methods intend to invoke a database function in the translated query, trying to evaluate them on the client results in an exception.
 
-### User-defined function mapping
+### User-defined Function Mapping
 
 Apart from mappings provided by EF Core providers, users can also define the custom mapping. 
 

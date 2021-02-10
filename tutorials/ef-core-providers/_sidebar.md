@@ -14,3 +14,4 @@
   - [SQLite Limitations](sqlite\sqlite-limitations.md)
 - [InMemory Provider](inmemory.md)
 - [PostgreSQL](postgresql.md)
+- [MySQL](mysql.md)

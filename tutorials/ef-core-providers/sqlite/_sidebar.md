@@ -3,3 +3,4 @@
 - [Generated Values](generated-values.md)
 - [Indexes](indexes.md)
 - [Spatial Data](spatial-data.md)
+- [SQLite Limitations](sqlite-limitations.md)

@@ -12,3 +12,4 @@
   - [Indexes](sqlite\indexes.md)
   - [Spatial Data](sqlite\spatial-data.md)
   - [SQLite Limitations](sqlite\sqlite-limitations.md)
+- [InMemory Provider](inmemory.md)

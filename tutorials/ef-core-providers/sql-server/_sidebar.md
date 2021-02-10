@@ -1,6 +1,0 @@
-- [Getting Started](getting-started.md)
-- [Generated Values](generated-values.md)
-- [Indexes](indexes.md)
-- [Memory-Optimized Tables](memory-optimized-tables.md)
-- [Database Functions](database-functions.md)
-- [Spatial Data](spatial-data.md)

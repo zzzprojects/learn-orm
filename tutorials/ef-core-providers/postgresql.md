@@ -1,16 +1,15 @@
 ---
-PermaID: 1000012
-Name: InMemory
+PermaID: 1000013
+Name: PostgreSQL
 ---
 
-# InMemory Provider
+# PostgreSQL Provider
 
-InMemory is designed to be a general-purpose database for testing and is not designed to mimic a relational database.
+PostgreSQL is a general-purpose and object-relational database management system, the most advanced open-source database system. 
 
- - InMemory will allow you to save data that would violate referential integrity constraints in a relational database.
- - If you use `DefaultValueSql(string)` for a property in your model, this is a relational database API and will not affect when running against InMemory.
- - Concurrency via Timestamp/row version ([Timestamp] or IsRowVersion) is not supported. 
- - No `DbUpdateConcurrencyException` will be thrown if an update is done using an old concurrency token.
+ - PostgreSQL has been proven to be highly scalable both in the sheer quantity of data it can manage and in the number of concurrent users it can accommodate. 
+ - It allows you to add custom functions developed using different programming languages such as C/C++, Java, etc.
+ - PostgreSQL requires very minimum maintained efforts because of its stability.
 
 ## Install Entity Framework Core
 
@@ -24,23 +23,23 @@ PM> Install-Package Microsoft.EntityFrameworkCore
 
 You can also install this NuGet package by right-clicking on your project in Solution Explorer and select **Manage Nuget Packages...**. 
 
-<img src="images/inmemory-1.png">
+<img src="images/postgresql-1.png">
 
 Search for **Microsoft.EntityFrameworkCore** and install the latest version by pressing the install button.
 
 ## Register EF Core Provider
 
-For InMemory, we need to install [Microsoft.EntityFrameworkCore.InMemory](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.InMemory) and will get all the packages required for EF Core.
+For PostgreSQL, we need to install [Npgsql.EntityFrameworkCore.PostgreSQL](https://www.nuget.org/packages/Npgsql.EntityFrameworkCore.PostgreSQL) and will get all the packages required for EF Core.
 
 ```csharp
-PM> Install-Package Microsoft.EntityFrameworkCore.InMemory
+PM> Install-Package Npgsql.EntityFrameworkCore.PostgreSQL
 ```
 
 Now, you are ready to start your application.
  
-## Create Data Model
+ ## Create Data Model
  
-Model is a collection of classes to interact with the database.
+ Model is a collection of classes to interact with the database.
 
  - A model stores data that is retrieved according to the commands from the Controller and displayed in the View.
  - It can also be used to manipulate the data to implement the business logic.
@@ -82,7 +81,7 @@ public class BookStore : DbContext
 {
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseInMemoryDatabase(databaseName: "BookStoreDb");
+        optionsBuilder.UseNpgsql("host=localhost;user id=postgres;password=mw;database=postgres1;Pooling=false;Timeout=300;CommandTimeout=300;");
     }
         
     public DbSet<Author> Authors { get; set; }
@@ -92,9 +91,32 @@ public class BookStore : DbContext
 In EF Core, the DbContext has a virtual method called `OnConfiguring` which will get called internally by EF Core. 
 
  - It will pass in an `optionsBuilder` instance which can be used to configure options for the `DbContext`.
- - The `optionsBuilder` has `UseInMemoryDatabase` method which expects a connection string as a parameter. 
+ - The `optionsBuilder` has the `UseNpgsql` method which expects a connection string as a parameter. 
 
-Now, we are done with the required classes, let's add some authors and book records to the `InMemory` database and then retrieve them.
+## Create Database
+
+Now, to create a database using migrations from your model, install the following packages
+
+```csharp
+PM> Install-Package Microsoft.EntityFrameworkCore.Tools
+PM> Install-Package Microsoft.EntityFrameworkCore.Design
+```
+
+Once these packages are installed, run the following command in **Package Manager Console**.
+
+```csharp
+Add-Migration Initial
+```
+
+This command scaffold a migration to create the initial set of tables for your model. When it is executed successfully, then run the following command.
+
+```csharp
+Update-Database
+```
+
+This command applies the new migration to the database and creates the database before applying migrations.
+
+Now, we are done with the required classes and database creation, let's add some authors and book records to the database and then retrieve them.
 
 ```csharp
 using (var context = new BookStore())

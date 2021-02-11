@@ -1,14 +1,11 @@
 ---
-PermaID: 1000015
-Name: Oracle
+PermaID: 1000016
+Name: Pomelo MySQL
 ---
 
-# Oracle Provider
+# Pomelo MySQL Provider
 
-Oracle Database is the first database designed for enterprise grid computing, the most flexible and cost-effective way to manage information and applications.
-
- - The database has logical structures and physical structures. 
- - The physical and logical structures are separate, and the physical storage of data can be managed without affecting the access to logical storage structures.
+`Pomelo.EntityFrameworkCore.MySql` is an Entity Framework Core provider built on top of [MySqlConnector](https://github.com/mysql-net/MySqlConnector) that enables the use of the Entity Framework Core ORM with MySQL.
 
 ## Install Entity Framework Core
 
@@ -22,21 +19,19 @@ PM> Install-Package Microsoft.EntityFrameworkCore
 
 You can also install this NuGet package by right-clicking on your project in Solution Explorer and select **Manage Nuget Packages...**. 
 
-<img src="images/oracle-1.png">
+<img src="images/pomelo-mysql-1.png">
 
 Search for **Microsoft.EntityFrameworkCore** and install the latest version by pressing the install button.
 
- > **Note: Oracle Provider is supported in EF Core 3.1 or earlier versions.**
-
 ## Register EF Core Provider
 
-To use Oracle in EF Core, we need to install [Oracle.EntityFrameworkCore](https://www.nuget.org/packages/Oracle.EntityFrameworkCore) in your project using **Package Manager Console** window. It will get all the packages required for EF Core.
+For `Pomelo.EntityFrameworkCore.MySql`, we need to install [Pomelo.EntityFrameworkCore.MySql](https://www.nuget.org/packages/Pomelo.EntityFrameworkCore.MySql) and will get all the packages required for EF Core.
 
 ```csharp
-PM> Install-Package Oracle.EntityFrameworkCore
+PM> Install-Package Pomelo.EntityFrameworkCore.MySql
 ```
 
-Now, you are ready to start your application.
+Now you are ready to start your application.
  
 ## Create Data Model
  
@@ -82,21 +77,23 @@ public class BookStore : DbContext
 {
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseOracle("User Id=SYSTEM;Password=mw;Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=localhost)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=XE)))");
+        optionsBuilder.UseMySql(connectionString: @"server=localhost;database=BookStoreDb2;uid=root;password=;", 
+            new MySqlServerVersion(new Version(10, 4, 17)), 
+            mySqlOptions => mySqlOptions.CharSetBehavior(CharSetBehavior.NeverAppend));
     }
-        
+
     public DbSet<Author> Authors { get; set; }
     public DbSet<Book> Books { get; set; }
 }
 ```
-In EF Core, the DbContext has a virtual method called `OnConfiguring` which will get called internally by EF Core. 
+In EF Core, the `DbContext` has a virtual method called `OnConfiguring` which will get called internally by EF Core. 
 
  - It will pass in an `optionsBuilder` instance which can be used to configure options for the `DbContext`.
- - The `optionsBuilder` has the `UseOracle` method which expects a connection string as a parameter. 
+ - The `optionsBuilder` has the `UseMySql` method which expects a connection string, server version, and CharSetBehavior as a parameter. 
 
 ## Create Database
 
-Now to create a database using migrations from your model, install the following packages
+Now, to create a database using migrations from your model, install the following packages
 
 ```csharp
 PM> Install-Package Microsoft.EntityFrameworkCore.Tools
@@ -109,7 +106,7 @@ Once these packages are installed, run the following command in **Package Manage
 Add-Migration Initial
 ```
 
-This command scaffold a migration to create the initial set of tables for your model. When it is executed successfully, then run the following command.
+This command scaffold a migration to create the initial set of tables for your model. When it is executed successfully, run the following command.
 
 ```csharp
 Update-Database
@@ -117,7 +114,7 @@ Update-Database
 
 This command applies the new migration to the database and creates the database before applying migrations.
 
-Now, we are done with the required classes and database creation, let's add some authors and book records to the database and then retrieve it.
+Now, we are done with the required classes and database creation, let's add some authors and book records to the database and then retrieve them.
 
 ```csharp
 using (var context = new BookStore())

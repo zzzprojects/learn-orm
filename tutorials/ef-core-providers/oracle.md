@@ -1,14 +1,14 @@
 ---
-PermaID: 1000014
-Name: MySQL
+PermaID: 1000015
+Name: Oracle
 ---
 
-# MySql Provider
+# Oracle Provider
 
-MySQL is an open-source relational database management system (RDBMS) and it is known for its quick processing, proven reliability, ease, and flexibility of use.
+Oracle Database is the first database designed for enterprise grid computing, the most flexible and cost-effective way to manage information and applications.
 
- - It is a database system used on the web and is ideal for both small and large applications.
- - It is an essential part of almost every open source PHP application.
+ - The database has logical structures and physical structures. 
+ - The physical and logical structures are separate, and the physical storage of data can be managed without affecting the access to logical storage structures.
 
 ## Install Entity Framework Core
 
@@ -30,17 +30,17 @@ Search for **Microsoft.EntityFrameworkCore** and install the latest version by p
 
 ## Register EF Core Provider
 
-For MySql, we need to install [MySql.Data.EntityFrameworkCore](https://www.nuget.org/packages/MySql.Data.EntityFrameworkCore) and will get all the packages required for EF Core.
+To use Oracle in EF Core, we need to install [Oracle.EntityFrameworkCore](https://www.nuget.org/packages/Oracle.EntityFrameworkCore) in your project using **Package Manager Console** window. It will get all the packages required for EF Core.
 
 ```csharp
-PM> Install-Package MySql.Data.EntityFrameworkCore
+PM> Install-Package Oracle.EntityFrameworkCore
 ```
 
 Now, you are ready to start your application.
  
- ## Create Data Model
+## Create Data Model
  
- Model is a collection of classes to interact with the database.
+Model is a collection of classes to interact with the database.
 
  - A model stores data that is retrieved according to the commands from the Controller and displayed in the View.
  - It can also be used to manipulate the data to implement the business logic.
@@ -82,7 +82,7 @@ public class BookStore : DbContext
 {
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseMySQL(@"server=localhost;database=BookStoreDb2;uid=root;password=;");
+        optionsBuilder.UseOracle("User Id=SYSTEM;Password=mw;Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=localhost)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=XE)))");
     }
         
     public DbSet<Author> Authors { get; set; }
@@ -92,11 +92,11 @@ public class BookStore : DbContext
 In EF Core, the DbContext has a virtual method called `OnConfiguring` which will get called internally by EF Core. 
 
  - It will pass in an `optionsBuilder` instance which can be used to configure options for the `DbContext`.
- - The `optionsBuilder` has the `UseMySQL` method which expects a connection string as a parameter. 
+ - The `optionsBuilder` has the `UseOracle` method which expects a connection string as a parameter. 
 
 ## Create Database
 
-Now, to create a database using migrations from your model, install the following packages
+Now to create a database using migrations from your model, install the following packages
 
 ```csharp
 PM> Install-Package Microsoft.EntityFrameworkCore.Tools
@@ -117,7 +117,7 @@ Update-Database
 
 This command applies the new migration to the database and creates the database before applying migrations.
 
-Now, we are done with the required classes and database creation, let's add some authors and book records to the database and then retrieve them.
+Now, we are done with the required classes and database creation, let's add some authors and book records to the database and then retrieve it.
 
 ```csharp
 using (var context = new BookStore())

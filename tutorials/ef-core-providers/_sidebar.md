@@ -18,3 +18,4 @@
 - [Oracle](oracle.md)
 - [Pomelo MySQL](pomelo-mysql.md)
 - [Devart Oracle](devart-oracle.md)
+- [Devart MySQL](devart-mysql.md)

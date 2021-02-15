@@ -103,7 +103,7 @@ using (var context = new SportsGroundContext())
 }
 ```
 
-Let's run your application and you will see the following output.
+Let's run your application, and you will see the following output.
 
 ```csharp
 Sports Complex (303 meters away)

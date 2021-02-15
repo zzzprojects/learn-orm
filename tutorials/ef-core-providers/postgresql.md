@@ -7,7 +7,7 @@ Name: PostgreSQL
 
 PostgreSQL is a general-purpose and object-relational database management system, the most advanced open-source database system. 
 
- - PostgreSQL has been proven to be highly scalable both in the sheer quantity of data it can manage and in the number of concurrent users it can accommodate. 
+ - PostgreSQL has been proven to be highly scalable both in the sheer quantity of data it can manage and the number of concurrent users it can accommodate. 
  - It allows you to add custom functions developed using different programming languages such as C/C++, Java, etc.
  - PostgreSQL requires very minimum maintained efforts because of its stability.
 
@@ -64,7 +64,7 @@ public class Book
 }
 ```
 
-There's a one-to-many relationship between `Author` and `Book` entities. In other words, an author can write any number of books, and a book can be written by only one author.
+There's a one-to-many relationship between `Author` and `Book` entities. In other words, an author can write any number of books, and only one author can write a book.
 
 ## Create Database Context
 
@@ -74,7 +74,7 @@ The database context class provides the main functionality to coordinate Entity 
  - In your code, you specify which entities are included in the data model. 
  - You can also customize certain Entity Framework behaviors. 
 
-So, let's add a new `BookStore` class which will inherit the `DbContext` class.
+So, let's add a new `BookStore` class that will inherit the `DbContext` class.
 
 ```csharp
 public class BookStore : DbContext
@@ -90,8 +90,8 @@ public class BookStore : DbContext
 ```
 In EF Core, the DbContext has a virtual method called `OnConfiguring` which will get called internally by EF Core. 
 
- - It will pass in an `optionsBuilder` instance which can be used to configure options for the `DbContext`.
- - The `optionsBuilder` has the `UseNpgsql` method which expects a connection string as a parameter. 
+ - It will pass in an `optionsBuilder` instance, which can be used to configure options for the `DbContext`.
+ - The `optionsBuilder` has the `UseNpgsql` method, which expects a connection string as a parameter. 
 
 ## Create Database
 
@@ -182,7 +182,7 @@ using (var context = new BookStore())
 }
 ```
 
-If you run the application, you will see that authors and books are successfully inserted into the database and also printed on the console.
+If you run the application, you will see that authors and books are successfully inserted into the database and printed on the console.
 
 ```csharp
 Carson Alexander

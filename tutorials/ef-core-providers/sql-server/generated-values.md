@@ -19,7 +19,7 @@ Disabling value generation on a property is typically necessary if a convention 
 
 ### Data Annotations
 
-You can disable value generation using data annotation as shown below.
+You can disable value generation using data annotation, as shown below.
 
 ```csharp
 public class Author
@@ -47,7 +47,7 @@ protected override void OnModelCreating(ModelBuilder modelBuilder)
 
 The value generated on add means that a value is generated when new entities are inserted. How the value is generated for added entities will depend on the database provider being used. 
 
- - Database providers may automatically setup value generation for some property types, but others may require you to manually set up how the value is generated.
+ - Database providers may automatically setup value generation for some property types, but others may require you to set up how the value is generated manually.
  - By convention, when entities are added, non-composite primary keys of type short, int, long, or Guid are set up to have values generated if the application doesn't provide a value.
  - All the necessary configurations are handled by the database provider. For example, a numeric primary key in SQL Server is automatically set up as an `IDENTITY` column.
 
@@ -67,7 +67,7 @@ public class Author
 
 ### Fluent API
 
-You can configure any property to have its value generated for inserted entities using fluent API as shown below.
+You can configure any property to have its value generated for inserted entities using fluent API, as shown below.
 
 ```csharp
 protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -80,7 +80,7 @@ protected override void OnModelCreating(ModelBuilder modelBuilder)
 
 ### Default values
 
-In relational databases, you can configure a column with a default value, if a row is added and no value is specified for that column, then the default value will be used.
+In relational databases, you can configure a column with a default value. If a row is added and no value is specified for that column, then the default value will be used.
 
 You can configure a default value on a property.
 

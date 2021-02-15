@@ -28,7 +28,7 @@ Search for **Microsoft.EntityFrameworkCore** and install the latest version by p
 
 ## Register EF Core Provider
 
-For Devart PostgreSQL, first, we need to install [dotConnect for PostgreSQL Professional Trial](https://www.devart.com/dotconnect/postgresql/download.html) to start your 30 days trial period.
+First for Devart PostgreSQL we need to install [dotConnect for PostgreSQL Professional Trial](https://www.devart.com/dotconnect/postgresql/download.html) to start your 30 days trial period.
 
 Once the installation is completed, install [Devart.Data.PostgreSql.EFCore](https://www.nuget.org/packages/Devart.Data.PostgreSql.EFCore) in your project using **Package Manager Console** window. It will get all the packages required for EF Core.
 
@@ -42,7 +42,7 @@ Now, you are ready to start your application.
  
 Model is a collection of classes to interact with the database.
 
- - A model stores data that is retrieved according to the commands from the Controller and displayed in the View.
+ - A model stores data that is retrieved according to the controller's commands and displayed in the View.
  - It can also be used to manipulate the data to implement the business logic.
 
 To create a data model for our application, we will start with the following two entities.
@@ -65,7 +65,7 @@ public class Book
 }
 ```
 
-There's a one-to-many relationship between `Author` and `Book` entities. In other words, an author can write any number of books, and a book can be written by only one author.
+There's a one-to-many relationship between `Author` and `Book` entities. In other words, an author can write any number of books, and only one author can write a book.
 
 ## Create Database Context
 
@@ -75,7 +75,7 @@ The database context class provides the main functionality to coordinate Entity 
  - In your code, you specify which entities are included in the data model. 
  - You can also customize certain Entity Framework behaviors. 
 
-So, let's add a new `BookStore` class which will inherit the `DbContext` class.
+So, let's add a new `BookStore` class that will inherit the `DbContext` class.
 
 ```csharp
 public class BookStore : DbContext
@@ -89,10 +89,10 @@ public class BookStore : DbContext
     public DbSet<Book> Books { get; set; }
 }
 ```
-In EF Core, the DbContext has a virtual method called `OnConfiguring` which will get called internally by EF Core. 
+In EF Core, the DbContext has a virtual method called `OnConfiguring`, which will get called internally by EF Core. 
 
- - It will pass in an `optionsBuilder` instance which can be used to configure options for the `DbContext`.
- - The `optionsBuilder` has the `UsePostgreSql` method which expects a connection string as a parameter. 
+ - It will pass in an `optionsBuilder` instance, which can be used to configure options for the `DbContext`.
+ - The `optionsBuilder` has the `UsePostgreSql` method, which expects a connection string as a parameter. 
 
 ## Create Database
 
@@ -183,7 +183,7 @@ using (var context = new BookStore())
 }
 ```
 
-If you run the application, you will see that authors and books are successfully inserted into the database and also printed on the console.
+If you run the application, you will see that authors and books are successfully inserted into the database and printed on the console.
 
 ```csharp
 Carson Alexander

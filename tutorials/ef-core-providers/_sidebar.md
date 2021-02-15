@@ -19,4 +19,5 @@
 - [Pomelo MySQL](pomelo-mysql.md)
 - [Devart Oracle](devart-oracle.md)
 - [Devart MySQL](devart-mysql.md)
+- [Devart SQLite](devart-sqlite.md)
 - [Azure Cosmos DB](azure-cosmos-db.md)

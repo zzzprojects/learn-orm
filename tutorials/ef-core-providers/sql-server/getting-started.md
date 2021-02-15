@@ -9,7 +9,7 @@ Name: Getting Started
 
 Microsoft SQL Server is a relational database management system (RDBMS) that supports various transaction processing, business intelligence, and analytic applications in corporate IT environments.
 
- - You can install SQL Server provider by installing the [Microsoft.EntityFrameworkCore.SqlServer](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer/) nuget package.
+ - You can install SQL Server provider by installing the [Microsoft.EntityFrameworkCore.SqlServer](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer/) NuGet package.
  - It allows Entity Framework Core to be used with Microsoft SQL Server (including SQL Azure).
 
 ## Install Entity Framework Core

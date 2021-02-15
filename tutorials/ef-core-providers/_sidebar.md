@@ -20,4 +20,5 @@
 - [Devart Oracle](devart-oracle.md)
 - [Devart MySQL](devart-mysql.md)
 - [Devart SQLite](devart-sqlite.md)
+- [Devart PostgreSQL](devart-postgresql.md)
 - [Azure Cosmos DB](azure-cosmos-db.md)

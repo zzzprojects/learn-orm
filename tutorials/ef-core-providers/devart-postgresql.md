@@ -1,14 +1,14 @@
 ---
-PermaID: 1000018
-Name: Devart MySQL
+PermaID: 1000020
+Name: Devart PostgreSQL
 ---
 
-# Devart MySQL Provider
+# Devart PostgreSQL Provider
 
-The dotConnect for MySQL is an enhanced ORM-enabled data provider for MySQL that builds on the ADO.NET technology to present a complete solution for developing MySQL-based database applications. 
+The dotConnect for PostgreSQL is a high-performance ORM enabled data provider for PostgreSQL that builds on ADO.NET technology to present a complete solution for developing PostgreSQL-based database applications. 
 
  - It introduces new approaches for designing application architecture, boosts productivity, and leverages database applications.
- - It offers both high-performance connectivity to the MySQL database and many innovative development tools and technologies.
+ - It offers both high-performance connectivity to the PostgreSQL database and many innovative development tools and technologies.
 
 ## Install Entity Framework Core
 
@@ -22,18 +22,18 @@ PM> Install-Package Microsoft.EntityFrameworkCore
 
 You can also install this NuGet package by right-clicking on your project in Solution Explorer and select **Manage Nuget Packages...**. 
 
-<img src="images/devart-mysql-1.png">
+<img src="images/devart-postgresql-1.png">
 
 Search for **Microsoft.EntityFrameworkCore** and install the latest version by pressing the install button.
 
 ## Register EF Core Provider
 
-For DevArt MySql, first, we need to install [dotConnect for MySQL Professional Trial](https://www.devart.com/dotconnect/mysql/download.html) to start your 30 days trial period.
+For Devart PostgreSQL, first, we need to install [dotConnect for PostgreSQL Professional Trial](https://www.devart.com/dotconnect/postgresql/download.html) to start your 30 days trial period.
 
-Once the installation is completed, install [Devart.Data.MySql.EFCore](https://www.nuget.org/packages/Devart.Data.MySql.EFCore) in your project using **Package Manager Console** window. It will get all the packages required for EF Core.
+Once the installation is completed, install [Devart.Data.PostgreSql.EFCore](https://www.nuget.org/packages/Devart.Data.PostgreSql.EFCore) in your project using **Package Manager Console** window. It will get all the packages required for EF Core.
 
 ```csharp
-PM> Install-Package Devart.Data.MySql.EFCore
+PM> Install-Package Devart.Data.PostgreSql.EFCore
 ```
 
 Now, you are ready to start your application.
@@ -82,7 +82,7 @@ public class BookStore : DbContext
 {
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseMySql(@"server=localhost;database=BookStoreDb;uid=root;password=;");
+        optionsBuilder.UsePostgreSql(@"host=localhost;user id=postgres;password=mw;database=postgresdb;Pooling=false;Timeout=300;CommandTimeout=300;");
     }
         
     public DbSet<Author> Authors { get; set; }
@@ -92,7 +92,7 @@ public class BookStore : DbContext
 In EF Core, the DbContext has a virtual method called `OnConfiguring` which will get called internally by EF Core. 
 
  - It will pass in an `optionsBuilder` instance which can be used to configure options for the `DbContext`.
- - The `optionsBuilder` has the `UseMySql` method which expects a connection string as a parameter. 
+ - The `optionsBuilder` has the `UsePostgreSql` method which expects a connection string as a parameter. 
 
 ## Create Database
 

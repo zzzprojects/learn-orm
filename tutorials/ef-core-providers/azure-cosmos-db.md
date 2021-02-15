@@ -1,5 +1,5 @@
 ---
-PermaID: 1000019
+PermaID: 1000021
 Name: Azure Cosmos DB
 ---
 
@@ -26,7 +26,7 @@ You can also install this NuGet package by right-clicking on your project in Sol
 
 Search for **Microsoft.EntityFrameworkCore** and install the latest version by pressing the install button.
 
-## ## Register EF Core Provider
+## Register EF Core Provider
 
 For Azure Cosmos DB, first, we need to install [Microsoft.EntityFrameworkCore.Cosmos](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Cosmos) in your project using **Package Manager Console** window. It will get all the packages required for EF Core.
 

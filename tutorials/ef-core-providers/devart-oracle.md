@@ -5,9 +5,9 @@ Name: Devart Oracle
 
 # Devart Oracle Provider
 
-The dotConnect for Oracle is a high-performance ORM enabled data provider for Oracle that builds on ADO.NET technology to present a complete solution for developing Oracle-based database applications. 
+Oracle's dotConnect is a high-performance ORM enabled data provider for Oracle that builds on ADO.NET technology to present a complete solution for developing Oracle-based database applications.
 
- - It introduces new approaches for designing application architecture, boosts productivity, and facilitates the development of database applications.
+ - It introduces new approaches for designing application architecture, boosts productivity, and facilitates database application development.
  - It also supports a wide range of Oracle-specific features, such as Advanced Queuing, Alerts, etc.
 
 ## Install Entity Framework Core
@@ -28,9 +28,9 @@ Search for **Microsoft.EntityFrameworkCore** and install the latest version by p
 
 ## Register EF Core Provider
 
-For Devart Oracle, first, we need to install [dotConnect for Oracle Professional Trial](https://www.devart.com/dotconnect/oracle/download.html) to start your 30 days trial period.
+First, for Devart Oracle we need to install [dotConnect for Oracle Professional Trial](https://www.devart.com/dotconnect/oracle/download.html) to start your 30 days trial period.
 
-Once the installation is completed then install [Devart.Data.Oracle.EFCore](https://www.nuget.org/packages/Devart.Data.Oracle.EFCore) in your project using **Package Manager Console** window. It will get all the packages required for EF Core.
+Once the installation is completed, then install [Devart.Data.Oracle.EFCore](https://www.nuget.org/packages/Devart.Data.Oracle.EFCore) in your project using **Package Manager Console** window. It will get all the packages required for EF Core.
 
 ```csharp
 PM> Install-Package Devart.Data.Oracle.EFCore
@@ -66,7 +66,7 @@ public class Book
 
 ```
 
-There's a one-to-many relationship between `Author` and `Book` entities. In other words, an author can write any number of books, and a book can be written by only one author.
+There's a one-to-many relationship between `Author` and `Book` entities. In other words, an author can write any number of books, and only one author can write a book.
 
 ## Create Database Context
 
@@ -76,7 +76,7 @@ The database context class provides the main functionality to coordinate Entity 
  - In your code, you specify which entities are included in the data model. 
  - You can also customize certain Entity Framework behaviors. 
 
-So, let's add a new `BookStore` class which will inherit the `DbContext` class.
+So, let's add a new `BookStore` class that will inherit the `DbContext` class.
 
 ```csharp
 public class BookStore : DbContext
@@ -91,10 +91,10 @@ public class BookStore : DbContext
 }
 ```
 
-In EF Core, the DbContext has a virtual method called `OnConfiguring` which will get called internally by EF Core. 
+In EF Core, the DbContext has a virtual method called `OnConfiguring`, which will get called internally by EF Core. 
 
- - It will pass in an `optionsBuilder` instance which can be used to configure options for the `DbContext`.
- - The `optionsBuilder` has the `UseOracle` method which expects a connection string as a parameter. 
+ - It will pass in an `optionsBuilder` instance, which can be used to configure options for the `DbContext`.
+ - The `optionsBuilder` has the `UseOracle` method, which expects a connection string as a parameter. 
 
 ## Create Database
 
@@ -186,7 +186,7 @@ using (var context = new BookStore())
 }
 ```
 
-If you run the application, you will see that authors and books are successfully inserted into the database and also printed on the console.
+If you run the application, you will see that authors and books are successfully inserted into the database and printed on the console.
 
 ```csharp
 Carson Alexander

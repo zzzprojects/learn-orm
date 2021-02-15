@@ -28,7 +28,7 @@ Search for **Microsoft.EntityFrameworkCore** and install the latest version by p
 
 ## Register EF Core Provider
 
-For DevArt SQLite, first, we need to install [dotConnect for SQLite Professional Trial](https://www.devart.com/dotconnect/sqlite/download.html) to start your 30 days trial period.
+For Devart SQLite, first, we need to install [dotConnect for SQLite Professional Trial](https://www.devart.com/dotconnect/sqlite/download.html) to start your 30 days trial period.
 
 Once the installation is completed, install [Devart.Data.SQLite.EFCore](https://www.nuget.org/packages/Devart.Data.SQLite.EFCore) in your project using **Package Manager Console** window. It will get all the packages required for EF Core.
 

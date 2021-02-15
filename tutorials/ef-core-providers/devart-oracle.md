@@ -28,7 +28,7 @@ Search for **Microsoft.EntityFrameworkCore** and install the latest version by p
 
 ## Register EF Core Provider
 
-For DevArt Oracle, first, we need to install [dotConnect for Oracle Professional Trial](https://www.devart.com/dotconnect/oracle/download.html) to start your 30 days trial period.
+For Devart Oracle, first, we need to install [dotConnect for Oracle Professional Trial](https://www.devart.com/dotconnect/oracle/download.html) to start your 30 days trial period.
 
 Once the installation is completed then install [Devart.Data.Oracle.EFCore](https://www.nuget.org/packages/Devart.Data.Oracle.EFCore) in your project using **Package Manager Console** window. It will get all the packages required for EF Core.
 

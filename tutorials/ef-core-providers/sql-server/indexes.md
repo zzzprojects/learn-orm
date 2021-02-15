@@ -42,7 +42,7 @@ protected override void OnModelCreating(ModelBuilder modelBuilder)
 
 ### Unique Index
 
-By default, indexes are not unique, multiple rows are allowed to have the same value(s) for the index's column set. You can make an index unique, as shown below.
+By default, indexes are not unique. Multiple rows are allowed to have the same value(s) for the index's column set. You can make an index unique, as shown below.
 
 ```csharp
 protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -84,7 +84,7 @@ protected override void OnModelCreating(ModelBuilder modelBuilder)
 }
 ```
 
-In SQL Server provider, EF Core adds an `IS NOT NULL` filter for all nullable columns that are part of a unique index. To override this convention you can supply a `null` value as shown below.
+In SQL Server provider, EF Core adds an `IS NOT NULL` filter for all nullable columns that are part of a unique index. To override this convention, you can supply a `null` value, as shown below.
 
 ```csharp
 protected override void OnModelCreating(ModelBuilder modelBuilder)

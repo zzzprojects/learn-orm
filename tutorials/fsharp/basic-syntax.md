@@ -5,13 +5,13 @@ Name: Basic Syntax
 
 # Basic Syntax
 
-F# is the latest addition to the Microsoft Visual Studio language family. There are many exciting reasons to learn F# such as, clean syntax, powerful multi-threading capabilities and its interoperability with other Microsoft .NET Framework languages. 
+F# is the latest addition to the Microsoft Visual Studio language family. There are many exciting reasons to learn F# such as clean syntax, powerful multi-threading capabilities, and its interoperability with other Microsoft .NET Framework languages. 
 
  - F# is not designed to be an academic language, its syntax allows you to use functional techniques to solve problems in new and better ways while still supporting the object-oriented and imperative styles that you are accustomed to as a .NET developer.
  - Unlike other .NET languages, F#'s multi-paradigm structure allows you to choose the best style of programming for the problem that you are trying to solve. 
  - Functional programming in F# is about writing concise, powerful code to solve practical software problems. 
- - It is about using techniques like higher order functions and function composition to create powerful and easy to understand behaviors. 
- - It is also about making your code easier to understand, test and parallelize by removing hidden complexities.
+ - It is about using techniques like higher-order functions and function composition to create powerful and easy-to-understand behaviors. 
+ - It is also about making your code easier to understand, test, and parallelize by removing hidden complexities.
 
 ## F# vs C-Style Languages 
 
@@ -41,8 +41,8 @@ square 5
 
 F# provides two types of comments.
 
- - One line comment starts with `//` symbol.
- - Multi line comment starts with `(*` and ends with `*)`.
+ - One-line comment starts with the `//` symbol.
+ - Multi-line comment starts with `(*` and ends with `*)`.
 
 The following example shows a single line and multi-line comments
 
@@ -60,5 +60,4 @@ Sample program using F# *)
 let main argv =
     Console.WriteLine(message)
     0 // return an integer exit code
-
 ```

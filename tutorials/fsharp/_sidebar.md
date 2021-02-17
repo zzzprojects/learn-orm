@@ -4,3 +4,4 @@
 - [Program Structure](program-structure.md)
 - [Basic Syntax](basic-syntax.md)
 - [Data Types](data-types.md)
+- [Variables](variables.md)

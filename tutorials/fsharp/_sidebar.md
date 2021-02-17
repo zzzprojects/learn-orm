@@ -3,3 +3,4 @@
 - [Getting Started](getting-started.md)
 - [Program Structure](program-structure.md)
 - [Basic Syntax](basic-syntax.md)
+- [Data Types](data-types.md)

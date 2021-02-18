@@ -8,3 +8,4 @@
 - [Casting](casting.md)
 - [Operators](operators.md)
 - [Decision Making](decision-making.md)
+- [For Loops](for-loops.md)

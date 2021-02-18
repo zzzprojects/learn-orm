@@ -6,3 +6,4 @@
 - [Data Types](data-types.md)
 - [Variables](variables.md)
 - [Casting](casting.md)
+- [Operators](operators.md)

@@ -7,3 +7,4 @@
 - [Variables](variables.md)
 - [Casting](casting.md)
 - [Operators](operators.md)
+- [Decision Making](decision-making.md)

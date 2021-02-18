@@ -34,7 +34,7 @@ if num1 < num2 then Console.WriteLine("{0} is less than {1}", num1, num2)
 else Console.WriteLine("{0} is greater than {1}", num1, num2)
 ```
 
-## ## Multiple `if...then...else` Expressions
+## Multiple `if...then...else` Expressions
 
 When chaining multiple `if...then...else` expressions together, you can use the keyword `elif` instead of `else if`; they are equivalent.
 

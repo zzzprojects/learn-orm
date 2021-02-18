@@ -9,3 +9,4 @@
 - [Operators](operators.md)
 - [Decision Making](decision-making.md)
 - [For Loops](for-loops.md)
+- [While Loop](while-loop.md)

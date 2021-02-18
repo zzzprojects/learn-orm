@@ -5,3 +5,4 @@
 - [Basic Syntax](basic-syntax.md)
 - [Data Types](data-types.md)
 - [Variables](variables.md)
+- [Casting](casting.md)

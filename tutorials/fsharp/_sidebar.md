@@ -11,3 +11,4 @@
 - [For Loops](for-loops.md)
 - [While Loop](while-loop.md)
 - [Functions](functions.md)
+- [Type Inference](type-inference.md)

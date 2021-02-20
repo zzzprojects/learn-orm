@@ -13,3 +13,4 @@
 - [Functions](functions.md)
 - [Type Inference](type-inference.md)
 - [Strings](strings.md)
+- [Options](options.md)

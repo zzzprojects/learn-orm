@@ -12,3 +12,4 @@
 - [While Loop](while-loop.md)
 - [Functions](functions.md)
 - [Type Inference](type-inference.md)
+- [Strings](strings.md)

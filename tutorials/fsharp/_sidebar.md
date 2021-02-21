@@ -14,3 +14,4 @@
 - [Type Inference](type-inference.md)
 - [Strings](strings.md)
 - [Options](options.md)
+- [Generics](generics.md)

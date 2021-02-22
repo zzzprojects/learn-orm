@@ -11,7 +11,7 @@ The integral and char conversion operators have checked and unchecked forms;
 
  - The floating-point operators and the enum conversion operator do not. 
  - The unchecked forms are defined in the `Microsoft.FSharp.Core.Operators` and the checked forms are defined in the `Microsoft.FSharp.Core.Operators.Checked`. 
- - The checked forms check for overflow and generate a runtime exception if the resulting value exceeds the limits of the target type.
+ - The checked forms check for overflow and generate a runtime exception if the resulting value exceeds the target type's limits.
 
 Let's consider the following example in which the `int` is cast to the `byte`.
 
@@ -34,11 +34,11 @@ Conversion between types in an object hierarchy is fundamental to object-oriente
 
 ### Upcasting
 
-Upcasting means casting from a derived object reference to a base object reference. Such a cast is guaranteed to work as long as the base class is in the inheritance hierarchy of the derived class. 
+Upcasting means casting from a derived object reference to a base object reference. Such a cast is guaranteed to work as long as the base class is in the derived class's inheritance hierarchy.
 
 ### Downcasting
 
-Downcasting means casting from a base object reference to a derived object reference, succeeds only if the object is an instance of the correct destination (derived) type or a type derived from the destination type.
+Downcasting means casting from a base object reference to a derived object reference. It succeeds only if the object is an instance of the correct destination (derived) type or a type derived from the destination type.
 
 F# provides operators for these types of conversions. The `:>` operator casts up the hierarchy, and the `:?>` operator casts down the hierarchy.
 
@@ -55,7 +55,7 @@ let valueInt = valueObj :?> int
 printfn "%A" valueInt
 ```
 
-You can also use the `upcast` and `downcast` operators to perform such a conversion as shown below.
+You can also use the `upcast` and `downcast` operators to perform such a conversion, as shown below.
 
 ```csharp
 type Shape() =  

@@ -37,7 +37,7 @@ for i = 5 downto 1 do
 
 ## `for...in` Expression
 
-The `for...in` loop is used to iterate over the matches of a pattern in an enumerable collection such as a range expression, sequence, list, array, or other constructs that supports enumeration.
+The `for...in` loop is used to iterate over a pattern's matches in an enumerable collection such as a range expression, sequence, list, array, or other constructs that supports enumeration.
 
  - The `for...in` expression can be compared to the `for each` statement in other .NET languages because it is used to loop over the values in an enumerable collection. 
  - The `for...in` also supports pattern matching over the collection instead of just iteration over the whole collection.

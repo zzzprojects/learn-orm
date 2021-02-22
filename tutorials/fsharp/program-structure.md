@@ -13,7 +13,7 @@ You can define a simple F# program that prints text on the console in the follow
 
 An F# application does not have any specific entry point. The compiler executes all top-level statements in the file from top to bottom. 
 
-You can use `printfn` to print a text message on a console without using any entry point as shown below.
+You can use `printfn` to print a text message on a console without using any entry point, as shown below.
 
 ```csharp
 printfn "Welcome to F# Tutorial."
@@ -43,7 +43,7 @@ new Program()
 
 ### Using Function
 
-The `printfn` can be used inside a function as shown in the below example.
+The `printfn` can be used inside a function, as shown in the below example.
 
 ```csharp
 let myFunc = printfn "Welcome to F# Tutorial."  

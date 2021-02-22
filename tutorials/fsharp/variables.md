@@ -9,7 +9,7 @@ A variable is a section of the computer's memory used to temporarily hold a valu
 
 ## Variable Declaration Without Type
 
-The `let` keyword is used for variable declaration. The type of a value is inferred from the definition. For a primitive type, such as an integral or floating-point number, the type is determined from the type of the literal. 
+The `let` keyword is used for variable declaration. The type of a value is inferred from the definition. For a primitive type, such as an integral or floating-point number, the type is determined from the literal type. 
 
 ```csharp
 let a = 17
@@ -50,7 +50,7 @@ Error FS0027:	This value is not mutable. Consider using the mutable keyword, e.g
 
 ## Variable Declaration With Type
 
-A variable definition tells the compiler where and how much storage for the variable should be created. A variable definition may specify a data type and contains a list of one or more variables of that type as shown in the following example.
+A variable definition tells the compiler where and how much storage for the variable should be created. A variable definition may specify a data type and contains a list of one or more variables of that type, as shown in the following example.
 
 ```csharp
 let a:int32 = 17
@@ -69,7 +69,7 @@ The variable can be changed if you provide the `mutable` keyword for that variab
  - Mutable variables in F# should generally have a limited scope, either as a field of a type or as a local value. 
  - Mutable variables with the limited scope are easier to control and are less likely to be modified in incorrect ways.
 
-You can assign an initial value to a mutable variable by using the `let` keyword in the same way as you would define a value. However, the difference is that you can subsequently assign new values to mutable variables by using the `<-` operator, as in the following example.
+You can assign an initial value to a mutable variable, by using the `let` keyword in the same way as you would define a value. However, the difference is that you can subsequently assign new values to mutable variables by using the `<-` operator, as in the following example.
 
 ```csharp
 let a = 17

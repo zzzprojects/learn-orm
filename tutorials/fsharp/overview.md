@@ -14,7 +14,7 @@ F# is a functional-first, general-purpose, strongly typed, multi-paradigm progra
 
 ## Why F#?
 
-F# was initially available only on Windows, as a Microsoft Research project, but it is now a first-class language on several platforms. 
+F# was initially available only on Windows as a Microsoft Research project, but it is now a first-class language on several platforms. 
 
  - You can use F# on Windows, Mac, and Linux with tool support in Visual Studio, Xamarin Studio, MonoDevelop, Emacs, and on Android and iOS devices and the Web using HTML5. 
  - In addition to general-purpose programming, F# applies to GPU code, big data, games, and much more.
@@ -56,7 +56,7 @@ F# has numerous features, and some of them are as follows:
  - Making scientific model
  - Mathematical problem solving
  - Artificial intelligence research work
- - Financial modelling
+ - Financial modeling
  - Graphic design
  - CPU design
  - Compiler programming

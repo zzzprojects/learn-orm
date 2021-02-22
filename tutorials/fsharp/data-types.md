@@ -5,7 +5,7 @@ Name: Data Types
 
 # Data Types
 
-Some types are considered primitive types, such as the Boolean type `bool` and integral and floating-point types of various sizes, which include types for bytes and characters, etc. These types are described in Primitive Types. Other types that are built into the language include tuples, lists, arrays, sequences, records, and discriminated unions.
+Some types are considered primitive types, such as the Boolean type `bool` and integral and floating-point types of various sizes, including types for bytes and characters, etc. These types are described in Primitive Types. Other types built into the language include tuples, lists, arrays, sequences, records, and discriminated unions.
 
  - If you have experience with other .NET languages and are learning F#, you should read the topics for each of these types. 
  - These F#-specific types support styles of programming that are common to functional programming languages.

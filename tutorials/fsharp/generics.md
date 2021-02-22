@@ -13,7 +13,7 @@ Generic functions and types enable you to write code that works with a variety o
 
 ## Implicitly Generic Constructs
 
-You can make a function generic by using the single quotation (`'`) mark in a type annotation to indicate that a parameter type is a generic type parameter as shown below. 
+You can make a function generic by using the single quotation (`'`) mark in a type annotation to indicate that a parameter type is a generic type parameter, as shown below. 
 
 ```csharp
 let func1 (x: 'a) (y: 'a) =

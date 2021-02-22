@@ -15,7 +15,7 @@ Let's create a new Console Application project by launching the Visual Studio.
 
 Select the **Create a new project** option.
 
-Choose **F#** as language and in the template pane, select **Console App (.NET Core)** and click **Next** button.
+Choose **F#** as language, and in the template pane, select **Console App (.NET Core)** and click **Next** button.
 
 <img src="images/getting-started-2.png">
 
@@ -27,7 +27,7 @@ You can see a new console application project is created.
 
 <img src="images/getting-started-4.png">
 
-Now let's add the following simple code which will print a message on the console window.
+Now let's add the following simple code, which will print a message on the console window.
 
 ```csharp
 // Learn more about F# at http://fsharp.org
@@ -41,7 +41,7 @@ let main argv =
 
 ```
 
-Let's run the application by clicking on the **Debug > Start Without Debugging** menu option and you will see the following output.
+Let's run the application by clicking on the **Debug > Start Without Debugging** menu option, and you will see the following output.
 
 ```csharp
 Welcome to F# Tutorial.

@@ -14,7 +14,7 @@ while test-expression do
     body-expression
 ```
 
-The `test-expression` is evaluated; if it is `true`, the `body-expression` is executed and the test expression is evaluated again. The `body-expression` must have the type `unit`. If the test expression is `false`, the iteration ends.
+The `test-expression` is evaluated; if it is `true`, the `body-expression` is executed, and the test expression is re-evaluated. The `body-expression` must have the type `unit`. If the test expression is `false`, the iteration ends.
 
 The following example shows the usage of the `while...do` expression.
 

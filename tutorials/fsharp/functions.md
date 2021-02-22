@@ -21,10 +21,10 @@ let rec function-name parameter-list = recursive-function-body
 
  - The `function-name` is an identifier that represents the function. 
  - The `parameter-list` consists of successive parameters that are separated by spaces. 
- - If you do not specify a specific argument type, the compiler attempts to infer the type from the function body. 
+ - If you do not specify a specific argument type, the compiler attempts to infer the function body's type. 
  - The `function-body` consists of an expression that makes up the function body is typically a compound expression consisting of many expressions that culminate in a final expression that is the return value. 
  - The `return-type` is a colon followed by a type and is optional. 
- - If you do not specify the type of the return value explicitly, the compiler determines the return type from the final expression.
+ - If you do not explicitly specify the return value, the compiler determines the return type from the final expression.
 
 The following is the simple function definition.
 

@@ -5,7 +5,7 @@ Name: Decision Making
 
 # Decision Making
 
-The `if...then` and `if...then...else` are conditional control or decision-making expressions. Using these expressions, the program can behave differently based on a defined condition checked during the execution of the expression.
+The `if...then` and `if...then...else` are conditional control or decision-making expressions. Using these expressions, the program can behave differently based on a defined condition checked during the expression's execution.
 
 ## `if...then` Expression
 

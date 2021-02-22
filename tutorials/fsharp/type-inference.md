@@ -23,9 +23,9 @@ let myString = "hello"
 
 In a parameter list, you do not have to specify the type of each parameter.
 
- - For those types that you do not specify explicitly, the compiler infers the type based on the context. 
+ - The compiler infers the type based on the context for those types that you do not specify explicitly.
  - If the type is not otherwise specified, it is inferred to be generic. 
- - If the code uses a value inconsistently, in such a way that there is no single inferred type that satisfies all the uses of a value, the compiler reports an error.
+ - If the code uses a value inconsistently so that there is no single inferred type that satisfies all the uses of a value, the compiler reports an error.
  - The return type of a function is determined by the type of the last expression in the function.
 
 In the following example, the parameter types `x` and `y` and the return type are all inferred to be `int` because the literal `3` is of type `int`.
@@ -64,7 +64,7 @@ let add x y : uint32 =
    x + y
 ```
 
-A common case where a type annotation is useful on a parameter is when the parameter is an object type and you want to use a member.
+A common case where a type annotation is useful on a parameter is when the parameter is an object type, and you want to use a member.
 
 ```csharp
 let replace(str: string) =

@@ -28,7 +28,7 @@ Search for **Microsoft.EntityFrameworkCore** and install the latest version by p
 
 ## Register EF Core Provider
 
-First for Devart PostgreSQL we need to install [dotConnect for PostgreSQL Professional Trial](https://www.devart.com/dotconnect/postgresql/download.html) to start your 30 days trial period.
+First, for Devart PostgreSQL we need to install [dotConnect for PostgreSQL Professional Trial](https://www.devart.com/dotconnect/postgresql/download.html) to start your 30 days trial period.
 
 Once the installation is completed, install [Devart.Data.PostgreSql.EFCore](https://www.nuget.org/packages/Devart.Data.PostgreSql.EFCore) in your project using **Package Manager Console** window. It will get all the packages required for EF Core.
 

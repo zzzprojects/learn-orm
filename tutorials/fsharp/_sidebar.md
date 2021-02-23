@@ -16,4 +16,4 @@
 - [Options](options.md)
 - [Generics](generics.md)
 - [Tuples](tuples.md)
-
+- [Records](records.md)

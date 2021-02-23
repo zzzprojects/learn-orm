@@ -15,3 +15,5 @@
 - [Strings](strings.md)
 - [Options](options.md)
 - [Generics](generics.md)
+- [Tuples](tuples.md)
+

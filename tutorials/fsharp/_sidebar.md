@@ -18,3 +18,4 @@
 - [Tuples](tuples.md)
 - [Records](records.md)
 - [Lists](lists.md)
+- [Sequences](sequences.md)

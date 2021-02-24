@@ -17,3 +17,4 @@
 - [Generics](generics.md)
 - [Tuples](tuples.md)
 - [Records](records.md)
+- [Lists](lists.md)

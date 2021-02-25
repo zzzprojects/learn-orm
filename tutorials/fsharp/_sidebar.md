@@ -25,3 +25,4 @@
 - [Mutable Data](mutable-data.md)
 - [Arrays](arrays.md)
 - [Mutable Lists](mutable-lists.md)
+- [Mutable Dictionary](mutable-dictionary.md)

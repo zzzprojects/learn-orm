@@ -8,7 +8,7 @@ Name: Mutable Lists
 The `List<'T>` class represents a strongly typed list of objects that can be accessed by index. It is a mutable counterpart of the List class.
 
  - Conceptually, the `List<'T>` class similar to arrays, but unlike arrays, lists can be resized and don't need to have their size specified on the declaration.
- - The NET lists are created using the `new` keyword.
+ - The .NET (mutable) lists are created using the `new` keyword.
 
 The following example creates a list by calling its constructor as shown below.
 

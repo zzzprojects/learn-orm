@@ -21,3 +21,4 @@
 - [Sequences](sequences.md)
 - [Sets](sets.md)
 - [Maps](maps.md)
+- [Discriminated Unions](discriminated-unions.md)

@@ -24,3 +24,4 @@
 - [Discriminated Unions](discriminated-unions.md)
 - [Mutable Data](mutable-data.md)
 - [Arrays](arrays.md)
+- [Mutable Lists](mutable-lists.md)

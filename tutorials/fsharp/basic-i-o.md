@@ -13,7 +13,6 @@ In F#, the [Printf module](https://fsharp.github.io/fsharp-core-docs/reference/f
 
 The following tables show various methods provided in the [Printf module](https://fsharp.github.io/fsharp-core-docs/reference/fsharp-core-printfmodule.html)
 
-
 | Function               | Description                                                                                       |
 | :----------------------| :-------------------------------------------------------------------------------------------------|
 | `bprintf`                | Print to a StringBuilder                                                                          |
@@ -76,7 +75,7 @@ The following tables show different types of placeholders.
 
 ## I/O using .NET
 
-The .NET includes its notation for format specifiers. .NET format strings are untyped and designed to be extensible, meaning that a programmer can implement their own custom format strings.
+The .NET includes its notation for format specifiers. .NET format strings are untyped and designed to be extensible, meaning that a programmer can implement their custom format strings.
 
 ```csharp
 System.String.Format("Hi, I'm {0}, {1} old and I'm a {2}", "Mark", 25, "Scorpio")

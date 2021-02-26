@@ -28,3 +28,4 @@
 - [Mutable Dictionary](mutable-dictionary.md)
 - [Basic I/O](basic-i-o.md)
 - [Delegates](delegates.md)
+- [Enums](enums.md)

@@ -29,3 +29,4 @@
 - [Basic I/O](basic-i-o.md)
 - [Delegates](delegates.md)
 - [Enums](enums.md)
+- [Pattern Matching](pattern-matching.md)

@@ -30,3 +30,4 @@
 - [Delegates](delegates.md)
 - [Enums](enums.md)
 - [Pattern Matching](pattern-matching.md)
+- [Exception Handling](exception-handling.md)

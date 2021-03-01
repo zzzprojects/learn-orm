@@ -37,31 +37,10 @@ and [access-modifier] type-name2 ...
  - **`identifier`:** It is used with the optional `as` keyword gives a name to the instance variable, or self identifier, which can be used in the type definition to refer to the instance of the type.
  - **`class` and `end`:** The `class` and `end` mark the start and end of the definition are optional.
 
-### Constructors
-
-The constructor is a code that creates an instance of the class type. Constructors for classes work differently in F# than they do in other .NET languages. 
-
- - In F# class, there is always a primary constructor whose arguments are described in the `parameter-list` that follows the type name, and whose body consists of the `let` and `let rec` bindings at the start of the class declaration and the do bindings that follow. 
- - The arguments of the primary constructor are in scope throughout the class declaration.
-
 The following code shows a very simple class declaration.
 
 ```csharp
 type Author (firstName, lastName, age) =
-    member this.FirstName = firstName
-    member this.LastName = lastName
-    member this.Age = age
-```
-
- - In the F#, the primary constructor is not a separate method but is embedded into the class declaration itself. 
- - The class declaration has the same parameters as the constructor, and the parameters automatically become immutable private fields that store the original values that were passed in.
-
-### Specify Types for Parameters in the Constructor
-
-In general, type inference from usage will probably force the values to be strings and int, etc., but if you do need to specify the types explicitly, you can do so in the usual way with a colon followed by the type name.
-
-```csharp
-type Author (firstName:string, lastName:string, age:int) =
     member this.FirstName = firstName
     member this.LastName = lastName
     member this.Age = age
@@ -72,7 +51,7 @@ type Author (firstName:string, lastName:string, age:int) =
 The object is an instance of a class to access the defined properties and methods. It is a concrete entity based on a class and is created at runtime. You can create an object using the `new` keyword followed by the name of the class. 
 
 ```csharp
-type Author (firstName:string, lastName:string, age:int) =
+type Author (firstName, lastName, age) =
     member this.FirstName = firstName
     member this.LastName = lastName
     member this.Age = age

@@ -5,11 +5,11 @@ Name: Mutable Data
 
 # Mutable Data
 
-By default, all of the data types and values in F# are immutable which means that cannot be changed throughout a program's execution.
+By default, all of the data types and values in F# are immutable, which means that they cannot be changed throughout a program's execution.
 
  - You can use the keyword mutable to specify a variable that can be changed. 
  - Mutable variables in F# should generally have a limited scope, either as a field of a type or as a local value. 
- - Mutable variables with the limited scope are easier to control and are less likely to be modified in incorrect ways.
+ - Mutable variables with limited scope are easier to control and are less likely to be modified in incorrect ways.
 
 The simplest mutable variables in F# are declared using the `mutable` keyword. You can assign an initial value to a mutable variable by using the `let` keyword in the same way as you would define a value.
 
@@ -18,7 +18,7 @@ let mutable x = 1
 x <- x + 1
 ```
 
-The `<-` operator is used to assign a mutable variable a new value. The `mutable` keyword is frequently used with record types to create mutable records as shown in the following example
+The `<-` operator is used to assign a mutable variable a new value. The `mutable` keyword is frequently used with record types to create mutable records, as shown in the following example
 
 ```csharp
 type productData =

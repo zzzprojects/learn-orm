@@ -42,7 +42,7 @@ The following are the most commonly used functions in the `Dictionary<'TKey, 'TV
 | ContainsKey            | Determines whether the `Dictionary(TKey, TValue)` contains the specified key. |
 | ContainsValue          | Determines whether the `Dictionary(TKey, TValue)` contains a specific value.  |
 | Equals                 | Determines whether the specified object is equal to the current object. |
-| Finalize               | Allows an object to try to free resources and perform other cleanup operations before it is reclaimed by garbage collection. |
+| Finalize               | It allows an object to try to free resources and perform other cleanup operations before reclaiming garbage collection. |
 | Remove                 | Removes the value with the specified key from the `Dictionary(TKey, TValue)`. |
 | ToString               | Returns a string that represents the current object. 
 | TryGetValue            | Gets the value associated with the specified key.

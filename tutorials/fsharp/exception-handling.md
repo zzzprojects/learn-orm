@@ -8,7 +8,7 @@ Name: Exception Handling
 Exception handling is the standard way of handling error conditions in the .NET Framework. Thus, any .NET language must support this mechanism, including F#. 
 
  - An exception is an object that encapsulates information about an error. 
- - When errors occur, exceptions are raised and regular execution stops. 
+ - When errors occur, exceptions are raised, and regular execution stops. 
  - The `try...with` expression is used for exception handling in the F# language.
  - The `try...finally` expression enables you to execute clean-up code even if a block of code throws an exception.
 

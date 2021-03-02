@@ -5,11 +5,11 @@ Name: Basic I/O
 
 # Basic I/O
 
-Input and output, also called I/O, refers to any kind of communication between two hardware devices or between the user and the computer. It includes printing text out to the console, reading and writing files to disk, etc.
+Input and output, also called I/O, refer to any communication between two hardware devices or between the user and the computer. It includes printing text out to the console, reading and writing files to disk, etc.
 
 ## Print on Console
 
-In F#, the [Printf module](https://fsharp.github.io/fsharp-core-docs/reference/fsharp-core-printfmodule.html) provides various methods, such as, `printf`, `printfn`, `sprintf` etc. which are used to printf-style printing and formatting using `%` markers as placeholders.
+In F#, the [Printf module](https://fsharp.github.io/fsharp-core-docs/reference/fsharp-core-printfmodule.html) provides various methods such as; `printf`, `printfn`, `sprintf` etc. which are used to printf-style printing and formatting using `%` markers as placeholders.
 
 The following tables show various methods provided in the [Printf module](https://fsharp.github.io/fsharp-core-docs/reference/fsharp-core-printfmodule.html)
 
@@ -109,7 +109,7 @@ A stream is a sequence of bytes. .NET provides some classes which allow programm
 | `System.IO.StreamWriter` | It is used to write characters to a stream.            | 
 | `System.IO.MemoryStream` | It creates an in-memory stream of bytes.               |
 
-In the following example write text to the file and then read it from the file.
+In the following example, write text to the file and then read it from the file.
 
 ```csharp
 System.IO.File.WriteAllText("myFile.txt", "Welcome to the F# Tutorial.\n You are learning basic I/O.")

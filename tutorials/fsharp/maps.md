@@ -27,8 +27,8 @@ The `FSharp.Collections.Map` module contains a variety of useful methods for wor
 | IsEmpty                     | Returns true if there are no bindings in the map. |
 | [key]                       | Lookup an element in the map. Raise `KeyNotFoundException` if no binding exists in the map.  |
 | Remove(key)                 | Removes an element from the domain of the map. No exception is raised if the element is not present. |
-| TryFind(key)                | Lookup an element in the map, returning a Some value if the element is in the domain of the map and None if not. |
-| TryGetValue(key, value)     | Lookup an element in the map, assigning to value if the element is in the domain of the map and returning false if not. |
+| TryFind(key)                | Lookup an element in the map, returning a Some value if the element is in the map domain and None if not. |
+| TryGetValue(key, value)     | Lookup an element in the map, assigning to value if the element is in the map domain and returning false if not. |
 
 The following example uses the `.[key]` to access elements in the map.
 

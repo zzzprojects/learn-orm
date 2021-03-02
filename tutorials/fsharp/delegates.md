@@ -13,7 +13,7 @@ The basic syntax of Delegate in F# is as follows.
 type delegate-typename = delegate of type1 -> type2
 ```
 
-The `type1` represents the argument type or types and `type2` represents the return type. The argument types that are represented by `type1` are automatically curried.
+The `type1` represents the argument type or types, and `type2` represents the return type. The argument types that are represented by `type1` are automatically curried.
 
 The following code shows a simple usage of a delegate.
 

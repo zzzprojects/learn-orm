@@ -5,12 +5,12 @@ Name: Mutable Lists
 
 # Mutable Lists
 
-The `List<'T>` class represents a strongly typed list of objects that can be accessed by index. It is a mutable counterpart of the List class.
+The `List<'T>` class represents a strongly typed list of objects that index can access. It is a mutable counterpart of the List class.
 
  - Conceptually, the `List<'T>` class similar to arrays, but unlike arrays, lists can be resized and don't need to have their size specified on the declaration.
  - The .NET (mutable) lists are created using the `new` keyword.
 
-The following example creates a list by calling its constructor as shown below.
+The following example creates a list by calling its constructor, as shown below.
 
 ```csharp
 let myList = new List<string>()
@@ -26,8 +26,8 @@ The `List<'T>` class is just a fancy wrapper for an array.
 
  - When a `List<'T>` is constructed, it creates a 4-element array in memory. 
  - Adding the first 4 items is an `O(1)` operation. 
- - However, as soon as the 5th element needs to be added, the list doubles the size of the internal array, which means it has to reallocate new memory and copy elements in the existing list. 
- - It is an `O(n)` operation, where `n` is the number of items in the list.
+ - However, as soon as the 5th element needs to be added, the list doubles the internal array size, which means it has to reallocate new memory and copy elements in the existing list. 
+ - - It is an `O(n)` operation, where `n` is the number of items in the list.
 
 The following are the most commonly used functions in the `List<'T>` class.
 
@@ -41,7 +41,7 @@ The following are the most commonly used functions in the `List<'T>` class.
 | CopyTo                 | Copies the entire list to a compatible one-dimensional array, starting at the beginning of the target array. |
 | Equals                 | Determines whether the specified object is equal to the current object. |
 | Exists                 | Determines whether the list contains elements that match the conditions defined by the specified predicate. |
-| Find                   | Searches for an element that matches the conditions defined by the specified predicate, and returns the first occurrence within the entire list.
+| Find                   | Searches for an element that matches the conditions defined by the specified predicate and returns the entire list's first occurrence.
 | FindAll                | Retrieves all the elements that match the conditions defined by the specified predicate.
 | ForEach                | Performs the specified action on each element of the list. |
 | IndexOf                | Searches for the specified object and returns the zero-based index of the first occurrence within the entire list. |

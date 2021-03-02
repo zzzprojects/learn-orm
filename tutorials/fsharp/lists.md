@@ -12,7 +12,7 @@ A list in F# is an ordered, immutable series of elements of the same type.
 
 ## Creating and Initializing Lists
 
-There are a variety of ways to create lists in F#, the most straightforward way is to define a list by explicitly listing out the elements, separated by semicolons and enclosed in square brackets.
+There are a variety of ways to create lists in F#. The most straightforward way is to define a list by explicitly listing out the elements, separated by semicolons and enclosed in square brackets.
 
 ```csharp
 let evenNumbers = [ 0; 2; 4; 6; 8; 10; ]
@@ -29,9 +29,9 @@ let oddNumber = [
     9 ]
 ```
 
-The above syntax in more readable code when the element initialization expressions are longer, or when you want to include a comment for each element.
+The above syntax in more readable code when the element initialization expressions are longer or when you want to include a comment for each element.
 
-You can also define list elements by using a range indicated by integers separated by the range operator (`..`).
+You can also define list elements by using a range indicated integers separated by the range operator (`..`).
 
 ```csharp
 let numbers = [ 1 .. 100 ]

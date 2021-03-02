@@ -5,7 +5,7 @@ Name: Arrays
 
 # Arrays
 
-Arrays are fixed-size, zero-based, mutable collections of consecutive data elements that are all of the same types.
+Arrays are fixed-size, zero-based, mutable collections of consecutive data elements all of the same types.
 
 There are various ways to create an array. The simplest way is to list consecutive values between `[|` and `|]` and separated by semicolons (`;`) as shown below.
 
@@ -13,7 +13,7 @@ There are various ways to create an array. The simplest way is to list consecuti
 let array1 = [| 1; 2; 3; 4; 5 |]
 ```
 
-You can also put each element on a separate line and in this case, the semicolon separator is optional.
+You can also put each element on a separate line, and in this case, the semicolon separator is optional.
 
 ```csharp
 let array2 =
@@ -57,7 +57,7 @@ let val1 = array4.[0]
 let val2 = array4.[1]
 ```
 
-You can also access array elements by using slice notation, which enables you to specify a subrange of the array.
+You can also access array elements using slice notation, which enables you to specify a subset of the array.
 
 ```csharp
 // Accesses elements from 0 to 3.

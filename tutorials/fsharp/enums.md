@@ -34,7 +34,7 @@ let electronicsCat = Category.Electronics
 Console.WriteLine(electronicsCat)
 ```
 
-You can easily convert enumerations to the underlying type by using the appropriate operator, as shown in the following code.
+You can easily convert enumerations to the underlying type using the appropriate operator, as shown in the following code.
 
 ```csharp
 let electronicsCat = Category.Electronics

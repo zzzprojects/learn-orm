@@ -32,13 +32,13 @@ type Shape =
     | Prism of width : float * float * height : float
 ```
 
-The above code declares a discriminated union Shape, which can have values of any of three cases: Rectangle, Circle, and Prism. Each case has a different set of fields. 
+The above code declares a discriminated union Shape, which can have values of three cases: Rectangle, Circle, and Prism. Each case has a different set of fields. 
 
  - The Rectangle case has two named fields, width, and length and both have type float. 
  - The Circle case has just one named field, radius. 
  - The Prism case has three fields, two of which (width and height) are named fields. Unnamed fields are referred to as anonymous fields.
 
-You construct objects by providing values for the named and anonymous fields as shown below.
+You construct objects by providing values for the named and anonymous fields, as shown below.
 
 ```csharp
 let rect = Rectangle( width = 6.0, length = 10.0)
@@ -46,7 +46,7 @@ let circ = Circle (2.5)
 let prism = Prism(3.75, 4.0, height = 5.0)
 ```
 
- - It allows you to either using the field name at the time of calling or just passing the value as we did in the `Circle` case code. 
+ - It allows you to either use the field name when calling or just passing the value as we did in the `Circle` case code. 
  - If you use a field name, you don't need to maintain the order of field, but if you are passing only values, you must ensure the order of field before passing value.
 
 Now let's see how to call and set values for these cases.

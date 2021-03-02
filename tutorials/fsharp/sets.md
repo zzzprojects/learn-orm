@@ -15,7 +15,7 @@ let set1 = Set.empty.Add('a').Add('b').Add('c')
 Console.WriteLine(set1)
 ```
 
-Conveniently, all instances of sets have an `Add` function. The `Add` returns a new set containing a new item, which makes it easy to add items together in this fashion.
+Conveniently, all instances of sets have an `Add` function. The `Add` returns a new set containing a new item making it easy to add items together in this fashion.
 
 You can convert lists and sequences into sets using use `Set.ofList` and `Set.ofSeq` to convert an entire collection into a set.
 

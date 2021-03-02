@@ -5,7 +5,7 @@ Name: Sequences
 
 # Sequences
 
-A sequence is a logical series of elements all of one type. It is similar to a list and both are used to represent an ordered collection of values. 
+A sequence is a logical series of elements all of one type. It is similar to a list, and both are used to represent an ordered collection of values. 
 
  - However, unlike lists, elements in a sequence are computed as they are needed rather than computed all at once. 
  - It gives sequences some interesting properties, such as the capacity to represent infinite data structures.
@@ -39,7 +39,7 @@ let seq3 = seq { for i in 1 .. 10 -> i * i }
 
 The `->` operator allows you to specify an expression whose value will become a part of the sequence. You can only use `->` if every part of the code that follows it returns a value.
 
-You can specify the `do` keyword, with an optional `yield` that follows.
+You can specify the `do` keyword with an optional `yield` that follows.
 
 ```csharp
 let seq4 = seq { for i in 1 .. 10 do yield i * i }

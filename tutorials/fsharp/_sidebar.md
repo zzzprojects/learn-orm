@@ -37,3 +37,4 @@
 - [Static](static.md)
 - [Structures](structures.md)
 - [Operator Overloading](operator-overloading.md)
+- [Inheritance](inheritance.md)

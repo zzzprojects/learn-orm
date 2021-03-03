@@ -38,3 +38,4 @@
 - [Structures](structures.md)
 - [Operator Overloading](operator-overloading.md)
 - [Inheritance](inheritance.md)
+- [Interfaces](interfaces.md)

@@ -40,3 +40,4 @@
 - [Inheritance](inheritance.md)
 - [Interfaces](interfaces.md)
 - [Events](events.md)
+- [Object Expressions](object-expressions.md)

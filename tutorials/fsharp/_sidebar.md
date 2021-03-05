@@ -42,3 +42,4 @@
 - [Events](events.md)
 - [Object Expressions](object-expressions.md)
 - [Modules](modules.md)
+- [Namespaces](namespaces.md)

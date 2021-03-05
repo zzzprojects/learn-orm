@@ -43,3 +43,4 @@
 - [Object Expressions](object-expressions.md)
 - [Modules](modules.md)
 - [Namespaces](namespaces.md)
+- [Lazy Expressions](lazy-expressions.md)

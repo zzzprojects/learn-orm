@@ -5,13 +5,13 @@ Name: Structures
 
 # Structures
 
-A structure is a compact object type that can be more efficient than a class for types that have a small amount of data and simple behavior.
+A structure is a compact object type that can be more efficient than a class for types with a small amount of data and simple behavior.
 
  - Structures are value types, which means that they are stored directly on the stack. 
  - Unlike classes and records, structures have pass-by-value semantics. 
  - So it means that they are useful primarily for small aggregates of data that are accessed and copied frequently.
 
-You can define structures in two different ways as shown below.
+You can define structures in two different ways, as shown below.
 
 ```csharp
 [ attributes ]

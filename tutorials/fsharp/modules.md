@@ -10,7 +10,7 @@ In F#, a module is a grouping of F# code, such as values, types, and function va
  - It is implemented as a common language runtime (CLR) class that has only static members.
  - No code is required to define a module.  
  - If a code file does not contain a leading namespace or module declaration, F# code will implicitly place the code in a module, where the name of the module is the same as the file name with the first letter capitalized.
- - To access code in another module, simply use `.` notation.
+ - To access code in another module use `.` notation.
 
 The basic syntax to define a module is as follows.
 
@@ -28,7 +28,7 @@ There are two types of module declarations, depending on whether the whole file 
 
  - A top-level module declaration and a local module declaration. 
  - A top-level module declaration includes the whole file in the module. 
- - A top-level module declaration can appear only as the first declaration in a file.
+ - A top-level module declaration can appear only as of the first declaration in a file.
 
 The following code example shows a top-level module that contains all the code up to the end of the file.
 
@@ -40,7 +40,7 @@ module Calculator =
     let Division a b = a/b  
 ```
 
-To use this code from another file in the same project, you either use qualified names or you open the module before you use the functions, as shown in the following examples.
+To use this code from another file in the same project, you either use qualified names or open the module before using the functions, as shown in the following examples.
 
 ```csharp
 module test = 
@@ -64,7 +64,7 @@ module A =
         let bb = 5
 ```
 
-But in the following example `module A` is a sibling to `module B` as shown below.
+But in the following example; `module A` is a sibling to `module B`, as shown below.
 
 ```csharp
 module A =

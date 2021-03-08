@@ -5,12 +5,12 @@ Name: Namespaces
 
 # Namespaces
 
-A namespace lets you organize code into areas of related functionality by enabling you to attach a name to a grouping of F# program elements. 
+A namespace lets you organize code into related functionality areas by enabling you to attach a name to a grouping of F# program elements. 
 
  - A namespace is a hierarchical categorization of modules, classes, and other namespaces.
  - Namespaces cannot directly contain values and functions. 
  - Instead, values and functions must be included in modules, and modules are included in namespaces. 
- - Namespaces can be declared explicitly with the namespace keyword, or implicitly when declaring a module. To declare a namespace explicitly, use the namespace keyword followed by the namespace name.
+ - Namespaces can be declared explicitly with the namespace keyword or implicitly when declaring a module. To declare a namespace explicitly, use the namespace keyword followed by the namespace name.
 
 The basic syntax of the namespace is as follows.
 

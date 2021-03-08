@@ -11,7 +11,7 @@ There are two kinds of constructors. One is the primary constructor, whose param
 
 ## Primary Constructor
 
- - In F# class, there is always a primary constructor whose arguments are described in the `parameter-list` that follows the type name, and whose body consists of the `let` and `let rec` bindings at the start of the class declaration and the do bindings that follow. 
+ - In F# class, there is always a primary constructor whose arguments are described in the `parameter-list` that follows the type name and whose body consists of the `let` and `let rec` bindings at the start of the class declaration and the do bindings that follow. 
  - The arguments of the primary constructor are in scope throughout the class declaration.
 
 The following code shows a very simple class declaration.

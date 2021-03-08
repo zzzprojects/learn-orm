@@ -8,7 +8,7 @@ Name: Inheritance
 Inheritance is used to model the "is-a" relationship, or subtyping, in object-oriented programming.
 
  - You specify inheritance relationships by using the `inherit` keyword in a class declaration. 
- - If you do not use the `inherit` keyword by default it inherits object class. 
+ - If you do not use the `inherit` keyword by default, it inherits object class. 
  - A class can have at most one direct base class. 
 
 The basic syntax for inheritance is shown below.
@@ -20,7 +20,7 @@ type MyDerived(...) =
 
 ## Inherited Members
 
- - If a class inherits from another class, the methods and members of the base class are available to users of the derived class as if they were direct members of the derived class.
+ - If a class inherits from another class, the base class's methods and members are available to users of the derived class as if they were direct members of the derived class.
  - Any let bindings and constructor parameters are private to a class and, therefore, cannot be accessed from derived classes.
  - The keyword `base` is available in derived classes and refers to the base class instance. It is used like the self-identifier.
 

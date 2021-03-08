@@ -8,8 +8,8 @@ Name: Overview
 Microsoft Integration Services is a platform for building enterprise-level data integration and data transformation solutions. SQL Server Integration Services (SSIS) is an ETL (Extract, Transform, and Load) tool.
 
  - The SSIS is a business intelligence tool that provides data transformation solutions for various organizations.
- - Integration Services can extract and transform data from a wide variety of sources such as XML data files, flat files, and relational data sources, and then load the data into one or more destinations.
- - Integration Services includes a rich set of built-in tasks and transformations; tools for constructing packages; and the Integration Services service for running and managing packages. 
+ - Integration Services can extract and transform data from various sources such as XML data files, flat files, and relational data sources and then load the data into one or more destinations.
+ - Integration Services includes a rich set of built-in tasks and transformations, tools for constructing packages, and the Integration Services service for running and managing packages. 
 
 ## What is SSIS?
 
@@ -36,7 +36,7 @@ You use Integration Services to solve complex business problems by copying or do
 
 ## Features of SSIS
 
-SSIS provides some very useful features which are as follows.
+SSIS provides some very useful features, which are as follows.
 
  - Organized and lookup transformations
  - Tight integration with other Microsoft SQL family

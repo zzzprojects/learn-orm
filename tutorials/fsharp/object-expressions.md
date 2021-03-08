@@ -25,7 +25,7 @@ The following is the basic syntax of an object expression.
  - **`typename`:** Represents an existing class type or interface type. 
  - **`type-params`:** Describes the optional generic type parameters. 
  - **`arguments`:** Used only for class types, which require constructor parameters. 
- - **`member-definitions`:** Overrides of base class methods, or implementations of abstract methods from either a base class or an interface.
+ - **`member-definitions`:** Overrides of base class methods or implementations of abstract methods from either a base class or an interface.
 
 Let's consider the following several different types of object expressions.
 
@@ -76,7 +76,7 @@ let implementer() =
 
 ## Advantages of Object Expressions
 
- - You can use object expressions when you want to avoid the extra code and overhead that is required to create a new, named type. 
+ - You can use object expressions when you want to avoid the extra code and overhead required to create a new, named type. 
  - If you use object expressions to minimize the number of types created in a program, you can reduce the number of lines of code and prevent the unnecessary rapid increase of types. 
- - Instead of creating many types just to handle specific situations, you can use an object expression that customizes an existing type or provides an appropriate implementation of an interface for the specific case at hand.
+ - Instead of creating many types to handle specific situations, you can use an object expression that customizes an existing type or provides an appropriate implementation of an interface for the specific case at hand.
 

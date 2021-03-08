@@ -17,29 +17,29 @@ With SSDT, you can design and deploy any SQL Server content type with the same e
 
 The core SSDT functionality to create database projects has remained integral to Visual Studio. With Visual Studio 2019, the required functionality to enable Integration Services projects has moved into the respective Visual Studio (VSIX) extensions only.
 
-If Visual Studio 2019 is already installed, you can edit the list of workloads to include SSDT. If you don’t have Visual Studio 2019 installed, then you can download and install [Visual Studio 2019 Community](https://visualstudio.microsoft.com/downloads/).
+If Visual Studio 2019 is already installed, you can edit the list of workloads to include SSDT. If you donâ€™t have Visual Studio 2019 installed, then you can download and install [Visual Studio 2019 Community](https://visualstudio.microsoft.com/downloads/).
 
-To modify the installed Visual Studio workloads to include SSDT, use the Visual Studio Installer. In the installer, select for the edition of Visual Studio that you want to add SSDT to, and then choose **Modify**.
+To modify the installed Visual Studio workloads to include SSDT, use the Visual Studio Installer. In the installer, select the edition of Visual Studio that you want to add SSDT to, and then choose **Modify**.
 
 <img src="images/setup-3.png" alt="Workload">
 
-Select **SQL Server Data Tools** under **Data storage and processing** in the list of workloads and select the **Modify** button to start the installation.
+Select **SQL Server Data Tools** under **Data storage and processing** in the workloads list and select the **Modify** button to start the installation.
 
 Once the installation is completed, launch the Visual Studio.
 
-For Analysis Services, Integration Services, or Reporting Services projects, you can install the appropriate extensions from within Visual Studio with **Extensions > Manage Extensions** or from the Marketplace.
+For Analysis Services, Integration Services, or Reporting Services projects, you can install the appropriate extensions from within Visual Studio with **Extensions > Manage Extensions** or the Marketplace.
 
 <img src="images/setup-4.png" alt="Install IS Extension">
 
-Click on the **Download** button and it will prompt the following popup.
+Click on the **Download** button, and it will prompt the following popup.
 
 <img src="images/setup-5.png" alt="IS Extension Popup">
 
-Click on the **Save** button and once the file is downloaded, double click on the file.
+Click on the **Save** button, and once the file is downloaded, double click on the file.
 
 <img src="images/setup-6.png" alt="Select Language">
 
-Select your preferred language and click on **Ok**
+Select your preferred language, and click on **Ok**
 
 <img src="images/setup-7.png" alt="SSIS Projects">
 

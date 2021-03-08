@@ -17,7 +17,7 @@ let identifier = lazy ( expression )
 ```
 
  - The `expression` is a code that is evaluated only when a result is required, and `identifier` is a value that stores the result.
- - The value is of type `Lazy<'T>`, where the actual type that is used for `'T` is determined from the result of the expression.
+ - The value is of type `Lazy<'T>`, where the actual type used for `'T` is determined from the result of the expression.
 
 ## How to Execute the Expression
 

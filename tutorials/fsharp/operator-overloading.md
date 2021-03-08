@@ -7,7 +7,7 @@ Name: Operator Overloading
 
 Operator overloading allows programmers to provide new behavior for the default operators in F#. In practice, programmers overload operators to provide a simplified syntax for objects which can be combined mathematically.
 
-You have already used different operators such as, arithmetical operators (`+`, `-`, `*`, `/`, `%`, `**`, etc.) and they perform mathematical operations such as addition, subtraction, and multiplication respectively on numerical values, and the result is also a numerical value.
+You have already used different operators such as arithmetical operators (`+`, `-`, `*`, `/`, `%`, `**`, etc.), and they perform mathematical operations such as addition, subtraction, and multiplication respectively on numerical values. The result is also a numerical value.
 
 ```csharp
 let a = 10
@@ -21,9 +21,9 @@ Console.WriteLine("a / 2 = {0}", a / 2)
 Console.WriteLine("c ** 2.0 = {0}", c ** 2.0)
 ```
 
-Operators are functions with special names, enclosed in brackets. They must be defined as static class members. 
+Operators are functions with special names enclosed in brackets. They must be defined as static class members. 
 
-The following example declares a vector class that has just two operators, one for unary minus and one for multiplication by a scalar.
+The following example declares a vector class with just two operators, one for unary minus and one for multiplication by a scalar.
 
 ```csharp
 type Vector(x: float, y : float) =

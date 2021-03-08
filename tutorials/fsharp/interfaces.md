@@ -28,7 +28,7 @@ type IDisplay =
     abstract member Print : format:string -> unit
 ```
 
-In the above code, an `IDisplay` interface is defined that contains the `Print` method and has a single parameter of the type `string` with the name `format`.
+In the above code, an `IDisplay` interface contains the `Print` method and has a single parameter of the type `string` with the name `format`.
 
 There are two ways to implement interfaces.
 
@@ -37,7 +37,7 @@ There are two ways to implement interfaces.
 
 ## Class Types
 
-You can implement one or more interfaces in a class type by using the `interface` keyword, the name of the interface, and the `with` keyword, followed by the interface member definitions, as shown in the following code.
+You can implement one or more interfaces in a class type using the `interface` keyword, the name of the interface, and the `with` keyword, followed by the interface member definitions, as shown in the following code.
 
 ```csharp
 type IDisplay =
@@ -59,7 +59,7 @@ let point = new Point3D(1.1, 2.2, 3.3)
 
 ## Object Expressions
 
-Object expressions provide a short way to implement an interface. It is useful when you do not have to create a named type, and you just want an object that supports the interface methods, without any additional methods. 
+Object expressions provide a short way to implement an interface. It is useful when you do not have to create a named type, and you want an object that supports the interface methods without any additional methods. 
 
 The following example shows the usage of an object expression.
 
@@ -77,7 +77,7 @@ point1.Print()
 
 ## Interface Inheritance
 
-Interfaces can inherit from one or more base interfaces as shown in the below example.
+Interfaces can inherit from one or more base interfaces, as shown in the below example.
 
 ```csharp
 type Interface1 =

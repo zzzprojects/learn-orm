@@ -12,11 +12,7 @@ A Flat File source is a data flow component that uses metadata defined by a Flat
 
 Let's configure the Flat File source to use the **Sample Flat File Source Data** connection manager that is previously created.
 
-To open the **Data Flow** designer, either double-click on the **Extract Sample Currency Data** data flow task, or select the **Data Flow** tab.
-
-<img src="images/flat-file-source-1.png" alt="Data Flow tab">
-
-In the **SSIS Toolbox**, expand **Other Sources**.
+To open the **Data Flow** designer, either double-click on the **Extract Sample Currency Data** data flow task, or select the **Data Flow** tab and in the **SSIS Toolbox**, expand **Other Sources**.
 
 <img src="images/flat-file-source-1.png" alt="Data Flow tab">
 

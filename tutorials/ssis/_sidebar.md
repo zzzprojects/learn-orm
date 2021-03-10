@@ -2,3 +2,4 @@
 - [Environment Setup](environment-setup.md)
 - [Create Integration Services Project](create-integration-services-project.md)
 - [Configure Flat File](configure-flat-file.md)
+- [Add and Configure an OLE DB](add-and-configure-an-oledb.md)

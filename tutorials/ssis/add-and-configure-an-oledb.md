@@ -1,13 +1,14 @@
 ---
-PermaID: 100003
+PermaID: 100004
 Name: Add and Configure an OLE DB
 ---
 
 # Add and Configure an OLE DB
 
-After you add a Flat File connection manager to connect to the data source, you add an OLE DB connection manager to connect to the data destination. An OLE DB connection manager enables a package to extract data from or load data into any OLE DB-compliant data source. Using an OLE DB connection manager, you can specify the server, the authentication method, and the default database for the connection.
+After adding a **Flat File** connection manager to connect to the data source, we now need to add an **OLE DB** connection manager to connect to the data destination. 
 
-In this task, you create an OLE DB connection manager that uses Windows Authentication to connect to the local instance of AdventureWorksDW2012. This OLE DB connection manager is also referenced by other components that you create later in this tutorial, such as the Lookup transformation and the OLE DB destination.
+ - An OLE DB connection manager enables a package to extract data from or load data into any OLE DB-compliant data source. 
+ - Using an OLE DB connection manager, you can specify the server, the authentication method, and the default database for the connection.
 
 ## Add and configure an OLE DB connection manager
 

@@ -7,3 +7,4 @@
 - [Configure Flat File Source](configure-flat-file-source.md)
 - [Add and Configure the Lookup Transformations](add-and-configure-the-lookup-transformations.md)
 - [Add and Configure the OLE DB Destination](add-and-configure-the-oledb-destination.md)
+- [Annotation and Formatting](annotation-and-formatting.md)

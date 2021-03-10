@@ -5,3 +5,4 @@
 - [Add and Configure an OLE DB](add-and-configure-an-oledb.md)
 - [Add Data Flow Task](add-data-flow-task.md)
 - [Configure Flat File Source](configure-flat-file-source.md)
+- [Add and Configure the Lookup Transformations](add-and-configure-the-lookup-transformations.md)

@@ -26,7 +26,7 @@ In the **SSIS Toolbox**, expand **Common**, and then drag **Lookup** onto the de
 
 Place **Lookup** directly below the **Extract Sample Currency Data** source.
 
-Select the *Extract Sample Currency Data** flat file source and drag its blue arrow onto the newly added **Lookup** transformation to connect the two components.
+Select the **Extract Sample Currency Data** flat file source and drag its blue arrow onto the newly added **Lookup** transformation to connect the two components.
 
 <img src="images/lookup-transformations-2.png" alt="Connect data source to lookup">
 

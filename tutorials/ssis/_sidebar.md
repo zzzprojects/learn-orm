@@ -9,3 +9,4 @@
 - [Add and Configure the OLE DB Destination](add-and-configure-the-oledb-destination.md)
 - [Annotation and Formatting](annotation-and-formatting.md)
 - [Foreach Loop Container](foreach-loop-container.md)
+- [Update Flat File Connection Manager](update-flat-file-connection-manager.md)

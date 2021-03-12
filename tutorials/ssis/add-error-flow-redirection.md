@@ -14,7 +14,7 @@ To demonstrate the configuration and handling of transformation errors, you need
 
 ## Create a Corrupted Sample Flat File
 
-In text editor, open the `Currency_VEB.txt` file.
+In any text editor, open the `Currency_VEB.txt` file.
 
 <img src="images/error-flow-redirection-1.png" alt="Corrupt Sample Flat File">
 
@@ -85,7 +85,7 @@ Select **Add Column** button.
 
 In the **Name** property, enter **ErrorDescription** and set the **DataType** property to **Unicode string [DT_WSTR]**.
 
-Go the **Script** page again and click on the **Edit Script** button to open **Microsoft Visual Studio Tools for Applications (VSTA)**. 
+Go to the **Script** page again and click on the **Edit Script** button to open **Microsoft Visual Studio Tools for Applications (VSTA)**. 
 
 <img src="images/error-flow-redirection-14.png" alt="Add Script">
 

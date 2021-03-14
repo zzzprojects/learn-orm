@@ -1,6 +1,7 @@
 - [Overview](overview.md)
 - [Environment Setup](environment-setup.md)
 - [Packages](packages.md)
+- [Connection Managers](connection-managers.md)
 - [Create Integration Services Project](create-integration-services-project.md)
 - [Configure Flat File](configure-flat-file.md)
 - [Add and Configure an OLE DB](add-and-configure-an-oledb.md)

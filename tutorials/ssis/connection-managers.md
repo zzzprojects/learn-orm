@@ -66,7 +66,7 @@ A connection manager can be created at the package level or the project level.
  - The connection manager created at the project level is available to all the packages in the project. 
  - Whereas, connection manager created at the package level is available to that specific package.
 
-You can use connection managers that are created at the project level in place of data sources, to share connections to sources. 
+You can use connection managers created at the project level in place of data sources to share connections to sources. 
 
  - To add a connection manager at the project level, the Integration Services project must use the project deployment model. 
  - When a project is configured to use this model, the **Connection Managers** folder appears in **Solution Explorer**, and the **Data Sources** folder is removed from **Solution Explorer**.

@@ -5,11 +5,11 @@ Name: Control Flow
 
 # Control Flow
 
-Control flow is the SQL Server workflow engine that contains control flow elements. An SSIS package consists of at least one control flow task, and optionally one or more data flows.
+Control flow is the SQL Server workflow engine that contains control flow elements. An SSIS package consists of at least one control flow task and optionally one or more data flows.
 
-A package consists of a control flow and one or more data flows. 
+A package consists of a control flow, and one or more data flows. 
 
- - The Integration Services architecture supports the nesting of containers, and a control flow can include multiple levels of nested containers. 
+ - The Integration Services architecture supports the containers' nesting, and a control flow can include multiple levels of nested containers. 
  - A package can contain a container such as a **Foreach Loop** container, which in turn could contain another Foreach Loop container and so on.
  - Event handlers also have control flows, which are built using the same kinds of control flow elements.
 
@@ -31,7 +31,7 @@ There are three types of control flow elements.
 
 The containers provide structure to package and service tasks. 
 
- - They support repeating control flow tasks, and grouping into meaningful units. 
+ - They support repeating control flow tasks, and grouping them into meaningful units. 
  - A single container can be created inside another container, along with additional tasks. 
  - Depending on the type, it can be used to repeat tasks for each element in a collection, repeat tasks until the specified condition is met, or the container can group tasks and other containers in units that must succeed or fail when finished.
 
@@ -44,7 +44,7 @@ The control flow tasks workflow objects that perform a high level of operations,
 
 ### Precedence Constraints
 
-The precedence constraints connect tasks, executables, and containers inside the control flow, and specify a condition that determines whether the task will run or not. 
+The precedence constraints connect tasks, executables, containers inside the control flow, and specify a condition that determines whether the task will run or not. 
 
- - Precedence constraints can be configured by logical `AND` or logical `OR` expressions, and succeed or fail. 
+ - Precedence constraints can be configured by logical `AND` or logical `OR` expressions and succeed or fail. 
  - One task can be connected to another with multiple precedence constraints, and for each constraint, a separate condition can be specified.

@@ -7,12 +7,12 @@ Name: Logging
 
 Microsoft Integration Services includes logging features that let you troubleshoot and monitor package execution by providing a trace of task and container events. 
 
- - The logging features are flexible and you can enable logging at the package level, or on individual tasks or containers within the package. 
+ - The logging features are flexible, and you can enable logging at the package level or on individual tasks or containers within the package. 
  - You can also select which events you want to log in to and create multiple logs against a single package.
 
 ## Log Providers
 
-Log providers create the logs and each log provider can write logging information to different formats and destination types. Integration Services provides the following log providers:
+Log providers create the logs, and each log provider can write logging information to different formats and destination types. Integration Services provides the following log providers:
 
  - Text file
  - SQL Server Profiler
@@ -26,7 +26,7 @@ In Visual Studio 2019, go to the **Data Flow** tab and then select **Extensions 
 
 <img src="images/logging-1.png" alt="Logging menu">
 
-In the **Configure SSIS Logs** dialog, select **Package** in the **Containers** pane and in the **Providers and Logs** tab, select **SSIS log provider for Text files** in the **Provider type** box and then select **Add**.
+In the **Configure SSIS Logs** dialog, select **Package** in the **Containers** pane, and in the **Providers and Logs** tab, select **SSIS log provider for Text files** in the **Provider type** box and then select **Add**.
 
 <img src="images/logging-2.png" alt="Provider type">
 
@@ -42,11 +42,11 @@ In the **File Connection Manager Editor dialog** box, select **Create file** for
 
 <img src="images/logging-3.png" alt="File Connection Manager Editor dialog">
 
-Select the **Browse** button and it will open the **Select File** dialog. By default, it opens the project folder, but you can save log information to any location. 
+Select the **Browse** button, and it will open the **Select File** dialog. By default, it opens the project folder, but you can save log information to any location. 
 
 <img src="images/logging-4.png" alt="Select log file">
 
-In the **Select File** dialog, enter `CurrencyLog.log` in the **File name** field and select **Open** button.
+In the **Select File** dialog, enter `CurrencyLog.log` in the **File name** field and select the **Open** button.
 
 <img src="images/logging-5.png" alt="Select log file">
 
@@ -66,7 +66,7 @@ Select **Advanced** to review the details that the log provider writes to the lo
 
 On the **Provider and Logs** tab, in the **Name** column, you can optionally deselect it to turn off logging, without having to delete and re-create a log provider.
 
-Select **OK** button.
+Select the **OK** button.
 
 ## Test Package
 

@@ -8,7 +8,7 @@ Name: Foreach Loop Container
 
 The Foreach Loop container enables a package to repeat the control flow for each member of a specified enumerator.
 
- - The Foreach Loop container that you add must be able to connect to each flat file in the folder. 
+ - The Foreach Loop container that you add must connect to each flat file in the folder. 
  - Because all the files in the folder have the same format, the Foreach Loop container can use the same Flat File connection manager to connect to each of these files.
 
 Currently, the Flat File connection manager connects to only one specific flat file. To iteratively connect to each flat file in the folder, you have to configure both the Foreach Loop container and the Flat File connection manager as follows:
@@ -56,9 +56,9 @@ Select **<New Variable...>** and it will open the **Add Variable** dialog.
 
 <img src="images/foreach-loop-container-9.png" alt="Add Variable dialog">
 
-In the **Add Variable** dialog box, enter `varFileName` in the **Name** field and click **OK** button.
+In the **Add Variable** dialog box, enter `varFileName` in the **Name** field and click the **OK** button.
 
-Select **OK** button again to exit the **Foreach Loop Editor** dialog.
+Select the **OK** button again to exit the **Foreach Loop Editor** dialog.
 
 ## Add the Data Flow Task to the Loop
 

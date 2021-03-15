@@ -9,19 +9,19 @@ That Flat File connection manager is configured to statically load a single file
 
  - By modifying the connection manager to use the value of the user-defined variable to change the `ConnectionString` property, the connection manager connects to different flat files. 
  - At run time, each iteration of the **Foreach Loop** container updates the `User::varFileName` variable. 
- - Updating the variable, in turn, causes the connection manager to connect to a different flat file, and the data flow task to process a different set of data.
+ - Updating the variable, in turn, causes the connection manager to connect to a different flat file and the data flow task to process a different set of data.
 
 ## Configure the Flat File to use a Variable
 
-To configure the Flat File connection manager to use a variable, open the **Package Explorer**
+To configure the Flat File connection manager to use a variable, open the **Package Explorer**.
 
 <img src="images/update-flat-file-connection-manager-1.png" alt="Drag Foreach Loop Container">
 
-In the **Connection Managers** pane, right-click **Sample Flat File Source Data**, and select **Properties**.
+In the **Connection Managers** pane, right-click **Sample Flat File Source Data** and select **Properties**.
 
 <img src="images/update-flat-file-connection-manager-2.png" alt="PackagePath in Properties window">
 
-In the **Properties** window make sure the **PackagePath** starts with `\Package.Connections`. If not, in the **Connection Managers** pane, right-click **Sample Flat File Source Data**, and select **Convert to Package Connection**.
+In the **Properties** window, make sure the **PackagePath** starts with `\Package.Connections`. If not, in the **Connection Managers** pane, right-click **Sample Flat File Source Data**, and select **Convert to Package Connection**.
 
 <img src="images/update-flat-file-connection-manager-6.png" alt="Convert to Package Connection">
 
@@ -41,7 +41,7 @@ In the Expression Builder dialog, expand the **Variables and Parameters** node.
 
 <img src="images/update-flat-file-connection-manager-7.png" alt="Variables and Parameters">
 
-Drag the variable `User::varFileName` into the Expression box and click **OK** button to close the **Expression Builder** dialog.
+Drag the variable `User::varFileName` into the Expression box and click the **OK** button to close the **Expression Builder** dialog.
 
 <img src="images/update-flat-file-connection-manager-8.png" alt="ConnectionString variable configured">
 

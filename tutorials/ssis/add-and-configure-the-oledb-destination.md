@@ -30,11 +30,11 @@ Type **Sample OLE DB Destination** in the text area.
 
 <img src="images/ole-db-destination-4.png" alt="Change the name of the OLE DB Destination">
 
-Double-click **Sample OLE DB Destination** and it will open the **OLE DB Destination Editor** dialog. 
+Double-click **Sample OLE DB Destination**, and it will open the **OLE DB Destination Editor** dialog. 
 
 <img src="images/ole-db-destination-5.png" alt="OLE DB Destination Editor">
 
-On the **OLE DB Destination Editor** dialog, Make sure that **\*.AdventureWorksDW2017** is selected in the **OLE DB Connection manager** dropdown and in the **Name of the table or the view** dropdown, select `[dbo].[FactCurrencyRate]`.
+On the **OLE DB Destination Editor** dialog, Make sure that **\*.AdventureWorksDW2017** is selected in the **OLE DB Connection manager** dropdown, and in the **Name of the table or the view** dropdown, select `[dbo].[FactCurrencyRate]`.
 
 If a table named `NewFactCurrencyRate` currently exists, delete it now and then select the **New** button to create a new table. 
 

@@ -30,7 +30,7 @@ Right-click anywhere in the background of the data flow design surface and then 
 
 <img src="images/annotation-and-formatting-3.png" alt="Add Annotation">
 
-You will see the annotation box, if you don't add text to the annotation box, the box disappears when you click outside it. Because of this behavior, if you want to paste text in the annotation box then copy the text to the clipboard before selecting **Add Annotation**.
+You will see the annotation box, and if you don't add text to the annotation box, the box disappears when you click outside it. Because of this behavior, if you want to paste text in the annotation box, then copy the text to the clipboard before selecting **Add Annotation**.
 
 <img src="images/annotation-and-formatting-4.png" alt="Text copied">
 
@@ -40,6 +40,6 @@ To test the package, go to the **Debug** menu, select **Start Debugging**.
 
 <img src="images/annotation-and-formatting-5.png" alt="Text copied">
 
-You can see the Package executed successfully and to verify the results, open the **NewFactCurrencyRate** table in **AdventureWorksDW2017** database. 
+You can see the Package executed successfully, and to verify the results, open the **NewFactCurrencyRate** table in **AdventureWorksDW2017** database. 
 
 <img src="images/annotation-and-formatting-6.png" alt="View data in the database">

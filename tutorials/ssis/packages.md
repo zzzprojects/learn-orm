@@ -5,12 +5,12 @@ Name: Packages
 
 # Packages
 
-A package is an organized collection of connections, control flow elements, data flow elements, event handlers, variables, parameters, and configurations, that you assemble using either the graphical design tools that SQL Server Integration Services provides, or build programmatically. 
+A package is an organized collection of connections, control flow elements, data flow elements, event handlers, variables, parameters, and configurations, that you assemble using either the graphical design tools that SQL Server Integration Services provides or build programmatically. 
 
  - The completed package is saved to SQL Server, the SSIS Package Store, or the file system, or you can deploy it to the SSIS server. 
  - The package is the unit of work that is retrieved, executed, and saved.
 
-## How It Works?
+## How it works?
 
 When you first create a package, it is an empty object that does nothing. To add functionality to a package, you can add a control flow and one or more data flows to the package.
 
@@ -19,7 +19,7 @@ The following diagram shows a simple package that contains a control flow with a
 <img src="images/packages-1.png" alt="Package diagram">
 
  - You can also add advanced features such as logging and variables to extend package functionality.
- - The completed package can then be configured by setting package-level properties that implement security, enable restarting of packages from checkpoints, or incorporate transactions in package workflow. 
+ - The completed package can then be configured by setting package-level properties that implement security, restarting packages from checkpoints, or incorporating transactions in package workflow. 
 
 ## Contents of a Package
 
@@ -35,7 +35,7 @@ A control flow consists of one or more tasks and containers that execute when th
 A data flow consists of the sources and destinations that extract and load data, the transformations that modify and extend data, and the paths that link sources, transformations, and destinations. 
 
  - Before you can add a data flow to a package, the package control flow must include a Data Flow task. 
- - The Data Flow task is the executable within the SSIS package that creates, orders and runs the data flow. 
+ - The Data Flow task is the executable within the SSIS package that creates, orders, and runs the data flow. 
  - A separate instance of the data flow engine is opened for each Data Flow task in a package. 
 
 ### Connection Managers (Connections)
@@ -53,13 +53,13 @@ Packages can include additional objects that provide advanced features or extend
 
 An event handler is a workflow that runs in response to the events raised by a package, task, or container. 
 
- - For example, you can use an event handler to check disk space when a pre-execution event occurs or if an error occurs, and send an e-mail message that reports the available space. 
+ - For example, you can use an event handler to check disk space when a pre-execution event occurs or if an error occurs and send an e-mail message that reports the available space. 
  - An event handler is constructed like a package, with a control flow and optional data flows. 
  - Event handlers can be added to individual tasks or containers in the package. 
  
 ### Configurations
 
-A configuration is a set of property-value pairs that define the properties of the package and its tasks, containers, variables, connections, and event handlers when the package runs. 
+A configuration is a set of property-value pairs that define the package's properties and its tasks, containers, variables, connections, and event handlers when the package runs. 
 
  - Using configurations makes it possible to update properties without modifying the package. 
  - When the package is run, the configuration information is loaded, updating the values of properties. For example, a configuration can update the connection string of the connection.
@@ -70,7 +70,7 @@ A log is a collection of information about the package that is collected when th
 
  - A log can provide the start and finish time for a package run. 
  - A log provider defines the destination type and the format that the package and its containers and tasks can use to log run-time information. 
- - The logs are associated with a package, but the tasks and containers in the package can log information to any package log. 
+ - The logs are associated with a package, but the package's tasks and containers can log information to any package log.
 
 ### Variables
 

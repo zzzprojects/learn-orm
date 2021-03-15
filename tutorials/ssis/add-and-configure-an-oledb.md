@@ -8,7 +8,7 @@ Name: Add and Configure an OLE DB
 After adding a **Flat File** connection manager to connect to the data source, we now need to add an **OLE DB** connection manager to connect to the data destination. 
 
  - An OLE DB connection manager enables a package to extract data from or load data into any OLE DB-compliant data source. 
- - Using an OLE DB connection manager, you can specify the server, the authentication method, and the default database for the connection.
+ - Using an OLE DB connection manager, you can specify the server, the authentication method, and the connection's default database.
 
 ## Add and configure an OLE DB connection manager
 

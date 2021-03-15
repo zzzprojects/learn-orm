@@ -9,11 +9,11 @@ To create a package in Integration Services, first, we will need to an **Integra
 
 <img src="images/create-project-1.png" alt="Create a new project">
 
-Choose **Create a new project** option.
+Choose the **Create a new project** option.
 
 <img src="images/create-project-2.png" alt="Choose Integration Services Project template">
 
-Type "integration" to find **Integration Services Project**, select it and click on the **Next** button.
+Type "integration" to find **Integration Services Project**, select it, and click on the **Next** button.
 
 <img src="images/create-project-3.png" alt="Type a project name">
 

@@ -9,11 +9,11 @@ A Flat File connection manager enables a package to extract data from a flat-fil
 
 ## Create a Flat File 
 
-The Flat File connection manager provides locale information about the data file. To add a Flate File, right-click on **Connection Managers**, in the **Solution Explorer pane**. 
+The Flat File connection manager provides locale information about the data file. To add a Flate File, right-click on **Connection Managers** in the **Solution Explorer pane**. 
 
 <img src="images/flat-file-1.png" alt="New Connection Manager">
 
-Select **New Connection Manager** and it will open the **Add SSIS Connection Manager** dialog.
+Select **New Connection Manager**, and it will open the **Add SSIS Connection Manager** dialog.
 
 <img src="images/flat-file-2.png" alt="Add SSIS Connection Manager">
 
@@ -37,9 +37,9 @@ Let's make the following changes to the column names as shown below.
 
 By default, all four of the columns are initially set to a `string` data type `[DT_STR]` with an `OutputColumnWidth` of 50.
 
- - In the list, select the `CurrencyID` column and in the property pane, change the **DataType** of column `CurrencyID` from `string [DT_STR]` to `Unicode string [DT_WSTR]`.
+ - In the list, select the `CurrencyID` column, and in the property pane, change the **DataType** of column `CurrencyID` from `string [DT_STR]` to `Unicode string [DT_WSTR]`.
  - In the property pane, change the data type of column `CurrencyDate` to `database date [DT_DBDATE]`.
 
-Select **OK** button and you will see a Flat File is added under **Connection Manager**.
+Select **OK** button, and you will see a Flat File is added under **Connection Manager**.
 
 <img src="images/flat-file-6.png" alt="Flat File added">

@@ -5,6 +5,7 @@
 - [Control Flow](control-flow.md)
 - [Data Flow](data-flow.md)
 - [Transformations](transformations.md)
+- [XML Source](xml-source.md)
 - [Create Integration Services Project](create-integration-services-project.md)
 - [Configure Flat File](configure-flat-file.md)
 - [Add and Configure an OLE DB](add-and-configure-an-oledb.md)

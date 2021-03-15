@@ -33,8 +33,8 @@ Close your text editor.
 The **Lookup Currency Key** transformation cannot generate a match when the transformation tries to process the corrupted sample flat file, which produces an error. Because the transformation uses the default settings for error output, any error causes the transformation to fail. 
 
  - When the transformation fails, the rest of the package also fails.
- - Rather than permitting the transformation to fail, you can configure the component to redirect the failed row to another processing path, by using the error output. 
- - Using a separate error processing path provides more options, for instance, you can clean the data and then reprocess the failed row, or, you can save the failed row along with its error information for later verification and reprocessing.
+ - Rather than permitting the transformation to fail, you can configure the component to redirect the failed row to another processing path by using the error output. 
+ - Using a separate error processing path provides more options. For instance, you can clean the data and then reprocess the failed row, or you can save the failed row along with its error information for later verification and reprocessing.
 
 ## Configure an Error Output
 
@@ -42,7 +42,7 @@ In the **SSIS Toolbox**, expand **Common**, and select the **Script Component**.
 
 <img src="images/error-flow-redirection-4.png" alt="Drag Script Component">
 
-Drag the **Script Component** onto the design surface of the **Data Flow** tab to the right of the **Lookup Currency Key** transformation and it will open the **Select Script Component Type** dialog.
+Drag the **Script Component** onto the design surface of the **Data Flow** tab to the right of the **Lookup Currency Key** transformation, and it will open the **Select Script Component Type** dialog.
 
 <img src="images/error-flow-redirection-5.png" alt="Select Script Component Type">
 
@@ -50,7 +50,7 @@ In the **Select Script Component Type** dialog box, select **Transformation**, a
 
 <img src="images/error-flow-redirection-6.png" alt="Script Component Added">
 
-To connect the two components, select the **Lookup Currency Key** transformation and then drag its red arrow onto the new **Script** transformation and it will open the **Configure Error Output** dialog.
+To connect the two components, select the **Lookup Currency Key** transformation and then drag its red arrow onto the new **Script** transformation, and it will open the **Configure Error Output** dialog.
 
  - The red arrow represents the error output of the **Lookup Currency Key** transformation. 
  - By using the red arrow to connect the transformation to the **Script** component, you redirect any processing errors to the **Script** component, which processes the errors and sends them to the destination.
@@ -65,7 +65,7 @@ On the **Data Flow** design surface, change the name of **Script Component** to 
 
 <img src="images/error-flow-redirection-9.png" alt="Change name to Get Error Description">
 
-Double-click the **Get Error Description** transformation and it will open the **Script Transformation Editor** dialog.
+Double-click the **Get Error Description** transformation, and it will open the **Script Transformation Editor** dialog.
 
 <img src="images/error-flow-redirection-10.png" alt="Script Transformation Editor dialog">
 
@@ -98,6 +98,6 @@ public override void Input0_ProcessInputRow(Input0Buffer Row)
 }
 ```
 
-On the **Build** menu, select **Build Solution** to build the script and save your changes, and then close **VSTA**.
+On the **Build** menu, select **Build Solution** to build the script, save your changes, and close **VSTA**.
 
 Click **OK** to close the **Script Transformation Editor** dialog.

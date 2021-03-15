@@ -5,7 +5,7 @@ Name: Add and Configure the Lookup Transformations
 
 # Add and Configure the Lookup Transformations
 
-We have configured the Flat File source to extract data from the source file, now we need to define the Lookup transformations to obtain the values for `CurrencyKey` and `DateKey`. 
+We have configured the Flat File source to extract data from the source file. Now we need to define the Lookup transformations to obtain the values for `CurrencyKey` and `DateKey`. 
 
  - A Lookup transformation performs a lookup by joining data in the specified input column to a column in a reference dataset. 
  - The reference dataset can be an existing table or view, a new table, or the result of an SQL statement. 
@@ -38,7 +38,7 @@ Double-click the **Lookup Currency Key** transformation to display the **Lookup 
 
 <img src="images/lookup-transformations-4.png" alt="General page options">
 
-On the **General** page, Select **Full cache** and in the **Connection type** area, select **OLE DB connection manager**.
+On the **General** page, Select **Full cache**, and in the **Connection type** area, select **OLE DB connection manager**.
 
 On the **Connection** page, make sure that in the **OLE DB connection manager** dialog box, the **\*.AdventureWorksDW2017** is displayed
 
@@ -62,7 +62,7 @@ Now go to the **Columns** page and you will see two panels.
 
 <img src="images/lookup-transformations-7.png" alt="Panels">
 
-Drag the `CurrencyID` from the **Available Input Columns** panel and drop it on `CurrencyAlternateKey` in the **Available Lookup Columns** panel .
+Drag the `CurrencyID` from the **Available Input Columns** panel and drop it on `CurrencyAlternateKey` in the **Available Lookup Columns** panel.
 
 <img src="images/lookup-transformations-8.png" alt="Connect CurrencyID with CurrencyAlternateKey">
 
@@ -96,13 +96,13 @@ Double-click the **Lookup Date Key** transformation.
 
 <img src="images/lookup-transformations-13.png" alt="General page option">
 
-On the **General** page, select **Partial cache**. Now go the **Connection** page.
+On the **General** page, select **Partial cache**. Now go to the **Connection** page.
 
 <img src="images/lookup-transformations-14.png" alt="Select OLE DB connection manager">
 
 In the **OLEDB connection manager** dropdown, ensure that **\*.AdventureWorksDW2017** is displayed, and in the **Use a table or view** dropdown, select `[dbo].[DimDate]`.
 
-On the **Columns** page you will see two panels.
+On the **Columns** page, you will see two panels.
 
 <img src="images/lookup-transformations-15.png" alt="Panels">
 
@@ -116,7 +116,7 @@ Now go to the **Advanced** page.
 
 <img src="images/lookup-transformations-17.png" alt="Review the caching options"> 
 
-Review the caching options and click **OK** button.
+Review the caching options and click the **OK** button.
 
 Right-click the **Lookup Date Key** transformation and select **Properties**. In the **Properties** window, verify that the **LocaleID** property is **English (United States)** and the **DefaultCodePage** property is **1252**.
 

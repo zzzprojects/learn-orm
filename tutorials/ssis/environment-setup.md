@@ -50,3 +50,15 @@ Click the **Next** button to start the process.
 Once the setup is completed successfully, it will show you the message.
 
 <img src="images/setup-8.png" alt="SSIS Projects Setup Completed.">
+
+## SQL Server
+
+If you don't already have Microsoft SQL Server, download a free Evaluation Edition, or the free Developer Edition, from [SQL Server downloads](https://www.microsoft.com/en-us/sql-server/sql-server-downloads?rtc=1). SSIS is not included with the Express edition of SQL Server.
+
+## Database
+
+The `AdventureWorksDW2017` sample database. To download the `AdventureWorksDW2017` database, download `AdventureWorksDW2019.bak` from [AdventureWorks sample databases](https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks) and restore the backup.
+
+## Sample Files
+
+Download the sample data files (`Creating a Simple ETL Package.zip`) from [https://www.microsoft.com/en-us/download/details.aspx?id=56827](https://www.microsoft.com/en-us/download/details.aspx?id=56827) and extract it, you will see various files in **Creating a Simple ETL Package\Sample Data** folder.

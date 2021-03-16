@@ -1,5 +1,5 @@
 ---
-PermaID: 100014
+PermaID: 100024
 Name: Flat File Destination
 ---
 
@@ -61,3 +61,17 @@ Go to the **Mappings** page to verify that all the columns are correct. Optional
 <img src="images/flat-file-destination-10.png" alt="Mappings page">
 
 Click on the **OK** button.
+
+<img src="images/flat-file-destination-11.png" alt="Completed mapping">
+
+## Test Package
+
+To test the package, go to the **Debug** menu, select **Start Debugging**.
+
+<img src="images/flat-file-destination-12.png" alt="Compiled successfully">
+
+In any text editor, open the `ErrorOutput.txt` file. 
+
+<img src="images/flat-file-destination-13.png" alt="ErrorOutput.txt">
+
+All the rows in the file contain the unmatched `CurrencyID` value `"BAD"`, `ErrorCode` value `-1071607778`, `ErrorColumn` value `0`, and `ErrorDescription` value `"Row yielded no match during lookup"`. The value of `ErrorColumn` is `0` because the error is not column-specific, rather, the lookup operation failed.

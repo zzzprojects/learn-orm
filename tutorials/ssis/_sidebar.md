@@ -9,6 +9,7 @@
 - [Variables](variables.md)
 - [Expressions](expressions.md)
 - [Event Handlers](event-handlers.md)
+- [Queries](queries.md)
 - [Create Integration Services Project](create-integration-services-project.md)
 - [Configure Flat File](configure-flat-file.md)
 - [Add and Configure an OLE DB](add-and-configure-an-oledb.md)

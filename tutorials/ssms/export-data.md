@@ -13,7 +13,7 @@ Go to the **Object Explorer**, right-click on the database you want to export to
 
 <img src="images/export-data-2.png" alt="Choose Task > Export Data">
 
-It will open **SQL Server Import Export Wizard** dialog
+It will open **SQL Server Import Export Wizard** dialog.
 
 <img src="images/export-data-3.png" alt="SQL Server Import Export Wizard">
 
@@ -52,7 +52,7 @@ On the **Save and Run Package** dialog, select the **Run immediately** and then 
 
 On the **Complete the Wizard** dialog, you can check all the settings set during of exporting process. If everything is right, click the **Finish** button to start exporting the SQL database to Excel.
 
-<img src="images/export-data-11.png" alt="Complete the Wizard"> 
+<img src="images/export-data-11.png" alt="Exported data"> 
 
 You can view the exporting process, when it completes, click on the **Close** button and open the `CustomerData.xls` file.
 

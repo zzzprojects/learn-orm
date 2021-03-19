@@ -3,4 +3,5 @@
 - [SSMS Components](ssms-components.md)
 - [Export Data](export-data.md)
 - [Import Data](import-data.md)
+- [Create Database](create-database.md)
 

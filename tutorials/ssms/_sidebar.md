@@ -5,3 +5,4 @@
 - [Import Data](import-data.md)
 - [Create Database](create-database.md)
 - [Create Database Backup](create-database-backup.md)
+- [Restore a Database Backup](restore-a-database-backup.md)

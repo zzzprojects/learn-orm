@@ -1,2 +1,2 @@
 - [Overview](overview.md)
-
+- [SQL Server Profiler Concepts](sql-server-profiler-concepts.md)

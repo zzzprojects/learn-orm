@@ -13,7 +13,7 @@ Right-click **Databases**, and then click **New Database...**
 
 <img src="images/create-database-2.png" alt="New Database">
 
-On the **New Database** dialog, enter a database name. To create the database by accepting all default values, click the **OK** button, otherwise, continue with the following optional steps.
+On the **New Database** dialog, enter a database name. To create the database by accepting all default values, click the **OK** button. Otherwise, continue with the following optional steps.
 
 To change the owner name, click **(...)** to select another owner.
 
@@ -21,7 +21,7 @@ To change the default values of the primary data and transaction log files, in t
 
 <img src="images/create-database-3.png" alt="New Database">
 
-To change the collation of the database, select the **Options** page, and then select a collation from the list.
+To change the collation of the database, select the **Options** page and then select a collation from the list.
 
 <img src="images/create-database-4.png" alt="Select collation">
 
@@ -33,13 +33,13 @@ To add a new filegroup, click the **Filegroups** page. Click **Add Filegroups** 
 
 <img src="images/create-database-6.png" alt="Add Filegroups">
 
-Once you are done with all the settings, click the **OK** button and it will create the database.
+Once you are done with all the settings, click the **OK** button, and it will create the database.
 
 <img src="images/create-database-6.png" alt="Database created">
 
 ## Using Transact-SQL
 
-You can also create a database using Transact-SQL (T-SQL) by connecting to the **Database Engine** and then from the Standard bar, click **New Query**. Copy and paste the following example into the query window and click **Execute**. 
+You can also create a database using Transact-SQL (T-SQL) by connecting to the **Database Engine**, and then from the Standard bar, click **New Query**. Copy and paste the following example into the query window and click **Execute**. 
 
 ```csharp
 USE [master]

@@ -5,7 +5,7 @@ Name: Export Data
 
 # Export Data
 
-SQL Server Management Studio (SSMS) provides the Export Wizard task which you can use to copy data from one data source to another. Let's open SQL Server Management Studio and connect to the database. 
+SQL Server Management Studio (SSMS) provides the Export Wizard task, which you can use to copy data from one data source to another. Let's open SQL Server Management Studio and connect to the database. 
 
 <img src="images/export-data-1.png" alt="Connect database in SSMS">
 
@@ -30,7 +30,7 @@ After everything is set, click the **Next** button.
 
 <img src="images/export-data-5.png" alt="Set destination">
 
-On the **Choose a Destination** dialog, choose **Microsoft Excel** from the **Destination** drop-down. You will also need to choose the Excel file path and version as you need and then, click the **Next** button.
+On the **Choose a Destination** dialog, choose **Microsoft Excel** from the **Destination** drop-down. You will also need to choose the Excel file path and version as you need and then click the **Next** button.
 
 <img src="images/export-data-6.png" alt="Specify Table Copy or Query">
 
@@ -54,6 +54,6 @@ On the **Complete the Wizard** dialog, you can check all the settings set during
 
 <img src="images/export-data-11.png" alt="Exported data"> 
 
-You can view the exporting process, when it completes, click on the **Close** button and open the `CustomerData.xls` file.
+You can view the exporting process. When it completes, click on the **Close** button and open the `CustomerData.xls` file.
 
 <img src="images/export-data-12.png" alt="Open Excel file"> 

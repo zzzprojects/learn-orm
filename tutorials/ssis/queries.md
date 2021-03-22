@@ -21,11 +21,11 @@ You can provide the SQL statement in the following ways:
 
 ## Direct Input SQL
 
-Query Builder is available in the user interface for the Execute SQL task, the OLE DB source, the OLE DB destination, and the Lookup transformation. Query Builder offers the following advantages:
+Query Builder is available in the Execute SQL task's user interface, the OLE DB source, the OLE DB destination, and the Lookup transformation. Query Builder offers the following advantages:
 
  - **Work visually or with SQL commands**
 
-   - Query Builder includes graphical panes that compose your query visually and a text pane that displays the SQL text of your query. 
+   - Query Builder includes graphical panes that compose your query visually and a text pane that displays your query's SQL text.
    - You can work in either the graphical or text panes. 
    - Query Builder synchronizes the views so that the query text and graphical representation always match.
 
@@ -43,7 +43,7 @@ Query Builder is available in the user interface for the Execute SQL task, the O
 
 ## SQL in Files
 
-The SQL statement for the Execute SQL task can also reside in a separate file. 
+The SQL statement for the Execute SQL task can also reside in a separate file.
 
  - You can write queries using tools such as the **Query Editor** in **SQL Server Management Studio**, save the query to a file, and then read the query from the file when running a package. 
  - The file can contain only the SQL statements to run and comments. 
@@ -60,7 +60,7 @@ If the source of the SQL statement in the Execute SQL task is a variable, you pr
 
 You can use the **Query Builder** dialog to create a query for use in the Execute SQL task, the OLE DB source and the OLE DB destination, and the Lookup transformation. You can use Query Builder to perform the following tasks:
 
- - The Query Builder includes a pane that displays your query graphically and a pane that displays the SQL text of your query. You can work in either the graphical pane or the text pane. Query Builder synchronizes the views so that they are always current.
+ - The Query Builder includes a pane that displays your query graphically and a pane that displays your query's SQL text. You can work in either the graphical pane or the text pane. Query Builder synchronizes the views so that they are always current.
  - If you add more than one table to your query, it automatically determines how the tables are related and construct the appropriate join command.
  - You can use Query Builder to return data by using Transact-SQL SELECT statements and to create queries that update, add, or delete records in a database.
  - You can run your query and work with a recordset in a grid that allows you to scroll through and edit records in the database.

@@ -29,7 +29,9 @@ The **Edit Filter** dialog contains a list of comparison operators that you can 
 
 <img src="images/filter-events-3.png" alt="Edit Filter">
 
-To apply a filter, click the comparison operator, and type a value to use for the filter and also check the **Exclude rows that do not contain values** checkbox and then click **OK** button.
+To apply a filter, click the **Duration** column heading, expand **Greater than or Less than**, and then enter a `100000` value in the field that appears beneath the comparison operator. 
+
+You can also check the **Exclude rows that do not contain values** checkbox and then click **OK** button.
 
 <img src="images/filter-events-4.png" alt="SQL Server Profiler">
 

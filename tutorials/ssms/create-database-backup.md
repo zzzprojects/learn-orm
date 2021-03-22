@@ -7,7 +7,7 @@ Name: Create Database Backup
 
 It is sometimes useful to copy a database from one computer to another, whether for testing, checking consistency, developing software, running reports, creating a mirror database, or, possibly, to make the database available to remote-branch operations.
 
-After connecting to the appropriate instance of the Microsoft SQL Server Database Engine, in Object Explorer, expand the server tree.
+After connecting to the Microsoft SQL Server Database Engine's appropriate instance, in Object Explorer, expand the server tree.
 
 <img src="images/create-database-backup-1.png" alt="Connect to SQL Server Instance">
 
@@ -43,12 +43,12 @@ When the backup completes successfully, click **OK** to close the SQL Server Man
 
 ## Using Transact-SQL
 
-You can also create a full database backup by executing the `BACKUP DATABASE` statement to create the full database backup, by specifying:
+You can also create a full database backup by executing the `BACKUP DATABASE` statement to create the full database backup by specifying:
 
  - The name of the database to back up.
  - The backup device where the full database backup is written.
 
-The following example backs up the complete `BookStore` database to disk, by using `FORMAT` to create a new media set.
+The following example backs up the complete `BookStore` database to disk by using `FORMAT` to create a new media set.
 
 ```csharp
 USE BookStore;

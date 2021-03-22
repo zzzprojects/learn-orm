@@ -34,8 +34,8 @@ The Conditional Split transformation implements a decision structure based on ex
 
 ### Derived Column Transformation
 
- - The **Derived Column** transformation uses values created by using expressions either to populate new columns in a data flow or to update existing columns. 
- - For example, the expression `Column1 + " ABC"` can be used to update a value or to create a new value with the concatenated string.
+ - The **Derived Column** transformation uses values created by using expressions to populate new columns in a data flow or update existing columns. 
+ - For example, the expression `Column1 + " ABC"` can update a value or create a new value with the concatenated string.
 
 ### Variables
 

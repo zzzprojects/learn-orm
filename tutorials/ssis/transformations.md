@@ -5,7 +5,7 @@ Name: Transformations
 
 # Transformations
 
-SQL Server Integration Services transformations are the components in the data flow of a package that aggregate, merge, distribute, and modify data. Transformations can also perform lookup operations and generate sample datasets. 
+SQL Server Integration Services transformations are the components in the data flow of a package that aggregate, merge, distribute, and modify data. Transformations can also perform lookup operations, and generate sample datasets. 
 
 ## Business Intelligence Transformations
 
@@ -14,12 +14,12 @@ The following transformations perform business intelligence operations such as c
 | Transformation                     | Description                                                                              |
 | :----------------------------------| :----------------------------------------------------------------------------------------|
 | Slowly Changing Dimension Transformation | The transformation that configures the updating of a slowly changing dimension.    |
-| Fuzzy Grouping Transformation      | The transformation that standardizes values in column data.                              |
-| Fuzzy Lookup Transformation        | The transformation that looks up values in a reference table using a fuzzy match.        |
-| Term Extraction Transformation     | The transformation that extracts terms from text.                                        |
-| Term Lookup Transformation         | The transformation that looks up terms in a reference table and counts terms extracted from the text.  |
-| Data Mining Query Transformation   | The transformation that runs data mining prediction queries.                             |
-| DQS Cleansing Transformation       | The transformation that corrects data from a connected data source by applying rules that were created for the data source. |
+| Fuzzy Grouping Transformation      | The transformation standardizes values in column data.                              |
+| Fuzzy Lookup Transformation        | The transformation looks up values in a reference table using a fuzzy match.        |
+| Term Extraction Transformation     | The transformation extracts terms from text.                                        |
+| Term Lookup Transformation         | The transformation looks up terms in a reference table and counts terms extracted from the text.  |
+| Data Mining Query Transformation   | The transformation runs data mining prediction queries.                             |
+| DQS Cleansing Transformation       | The transformation corrects data from a connected data source by applying rules that were created for the data source. |
 
 ## Row Transformations
 
@@ -27,14 +27,14 @@ The following transformations update column values and create new columns. The t
 
 | Transformation                     | Description                                                                              |
 | :----------------------------------| :----------------------------------------------------------------------------------------|
-| Character Map Transformation | The transformation that applies string functions to character data.
-| Copy Column Transformation | The transformation that adds copies of input columns to the transformation output.
-| Data Conversion Transformation | The transformation that converts the data type of a column to a different data type.
-| Derived Column Transformation | The transformation that populates columns with the results of expressions.
-| Export Column Transformation | The transformation that inserts data from a data flow into a file.
-| Import Column Transformation | The transformation that reads data from a file and adds it to a data flow.
-| Script Component | The transformation that uses a script to extract, transform, or load data.
-| OLE DB Command Transformation | The transformation that runs SQL commands for each row in a data flow.
+| Character Map Transformation | The transformation applies string functions to character data.
+| Copy Column Transformation | The transformation adds copies of input columns to the transformation output.
+| Data Conversion Transformation | The transformation converts the data type of a column to a different data type.
+| Derived Column Transformation | The transformation populates columns with the results of expressions.
+| Export Column Transformation | The transformation inserts data from a data flow into a file.
+| Import Column Transformation | The transformation reads data from a file and adds it to a data flow.
+| Script Component | The transformation uses a script to extract, transform, or load data.
+| OLE DB Command Transformation | The transformation runs SQL commands for each row in a data flow.
 
 ## Rowset Transformations
 

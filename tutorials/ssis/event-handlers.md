@@ -21,13 +21,13 @@ Event handlers can perform tasks such as the following:
 
 ## Event Handler Content
 
-Creating an event handler is similar to building a package; an event handler has tasks and containers, which are sequenced into a control flow, and an event handler can also include data flows. The SSIS Designer includes the Event Handlers tab for creating custom event handlers.
+Creating an event handler is similar to building a package; an event handler has tasks and containers, sequenced into a control flow, and an event handler can also include data flows. The SSIS Designer includes the Event Handlers tab for creating custom event handlers.
 
 You can also create event handlers programmatically.
 
 ## Run-Time Events
 
-The following table lists the event handlers that Integration Services provides, and describes the run-time events that cause the event handler to run.
+The following table lists the event handlers that Integration Services provides and describes the run-time events that cause the event handler to run.
 
 | Event handler            | Event                                                                 |
 | :------------------------| :---------------------------------------------------------------------------|
@@ -49,7 +49,7 @@ The following table lists the event handlers that Integration Services provides,
 At run time, containers and tasks raise events. You can create custom event handlers that respond to these events by running a workflow when the event is raised. 
 
  - For example, you can create an event handler that sends an e-mail message when a task fails.
- - An event handler is similar to a package, like a package, an event handler can provide scope for variables, and includes a control flow and optional data flows. 
+ - An event handler is similar to a package, it can also provide scope for variables, and includes a control flow and optional data flows. 
  - You can build event handlers for packages, the **Foreach Loop** container, the **For Loop** container, the **Sequence** container, and all tasks.
 
 You create event handlers by using the design surface of the **Event Handlers** tab in SSIS Designer.

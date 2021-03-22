@@ -27,16 +27,16 @@ You can see now that 2 progress bars, one is for package-specific progress and t
 
 <img src="images/setup-4.png" alt="Restart required">
 
-SQL Server Management Studio has been installed successfully and the installation requires a restart of the machine. Click the **Restart** button to complete this installation.
+SQL Server Management Studio has been installed successfully, and the installation requires a restart of the machine. Click the **Restart** button to complete this installation.
 
 Go to the start menu and search "sql server management studio".
 
 <img src="images/setup-5.png" alt="Search SSMS on start menu">
 
-You can see **Microsoft SQL Server Management Studio 18**, select it and you will see the **Connect to Server** dialog, enter the SQL Server instance details
+You can see **Microsoft SQL Server Management Studio 18**, select it and you will see the **Connect to Server** dialog, enter the SQL Server instance details.
 
 <img src="images/setup-6.png" alt="Enter the SQL Server instance details">
 
-Click on the **Connect** button and you can see that the database connection has been established with the SQL Server 2019.
+Click on the **Connect** button, and you can see that the database connection has been established with the SQL Server 2019.
 
 <img src="images/setup-7.png" alt="Connection established with the SQL Server 2019">

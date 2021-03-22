@@ -25,7 +25,7 @@ Click on the **Add** button and navigate to where your .bak file is located.
 
 <img src="images/restore-database-backup-4.png" alt="Select backup file">
 
-Select the `.bak` file and then click **OK** button. Select the **OK** button again to close the **Select backup devices** dialog.
+Select the `.bak` file and then click the **OK** button. Select the **OK** button again to close the **Select backup devices** dialog.
 
 <img src="images/restore-database-backup-5.png" alt="Data name">
 

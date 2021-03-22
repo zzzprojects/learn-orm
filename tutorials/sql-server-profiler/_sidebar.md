@@ -3,3 +3,4 @@
 - [Run SQL Server Profiler](run-sql-server-profiler.md)
 - [Create a Trace](create-a-trace.md)
 - [Organize Columns](organize-columns.md)
+- [Filter Events](filter-events.md)

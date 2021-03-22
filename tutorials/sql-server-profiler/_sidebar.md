@@ -1,2 +1,3 @@
 - [Overview](overview.md)
 - [SQL Server Profiler Concepts](sql-server-profiler-concepts.md)
+- [Run SQL Server Profiler](run-sql-server-profiler.md)

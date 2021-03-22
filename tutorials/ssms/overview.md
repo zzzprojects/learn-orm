@@ -8,9 +8,9 @@ Name: Overview
 SQL Server Management Studio (SSMS) is an integrated environment for managing any SQL infrastructure, from SQL Server to Azure SQL Database. 
 
  - SSMS provides tools to configure, monitor, and administer instances of SQL Server and databases. 
- - You can use SSMS to deploy, monitor, and upgrade the data-tier components used by your applications, and build queries and scripts.
- - It allows you to connect to and manage your SQL Server from a graphical interface instead of having to use the command line.
- - SQL Server ManagementStudio also provides Transact-SQL, MDX, DMX,and XML languageeditors for editing and debugging scripts.
+ - You can use SSMS to deploy, monitor, and upgrade your applications' data-tier components and build queries and scripts.
+ - It allows you to connect to and manage your SQL Server from a graphical interface instead of using the command line.
+ - SQL Server ManagementStudio also provides Transact-SQL, MDX, DMX, and XML languageeditors for editing and debugging scripts.
 
 ## SSMS System Requirements
 
@@ -34,9 +34,9 @@ The current release of SSMS supports the following 64-bit platforms when used wi
 
 ## Why SSMS?
 
-A central feature of SQL Server Management Studio is the **Object Explorer**, which allows the user to browse, select, and act upon any of the objects within the server. 
+A central feature of SQL Server Management Studio is the **Object Explorer**, which allows the user to browse, select, and act upon any of the server's objects. 
 
  - It can be used to visually observe and analyze query plans and optimize the database performance, among others. 
  - SQL Server Management Studio can also be used to create a new database, alter any existing database schema by adding or modifying tables and indexes, or analyze performance. 
- - It includes the query windows which provide a GUI based interface to write and execute queries.
+ - It includes the query windows, which provide a GUI based interface to write and execute queries.
 

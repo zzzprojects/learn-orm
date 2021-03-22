@@ -17,13 +17,13 @@ The **Object Explorer** provides a hierarchical user interface to view and manag
  - **Security:** It contains all Security related things. Use this folder to Create Logins, Server Roles, etc.
  - **Server Objects:** This folder contains information about Linked Server, Service Brokers, System Endpoints, Database Mirroring, etc.
  - **Replication:** This folder contains information about Subscriptions and publications.
- - **Management:** Use this folder for maintenance such as Checking Server Logs, Session health, etc. This folder is used to create Maintenance Plans
+ - **Management:** Use this folder for maintenance, such as Checking Server Logs, Session health, etc. This folder is used to create Maintenance Plans.
 
-The **Object Explorer Details** pane presents a tabular view of instance objects, and the capability to search for specific objects. 
+The **Object Explorer Details** pane presents a tabular view of instance objects and the capability to search for specific objects. 
 
 <img src="images/ssms-components-1.png" alt="Object Explorer Details pane">
 
-This view is more granular than the view in **Object Explorer**. You can use **Object Explorer Details** to manipulate multiple objects at the same time. For example, in this window, you can select multiple databases, and then either delete them or script them out simultaneously.
+This view is more granular than the view in **Object Explorer**. You can use **Object Explorer Details** to manipulate multiple objects at the same time. For example, in this window, you can select multiple databases and then either delete them or script them out simultaneously.
 
 The capabilities of **Object Explorer** vary slightly depending on the type of server but generally include the development features for databases and management features for all server types.
 
@@ -41,7 +41,7 @@ The **Registered Servers** window appears above or adjacent to **Object Explorer
 
 ## Query Window
 
-If you want to write a query against any database, then you have to click the **New Query** button.
+If you want to write a query against any database, you have to click the **New Query** button.
 
 <img src="images/ssms-components-3.png" alt="Click New Query button">
 
@@ -51,7 +51,7 @@ Let's add the following simple query.
 select * from sys.databases
 ```
 
-To execute your query click on the **Execute** button
+To execute your query, click on the **Execute** button
  
 <img src="images/ssms-components-4.png" alt="Click Execute button"> 
 

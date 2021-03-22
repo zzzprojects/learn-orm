@@ -13,9 +13,9 @@ The XML source reads an XML data file and populates the columns in the source ou
 
 ## Schemas
 
-The XML source uses a schema to interpret the XML data. The XML source supports the use of an XML Schema Definition (XSD) file or inline schemas to translate the XML data into a tabular format. 
+The XML source uses a schema to interpret the XML data. The XML source supports using an XML Schema Definition (XSD) file or inline schemas to translate the XML data into a tabular format. 
 
- - If you configure the XML source by using the XML Source Editor dialog box, the user interface can generate an XSD from the specified XML data file.
+ - If you configure the XML source using the XML Source Editor dialog box, the user interface can generate an XSD from the specified XML data file.
  - The schemas can support a single namespace only; they do not support schema collections.
 
 ## XML Source Editor
@@ -29,7 +29,7 @@ The XML Source Editor dialog uses the specified schema to generate the XML sourc
 
 ## Configuration of the XML Source
 
-The XML source supports three different data access modes. You can specify the file location of the XML data file, the variable that contains the file location, or the variable that contains the XML data.
+The XML source supports three different data access modes. You can specify the XML data file's file location, the variable that contains the file location, or the variable that contains the XML data.
 
  - The XML source includes the **XMLData** and **XMLSchemaDefinition** custom properties that can be updated by property expressions when the package is loaded.
  - The XML source supports multiple regular outputs and multiple error outputs.

@@ -13,7 +13,7 @@ You can use variables in Integration Services packages for the following purpose
 
  - Updating properties of package elements at run time. For example, you can dynamically set the number of concurrent executables that a Foreach Loop container allows.
  - Including an in-memory lookup table. For example, a package can run an Execute SQL task that loads a variable with data values.
- - Loading variables with data values and then using them to specify a search condition in a WHERE clause. For example, the script in a Script task can update the value of a variable that is used by a Transact-SQL statement in an Execute SQL task.
+ - Loading variables with data values and then using them to specify a search condition in a WHERE clause. For example, the script in a Script task can update the value of a variable used by a Transact-SQL statement in an Execute SQL task.
  - Loading a variable with an integer and then using the value to control looping within a package control flow. For example, you can use a variable in the evaluation expression of a For Loop container to control iteration.
  - Populating parameter values for Transact-SQL statements at run time. For example, a package can run an Execute SQL Task and then use variables to dynamically set the parameters in a Transact-SQL statement.
  - Building expressions that include variable values. For example, the Derived Column transformation can populate a column with the result obtained by multiplying a variable value by a column value.
@@ -28,7 +28,7 @@ Integration Services supports two types of variables.
 User-defined variables are defined by package developers, and system variables are defined by Integration Services. 
 
  - You can create as many user-defined variables as a package requires, but you cannot create additional system variables.
- - All the variables can be used in the parameter bindings that the Execute SQL task uses to map variables to parameters in SQL statements.
+ - All the variables can be used in the parameter bindings that the Execute SQL task uses to map variables to SQL statements parameters.
 
 ## Configure User-defined Variables
 
@@ -62,13 +62,13 @@ You can use the Variables window to create and modify user-defined variables and
 | Option            | Description                                                                 |
 | :-----------------| :---------------------------------------------------------------------------|
 | Add Variable      | Add a user-defined variable.
-| Move Variable     | Click a variable in the list, and then click Move Variable to change the variable scope. In the Select New Scope dialog box, select the package or a container, task, or event handler in the package, to change the variable scope.
+| Move Variable     | Click a variable in the list. Then click Move Variable to change the variable scope. In the Select New Scope dialog box, select the package or a container, task, or event handler in the package to change the variable scope.
 | Delete Variable   | Select a variable from the list, and then click Delete Variable.
 | Grid Options      | Click to open the Variable Grid Options dialog box where you can change the column selection and apply filters to the Variables window. For more information, see Variable Grid Options.
 | Name              | View the variable name. You can update the name for user-defined variables.
 | Scope             | View the scope of the variable. A variable has either the scope of the entire package or the scope of a container or task. The scope of the variable must be sufficient so that the variable is visible to any other tasks or components that need to read or set its value. You can change the scope by clicking the variable and then clicking Move Variable in the Variables window.
 | Data Type         | View the data type of the variable. You can select a data type from the list for user-defined variables.
-| Value             | View the variable value. You can update the value for user-defined variables. This value can be a literal or an expression, and the value can be a multi-line string. To assign an expression to the variable, click the ellipse button that is next to the Expression column in the Variables window.
+| Value             | View the variable value. You can update the value for user-defined variables. This value can be a literal or an expression, and the value can be a multi-line string. To assign an expression to the variable, click the ellipse button next to the Expression column in the Variables window.
 | Namespace         | View the namespace name. User-defined variables are initially created in the User namespace, but you can change the namespace name in the Namespace field. To display this column, click Grid Options.
 | Raise Change Event| Indicate whether to raise the OnVariableValueChanged event when a value changes. You can update the value for user-defined and system variables. By default, the Variables window does not list this column. To display this column, click Grid Options.
 | Description       | View the variable description. You can change the description for user-defined variables. By default, the Variables window does not list this column. To display this column, click Grid Options.

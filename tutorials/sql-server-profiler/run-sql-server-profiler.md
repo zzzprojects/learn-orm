@@ -15,7 +15,7 @@ You can also launch the Profiler from SQL Server Management Studio, so open the 
 
 <img src="images/run-sql-server-profiler-2.png" alt="Launch SQL Server Profiler from SSMS">
 
-Now select the **Tools > SQL Server Profiler** and it will open the **Connect to Server** dialog.
+Now select the **Tools > SQL Server Profiler**, and it will open the **Connect to Server** dialog.
 
 <img src="images/run-sql-server-profiler-3.png" alt="Connect to Server dialog">
 
@@ -28,7 +28,7 @@ On the **General** tab, you can set the following settings.
  - Enter the trace name
  - You can select a trace template from a drop-down list based on your needs. 
    - A template is a set of tuning events that are caught by the profiler trace. 
-   - There are different predefine templates such as T-SQL, Tuning or you can select the standard (default) template or start from scratch by selecting the Blank template.
+   - There are different predefine templates such as T-SQL, Tuning, or selecting the standard (default) template or starting from scratch by selecting the Blank template.
  - You can select whether you need to save the trace results into a table or external file
  - You can also stop the trace at a specific date-time.
 
@@ -42,11 +42,11 @@ Now let's go to the **General** tab again, enter a name in the **Trace name** fi
 
 <img src="images/run-sql-server-profiler-6.png" alt="Connect to Server">
 
-Click on the **Connect** button and you will see a **Destination Table** dialog.
+Click on the **Connect** button, and you will see a **Destination Table** dialog.
 
 <img src="images/run-sql-server-profiler-7.png" alt="Destination Table">
 
-Select the destination table and click **OK** button.
+Select the destination table and click the **OK** button.
 
 <img src="images/run-sql-server-profiler-8.png" alt="Destination Table information added">
 

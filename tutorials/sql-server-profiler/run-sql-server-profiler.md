@@ -53,11 +53,3 @@ Select the destination table and click **OK** button.
 Now let's run the trace by clicking on the **Run** button.
 
 <img src="images/run-sql-server-profiler-9.png" alt="Tracing the database">
-
-As you can see tracing started, let's open a query editor and execute a simple query.
-
-<img src="images/run-sql-server-profiler-10.png" alt="Execute a simple query">
-
-When you execute this simple query and then go to the SQL Server Profiler and you will see the query logs.
-
-<img src="images/run-sql-server-profiler-11.png" alt="Tracing the database after executed a query">

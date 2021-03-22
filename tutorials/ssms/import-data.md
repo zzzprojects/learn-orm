@@ -5,7 +5,7 @@ Name: Import Data
 
 # Import Data
 
-SQL Server Management Studio (SSMS) provides the Import Wizard task which you can use to copy data from one data source to another. We will import data from the excel file which contains the following sample currency data.
+SQL Server Management Studio (SSMS) provides the Import Wizard task, which you can use to copy data from one data source to another. We will import data from the excel file, which contains the following sample currency data.
 
 <img src="images/import-data.png" alt="Excel data">
 
@@ -25,7 +25,7 @@ Enter **CurrencyDB** as the name of the database and click on the **OK** button.
 
 <img src="images/import-data-4.png" alt="New Database added">
 
-Now in the **Object Explorer** you can see that a new **CurrencyDB** database is added, right-click on that database and choose **Tasks > Import Data**.
+Now in the **Object Explorer**, you can see that a new **CurrencyDB** database is added, right-click on that database and choose **Tasks > Import Data**.
 
 <img src="images/import-data-5.png" alt="Task > Import Data">
 
@@ -33,7 +33,7 @@ It will open **SQL Server Import Export Wizard** dialog.
 
 <img src="images/import-data-6.png" alt="SQL Server Import Export Wizard">
 
-On the **Choose a Data Source** dialog, choose **Microsoft Excel** from the **Destination** drop-down. You will also need to choose the Excel file path and version as you need and then, click the **Next** button.
+On the **Choose a Data Source** dialog, choose **Microsoft Excel** from the **Destination** drop-down. You will also need to choose the Excel file path and version as you need and then click the **Next** button.
 
 <img src="images/import-data-7.png" alt="Choose a Data Source">
 
@@ -67,10 +67,10 @@ On the **Complete the Wizard** dialog, you can check all the settings set during
 
 <img src="images/import-data-13.png" alt="Imported data"> 
 
-You can view the importing process, when it completes, click on the **Close** button.
+You can view the importing process. When it completes, click on the **Close** button.
 
 <img src="images/import-data-14.png" alt="Imported data"> 
 
-Now expand the **CurrencyDB** database and you will see the `Currency` table which contains three columns. You can also view the imported data by opening a **New Query** editor and specify any query and then execute it.
+Now expand the **CurrencyDB** database, and you will see the `Currency` table, which contains three columns. You can also view the imported data by opening a **New Query** editor and specify any query and then execute it.
 
 <img src="images/import-data-15.png" alt="Imported data"> 

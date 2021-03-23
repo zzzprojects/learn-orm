@@ -7,3 +7,4 @@
 - [Replay Traces](replay-traces.md)
 - [Replay a Trace Table](replay-a-trace-table.md)
 - [Replay a Single Event at a Time](replay-a-single-event-at-a-time.md)
+- [Replay to a Breakpoint](replay-to-a-breakpoint.md)

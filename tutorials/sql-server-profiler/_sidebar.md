@@ -5,3 +5,4 @@
 - [Organize Columns](organize-columns.md)
 - [Filter Events](filter-events.md)
 - [Replay Traces](replay-traces.md)
+- [Replay a Trace Table](replay-a-trace-table.md)

@@ -35,3 +35,46 @@ SQL Server Profiler cannot replay the following kinds of traces:
  - Traces that contain operations that involve globally unique identifiers (GUID). These events will be skipped.
  - Traces that contain operations on **text**, **ntext**, and **image** columns involving the **bcp** utility, the `BULK INSERT`, `READTEXT`, `WRITETEXT`, and `UPDATETEXT` statements, and full-text operations. These events are skipped.
  - Traces that contain session binding: `sp_getbindtoken` and `sp_bindsession` system stored procedures. These events are skipped.
+
+## Event Classes Required for Replay
+
+To be replayed by SQL Server Profiler, the following set of event classes, in addition to any other event classes you want to monitor, must be captured in the trace:
+
+ - **CursorClose** (only required when replaying server-side cursors)
+ - **CursorExecute** (only required when replaying server-side cursors)
+ - **CursorOpen** (only required when replaying server-side cursors)
+ - **CursorPrepare** (only required when replaying server-side cursors)
+ - **CursorUnprepare** (only required when replaying server-side cursors)
+ - **Audit Login**
+ - **Audit Logout**
+ - **ExistingConnection**
+ - **RPC Output Parameter**
+ - **RPC:Completed**
+ - **RPC:Starting**
+ - **Exec Prepared SQL** (only required when replaying server-side prepared SQL statements)
+ - **Prepare SQL** (only required when replaying server-side prepared SQL statements)
+ - **SQL:BatchCompleted**
+ - **SQL:BatchStarting**
+
+## Data Columns Required for Replay
+
+In addition to any other data columns you want to capture, the following data columns must be captured in a trace to allow the trace to be replayed:
+
+ - **Event Class**
+ - **EventSequence**
+ - **TextData**
+ - **Application Name**
+ - **LoginName**
+ - **DatabaseName**
+ - **Database ID**
+ - **ClientProcessID**
+ - **HostName**
+ - **ServerName**
+ - **Binary Data**
+ - **SPID**
+ - **Start Time**
+ - **EndTime**
+ - **IsSystem**
+ - **NTDomainName**
+ - **NTUserName**
+ - **Error**

@@ -51,7 +51,7 @@ Select the **Replay > Start** menu, and connect to the server instance where you
 
 <img src="images/replay-a-trace-table-11.png" alt="Replay > Start">
 
-It will open the **Replay Configuration** dialog. On the **Basic Replay Options** tab, specify Replay server.
+It will open the **Replay Configuration** dialog. On the **Basic Replay Options** tab, specify **Replay server**.
 
 <img src="images/replay-a-trace-table-12.png" alt="Basic Replay Options">
 

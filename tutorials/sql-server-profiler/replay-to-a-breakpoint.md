@@ -54,4 +54,4 @@ Select **Save to file** and option and specify the file, verify the settings, an
 
 <img src="images/replay-to-a-breakpoint-4.png" alt="Trace Window">
 
-Press **F5** to resume the replay and proceed to the next breakpoint or end of the trace if there is no other breakpoint available.
+The replay starts, pausing when the breakpoint is reached. Press **F5** to resume the replay and proceed to the next breakpoint or end of the trace if there is no other breakpoint available.

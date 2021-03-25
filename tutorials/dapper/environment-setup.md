@@ -35,4 +35,6 @@ Select the **Browse** tab and search for dapper and install the latest version b
 
 <img src="images/setup-7.png" alt="Dapper installed successfully">
 
-Once Dapper has been successfully installed, you are now ready to start your application.
+Once Dapper has been successfully installed, we also need to install [System.Data.SqlClient](https://www.nuget.org/packages/System.Data.SqlClient) NuGet package.
+
+You are now ready to start your application.

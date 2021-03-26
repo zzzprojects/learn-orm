@@ -56,6 +56,8 @@ namespace DapperDemo
 
 In the `Main` method, we will create a member of type `IDbConnection` with the `SqlConnection` by passing the connection string and then retrieve the data from the `Authors` table using the `Query` method.
 
+The `Query` extension method in Dapper enables you to retrieve data from the database and populate data in your object model.
+
 ```csharp
 static void Main(string[] args)
 {

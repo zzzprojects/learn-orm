@@ -7,7 +7,7 @@ Name: Insert Data
 
 Inserting data into the database is one of the CRUD operations that act on an individual row by inserting a row. There are various ways to insert new records into the database using Dapper ORM.
 
-You can easily insert a single new record by writing an `INSERT` statement with parameters for each column that we want to set.
+You can easily insert a single new record by writing an `INSERT` statement with parameters for each column that you want to set.
 
 
 ```csharp

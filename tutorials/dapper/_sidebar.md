@@ -5,3 +5,4 @@
 - [Map Column Names with Class Properties](map-column-names-with-class-properties.md)
 - [Insert Data](insert-data.md)
 - [Update Data](update-data.md)
+- [Delete Data](delete-data.md)

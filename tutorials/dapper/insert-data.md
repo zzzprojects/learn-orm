@@ -75,4 +75,7 @@ Cardinal Tom B. Erichsen
 Meredith Alonso
 Robert T. Kiyosaki
 William Shakespeare
+Emily Dickinson
+Leo Tolstoy
+Rabindranath Tagore
 ```

@@ -5,7 +5,7 @@ Name: Retrieve Parent-Child Objects
 
 # Retrieve Parent-Child Objects
 
-So far, we have performed operations on a single row. But what if we need to deal with more complex objects that have parent-child relationships. Let's consider in our example, we have a one-to-many relationship between an `Author` and `Book`.  A single author can have many books. 
+So far, we have performed operations on a single row. But what if we need to deal with more complex objects that have parent-child relationships. Let's consider our example. We have a one-to-many relationship between an `Author` and `Book`.  A single author can have many books. 
 
 If you look at the `Author`, you can see a list of books. 
 
@@ -28,7 +28,7 @@ namespace DapperDemo
 }
 ```
 
-In a database, you can see that on the first row of `Authors` is that **Cardinal Tom B. Erichsen** has an `Id = 1`. 
+In a database, you can see on the first row of `Authors` that **Cardinal Tom B. Erichsen** has an `Id = 1`. 
 
 <img src="images/retrieve-parent-child-objects-1.png" alt="Database data">
 
@@ -66,7 +66,7 @@ private static void GetAuthorAndTheirBooks(int id)
 }
 ```
 
-You can see that first, we have specified two different SELECT statements, the first one for the individual author and the second one for the books written by that author. 
+You can see that first, we have specified two different SELECT statements, the first one for the individual author and the second one for the author's books. 
 
  - The `QueryMultiple` is an extension method that returns multiple result sets in the query results of type `GridReader`. 
  - Then we simply need to call the `Read` method on that object multiple times to get the author record and then for books. 
@@ -81,7 +81,7 @@ static void Main(string[] args)
 }
 ```
 
-Let's execute the above code and you will see the following output.
+Let's execute the above code, and you will see the following output.
 
 ```csharp
 Cardinal Tom B. Erichsen

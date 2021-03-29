@@ -17,11 +17,11 @@ You add filters to trace definitions by using the **Events Selection** tab of th
 
  - The **Events Selection** tab contains a grid control. 
  - The grid control is a table that contains each of the traceable event classes. 
- - The table contains one row for each event class and the event classes may differ slightly, depending on the type and version of the server to which you are connected. 
+ - The table contains one row for each event class. The event classes may differ slightly, depending on the type and version of the server to which you are connected. 
  - The event classes are identified in the **Events** column of the grid and are grouped by event category. 
  - The remaining columns list the data columns that can be returned for each event class.
 
-Click on the **Column Filters** button and you will see **Edit Filter**.
+Click on the **Column Filters** button, and you will see **Edit Filter**.
 
 <img src="images/filter-events-2.png" alt="Edit Filter">
 
@@ -31,7 +31,7 @@ The **Edit Filter** dialog contains a list of comparison operators that you can 
 
 To apply a filter, click the **Duration** column heading, expand **Greater than or Less than**, and then enter a `100000` value in the field that appears beneath the comparison operator. 
 
-You can also check the **Exclude rows that do not contain values** checkbox and then click **OK** button.
+You can also check the **Exclude rows that do not contain values** checkbox and then click the **OK** button.
 
 <img src="images/filter-events-4.png" alt="SQL Server Profiler">
 

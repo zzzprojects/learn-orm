@@ -5,7 +5,7 @@ Name: Replay a Trace Table
 
 # Replay a Trace Table
 
-Replay is the ability to open a saved trace and replay it again. SQL Server Profiler features a multithreaded playback engine that can simulate user connections and SQL Server Authentication. Replay is useful to troubleshoot an application or process problem. 
+The ability to open and replay a previously saved trace is known as replay. A multithreaded replay engine in SQL Server Profiler can simulate user connections and SQL Server Authentication. It is very helpful while troubleshooting an application.
 
 Let's open the **SQL Server Profiler** and go to the **File > New Trace...** menu.
 
@@ -55,14 +55,9 @@ It will open the **Replay Configuration** dialog. On the **Basic Replay Options*
 
 <img src="images/replay-a-trace-table-12.png" alt="Basic Replay Options">
 
-You can select one of the following destinations in which to save the replay:
+You can save the replay in either a file or database table. So let's select **Save to file** option and specify the file. 
 
- - **Save to file**, which specifies a file in which to save the replay.
- - **Save to table**, which specifies a database table in which to save the replay.
-
-Select **Save to file** and option and specify the file and choose the **Replay the events in the order they were traced** option.
-
-Select the **Display replay results** to view the replay as it occurs and click the **Advanced Replay Options** tab.
+In the **Replay options** section, choose the **Replay the events in the order they were traced** option and select the **Display replay results** to view the replay as it occurs and click the **Advanced Replay Options** tab.
 
 <img src="images/replay-a-trace-table-13.png" alt="Advanced Replay Options">
 

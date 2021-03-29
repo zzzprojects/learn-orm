@@ -19,7 +19,7 @@ Click on the **Connect** button to connect to an instance of SQL Server and then
 
 <img src="images/replay-a-trace-table-3.png" alt="Trace Properties">
 
-In the **Trace name** field, type a name for the trace, and in the **Use the template** list, select a `TSQL_Replay` template and choose **Save to table** option and connect to the server.
+In the **Trace name** field, type a name for the trace, and in the **Use the template** list, select a `TSQL_Replay` template, choose the **Save to table** option, and connect to the server.
 
 <img src="images/replay-a-trace-table-4.png" alt="Select Destination Table">
 
@@ -35,7 +35,7 @@ You will see the required events classes for Replay. Now run the trace by clicki
 
 <img src="images/replay-a-trace-table-7.png" alt="Execute a simple query">
 
-When you execute this simple query and then go to the SQL Server Profiler and you will see the query logs.
+When you execute this simple query and then go to the SQL Server Profiler, you will see the query logs.
 
 <img src="images/replay-a-trace-table-8.png" alt="Tracing the database after executed a query">
 
@@ -66,7 +66,7 @@ Select the **Display replay results** to view the replay as it occurs and click 
 
 <img src="images/replay-a-trace-table-13.png" alt="Advanced Replay Options">
 
-Select **Replay system SPIDs** and then click **OK** button.
+Select **Replay system SPIDs** and then click the **OK** button.
 
 <img src="images/replay-a-trace-table-14.png" alt="Replay Started">
 

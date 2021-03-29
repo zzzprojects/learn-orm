@@ -14,7 +14,7 @@ Organize Columns enables you to either group the trace events or group and aggre
 
 ## To Group Data Columns
 
-Open an existing trace file or table, and go to the **File** menu and select **Properties**.
+Open an existing trace file or table, go to the **File** menu, and select **Properties**.
 
 <img src="images/organize-columns-1.png" alt="Trace Table Properties">
 
@@ -36,13 +36,13 @@ Click **OK** in the **Organize Columns** dialog, and then click **OK** in the **
 
 You can see that the data columns are reorganized in the displayed trace. 
 
- - The data column you moved to the top-most position in the **Groups** list is located first in the trace display when you are reading the grid from left to right.
- - The rows in the trace are organized in ascending order by the values contained in the data columns that you included in the Groups list. 
+ - The data column you moved to the top-most position in the **Groups** list is located first in the trace display when you read the grid from left to right.
+ - The rows in the trace are organized in ascending order by the values in the data columns that you included in the Groups list. 
  - The columns chosen for grouping remain fixed in the display, but you can scroll right or left to view the other columns.
 
 ## To Group and Aggregate Data Columns
 
-Open an existing trace file or table and then go to the **File** menu and select **Properties**.
+Open an existing trace file or table, and go to the **File** menu and select **Properties**.
 
 <img src="images/organize-columns-1.png" alt="Trace Table Properties">
 

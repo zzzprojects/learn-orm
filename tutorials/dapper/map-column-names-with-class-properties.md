@@ -16,7 +16,7 @@ class Author
 }
 ```
 
-We know it is called `FirstName` in the database, but we have changed the property name to `FName` just to make it something different. As a result of just making this change only, let's see what it looks like when you run it.
+We know it is called `FirstName` in the database, but we have changed the property name to `FName` to make it something different. As a result of making this change, let's see what it looks like when running it.
 
 ```csharp
 static void Main(string[] args)
@@ -32,7 +32,7 @@ static void Main(string[] args)
 }
 ```
 
-Now you will see that only last name is printed on the console. 
+Now you will see that only the last name is printed on the console. 
 
 <img src="images/map-column-names-with-class-properties-1.png" alt="Output">
 
@@ -52,8 +52,8 @@ static void Main(string[] args)
 }
 ```
 
-Now you can see that in the query, we are querying the `FirstName` column in the database and change it to `FName` in the result set and the other, we can just fill in the rest of the existing column names. Let's run the application and see the results.
+Now you can see in the query, we are querying the `FirstName` column in the database and changing it to `FName` in the result set, and the other, we can fill in the rest of the existing column names. Let's run the application and see the results.
 
 <img src="images/map-column-names-with-class-properties-2.png" alt="Output">
 
-You can see that now both `FirstName` and `LastName` are printed on the console. 
+You can see now both `FirstName` and `LastName` are printed on the console. 

@@ -27,7 +27,7 @@ On the **Additional Information** dialog, select the target framework and then c
 
 <img src="images/setup-5.png" alt="Console Application created">
 
-You can see a new console application project is created. Now to install a Dapper, right-click on the project in the **Solution Explorer** and select **Manage NuGet Packages...**
+You can see a new console application project is created. Now install a Dapper, right-click on the **Solution Explorer** project, and select **Manage NuGet Packages...**
 
 <img src="images/setup-6.png" alt="Install Dapper">
 

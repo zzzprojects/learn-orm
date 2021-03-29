@@ -11,11 +11,11 @@ You can write **SQL Server Profiler** in the **Start** menu search bar, and you 
 
 <img src="images/run-sql-server-profiler-1.png" alt="Launch SQL Server Profiler from Windows Explorer">
 
-You can also launch the Profiler from SQL Server Management Studio, so open the SQL Server Management Studio and connect to the server instance.
+You can also launch the Profiler from SQL Server Management Studio by opening the SQL Server Management Studio and connecting to the server instance.
 
 <img src="images/run-sql-server-profiler-2.png" alt="Launch SQL Server Profiler from SSMS">
 
-Now select the **Tools > SQL Server Profiler**, and it will open the **Connect to Server** dialog.
+Now, select the **Tools > SQL Server Profiler**, and it will open the **Connect to Server** dialog.
 
 <img src="images/run-sql-server-profiler-3.png" alt="Connect to Server dialog">
 
@@ -32,11 +32,11 @@ On the **General** tab, you can set the following settings.
  - You can select whether you need to save the trace results into a table or external file
  - You can also stop the trace at a specific date-time.
 
-In the **Events Selection** tab, you can select all events that you need to include in the trace, not that you can add some filters.
+In the **Events Selection** tab, you can select all events you need to include in the trace, and you can't add some filters.
 
 <img src="images/run-sql-server-profiler-5.png" alt="Trace Properties - Events Selection tab">
 
-If you need only to trace the operations executed in a specific database, then you can add a filter on the database name property.
+If you only need to trace the operations executed in a specific database, then you can add a filter on the database name property.
 
 Now let's go to the **General** tab again, enter a name in the **Trace name** field, and select **Save to a table** checkbox. It will open the **Connect to Server** dialog. 
 

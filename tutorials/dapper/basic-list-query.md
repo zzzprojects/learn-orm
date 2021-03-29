@@ -5,9 +5,9 @@ Name: Basic List Query
 
 # Basic List Query
 
-The basic operation that most of the applications would perform is to retrieve data from the database and display the results. In this article, we will explain the basic list query using Dapper which gets the data into the list from the database.
+Most of the applications would perform the basic operation to retrieve data from the database and display the results. This article will explain the basic list query using Dapper, which gets the data into the list from the database.
 
-As you that we have two tables in the database that contains the following data.
+As you can see, we have two tables in the database that contains the following data.
 
 <img src="images/database-setup.png" alt="Database data">
 
@@ -55,7 +55,7 @@ namespace DapperDemo
 }
 ```
 
-In the `Main` method, we will create a member of type `IDbConnection` with the `SqlConnection` by passing the connection string and then retrieve the data from the `Authors` table using the `Query` method.
+In the `Main` method, we will create a member of type `IDbConnection` with the `SqlConnection` by passing the connection string and retrieving the data from the `Authors` table using the `Query` method.
 
 The `Query` extension method in Dapper enables you to retrieve data from the database and populate data in your object model.
 
@@ -73,7 +73,7 @@ static void Main(string[] args)
 }
 ```
 
-Let's execute the above code and you will see the following output.
+Let's execute the above code, and you will see the following output.
 
 ```csharp
 Cardinal Tom B. Erichsen

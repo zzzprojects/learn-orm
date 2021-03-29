@@ -8,7 +8,7 @@ Name: Overview
 Dapper is an open-source, lightweight ORM developed by the Stack Overflow team. It is a simple object mapper for the Microsoft .NET platform. 
 
  - It is a framework for mapping an object-oriented domain model to a traditional relational database.
- - It is free as open-source software that is distributed under a dual license, either the Apache License 2.0 or the MIT License.
+ - It is free as open-source software distributed under a dual license, either the Apache License 2.0 or the MIT License.
 
 ## What is ORM
 
@@ -18,9 +18,9 @@ Object-relational mappers (ORMs) have been in use for a long time to eliminate t
 
 ## Why Dapper?
 
-Dapper is very lightweight and because of its weight, it is very fast as compared to other ORMs.
+Dapper is very lightweight, and because of its weight, it is very fast compared to other ORMs.
 
- - The performance and its ease of use were the main reasons which were kept in mind during its development. 
+ - The performance and ease of use were the main reasons kept in mind during its development. 
  - It provides support for both static and dynamic object binding using transactions, stored procedures, or bulk inserts of data.
  - It is not database specific, it works across all .NET ADO providers such as SQL Server, SQLite, Firebird, Oracle, MySQL, PostgreSQL. 
 

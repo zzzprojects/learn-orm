@@ -7,3 +7,4 @@
 - [Update Data](update-data.md)
 - [Delete Data](delete-data.md)
 - [Retrieve Parent-Child Objects](retrieve-parent-child-objects.md)
+- [Stored Procedures](stored-procedures.md)

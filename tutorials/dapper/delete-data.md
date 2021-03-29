@@ -5,7 +5,7 @@ Name: Delete Data
 
 # Delete Data
 
-Deleting an entity is the easiest of all because it only requires a unique `Id` to identify the entity being deleted. All we need is a SQL statement containing a `DELETE` statement with a `WHERE` clause on the `Id` column.
+Deleting an entity is the easiest because it only requires a unique `Id` to identify the entity being deleted. All we need is a SQL statement containing a `DELETE` statement with a `WHERE` clause on the `Id` column.
 
 ```csharp
 private static void DeleteSingleAuthor()
@@ -40,7 +40,7 @@ private static void DeleteMultipleAuthors()
 }
 ```
 
-Now if you retrieve all the authors from the database, you will see only 3 records.
+If you retrieve all the authors from the database, you will see only three records.
 
 ```csharp
 private static void GetAllAuthors()
@@ -57,7 +57,7 @@ private static void GetAllAuthors()
 }
 ```
 
-Let's execute the above code and you will see the following output.
+Let's execute the above code, and you will see the following output.
 
 ```csharp
 Cardinal Tom B. Erichsen

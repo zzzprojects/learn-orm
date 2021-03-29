@@ -5,7 +5,7 @@ Name: Database Setup
 
 # Database Setup
 
-To use Dapper, we need to create a database first and then we will perform various database operations using dapper.
+To use Dapper, we need to create a database first, and then we will perform various database operations using dapper.
 
 The SQL `CREATE DATABASE` statement is used to create a new SQL database.
 
@@ -45,7 +45,7 @@ CREATE TABLE [dbo].[Books](
 GO
 ```
 
-It will create a `BookStoreContext` database that contains two tables. Now we need to insert some data into these tables which can be used later. 
+It will create a `BookStoreContext` database that contains two tables. Now we need to insert some data into these tables, which can be used later. 
 
 The following SQL statements insert new records in the **Authors** and **Books** tables.
 
@@ -74,6 +74,6 @@ Select * From Authors;
 Select * From Books;
 ```
 
-Let's click on the **Execute** button and you will see the results of the above queries
+Let's click on the **Execute** button, and you will see the results of the above queries.
 
 <img src="images/database-setup.png" alt="Database Setup">

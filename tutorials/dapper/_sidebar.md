@@ -11,4 +11,4 @@
 - [Dynamic Parameters](dynamic-parameters.md)
 - [IN Operator Support](in-operator-support.md)
 - [Dynamic Objects](dynamic-objects.md)
-
+- [Multi Mapping](multi-mapping.md)

@@ -43,7 +43,7 @@ private static void UpdateMultipleBooks()
 }
 ```
 
-If you retrieve all the authors from the database, you will see that a new record is already added at the end.
+If you retrieve all the books from the database, you will see that the above mentioned books are updated.
 
 ```csharp
 private static void GetAllBooks()

@@ -25,17 +25,14 @@ You can also use the `Update` method to update multiple records by passing the l
 ```csharp
 private static void UpdateMultipleBooks()
 {
-    string sql = "UPDATE Books SET Category = @Category WHERE Id = @Id;";
-
     using (IDbConnection db = new SqlConnection(ConnectionString))
     {
-        int rowsAffected = db.Execute(sql,
-            new[]
-            {
-                new { Id = 4, Category = "Education" },
-                new { Id = 5, Category = "Education" },
-            }
-        );
+        List<Book> books = new List<Book>()
+        {
+            new Book { Id = 2, Title = "Introduction to Algorithm", Category = "Software", AuthorId = 1 },
+            new Book { Id = 3, Title = "Basics of Statistics", Category = "Education", AuthorId = 2 },
+        };
+        db.Update<List<Book>>(books);
     }
 }
 ```
@@ -43,16 +40,16 @@ private static void UpdateMultipleBooks()
 If you retrieve all the books from the database, you will see that the above-mentioned books are updated.
 
 ```csharp
-private static void UpdateMultipleBooks()
+private static void GetAllBooks()
 {
     using (IDbConnection db = new SqlConnection(ConnectionString))
     {
-        List<Book> books = new List<Book>()
+        List<Book> books = db.GetAll<Book>().ToList();
+
+        foreach (var book in books)
         {
-            new Book { Id = 2, Title = "Introduction to Algorithm", Category = "Software", AuthorId = 1 },
-            new Book { Id = 3, Title = "Basics of Statistics", Category = "Education", AuthorId = 2 },
-    };
-        db.Update<List<Book>>(books);
+            Console.WriteLine("Title: {0} \t Category: {1}", book.Title, book.Category);
+        }
     }
 }
 ```

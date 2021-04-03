@@ -5,7 +5,7 @@ Name: Environment Setup
 
 # Environment Setup
 
-To start using the **Dapper.Contrib** in your application, you will need to install the [Dapper](https://www.nuget.org/packages/Dapper) NuGet package.
+To start using the **Dapper.Contrib** in your application, you will need to install the [Dapper.Contrib](https://www.nuget.org/packages/Dapper.Contrib) NuGet package.
 
 So let's open the Visual Studio and create a new project.
 

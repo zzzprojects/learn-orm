@@ -3,3 +3,5 @@
 - [Database Setup](database-setup.md)
 - [Read Data](read-data.md)
 - [Insert Data](insert-data.md)
+- [Update Data](update-data.md)
+

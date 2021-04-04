@@ -5,14 +5,14 @@ Name: Replay Traces
 
 # Replay Traces
 
-The replay is the ability to reproduce activity that has been captured in a trace. When you create or edit a trace, you can save the trace to a file and replay it later. 
+The replay is the ability to open and replay a previously saved trace is known as a replay. When you create or edit a trace, you can save the trace to a file and replay it later. 
 
- - You can use SQL Server Profiler to replay trace activity from a single computer. 
- - For large workloads, use the Distributed Replay Utility to replay trace data from multiple computers.
+ - SQL Server Profiler replays trace activity from a single computer. 
+ - You can also use the **Distributed Replay Utility** to replay trace data from multiple computers.
 
 ## Why Replay Traces?
 
-SQL Server Profiler features a multithreaded playback engine that can simulate user connections and SQL Server Authentication. 
+SQL Server Profiler features a multithreaded playback engine that can simulate user connections and SQL Server Authentication.
 
  - Replay is useful to troubleshoot an application or process problem. 
  - When you identified the problem and implemented corrections, run the trace that found the potential problem against the corrected application or process. 
@@ -20,7 +20,7 @@ SQL Server Profiler features a multithreaded playback engine that can simulate u
 
 ## Replay Requirements
 
-To replay trace data with SQL Server Profiler or the Distributed Replay Utility, a specific set of event classes and columns must be captured in the trace. 
+To replay trace data with SQL Server Profiler or the **Distributed Replay Utility**, a specific set of event classes and columns must be captured in the trace. 
 
  - These settings are enabled by default if the `TSQL_Replay` trace template is used to configure a trace that is later used for replay.
  - It checks for the presence of required events and columns. 

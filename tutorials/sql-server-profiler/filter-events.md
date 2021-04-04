@@ -5,10 +5,9 @@ Name: Filter Events
 
 # Filter Events
 
-You can define filters on data columns for SQL Server Profiler trace events so that information is captured only for those events that you are interested in. 
+You can define filters on data columns for SQL Server Profiler trace events so that only those events information are captured that you need. 
 
- - Filters limit the events collected in a trace and minimizes the overhead that is incurred during tracing. 
- - If a filter is not set, all events of the selected event classes are returned in the trace output. 
+ - Filtering limits the events and minimizes the overhead in a trace. 
  - It is not mandatory to set a filter for a trace. 
 
 You add filters to trace definitions by using the **Events Selection** tab of the **Trace Properties** dialog.
@@ -16,9 +15,9 @@ You add filters to trace definitions by using the **Events Selection** tab of th
 <img src="images/filter-events-1.png" alt="Events Selection">
 
  - The **Events Selection** tab contains a grid control. 
- - The grid control is a table that contains each of the traceable event classes. 
- - The table contains one row for each event class. The event classes may differ slightly, depending on the type and version of the server to which you are connected. 
- - The event classes are identified in the **Events** column of the grid and are grouped by event category. 
+ - The grid control contains each of the traceable event classes in individual rows. 
+ - The event classes may differ slightly, depending on the type and version of the server to which you are connected. 
+ - You can identify the event classes in the **Events** column and are grouped by the event category. 
  - The remaining columns list the data columns that can be returned for each event class.
 
 Click on the **Column Filters** button, and you will see **Edit Filter**.

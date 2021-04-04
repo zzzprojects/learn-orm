@@ -5,12 +5,10 @@ Name: Organize Columns
 
 # Organize Columns
 
-You can group data columns in a trace by selecting Organize Columns in the trace table,  or Trace File Properties dialog box, or when you define a trace. Grouping the data columns enables you to analyze SQL Server Profiler trace output better.
+You can group data columns in a trace from the **Trace File Properties dialog**, or when you define a trace. 
 
-Organize Columns enables you to either group the trace events or group and aggregate them by the data columns you select.
-
- - You can choose multiple data columns for grouping to only group trace events. 
- - When you choose multiple data columns for grouping, the trace window displays events grouped by the values in the data columns you selected for grouping. 
+ - It enables you to analyze SQL Server Profiler trace output better.
+ - It also enables you to either group the trace events or group and aggregate them by the data columns.
 
 ## To Group Data Columns
 
@@ -36,7 +34,7 @@ Click **OK** in the **Organize Columns** dialog, and then click **OK** in the **
 
 You can see that the data columns are reorganized in the displayed trace. 
 
- - The data column you moved to the top-most position in the **Groups** list is located first in the trace display when you read the grid from left to right.
+ - In the **Groups** list, the first column is data column you moved to the top-most position in the trace display from left to right.
  - The rows in the trace are organized in ascending order by the values in the data columns that you included in the Groups list. 
  - The columns chosen for grouping remain fixed in the display, but you can scroll right or left to view the other columns.
 
@@ -55,9 +53,9 @@ In the **Organize Columns** dialog, select one column you want to group and aggr
  - Click **Up** to move the column name under **Groups**. 
  - You can use the **Up** and **Down** buttons to rearrange the remaining columns under **Columns** if needed.
 
-Let's move the **ClientProcessID** under the groups and rearrange all others under columns as shown below.
-
-<img src="images/organize-columns-5.png" alt="Organize Columns">
+LetThe data column you moved to the top-most positionL
+The data column you moved to the top-most position}"L_'s move the **ClientProcessID** under the groups and rearrange all others under columns as shown below.
+Pl-img src="images/organize-columns-5.png" alt="Organize Columns">
 
 Click **OK** in the **Organize Columns** dialog, and then click **OK** in the **Trace Table Properties** dialog.
 

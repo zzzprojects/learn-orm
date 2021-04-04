@@ -25,10 +25,10 @@ To save the trace results, we have two options.
 
 You can choose the **Save to file** option to capture the trace to a file. 
 
- - You can specify a value for **Set maximum file size (MB)**, and the default value is 5 megabytes (MB).
- - Select **Enable file rollover** to automatically create new files when the maximum file size is reached. 
- - You can also optionally select **Server processes trace data**, which causes the service running the trace to process trace data instead of the client application. 
- - When the server processes trace data, no events are skipped even under stress conditions, but server performance may be affected.
+ - You can set a value for **Set maximum file size (MB)**, and the default value is 5MB.
+ - To automatically create new files when the maximum file size is reached, check the **Enable file rollover** checkbox. 
+ - When the **Server processes trace data** option is checked, it causes the service running the trace to process trace data instead of the client application. 
+ - When the server processes trace data, its performance may be affected but no events are skipped even under stress conditions.
 
 ### Save to Table
 
@@ -36,14 +36,14 @@ You can choose **Save to table** option to capture the trace to a database table
 
 When you do not save the trace results to a file or table, you can view the trace while SQL Server Profiler is open. 
 
- - You will lose the trace results after you stop the trace and close SQL Server Profiler. 
- - To avoid losing the trace results in this way, click Save on the File menu to save the results before you close SQL Server Profiler.
+ - When you stop the trace and close SQL Server Profiler, you will lose the trace results. 
+ - To prevent data loss, you can save the results before closing the SQL Server Profiler from the **File > Save** menu.
 
 You can also select the **Enable trace stop time** check box and specify a stop date and time.
 
 <img src="images/create-a-trace-4.png" alt="Enable trace stop time">
 
-Click RUN to start the trace,the SQL Profiler window will open, and the trace is now running.
+Click RUN to start the trace, the SQL Profiler window will open, and the trace is now running.
 
 <img src="images/create-a-trace-5.png" alt="Tracing the database">
 

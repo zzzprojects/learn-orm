@@ -74,13 +74,6 @@ class Author
     public string LastName { get; set; }
 
     [Write(false)]
-    public string FullName 
-    { 
-        get
-        {
-            return FirstName + " " + LastName;
-        } 
-    }
     public List<Book> Books { get; set; }
 }
 ```
@@ -105,6 +98,8 @@ class Author
             return FirstName + " " + LastName;
         } 
     }
+
+    [Write(false)]
     public List<Book> Books { get; set; }
 }
 ```

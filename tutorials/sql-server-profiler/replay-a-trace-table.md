@@ -5,7 +5,7 @@ Name: Replay a Trace Table
 
 # Replay a Trace Table
 
-The ability to open and replay a previously saved trace is known as replay. A multithreaded replay engine in SQL Server Profiler can simulate user connections and SQL Server Authentication. It is very helpful while troubleshooting an application.
+The ability to open and replay a previously saved trace is known as a replay. A multithreaded replay engine in SQL Server Profiler can simulate user connections and SQL Server Authentication. It is very helpful while troubleshooting an application.
 
 Let's open the **SQL Server Profiler** and go to the **File > New Trace...** menu.
 

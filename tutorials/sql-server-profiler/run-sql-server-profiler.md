@@ -23,16 +23,16 @@ You have to select whether you need to connect to an Analysis Service instance o
 
 <img src="images/run-sql-server-profiler-4.png" alt="Trace Properties - General tab">
 
-On the **General** tab, you can set the following settings.
+On the **General** tab, you could set the following settings.
 
  - Enter the trace name
- - You can select a trace template from a drop-down list based on your needs. 
-   - A template is a set of tuning events that are caught by the profiler trace. 
-   - There are different predefine templates such as T-SQL, Tuning, or selecting the standard (default) template or starting from scratch by selecting the Blank template.
- - You can select whether you need to save the trace results into a table or external file
- - You can also stop the trace at a specific date-time.
+ - You can choose a trace template from a drop-down listing primarily based totally to your needs.
+   - A template is a set of tuning events that are caught by the profiler trace.
+   - There are various predefine templates such as T-SQL, Tuning, or choosing the standard (default) template or beginning from scratch with a Blank template.
+ - You can choose whether or not you want to keep the trace effects right into a database or file.
+ - You can also prevent the trace at a particular date-time.
 
-In the **Events Selection** tab, you can select all events you need to include in the trace, and you can't add some filters.
+In the **Events Selection** tab, you could choose all activities you want to include in the trace, and also you can not add some filters.
 
 <img src="images/run-sql-server-profiler-5.png" alt="Trace Properties - Events Selection tab">
 

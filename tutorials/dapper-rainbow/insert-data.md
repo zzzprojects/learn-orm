@@ -7,7 +7,7 @@ Name: Insert Data
 
 Inserting data into the database is one of the CRUD operations that act on an individual row by inserting a row. 
 
-The **Dapper.Rainbow** library provides `Insert` extension method to insert data into the database.
+The **Dapper.Rainbow** library provides an `Insert` extension method to insert data into the database.
 
 The following example inserts a single new record.
 
@@ -29,7 +29,7 @@ private static void InsertSingleAuthor()
 }
 ```
 
-If you retrieve all the authors from the database, you will see that the above author added at the end.
+If you retrieve all the authors from the database, you will see that the above author is added at the end.
 
 ```csharp
 static void Main(string[] args)

@@ -52,7 +52,7 @@ namespace DapperRainbowDemo
 }
 ```
 
-Now we need to add tables for both `Author` and `Book` classes in our database class as shown below.
+Now we need to add tables for both `Author` and `Book` classes in our database class, as shown below.
 
 ```csharp
 class RainbowDatabase : Database<RainbowDatabase>
@@ -62,13 +62,13 @@ class RainbowDatabase : Database<RainbowDatabase>
 }
 ```
 
-In the `Program` class, define the static variable which contains the connection string of the database.
+In the `Program` class, define the static variable, which contains the connection string of the database.
 
 ```csharp
 static string ConnectionString = @"Data Source=(localdb)\ProjectsV13;Initial Catalog=RainbowBookStore;Integrated Security=True;";
 ```
 
-The **Dapper.Rainbow** library provides `All()`, `First()` and `Get(id)` extension methods to retrieve data from the database and populate data in your object model.
+The **Dapper.Rainbow** library provides `All()`, `First()`, and `Get(id)` extension methods to retrieve data from the database and populate data in your object model.
 
 The following example retrieves all the authors from the database using the `All()` method.
 

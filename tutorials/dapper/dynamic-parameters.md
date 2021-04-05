@@ -7,7 +7,7 @@ Name: Dynamic Parameters
 
 The dynamic parameters allow you to specify parameters when you need to send parameters into a stored procedure or an SQL Statment. You can also use the anonymous type method that we have used in the previous articles. 
 
-Let's consider the following simple example which retrieves the author data including books using the anonymous type method.
+Let's consider the following simple example, which retrieves the author data, including books using the anonymous type method.
 
 ```csharp
 private static void GetAuthorAndTheirBooksSP(int id)

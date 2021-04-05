@@ -5,7 +5,7 @@ Name: Stored Procedures
 
 # Stored Procedures
 
-So far, we have specified all of our SQL in code. But what if you want to use stored procedures for your data access layer? That is perfectly fine and Dapper can work seamlessly with stored procedures. 
+So far, we have specified all of our SQL in code. But what if you want to use stored procedures for your data access layer? That is perfectly fine, and Dapper can work seamlessly with stored procedures. 
 
 Let's consider the following stored procedure.
 
@@ -77,7 +77,7 @@ static void Main(string[] args)
 }
 ```
 
-Let's execute the above code and you will see the following output.
+Let's execute the above code, and you will see the following output.
 
 ```csharp
 Meredith Alonso

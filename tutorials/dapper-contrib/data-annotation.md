@@ -5,7 +5,7 @@ Name: Data Annotation
 
 # Data Annotation
 
-Data annotation adds some extra meaning to the classes and properties by adding attribute tags. It is used to configure the classes which will highlight the most commonly needed configurations.
+Data annotation adds some extra meaning to the classes and properties by adding attribute tags. It is used to configure the classes, which will highlight the most commonly needed configurations.
 
 The **Dapper.Contrib** library provides some optional attributes which are very helpful.
 
@@ -34,7 +34,7 @@ class Author
 
 ## Table
 
-By default the pluralized name of the class is used as a table name, you can use another table name by specifying the `Table` attribute.
+By default, the pluralized name of the class is used as a table name. You can use another table name by specifying the `Table` attribute.
 
 ```csharp
 [Table("tbl_Author")]
@@ -80,7 +80,7 @@ class Author
 
 ## Computed
 
-You can use computed columns in the database, and decorate your entity with the `[Computed]` attribute to prevent updating its value to the table.
+You can use computed columns in the database and decorate your entity with the `[Computed]` attribute to prevent updating its value to the table.
 
 ```csharp
 class Author

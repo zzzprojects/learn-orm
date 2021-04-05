@@ -55,7 +55,7 @@ namespace DapperContribDemo
 }
 ```
 
-In the `Program` class, define the static variable which contains the connection string of the database.
+In the `Program` class, define the static variable, which contains the connection string of the database.
 
 ```csharp
 static string ConnectionString = @"Data Source=(localdb)\ProjectsV13;Initial Catalog=BookStoreContext;Integrated Security=True;";

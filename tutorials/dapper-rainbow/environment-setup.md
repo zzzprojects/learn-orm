@@ -35,9 +35,9 @@ Select the **Browse** tab and search for **Dapper.Rainbow** and install the late
 
 <img src="images/setup-7.png" alt="Dapper installed successfully">
 
-Once **Dapper.Rainbow** has been successfully installed, we also need to install [System.Data.SqlClient](https://www.nuget.org/packages/System.Data.SqlClient) NuGet package.
+Once **Dapper.Rainbow** has been successfully installed. We also need to install [System.Data.SqlClient](https://www.nuget.org/packages/System.Data.SqlClient) NuGet package.
 
-You are now ready to start your application and the first step is to create a new class and that will be derived from the `Database` class. 
+You are now ready to start your application, and the first step is to create a new class that will be derived from the `Database` class. 
 
 ```csharp
 using Dapper;
@@ -56,4 +56,4 @@ namespace DapperRainbowDemo
 }
 ```
 
-It will work as a container for all the tables which we will add later.
+It will work as a container for all the tables, which we will add later.

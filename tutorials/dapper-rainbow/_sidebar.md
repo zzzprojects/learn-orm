@@ -5,3 +5,4 @@
 - [Insert Data](insert-data.md)
 - [Update Data](update-data.md)
 - [Delete Data](delete-data.md)
+- [Async Operations](async-operations.md)

@@ -23,7 +23,7 @@ private async static Task<List<Author>> GetAllAuthorsAsync()
 Here you can see that we are using the `QueryAsync` method of Dapper. Now to call this async method, we need to call it from an async `Main` method. 
 
 ```csharp
-static async void Main(string[] args)
+static async Task Main(string[] args)
 {
     var authors = await GetAllAuthorsAsync();
 

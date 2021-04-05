@@ -5,10 +5,10 @@ Name: Multi Mapping
 
 # Multi Mapping
 
-In Dapper, multi mapping is a useful feature that you can use when you have a one-to-one or one-to-many relationship between objects, and you want to eagerly load all objects with a single query. 
+In Dapper, multi mapping is a useful feature that you can use when you have a one-to-one or one-to-many relationship between objects, and you want to load all objects with a single query eagerly. 
 
  - Let's consider our example where we have a one-to-many relationship between an `Author` and its `Book`. 
- - Now instead of having to do two select statements, one for the `Authors` and one for the `Books` as we have used previously, we can also use one simple SQL Statement. 
+ - Instead of having to do two select statements, one for the `Authors` and one for the `Books` as we have used previously, we can also use one simple SQL Statement. 
 
 Let's have a look into the following SQL query which is a straightforward SQL query using `INNER JOIN` which is joining the authors and the books on the `AuthorId` field. 
 
@@ -72,7 +72,7 @@ In the `Query` method, you can see that there are three generic types.
  - The second type, in this case `Book`, represents the child object. 
  - The third type represents the return type, which happens to be `Author` again, which makes sense because `Author` is the parent. 
 
-The temporary dictionary will store `Id` along with the author entity. Then inside the lambda, it will check to see have we already seen this author or not. We want to know have already seen this author or not. 
+The temporary dictionary will store `Id` along with the author entity. Then inside the lambda, it will check to see if we already seen this author or not.
 
 Let's call the `GetAuthorAndTheirBooks` method in the `Main` method.
 
@@ -83,7 +83,7 @@ static void Main(string[] args)
 }
 ```
 
-Let's execute the above code and you will see the following output.
+Let's execute the above code, and you will see the following output.
 
 ```csharp
 Cardinal Tom B. Erichsen

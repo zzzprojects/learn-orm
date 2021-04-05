@@ -7,7 +7,7 @@ Name: Environment Setup
 
 To start using the **Dapper.Contrib** in your application, you will need to install the [Dapper.Contrib](https://www.nuget.org/packages/Dapper.Contrib) NuGet package.
 
-So let's open the Visual Studio and create a new project.
+Let's open the Visual Studio and create a new project.
 
 <img src="images/setup-1.png" alt="Create a new project">
 
@@ -35,6 +35,6 @@ Select the **Browse** tab and search for **Dapper.Contrib** and install the late
 
 <img src="images/setup-7.png" alt="Dapper installed successfully">
 
-Once **Dapper.Contrib** has been successfully installed, we also need to install [System.Data.SqlClient](https://www.nuget.org/packages/System.Data.SqlClient) NuGet package.
+Once **Dapper.Contrib** has been successfully installed. We also need to install the [System.Data.SqlClient](https://www.nuget.org/packages/System.Data.SqlClient) NuGet package.
 
 You are now ready to start your application.

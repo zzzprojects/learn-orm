@@ -7,3 +7,4 @@
 - [Delete Data](delete-data.md)
 - [Related Data](related-data.md)
 - [Stored Procedures](stored-procedures.md)
+- [Dynamic Parameters](dynamic-parameters.md)

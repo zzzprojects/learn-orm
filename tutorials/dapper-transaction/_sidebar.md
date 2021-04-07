@@ -6,3 +6,4 @@
 - [Update Data](update-data.md)
 - [Delete Data](delete-data.md)
 - [Related Data](related-data.md)
+- [Stored Procedures](stored-procedures.md)

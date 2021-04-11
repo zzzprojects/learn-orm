@@ -55,4 +55,4 @@ private static void InsertAuthorAndRelatedBooks()
 }
 ```
 
-For more information about bulk operations, click [here](https://dapper-plus.net/getting-started-basic-usage#extension-methods)
+For more information about **Dapper Plus** library, click [here](https://dapper-plus.net/overview)

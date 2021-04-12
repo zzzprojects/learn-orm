@@ -33,7 +33,7 @@ private static List<Author> GetAuthors(params int[] ids)
 It is pretty simple and almost identical to the examples we have implemented previously.
 
  - You can see that the `GetAuthors` method is taking an array of integers as the inputs. 
- - If you look at the `SELECT` statement, we are specifying the list of IDs as the typical anonymous type that we have seen many times. 
+ - If you look at the `SELECT` statement, we are specifying the list of IDs as the typical anonymous type that we often see. 
  - The difference here is that Dapper is smart enough to convert those with the correct formatting that the `IN` operator needs for the `WHERE` clause. 
 
 You can call this method as shown below.

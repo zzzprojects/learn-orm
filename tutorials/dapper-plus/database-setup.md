@@ -78,7 +78,7 @@ Let's click on the **Execute** button, and you will see the results of the above
 
 <img src="images/database-setup.png" alt="Database Setup">
 
-let's create two classes called `Author` and `Book`.
+Let's create two classes called `Author` and `Book`.
 
 Here is the implementation of the `Author` class.
 
@@ -129,7 +129,7 @@ In the `Program` class, define the static variable, which contains the connectio
 static string ConnectionString = @"Data Source=(localdb)\ProjectsV13;Initial Catalog=BookStoreDb;Integrated Security=True;";
 ```
 
-By default, **Dapper Plus** library map entity name to the table if both are same, but here you can see that we have entities called `Author` and `Book` and the tables name are `Authors` and `Books`. 
+By default, **Dapper Plus** library maps entity names to the table if both are the same, but here you can see that we have entities called `Author` and `Book` and the tables name are `Authors` and `Books`. 
 
 So let's map the entity to the table using the `DapperPlusManager`
 

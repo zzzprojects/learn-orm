@@ -5,7 +5,7 @@ Name: Async Operations
 
 # Async Operations
 
-Typically, async operations are used when you are working with outside systems, like making calls to an external database, web API, etc. to optimize your code while waiting for these external systems to respond, especially if they take more than a few milliseconds. 
+Typically, async operations are used when working with outside systems, like making calls to an external database, web API, etc., to optimize your code while waiting for these external systems to respond, especially if they take more than a few milliseconds. 
 
 So far, we have performed all synchronous operations, but **Dapper.Rainbow** also fully supports async versions of all of the primary methods.
 
@@ -51,7 +51,7 @@ private static async Task DeleteSingleAuthorAsync(int id)
 }
 ```
 
-Let's run your application and you will see we are getting the same results. It is just that behind the scenes, this time we did it asynchronously. 
+Let's run your application, and you will see we are getting the same results. It is just that behind the scenes, this time we did it asynchronously. 
 
  - The async in **Dapper.Rainbow** is as seamless as the non-async versions. 
  - You can use whichever version you prefer.

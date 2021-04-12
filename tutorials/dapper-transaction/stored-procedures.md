@@ -5,7 +5,7 @@ Name: Stored Procedures
 
 # Stored Procedures
 
-So far, we have specified all of our SQL in code directly. But what if you want to use stored procedures for your data access layer? That is perfectly fine, and **Dapper.Transaction** can work seamlessly with stored procedures. 
+So far, we have specified all of our SQL in code directly. But what if you want to use stored procedures for your data access layer? That is perfectly fine and **Dapper.Transaction** can work seamlessly with stored procedures. 
 
 Let's consider the following stored procedure.
 
@@ -31,11 +31,11 @@ BEGIN
 END
 ```
 
-Now execute the above stored-procedure in **SQL Query** editor.
+Now execute the above-stored procedure in **SQL Query** editor.
 
 <img src="images/stored-procedures-1.png" alt="Create a stored procedure">
 
-Let's write a method to call the above stored-procedure. We will still use the `QueryMultiple` method just like we did before, but instead of specifying inline SQL with two different statements, we will specify the name of the stored procedure and pass in an `Id` as a parameter. 
+Let's write a method to call the above-stored procedure. We will still use the `QueryMultiple` method just like we did before. Instead of specifying inline SQL with two different statements, we will specify the stored procedure's name and pass in an `Id` as a parameter. 
 
 ```csharp
 private static Author GetAuthorAndTheirBooksSP(int id)

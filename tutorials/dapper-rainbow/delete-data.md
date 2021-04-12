@@ -20,7 +20,7 @@ private static void DeleteSingleAuthor(int id)
 }
 ```
 
-Let's retrieve all the authors from the database as shown below.
+Let's retrieve all the authors from the database, as shown below.
 
 ```csharp
 static void Main(string[] args)

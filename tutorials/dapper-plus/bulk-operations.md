@@ -31,7 +31,7 @@ private static void InsertBooks()
 }
 ```
 
-You can also insert related entities using the`BulkInsert` method.
+You can also insert related entities using the `BulkInsert` method.
 
 ```csharp
 private static void InsertAuthorAndRelatedBooks()
@@ -55,4 +55,4 @@ private static void InsertAuthorAndRelatedBooks()
 }
 ```
 
-For more information about **Dapper Plus** library, click [here](https://dapper-plus.net/overview)
+For more information about **Dapper Plus** library, click [here](https://dapper-plus.net/overview).

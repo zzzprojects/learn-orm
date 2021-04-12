@@ -60,6 +60,6 @@ private static void InsertMultipleBooks()
 }
 ```
 
-Let's execute the above code and if you retrieve all the authors and books from the database, you will see that the new records are added at the end.
+Let's execute the above code, and if you retrieve all the authors and books from the database, you will see that the new records are added at the end.
 
 <img src="images/insert-data-1.png" alt="Retrieve data">

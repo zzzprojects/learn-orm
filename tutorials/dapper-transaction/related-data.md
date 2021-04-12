@@ -5,7 +5,7 @@ Name: Related Data
 
 # Related Data
 
-So far, we have performed operations on a single row. But what if you need to deal with more complex objects that have parent-child relationships. Let's consider our example, we have a one-to-many relationship between an `Author` and `Book`.  A single author can have many books. 
+So far, we have performed operations on a single row. But what if you need to deal with more complex objects that have parent-child relationships. Let's consider our example; we have a one-to-many relationship between an `Author` and `Book`.  A single author can have many books. 
 
 If you look at the `Author` class, you can see a list of books. 
 
@@ -28,11 +28,11 @@ namespace DapperTransactionDemo
 }
 ```
 
-In an `Authors` tabl, you can see on the first row **William Shakespeare** has an `Id = 2`. 
+In an `Authors` table, you can see on the first row **William Shakespeare** has an `Id = 2`. 
 
 <img src="images/related-data-1.png" alt="Database data">
 
-If you look in the `Books` table, you can see that there are three different rows that have an `AuthorId` of 2. So **William Shakespeare** has written multiple books. 
+If you look in the `Books` table, you can see three different rows that have an `AuthorId` of 2. So **William Shakespeare** has written multiple books. 
 
 So let's retrieve the authors from a database and their respective books using the `QueryMultiple` extension method. It can execute multiple queries within the same command and map results.
 
@@ -69,7 +69,7 @@ private static Author GetAuthorAndTheirBooks(int id)
 You can see that first, we have specified two different `SELECT` statements, the first one for the individual author and the second one for the author's books. 
 
  - The `QueryMultiple` is an extension method that returns multiple result sets in the query results of type `GridReader`. 
- - Then we simply need to call the `Read` method on that object multiple times to get the author record and then for books. 
+ - We simply need to call the `Read` method on that object multiple times to get the author record and then for books. 
 
 Let's call the `GetAuthorAndTheirBooks` method in the `Main` method.
 

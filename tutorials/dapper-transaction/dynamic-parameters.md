@@ -70,7 +70,7 @@ private static Author GetAuthorAndTheirBooksSPUsingDynamicParameters(int id)
 }
 ```
 
-It is almost like a generic list where you can just call. Let's have a look into another example that inserts an author into the database using dynamic parameters.
+It is almost like a generic list you can call. Let's have a look into another example that inserts an author into the database using dynamic parameters.
 
 ```csharp
 private static void InsertSingleAuthorUsingDynamicParameters()

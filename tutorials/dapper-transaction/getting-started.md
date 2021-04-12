@@ -5,12 +5,12 @@ Name: Getting Started
 
 # Getting Started
 
-**Dapper.Transaction** is exactly like Dapper but extend the `IDbTransaction` interface instead of `IDbConnection`.
+**Dapper.Transaction** is exactly like Dapper but extends the `IDbTransaction` interface instead of `IDbConnection`.
 
  - It is a framework for mapping an object-oriented domain model to a traditional relational database.
  - It is very easy to use and improves the performance of your application.
  - It is a simple library to make it easier to work with a transaction. 
- - It provides support for both static and dynamic object binding using transactions, stored procedures, or bulk inserts of data.
+ - It supports both static and dynamic object binding using transactions, stored procedures, or bulk inserts of data.
 
 ## Installation
 

@@ -9,7 +9,7 @@ Most of the applications would perform the basic operation to retrieve data from
 
 <img src="images/database-setup.png" alt="Database data">
 
-To retrieve the data from the database using **Dapper.Transaction**, let's create two classes called `Author` and `Book`.
+To retrieve the data from the database using **Dapper.SimpleCRUD**, let's create two classes called `Author` and `Book`.
 
 Here is the implementation of the `Author` class.
 

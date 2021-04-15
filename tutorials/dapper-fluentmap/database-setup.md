@@ -23,10 +23,10 @@ GO
 
 CREATE TABLE [dbo].[Authors](
 	[Id] [int] IDENTITY(1,1) NOT NULL,
-	[FName] [nvarchar](450) NULL,
-	[LName] [nvarchar](450) NULL,
+	[strFirstName] [nvarchar](450) NULL,
+	[strLastName] [nvarchar](450) NULL,
 	[Age] [int] NULL,
-	[Country] [nvarchar](450) NULL,
+	[strCountry] [nvarchar](450) NULL,
  CONSTRAINT [PK_Authors] PRIMARY KEY CLUSTERED 
 (
 	[Id] ASC
@@ -36,8 +36,8 @@ GO
 
 CREATE TABLE [dbo].[Books](
 	[Id] [int] IDENTITY(1,1) NOT NULL,
-	[Title] [nvarchar](450) NULL,
-	[Cat] [nvarchar](max) NULL,
+	[strTitle] [nvarchar](450) NULL,
+	[strCategory] [nvarchar](max) NULL,
 	[AuthorId] [int] NOT NULL,
  CONSTRAINT [PK_Books] PRIMARY KEY CLUSTERED 
 (
@@ -56,16 +56,16 @@ USE [BookStoreDb]
 
 GO
 
-INSERT INTO Authors(FName, LName, Age, Country) VALUES ('Cardinal','Tom B. Erichsen', 34, 'US');
-INSERT INTO Authors(FName, LName, Age, Country) VALUES ('William','Shakespeare', 61, 'UK');
-INSERT INTO Authors(FName, LName, Age, Country) VALUES ('Robert','T. Kiyosaki', 53, 'Japan');
+INSERT INTO Authors(strFirstName, strLastName, Age, strCountry) VALUES ('Cardinal','Tom B. Erichsen', 34, 'US');
+INSERT INTO Authors(strFirstName, strLastName, Age, strCountry) VALUES ('William','Shakespeare', 61, 'UK');
+INSERT INTO Authors(strFirstName, strLastName, Age, strCountry) VALUES ('Robert','T. Kiyosaki', 53, 'Japan');
 
-INSERT INTO Books(Title, Cat, AuthorId) VALUES ('Introduction to Machine Learning', 'Software', 1);
-INSERT INTO Books(Title, Cat, AuthorId) VALUES ('Introduction to Computing', 'Software', 1);
-INSERT INTO Books(Title, Cat, AuthorId) VALUES ('Romeo and Juliet', 'Humor & Entertainment', 2);
-INSERT INTO Books(Title, Cat, AuthorId) VALUES ('The Tempest', 'Fiction', 2);
-INSERT INTO Books(Title, Cat, AuthorId) VALUES ('The Winter''s Tale : Third Series', 'Fiction', 2);
-INSERT INTO Books(Title, Cat, AuthorId) VALUES ('Rich Dad, Poor Dad', 'Economics', 3);
+INSERT INTO Books(strTitle, strCategory, AuthorId) VALUES ('Introduction to Machine Learning', 'Software', 1);
+INSERT INTO Books(strTitle, strCategory, AuthorId) VALUES ('Introduction to Computing', 'Software', 1);
+INSERT INTO Books(strTitle, strCategory, AuthorId) VALUES ('Romeo and Juliet', 'Humor & Entertainment', 2);
+INSERT INTO Books(strTitle, strCategory, AuthorId) VALUES ('The Tempest', 'Fiction', 2);
+INSERT INTO Books(strTitle, strCategory, AuthorId) VALUES ('The Winter''s Tale : Third Series', 'Fiction', 2);
+INSERT INTO Books(strTitle, strCategory, AuthorId) VALUES ('Rich Dad, Poor Dad', 'Economics', 3);
 ```
 
 Let's try the following queries to test the data in the database.
@@ -80,3 +80,8 @@ Let's click on the **Execute** button, and you will see the results of the above
 
 <img src="images/database-setup.png" alt="Database Setup">
 
+In the `Program` class, define the static variable, which contains the connection string of the database.
+
+```csharp
+static string ConnectionString = @"Data Source=(localdb)\ProjectsV13;Initial Catalog=BookStoreDb;Integrated Security=True;";
+```

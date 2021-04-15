@@ -1,2 +1,3 @@
 - [Overview](overview.md)
 - [Environment Setup](environment-setup.md)
+- [Database Setup](database-setup.md)

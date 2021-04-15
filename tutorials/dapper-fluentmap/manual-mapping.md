@@ -132,6 +132,7 @@ FluentMapper.Initialize(config =>
     config.AddMap(new BookMap());
 });
 ```
+
 We can now perform any database operations using Dapper as shown below.
 
 ```csharp

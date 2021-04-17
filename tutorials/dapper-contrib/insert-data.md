@@ -27,7 +27,7 @@ private static void InsertSingleAuthor()
 }
 ```
 
-You can also use the `Insert` method to insert multiple authors.
+You can also use the `Insert` method to insert multiple records.
 
 ```csharp
 private static void InsertMultipleBooks()

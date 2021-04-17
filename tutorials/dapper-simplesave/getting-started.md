@@ -23,8 +23,6 @@ The following is the list of extension methods that are provided in **Dapper.Sim
 | SoftDelete            | Soft delete a record based on primary key or typed entity        |
 | SoftDeleteAll         | Soft delete a list of records based on the typed entities        |  
 
-For projects targeting .NET 4.5 or later, you can also use the async versions of all the above methods.
-
 ## Installation
 
 You can easily install it from the **Package Manager Console** window by running the following command.

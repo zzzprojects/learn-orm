@@ -83,6 +83,7 @@ Let's create two classes called `Author` and `Book`.
 Here is the implementation of the `Author` class.
 
 ```csharp
+using Dapper.SimpleSave;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -91,11 +92,14 @@ using System.Threading.Tasks;
 
 namespace DapperSimpleSaveDemo
 {
+    [Table("Authors")]
     public class Author
     {
-        public int Id { get; set; }
+        [PrimaryKey]
+        public int? Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
+        [OneToMany]
         public List<Book> Books { get; set; }
     }
 }
@@ -104,6 +108,7 @@ namespace DapperSimpleSaveDemo
 The following is the implementation of the `Book` class.
 
 ```csharp
+using Dapper.SimpleSave;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -112,9 +117,11 @@ using System.Threading.Tasks;
 
 namespace DapperSimpleSaveDemo
 {
+    [Table("Books")]
     public class Book
     {
-        public int Id { get; set; }
+        [PrimaryKey]
+        public int? Id { get; set; }
         public string Title { get; set; }
         public string Category { get; set; }
         public int AuthorId { get; set; }

@@ -78,3 +78,52 @@ Let's click on the **Execute** button, and you will see the results of the above
 
 <img src="images/database-setup.png" alt="Database Setup">
 
+Let's create two classes called `Author` and `Book`.
+
+Here is the implementation of the `Author` class.
+
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DapperSimpleSaveDemo
+{
+    public class Author
+    {
+        public int Id { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public List<Book> Books { get; set; }
+    }
+}
+```
+
+The following is the implementation of the `Book` class.
+
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DapperSimpleSaveDemo
+{
+    public class Book
+    {
+        public int Id { get; set; }
+        public string Title { get; set; }
+        public string Category { get; set; }
+        public int AuthorId { get; set; }
+    }
+}
+```
+
+In the `Program` class, define the static variable, which contains the connection string of the database.
+
+```csharp
+static string ConnectionString = @"Data Source=(localdb)\ProjectsV13;Initial Catalog=BookStoreDb;Integrated Security=True;";
+```

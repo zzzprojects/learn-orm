@@ -2,4 +2,5 @@
 - [Environment Setup](environment-setup.md)
 - [Database Setup](database-setup.md)
 - [Insert Data](insert-data.md)
+- [Update Data](update-data.md)
 

@@ -27,7 +27,7 @@ On the **Additional Information** dialog, select the target framework and then c
 
 <img src="images/setup-5.png" alt="Console Application created">
 
-You can see a new console application project is created. Now to install a **Dapper.FluentMap**, right-click on the **Solution Explorer** project, and select **Manage NuGet Packages...**
+You can see a new console application project is created. Now, to install a **Dapper.FluentMap**, right-click on the **Solution Explorer** project, and select **Manage NuGet Packages...**
 
 <img src="images/setup-6.png" alt="Install Dapper.SimpleCRUD">
 
@@ -35,6 +35,6 @@ Select the **Browse** tab and search for **Dapper.FluentMap** and install the la
 
 <img src="images/setup-7.png" alt="Dapper.SimpleCRUD installed successfully">
 
-Once **Dapper.FluentMap** has been successfully installed, you will also need to install [System.Data.SqlClient](https://www.nuget.org/packages/System.Data.SqlClient) NuGet package.
+Once **Dapper.FluentMap** has been successfully installed. You will also need to install [System.Data.SqlClient](https://www.nuget.org/packages/System.Data.SqlClient) NuGet package.
 
 You are now ready to start your application.

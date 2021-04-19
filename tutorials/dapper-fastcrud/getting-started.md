@@ -41,3 +41,4 @@ PM> Install-Package Dapper.FastCrud
  - A useful SQL builder and statement formatter are provided which you can use even if you don't need the CRUD features of this library.
  - A generic T4 template for C# is also provided for convenience in the NuGet package `Dapper.FastCrud.ModelGenerator`. 
  - Code first entities are also supported which can either be decorated with attributes, have their mappings programmatically set, or using your custom convention.
+

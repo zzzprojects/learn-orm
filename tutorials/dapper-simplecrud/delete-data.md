@@ -5,7 +5,7 @@ Name: Delete Data
 
 # Delete Data
 
-Deleting an entity is the easiest because it only requires a unique `Id` to identify the entity being deleted. The **Dapper.SimpleCRUD** library provides `Delete` and `DeleteList` extension methods to delete existing data from the database.
+Deleting an entity is the easiest because it only requires a unique `Id` to identify the deleted entity. The **Dapper.SimpleCRUD** library provides `Delete` and `DeleteList` extension methods to delete existing data from the database.
 
 The following example deletes a single new record using the `Delete` method.
 
@@ -43,7 +43,7 @@ private static void DeleteMultipleBooks()
 }
 ```
 
-Let's retrieve all the authors and books from the database as shown below.
+Let's retrieve all the authors and books from the database, as shown below.
 
 ```csharp
 static void Main(string[] args)
@@ -65,4 +65,4 @@ static void Main(string[] args)
 }
 ```
 
-Let's execute the above code, and you will see that the above records are no longer available.
+Let's execute the above code, and you will see that they are no longer available.

@@ -8,7 +8,7 @@ Name: Overview
 **Dapper.FluentMap** is a small NuGet library that is a nice Dapper extension that takes care of mapping configuration, also offering a lot of customization options.
 
  - It allows you to fluently configure the mapping between your class properties and database columns. 
- - It keeps your classes clean of mapping attributes and this functionality is similar to Entity Framework Fluent API.
+ - It keeps your classes clean of mapping attributes, and this functionality is similar to Entity Framework Fluent API.
 
 ## Installation
 

@@ -5,7 +5,7 @@ Name: Environment Setup
 
 # Environment Setup
 
-To start using the **Dapper.SimpleSave** in your application, you will need to install the [Dapper.SimpleSave](https://www.nuget.org/packages/Dapper.SimpleSave) NuGet package.
+To start using the **Dapper.SimpleSave** in your application. You will need to install the [Dapper.SimpleSave](https://www.nuget.org/packages/Dapper.SimpleSave) NuGet package.
 
 So let's open the Visual Studio and create a new project.
 
@@ -19,7 +19,7 @@ Choose **C#** as language, **Windows** as a platform, and **Console** as the pro
 
 <img src="images/setup-3.png" alt="Configure your new project">
 
-Enter the project name, you can change the location and solution name, but we will leave it as is and click on the **Create** button.  
+Enter the project name, you can change the location and solution name, but we will leave it and click on the **Create** button.  
 
 <img src="images/setup-4.png" alt="Additional Information">
 
@@ -31,4 +31,4 @@ Select the **Browse** tab and search for **Dapper.SimpleSave** and install the l
 
 <img src="images/setup-6.png" alt="Dapper.SimpleSave installed successfully">
 
-Once **Dapper.SimpleSave** has been successfully installed, you are now ready to start your application.
+Once **Dapper.SimpleSave** has been successfully installed. You are now ready to start your application.

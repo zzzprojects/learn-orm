@@ -90,7 +90,7 @@ Let's execute the above code, and you will see the following error.
 
 <img src="images/read-data-1.png" alt="Database data">
 
-That is because we have a class called `Author` and the table name is `Àuthors` in the database. The class name and table must match which isn't the case here, so let's use the `Table` attribute to map the `Author` class to the `Authors` table.
+That is because we have a class called `Author`, and the table name is `Ã€uthors` in the database. The class name and table must match, which isn't the case here, so let's use the `Table` attribute to map the `Author` class to the `Authors` table.
 
 ```csharp
 [Table("Authors")]
@@ -153,7 +153,7 @@ static void Main(string[] args)
 }
 ```
 
-Let's execute the above code, and you will see the following books which are from fiction category.
+Let's execute the above code, and you will see the following books from fiction category.
 
 ```csharp
 The Tempest

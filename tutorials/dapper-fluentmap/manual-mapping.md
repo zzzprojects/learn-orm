@@ -61,7 +61,7 @@ namespace DapperFluentMapDemo
 }
 ```
 
-If you look at the columns in the database and the respective properties in the model classes, you will see that few properties are not matching with columns such as, `strFirstName`, `strLastName` and `strCountry` in the `Authors` table and `strTitle` and `strCategory` in the `Books` table.
+If you look at the columns in the database and the respective properties in the model classes. You will see that few properties are not matching with columns such as `strFirstName`, `strLastName` and `strCountry` in the `Authors` table and `strTitle` and `strCategory` in the `Books` table.
 
 Now to map all the columns in the `Authors` table with the corresponding properties in the `Author` class, let's create a class called `AuthorMap` and derived it from the `EntityMap<Author>` class.
 
@@ -97,7 +97,7 @@ namespace DapperFluentMapDemo
 
 When you derive a class from `EntityMap<TEntity>`, the constructor gives you access to the `Map` method, which allows you to specify to which database column should be mapped to a certain property of `TEntity`.
 
-Similarly, create another class and defined for `Book` class as shown below.
+Similarly, create another class and defined it for `Book` class, as shown below.
 
 ```csharp
 using System;
@@ -178,7 +178,7 @@ private static Author GetAuthorAndTheirBooks(int id)
 }
 ```
 
-Let's execute the above code and you will see the following output.
+Let's execute the above code, and you will see the following output.
 
 ```csharp
 William Shakespeare (UK)

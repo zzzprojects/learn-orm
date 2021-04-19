@@ -35,6 +35,6 @@ Select the **Browse** tab and search for **Dapper.SimpleCRUD** and install the l
 
 <img src="images/setup-7.png" alt="Dapper.SimpleCRUD installed successfully">
 
-Once **Dapper.SimpleCRUD** has been successfully installed, you will also need to install [System.Data.SqlClient](https://www.nuget.org/packages/System.Data.SqlClient) NuGet package.
+Once **Dapper.SimpleCRUD** has been successfully installed. You need to install [System.Data.SqlClient](https://www.nuget.org/packages/System.Data.SqlClient) NuGet package.
 
 You are now ready to start your application.

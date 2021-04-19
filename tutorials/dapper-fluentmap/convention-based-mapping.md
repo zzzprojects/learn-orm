@@ -5,9 +5,9 @@ Name: Convention Based Mapping
 
 # Convention Based Mapping
 
-Sometimes, it is very difficult to create manual mapping classes especially when you have a lot of entity types. If your column names adhere to some kind of naming convention, you might be better off configuring a mapping convention.
+Sometimes, it is very difficult to create manual mapping classes, especially when you have a lot of entity types. If your column names adhere to some kind of naming convention, you might be better off configuring a mapping convention.
 
-You can create a convention by creating a class that derives from the `Convention` class and then in the constructor, you can configure the property conventions as shown below.
+You can create a convention by creating a class that derives from the `Convention` class, and then in the constructor, you can configure the property conventions as shown below.
 
 ```csharp
 using Dapper.FluentMap.Conventions;
@@ -32,7 +32,7 @@ namespace DapperFluentMapDemo
 
 In the above code, we have configured to prefix all properties of type string with 'str' when mapping to column names.
 
-Now make sure to initialize and configure all the entities on which a convention applies as shown below.
+Now make sure to initialize and configure all the entities on which a convention applies, as shown below.
 
 ```csharp
 FluentMapper.Initialize(config =>
@@ -90,7 +90,7 @@ private static Author GetAuthorAndTheirBooks(int id)
 }
 ```
 
-Let's execute the above code and you will see the following output.
+Let's execute the above code, and you will see the following output.
 
 ```csharp
 William Shakespeare (UK)

@@ -15,7 +15,7 @@ The following is the list of extension methods that are provided in **Dapper.Fas
 | Find                  | Retrieve a list of records from a table.                    |
 | Insert                | Inserts a row into the database.                            |
 | Update                | Update a record in the database.                            |
-| BulkUpdate            | Updates a list of records in the database.                |
+| BulkUpdate            | Updates a list of records in the database.                  |
 | Delete                | Delete a record based on primary key                        |
 | BulkDelete            | Deletes all the records in the table or a range of records if a conditional clause was set up in the statement options.|
 | Count                 | Counts all the records in a table or a range of records if a conditional clause was set up in the statement options.   |  

@@ -7,7 +7,7 @@ Name: Insert Data
 
 Inserting data into the database is one of the CRUD operations that act on an individual row by inserting a row. 
 
-The **Dapper Extensions** library provides `Insert` extension method to insert data into the database.
+The **Dapper Extensions** library provides the `Insert` extension method to insert data into the database.
 
 The following example inserts a single new record.
 

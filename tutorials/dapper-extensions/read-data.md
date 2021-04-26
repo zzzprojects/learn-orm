@@ -77,7 +77,7 @@ private static List<Author> GetAllAuthors()
 
 The `GetList` extension method enables you to retrieve data from the database and populate data in your object model.
 
-It also provides a `Get` method to retrieve a single record as shown below.
+It also provides a `Get` method to retrieve a single record, as shown below.
 
 ```csharp
 private static Author GetAuthor(int id)

@@ -19,7 +19,7 @@ Choose **C#** as language, **Windows** as a platform, and **Console** as the pro
 
 <img src="images/setup-3.png" alt="Configure your new project">
 
-Enter the project name, you can change the location and solution name, but we will leave it as is and click on the **Next** button.  
+Enter the project name, you can change the location and solution name, but we will leave it and click on the **Next** button.  
 
 <img src="images/setup-4.png" alt="Additional Information">
 
@@ -35,6 +35,6 @@ Select the **Browse** tab and search for **Dapper.SimpleCRUD** and install the l
 
 <img src="images/setup-7.png" alt="Dapper.SimpleCRUD installed successfully">
 
-Once **Dapper.SimpleCRUD** has been successfully installed, you will also need to install [System.Data.SqlClient](https://www.nuget.org/packages/System.Data.SqlClient) NuGet package.
+Once **Dapper.SimpleCRUD** has been successfully installed. You will also need to install [System.Data.SqlClient](https://www.nuget.org/packages/System.Data.SqlClient) NuGet package.
 
 You are now ready to start your application.

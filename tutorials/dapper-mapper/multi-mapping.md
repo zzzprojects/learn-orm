@@ -10,7 +10,7 @@ In Dapper, multi mapping is a useful feature that you can use when you have a on
  - Let's consider our example where we have a one-to-many relationship between an `Author` and its `Book`. 
  - Instead of having to do two select statements, one for the `Authors` and one for the `Books`, we can also use one simple SQL Statement. 
 
-Let's have a look into the following SQL query which is a straightforward SQL query using `INNER JOIN` which is joining the authors and the books on the `AuthorId` field. 
+Let's look into the following SQL query which is a straightforward SQL query using `INNER JOIN` which is joining the authors and the books on the `AuthorId` field. 
 
 ```csharp
 SELECT * FROM Authors A
@@ -66,7 +66,7 @@ private static void GetAuthorWithBooks()
 }
 ```
 
-If you are using Dapper, then you will have to write the mapping explicitly as shown above. But **Dapper.Mapper** can handle the relationships between the returned objects automatically.
+If you are using Dapper, then you will have to write the mapping explicitly, as shown above. But **Dapper.Mapper** can handle the relationships between the returned objects automatically.
 
 ```csharp
 private static List<Author> GetAuthorWithBooksUsingMapper()

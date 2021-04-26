@@ -5,7 +5,7 @@ Name: Getting Started
 
 # Getting Started
 
-**Dapper.Mapper** is a small NuGet library that extends and simplifies the multi mapping functionality of Dapper. 
+**Dapper.Mapper** is a small NuGet library that extends and simplifies the multi-mapping functionality of Dapper. 
 
  - It allows you to map a single row to multiple objects. 
  - It also automatically figures out the relationships between the returned objects and assigns them.
@@ -26,7 +26,7 @@ Choose **C#** as language, **Windows** as a platform, and **Console** as the pro
 
 <img src="images/setup-3.png" alt="Configure your new project">
 
-Enter the project name, you can change the location and solution name, but we will leave it as is and click on the **Next** button.  
+Enter the project name, you can change the location and solution name, but we will leave it and click on the **Next** button.  
 
 <img src="images/setup-4.png" alt="Additional Information">
 
@@ -34,7 +34,7 @@ On the **Additional Information** dialog, select the target framework and then c
 
 <img src="images/setup-5.png" alt="Console Application created">
 
-You can see a new console application project is created. Now to install a **Dapper.Mapper**, right-click on the **Solution Explorer** project, and select **Manage NuGet Packages...**
+You can see a new console application project is created. Now, to install a **Dapper.Mapper**, right-click on the **Solution Explorer** project, and select **Manage NuGet Packages...**
 
 <img src="images/setup-6.png" alt="Install Dapper.Mapper">
 

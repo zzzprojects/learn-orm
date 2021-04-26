@@ -8,7 +8,7 @@ Name: Getting Started
 **Dapper Extensions** is a small NuGet library that extends the `IDbConnection` for Dapper by adding basic CRUD operations (Get, Insert, Update, Delete) for your domain classes. 
 
  - For more advanced querying scenarios, Dapper Extensions provides a predicate system. 
- - The goal of this library is to keep your classes pure by not requiring any attributes or base class inheritance.
+ - This library aims to keep your classes pure by not requiring any attributes or base class inheritance.
 
 The following is the list of extension methods that are provided in **Dapper Extensions**.
 
@@ -35,8 +35,8 @@ PM> Install-Package DapperExtensions
  - Automatic mapping of POCOs for `Get`, `Insert`, `Update`, and `Delete` operations.
  - For more advanced scenarios, it also provides `GetList` and `Count` methods.
  - You can use the `GetPage` method for returning paged result sets.
- - Guid and Integer primary keys are supported automatically and you can include support for other key types manually.
+ - Guid and Integer primary keys are supported automatically, and you can include support for other key types manually.
  - You can customize the entity-table mapping using `ClassMapper`.
- - It has also support for the composite primary key.
- - By default, a singular table name is supported but you can also use the pluralized table name.
+ - It also has support for the composite primary key.
+ - By default, a singular table name is supported, but you can also use the pluralized table name.
  - For more advanced scenarios, it also provides the Predicate System.

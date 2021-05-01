@@ -6,4 +6,5 @@
 - [Add Namespace to Evaluation](add-namespace-to-evaluation.md)
 - [Evaluate a Script with Parameters](evaluate-a-script-with-parameters.md)
 - [Chain Code Snippets](chain-code-snippets.md)
+- [Exception Handling](exception-handling.md)
 

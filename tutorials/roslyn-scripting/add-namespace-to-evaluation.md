@@ -10,7 +10,7 @@ In the `EvaluateAsync` method, you can evaluate a member as shown below.
 ```csharp
 static async Task EvaluateExample3()
 {
-    int result = await CSharpScript.EvaluateAsync<int>("System.Console.WriteLine(System.DateTime.Now)");
+    var result = await CSharpScript.EvaluateAsync("System.Console.WriteLine(System.DateTime.Now)");
 }
 ```
 
@@ -21,7 +21,7 @@ The `CSharpScript.EvaluateAsync` method also provides an overload that also take
 ```csharp
 static async Task EvaluateExample4()
 {
-    int result = await CSharpScript.EvaluateAsync<int>("Console.WriteLine(DateTime.Now)", 
+    var result = await CSharpScript.EvaluateAsync("Console.WriteLine(DateTime.Now)", 
         ScriptOptions.Default.WithImports("System"));
 }
 ```

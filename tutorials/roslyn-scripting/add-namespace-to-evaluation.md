@@ -39,3 +39,14 @@ static async Task EvaluateExample5()
     Console.WriteLine(result);
 }
 ```
+
+You can also add references very easily with `WithReferences` method.
+
+```csharp
+static async Task EvaluateExample6()
+{
+    var result = await CSharpScript.EvaluateAsync("System.Net.Dns.GetHostName()",
+        ScriptOptions.Default.WithReferences(typeof(System.Net.Dns).Assembly));
+    Console.WriteLine(result);
+}
+```

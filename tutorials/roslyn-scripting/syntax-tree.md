@@ -66,11 +66,10 @@ static void SyntaxTreeExample2()
 
     var root = (CompilationUnitSyntax)tree.GetRoot();
 
-    var firstParameters = from methodDeclaration in root.DescendantNodes()
-                            .OfType<MethodDeclarationSyntax>()
-                          where methodDeclaration.Identifier.ValueText == "Main"
-                          select methodDeclaration.ParameterList.Parameters.First();
+    var parameters = root.DescendantNodes().OfType<MethodDeclarationSyntax>()
+        .Where(md => md.Identifier.ValueText == "Main")
+        .Select(md => md.ParameterList.Parameters.First());
 
-    Console.WriteLine(firstParameters.FirstOrDefault());
+    Console.WriteLine(parameters.FirstOrDefault());
 }
 ```

@@ -5,7 +5,7 @@ Name: Add Namespace to Evaluation
 
 # Add Namespace to Evaluation
 
-In the `EvaluateAsync` method, you can evaluate a member as shown below.   
+In the `EvaluateAsync` method, you can evaluate a member, as shown below.   
 
 ```csharp
 static async Task EvaluateExample3()
@@ -14,7 +14,7 @@ static async Task EvaluateExample3()
 }
 ```
 
-As you can see that we have specified a member with a full qualified path. Now if you have a lot of code to evaluate or you need to use the same member several times, it will be very difficult to specify a fully qualified path again and again. 
+As you can see, we specified a member with a fully qualified path. Now, if you have a lot of code to evaluate or you need to use the same member several times, it will be very difficult to specify a fully qualified path again and again. 
 
 The `CSharpScript.EvaluateAsync` method also provides an overload that also takes `ScriptOptions` as a parameter.
 

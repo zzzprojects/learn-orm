@@ -52,7 +52,7 @@ private static Author GetAuthor(int id)
 }
 ```
 
-The following example builds the SQL query which contains an inner join between `Authors` and `Books`.
+The following example builds the SQL query, which contains an inner join between `Authors` and `Books`.
 
 ```csharp
 private static List<Author> GetAuthorWithBooks()

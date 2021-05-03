@@ -5,9 +5,9 @@ Name: Chain Code Snippets
 
 # Chain Code Snippets
 
-Chaining allows you to run multiple statements within a single script. Roslyn also allows you to chain multiple commands and run each command one by one and keep the track of the state. 
+Chaining allows you to run multiple statements within a single script. Roslyn also allows you to chain multiple commands and run each command one by one and keep track of the state. 
 
-The following example chains three statements, the first two statements are assigning the values to the variables and then in the third statement, it will use the results from the previous statements.  
+The following example chains three statements. The first two statements are assigning the values to the variables, and then in the third statement, it will use the results from the previous statements.  
 
 ```csharp
 static async Task ChainCodeSnippets()
@@ -23,7 +23,7 @@ static async Task ChainCodeSnippets()
 }
 ```
 
-You can also continue the script execution from a previous state and each command will just continue from the existing state.
+You can also continue the script execution from a previous state, and each command will continue from the existing state.
 
 ```csharp
 static async Task ChainCodeSnippets1()
@@ -37,7 +37,7 @@ static async Task ChainCodeSnippets1()
 }
 ```
 
-Roslyn also allows you to run a C# snippet and inspect the defined script variables as shown below.
+Roslyn also allows you to run a C# snippet and inspect the defined script variables, as shown below.
 
 ```csharp
 static async Task EvaluateScriptVariable()

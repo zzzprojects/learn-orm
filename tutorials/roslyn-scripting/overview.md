@@ -5,7 +5,7 @@ Name: Overview
 
 # Overview
 
-A compiler is a black box, it takes source code as an input, magic happens in the middle, and object files or assemblies come out as an output. 
+A compiler is a black box. It takes source code as an input, magic happens in the middle, and object files or assemblies come out as an output. 
 
  - As compilers perform some processing and build up a deep understanding of the code, but that knowledge is only available to the compiler implementation wizards. 
  - The information is promptly forgotten after the translated output is produced.

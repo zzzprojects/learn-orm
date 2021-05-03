@@ -7,7 +7,7 @@ Name: Syntax Transformation
 
 As you know that syntax trees are immutable, so instead of modifying existing syntax trees, we need to create new trees using transformations when need to modify them.
 
-Let's consider the following simple example code which contains various using statements at the top of the source code.
+Let's consider the following simple example code which contains various using directives at the top of the source code.
 
 ```csharp
 using System;
@@ -28,9 +28,9 @@ namespace HelloWorld
 }
 ```
 
-As you can see that the last using statement is `Microsoft.CodeAnalysis;`, now we will replace this using statement with `Microsoft.CodeAnalysis.CSharp.Scripting;` using the transformation.
+As you can see that the last using directive is `Microsoft.CodeAnalysis;`, now we will replace this using directive with `Microsoft.CodeAnalysis.CSharp.Scripting;` using the transformation.
 
-The following code first creates a `NameSyntax` node using the `IdentifierName` and `QualifiedName` methods for the using statement which we will replace.
+The following code first creates a `NameSyntax` node using the `IdentifierName` and `QualifiedName` methods for the using directive which we will replace.
 
 ```csharp
 static void SyntaxTransformationExample()
@@ -71,7 +71,7 @@ namespace HelloWorld
 }
 ```
 
-Once the source code is parsed then we replaced the last using statement with the new one. Let's execute the above code and you will see the following output.
+Once the source code is parsed then we replaced the last using directive with the new one. Let's execute the above code and you will see the following output.
 
 ```csharp
 using System;
@@ -92,4 +92,4 @@ namespace HelloWorld
 }
 ```
 
-As you can see the last using statement is updated to `Microsoft.CodeAnalysis.CSharp.Scripting;`.
+As you can see the last using directive is updated to `Microsoft.CodeAnalysis.CSharp.Scripting;`.

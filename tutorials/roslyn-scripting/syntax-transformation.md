@@ -7,6 +7,17 @@ Name: Syntax Transformation
 
 As you know that syntax trees are immutable, so instead of modifying existing syntax trees, we need to create new trees using transformations when need to modify them.
 
+The `SyntaxFactory` class provides factory methods to create `SyntaxNodes` for each kind of node, token or trivia which we can use to create an instance of that type.
+
+The `NameSyntax` is the base class for the following four types.
+
+| Name                   | Description                                                                               |
+| :----------------------| :----------------------------------------------------------------------------------------|
+| IdentifierNameSyntax   |  It represents simple single identifier names like System and Microsoft
+| GenericNameSyntax      |  It represents a generic type or method name such as List
+| QualifiedNameSyntax    |  It represents a qualified name of the form <left-name>.<right-identifier-or-generic-name> such as System.IO
+| AliasQualifiedNameSyntax |  It represents a name using an assembly extern alias such a LibraryV2::Foo By composing these names together you can create any name which can appear in the C# language.
+
 Let's consider the following simple example code which contains various using directives at the top of the source code.
 
 ```csharp

@@ -5,7 +5,7 @@ Name: Evaluate a Script with Parameters
 
 # Evaluate a Script with Parameters
 
-When you need to send some information to a method, you can do it by passing the parameters and parameters act as variables inside the method.
+When you need to send some information to a method, you can do it by passing the parameters, and parameters act as variables inside the method.
 
 You can send parameters to the expression and use them in the script logic.
 
@@ -24,7 +24,7 @@ static async Task EvaluateWithParameters()
 }
 ```
 
-You can also create a script and execute it multiple times as shown below.
+You can also create a script and execute it multiple times, as shown below.
 
 ```csharp
 static async Task EvaluateWithParameters1()
@@ -46,7 +46,7 @@ static async Task EvaluateWithParameters1()
 }
 ```
 
-The `CSharpScript.Create` method creates a script and then the `RunAsync` method executes that script multiple times in a `for loop.
+The `CSharpScript.Create` method creates a script, and then the `RunAsync` method executes that script multiple times in a `for loop.
 
 You can also use the `CreateDelegate` method of a `Script` class to create a delegate to a script. The delegate doesn't hold compilation resources alive.
 

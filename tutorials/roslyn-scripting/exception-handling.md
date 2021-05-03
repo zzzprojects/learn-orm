@@ -7,9 +7,9 @@ Name: Exception Handling
 
 An exception is a problem that arises during the execution of a program. It helps you deal with any unexpected or exceptional situations that occur when a program is running.
 
-When you are evaluating the script, it is provided as an input and very often you do not have control over the input and cannot be sure that whether it will be evaluated or even parsed or not. So it is strongly recommended to keep the evaluation code inside try-catch blocks.
+When you evaluate the script, it is provided as an input and very often you do not have control over the input and cannot be sure whether it will be evaluated or even parsed. So it is strongly recommended to keep the evaluation code inside try-catch blocks.
 
-Let's consider the following simple example which chains three different statements.
+Let's consider the following simple example, which chains three different statements.
 
 ```csharp
 static async Task EvaluateWithException()
@@ -42,7 +42,7 @@ static async Task EvaluateWithExceptionHandling()
 }
 ``` 
 
-The `CompilationErrorException` class has the `Diagnostics` property which allows you to access all the compile issues. Let's execute the above code again and you will see the now the following error messages on the console.
+The `CompilationErrorException` class has the `Diagnostics` property, which allows you to access all the compile issues. Let's execute the above code again, and you will see the now the following error messages on the console.
 
 ```csharp
 (1,1): error CS0103: The name 'x' does not exist in the current context

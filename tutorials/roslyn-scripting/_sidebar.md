@@ -10,3 +10,4 @@
 - [Syntax Tree](syntax-tree.md)
 - [Syntax Tree Walker](syntax-tree-walker.md)
 - [Semantic Analysis](semantic-analysis.md)
+- [Syntax Transformation](syntax-transformation.md)

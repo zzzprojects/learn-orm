@@ -7,7 +7,7 @@ Name: Syntax Tree Walker
 
 The syntax tree approach works well when you are only interested in specific pieces of syntax such as methods, classes, and throw statements, etc. However, sometimes you will need to find all nodes of a specific type within a syntax tree. 
 
-The `CSharpSyntaxWalker` class allows you to create your syntax walker that can visit all nodes, and tokens, etc. We can simply inherit from `CSharpSyntaxWalker` and override any particular method as per your requirements to visit all nodes within the tree. 
+The `CSharpSyntaxWalker` class allows you to create your syntax walker that can visit all nodes, and tokens, etc. We can simply inherit from `CSharpSyntaxWalker` and override any particular method, as per your requirements to visit all nodes within the tree. 
 
 Now let's consider we have the following code to parse within a syntax tree.
 

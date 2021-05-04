@@ -11,3 +11,4 @@
 - [Syntax Tree Walker](syntax-tree-walker.md)
 - [Semantic Analysis](semantic-analysis.md)
 - [Syntax Transformation](syntax-transformation.md)
+- [Syntax Transformation using Rewriter](syntax-transformation-using-rewriter.md)

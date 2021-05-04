@@ -12,3 +12,4 @@
 - [Semantic Analysis](semantic-analysis.md)
 - [Syntax Transformation](syntax-transformation.md)
 - [Syntax Transformation using Rewriter](syntax-transformation-using-rewriter.md)
+- [Workspaces](workspaces.md)

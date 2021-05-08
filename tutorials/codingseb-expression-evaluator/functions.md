@@ -54,7 +54,7 @@ Log10(1000d)
          3
 ```
 
-You can also add an extension method for the evaluation by using `StaticTypesForExtensionsMethods`. Let's suppose we have a simple string extension method as shown below.
+You can also add an extension method for the evaluation. Let's suppose we have a simple string extension method as shown below.
 
 ```csharp
 public static class StringExtendedMethods
@@ -66,7 +66,10 @@ public static class StringExtendedMethods
     }
 ```
 
-Now to add the above extension method to use inside an expression or script, we will use the `StaticTypesForExtensionsMethods` property as shown below.
+To use extension methods Expression Evaluator need to know which classes implements extension methods.
+
+ - Expression Evaluator do not find extension methods by itself because depending on the size of your assembly it can be very slow. 
+ - But if you want, you can use `StaticTypesForExtensionsMethods` list as shown below.
 
 ```csharp
 public static void Example2()

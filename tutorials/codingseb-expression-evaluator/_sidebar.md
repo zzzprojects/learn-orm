@@ -4,4 +4,5 @@
 - [Script Expressions](script-expressions.md)
 - [Variables](variables.md)
 - [Additional Variables Declaration](additional-variables-declaration.md)
+- [Functions](functions.md)
 

@@ -5,7 +5,7 @@ Name: Emit Compilation
 
 # Emit Compilation
 
-So far we have discussed how to evaluate, analyze and manipulate source code. Now let's have a look at how to emit the compilation of your source code. You can emit it to either disk or memory. 
+So far, we have discussed how to evaluate, analyze and manipulate source code. Now let's have a look at how to emit the compilation of your source code. You can emit it to either disk or memory. 
 
 The following example emits the source code to the `output.exe` file. 
 ```csharp
@@ -44,9 +44,9 @@ static void EmitCompilationExample()
 }
 ```
 
-Let's execute the above code and you will see that the `.exe` and `.pdb` files have been emitted to `Debug/bin/`. 
+Let's execute the above code, and you will see that the `.exe` and `.pdb` files have been emitted to `Debug/bin/`. 
 
-You can also emit the compilation of the source code to the memory and then execute it from memory as shown below.
+You can also emit the compilation of the source code to the memory and then execute it from memory, as shown below.
 
 ```csharp
 static void EmitCompilationToMemoryExample()

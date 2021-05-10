@@ -5,13 +5,13 @@ Name: Variables and Functions Evaluation on the Fly
 
 # Variables and Functions Evaluation on the Fly
 
-The **CodingSeb.ExpressionEvaluator** library allows you to add variables and functions on the fly during evaluation by using the C# events.
+The **CodingSeb.ExpressionEvaluator** library allows you to add variables and functions on the fly during evaluation using the C# events.
 
  - It always fires `PreEvaluateVariable` and `PreEvaluateFunction` events before all the evaluations of variables, fields, properties, and functions. 
- - If you cancel these two events no further evaluations are done.
- - After all standard evaluation of all variables, fields, properties, functions, and methods, then it fires `EvaluateVariable` and `EvaluateFunction` events. 
+ - If you cancel these two events, no further evaluations are done.
+ - After all standard evaluation of all variables, fields, properties, functions, and methods, it fires `EvaluateVariable` and `EvaluateFunction` events. 
  - These two events are fired only if no others evaluations succeed. 
- - It avoids conflicts but it has also some performance drawbacks.
+ - It avoids conflicts, but it also has some performance drawbacks.
 
 The following example shows how to use the events which are fired before and after the evaluation.
 
@@ -119,7 +119,7 @@ private static void PostEvaluateFunctionMethod(object sender, FunctionEvaluation
 }
 ```
 
-Let's execute the above code and you will see the following output.
+Let's execute the above code, and you will see the following output.
 
 ```csharp
 var1 + 13:       22

@@ -56,7 +56,7 @@ a + b:   11
 c + 10:  21
 ```
 
-In addition to `Variables` dictionary, the **CodingSeb.ExpressionEvaluator** also provides a `Context` property of type object which allows you to access all public properties, fields, and methods directly of that particular object which is assigned to the `Context`.
+In addition to `Variables` dictionary, the **CodingSeb.ExpressionEvaluator** also provides a `Context` property of type object that allows you to access all public properties, fields, and methods directly of that particular object assigned to the `Context`.
 
 ```csharp
 public static void Example2()
@@ -99,7 +99,7 @@ public class Customer
 }
 ```
 
-Let's execute the above code and you will see the following output.
+Let's execute the above code, and you will see the following output.
 
 ```csharp
 FirstName + " " + LastName:      Mark Upston

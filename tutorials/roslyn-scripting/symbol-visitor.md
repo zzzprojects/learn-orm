@@ -5,9 +5,9 @@ Name: Symbol Visitor
 
 # Symbol Visitor
 
-The `SymbolVisitor` is equivalent to `SyntaxVisitor`, but it works at the symbol level. When you are using the `SymbolVisitor` you must construct the scaffolding code to visit all the nodes which is not the case when you are using the `CSharpSyntaxWalker` and `CSharpSyntaxRewriter`.
+The `SymbolVisitor` is equivalent to `SyntaxVisitor`, but it works at the symbol level. When you are using the `SymbolVisitor`, you must construct the scaffolding code to visit all the nodes, which is not the case when you are using the `CSharpSyntaxWalker` and `CSharpSyntaxRewriter`.
 
-Let's add a class and replace the following code which simply lists all the types available to a compilation.
+Let's add a class and replace the following code, which simply lists all the types available to a compilation.
 
 ```csharp
 using Microsoft.CodeAnalysis;

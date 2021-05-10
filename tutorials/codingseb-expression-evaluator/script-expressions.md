@@ -41,7 +41,7 @@ public static void Example1()
 }
 ``` 
 
-Now let's consider another example of script that contains a `for` loop.
+Now let's consider another example of a script that contains a `for` loop.
 
 ```csharp
 public static void Example2()

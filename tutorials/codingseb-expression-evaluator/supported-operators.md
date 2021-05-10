@@ -1,9 +1,9 @@
 ﻿---
 PermaID: 100009
-Name: Supported Operators and Keywords
+Name: Supported Operators
 ---
 
-# Supported Operators and Keywords
+# Supported Operators
 
 In a programming language, operators are special symbols such as `+`, `-`, `^`, etc. that perform some action on operands. The **CodingSeb.ExpressionEvaluator** library manages a large set of C# operators and it also respects the C# precedence rules of operators.
 

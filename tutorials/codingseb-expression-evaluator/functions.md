@@ -32,7 +32,7 @@ public static void Example1()
 }
 ```
 
-Let's execute the above code and you will see the following output.
+Let's execute the above code, and you will see the following output.
 
 ```csharp
 Abs(-3.2d)
@@ -54,7 +54,7 @@ Log10(1000d)
          3
 ```
 
-You can also add an extension method for the evaluation. Let's suppose we have a simple string extension method as shown below.
+You can also add an extension method for the evaluation. For example, let's suppose we have a simple string extension method as shown below.
 
 ```csharp
 public static class StringExtendedMethods
@@ -66,9 +66,9 @@ public static class StringExtendedMethods
     }
 ```
 
-To use extension methods Expression Evaluator need to know which classes implements extension methods.
+To use extension methods Expression Evaluator need to know which classes implement extension methods.
 
- - Expression Evaluator do not find extension methods by itself because depending on the size of your assembly it can be very slow. 
+ - Expression Evaluator do not find extension methods by itself because depending on the size of your assembly, it can be very slow. 
  - But if you want, you can use `StaticTypesForExtensionsMethods` list as shown below.
 
 ```csharp
@@ -95,7 +95,7 @@ public static void Example2()
 }
 ```
 
-Let's execute the above code and you will see the following output.
+Let's execute the above code, and you will see the following output.
 
 ```csharp
 str.AddExtended()

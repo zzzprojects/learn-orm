@@ -7,4 +7,5 @@
 - [Functions](functions.md)
 - [Variables and Functions Evaluation on the Fly](variables-and-functions-evaluation-on-the-fly.md)
 - [Variables Declaration and Initialization](variables-declaration-and-initialization.md)
+- [Supported Operators](supported-operators.md)
 

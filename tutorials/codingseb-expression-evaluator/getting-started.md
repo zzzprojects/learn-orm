@@ -8,7 +8,7 @@ Name: Getting Started
 **CodingSeb.ExpressionEvaluator** is a NuGet package that provides simple math and pseudo C# expression evaluation functionality.
 
  - It provides basic mathematical and logical expression evaluation.
- - You can use `System.Math` methods and constants directly and some of the methods are improved such as, `Max`, `Min` and `Avg` etc.
+ - You can use `System.Math` methods and constants directly and some methods are improved such as; `Max`, `Min`, `Avg`, etc.
 
 ## Features
 
@@ -20,7 +20,7 @@ Name: Getting Started
  - You can call methods and properties on your classes just by passing an object as custom variables
  - It has support for C# primary types
  - You can use strings as in C# such as `@""`, `$""`, `$@""`.
- - It has also support for lambda expressions
+ - It also has support for lambda expressions
  - You can create custom operators or change the parsing process
 
 ## Installation

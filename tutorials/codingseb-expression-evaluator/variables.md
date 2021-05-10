@@ -5,7 +5,7 @@ Name: Variables
 
 # Variables
 
-The **CodingSeb.ExpressionEvaluator** library provides the following standard constants which you can use directly in the expressions or script.
+The **CodingSeb.ExpressionEvaluator** library provides the following standard constants, which you can use directly in the expressions or script.
 
 | Constant         | Value                | Type            |
 | :----------------| :--------------------| :---------------|
@@ -59,7 +59,7 @@ public static void Example2()
 }
 ```
 
-Let's execute the above code and you will see the following output.
+Let's execute the above code, and you will see the following output.
 
 ```csharp
 myInt + myDouble
@@ -84,7 +84,7 @@ Multiply(3.54, 13.9)
          17.44
 ```
 
-The **CodingSeb.ExpressionEvaluator** also allows you to store callable delegates in variables which can very useful as shown below.
+The **CodingSeb.ExpressionEvaluator** also allows you to store callable delegates in variables which can be very useful, as shown below.
 
 ```csharp
 public static void Example3()
@@ -111,7 +111,7 @@ public static void Example3()
 }
 ```
 
-Let's execute the above code and you will see the following output.
+Let's execute the above code, and you will see the following output.
 
 ```csharp
 Multiply(3.54, 13.9)

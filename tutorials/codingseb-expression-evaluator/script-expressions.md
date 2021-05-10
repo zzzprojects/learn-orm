@@ -5,7 +5,7 @@ Name: Script Expressions
 
 # Script Expressions
 
-The **CodingSeb.ExpressionEvaluator** gives you the ability to dynamically build C# script into a string, and evaluate it all inside your program by using the `ScriptEvaluate` method.
+Scripts are nothing but just a series of expressions separated by `;` character. The **CodingSeb.ExpressionEvaluator** gives you the ability to dynamically build C# script into a string, and evaluate it all inside your program by using the `ScriptEvaluate` method.
 
 The following example evaluates the script, which contains multiple `if` and `elseif` statements.
 
@@ -41,7 +41,7 @@ public static void Example1()
 }
 ``` 
 
-Now let's consider another example script that contains a `for` loop.
+Now let's consider another example of script that contains a `for` loop.
 
 ```csharp
 public static void Example2()

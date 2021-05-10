@@ -7,10 +7,10 @@ Name: Workspaces
 
 The Workspaces layer allows you to perform code analysis and refactoring over entire solutions. 
 
- - The Workspace API assists you to get all the information about the projects in a solution into a single object model.
+ - The Workspace API assists you in getting all the information about the projects in a solution into a single object model.
  - A Workspace is the root node of a hierarchy that consists of a solution, child projects, and child documents.
 
-The `MSBuildWorkspace` is used to handle MSBuild solution (.sln) and project (.csproj, .vbproj) files. Currently, you cannot add projects or create new solutions, you can iterate over all the documents in a solution as shown below.
+The `MSBuildWorkspace` is used to handle MSBuild solution (.sln) and project (.csproj, .vbproj) files. Currently, you cannot add projects or create new solutions. You can iterate over all the documents in a solution, as shown below.
 
 ```csharp
 static void MSBuildWorkspaceExample()
@@ -31,7 +31,7 @@ static void MSBuildWorkspaceExample()
 }
 ```
 
-The `AdhocWorkspace` allows you to add solution and project files manually. You can use this workspace if you just need a quick and easy way to create a workspace and add projects and documents to it.
+`AdhocWorkspace` allows you to add solution and project files manually. You can use this workspace if you need a quick and easy way to create a workspace and add projects and documents.
 
 ```csharp
 static void AdhocWorkspaceExample()

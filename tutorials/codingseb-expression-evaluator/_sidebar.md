@@ -12,3 +12,4 @@
 - [Supported Data Types](supported-data-types.md)
 - [Expando Object](expando-object.md)
 - [Advanced Customization](advanced-customization.md)
+- [Options](options.md)

@@ -3,3 +3,4 @@
 - [Simple Expressions](simple-expressions.md)
 - [Operators](operators.md)
 - [Functions](functions.md)
+- [Values](values.md)

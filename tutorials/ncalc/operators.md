@@ -35,23 +35,23 @@ public static void Example1()
 {
     string expression = string.Format("3 + 6");
     Expression evaluator = new Expression(expression);
-    Console.WriteLine("3 + 6 = {0}", evaluator.Evaluate());
+    Console.WriteLine("{0} = {1}", expression, evaluator.Evaluate());
 
     expression = string.Format("3 - 6");
     evaluator = new Expression(expression);
-    Console.WriteLine("3 - 6 = {0}", evaluator.Evaluate());
+    Console.WriteLine("{0} = {1}", expression, evaluator.Evaluate());
 
     expression = string.Format("3 * 6");
     evaluator = new Expression(expression);
-    Console.WriteLine("3 * 6 = {0}", evaluator.Evaluate());
+    Console.WriteLine("{0} = {1}", expression, evaluator.Evaluate());
 
     expression = string.Format("3 / 6");
     evaluator = new Expression(expression);
-    Console.WriteLine("3 / 6 = {0}", evaluator.Evaluate());
+    Console.WriteLine("{0} = {1}", expression, evaluator.Evaluate());
 
     expression = string.Format("3 % 6");
     evaluator = new Expression(expression);
-    Console.WriteLine("3 % 6 = {0}", evaluator.Evaluate());
+    Console.WriteLine("{0} = {1}", expression, evaluator.Evaluate());
 }
 ```
 
@@ -85,27 +85,27 @@ public static void Example2()
 {
     string expression = string.Format("true || false");
     Expression evaluator = new Expression(expression);
-    Console.WriteLine("true || false = {0}", evaluator.Evaluate());
+    Console.WriteLine("{0} = {1}", expression, evaluator.Evaluate());
 
     expression = string.Format("true or false");
     evaluator = new Expression(expression);
-    Console.WriteLine("true or false = {0}", evaluator.Evaluate());
+    Console.WriteLine("{0} = {1}", expression, evaluator.Evaluate());
 
     expression = string.Format("true && false");
     evaluator = new Expression(expression);
-    Console.WriteLine("true && false = {0}", evaluator.Evaluate());
+    Console.WriteLine("{0} = {1}", expression, evaluator.Evaluate());
 
     expression = string.Format("true and false");
     evaluator = new Expression(expression);
-    Console.WriteLine("true and false = {0}", evaluator.Evaluate());
+    Console.WriteLine("{0} = {1}", expression, evaluator.Evaluate());
 
     expression = string.Format("true or false and true");
     evaluator = new Expression(expression);
-    Console.WriteLine("true or false and true = {0}", evaluator.Evaluate());
+    Console.WriteLine("{0} = {1}", expression, evaluator.Evaluate());
 
     expression = string.Format("!false");
     evaluator = new Expression(expression);
-    Console.WriteLine("!false = {0}", evaluator.Evaluate());
+    Console.WriteLine("{0} = {1}", expression, evaluator.Evaluate());
 }
 ```
 
@@ -123,23 +123,27 @@ public static void Example3()
 {
     string expression = string.Format("2 >> 3");
     Expression evaluator = new Expression(expression);
-    Console.WriteLine("2 >> 3 = {0}", evaluator.Evaluate());
+    Console.WriteLine("{0} = {1}", expression, evaluator.Evaluate());
 
     expression = string.Format("2 << 3");
     evaluator = new Expression(expression);
-    Console.WriteLine("2 << 3 = {0}", evaluator.Evaluate());
+    Console.WriteLine("{0} = {1}", expression, evaluator.Evaluate());
 
     expression = string.Format("2 & 3");
     evaluator = new Expression(expression);
-    Console.WriteLine("2 & 3 = {0}", evaluator.Evaluate());
+    Console.WriteLine("{0} = {1}", expression, evaluator.Evaluate());
 
     expression = string.Format("2 | 3");
     evaluator = new Expression(expression);
-    Console.WriteLine("2 | 3 = {0}", evaluator.Evaluate());
+    Console.WriteLine("{0} = {1}", expression, evaluator.Evaluate());
 
     expression = string.Format("2 ^ 3");
     evaluator = new Expression(expression);
-    Console.WriteLine("2 ^ 3 = {0}", evaluator.Evaluate());
+    Console.WriteLine("{0} = {1}", expression, evaluator.Evaluate());
+
+    expression = string.Format("~false");
+    evaluator = new Expression(expression);
+    Console.WriteLine("{0} = {1}", expression, evaluator.Evaluate());
 }
 ```
 
@@ -161,26 +165,26 @@ public static void Example4()
 {
     string expression = string.Format("2 > 3");
     Expression evaluator = new Expression(expression);
-    Console.WriteLine("2 > 3 = {0}", evaluator.Evaluate());
+    Console.WriteLine("{0} = {1}", expression, evaluator.Evaluate());
 
     expression = string.Format("2 < 3");
     evaluator = new Expression(expression);
-    Console.WriteLine("2 < 3 = {0}", evaluator.Evaluate());
+    Console.WriteLine("{0} = {1}", expression, evaluator.Evaluate());
 
     expression = string.Format("2 >= 3");
     evaluator = new Expression(expression);
-    Console.WriteLine("2 >= 3 = {0}", evaluator.Evaluate());
+    Console.WriteLine("{0} = {1}", expression, evaluator.Evaluate());
 
     expression = string.Format("2 <= 3");
     evaluator = new Expression(expression);
-    Console.WriteLine("2 <= 3 = {0}", evaluator.Evaluate());
+    Console.WriteLine("{0} = {1}", expression, evaluator.Evaluate());
 
     expression = string.Format("2 != 3");
     evaluator = new Expression(expression);
-    Console.WriteLine("2 != 3 = {0}", evaluator.Evaluate());
+    Console.WriteLine("{0} = {1}", expression, evaluator.Evaluate());
 
     expression = string.Format("2 == 3");
     evaluator = new Expression(expression);
-    Console.WriteLine("2 == 3 = {0}", evaluator.Evaluate());
+    Console.WriteLine("{0} = {1}", expression, evaluator.Evaluate());
 }
 ```

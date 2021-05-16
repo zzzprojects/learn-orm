@@ -5,7 +5,7 @@ Name: Parameters
 
 # Parameters
 
-Parameters act as variables inside the expression. You can add as many parameters as you want just by enclosing each variable in square brackets (`[]`). Parameters are useful when a value is unknown at compile-time, or when performance is important and the parsing can be saved for further calculations.
+Parameters act as variables inside the expression. You can add as many parameters as you want. You can also enclose each variable in square brackets (`[]`). Parameters are useful when a value is unknown at compile-time, or when performance is important and the parsing can be saved for further calculations.
 
 There are various ways to use parameters while evaluating your expressions.
 
@@ -21,7 +21,7 @@ Static parameters are values that can be defined before the evaluation of an exp
 ```csharp
 public static void Example1()
 {
-    string expression = "[x] + [y]";
+    string expression = "x + y";
 
     Expression evaluator = new Expression(expression);
     evaluator.Parameters["x"] = 3;
@@ -31,7 +31,7 @@ public static void Example1()
 }
 ```
 
-You can also use special characters like spaces, dots, and also start with digits, etc. in between square brackets when defining parameters.
+You can also use special characters like spaces, dots, and also start with digits, etc. in between square brackets (`[]`) when defining parameters.
 
 ```csharp
 public static void Example2()

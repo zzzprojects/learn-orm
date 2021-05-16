@@ -5,3 +5,4 @@
 - [Functions](functions.md)
 - [Values](values.md)
 - [Parameters](parameters.md)
+- [Exception Handling](exception-handling.md)

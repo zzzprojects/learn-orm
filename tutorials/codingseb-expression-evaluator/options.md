@@ -9,7 +9,7 @@ The **CodingSeb.ExpressionEvaluator** provides various options that can modify t
 
 ## Case Sensitive Evaluation
 
-The code evaluation is case sensitive by default, let's way you want to evaluate the following different expressions.
+The code evaluation is case-sensitive by default. Let's way you want to evaluate the following different expressions.
 
 ```csharp
 public static void Example1()
@@ -41,7 +41,7 @@ public static void Example1()
 }
 ```
 
-When you execute the above code you will get the exceptions for those expressions which are not in the camel case. 
+When you execute the above code, you will get the exceptions for those expressions which are not in the camel case. 
 
 ```csharp
 Function [ABS] unknown in expression : [ABS(-3.2d)]
@@ -86,7 +86,7 @@ public static void Example2()
 }
 ```
 
-Let's execute the above code and you will see the following output.
+Let's execute the above code, and you will see the following output.
 
 ```csharp
 ABS(-3.2d);      3.2
@@ -115,7 +115,7 @@ public static void Example3()
 }
 ```
 
-Let's execute the above code and you will see the following output.
+Let's execute the above code, and you will see the following output.
 
 ```csharp
 3
@@ -134,7 +134,7 @@ public static void Example4()
 }
 ```
 
-Let's execute the above code and you will see the following output.
+Let's execute the above code, and you will see the following output.
 
 ```csharp
 3.3333333333333335

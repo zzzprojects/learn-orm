@@ -5,7 +5,7 @@ Name: Supported Keywords
 
 # Supported Keywords
 
-As you already know that apart from simple expression evaluation the **CodingSeb.ExpressionEvaluator** allows you to evaluate small scripts which contain methods and variables, etc. Scripts are nothing but just a series of expressions separated by `;` character and led by several additionals keywords.
+As you already know that apart from simple expression evaluation, the **CodingSeb.ExpressionEvaluator** allows you to evaluate small scripts which contain methods and variables, etc. Scripts are nothing but just a series of expressions separated by `;` character and led by several additionals keywords.
 
 Currently, the following keywords are supported to use inside a script.
 

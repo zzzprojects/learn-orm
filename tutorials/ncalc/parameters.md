@@ -5,7 +5,7 @@ Name: Parameters
 
 # Parameters
 
-Parameters act as variables inside the expression. You can add as many parameters as you want. You can also enclose each variable in square brackets (`[]`). Parameters are useful when a value is unknown at compile-time, or when performance is important and the parsing can be saved for further calculations.
+Parameters act as variables inside the expression. You can add as many parameters as you want. You can also enclose each variable in square brackets (`[]`). Parameters are useful when a value is unknown at compile-time or when performance is important, and the parsing can be saved for further calculations.
 
 There are various ways to use parameters while evaluating your expressions.
 
@@ -91,7 +91,7 @@ public static void Example4()
 
 ## Multi-valued Parameters
 
-When parameters are `IEnumerable` and you need the result as a list after the evaluation of each value in the parameter, use the `EvaluationOptions.IterateParameters`.
+When parameters are `IEnumerable`, and you need the result as a list after evaluating each value in the parameter, use the `EvaluationOptions.IterateParameters`.
 
 ```csharp
 public static void Example5()

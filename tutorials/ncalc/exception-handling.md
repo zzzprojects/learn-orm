@@ -29,7 +29,7 @@ public static void Example1()
 }
 ```
 
-You can also detect syntax errors before evaluating the expression by calling the `HasErrors()` method as shown below.
+You can also detect syntax errors before evaluating the expression by calling the `HasErrors()` method, as shown below.
 
 ```csharp
 public static void Example2()

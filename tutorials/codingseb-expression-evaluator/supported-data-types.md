@@ -5,7 +5,7 @@ Name: Supported Data Types
 
 # Supported Data Types
 
-The primitive data types are predefined by the language and they are named by reserved keywords. They represent the basic types of the language.
+The primitive data types are predefined by the language, and they are named by reserved keywords. They represent the basic types of the language.
 
 The **CodingSeb.ExpressionEvaluator** manages the following list of C# primary types.
 
@@ -57,7 +57,7 @@ public class Customer
 
 You can also block access of some types for security or any other reasons by adding it to the `TypesToBlock` list.
 
-The following example doesn't make any sense and it is just for demonstration purposes.
+The following example doesn't make any sense, and it is just for demonstration purposes.
 
 ```csharp
 public static void Example2()
@@ -81,9 +81,9 @@ public static void Example2()
 }
 ```
 
-Now when you run the above code you will get an exception.
+Now when you run the above code, you will get an exception.
 
-To resolve types and namespaces **CodingSeb.ExpressionEvaluator** search in assemblies loaded in the `evaluator.Assemblies` list. By default the following list of namespaces are available.
+To resolve types and namespaces **CodingSeb.ExpressionEvaluator** search in assemblies loaded in the `evaluator.Assemblies` list. By default, the following list of namespaces is available.
 
  - System
  - System.Linq

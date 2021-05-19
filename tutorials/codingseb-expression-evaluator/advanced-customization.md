@@ -7,7 +7,7 @@ Name: Advanced Customization
 
 The **CodingSeb.ExpressionEvaluator** allows you some deeper customizations of the parsing process. 
 
- - You can do customization which is mostly available by inheritance. 
+ - You can do customization, which is mostly available by inheritance. 
  - Most of the class is now in protected visibility in place of private and the majority of init and parsing methods are now virtual.
 
 Let's consider we want to use `and` and `or` operator instead of `&&` and `||` and to do so we need to add a new class and inherit it from the `ExpressionEvaluator`.

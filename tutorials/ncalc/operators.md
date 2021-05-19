@@ -5,7 +5,7 @@ Name: Operators
 
 # Operators
 
-In a programming language, operators are special symbols such as `+`, `-`, `^`, etc. that perform some action on operands. The **CoreCLR-NCalc** library manages a large set of C# operators and it also respects the C# precedence rules of operators.
+In a programming language, operators are special symbols such as `+`, `-`, `^`, etc., that perform some action on operands. The **CoreCLR-NCalc** library manages a large set of C# operators, and it also respects the C# precedence rules of operators.
 
  - Operators allow the processing of primitive data types and objects. 
  - They take as an input one or more operands and return some value as a result. 
@@ -25,7 +25,7 @@ Below is a list of the different types of operators which are most common.
 
 ### Arithmetical
 
-In C#, the arithmetical operators are `+`, `-`, `*`, etc. and they perform mathematical operations such as addition, subtraction, and multiplication respectively on numerical values and the result is also a numerical value.
+In C#, the arithmetical operators are `+`, `-`, `*`, etc., and they perform mathematical operations such as addition, subtraction, and multiplication respectively on numerical values and the result is also a numerical value.
 
 Here are some examples of arithmetic operators and their effects.
 
@@ -55,7 +55,7 @@ public static void Example1()
 }
 ```
 
-Let's run the above code and you will see the following output.
+Let's run the above code, and you will see the following output.
 
 ```csharp
 3 + 6 = 9
@@ -109,13 +109,13 @@ public static void Example2()
 }
 ```
 
-The `and` operator has more priority than the `or`, thus in the example above, `false and true` is evaluated first. 
+The `and` operator has more priority than the `or`, thus in the example above, `false and true` are evaluated first. 
 
 ### Bitwise
 
 A bitwise operator is an operator that acts on the binary representation of numeric types. 
 
- - In computers, all the data and particularly numerical data is represented as a series of ones and zeros. 
+ - In computers, all the data and particularly numerical data are represented as a series of ones and zeros. 
  - For example, number 55 in the binary numeral system is represented as 00110111.
 
 ```csharp

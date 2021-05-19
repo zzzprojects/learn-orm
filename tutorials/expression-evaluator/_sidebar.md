@@ -2,3 +2,4 @@
 - [Environment Setup](environment-setup.md)
 - [Simple Expressions](simple-expressions.md)
 - [Supported Data Types](supported-data-types.md)
+- [Compile Multiple Statements](compile-multiple-statements.md)

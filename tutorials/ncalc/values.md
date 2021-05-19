@@ -51,7 +51,7 @@ It is evaluated as `Double`.
 To specify and evaluate date time, we need to enclose the string containing date-time between hashtags (`#`).
 
  - It is evaluated as a `DateTime`. 
- - By default it uses the current Culture to evaluate.
+ - By default, it uses the current Culture to evaluate.
 
 ```csharp
 public static void Example3()

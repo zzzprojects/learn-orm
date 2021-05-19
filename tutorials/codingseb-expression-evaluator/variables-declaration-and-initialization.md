@@ -37,7 +37,7 @@ public static void Example1()
 }
 ```
 
-The following example shows how to declare variables using the `var` keyword which is supported after version 1.4.0.0.
+The following example shows how to declare variables using the `var` keyword, which is supported after version 1.4.0.0.
 
 ```csharp
 public static void Example2()
@@ -62,7 +62,7 @@ public static void Example2()
 }
 ```
 
-From version 1.4.3.0, you can declare a strongly typed variable as shown in the below example.
+From version 1.4.3.0, you can declare a strongly typed variable, as shown in the below example.
 
 ```csharp
 public static void Example3()

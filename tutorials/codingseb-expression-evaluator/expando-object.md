@@ -7,9 +7,9 @@ Name: Expando Object
 
 The `ExpandoObject` represents an object whose members can be dynamically added and removed at run time.
 
- - It enables you to add and delete members of its instances at run time and also to set and get values of these members. 
+ - It enables you to add and delete members of its instances at run time and set and get these members' values.
  - It also supports dynamic binding, which enables you to use standard syntax like `myObject.MyMember` instead of more complex syntax like `myObject.GetAttribute("MyMember")`.
- - It is also a dictionary of properties and in **CodingSeb.ExpressionEvaluator** you can use it as an object or as a dictionary.
+ - It is also a dictionary of properties and in **CodingSeb.ExpressionEvaluator**, you can use it as an object or as a dictionary.
 
 The following example shows the basic usage of `ExpandoObject`.
 
@@ -31,7 +31,7 @@ public static void Example1()
 
 In C#, to enable late binding for an instance of the `ExpandoObject` class, you must use the `dynamic` keyword.
 
-The `ExpandoObject` class also allows you to define and use methods as shown below.
+The `ExpandoObject` class also allows you to define and use methods, as shown below.
 
 ```csharp
 public static void Example2()

@@ -5,9 +5,9 @@ Name: Supported Operators
 
 # Supported Operators
 
-In a programming language, operators are special symbols such as `+`, `-`, `^`, etc. that perform some action on operands. The **CodingSeb.ExpressionEvaluator** library manages a large set of C# operators and it also respects the C# precedence rules of operators.
+In a programming language, operators are special symbols such as `+`, `-`, `^`, etc., that perform some action on operands. The **CodingSeb.ExpressionEvaluator** library manages a large set of C# operators and it also respects the C# precedence rules of operators.
 
- - Operators allow the processing of primitive data types and objects. 
+ - Operators allow the processing of primitive data types, and objects. 
  - They take as an input one or more operands and return some value as a result. 
  
 For example, operators are the signs for adding, subtracting, multiplication, and division like `+`, `-`, `*`, `/`, and the operations they perform on the integers and the real numbers.
@@ -29,7 +29,7 @@ Below is a list of the different types of operators
 
 ### Arithmetical
 
-In C#, the arithmetical operators are `+`, `-`, `*`, etc. and they perform mathematical operations such as addition, subtraction, and multiplication respectively on numerical values and the result is also a numerical value.
+In C#, the arithmetical operators are `+`, `-`, `*`, etc., and they perform mathematical operations such as addition, subtraction, and multiplication respectively on numerical values, and the result is also a numerical value.
 
 Here are some examples of arithmetic operators and their effects.
 
@@ -103,7 +103,7 @@ public static void Example2()
 
 A bitwise operator is an operator that acts on the binary representation of numeric types. 
 
- - In computers, all the data and particularly numerical data is represented as a series of ones and zeros. 
+ - In computers, all the data and particularly numerical data are represented as a series of ones and zeros. 
  - For example, number 55 in the binary numeral system is represented as 00110111.
 
 ### Comparison Operators
@@ -142,7 +142,7 @@ public static void Example3()
 
 ### Others
 
-So far we have examined arithmetic, logical, and bitwise operators, the operator for concatenating strings, and type conversion operators, etc. Besides them, in C # there are several other operators worth mentioning.
+So far, we have examined arithmetic, logical, and bitwise operators, the operator for concatenating strings, type conversion operators, etc. Besides them, in C # there are several other operators worth mentioning.
 
 | Operator         | Description                                                    |
 |:-----------------|:---------------------------------------------------------------|

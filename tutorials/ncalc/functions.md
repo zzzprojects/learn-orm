@@ -34,7 +34,7 @@ The framework includes the following built-in functions.
 | in                | Returns whether an element is in a set of values.	                                          |
 | if                | Returns a value based on a condition.	                                                      |
 
-Let's consider the following simple example which shows the usage of built-in functions.
+Let's consider the following simple example, which shows the usage of built-in functions.
 
 ```csharp
 public static void Example1()

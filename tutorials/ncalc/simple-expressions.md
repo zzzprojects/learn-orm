@@ -22,7 +22,7 @@ public static void Example1()
 }
 ```
 
-You can also evaluate the `System.Math` functions directly as shown in the below example.
+You can also evaluate the `System.Math` functions directly, as shown in the below example.
 
 ```csharp
 public static void Example2()

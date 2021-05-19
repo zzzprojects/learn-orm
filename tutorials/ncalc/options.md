@@ -9,7 +9,7 @@ The **CoreCLR-NCalc** provides various options that can modify the way the evalu
 
 ## Case Sensitive Evaluation
 
-The code evaluation is case sensitive by default, let's say you want to evaluate the following different expressions.
+The code evaluation is case-sensitive by default. Let's say you want to evaluate the following different expressions.
 
 ```csharp
 public static void Example1()
@@ -91,7 +91,7 @@ log10(1000);     3
 
 ## Multi-valued Parameters
 
-By default, a single value is used as a parameter, now if you want to use an array or of `IEnumerable` type we need to pass the `EvaluateOptions.IterateParameters` argument when creating the `Expression` instance.
+By default, a single value is used as a parameter. Now, if you want to use an array or of `IEnumerable` type, we need to pass the `EvaluateOptions.IterateParameters` argument when creating the `Expression` instance.
 
 ```csharp
 public static void Example5()
@@ -111,7 +111,7 @@ public static void Example5()
 }
 ```
 
-Let's execute the above code and you will see the following output.
+Let's execute the above code, and you will see the following output.
 
 ```csharp
 ABS(-3.2);       3.2

@@ -5,7 +5,7 @@ Name: Environment Setup
 
 # Environment Setup
 
-To start using the **ExpressionEvaluator** in your application, you will need to install the [ExpressionEvaluator](https://www.nuget.org/packages/ExpressionEvaluator) NuGet package.
+To start using the **Flee** in your application, you will need to install the [Flee](https://www.nuget.org/packages/Flee/) NuGet package.
 
 Let's open the Visual Studio and create a new project.
 
@@ -27,12 +27,12 @@ On the **Additional Information** dialog, select the target framework and then c
 
 <img src="images/setup-5.png" alt="Console Application created">
 
-You can see a new console application project is created. Now to install a **ExpressionEvaluator**, right-click on the project in **Solution Explorer**, and select **Manage NuGet Packages...**
+You can see a new console application project is created. Now to install a **Flee**, right-click on the project in **Solution Explorer**, and select **Manage NuGet Packages...**
 
-<img src="images/setup-6.png" alt="Install ExpressionEvaluator">
+<img src="images/setup-6.png" alt="Install Flee">
 
-Select the **Browse** tab and search for **ExpressionEvaluator** and install the latest version by pressing the **Install** button. 
+Select the **Browse** tab and search for **Flee** and install the latest version by pressing the **Install** button. 
 
-<img src="images/setup-7.png" alt="ExpressionEvaluator installed successfully">
+<img src="images/setup-7.png" alt="Flee installed successfully">
 
-Once **ExpressionEvaluator** has been successfully installed. You are now ready to start your application.
+Once **Flee** has been successfully installed. You are now ready to start your application.

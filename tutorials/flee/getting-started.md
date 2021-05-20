@@ -8,7 +8,7 @@ Name: Getting Started
 **Flee** stands for Fast Lightweight Expression Evaluator. It is a lightweight NuGet library that works as an expression parser and evaluator for the .NET framework. 
 
  - It allows you to compute the value of string expressions at runtime. 
- - It uses a custom compiler, strongly-typed expression language, and lightweight codegen to compile expressions directly to IL. 
+ - It uses a custom compiler, strongly typed expression language, and lightweight codegen to compile expressions directly to IL. 
  - This means that expression evaluation is extremely fast and efficient.
 
 ## Features
@@ -28,7 +28,7 @@ Name: Getting Started
  - Supports short-circuited logical operations
  - Supports arithmetic, comparison, implicit, and explicit overloaded operators
  - Variables of any type can be dynamically defined and used in expressions
- - CalculationEngine: Reference other expressions in an expression and recalculate in natural order
+ - CalculationEngine: Reference other expressions in an expression and recalculate in the natural order
  - Expressions can index arrays and collections, access fields and properties, and call functions on various types
  - Generated IL can be saved to an assembly and viewed with a disassembler
 

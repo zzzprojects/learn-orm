@@ -4,3 +4,4 @@
 - [Supported Data Types](supported-data-types.md)
 - [Compile Multiple Statements](compile-multiple-statements.md)
 - [Void Returning Expressions](void-returning-expressions.md)
+- [Supported Operators](supported-operators.md)

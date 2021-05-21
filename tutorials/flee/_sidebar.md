@@ -3,3 +3,4 @@
 - [Simple Expressions](simple-expressions.md)
 - [Variables](variables.md)
 - [Supported Data Types](supported-data-types.md)
+- [Define Variables On-demand](define-variables-on-demand.md)

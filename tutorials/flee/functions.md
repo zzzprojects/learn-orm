@@ -63,7 +63,6 @@ public static void Example1()
 }
 ```
 
-
 Let's execute the above code, and you will see the following output.
 
 ```csharp

@@ -6,3 +6,4 @@
 - [Define Variables On-demand](define-variables-on-demand.md)
 - [Culture Sensitive Expressions](culture-sensitive-expressions.md)
 - [Supported Operators](supported-operators.md)
+- [Functions](functions.md)

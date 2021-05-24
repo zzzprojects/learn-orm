@@ -9,3 +9,4 @@
 - [Functions](functions.md)
 - [Customizing Parser](customizing-parser.md)
 - [Expression Owner](expression-owner.md)
+- [Arrays and Collections](arrays-and-collections.md)

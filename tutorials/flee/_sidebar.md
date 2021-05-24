@@ -7,3 +7,4 @@
 - [Culture Sensitive Expressions](culture-sensitive-expressions.md)
 - [Supported Operators](supported-operators.md)
 - [Functions](functions.md)
+- [Customizing Parser](customizing-parser.md)

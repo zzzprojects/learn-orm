@@ -31,3 +31,15 @@ You can easily install it from the **Package Manager Console** window by running
 ```csharp
 PM> Install-Package DynamicExpresso.Core
 ```
+
+## Limitations
+
+**Dynamic Expresso** doesn't support every C# syntaxes, the following are some of the examples which are not supported.
+
+ - Multiline expressions
+ - for/foreach/while/do operators
+ - Array/list/dictionary initialization
+ - Explicit generic invocation such as `method<type>(arg)`
+ - Lambda/delegate declaration is not supported, delegate and lambda are only supported as variables or parameters or as a return type of the expression
+ - Array/list/dictionary element assignment
+ - Other operations on dynamic objects

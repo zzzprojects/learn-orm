@@ -26,7 +26,7 @@ public static void Example1()
 }
 ```
 
-The ExpressionContext holds all the information required for an expression besides the expression text. You can also create a generic expression using `context.CompileGeneric<T>` that evaluates to a strongly-named type.
+The `ExpressionContext` holds all the information required for an expression besides the expression text. You can also create a generic expression using `context.CompileGeneric<T>` that evaluates to a strongly-named type.
 
 ```csharp
 public static void Example2()

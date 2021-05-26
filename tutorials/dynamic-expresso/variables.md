@@ -67,3 +67,31 @@ myArray.Length = 3
 myArray[0] = 3.5
 myArray[2] = False
 ```
+
+Variables can be primitive types or custom complex types such as classes, structures, delegates, arrays, and collections, etc.
+
+You can use custom functions with delegate variables using the `Interpreter.SetFunction` method.
+
+```csharp
+public static void Example3()
+{
+    Func<double, double, double> pow = (x, y) => Math.Pow(x, y);
+    Interpreter interpreter = new Interpreter();
+    interpreter.SetFunction("pow", pow);
+
+    List<string> expressions = new List<string>()
+    {
+        "pow(1, 2)",
+        "pow(2, 2)",
+        "pow(3, 2)",
+        "pow(4, 2)",
+        "pow(5, 2)",
+    };
+
+    foreach (var expression in expressions)
+    {
+        var result = interpreter.Eval(expression);
+        Console.WriteLine("{0} = {1}", expression, result);
+    }
+}
+```

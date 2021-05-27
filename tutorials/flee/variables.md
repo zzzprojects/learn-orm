@@ -15,9 +15,9 @@ The **Flee** library provides the following standard constants, which you can us
 You can also define your custom variables by using the `Variables` property of `ExpressionContext`.
 
  - The `VariableCollection` object that is returned is a dictionary of strings to objects. 
- - The first character of a variable name must be a letter or underscore and the following characters can be either letters, underscores, or numbers.
+ - The first character of a variable name must be a letter or underscore, and the following characters can be letters, underscores, or numbers.
 
-The following example adds two variables `x` and `y` and used them inside an expression.
+The following example adds two variables `x` and `y`, and used them inside an expression.
 
 ```csharp
 public static void Example1()

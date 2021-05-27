@@ -5,7 +5,7 @@ Name: Supported Keywords
 
 # Supported Keywords
 
-As you already know that apart from simple expression evaluation, the **ExpressionEvaluator** allows you to evaluate small scripts which contain methods and variables, etc. Scripts are nothing but just a series of expressions separated by `;` character and led by several additionals keywords.
+As you already know, apart from simple expression evaluation, the **ExpressionEvaluator** allows you to evaluate small scripts which contain methods and variables, etc. Scripts are nothing but just a series of expressions separated by `;` character and led by several additionals keywords.
 
 Currently, the following keywords are supported to use inside a script.
 
@@ -26,7 +26,7 @@ Currently, the following keywords are supported to use inside a script.
 | Exception   | `try-finally`        | The statements of a finally block run when control leaves a try statement. |
 | Exception   | `try-catch-finally` | A common usage of catch and finally together is to obtain and use resources in a try block, deal with exceptional circumstances in a catch block, and release the resources in the finally block. |
 
-The following example evaluates the script which contains multiple `if` and `elseif` statements.
+The following example evaluates the script, which contains multiple `if` and `elseif` statements.
 
 ```csharp
 class MyClass

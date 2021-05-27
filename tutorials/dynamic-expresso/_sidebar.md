@@ -3,3 +3,4 @@
 - [Simple Expressions](simple-expressions.md)
 - [Variables](variables.md)
 - [Parameters](parameters.md)
+- [Data Types](data-types.md)

@@ -5,12 +5,12 @@ Name: Supported Operators
 
 # Supported Operators
 
-In a programming language, operators are special symbols such as `+`, `-`, `*`, etc., that perform some action on operands. The **Flee** library manages a large set of C# operators and it also respects the C# precedence rules of operators.
+In a programming language, operators are special symbols such as `+`, `-`, `*`, etc., that perform some action on operands. The **Flee** library manages a large set of C# operators, and it also respects the C# precedence rules of operators.
 
  - Operators allow the processing of primitive data types, and objects. 
  - They take as an input one or more operands and return some value as a result. 
  
-For example, operators are the signs for adding, subtracting, multiplication, and division like `+`, `-`, `*`, `/`, and the operations they perform on the integers and the real numbers.
+For example, operators are the signs for adding, subtracting, multiplication, and division like `+`, `-`, `*`, `/`, and their operations on the integers and the real numbers.
 
 ## Types
 

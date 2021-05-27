@@ -53,7 +53,7 @@ public static void Example1()
 }
 ``` 
 
-Now let's execute the above code and you will see the following output.
+Now let's execute the above code, and you will see the following output.
 
 ```csharp
 Grade: B

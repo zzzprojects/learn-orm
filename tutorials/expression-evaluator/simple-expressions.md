@@ -46,7 +46,7 @@ public static void Example3()
 }
 ```
 
-You can use the generic and non-generic version of the `CompiledExpression` class. In the above examples, we have used the non-genric class which gives you results of the evaluated expression cast to the type object. 
+You can use the generic and non-generic versions of the `CompiledExpression` class. In the above examples, we have used the non-genric class, which gives you results of the evaluated expression cast to the type object. 
 
 The following example shows the usage of a generic class.
 

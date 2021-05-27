@@ -5,12 +5,12 @@ Name: Supported Operators
 
 # Supported Operators
 
-In a programming language, operators are special symbols such as `+`, `-`, `^`, etc. that perform some action on operands. The **CodingSeb.ExpressionEvaluator** library manages a large set of C# operators and it also respects the C# precedence rules of operators.
+In a programming language, operators are special symbols such as `+`, `-`, `^`, etc., that perform some action on operands. The **CodingSeb.ExpressionEvaluator** library manages a large set of C# operators, and it also respects the C# precedence rules of operators.
 
  - Operators allow the processing of primitive data types and objects. 
  - They take as an input one or more operands and return some value as a result. 
  
-For example, operators are the signs for adding, subtracting, multiplication, and division like `+`, `-`, `*`, `/`, and the operations they perform on the integers and the real numbers.
+For example, operators are the signs for adding, subtracting, multiplication, and division like `+`, `-`, `*`, `/`, and their operations on the integers and the real numbers.
 
 ## Types
 
@@ -204,7 +204,7 @@ z.a <= z.b = False
 
 ### Others
 
-So far we have examined arithmetic, logical, and bitwise operators, the operator for concatenating strings, and type conversion operators, etc. Besides them, in C # there are several other operators worth mentioning.
+So far, we have examined arithmetic, logical, and bitwise operators, the operator for concatenating strings, and type conversion operators, etc. Besides them, in C # there are several other operators worth mentioning.
 
 | Operator         | Description                                                    |
 |:-----------------|:---------------------------------------------------------------|

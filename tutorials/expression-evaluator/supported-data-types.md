@@ -5,7 +5,7 @@ Name: Supported Data Types
 
 # Supported Data Types
 
-The primitive data types are predefined by the language and they are named by reserved keywords. They represent the basic types of the language.
+The primitive data types are predefined by the language, and they are named by reserved keywords. They represent the basic types of the language.
 
 The **ExpressionEvaluator** manages the following list of C# primary types.
 
@@ -35,7 +35,7 @@ public static void Example1()
 }
 ```
 
-You can add additional types by using the `TypeRegistry` class which contains the methods for registering types and symbols. After adding a type of symbol you will also need to set the `TypeRegistry` property of the `CompiledExpression` instance before the expression is parsed.
+You can add additional types by using the `TypeRegistry` class, which contains the methods for registering types and symbols. After adding a type of symbol you will also need to set the `TypeRegistry` property of the `CompiledExpression` instance before the expression is parsed.
 
 The following example registers the symbol **Guid** as the type `Guid`.
 

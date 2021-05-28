@@ -1,18 +1,18 @@
 ---
-PermaID: 100006
-Name: Dynamic Delegates
+PermaID: 100007
+Name: Lambda Expressions
 ---
 
-# Dynamic Delegates
+# Lambda Expressions
 
-You can use the `Interpreter.ParseAsDelegate<TDelegate>` method to directly parse an expression into a .NET delegate type that can be easily invoked. 
+You can use the `Interpreter.ParseAsExpression<TDelegate>` method to directly parse an expression into a .NET lambda expression (`Expression<TDelegate>`).
 
-The following example generates a `Func<Customer, bool>` delegate that can be used in a LINQ where expression.
+The following example generates a `Expression<Func<Customer, bool>>` expression that can be used in a `Queryable` LINQ where expression or in any other place where an expression is required like Entity Framework or other similar libraries.
 
 ```csharp
 public static void Example1()
 {
-    var persons = new List<Person> 
+    var persons = new List<Person>
     {
         new Person() { Name = "David", Age = 31, Gender = 'M', Country = "US" },
         new Person() { Name = "Mary", Age = 29, Gender = 'F', Country = "UK" },
@@ -24,9 +24,9 @@ public static void Example1()
     string whereExpression = "person.Age > 18 && person.Gender == 'F'";
 
     var interpreter = new Interpreter();
-    Func<Person, bool> dynamicWhere = interpreter.ParseAsDelegate<Func<Person, bool>>(whereExpression, "person");
+    Expression<Func<Person, bool>> expression = interpreter.ParseAsExpression<Func<Person, bool>>(whereExpression, "person");
 
-    var result = persons.Where(dynamicWhere);
+    var result = persons.AsQueryable().Where(expression);
 
     foreach (var person in result)
     {

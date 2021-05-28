@@ -5,3 +5,4 @@
 - [Parameters](parameters.md)
 - [Data Types](data-types.md)
 - [Dynamic Delegates](dynamic-delegates.md)
+- [Lambda Expressions](lambda-expressions.md)

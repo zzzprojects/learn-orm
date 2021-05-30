@@ -8,3 +8,4 @@
 - [Lambda Expressions](lambda-expressions.md)
 - [Operators](operators.md)
 - [Access Type Members](access-type-members.md)
+- [Case Sensitive Expressions](case-sensitive-expressions.md)

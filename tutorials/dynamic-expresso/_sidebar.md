@@ -11,3 +11,4 @@
 - [Case Sensitive Expressions](case-sensitive-expressions.md)
 - [Identifiers Detection](identifiers-detection.md)
 - [Exception Handling](exception-handling.md)
+- [Customizing Parser](customizing-parser.md)

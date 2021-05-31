@@ -1,5 +1,5 @@
 ---
-PermaID: 100013
+PermaID: 100012
 Name: Exception Handling
 ---
 
@@ -57,7 +57,7 @@ public static void Example2()
 }
 ```
 
-Let's consider another example where the expression uses a variable which is not defined.
+Let's consider another example where the expression uses a variable that is not defined.
 
 ```csharp
 public static void Example3()

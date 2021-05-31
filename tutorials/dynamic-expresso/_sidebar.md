@@ -9,3 +9,5 @@
 - [Operators](operators.md)
 - [Access Type Members](access-type-members.md)
 - [Case Sensitive Expressions](case-sensitive-expressions.md)
+- [Identifiers Detection](identifiers-detection.md)
+- [Exception Handling](exception-handling.md)

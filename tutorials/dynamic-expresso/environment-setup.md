@@ -33,6 +33,6 @@ You can see a new console application project is created. Now to install a **Dyn
 
 Select the **Browse** tab and search for **DynamicExpresso.Core** and install the latest version by pressing the **Install** button. 
 
-<img src="images/setup-7.png" alt="CodingSeb.ExpressionEvaluator installed successfully">
+<img src="images/setup-7.png" alt="Dynamic Expresso installed successfully">
 
 Once **Dynamic Expresso** has been successfully installed. You are now ready to start your application.

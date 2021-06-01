@@ -14,7 +14,7 @@ The following example shows the evaluation of a simple script that contains a `C
 ```csharp
 public static void Example1()
 {
-    dynamic calculator = CSScript.Evaluator.LoadCode(@"using System;
+    string script = @"using System;
         public class Calculator
         {
             public int Add(int a, int b)
@@ -36,8 +36,9 @@ public static void Example1()
             {
                 return a / b;
             }
-        }"
-    );
+        }";
+
+    dynamic calculator = CSScript.Evaluator.LoadCode(script);
 
     Console.WriteLine("Add(10, 5): {0}", calculator.Add(10, 5));
     Console.WriteLine("Subtract(10, 5): {0}", calculator.Subtract(10, 5));

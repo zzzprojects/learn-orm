@@ -8,9 +8,9 @@ Name: Functions
 The **Flee** library allows you to use functions in your expressions. 
 
  - You can simply define your functions in a class or use the functions of an existing class. 
- - When the expression is evaluated, the functions are called using IL instructions just like in a compiled assembly.
+ - When the expression is evaluated, the functions are called using IL instructions like in a compiled assembly.
 
-Let's consider the following class which contains various static functions.
+Let's consider the following class, which contains various static functions.
 
 ```csharp
 public static class Calculator

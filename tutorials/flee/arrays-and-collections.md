@@ -12,7 +12,7 @@ The **Flee** library supports loading values from arrays and collections on the 
  - If the indexed variable is not an array, **Flee** will try to find a default indexer property and use it instead. 
  - If the variable being indexed is not an array and does not have a default indexer, **Flee** will throw an `ExpressionCompileException`.
 
-Let's consider the following class which we will use as an owner class and it contains an array and collection.
+Let's consider the following class, which we will use as an owner class. It contains an array and collection.
 
 ```csharp
 class MyClass
@@ -50,7 +50,7 @@ public static void Example1()
 }
 ```
 
-As you can see that we have defined an expression owner class with some array and collection members. Let's execute the above code, and you will see the following output.
+As you can see, we have defined an expression owner class with some array and collection members. Let's execute the above code, and you will see the following output.
 
 ```csharp
 MyArray[3] = 7

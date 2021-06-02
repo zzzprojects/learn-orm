@@ -5,7 +5,7 @@ Name: Simple Expressions
 
 # Simple Expressions
 
-The simple expressions are literals such as integer and real numbers and names of variables. 
+The simple expressions are literals such as integer, real numbers and names of variables. 
 
  - You can also combine them into complex expressions by using operators. 
  - Operator precedence and associativity determine the order in which the operations in an expression are performed. 

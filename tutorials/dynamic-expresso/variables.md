@@ -13,7 +13,7 @@ The **Dynamic Expresso** library provides the following standard constants, whic
 | false            | C# false value       | Boolean         |
 | null             | C# null value        | N/A             |
 
-You can also define your custom variables by using the `SetVariable` method of `Interpreter`. The following example adds two variables `x` and `y` and used them inside an expression.
+You can also define your custom variables by using the `SetVariable` method of `Interpreter`. The following example adds two variables `x` and `y`, to use them inside an expression.
 
 ```csharp
 public static void Example1()
@@ -30,7 +30,7 @@ public static void Example1()
 }
 ```
 
-**Dynamic Expresso** is statically typed, it knows the type of each variable based on the value. 
+**Dynamic Expresso** is statically typed. It knows the type of each variable based on the value. 
 
 ```csharp
 public static void Example2()
@@ -68,7 +68,7 @@ myArray[0] = 3.5
 myArray[2] = False
 ```
 
-Variables can be primitive types or custom complex types such as classes, structures, delegates, arrays, and collections, etc.
+Variables can be primitive types or custom complex types such as classes, structures, delegates, arrays, collections, etc.
 
 You can use custom functions with delegate variables using the `Interpreter.SetFunction` method.
 

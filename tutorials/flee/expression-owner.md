@@ -8,11 +8,11 @@ Name: Expression Owner
 The **Flee** library allows you to attach an expression to a class. The class to which the expression is attached is known as the expression owner. 
 
  - When an expression is attached, it behaves like an instance method of the owner class and has access to all the members.
- - You can reference the owner's instance members accessing fields and properties which is faster than using variables.
+ - You can reference the owner's instance members accessing fields and properties, which is faster than using variables.
  - By default, an expression will only allow access to the public members of its owner. 
  - You can use the `ExpressionOptions.OwnerMemberAccess` property to grant/deny access to the public and non-public members of the owner. 
 
-Let's consider the following class which we will use as an owner class and it contains a field, property, and some functions.
+Let's consider the following class, which we will use as an owner class. It contains a field, property, and some functions.
 
 ```csharp
 class MyClass
@@ -78,4 +78,4 @@ public int MyFunc1()
 }
 ```
 
-As you can see that we decorated the above function with `[ExpressionOwnerMemberAccess(false)]`, so this function will never be accessible in an expression because the `false` setting on the attribute will override the setting in the `ExpressionOptions`.
+As you can see, we decorated the above function with `[ExpressionOwnerMemberAccess(false)]`, so this function will never be accessible in an expression because the `false` setting on the attribute will override the setting in the `ExpressionOptions`.

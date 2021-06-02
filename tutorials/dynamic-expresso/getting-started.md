@@ -9,7 +9,7 @@ Name: Getting Started
 
  - It embeds its parsing logic, interprets C# statements by converting them to .NET lambda expressions or delegates.
  - It allows you to create scriptable applications, execute .NET code without compilation or create dynamic LINQ statements.
- - Global variables or parameters can be injected and used inside expressions. It doesn't generate assembly but it creates an expression tree on the fly.
+ - Global variables or parameters can be injected and used inside expressions. It doesn't generate assembly, but it creates an expression tree on the fly.
 
 ## Features
 
@@ -34,12 +34,12 @@ PM> Install-Package DynamicExpresso.Core
 
 ## Limitations
 
-**Dynamic Expresso** doesn't support every C# syntaxes, the following are some of the examples which are not supported.
+**Dynamic Expresso** doesn't support every C# syntaxes. The following are some of the examples which are not supported.
 
  - Multiline expressions
  - for/foreach/while/do operators
  - Array/list/dictionary initialization
  - Explicit generic invocation such as `method<type>(arg)`
- - Lambda/delegate declaration is not supported, delegate and lambda are only supported as variables or parameters or as a return type of the expression
+ - Lambda/delegate declarations are not supported, delegate and lambda are only supported as variables or parameters or as a return type of the expression
  - Array/list/dictionary element assignment
  - Other operations on dynamic objects

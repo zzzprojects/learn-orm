@@ -27,7 +27,7 @@ Below is a list of the different types of operators
 
 ### Arithmetical
 
-In C#, the arithmetical operators are `+`, `-`, `*`, etc. and they perform mathematical operations such as addition, subtraction, and multiplication respectively on numerical values and the result is also a numerical value.
+In C#, the arithmetical operators are `+`, `-`, `*`, etc. They perform mathematical operations such as addition, subtraction, and multiplication respectively on numerical values. The result is also a numerical value.
 
 Here are some examples of arithmetic operators and their effects.
 
@@ -160,7 +160,7 @@ public static void Example3()
 }
 ```
 
-Let's run the above code and you will see the following output.
+Let's run the above code, and you will see the following output.
 
 ```csharp
 a: 10    b: 5

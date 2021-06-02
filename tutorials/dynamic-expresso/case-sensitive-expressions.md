@@ -5,7 +5,7 @@ Name: Case Sensitive Expressions
 
 # Case Sensitive Expressions
 
-By default, all expressions are considered case sensitive, for example, `VALUE` is different than `value`. The **Dynamic Expresso** library provides an option to use a case-insensitive parser.
+By default, all expressions are considered case-sensitive. For example, `VALUE` is different than `value`. The **Dynamic Expresso** library provides an option to use a case-insensitive parser.
 
 The following example defines a variable called `val` and then uses it in expression.
 
@@ -23,13 +23,13 @@ public static void Example1()
 }
 ```
 
-Let's run the above code and you will see the following exception.
+Let's run the above code, and you will see the following exception.
 
 ```csharp
 DynamicExpresso.Exceptions.UnknownIdentifierException: 'Unknown identifier 'VAL' (at index 6).'
 ```
 
-To use case insensitive expressions, pass `InterpreterOptions.CaseInsensitive` options to `Interpreter` constructor as parameter as shown below.
+To use case insensitive expressions, pass `InterpreterOptions.CaseInsensitive` options to `Interpreter` constructor as a parameter, as shown below.
 
 ```csharp
 public static void Example2()

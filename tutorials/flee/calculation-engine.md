@@ -5,7 +5,7 @@ Name: Calculation Engine
 
 # Calculation Engine
 
-The `CalculationEngine` allows you to create a network of expressions. The engine allows expressions to reference the results of other expressions in the engine, tracks dependencies, and recalculateis in natural order.
+The `CalculationEngine` allows you to create a network of expressions. The engine allows expressions to reference the results of other expressions in the engine, tracks dependencies, and recalculate is in natural order.
 
 ```csharp
 public static void Example1()

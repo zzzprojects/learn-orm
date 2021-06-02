@@ -7,7 +7,7 @@ Name: Access Type Members
 
 **Dynamic Expresso** allows you to access any member such as method, field, property, or constructor of any .NET type. You can also add additional types and use their members in your expression.
 
-Let's consider the following class which contains a field, property, and methods.
+Let's consider the following class, which contains a field, property, and methods.
 
 ```csharp
 class MyClass

@@ -6,3 +6,4 @@
 - [Delegates](delegates.md)
 - [Compiler Engines](compiler-engines.md)
 - [Debugging](debugging.md)
+- [Caching](caching.md)

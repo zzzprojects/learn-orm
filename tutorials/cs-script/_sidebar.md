@@ -5,3 +5,4 @@
 - [Execute Methods](execute-methods.md)
 - [Delegates](delegates.md)
 - [Compiler Engines](compiler-engines.md)
+- [Debugging](debugging.md)

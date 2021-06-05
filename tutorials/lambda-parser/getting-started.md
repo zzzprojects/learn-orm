@@ -5,7 +5,7 @@ Name: Getting Started
 
 # Getting Started
 
-**LambdaParser** is a NuGet library that works as a runtime parser for string expressions.
+**NReco.LambdaParser** is a NuGet library that works as a runtime parser for string expressions.
 
  - It builds a dynamic LINQ expression tree and compiles it to the lambda delegate. 
  - Types are resolved at run-time just like in dynamic languages.

@@ -2,3 +2,4 @@
 - [Environment Setup](environment-setup.md)
 - [Simple Expressions](simple-expressions.md)
 - [Variables](variables.md)
+- [Operators](operators.md)

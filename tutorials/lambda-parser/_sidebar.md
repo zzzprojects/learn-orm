@@ -4,3 +4,4 @@
 - [Variables](variables.md)
 - [Operators](operators.md)
 - [Values Comparison](values-comparison.md)
+- [Caching](caching.md)

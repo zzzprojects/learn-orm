@@ -3,3 +3,4 @@
 - [Simple Expressions](simple-expressions.md)
 - [Variables](variables.md)
 - [Operators](operators.md)
+- [Values Comparison](values-comparison.md)

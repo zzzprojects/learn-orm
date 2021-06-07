@@ -5,7 +5,7 @@ Name: Operators
 
 # Operators
 
-In a programming language, operators are special symbols such as `+`, `-`, `^`, etc., that perform some action on operands. The **CodingSeb.ExpressionEvaluator** library manages a large set of C# operators and it also respects the C# precedence rules of operators.
+In a programming language, operators are special symbols such as `+`, `-`, `^`, etc., that perform some action on operands. The **NReco.LambdaParser** library manages a large set of C# operators and it also respects the C# precedence rules of operators.
 
  - Operators allow the processing of primitive data types, and objects. 
  - They take as an input one or more operands and return some value as a result. 
@@ -28,7 +28,6 @@ Below is a list of the different types of operators
 In C#, the arithmetical operators are `+`, `-`, `*`, etc., and they perform mathematical operations such as addition, subtraction, and multiplication respectively on numerical values, and the result is also a numerical value.
 
 Here are some examples of arithmetic operators and their effects.
-
 
 ```csharp
 public static void Example1()

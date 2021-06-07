@@ -76,36 +76,6 @@ public static void Example2()
 Let's execute the above code, and you will see the following output.
 
 ```csharp
-typeof(double).GetMethods() = System.Reflection.MethodInfo[]
-typeof(double).Assembly = System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e
-```
-
-By default, assignment operators are enabled, to ensure that the user cannot change some values that you don't expect, you can disable assignment operators by using the `interpreter.EnableAssignment(AssignmentOperators.None);`.
-
-```csharp
-public static void Example3()
-{
-    try
-    {
-        Interpreter interpreter = new Interpreter();
-        interpreter.EnableAssignment(AssignmentOperators.None);
-        int x = 10;
-        interpreter.SetVariable("x", x);
-
-        string expression = "x = 13;";
-        var result = interpreter.Eval(expression);
-        Console.WriteLine("After evaluation, x = {0}", x);
-    }
-    catch (ParseException e)
-    {
-        Console.WriteLine(e.Message);
-    }
-}
-```
-
-Let's execute the above code, and you will see the following output.
-
-```csharp
 null = nullVar: True
 a = nullVar: False
 5 = a - 5: True

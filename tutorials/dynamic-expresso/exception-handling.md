@@ -5,7 +5,7 @@ Name: Exception Handling
 
 # Exception Handling
 
-Exception handling helps you deal with any unexpected or exceptional situations that occur when a program is running. You can use the `try`, `catch`, and `finally` keywords to try actions that may not succeed, to handle failures, and to clean up resources afterward.
+Exception handling helps you deal with any unexpected or exceptional situations that occur when a program is running. For example, you can use the `try`, `catch`, and `finally` keywords to try actions that may not succeed, handleling failures, and cleaning up resources afterward.
 
 If the syntax of the text is invalid or if there is an error during the parsing, it will throw a `ParseException`. A `ParseException` will be thrown whenever an expression cannot be compiled.
 
@@ -27,7 +27,7 @@ public static void Example1()
 }
 ```
 
-Let's run the above code and you will see the following exception.
+Let's run the above code, and you will see the following exception.
 
 ```csharp
 DynamicExpresso.Exceptions.ParseException: 'Invalid Operation (at index 7).'
@@ -81,7 +81,7 @@ public static void Example3()
 }
 ```
 
-Let's run the above code and you will see the following output.
+Let's run the above code, and you will see the following output.
 
 ```csharp
 Unknown identifier 'z' (at index 8).

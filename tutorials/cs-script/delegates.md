@@ -53,7 +53,7 @@ The `CreateDelegate` method returns `MethodDelegate<T>`, which is strongly typed
 public delegate T MethodDelegate<T>(params object[] paramters);
 ```
 
-CLR cannot distinguish between arguments of type `params object[]` and any other array. You will need to wrap the array as an object array when you pass the array args as shown below.
+CLR cannot distinguish between arguments of type `params object[]` and any other array. You will need to wrap the array as an object array when you pass the array args, as shown below.
 
 ```csharp
 public static void Example3()

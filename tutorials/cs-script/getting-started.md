@@ -7,7 +7,7 @@ Name: Getting Started
 
 **CS-Script** is a CLR-based scripting system that uses ECMA-compliant C# as a programming language.
 
- - It is one of the most mature C# scripting solutions and it was the first comprehensive scripting platform for .NET.
+ - It is one of the most mature C# scripting solutions, and it was the first comprehensive scripting platform for .NET.
  - It supports both hosted and standalone (CLI) execution model that makes it possible to use the script engine as a pure C# alternative for PowerShell. 
  - It also extends the .NET applications with C# scripts executed at runtime by the hosted script engine.
  

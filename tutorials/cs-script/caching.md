@@ -15,9 +15,9 @@ Caching mechanism in **CS-Script** was inspired by a similar feature in Python. 
  - The compilation is a heavy task and is a potential performance hit, the initialization of the engine can also bring an enormous startup overhead. This is when caching comes to the rescue.
  - The truly impressive execution speed is attributed to the fact that the script at runtime is just an ordinary CLR assembly, which just happens to be compiled on-fly.
 
-The **CS-Script** caching algorithm can partially support file-less scripts which are also known as eval execution. 
+The **CS-Script** caching algorithm can partially support file-less scripts, which are also known as eval execution. 
 
-The following example code creates two delegates but the code is compiled only once.
+The following example code creates two delegates, but the code is compiled only once.
 
 ```csharp
 public static void Example1()
@@ -36,7 +36,7 @@ public static void Example1()
 }
 ```
 
-By default, the caching option is enabled, you can disable it as shown below.
+By default, the caching option is enabled. You can disable it as shown below.
 
 ```csharp
 CSScript.CacheEnabled = false;

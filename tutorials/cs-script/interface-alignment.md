@@ -5,7 +5,7 @@ Name: Interface Alignment
 
 # Interface Alignment
 
-CS-Script introduces a new script hosting model which is known as Interface Alignment (duck-typing), which is an attractive alternative to the interface inheritance while loading/accessing scripts through interfaces. 
+CS-Script introduces a new script hosting model, known as Interface Alignment (duck-typing), an attractive alternative to the interface inheritance while loading/accessing scripts through interfaces. 
 
  - It allows manipulation with the script by aligning it to the appropriate interface. 
  - The important aspect of Interface Alignment is that the script execution is completely typesafe. 

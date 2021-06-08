@@ -5,7 +5,7 @@ Name: Getting Started
 
 # Getting Started
 
-**Eval Expression** is a lightweight expression evaluator NuGet library that supports nearly everything. It allows you to evaluate or compile most of the C# expressions, such as;
+**Z.Expressions.Eval** is a lightweight expression evaluator NuGet library that supports nearly everything. It allows you to evaluate or compile most of the C# expressions, such as;
 
  - Anonymous Type
  - Extension Method

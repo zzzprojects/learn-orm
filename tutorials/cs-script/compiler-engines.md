@@ -13,13 +13,13 @@ The **CS-Script** allows hosting/executing the scripts by any of the three suppo
 
 The **CS-Script** offers identical developer experience for all these three compilers, but the compilers themselves are not entirely identical. 
 
- - The initial **CS-Script** hosting model was based on **CodeDom** compilation and support for **Mono** and **Roslyn** was added much later when these technologies became available. 
+ - The initial **CS-Script** hosting model was based on **CodeDom** compilation, and support for **Mono** and **Roslyn** was added much later when these technologies became available. 
  - The **CodeDom** based API is not 100% aligned with the **Mono** and **Roslyn** native API. 
- - In fact, the native API of all three compilers is extremely inconsistent that it was quite a challenge to define a common interface that can reconcile all the differences.
+ - he native TAPI of all three compilers is extremely inconsistent that it was quite a challenge to define a common interface that can reconcile all the differences.
 
-Now in the latest version, this challenge has been answered and the main hosting interface can be accessed using `CSScript.Evaluator`. 
+This challenge has been answered in the latest version, and the main hosting interface can be accessed using `CSScript.Evaluator`. 
 
- - It is the entry point for all three compilers and this is the API that you should rely on in most cases. 
+ - It is the entry point for all three compilers, and this is the API that you should rely on in most cases. 
  - This common interface is referred through all the documentation as `CSScript.Evaluator`.
 
 ## CSScript.Evaluator

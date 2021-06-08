@@ -7,7 +7,7 @@ Name: Execute Methods
 
 The **CS-Script** allows you to compile code that only contains method(s). The Evaluator will wrap the method(s) code into a class definition with the name `DynamicClass`.
 
-Let's consider the following simple script code which contains only methods definition.
+Let's consider the following simple script code, which contains only methods definition.
 
 ```csharp
 public int Add(int a, int b)
@@ -31,7 +31,7 @@ public int Divide(int a, int b)
 }
 ```
 
-To evaluate code that only contains method(s), you can use the `Evaluator.LoadMethod` function as shown below.
+To evaluate code that only contains method(s), you can use the `Evaluator.LoadMethod` function is shown below.
 
 ```csharp
 public static void Example1()

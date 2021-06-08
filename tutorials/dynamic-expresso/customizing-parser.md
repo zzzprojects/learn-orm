@@ -5,7 +5,7 @@ Name: Customizing Parser
 
 # Customizing Parser
 
-The **Dynamic Expresso** library allows you to customize the expression parser. You can use different options to customize the parser such as, `EnableReflection`, `EnableAssignment`, etc. 
+The **Dynamic Expresso** library allows you to customize the expression parser. You can use different options to customize the parser, such as `EnableReflection`, `EnableAssignment`, etc. 
 
 Let's consider the following simple example with the default settings.
 

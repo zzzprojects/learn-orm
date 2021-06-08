@@ -37,7 +37,7 @@ public static void Example2()
 
 In an expression with multiple operators, the operators with higher precedence are evaluated before the operators with lower precedence. 
 
-In the following example, the multiplication is performed first because it has higher precedence than addition.
+In the following example, multiplication is performed first because it has higher precedence than addition.
 
 ```csharp
 public static void Example3()

@@ -5,12 +5,12 @@ Name: Identifiers Detection
 
 # Identifiers Detection
 
-Sometimes you need to check which identifiers such as, variables, types, parameters, etc. are used in expression before parsing it. 
+Sometimes you need to check which identifiers such as, variables, types, parameters, etc., are used in expression before parsing it. 
 
- - You may need to validate all the identifiers or you want to ask the user to enter the value of the parameter in a given expression. 
+ - You may need to validate all the identifiers or ask the user to enter the parameter's value in a given expression.
  - If you parse an expression that contains an identifier without defining them will throw an exception.
 
-Let's consider the following example which contains various variables like `x`, `y`, and `z` in the expression but you will see that we have defined and `x` and `y`.
+Let's consider the following example containing various variables like `x`, `y`, and `z` in the expression, but you will see that we have defined and `x` and `y`.
 
 ```csharp
 public static void Example1()
@@ -28,7 +28,7 @@ public static void Example1()
 }
 ```
 
-Let's run the above code and you will see the following exception.
+Let's run the above code, and you will see the following exception.
 
 ```csharp
 DynamicExpresso.Exceptions.UnknownIdentifierException: 'Unknown identifier 'z' (at index 18).'
@@ -66,7 +66,7 @@ public static void Example2()
 }
 ```
 
-Let's run the above code and you will see the following output.
+Let's run the above code, and you will see the following output.
 
 ```csharp
 Identifier "z" is not defined in your expression.

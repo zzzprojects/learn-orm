@@ -15,7 +15,7 @@ Select the **Create a new project** option.
 
 <img src="images/setup-2.png" alt="Select Console Application template">
 
-Choose **C#** as language, **Windows** as a platform, and **Console** as the project type. In the template pane, select **Console Application** and click the **Next** button.
+Choose **C#** as language, **Windows** as a platform, and **Console** as the project type. Then in the template pane, select **Console Application** and click the **Next** button.
 
 <img src="images/setup-3.png" alt="Configure your new project">
 

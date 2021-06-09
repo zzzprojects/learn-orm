@@ -2,3 +2,4 @@
 - [Environment Setup](environment-setup.md)
 - [Evaluate Expression](evaluate-expression.md)
 - [Variables](variables.md)
+- [Working with Delegates](working-with-delegates.md)

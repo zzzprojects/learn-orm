@@ -31,5 +31,4 @@ public static void Example2()
 
     Console.WriteLine("{0} = {1}", expression, result);
 }
-
 ```

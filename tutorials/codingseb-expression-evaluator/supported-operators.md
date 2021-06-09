@@ -1,4 +1,4 @@
-﻿---
+---
 PermaID: 100009
 Name: Supported Operators
 ---

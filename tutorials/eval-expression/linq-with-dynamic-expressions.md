@@ -5,7 +5,13 @@ Name: LINQ with Dynamic Expressions
 
 # LINQ with Dynamic Expressions
 
-The **Z.Expressions.Eval** library allows you to extend the `IEnumerable<T>` and `IQueryable<T>` interface with methods to use LINQ with dynamic expressions. It supports the following LINQ method that supports predicate with a dynamic C# expression.
+The **Z.Expressions.Eval** library allows you to extend the `IEnumerable<T>` and `IQueryable<T>` interface with methods to use LINQ with dynamic expressions. 
+
+ - It makes it possible and very easy by allowing dynamic queries with the same syntax as LINQ.
+ - You can do everything dynamically with this library that you can do with LINQ. 
+ - The C# dynamic expression is not interpreted but compiled into LINQ expression.
+
+**Z.Expressions.Eval** library supports the following LINQ method that supports predicate with a dynamic C# expression.
 
  - Deferred
    - OrderByDescendingDynamic

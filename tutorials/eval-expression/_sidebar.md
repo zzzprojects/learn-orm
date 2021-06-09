@@ -3,3 +3,4 @@
 - [Evaluate Expression](evaluate-expression.md)
 - [Variables](variables.md)
 - [Working with Delegates](working-with-delegates.md)
+- [LINQ with Dynamic Expressions](linq-with-dynamic-expressions.md)

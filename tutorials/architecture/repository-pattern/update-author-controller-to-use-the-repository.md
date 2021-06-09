@@ -184,19 +184,19 @@ Use the `GetAuthorById` method to get an author by `id`.
 var author = await repository.GetAuthorById((int)id);
 ```
 
-To insert an author, use the `InsertAuthor` method.
+To **insert** an author, use the `InsertAuthor` method.
 
 ```csharp
 await repository.InsertAuthor(author);
 ```
 
-To delete an author, use the `DeleteAuthor` method.
+To **delete** an author, use the `DeleteAuthor` method.
 
 ```csharp
 await repository.DeleteAuthor(id);
 ```
 
-To update an author, use the `UpdateAuthor` method.
+To **update** an author, use the `UpdateAuthor` method.
 
 ```csharp
 await repository.UpdateAuthor(author);

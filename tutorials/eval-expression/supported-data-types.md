@@ -24,7 +24,6 @@ The **Z.Expressions.Eval** manages the following list of C# primary types.
  - ushort
  - uint
  - ulong
- - void
 
 You can add additional types by using the `EvalContext.RegisterType` method as shown below.
 

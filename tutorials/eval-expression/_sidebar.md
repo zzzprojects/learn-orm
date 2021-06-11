@@ -5,3 +5,4 @@
 - [Working with Delegates](working-with-delegates.md)
 - [LINQ with Dynamic Expressions](linq-with-dynamic-expressions.md)
 - [String Extensions Support](string-extensions-support.md)
+- [Supported Data Types](supported-data-types.md)

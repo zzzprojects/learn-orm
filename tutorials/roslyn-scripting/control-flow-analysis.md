@@ -8,7 +8,7 @@ Name: Control Flow Analysis
 The `ControlFlowAnalysis` class provides information about statements that transfer control in and out of a region. 
 
  - You can use control flow analysis to understand the various entry and exit points within a block of code. 
- - For example, if you are analyzing a method, you might want to know all the points at which you can return out of the method or in a `for` loop, you want to know all the places where it will break or continue.
+ - For example, if you are analyzing a method, you might want to know all the points at which you can return out of the method or in a `for` loop. You want to know all the places where it will break or continue.
 
 Let's consider the following example, in which a `for` loop is analyzed.
 
@@ -46,7 +46,7 @@ static void ControlFlowAnalysisExample()
 }
 ```
 
-Let's execute the above code and you will see the both `continue` and `break` statements are used inside the `for` loop as an output.
+Let's execute the above code, and you will see the both `continue` and `break` statements are used inside the `for` loop as an output.
 
 ```csharp
 continue;

@@ -15,3 +15,5 @@
 - [Workspaces](workspaces.md)
 - [Data Flow Analysis](data-flow-analysis.md)
 - [Control Flow Analysis](control-flow-analysis.md)
+- [Symbol Visitor](symbol-visitor.md)
+- [Emit Compilation](emit-compilation.md)

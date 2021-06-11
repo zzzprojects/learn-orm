@@ -5,7 +5,7 @@ Name: Data Flow Analysis
 
 # Data Flow Analysis
 
-The `DataFlowAnalysis` class provides information about how data flows into and out of a region and you can also use it to inspect how variables are read and written within a given block of code.
+The `DataFlowAnalysis` class provides information about how data flows into and out of a region. You can also use it to inspect how variables are read and written within a given block of code.
 
 The `DataFlowAnalysis` class exposes different properties about unsafe addresses, local variables captured, and much more.
 
@@ -15,10 +15,10 @@ The `DataFlowAnalysis` class exposes different properties about unsafe addresses
 | Captured                 | The set of the local variables that have been referenced in anonymous functions within a region and therefore must be moved to a field of a frame class.
 | CapturedInside           | The set of variables that are captured inside a region.
 | CapturedOutside          | The set of variables that are captured outside a region.
-| DataFlowsIn              | The set of local variables which are assigned a value outside a region that may be used inside the region.
-| DataFlowsOut             | The set of local variables which are assigned a value inside a region that may be used outside the region.
-| DefinitelyAssignedOnEntry| The set of local variables which are definitely assigned a value when a region is entered.
-| DefinitelyAssignedOnExit | The set of local variables which are definitely assigned a value when a region is exited.
+| DataFlowsIn              | The set of local variables assigned a value outside a region that may be used inside the region.
+| DataFlowsOut             | The set of local variables assigned a value inside a region that may be used outside the region.
+| DefinitelyAssignedOnEntry| The set of local variables definitely assigned a value when a region is entered.
+| DefinitelyAssignedOnExit | The set of local variables definitely assigned a value when a region is exited.
 | ReadInside               | The set of local variables that are read inside a region.
 | ReadOutside              | The set of the local variables that are read outside a region.
 | Succeeded                | Returns true iff analysis was successful. Analysis can fail if the region does not properly span a single expression, a single statement, or a contiguous series of statements within the enclosing block.
@@ -28,7 +28,7 @@ The `DataFlowAnalysis` class exposes different properties about unsafe addresses
 | WrittenInside            | The set of local variables that are written inside a region.
 | WrittenOutside           | The set of local variables that are written outside a region.
 
-Let's consider the following sample source code which contains variable declaration before the `for` loop and also inside the `for` loop.
+Let's consider the following sample source code containing variable declaration before the `for` loop and also inside the `for` loop.
 
 ```csharp
 static void DataFlowAnalysisExample()
@@ -43,7 +43,7 @@ static void DataFlowAnalysisExample()
                 {
                      int[] innerArray = new int[10] { 0, 2, 4, 6, 8, 10, 12, 14, 16, 18 };
                      index = index + 2;
-                     outerArray[index – 1] = 5;
+                     outerArray[index â€“ 1] = 5;
                 }
            }
         }");
@@ -64,7 +64,7 @@ static void DataFlowAnalysisExample()
 }
 ```
 
-Let's execute the above code and you will see the local variables defined inside the `for` loop as an output.
+Let's execute the above code, and you will see the local variables defined inside the `for` loop as an output.
 
 ```csharp
 index

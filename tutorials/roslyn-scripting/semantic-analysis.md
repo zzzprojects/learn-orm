@@ -5,10 +5,10 @@ Name: Semantic Analysis
 
 # Semantic Analysis
 
-The Syntax API allows you to look at the structure of a program but sometimes, you will need more information about the semantics or meaning of a program. For example, with syntax APIs, you can't track down the references to members within your source code.
+The Syntax API allows you to look at the structure of a program, but sometimes, you will need more information about the semantics or meaning of a program. For example, you can't track down the references to members within your source code with syntax APIs.
 
- - The semantic layer shows the real power of Roslyn but this power comes at a cost. 
- - When you query the semantic model, it is more expensive as compared to syntax trees because of compilation.
+ - The semantic layer shows the real power of Roslyn, but this power comes at a cost. 
+ - When you query the semantic model, it is more expensive than syntax trees because of compilation.
 
 Let's consider a simple **Hello World** program to analyze.
 
@@ -52,7 +52,7 @@ namespace HelloWorld
 }
 ```
 
-In the above code, first, it will parse the source code to the `SyntaxTree` and then create a compilation of the syntax tree. Let's execute the above code and it will enumerate the sub-namespaces of the `System` namespace and print their names to the console.
+The above code will first parse the source code to the `SyntaxTree` and then create a compilation of the syntax tree. Let's execute the above code, and it will enumerate the sub-namespaces of the `System` namespace and print their names to the console.
 
 ```csharp
 Buffers

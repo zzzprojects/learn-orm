@@ -5,7 +5,7 @@ Name: Evaluate Expression
 
 # Evaluate Expression
 
-The `CSharpScript` class provides various static methods to evaluate your expressions at run-tine. The following example evaluates a simple expression `2 + 3` using the `EvaluateAsync` method.
+The `CSharpScript` class provides various static methods to evaluate your expressions at run-time. The following example evaluates a simple expression `2 + 3` using the `EvaluateAsync` method.
 
 ```csharp
 static async Task EvaluateExample1()

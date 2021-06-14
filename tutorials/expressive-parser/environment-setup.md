@@ -5,7 +5,7 @@ Name: Environment Setup
 
 # Environment Setup
 
-To start using the **ExpressiveParser** in your application, you will need to install the [ExpressiveParser](https://www.nuget.org/packages/ExpressiveParserp0) NuGet package.
+To start using the **ExpressiveParser** in your application, you will need to install the [ExpressiveParser](https://www.nuget.org/packages/ExpressiveParser) NuGet package.
 
 Let's open the Visual Studio and create a new project.
 

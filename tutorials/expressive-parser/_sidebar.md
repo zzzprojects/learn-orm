@@ -1,3 +1,3 @@
 - [Getting Started](getting-started.md)
 - [Environment Setup](environment-setup.md)
-
+- [Evaluate Expression](evaluate-expression.md)

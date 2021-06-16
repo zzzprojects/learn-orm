@@ -5,7 +5,7 @@ Name: Customizing Parser
 
 # Customizing Parser
 
-The **NReco.LambdaParser** library allows you to customize the expression parser. You can use the `AllowSingleEqualSign` option which will allow the parser to consider the `=` sign of equality instead of `==`. 
+The **NReco.LambdaParser** library allows you to customize the expression parser. You can use the `AllowSingleEqualSign` option, which will allow the parser to consider the `=` sign of equality instead of `==`. 
 
 Let's consider the following simple example with the default settings.
 

@@ -5,7 +5,7 @@ Name: Caching
 
 # Caching
 
-Caching concept is very simple if the expression was not modified since the last execution the evaluation is not performed and the previous evaluation result is used instead. It ensures that the relatively expensive expression reevaluation is performed only if it is required. 
+Caching concept is very simple. If the expression was not modified since the last execution, the evaluation is not performed, and the previous evaluation result is used instead. It ensures that the relatively expensive expression reevaluation is only performed if it is required. 
 
 By default, the caching option is disabled, you can enable it as shown below.
 
@@ -36,7 +36,7 @@ public static void Example1()
 }
 ```
 
-Let's run the above code and you will see that it took 141 ms to complete the evaluation of the same expression 10000 times.
+Let's run the above code, and you will see that it took 141 ms to complete the evaluation of the same expression 10000 times.
 
 ```csharp
 10000 iterations: 141 ms
@@ -65,7 +65,7 @@ public static void Example2()
 }
 ```
 
-Let's run the above code again and you will see that this time it took 23 ms.
+Let's rerun the above code, and you will see this time it took 23 ms.
 
 ```csharp
 10000 iterations: 23 ms

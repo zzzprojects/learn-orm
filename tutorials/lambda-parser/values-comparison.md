@@ -9,12 +9,12 @@ Name: Values Comparison
 
 ## NullComparison 
 
-It determines how comparison with null is handled and it also provides two options:
+It determines how comparison with null is handled, and it also provides two options:
 
  - `MinValue`: `null` is treated as a minimum possible value for any type - like .NET IComparer
  - `Sql`: `null` is not comparable with any type, including another null - like in SQL
 
-Let's consider the following simple example which uses the default options.
+Let's consider the following simple example, which uses the default options.
 
 ```csharp
 public static void Example1()
@@ -92,6 +92,4 @@ nullVar>5 = False
 
 ## SuppressErrors
 
-It allows you to avoid convert exceptions. If an error appears during comparison exception is not thrown and this means that values are not comparable and will return `false`.
-
-
+It allows you to avoid convert exceptions. If an error appears during comparison, exception is not thrown, which means that values are not comparable and will return false.

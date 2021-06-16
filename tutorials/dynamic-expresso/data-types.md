@@ -5,7 +5,7 @@ Name: Data Types
 
 # Data Types
 
-The primitive data types are predefined by the language and they are named by reserved keywords. They represent the basic types of language.
+The language predefines the primitive data types, and reserved keywords name them. 
 
 The **Dynamic Expresso** manages the following list of C# primary types.
 
@@ -20,7 +20,7 @@ The **Dynamic Expresso** manages the following list of C# primary types.
  - Guid
  - Math/Convert
 
-You can add additional types by using the `Interpreter.Reference` method as shown below.
+You can add additional types by using the `Interpreter.Reference` method, as shown below.
 
 ```csharp
 public static void Example1()
@@ -49,7 +49,7 @@ public class Customer
 }
 ```
 
-Now when you run the above code you will see the following output.
+Now when you run the above code, you will see the following output.
 
 ```csharp
 Mark Upston

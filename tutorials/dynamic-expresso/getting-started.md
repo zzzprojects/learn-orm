@@ -7,9 +7,9 @@ Name: Getting Started
 
 **Dynamic Expresso** is an interpreter for simple C# statements written in .NET Standard 2.0. 
 
- - It embeds its parsing logic, interprets C# statements by converting them to .NET lambda expressions or delegates.
- - It allows you to create scriptable applications, execute .NET code without compilation or create dynamic LINQ statements.
- - Global variables or parameters can be injected and used inside expressions. It doesn't generate assembly, but it creates an expression tree on the fly.
+ - It embeds its parsing logic, interprets C# statements by converting them to .NET lambda expressions or delegates
+ - It allows you to create scriptable applications, execute .NET code without compilation or create dynamic LINQ statements
+ - Global variables or parameters can be injected and used inside expressions. It doesn't generate assembly, but it creates an expression tree on the fly
 
 ## Features
 

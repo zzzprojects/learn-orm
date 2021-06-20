@@ -3,4 +3,5 @@
 - [Database Setup](database-setup.md)
 - [Simple Logging](simple-logging.md)
 - [Configuration](configuration.md)
+- [Entity Settings Attributes](entity-settings-attributes.md)
 

@@ -4,4 +4,5 @@
 - [Simple Logging](simple-logging.md)
 - [Configuration](configuration.md)
 - [Entity Settings Attributes](entity-settings-attributes.md)
+- [Configuration using Fluent API](configuration-using-fluent-api.md)
 

@@ -27,7 +27,7 @@ On the **Additional Information** dialog, select the target framework and then c
 
 <img src="images/setup-5.png" alt="Console Application created">
 
-You can see a new console application project is created. Now to install a **LinqKit.Microsoft.EntityFrameworkCore**, right-click on the project in **Solution Explorer**, and select **Manage NuGet Packages...**
+You can see a new console application project is created. Now, to install a **LinqKit.Microsoft.EntityFrameworkCore**, right-click on the project in **Solution Explorer**, and select **Manage NuGet Packages...**
 
 <img src="images/setup-6.png" alt="Install LinqKit.Microsoft.EntityFrameworkCore">
 
@@ -35,7 +35,7 @@ Select the **Browse** tab and search for **LinqKit.Microsoft.EntityFrameworkCore
 
 <img src="images/setup-7.png" alt="LinqKit.Microsoft.EntityFrameworkCore installed successfully">
 
-Once **LinqKit.Microsoft.EntityFrameworkCore** has been successfully installed, let's add the database provider that you want to target. We will use SQL Server, and the provider package is [Microsoft.EntityFrameworkCore.SqlServer](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer). We can easily install that NuGet package by executing the following command in **Package Manager Console**. 
+Once **LinqKit.Microsoft.EntityFrameworkCore** has been successfully installed. Let's add the database provider that you want to target. We will use SQL Server, and the provider package is [Microsoft.EntityFrameworkCore.SqlServer](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer). We can easily install that NuGet package by executing the following command in **Package Manager Console**. 
 
 ```csharp
 PM> Install-Package Microsoft.EntityFrameworkCore.SqlServer

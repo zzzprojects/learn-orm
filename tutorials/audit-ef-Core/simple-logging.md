@@ -7,7 +7,7 @@ Name: Simple Logging
 
 `Audit.EntityFramework` provides the infrastructure to log various kinds of operations with the EF `DbContext`. It allows you to store detailed information about Insert, Update and Delete operations in your database.
 
-To use logging in your application, you need to change your context class to inherit from `AuditDbContext` instead of `DbContext` as shown below.
+To use logging in your application, you need to change your context class to inherit from `AuditDbContext` instead of `DbContext`, as shown below.
 
 ```csharp
 public class BookStore : AuditDbContext
@@ -66,7 +66,7 @@ public static void Example1()
 }
 ```
 
-Let's run the above code and you will see the following output.
+Let's run the above code, and you will see the following output.
 
 ```csharp
 {"Database":"BookStoreDb","Entries":[{"Table":"Authors","Name":"Author","Action":"Insert","PrimaryKey":{"AuthorId":13},"Entity":{"AuthorId":13,"Name":"James"},"ColumnValues":{"AuthorId":13,"Name":"James"},"Valid":true}],"Result":1,"Success":true}

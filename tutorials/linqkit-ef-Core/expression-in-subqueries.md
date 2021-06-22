@@ -23,7 +23,7 @@ public static List<string> GetAuthorsExample1(Expression<Func<Book, bool>> pageC
 }
 ```
 
-Now to make it works, **LinqKit.Microsoft.EntityFrameworkCore** allows you to call `AsExpandable()` on the first table in the query as shown below.
+Now to make it works, **LinqKit.Microsoft.EntityFrameworkCore** allows you to call `AsExpandable()` on the first table in the query, as shown below.
 
 ```csharp
 public static List<string> GetAuthorsExample2(Expression<Func<Book, bool>> pageCriteria)
@@ -41,4 +41,4 @@ public static List<string> GetAuthorsExample2(Expression<Func<Book, bool>> pageC
 }
 ```
 
-Nothing else needs to be changed. The wrapper that `AsExpandable` generates looks specifically for references to expressions, and substitutes the expression in place of the reference.
+Nothing else needs to be changed. The wrapper that `AsExpandable` generates looks specifically for references to expressions and substitutes the expression in place of the reference.

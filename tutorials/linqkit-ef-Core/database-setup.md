@@ -9,7 +9,7 @@ Name: Database Setup
 
 Model is a collection of classes to interact with the database.
 
- - A model stores data that is retrieved according to the commands from the Controller and displayed in the View.
+ - A model stores data retrieved according to the commands from the Controller and displayed in the View.
  - It can also be used to manipulate the data to implement the business logic.
 
 To create a data model for our application, we will start with the following two entities.
@@ -34,13 +34,13 @@ public class Author
 
 The `AuthorId` property will become the primary key column of the database table that corresponds to this class. By default, Entity Framework interprets a property that's named `Id` or `<classname>Id` as the primary key.
 
- - The `Books` property is a navigation property, navigation properties hold other entities that are related to this entity. 
- - In this case, the `Books` property of an `Author` entity will hold all of the `Book` entities that are related to that `Author` entity. 
+ - The `Books` property is a navigation property. Navigation properties hold other entitiesrelated to this entity. 
+ - In this case, the `Books` property of an `Author` entity will hold all of the `Book` entities related to that `Author` entity. 
  - In other words, if a given `Author` row in the database has two related `Book` rows, that `Author` entity's `Books` navigation property will contain those two `Book` entities.
 
 ## Create Book Entity
 
-Now let's add another entity class `Book` and replace the following code.
+Now let's add another entity class `Book`, and replace the following code.
 
 ```csharp
 public class Book
@@ -54,7 +54,7 @@ public class Book
 }
 ```
 
- - The `Id` property will be the primary key; this entity uses the `Id` pattern instead of `<classname>Id` by itself as you saw in the `Author` entity. 
+ - The `Id` property will be the primary key; this entity uses the `Id` pattern instead of `<classname>Id` by itself, as you saw in the `Author` entity. 
  - Usually, you would choose one pattern and use it throughout your data model. 
  - Here, the variation illustrates that you can use either pattern. 
 
@@ -66,7 +66,7 @@ The database context class provides the main functionality to coordinate Entity 
  - In your code, you can specify which entities are included in the data model. 
  - You can also customize certain Entity Framework behavior. 
 
-So let's create a folder in your project by right-clicking on your project in Solution Explorer and click **Add > New Folder**. Name the folder DAL (Data Access Layer). In that folder, create a new class file named **BookStore.cs**, and replace the following code.
+So let's create a folder in your project by right-clicking on your project in Solution Explorer and clicking **Add > New Folder**. Name the folder DAL (Data Access Layer). In that folder, create a new class file named **BookStore.cs**, and replace the following code.
 
 ```csharp
 public class BookStore : DbContext
@@ -85,7 +85,7 @@ This code creates a `DbSet` property for each entity set. In Entity Framework te
 
 ### Initialize Database
 
-The Entity Framework will create an empty database for you. So we need to write a method that's called after the database is created to populate it with test data.
+The Entity Framework will create an empty database for you. So we need to write a method called after the database is created to populate it with test data.
 
 ```csharp
 public static void Initialize()
@@ -152,7 +152,7 @@ static void Main(string[] args)
 }
 ```
 
-Now when you run your application for the first time, the database will be created and seeded with test data and you will see the following output.
+Now when you run your application for the first time, the database will be created and seeded with test data, and you will see the following output.
 
 ```csharp
 Total Authors: 5

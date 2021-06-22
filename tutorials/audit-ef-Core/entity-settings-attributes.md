@@ -9,7 +9,7 @@ You can configure the following settings per entity type.
 
 ## Ignore Entities
 
-You can ignore specific entities on the audit, by decorating your entity classes with the `AuditIgnore` attribute as shown below.
+You can ignore specific entities on the audit by decorating your entity classes with the `AuditIgnore` attribute as shown below.
 
 ```csharp
 [AuditIgnore]

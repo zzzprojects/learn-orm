@@ -65,7 +65,7 @@ public static void Example3()
 }
 ```
 
-Let's run the above code and you will see the following output.
+Let's run the above code, and you will see the following output.
 
 ```csharp
 Title: Calculus I        Total Pages: 1477

@@ -7,7 +7,7 @@ Name: Predicate Builder
 
 **LinqKit.Microsoft.EntityFrameworkCore** allows you to dynamically construct a lambda expression tree that performs an **or-based** or **and-based** predicate. The need for dynamic predicates is the most common in a typical business application.
 
-Let's consider the following example that implements a keyword-style search where we want to match all of the specified keywords in a book title or in other words, the book title contains all the given keywords. 
+Let's consider the following example that implements a keyword-style search where we want to match all of the specified keywords in a book title or, in other words, the book title contains all the given keywords. 
 
 ```csharp
 public static void Example2()
@@ -69,7 +69,7 @@ public static void Example3()
 }
 ```
 
-Let's run the above code and you will see the following output.
+Let's run the above code, and you will see the following output.
 
 ```csharp
 Introduction to Microeconomics

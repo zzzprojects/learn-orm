@@ -35,7 +35,7 @@ Select the **Browse** tab and search for **Audit.EntityFramework.Core** and inst
 
 <img src="images/setup-7.png" alt="Audit.EntityFramework.Core installed successfully">
 
-Once **Audit.EntityFramework.Core** has been successfully installed, let's add the database provider that you want to target. We will use SQL Server, and the provider package is [Microsoft.EntityFrameworkCore.SqlServer](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer). We can easily install that NuGet package by executing the following command in **Package Manager Console**. 
+Once **Audit.EntityFramework.Core** has been successfully installed. Let's add the database provider that you want to target. We will use SQL Server, and the provider package is [Microsoft.EntityFrameworkCore.SqlServer](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer). We can easily install that NuGet package by executing the following command in **Package Manager Console**. 
 
 ```csharp
 PM> Install-Package Microsoft.EntityFrameworkCore.SqlServer

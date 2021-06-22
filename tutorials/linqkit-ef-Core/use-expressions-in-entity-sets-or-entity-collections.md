@@ -5,9 +5,9 @@ Name: Use Expressions in EntitySets or EntityCollections
 
 # Use Expressions in EntitySets or EntityCollections
 
-By default, `EntitySet<>` or `EntityCollection<>` does not implements `IQueryable<>`. It means that we can't call methods that accept an `Expression<Func<>>` such as, Queryable's `Any` and our query won't compile.
+By default, `EntitySet<>` or `EntityCollection<>` does not implements `IQueryable<>`. It means that we can't call methods that accept an `Expression<Func<>>` such as, Queryable's `Any`, and our query won't compile.
 
-So, let's suppose we want to retrieve all those authors' names that had written books of more than 1000 pages or you can say that we will write a method and pass the page criteria predicate as a parameter as shown below.
+So, let's suppose we want to retrieve all those authors' names that had written books of more than 1000 pages, or you can say that we will write a method and pass the page criteria predicate as a parameter as shown below.
 
 ```csharp
 public static List<string> GetAuthorsExample1(Expression<Func<Book, bool>> pageCriteria)
@@ -50,7 +50,7 @@ foreach (var author in authors)
 }
 ```
 
-Let's run the above code and you will see the following output.
+Let's run the above code, and you will see the following output.
 
 ```csharp
 Carson Alexander

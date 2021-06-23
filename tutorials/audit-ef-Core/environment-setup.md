@@ -5,7 +5,7 @@ Name: Environment Setup
 
 # Environment Setup
 
-To start using the **Audit.EntityFramework.Core** in your application, you will need to install the [Audit.EntityFramework.Core](https://www.nuget.org/packages/LinqKit.Microsoft.EntityFrameworkCore) NuGet package.
+To start using the **Audit.EntityFramework.Core** in your application, you will need to install the [Audit.EntityFramework.Core](https://www.nuget.org/packages/Audit.EntityFramework.Core) NuGet package.
 
 Let's open the Visual Studio and create a new project.
 

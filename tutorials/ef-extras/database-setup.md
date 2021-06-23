@@ -52,13 +52,8 @@ public static void Initialize()
 {
     using (EmployeeContext context = new EmployeeContext())
     {
+        context.Database.EnsureDeleted();
         context.Database.EnsureCreated();
-
-        // Look for any employees.
-        if (context.Employees.Any())
-        {
-            return;   // DB has been seeded
-        }
 
         var employees = new List<Employee>
         {

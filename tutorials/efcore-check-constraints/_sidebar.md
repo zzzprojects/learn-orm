@@ -1,2 +1,3 @@
 - [Getting Started](getting-started.md)
 - [Database Setup](database-setup.md)
+- [Validation Constraints](validation-constraints.md)

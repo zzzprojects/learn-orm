@@ -44,7 +44,7 @@ public class Author
 }
 ```
 
-To register the contraints, we need to call the `UseValidationCheckConstraints()` method
+To register the contraints, we need to call the `UseValidationCheckConstraints()` method.
 
 ```csharp
 public class BookStore : DbContext

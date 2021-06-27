@@ -5,7 +5,7 @@ Name: Enum Constraints
 
 # Enum Constraints
 
-When you map a .NET enum to the database, by default that's done by storing the enum's underlying int in a plain old database int column (another common strategy is to map the string representation instead). Although the .NET enum has a constrained set of values that you've defined, on the database side there's nothing stopping anyone from inserting any value, including ones that are out of range.
+When you map a .NET enum to the database, by default that's done by storing the enum's underlying `int` in a plain old database `int` column. Although the .NET enum has a constrained set of values that you have defined, on the database side there's nothing stopping anyone from inserting any value, including ones that are out of range.
 
 Let's say we have the following `Book` class.
 

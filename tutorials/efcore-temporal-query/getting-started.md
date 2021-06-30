@@ -7,13 +7,13 @@ Name: Getting Started
 
 ## Temporal tables
 
-SQL Server 2016 introduced support for temporal tables which also known as system-versioned temporal tables as a database feature that brings built-in support for providing information about data stored in the table at any point in time rather than only the data that is correct at the current moment in time. 
+SQL Server 2016 introduced support for temporal tables which is also known as system-versioned temporal tables as a database feature that brings built-in support for providing information about data stored in the table at any point in time rather than only the data that is correct at the current moment in time. 
 
 Temporal is a database feature that was introduced in ANSI SQL 2011.
 
 ### system-versioned Temporal Table
 
-A system-versioned temporal table is a type of user table designed to keep a full history of data changes to allow easy point in time analysis. 
+A system-versioned temporal table is a type of user table designed to keep a full history of data changes to allow easy point-in-time analysis. 
 
 This type of temporal table is referred to as a system-versioned temporal table because the period of validity for each row is managed by the system (i.e. database engine).
 
@@ -51,7 +51,7 @@ On the **Additional Information** dialog, select the target framework and then c
 
 <img src="images/setup-5.png" alt="Console Application created">
 
-You can see a new console application project is created. Now to install an **Dabble.EntityFrameworkCore.Temporal.Query**, right-click on the project in **Solution Explorer**, and select **Manage NuGet Packages...**
+You can see a new console application project is created. Now to install a **Dabble.EntityFrameworkCore.Temporal.Query**, right-click on the project in **Solution Explorer**, and select **Manage NuGet Packages...**
 
 <img src="images/setup-6.png" alt="Install Dabble.EntityFrameworkCore.Temporal.Query">
 

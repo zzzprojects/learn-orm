@@ -17,10 +17,10 @@ Entity Framework Core generates the database schema from the model when you use 
 
 ## Supported Naming Conventions
 
- - UseSnakeCaseNamingConvention: FullName becomes full_name
- - UseLowerCaseNamingConvention: FullName becomes fullname
- - UseCamelCaseNamingConvention: FullName becomes fullName
- - UseUpperCaseNamingConvention: FullName becomes FULLNAME
+ - UseSnakeCaseNamingConvention: FullName becomes `full_name`
+ - UseLowerCaseNamingConvention: FullName becomes `fullname`
+ - UseCamelCaseNamingConvention: FullName becomes `fullName`
+ - UseUpperCaseNamingConvention: FullName becomes `FULLNAME`
 
 ## Installation
 

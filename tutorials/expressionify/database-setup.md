@@ -28,6 +28,7 @@ public class Author
 {
     public int AuthorId { get; set; }
     public string Name { get; set; }
+    public int Age { get; set; }
     public virtual ICollection<Book> Books { get; set; }
 }
 ```
@@ -96,11 +97,11 @@ public static void Initialize()
 
         var authors = new List<Author>
         {
-            new Author { Name="Carson Alexander" },
-            new Author { Name="Meredith Alonso" },
-            new Author { Name="Arturo Anand" },
-            new Author { Name="Gytis Barzdukas"},
-            new Author { Name="Yan Li" },
+            new Author { Name="Carson Alexander", Age = 39 },
+            new Author { Name="Meredith Alonso", Age = 27 },
+            new Author { Name="Arturo Anand", Age = 41 },
+            new Author { Name="Gytis Barzdukas", Age = 54 },
+            new Author { Name="Yan Li", Age = 63 }
         };
 
         authors.ForEach(a => context.Authors.Add(a));

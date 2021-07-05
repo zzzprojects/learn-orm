@@ -109,6 +109,6 @@ static void Main(string[] args)
 }
 ```
 
-Now when you run your application for the first time, the database will be created containing the following tables and columns with the default naming conventions.
+When you run your application for the first time, the database will be created containing the following tables and columns with the default naming conventions.
 
 <img src="images/database-1.png" alt="Database created">

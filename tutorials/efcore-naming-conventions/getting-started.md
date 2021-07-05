@@ -13,7 +13,7 @@ Entity Framework Core generates the database schema from the model when you use 
  - The default names should be ok for lots of people, but sometimes you need to use a specific naming convention. 
  - For example, some developer wants the table name to be upper case or column names to be prefixed by the table name, etc.
 
-**EFCore.NamingConventions** is a NuGet library for **Microsoft.EntityFrameworkCore** that provides naming conventions for Entity Framework Core tables and columns.
+**EFCore.NamingConventions** is a NuGet library for **Microsoft.EntityFrameworkCore** provides naming conventions for Entity Framework Core tables and columns.
 
 ## Supported Naming Conventions
 

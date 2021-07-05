@@ -5,21 +5,14 @@ Name: Getting Started
 
 # Getting Started
 
-**EFCore.NamingConventions** is a NuGet library for **Microsoft.EntityFrameworkCore** that enables you to decompile a delegate or a method body to its lambda representation.
-
-## Supported Naming Conventions
-
- - UseSnakeCaseNamingConvention: FullName becomes `full_name`
- - UseLowerCaseNamingConvention: FullName becomes `fullname`
- - UseCamelCaseNamingConvention: FullName becomes `fullName`
- - UseUpperCaseNamingConvention: FullName becomes `FULLNAME`
+**DelegateDecompiler.EntityFrameworkCore** is a NuGet library for **Microsoft.EntityFrameworkCore** that enables you to decompile a delegate or a method body to its lambda representation.
 
 ## Installation
 
 You can easily install it from the **Package Manager Console** window by running the following command.
 
 ```csharp
-PM> Install-Package DelegateDecompiler.EntityFrameworkCore
+PM> Install-Package DelegateDecompiler.EntityFrameworkCore5
 ```
 
 ## Environment Setup

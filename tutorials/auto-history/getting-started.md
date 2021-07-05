@@ -5,7 +5,7 @@ Name: Getting Started
 
 # Getting Started
 
-**Microsoft.EntityFrameworkCore.AutoHistory** is a NuGet library for **Microsoft.EntityFrameworkCore** that records data changes history automatically. It records data changing history including `UPDATE`, `DELETE` history in a table named `AutoHistories`.
+**Microsoft.EntityFrameworkCore.AutoHistory** is a NuGet library for **Microsoft.EntityFrameworkCore** that records data changes history automatically. It records data changing history including `UPDATE`, `DELETE` history, in a table named `AutoHistories`.
 
 ## Installation
 

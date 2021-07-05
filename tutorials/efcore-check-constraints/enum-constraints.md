@@ -5,7 +5,7 @@ Name: Enum Constraints
 
 # Enum Constraints
 
-When you map a .NET enum to the database, by default that's done by storing the enum's underlying `int` in a plain old database `int` column. Although the .NET enum has a constrained set of values that you have defined, on the database side there's nothing stopping anyone from inserting any value, including ones that are out of range.
+When you map a .NET enum to the database, by default, that's done by storing the enum's underlying `int` in a plain old database `int` column. Although the .NET enum has a constrained set of values that you have defined, there's nothing stopping anyone from inserting any value on the database side, including ones that are out of range.
 
 Let's say we have the following `Book` class.
 
@@ -97,4 +97,4 @@ CREATE TABLE [dbo].[Books] (
 );
 ```
 
-As you can see that EF now defines the constraints for enum and the added `CHECK` constraint allows only 0, 1, and 2 to be stored in the column, ensuring better data integrity.
+As you can see, EF now defines the constraints for enum and the added `CHECK` constraint allows only 0, 1, and 2 to be stored in the column, ensuring better data integrity.

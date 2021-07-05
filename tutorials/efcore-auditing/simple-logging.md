@@ -22,7 +22,7 @@ public class BookStore : AuditingDbContext
 }
 ```
 
-Let's run your application and it will create the following table in your database which can contain all the related log information when you perform database operations.
+Let's run your application and create the following table in your database containing all the related log information when you perform database operations.
 
 ```csharp
 CREATE TABLE [audit].[AuditLogs] (

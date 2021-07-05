@@ -44,7 +44,7 @@ public class Author
 }
 ```
 
-To register the contraints, we need to call the `UseValidationCheckConstraints()` method.
+To register the constraints, we need to call the `UseValidationCheckConstraints()` method.
 
 ```csharp
 public class BookStore : DbContext
@@ -74,4 +74,4 @@ CREATE TABLE [dbo].[Authors] (
 );
 ```
 
-As you can see that EF now defines the constraints on the table as well.
+As you can see, EF now defines the constraints on the table as well.

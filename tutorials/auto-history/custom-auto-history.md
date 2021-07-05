@@ -14,7 +14,7 @@ class MyCustomAutoHistory : AutoHistory
 }
 ```
 
-Once you add your custom auto history class, then you need to register it within your context class. Let's update the `OnModelCreating` to register your auto history class as shown below.
+Once you add your custom auto history class, you need to register it within your context class. Let's update the `OnModelCreating` to register your auto history class, as shown below.
 
 ```csharp
 public class BookStore : DbContext

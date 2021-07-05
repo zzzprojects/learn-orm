@@ -7,7 +7,7 @@ Name: Getting Started
 
 ## Temporal tables
 
-SQL Server 2016 introduced support for temporal tables which is also known as system-versioned temporal tables as a database feature that brings built-in support for providing information about data stored in the table at any point in time rather than only the data that is correct at the current moment in time. 
+SQL Server 2016 introduced support for temporal tables, which is also known as system-versioned temporal tables as a database feature that provides built-in support for providing information about data stored in the table at any point in time rather than only the correct data at the current moment in time.
 
 Temporal is a database feature that was introduced in ANSI SQL 2011.
 

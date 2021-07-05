@@ -7,7 +7,7 @@ Name: Configuration
 
 ## Setup Connection String
 
-For local development, the ASP.NET Core configuration system reads the connection string from the ***appsettings.json*** file. So let's add the connection to that file as shown below.
+For local development, the ASP.NET Core configuration system reads the connection string from the ***appsettings.json*** file. So let's add the connection to that file, as shown below.
 
 ```csharp
 {

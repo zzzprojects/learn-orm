@@ -146,7 +146,7 @@ static void Main(string[] args)
 }
 ```
 
-Now when you run your application for the first time, the database will be created and seeded with test data, and you will see the following output.
+When you run your application for the first time, the database will be created and seeded with test data, and you will see the following output.
 
 ```csharp
 Total Authors: 5

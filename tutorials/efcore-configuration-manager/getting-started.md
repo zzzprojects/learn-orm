@@ -5,7 +5,7 @@ Name: Getting Started
 
 # Getting Started
 
-**EntityFrameworkCore.ConfigurationManager** is a NuGet library for **Microsoft.EntityFrameworkCore** that extends EF Core to resolve connection strings from the configuration file.
+**EntityFrameworkCore.ConfigurationManager** is a NuGet library for **Microsoft.EntityFrameworkCore** extends EF Core to resolve connection strings from the configuration file.
 
 ## Installation
 

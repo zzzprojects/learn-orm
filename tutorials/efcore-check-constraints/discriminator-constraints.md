@@ -7,7 +7,7 @@ Name: Discriminator Constraints
 
 In EF Core, TPH inheritance uses one database table to maintain data for all of the entity types in an inheritance hierarchy. It allows you to map a .NET type hierarchy to a single database table. 
 
- - In this mapping pattern, a discriminator column is added to your table, which determines which entity type is represented by the particular row when reading query results from the database. 
+ - A discriminator column is added to your table in this mapping pattern, which determines which entity type is represented by the particular row when reading query results from the database.
  - EF will materialize different .NET types in the hierarchy based on this value.
  - In the typical case, your hierarchy will have a closed set of .NET types; but as with enums, the database discriminator column can contain anything. 
  - If EF encounters an unknown discriminator value when reading query results, the query will fail. 

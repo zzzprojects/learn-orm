@@ -5,7 +5,7 @@ Name: Getting Started
 
 # Getting Started
 
-**EntityFrameworkExtras.EFCore** is a NuGet library that provides some useful additions to Entity Framework such as executing Stored Procedures with User-Defined Table Types and Output Parameters.
+**EntityFrameworkExtras.EFCore** is a NuGet library that provides some useful additions to Entity Framework, such as executing Stored Procedures with User-Defined Table Types and Output Parameters.
 
  - Many times you need to pass a group of records in stored procedure using user-defined table type. 
  - But Entity framework does not support user-defined type by default. 

@@ -9,7 +9,7 @@ Name: Database Setup
 
 Model is a collection of classes to interact with the database.
 
- - A model stores data that is retrieved according to the commands from the Controller and displayed in the View.
+ - A model stores data retrieved according to the commands from the Controller and displayed in the View.
  - It can also be used to manipulate the data to implement the business logic.
 
 To create a data model for our application, we will start with the following two entities.
@@ -21,7 +21,7 @@ There's a one-to-many relationship between `Author` and `Book` entities. In othe
 
 ## Create Author Entity
 
-In Solution Explorer, right click on the Models folder and choose **Add > Class**. Enter a class file name **Author.cs** and add the following code.
+In Solution Explorer, right-click on the Models folder and choose **Add > Class**. Enter a class file name **Author.cs** and add the following code.
 
 ```csharp
 using System;
@@ -44,13 +44,13 @@ namespace EFCoreConfigurationManagerDemo.Models
 
 The `AuthorId` property will become the primary key column of the database table that corresponds to this class. By default, Entity Framework interprets a property that's named `Id` or `<classname>Id` as the primary key.
 
- - The `Books` property is a navigation property, navigation properties hold other entities that are related to this entity. 
- - In this case, the `Books` property of an `Auth` entity will hold all of the `Book` entities that are related to that `Author` entity. 
+ - The `Books` property is a navigation property, navigation properties hold other entities related to this entity. 
+ - In this case, the `Books` property of an `Auth` entity will hold all of the `Book` entities related to that `Author` entity. 
  - In other words, if a given `Author` row in the database has two related `Book` rows, that `Author` entity's `Books` navigation property will contain those two `Book` entities.
 
 ## Create Book Entity
 
-Now let's add another entity class `Book` and replace the following code.
+Now let's add another entity class `Book`, and replace the following code.
 
 ```csharp
 using System;
@@ -70,7 +70,7 @@ namespace EFCoreConfigurationManagerDemo.Models
 }
 ```
 
- - The `Id` property will be the primary key; this entity uses the `Id` pattern instead of `<classname>Id` by itself as you saw in the `Author` entity. 
+ - The `Id` property will be the primary key; this entity uses the `Id` pattern instead of `<classname>Id` by itself, as you saw in the `Author` entity. 
  - Usually, you would choose one pattern and use it throughout your data model. 
  - Here, the variation illustrates that you can use either pattern. 
 
@@ -243,7 +243,7 @@ On application startup, the `Main` method does the following operations.
  - Call the seed method, passing to it the context.
  - Dispose the context when the seed method is done.
 
-Now when you run your application for the first time, the database will be created and seeded with test data.
+When you run your application for the first time, the database will be created and seeded with test data.
 
 <img src="images/create-model-1.png">
 

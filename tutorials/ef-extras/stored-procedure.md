@@ -5,7 +5,7 @@ Name: Stored Procedure
 
 # Stored Procedure
 
-A stored procedure is a prepared SQL code that you can save, so the code can be reused over and over again. So let's create a stored procedure that uses the user-defined table type as a parameter. The below code snippet will define `@UserDefinedTable` as parameters and it is a user-defined table type parameter.
+A stored procedure is a prepared SQL code that you can save, so the code can be reused over and over again. So let's create a stored procedure that uses the user-defined table type as a parameter. The below code snippet will define `@UserDefinedTable` as parameters, and it is a user-defined table type parameter.
 
 ```csharp
 CREATE PROCEDURE EmployeeInsertWithUDT 
@@ -24,7 +24,7 @@ It will create an `EmployeeInsertWithUDT` stored procedure and insert the list o
 
 ## Create Class for Stored Procedure
 
-To interact with the database using the stored procedure, we need to create another class that will represent a stored procedure as shown below.
+To interact with the database using the stored procedure, we need to create another class that will represent a stored procedure, as shown below.
 
 ```csharp
 [StoredProcedure("EmployeeInsertWithUDT")]

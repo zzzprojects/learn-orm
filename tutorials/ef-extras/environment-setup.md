@@ -35,7 +35,7 @@ Select the **Browse** tab and search for **EntityFrameworkExtras.EFCore** and in
 
 <img src="images/setup-7.png" alt="EntityFrameworkExtras.EFCore installed successfully">
 
-Once **EntityFrameworkExtras.EFCore** has been successfully installed, let's add the database provider that you want to target. We will use SQL Server, and the provider package is [Microsoft.EntityFrameworkCore.SqlServer](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer). We can easily install that NuGet package by executing the following command in **Package Manager Console**. 
+Once **EntityFrameworkExtras.EFCore** has been successfully installed. Let's add the database provider that you want to target. We will use SQL Server, and the provider package is [Microsoft.EntityFrameworkCore.SqlServer](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer). We can easily install that NuGet package by executing the following command in **Package Manager Console**. 
 
 ```csharp
 PM> Install-Package Microsoft.EntityFrameworkCore.SqlServer

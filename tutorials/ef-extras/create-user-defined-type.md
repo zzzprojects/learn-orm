@@ -16,7 +16,7 @@ CREATE TYPE [dbo].[EmployeeUDT] AS TABLE (
     [Salary]  INT         NULL);
 ```
 
-Let's execute the above SQL and you will see that the UDT is created in your database.
+Let's execute the above SQL, and you will see that the UDT is created in your database.
 
 <img src="images/udt-1.png" alt="Create a UDT">
 

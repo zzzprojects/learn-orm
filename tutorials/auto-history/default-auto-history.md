@@ -66,7 +66,7 @@ public static void Example2()
 }
 ```
 
-Let's run the above examples and you will see that a table `AutoHistories` table is created in your databases with the following records.
+Let's run the above examples, and you will see that a table `AutoHistories` table is created in your databases with the following records.
 
 <img src="images/auto-history-1.png" alt="Create a new project">
 

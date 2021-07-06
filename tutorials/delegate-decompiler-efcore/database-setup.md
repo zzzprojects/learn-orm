@@ -29,11 +29,6 @@ public class Author
     public int AuthorId { get; set; }
     public string FirstName { get; set; }
     public string LastName { get; set; }
-    [Computed]
-    public string FullName
-    {
-        get { return FirstName + " " + LastName; }
-    }
     public virtual ICollection<Book> Books { get; set; }
 }
 ```

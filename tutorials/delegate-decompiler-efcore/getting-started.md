@@ -17,7 +17,7 @@ PM> Install-Package DelegateDecompiler.EntityFrameworkCore5
 
 ## Environment Setup
 
-To start using the **DelegateDecompiler.EntityFrameworkCore** in your application, you will need to install the [DelegateDecompiler.EntityFrameworkCore](https://www.nuget.org/packages/DelegateDecompiler.EntityFrameworkCore) NuGet package.
+To start using the **DelegateDecompiler.EntityFrameworkCore** in your application, you will need to install the [DelegateDecompiler.EntityFrameworkCore5](https://www.nuget.org/packages/DelegateDecompiler.EntityFrameworkCore5) NuGet package.
 
 Let's open the Visual Studio and create a new project.
 

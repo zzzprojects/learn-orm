@@ -47,9 +47,10 @@ Select the **Browse** tab and search for **EntityFramework.Triggers** and instal
 
 <img src="images/setup-7.png" alt="EntityFramework.Triggers installed successfully">
 
-Once **EntityFramework.Triggers** has been successfully installed. Let's add the database provider that you want to target. We will use SQL Server, and the provider package is [Microsoft.EntityFrameworkCore.SqlServer](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer). We can easily install that NuGet package by executing the following command in **Package Manager Console**. 
+Once **EntityFramework.Triggers** has been successfully installed. Let's install the [Microsoft.EntityFrameworkCore](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore) NuGet package and the database provider that you want to target. We will use SQL Server, and the provider package is [Microsoft.EntityFrameworkCore.SqlServer](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer). We can easily install that NuGet package by executing the following command in **Package Manager Console**. 
 
 ```csharp
+PM> Install-Package Microsoft.EntityFrameworkCore
 PM> Install-Package Microsoft.EntityFrameworkCore.SqlServer
 ```
 

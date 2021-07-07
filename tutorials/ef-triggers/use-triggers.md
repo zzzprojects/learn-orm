@@ -56,7 +56,7 @@ namespace EFTriggersDemo.Models
 }
 ```
 
-Now we will update the `Author` class by inheriting it from the `Trackable` class.
+Events are raised from the base class, up to the events specified on the entity class being used. Now we will update the `Author` class by inheriting it from the `Trackable` class.
 
 ```csharp
 using System;

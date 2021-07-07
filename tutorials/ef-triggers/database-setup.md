@@ -142,14 +142,8 @@ namespace EFTriggersDemo.DAL
     {
         public static void Initialize(BookStore context)
         {
-
+            context.Database.EnsureDeleted();
             context.Database.EnsureCreated();
-
-            // Look for any authors.
-            if (context.Authors.Any())
-            {
-                return;   // DB has been seeded
-            }
 
             var authors = new List<Author>
             {

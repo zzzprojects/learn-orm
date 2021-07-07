@@ -47,11 +47,10 @@ Select the **Browse** tab and search for **EntityFrameworkCore.Triggers** and in
 
 <img src="images/setup-7.png" alt="EntityFrameworkCore.Triggers installed successfully">
 
-Once **EntityFrameworkCore.Triggers** has been successfully installed. Let's install the [Microsoft.EntityFrameworkCore](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore) NuGet package and the database provider that you want to target. We will use SQL Server, and the provider package is [Microsoft.EntityFrameworkCore.SqlServer](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer). We can easily install that NuGet package by executing the following command in **Package Manager Console**. 
+Once **EntityFrameworkCore.Triggers** has been successfully installed. Let's add the database provider that you want to target. We will use SQL Server, and the provider package is [Microsoft.EntityFrameworkCore.Sqlite](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Sqlite). We can easily install that NuGet package by executing the following command in **Package Manager Console**. 
 
 ```csharp
-PM> Install-Package Microsoft.EntityFrameworkCore
-PM> Install-Package Microsoft.EntityFrameworkCore.SqlServer
+PM> Install-Package Microsoft.EntityFrameworkCore.Sqlite
 ```
 
 You are now ready to start your application.

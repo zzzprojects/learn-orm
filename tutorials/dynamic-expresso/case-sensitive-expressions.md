@@ -45,7 +45,7 @@ public static void Example2()
 }
 ```
 
-Let's run the above code and you will see the following output.
+Let's run the above code, and you will see the following output.
 
 ```csharp
 val + VAL + Val = 18

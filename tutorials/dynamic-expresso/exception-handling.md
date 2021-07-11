@@ -5,7 +5,7 @@ Name: Exception Handling
 
 # Exception Handling
 
-Exception handling helps you deal with any unexpected or exceptional situations that occur when a program is running. For example, you can use the `try`, `catch`, and `finally` keywords to try actions that may not succeed, handleling failures, and cleaning up resources afterward.
+Exception handling helps you deal with any unexpected or exceptional situations that occur when a program is running. For example, you can use the `try`, `catch`, and `finally` keywords to try actions that may not succeed, handling failures, and cleaning up resources afterward.
 
 If the syntax of the text is invalid or if there is an error during the parsing, it will throw a `ParseException`. A `ParseException` will be thrown whenever an expression cannot be compiled.
 

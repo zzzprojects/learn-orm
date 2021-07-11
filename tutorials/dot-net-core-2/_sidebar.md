@@ -11,7 +11,7 @@
 - [Roll Forward](roll-forward.md)
 - [Self-contained Application Servicing](self-contained-application-servicing.md)
 - [JIT Compiler Improvements](jit-compiler-improvements.md)
-- [Span\<T\> and Memory\<T\>](span-and-memory.md)
+- [Span<T> and Memory<T>](span-and-memory.md)
 - [Brotli Compression](brotli-compression.md)
 - [New Cryptography APIs and Cryptography Improvements](new-cryptography-APIs-and-cryptography-improvements.md)
 - [Sockets Improvements](sockets-improvements.md)

@@ -26,7 +26,7 @@ PM> Install-Package Microsoft.EntityFrameworkCore
 
 You can also install this NuGet package by right-clicking on your project in Solution Explorer and select **Manage Nuget Packages...**. 
 
-<img src="images/overview-1.png">
+<img src="/images/overview-1.png">
 
 Search for **Microsoft.EntityFrameworkCore** and install the latest version by pressing the install button.
 
@@ -211,4 +211,4 @@ Arturo Anand
 
 You can also view the data in the database using SQLite database viewer.
 
-<img src="images/overview-2.png">
+<img src="/images/overview-2.png">

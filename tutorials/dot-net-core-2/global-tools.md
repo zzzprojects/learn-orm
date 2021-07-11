@@ -63,7 +63,7 @@ The .NET SDK doesn't add this location automatically to the PATH environment var
 
 Once installed, the tool can be run from the command line by specifying the tool name.
 
-## Tool Management with the `dotnet tool` command
+## Tool Management with the dotnet tool command
 
 In .NET Core 2.1 SDK, all tools operations use the `dotnet tool` command. The following options are available.
 

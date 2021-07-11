@@ -118,6 +118,6 @@ namespace IoCDemo
 }
 ```
 
-Its better now, but the only problem is that if you want to use the `FileLogger` or `XMLLogger` instead of `DatabaseLogger`, you could change the implementation of the `Log` method in the `CustomerService` class to meet the requirement, but that doesn’t make the design flexible. 
+Its better now, but the only problem is that if you want to use the `FileLogger` or `XMLLogger` instead of `DatabaseLogger`, you could change the implementation of the `Log` method in the `CustomerService` class to meet the requirement, but that doesn't make the design flexible. 
 
 To make the design more flexible, we will use inversion of control and dependency injection.

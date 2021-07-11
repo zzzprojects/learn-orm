@@ -1,9 +1,9 @@
 ---
 PermaID: 100013
-Name: Span\<T\> and Memory\<T\>
+Name: Span<T> and Memory<T>
 ---
 
-# Span\<T\> and Memory\<T\>
+# Span<T> and Memory<T>
 
 .NET Core 2.1 includes some new types that make working with arrays and other memory types much more efficient. The new types include:
 

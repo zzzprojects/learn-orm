@@ -72,7 +72,7 @@ Public Sub Example2()
 End Sub
 ```
 
-## ## Multiple If...Then...Else Statements
+## Multiple If...Then...Else Statements
 
 In some cases, we need to use a sequence of `If...Then` structures or multiple `If...Then...Else` statements, where the `Else` clause is a new `If` structure. 
 

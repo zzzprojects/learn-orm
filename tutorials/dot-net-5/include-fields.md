@@ -7,7 +7,7 @@ Name: Include Fields
 
 To include fields when serializing or deserializing, you can use the `JsonSerializerOptions.IncludeFields` global setting or the `[JsonInclude]` attribute. 
 
-## `JsonSerializerOptions.IncludeFields` Global Setting
+## JsonSerializerOptions.IncludeFields Global Setting
 
 Determines whether fields are handled during serialization and deserialization. The default value is `false`.
 
@@ -53,7 +53,7 @@ Address: 22 Ashdown
 Output JSON: {"Name":"Mark","Age":40,"Address":"22 Ashdown"}
 ```
 
-## `[JsonInclude]` Attribute
+## JsonInclude Attribute
 
 Indicates that the member should be included for serialization and deserialization.
 

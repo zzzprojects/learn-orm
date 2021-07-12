@@ -21,7 +21,7 @@ Below is a list of the different types of operators which are most common.
 | [Arithmetical](#arithmetical)                      | `-`, `+`, `*`, `/`, `%`, `++`, `--`                                |
 | [Logical](#logical)                            | `&&`, `\|\|`, `!`                                               |
 | [Bitwise](#bitwise)                            | `&`, `\|`, `^`, `~`, `<<`, `>>`                                     |
-| [Comparison Operators](#Comparison Operators)                      | `==`,`!=`, `>`, `<`, `>=`, `<=`                                    |
+| [Comparison Operators](#ComparisonOperators)                      | `==`,`!=`, `>`, `<`, `>=`, `<=`                                    |
 
 ### Arithmetical
 

@@ -21,7 +21,7 @@ Below is a list of the different types of operators which are most common.
 | [Arithmetical](#arithmetical)                      | `-`, `+`, `*`, `/`, `%`, `++`, `--`                                |
 | [Logical](#logical)                            | `&&`, `\|\|`, `!`                                               |
 | [Bitwise](#bitwise)                            | `&`, `\|`, `^`, `~`, `<<`, `>>`                                     |
-| [Comparison Operators](#ComparisonOperators)                      | `==`,`!=`, `>`, `<`, `>=`, `<=`                                    |
+| [Comparison](#Comparison)                      | `==`,`!=`, `>`, `<`, `>=`, `<=`                                    |
 
 ### Arithmetical
 
@@ -147,7 +147,7 @@ public static void Example3()
 }
 ```
 
-### Comparison Operators
+### Comparison
 
 Comparison operators are used to comparing two or more operands. C# supports the following comparison operators.
 

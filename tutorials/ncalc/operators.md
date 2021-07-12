@@ -18,10 +18,10 @@ Below is a list of the different types of operators which are most common.
 
 | Type                                           | Operators                                                          |
 |:-----------------------------------------------|:-------------------------------------------------------------------|
-| [Arithmetic](#arithmetic)                      | `-`, `+`, `*`, `/`, `%`, `++`, `--`                                |
+| [Arithmetical](#arithmetical)                      | `-`, `+`, `*`, `/`, `%`, `++`, `--`                                |
 | [Logical](#logical)                            | `&&`, `\|\|`, `!`                                               |
 | [Bitwise](#bitwise)                            | `&`, `\|`, `^`, `~`, `<<`, `>>`                                     |
-| [Comparison](#comparison)                      | `==`,`!=`, `>`, `<`, `>=`, `<=`                                    |
+| [Comparison Operators](#Comparison Operators)                      | `==`,`!=`, `>`, `<`, `>=`, `<=`                                    |
 
 ### Arithmetical
 

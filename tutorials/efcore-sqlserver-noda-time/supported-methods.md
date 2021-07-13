@@ -18,7 +18,7 @@ The SQL `DATEADD` function is supported for the following types.
  - LocalTime (native and some extension methods)
  - Duration (native and some extension methods)
 
-The **SimplerSoftware.EntityFrameworkCore.SqlServer.NodaTime** provides the methods which uses the `DATEADD` function.
+The **SimplerSoftware.EntityFrameworkCore.SqlServer.NodaTime** provides the following methods which uses the `DATEADD` function.
 
  - PlusYears
  - PlusMonths
@@ -28,7 +28,7 @@ The **SimplerSoftware.EntityFrameworkCore.SqlServer.NodaTime** provides the meth
  - PlusSeconds
  - PlusMilliseconds
 
-Let's consider the following simple example 
+Let's consider the following simple example. 
 
 ```csharp
 public static void Example1()

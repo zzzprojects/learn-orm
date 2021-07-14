@@ -44,7 +44,7 @@ namespace EFTriggersDemo.Models
 
 The `AuthorId` property will become the primary key column of the database table that corresponds to this class. By default, Entity Framework interprets a property that's named `Id` or `<classname>Id` as the primary key.
 
- - The `Books` property is a navigation property, navigation properties hold other entities related to this entity. 
+ - The `Books` property is a navigation property. Navigation properties hold other entities related to this entity. 
  - In this case, the `Books` property of an `Auth` entity will hold all of the `Book` entities related to that `Author` entity. 
  - In other words, if a given `Author` row in the database has two related `Book` rows, that `Author` entity's `Books` navigation property will contain those two `Book` entities.
 
@@ -82,7 +82,7 @@ The database context class provides the main functionality to coordinate Entity 
  - In your code, you can specify which entities are included in the data model. 
  - You can also customize certain Entity Framework behavior. 
 
-So let's create a folder in your project by right-clicking on your project in Solution Explorer and click **Add > New Folder**. Name the folder DAL (Data Access Layer). In that folder, create a new class file named **BookStore.cs**, and replace the following code.
+So let's create a folder in your project by right-clicking your project in Solution Explorer and clicking **Add > New Folder**. Name the folder DAL (Data Access Layer). In that folder, create a new class file named **BookStore.cs**, and replace the following code.
 
 ```csharp
 using EFTriggersDemo.Models;

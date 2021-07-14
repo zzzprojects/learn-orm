@@ -7,7 +7,7 @@ Name: Use Triggers without DbContextWithTriggers
 
 If you can't change your `DbContext` inheritance chain, you simply need to override your `SaveChanges` method and call the `SaveChangesWithTriggers` extension method.
 
-So first we need to update our context class by inheriting it from the `DbContext` class again and also override the `SaveChanges` method as shown below.
+So first, we need to update our context class by inheriting it from the `DbContext` class again and also override the `SaveChanges` method, as shown below.
 
 ```csharp
 using EFTriggersDemo.Models;

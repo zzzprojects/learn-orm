@@ -146,7 +146,7 @@ static void Main(string[] args)
 }
 ```
 
-Now when you run your application you will see the following output.
+Now when you run your application, you will see the following output.
 
 ```csharp
 Total Authors: 5

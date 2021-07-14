@@ -7,9 +7,9 @@ Name: Getting Started
 
 **EntityFrameworkCore.Exceptions.SqlServer** is a NuGet library that handles database errors easily when working with Entity Framework Core. 
 
- - When using Entity Framework Core for data access all database exceptions are wrapped in `DbUpdateException`. 
- - If you need to find whether the exception was caused by a unique constraint, the value being too long or the value missing for a required column you need to dig into the concrete DbException subclass instance and check the error code to determine the exact cause.
- - You can catch specific exceptions such as `UniqueConstraintException`, `CannotInsertNullException`, `MaxLengthExceededException`, `NumericOverflowException` or `ReferenceConstraintException` instead of generic `DbUpdateException`.
+- When using Entity Framework Core for data access all database exceptions are wrapped in `DbUpdateException`. 
+- If you need to find whether a unique constraint caused the exception, the value being too long or the value missing for a required column, you need to dig into the concrete DbException subclass instance and check the error code to determine the exact cause.
+- You can catch specific exceptions such as `UniqueConstraintException`, `CannotInsertNullException`, `MaxLengthExceededException`, `NumericOverflowException` or `ReferenceConstraintException` instead of generic `DbUpdateException`.
 
 ## Installation
 
@@ -43,7 +43,7 @@ On the **Additional Information** dialog, select the target framework and then c
 
 <img src="images/setup-5.png" alt="Console Application created">
 
-You can see a new console application project is created. Now to install an **EntityFrameworkCore.Exceptions.SqlServer**, right-click on the project in **Solution Explorer**, and select **Manage NuGet Packages...**
+You can see a new console application project is created. Now, to install an **EntityFrameworkCore.Exceptions.SqlServer**, right-click on the project in **Solution Explorer**, and select **Manage NuGet Packages...**
 
 <img src="images/setup-6.png" alt="Install EntityFrameworkCore.Exceptions.SqlServer">
 

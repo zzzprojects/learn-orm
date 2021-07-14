@@ -39,7 +39,7 @@ On the **Additional Information** dialog, select the target framework and then c
 
 <img src="images/setup-5.png" alt="Console Application created">
 
-You can see a new web application project is created. Now to install an **Moq.EntityFrameworkCore**, right-click on the project in **Solution Explorer**, and select **Manage NuGet Packages...**
+You can see a new web application project is created. Now, to install an **Moq.EntityFrameworkCore**, right-click on the project in **Solution Explorer**, and select **Manage NuGet Packages...**
 
 <img src="images/setup-6.png" alt="Install Moq.EntityFrameworkCore">
 

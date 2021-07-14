@@ -5,7 +5,7 @@ Name: Getting Started
 
 # Getting Started
 
-**EntityFrameworkCore.Triggers** is a NuGet library that adds triggers to your entities with insert, update, and delete events. It provides three events for each database operation: before, after, and upon failure.
+**EntityFrameworkCore.Triggers** is a NuGet library that adds triggers to your entities with insert, update and delete events. It provides three events for each database operation: before, after, and upon failure.
 
 ## Installation
 
@@ -39,7 +39,7 @@ On the **Additional Information** dialog, select the target framework and then c
 
 <img src="images/setup-5.png" alt="Console Application created">
 
-You can see a new web application project is created. Now to install an **EntityFrameworkCore.Triggers**, right-click on the project in **Solution Explorer**, and select **Manage NuGet Packages...**
+You can see a new web application project is created. Now, to install an **EntityFrameworkCore.Triggers**, right-click on the project in **Solution Explorer**, and select **Manage NuGet Packages...**
 
 <img src="images/setup-6.png" alt="Install EntityFrameworkCore.Triggers">
 

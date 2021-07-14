@@ -20,7 +20,7 @@ public class BookStore : SoftDeletes.Core.DbContext
 }
 ```
 
-In entities you want to add soft delete support, implement `SoftDeletes.ModelTools.ISoftDelete` or `ModelExtenstion` abstract class that implements `ITimestamps` and `ISoftDelete` interfaces.
+In entities, you want to add soft delete support, implement `SoftDeletes.ModelTools.ISoftDelete` or `ModelExtenstion` abstract class that implements `ITimestamps` and `ISoftDelete` interfaces.
 
 So let's inherit both `Author` and `Book` entities from `ModelExtenstion` abstract class and implement the `abstract` methods.
 
@@ -95,11 +95,11 @@ public class Book : ModelExtension
 }
 ```
 
-It will add column named `DeletedAt` to your entity so you need to add a migration and update the database tables or delete the database and create a new one.
+It will add a column named `DeletedAt` to your entity. You need to add a migration and update the database tables or delete the database and create a new one.
 
  - In `LoadRelationsAsync` and `LoadRelations` methods, load relations you want to delete in soft deleting the entity. 
  - in `OnSoftDeleteAsync` and `OnSoftDelete` methods, delete relations you want to delete in soft deleting the entity.
- - For soft deleting an entity use `Remove` and `RemoveAsync` methods. 
+ - For soft deleting an entity, use `Remove` and `RemoveAsync` methods. 
  - These methods will soft delete an `ISoftDelete` implemented entity and force delete an not implemented entity.
  - For force deleting any entity use `ForceRemove` method.
 

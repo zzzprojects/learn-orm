@@ -7,7 +7,7 @@ Name: Use Triggers
 
 To use triggers on your entities, the simple way is to inherit your context class from `DbContextWithTriggers`.
 
-So first we need to update our context class by inheriting it from the `DbContextWithTriggers` class as shown below.
+So first, we need to update our context class by inheriting it from the `DbContextWithTriggers` class, as shown below.
 
 ```csharp
 using EFTriggersDemo.Models;
@@ -31,7 +31,7 @@ namespace EFTriggersDemo.DAL
 }
 ```
 
-Let's define an abstract class that contains two properties and we will also enable automatic insert and update stamps for any entity that inherits this class.
+Let's define an abstract class that contains two properties, and we will also enable automatic insert and update stamps for any entity that inherits this class.
 
 ```csharp
 using EntityFrameworkCore.Triggers;

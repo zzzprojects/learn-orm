@@ -23,7 +23,7 @@ using (var context = new BookStore())
 }
 ```
 
-When you call the `context.GetOriginal(author).Name`, you will get the previous value which is replaced with the new value. Let's execute the above code and you will see the following output.
+When you call the `context.GetOriginal(author).Name`, you will get the previous value which is replaced with the new value. Let's execute the above code, and you will see the following output.
 
 ```csharp
 "Yan Li" is replaced with "Mark Upston"

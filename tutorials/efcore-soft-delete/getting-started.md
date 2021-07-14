@@ -5,7 +5,7 @@ Name: Getting Started
 
 # Getting Started
 
-**EFCore.SoftDelete** is a NuGet library that provides simple implementation for soft deleting entities that you can add to your project and soft delete entities that you want to soft delete and handle related data to soft delete or force deleted from the database.
+**EFCore.SoftDelete** is a NuGet library that provides simple implementation for soft deleting entities to add to your project and soft delete entities that you want to soft delete and handle related data to soft delete or force deleted from the database.
 
 ## Installation
 
@@ -17,7 +17,7 @@ PM> Install-Package EFCore.SoftDelete
 
 ## Environment Setup
 
-To start using the **EFCore.SoftDelete** in your application, you will need to install the [EFCore.SoftDelete](https://www.nuget.org/packages/EFCore.SoftDelete) NuGet package.
+To start using the **EFCore.SoftDelete** in your application. You will need to install the [EFCore.SoftDelete](https://www.nuget.org/packages/EFCore.SoftDelete) NuGet package.
 
 Let's open the Visual Studio and create a new project.
 
@@ -39,7 +39,7 @@ On the **Additional Information** dialog, select the target framework and then c
 
 <img src="images/setup-5.png" alt="Console Application created">
 
-You can see a new console application project is created. Now to install an **EFCore.SoftDelete**, right-click on the project in **Solution Explorer**, and select **Manage NuGet Packages...**
+You can see a new console application project is created. Now, to install an **EFCore.SoftDelete**, right-click on the project in **Solution Explorer**, and select **Manage NuGet Packages...**
 
 <img src="images/setup-6.png" alt="Install EFCore.SoftDelete">
 

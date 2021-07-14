@@ -10,7 +10,7 @@ Name: Exceptions Handling
  - You have to configure the `DbContext` by calling `UseExceptionProcessor` in the `OnConfiguring` method and handle the exceptions. 
  - You can use `UniqueConstraintException`, `CannotInsertNullException`, `MaxLengthExceededException`, `NumericOverflowException`, `ReferenceConstraintException` as per your requirement.
 
-So first we need to update our context class as shown below.
+So first, we need to update our context class, as shown below.
 
 ```csharp
 public class BookStore : DbContext
@@ -33,7 +33,7 @@ public class BookStore : DbContext
 }
 ```
 
-You will now start getting a different exception for the different database errors. Let's consider the following example when a unique constraint fails you will get the `UniqueConstraintException` exception as shown below.
+You will now start getting a different exception for the different database errors. Let's consider the following example when a unique constraint fails, you will get the `UniqueConstraintException` exception as shown below.
 
 ```csharp
 using (BookStore context = new BookStore())
@@ -56,7 +56,7 @@ using (BookStore context = new BookStore())
 }
 ```
 
-When you execute the above code you will see the following output.
+When you execute the above code, you will see the following output.
 
 ```csharp
 Unique constraint violation
@@ -81,7 +81,7 @@ using (BookStore context = new BookStore())
 }
 ```
 
-When you execute the above code you will see the following output.
+When you execute the above code, you will see the following output.
 
 ```csharp
 Cannot insert null

@@ -1,13 +1,13 @@
 ---
 PermaID: 100003
-Name: Use MockQueryable.Moq
+Name: Use MockQueryable.NSubstitute
 ---
 
-# Use MockQueryable.Moq
+# Use MockQueryable.NSubstitute
 
 A `DbSet` represents the collection of all entities in the context, or that can be queried from the database, of a given type. `DbSet` objects are created from a `DbContext` using the `DbContext.Set` method.
 
-The **MockQueryable.Moq** provides `BuildMockDbSet` extension method that creates a mock of type `DbSet`.
+The **MockQueryable.NSubstitute** provides `BuildMockDbSet` extension method that creates a mock of type `DbSet`.
 
 Let's consider the following simple example where will moq the `DbSet` as shown below.
 

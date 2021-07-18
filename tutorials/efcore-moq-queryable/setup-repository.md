@@ -1,17 +1,25 @@
 ---
 PermaID: 100002
-Name: Setup Moq
+Name: Setup Repository
 ---
 
-# Setup Moq
+# Setup Repository
 
-In this tutorial, we will be using **Moq**, so the first step is to install [MockQueryable.Moq](https://www.nuget.org/packages/MockQueryable.Moq) from the package manager console.
+With **MockQueryable.EntityFrameworkCore**, you can use any of the following packages. 
+
+ - [MockQueryable.Moq](https://www.nuget.org/packages/MockQueryable.Moq) 
+ - [MockQueryable.NSubstitute](https://www.nuget.org/packages/MockQueryable.NSubstitute)
+ - [MockQueryable.FakeItEasy](https://www.nuget.org/packages/MockQueryable.FakeItEasy)
+
+So let's install the following packages from the package manager console.
 
 ```csharp
 PM> Install-Package MockQueryable.Moq
+PM> Install-Package MockQueryable.NSubstitute
+PM> Install-Package MockQueryable.FakeItEasy
 ```
 
-Once it is installed, let's create an author repository interface.
+Once these packages are installed, let's create an author repository interface.
 
 ```csharp
 public interface IAuthorRepository

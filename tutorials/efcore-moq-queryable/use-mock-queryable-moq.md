@@ -1,9 +1,9 @@
 ---
 PermaID: 100003
-Name: Use DbSet
+Name: Use MockQueryable.Moq
 ---
 
-# Use DbSet
+# Use MockQueryable.Moq
 
 A `DbSet` represents the collection of all entities in the context, or that can be queried from the database, of a given type. `DbSet` objects are created from a `DbContext` using the `DbContext.Set` method.
 

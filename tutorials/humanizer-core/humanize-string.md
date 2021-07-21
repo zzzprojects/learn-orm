@@ -1,13 +1,13 @@
 ---
 PermaID: 100001
-Name: Humanize Method
+Name: Humanize String
 ---
 
-# Humanize Method
+# Humanize String
 
 **Humanizer.Core** provides a `Humanize()` string extension method that convert a computerized string into a more readable human-friendly strings.
 
-Let's consider the following simple which contains different strings.
+Let's consider the following simple example which contains different strings and it will convert it to the readable human-friendly strings.
 
 ```csharp
 public static void Example1()

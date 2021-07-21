@@ -1,3 +1,4 @@
 - [Getting Started](getting-started.md)
-- [Humanize Method](humanize-method.md)
+- [Humanize String](humanize-string.md)
+- [Transform Method](transform-method.md)
 

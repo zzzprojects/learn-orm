@@ -7,7 +7,7 @@ Name: Inflector Methods
 
 ## Pluralize
 
-**Humanizer.Core** provides a `Pluralize()` extension method that pluralizes the provided input while taking irregular and uncountable words into consideration. 
+**Humanizer.Core** provides a `Pluralize()` extension method that pluralizes the provided input while considering irregular and uncountable words. 
 
 ```csharp
 public static void Example1()
@@ -38,7 +38,7 @@ Case => Cases
 
 ## Singularize
 
-**Humanizer.Core** provides a `Singularize()` extension method that singularizes the provided input while taking irregular and uncountable words into consideration.
+**Humanizer.Core** provides a `Singularize()` extension method that singularizes the provided input while considering irregular and uncountable words.
 
 ```csharp
 public static void Example2()
@@ -98,4 +98,26 @@ Let's execute the above example and you will see the following output.
 12 apples
 3 mangos
 1 Building
+```
+
+It also allows you to pass a second argument to the `ToQuantity` to specify how you want the provided quantity to be outputted. The default value is `ShowQuantityAs.Numeric` which is what we saw above. The other two values are `ShowQuantityAs.Words` and `ShowQuantityAs.None`.
+
+```csharp
+public static void Example4()
+{
+    Console.WriteLine("factory".ToQuantity(5, ShowQuantityAs.Words));
+    Console.WriteLine("man".ToQuantity(1, ShowQuantityAs.Words));
+    Console.WriteLine("man".ToQuantity(3, ShowQuantityAs.None));
+    Console.WriteLine("mangos".ToQuantity(3, ShowQuantityAs.Words));
+}
+```
+
+
+Let's execute the above example and you will see the following output.
+
+```csharp
+five factories
+one man
+men
+three mangos
 ```

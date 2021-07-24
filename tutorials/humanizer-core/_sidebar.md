@@ -5,4 +5,5 @@
 - [Humanize DateTime](humanize-date-time.md)
 - [Humanize TimeSpan](humanize-time-span.md)
 - [Humanize Collections](humanize-collections.md)
+- [Inflector Methods](inflector-methods.md)
 

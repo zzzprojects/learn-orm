@@ -4,4 +4,5 @@
 - [Humanize Enums](humanize-enums.md)
 - [Humanize DateTime](humanize-date-time.md)
 - [Humanize TimeSpan](humanize-time-span.md)
+- [Humanize Collections](humanize-collections.md)
 

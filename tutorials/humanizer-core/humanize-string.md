@@ -5,9 +5,9 @@ Name: Humanize String
 
 # Humanize String
 
-**Humanizer.Core** provides a `Humanize()` string extension method that convert a computerized string into a more readable human-friendly strings.
+**Humanizer.Core** provides a `Humanize()` string extension method that converts a computerized string into more readable human-friendly strings.
 
-Let's consider the following simple example which contains different strings and it will convert it to the readable human-friendly strings.
+Let's consider the following simple example which contains different strings and it will convert it to readable human-friendly strings.
 
 ```csharp
 public static void Example1()
@@ -59,7 +59,7 @@ MYTESTSTRING
 MY TEST STRING
 ```
 
-You may also specify the desired letter casing by passing any of the following enum values as parameter to the `Humanize()`  method.
+You may also specify the desired letter casing by passing any of the following enum values as a parameter to the `Humanize()`  method.
 
 ```csharp
 public enum LetterCasing
@@ -71,7 +71,7 @@ public enum LetterCasing
 }
 ``` 
 
-The following example convert the string various casing.
+The following example converts the string to the various casing as specified as a parameter.
 
 ```csharp
 public static void Example3()

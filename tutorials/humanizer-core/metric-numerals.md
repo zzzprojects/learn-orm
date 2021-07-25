@@ -42,7 +42,7 @@ public static void Example3()
 }
 ```
 
-Let's execute the above example and you will see the following output
+Let's execute the above example and you will see the following output.
 
 ```csharp
 1000:    1k

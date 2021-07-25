@@ -9,4 +9,4 @@
 - [Fluent Date](fluent-date.md)
 - [Convert Numbers](convert-numbers.md)
 - [Roman Numerals](roman-numerals.md)
-
+- [Metric Numerals](metric-numerals.md)

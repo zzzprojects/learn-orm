@@ -11,3 +11,5 @@
 - [Roman Numerals](roman-numerals.md)
 - [Metric Numerals](metric-numerals.md)
 - [ByteSize](byte-size.md)
+- [Parse to ByteSize](parse-to-byte-size.md)
+

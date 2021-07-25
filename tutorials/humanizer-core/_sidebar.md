@@ -12,4 +12,4 @@
 - [Metric Numerals](metric-numerals.md)
 - [ByteSize](byte-size.md)
 - [Parse to ByteSize](parse-to-byte-size.md)
-
+- [ByteRate](byte-rate.md)

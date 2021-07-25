@@ -7,4 +7,5 @@
 - [Humanize Collections](humanize-collections.md)
 - [Inflector Methods](inflector-methods.md)
 - [Fluent Date](fluent-date.md)
+- [Convert Numbers](convert-numbers.md)
 

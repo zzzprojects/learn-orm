@@ -5,7 +5,7 @@ Name: Parse to ByteSize
 
 # Parse to ByteSize
 
-**Humanizer.Core**  to turn a string representation back into a ByteSize instance, but you can use Parse and TryParse on ByteSize to do that. Like other TryParse methods, ByteSize.TryParse returns a boolean value indicating whether or not the parsing was successful. If the value is parsed it is output to the out parameter supplied:
+**Humanizer.Core** to turn a string representation back into a ByteSize instance, but you can use Parse and TryParse on ByteSize to do that. Like other TryParse methods, ByteSize.TryParse returns a boolean value indicating whether or not the parsing was successful. If the value is parsed it is output to the out parameter supplied:
 
 ```csharp
 public static void Example1()

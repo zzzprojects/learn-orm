@@ -25,7 +25,7 @@ You can easily install it from the **Package Manager Console** window by running
 ```csharp
 PM> Install-Package CsvHelper
 ```
-
+ 
 ## Environment Setup
 
 To start using the **CsvHelper** in your application, you will need to install the [CsvHelper](https://www.nuget.org/packages/CsvHelper) NuGet package.

@@ -7,7 +7,7 @@ Name: Getting Started
 
 When Entity Framework 6.1 was released, store functions such as, TVFs and Stored Procedures were only supported in Database First.
 
-**Detached.Mappers.EntityFramework** is a NuGet library that supports store functions like table valued functions, scalar user defined functions and stored procedures for Entity Framework Code First.
+**EntityFramework.CodeFirstStoreFunctions** is a NuGet library that supports store functions like table valued functions, scalar user defined functions and stored procedures for Entity Framework Code First.
 
 ## Installation
 
@@ -29,7 +29,7 @@ Select the **Create a new project** option.
 
 <img src="images/setup-2.png" alt="Select Console Application template">
 
-Choose **C#** as language, **Windows** as a platform, and **Console** as the project type. In the template pane, select **Console Application** and click the **Next** button.
+Choose **C#** as language, **Windows** as a platform, and **Console** as the project type. In the template pane, select **Console App (.NET Framework)** and click the **Next** button.
 
 <img src="images/setup-3.png" alt="Configure your new project">
 

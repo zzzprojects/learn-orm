@@ -26,6 +26,8 @@ The following are the requirements for methods mapped to table-valued functions.
  - Decorate the methods with `DbFunctionAttribute` where the first argument is typically your `DbContext` and the second argument is the function name.
  - Make sure the name of the method, the value of the `DbFunction.FunctionName`, and the queryString name passed to the `CreateQuery` call must all be the same.
 
+So, let's add the following method to your context class which is mapped to the TVF.
+
 ```csharp
 [DbFunction("BookStore", "AuthorsByCountry")]
 public IQueryable<Author> AuthorsByCountry(string country)
@@ -124,7 +126,7 @@ public class BookStoreInitializer : DropCreateDatabaseAlways<BookStore>
 }
 ```
 
-The following example retrieves all the authors from the UK using TVF.
+The following example retrieves all the authors from the "UK" using TVF.
 
 ```csharp
 public static void Example1()

@@ -72,7 +72,7 @@ So let's create a folder in your project by right-clicking your project in Solut
   ```csharp
 public class BookStore : DbContext
 {
-    public BookStore() : base(@"Data Source=(localdb)\ProjectsV13;Initial Catalog=BookStoreDb;")
+    public BookStore()
     {
         Database.SetInitializer(new BookStoreInitializer());
     }

@@ -16,6 +16,19 @@ Microsoft Excel is a very useful tool in the business world, and powering every 
  - It works cross-platform and is extremely efficient, flexible, and very easy to use. 
  - It also supports Excel concepts like formulas, formatting, and sheets.
 
+### Features
+
+ - Allow you to read and efficiently write Excel files.
+ - You can map Excel files using header rows such as column names or it also allows you to use column indexes.
+ - It supports nested (parent/child) objects
+ - It also allows preserving formatting when saving backfiles
+ - It tracks the objects by using the mapper
+ - You can also map columns to properties using attributes or method calls.
+ - It allows you to use custom data formats for numeric and DateTime columns
+ - You can also map formulas or formula results depending on property type
+ - It also supports mapping to JSON
+ - You can also use dynamic objects to read or write data to/from an excel file.
+
 ## Installation
 
 You can easily install it from the **Package Manager Console** window by running the following command.

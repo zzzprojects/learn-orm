@@ -3,4 +3,4 @@
 - [Map Column Name With Different Property Name](map-column-name-with-different-property-name.md)
 - [Write Data to Excel File](write-data-to-excel-file.md)
 - [Mapping Using Column Indexes](mapping-using-column-indexes.md)
-
+- [Mapping Using Method](mapping-using-method.md)

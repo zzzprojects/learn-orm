@@ -9,7 +9,7 @@ When you are reading and writing excel files or communicating with databases or 
 
 So as an example let's consider the following excel file which contains books related data.
 
-<img src="images/excel-1.png" alt="data in excel file">
+<img src="images/excel-2.png" alt="data in excel file">
 
 Now you can see that we have the following class defined to load the above data.
 

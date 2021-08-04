@@ -4,3 +4,4 @@
 - [Write Data to Excel File](write-data-to-excel-file.md)
 - [Mapping Using Column Indexes](mapping-using-column-indexes.md)
 - [Mapping Using Method](mapping-using-method.md)
+- [Read Formulas](read-formulas.md)

@@ -27,6 +27,18 @@ public static void Example1()
         Console.WriteLine("Id: {0}, Name: {1}, Country: {2}", item.Author.AuthorId, item.Author.Name, item.Author.Country);
     }
 }
+
+class AuthorJson
+{
+    public Author Author { get; set; }
+}
+
+public class Author
+{
+    public int AuthorId { get; set; }
+    public string Name { get; set; }
+    public string Country { get; set; }
+}
 ```
  
 Let's execute the above code and you will see the following output.

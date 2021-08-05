@@ -6,3 +6,4 @@
 - [Mapping Using Method](mapping-using-method.md)
 - [Read Formulas](read-formulas.md)
 - [Map Header Row](map-header-row.md)
+- [JSON Format](json-format.md)

@@ -9,7 +9,7 @@ Most of the time you will see that some formulas are used inside an excel file, 
 
 Let's consider the following simple which contains different arithmetic operations and in the `Result` column the formulas are used
 
-<img src="images/excel-6.png" alt="books data in excel file"> 
+<img src="images/excel-6.png" alt="arithmetic operations data in excel file"> 
 
 The following example reads all the data from the excel file including the columns containing formulas.
 

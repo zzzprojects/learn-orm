@@ -7,6 +7,16 @@ Name: Getting Started
 
 **PdfPig** is a NuGet library that allows users to read and extract text and other content from PDF files. It also helps you to create simple PDF documents containing text and geometrical shapes.
 
+## Features
+
+ - Extracts the position and size of letters from any PDF document. This enables access to the text and words in a PDF document.
+ - Allows the user to retrieve images from the PDF document.
+ - Allows the user to read PDF annotations, PDF forms, embedded documents, and hyperlinks from a PDF.
+ - Provides access to metadata in the document.
+ - Exposes the internal structure of the PDF document.
+ - Creates PDF documents containing text and path operations.
+ - Read content from encrypted files by providing the password.
+
 ## Installation
 
 You can easily install it from the **Package Manager Console** window by running the following command.

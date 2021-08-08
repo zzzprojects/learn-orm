@@ -1,4 +1,2 @@
 - [Getting Started](getting-started.md)
-- [Database Setup](database-setup.md)
-- [Support for Table-Valued Functions](support-for-table-valued-functions.md)
-- [Support for Stored Procedures](support-for-stored-procedures.md)
+

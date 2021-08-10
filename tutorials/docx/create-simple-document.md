@@ -38,7 +38,7 @@ As you can see that the document is created by calling the `DocX.Create` method.
 
 When you execute the above example, you will see that the word document is created that contains the following data.
 
-<img src="images/word-1.png" alt="data written in pdf file">
+<img src="images/word-1.png" alt="data written in word file">
 
 The output is a 1-page word document with the text "This is a sample text paragraph." in **Arial Black** font.
 

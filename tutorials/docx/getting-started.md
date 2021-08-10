@@ -43,24 +43,20 @@ Select the **Create a new project** option.
 
 <img src="images/setup-2.png" alt="Select Console Application template">
 
-Choose **C#** as language, **Windows** as a platform, and **Console** as the project type. In the template pane, select **Console Application** and click the **Next** button.
+Choose **C#** as language, **Windows** as a platform, and **Console** as the project type. In the template pane, select **Console App (.NET Framework)** and click the **Next** button.
 
 <img src="images/setup-3.png" alt="Configure your new project">
 
 Enter the project name, you can change the location and solution name, but we will leave it and click on the **Next** button.  
 
-<img src="images/setup-4.png" alt="Additional Information">
+<img src="images/setup-4.png" alt="Console Application created">
 
-On the **Additional Information** dialog, select the target framework and then click on the **Create** button.  
+You can see a new web application project is created. Now to install an **DocX**, right-click on the project in **Solution Explorer**, and select **Manage NuGet Packages...**
 
-<img src="images/setup-5.png" alt="Console Application created">
-
-You can see a new console application project is created. Now, to install a **DocX**, right-click on the project in **Solution Explorer**, and select **Manage NuGet Packages...**
-
-<img src="images/setup-6.png" alt="Install DocX">
+<img src="images/setup-5.png" alt="Install DocX">
 
 Select the **Browse** tab and search for **DocX** and install the latest version by pressing the **Install** button. 
 
-<img src="images/setup-7.png" alt="DocX installed successfully">
+<img src="images/setup-6.png" alt="DocX installed successfully">
 
 Once **DocX** has been successfully installed. You are now ready to start your application.

@@ -5,14 +5,14 @@ Name: Append Document
 
 # Append Document
 
-In most software applications sometimes you need to export a report with word or any other format and you may also need to merge multiple exported documents into a single document as per requirements.
+In most software applications sometimes you need to export a report with the word or any other format and you may also need to merge multiple exported documents into a single document as per requirements.
 
  - To merge word documents, you need to collect contents from several documents and then put them into one. 
- - You will also need to put these documents in particular order to merge them according to contents of documents. 
+ - You will also need to put these documents in particular order to merge them according to the contents of the documents. 
 
-**DocX** provides a easy and efficient way to merge two or more existing word documents.
+**DocX** provides an easy and efficient way to merge two or more existing word documents.
 
-Let's consider we have two word documents and we need to merge them into a single word document.
+Let's consider we have two documents and we need to merge them into a single word document.
 
 ```csharp
 public static void Example1()
@@ -39,7 +39,7 @@ public static void Example1()
 
 As you can see in the above example, first it will load **one.docx** and then load **two.docx**
 
-The second parameter of `InsertDocument()` specifies where to add the document content. When `true`, document is added at the end and when `false`, document is added at beginning.
+The second parameter of `InsertDocument()` specifies where to add the document content. When `true`, the document is added at the end, and when `false`, the document is added at the beginning.
 
 Now when you execute the above example, you will see that the new word document is created that contains the data of both word documents.
 

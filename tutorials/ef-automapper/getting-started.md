@@ -41,10 +41,10 @@ Enter the project name, you can change the location and solution name, but we wi
 
 You can see a new web application project is created. Now to install an **AutoMapper.EF6**, right-click on the project in **Solution Explorer**, and select **Manage NuGet Packages...**
 
-<img src="images/setup-6.png" alt="Install AutoMapper.EF6">
+<img src="images/setup-5.png" alt="Install AutoMapper.EF6">
 
 Select the **Browse** tab and search for **AutoMapper.EF6** and install the latest version by pressing the **Install** button. 
 
-<img src="images/setup-7.png" alt="AutoMapper.EF6 installed successfully">
+<img src="images/setup-6.png" alt="AutoMapper.EF6 installed successfully">
 
 Once **AutoMapper.EF6** has been successfully installed. You are now ready to start your application.

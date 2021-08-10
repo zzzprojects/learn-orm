@@ -19,7 +19,10 @@ public static void Example1()
     using (var doc = DocX.Load(@"D:\my_word_document.docx"))
     {
         // Add a title
-        doc.InsertParagraph(0, "Load Document with File name", false).FontSize(15d).SpacingAfter(50d).Alignment = Alignment.center;
+        var t = doc.InsertParagraph(0, "Load Document with File name", false);
+        t.FontSize(15d);
+        t.SpacingAfter(50d);
+        t.Alignment = Alignment.center;
 
         // Insert a Paragraph into this document.
         var p = doc.InsertParagraph();
@@ -46,7 +49,10 @@ public static void Example2()
     using (var doc = DocX.Load(@"D:\my_word_document.docx"))
     {
         // Add a title
-        doc.InsertParagraph(0, "Load Document with File name", false).FontSize(15d).SpacingAfter(50d).Alignment = Alignment.center;
+        var t = doc.InsertParagraph(0, "Load Document with File name", false);
+        t.FontSize(15d);
+        t.SpacingAfter(50d);
+        t.Alignment = Alignment.center;
 
         // Insert a Paragraph into this document.
         var p = doc.InsertParagraph();

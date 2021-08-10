@@ -5,7 +5,7 @@ Name: Modify Document
 
 # Modify Document
 
-When you are working with word files, you will not be creating new documents all the time. Sometimes, you will also need to edit the existing documents. **DocX** provides easy way to open the existing document and add changes to your document as needed.
+When you are working with word files, you will not be creating new documents all the time. Sometimes, you will also need to edit the existing documents. **DocX** provides an easy way to open the existing document and add changes to your document as needed.
 
 Let's consider the following word document which we have created in the previous article.
 
@@ -32,7 +32,7 @@ public static void Example1()
 }
 ```
 
-In the above example, you will see that we have called `SaveAs()` method which save the changes to the new file.
+In the above example, you will see that we have called the `SaveAs()` method which saves the changes to the new file.
 
 When you execute the above example, you will see that the new word document is created that contains the following data.
 

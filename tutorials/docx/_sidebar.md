@@ -2,3 +2,5 @@
 - [Create Simple Document](create-simple-document.md)
 - [Modify Document](modify-document.md)
 - [Append Documents](append-documents.md)
+- [Use Template](use-template.md)
+

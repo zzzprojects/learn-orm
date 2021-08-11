@@ -3,4 +3,4 @@
 - [Modify Document](modify-document.md)
 - [Append Documents](append-documents.md)
 - [Use Template](use-template.md)
-
+- [Working with Headers and Footers](working-with-headers-and-footers.md)

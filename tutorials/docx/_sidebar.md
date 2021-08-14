@@ -6,3 +6,4 @@
 - [Working with Headers and Footers](working-with-headers-and-footers.md)
 - [Add Charts](add-charts.md)
 - [Working with Lists](working-with-lists.md)
+- [Insert Line](insert-line.md)

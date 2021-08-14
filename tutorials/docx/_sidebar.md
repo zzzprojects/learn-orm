@@ -7,3 +7,4 @@
 - [Add Charts](add-charts.md)
 - [Working with Lists](working-with-lists.md)
 - [Insert Line](insert-line.md)
+- [Modify Multiple Documents in Parallel](modify-multiple-documents-in-parallel.md)

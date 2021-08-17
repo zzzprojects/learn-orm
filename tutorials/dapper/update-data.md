@@ -7,6 +7,8 @@ Name: Update Data
 
 Updating an existing entity is similar to inserting a new one. All we need is a SQL statement containing an `UPDATE` statement that sets the appropriate columns. We also want to make sure we include a `WHERE` clause limiting the update only to the row with the specified `Id`.
 
+**Dapper** provides an `Execute` extension method that allows you to update a record. 
+
 You can easily update a single row by writing an `UPDATE` statement with parameters for each column you want to update.
 
 ```csharp
@@ -21,9 +23,9 @@ private static void UpdateSingleBook()
 }
 ```
 
-It a simple SQL `UPDATE` statement on the `Books` table. There are the columns and their values corresponding to parameters. 
+It is a simple SQL `UPDATE` statement on the `Books` table. There are the columns and their values corresponding to parameters. 
 
-The `Execute` extension method of Dapper is used to update a record. You can also use the `Execute` method to update multiple books.
+You can also use the `Execute` method to update multiple books.
 
 ```csharp
 private static void UpdateMultipleBooks()
@@ -43,7 +45,7 @@ private static void UpdateMultipleBooks()
 }
 ```
 
-If you retrieve all the books from the database, you will see that the above mentioned books are updated.
+If you retrieve all the books from the database, you will see that the above-mentioned books are updated.
 
 ```csharp
 private static void GetAllBooks()

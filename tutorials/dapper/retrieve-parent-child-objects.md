@@ -5,26 +5,29 @@ Name: Retrieve Parent-Child Objects
 
 # Retrieve Parent-Child Objects
 
-So far, we have performed operations on a single row. But what if we need to deal with more complex objects that have parent-child relationships. Let's consider our example. We have a one-to-many relationship between an `Author` and `Book`.  A single author can have many books. 
+So far, we have performed operations on a single row. But what if we need to deal with more complex objects that have parent-child relationships. Let's consider we have a simple database that contains the following tables. 
+
+<img src="images/database-setup.png" alt="Database Setup">
+
+As you can see that there is a one-to-many relationship between an `Author` and `Book` tables.  A single author can have many books. 
 
 If you look at the `Author`, you can see a list of books. 
 
 ```csharp
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DapperDemo
+class Author
 {
-    class Author
-    {
-        public int Id { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public List<Book> Books { get; set; }
-    }
+    public int Id { get; set; }
+    public string FirstName { get; set; }
+    public string LastName { get; set; }
+    public List<Book> Books { get; set; }
+}
+
+class Book
+{
+    public int Id { get; set; }
+    public string Title { get; set; }
+    public string Category { get; set; }
+    public int AuthorId { get; set; }
 }
 ```
 
@@ -66,7 +69,7 @@ private static void GetAuthorAndTheirBooks(int id)
 }
 ```
 
-You can see that first, we have specified two different SELECT statements, the first one for the individual author and the second one for the author's books. 
+You can see that first, we have specified two different `SELECT` statements, the first one for the individual author and the second one for the author's books. 
 
  - The `QueryMultiple` is an extension method that returns multiple result sets in the query results of type `GridReader`. 
  - Then we simply need to call the `Read` method on that object multiple times to get the author record and then for books. 

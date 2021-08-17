@@ -7,8 +7,9 @@ Name: Insert Data
 
 Inserting data into the database is one of the CRUD operations that act on an individual row by inserting a row. There are various ways to insert new records into the database using Dapper ORM.
 
-You can easily insert a single new record by writing an `INSERT` statement with parameters for each column you want to set.
+**Dapper** provides an `Execute` extension method that allows you to insert a record. 
 
+You can easily insert a single new record by writing an `INSERT` statement with parameters for each column you want to set.
 
 ```csharp
 private static void InsertSingleAuthor()
@@ -28,9 +29,9 @@ private static void InsertSingleAuthor()
 }
 ```
 
-It a simple SQL insert statement on the `Authors` table. There are the columns and their values corresponding to parameters. 
+It is a simple SQL insert statement on the `Authors` table. There are columns and their values corresponding to parameters. 
 
-The `Execute` extension method of Dapper is used to insert a record. You can also use the `Execute` method to insert multiple authors.
+You can also use the `Execute` method to insert multiple authors.
 
 ```csharp
 private static void InsertMultipleAuthors()

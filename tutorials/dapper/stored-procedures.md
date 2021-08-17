@@ -5,7 +5,9 @@ Name: Stored Procedures
 
 # Stored Procedures
 
-So far, we have specified all of our SQL in code. But what if you want to use stored procedures for your data access layer? That is perfectly fine, and Dapper can work seamlessly with stored procedures. 
+So far, we have specified all of our SQL in code. But what if you want to use stored procedures for your data access layer? That is perfectly fine, and **Dapper** can work seamlessly with stored procedures. 
+
+A stored procedure is a prepared SQL code that you can save, so the code can be reused over and over again.
 
 Let's consider the following stored procedure.
 

@@ -7,7 +7,7 @@ Name: Delete Data
 
 Deleting an entity is the easiest because it only requires a unique `Id` to identify the entity being deleted. The **Dapper.Contrib** library provides `Delete` and `DeleteAll` extension methods to delete existing data from the database.
 
-The following example deletes a single new record using the `Delete` method.
+The following example deletes a single record using the `Delete` method.
 
 ```csharp
 private static void DeleteSingleBook()
@@ -37,7 +37,7 @@ private static void DeleteMultipleBooks()
 }
 ```
 
-If you retrieve all the books from the database, you will see that the above records are no longer available.
+If you retrieve all the books from the database, you will see that the above records of specified ids are no longer available.
 
 ```csharp
 private static void GetAllBooks()
@@ -65,7 +65,7 @@ Title: Trigonometry Basics       Category: Education
 Title: Rich Dad, Poor Dad        Category: Economics
 ```
 
-If you want to delete all the records from a particular table, you can use the `DeleteAll` methods.
+If you want to delete all the records from a particular table, you can use the `DeleteAll` method.
 
 ```csharp
 private static void DeleteAllBooks()

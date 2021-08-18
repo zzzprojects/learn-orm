@@ -5,7 +5,9 @@ Name: Read Data
 
 # Read Data
 
-Most of the applications would perform the basic operation to retrieve data from the database and display the results. We have two tables in the database that contains the following data.
+Most of the applications would perform the basic operation to retrieve data from the database and display the results. The **Dapper.Contrib** library provides `Get<T>(id)` and `GetAll<T>()` extension methods to retrieve data from the database and populate data in your object model.
+
+We have two tables in the database that contains the following data.
 
 <img src="images/database-setup.png" alt="Database data">
 
@@ -27,11 +29,9 @@ namespace DapperContribDemo
         public int Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        //public List<Book> Books { get; set; }
+        //public List<Book> Books { get; set; }p
     }
-
 }
-
 ```
 
 The following is the implementation of the `Book` class.
@@ -61,8 +61,6 @@ In the `Program` class, define the static variable, which contains the connectio
 static string ConnectionString = @"Data Source=(localdb)\ProjectsV13;Initial Catalog=BookStoreContext;Integrated Security=True;";
 ```
 
-The **Dapper.Contrib** library provides `Get<T>(id)` and `GetAll<T>()` extension methods to retrieve data from the database and populate data in your object model.
-
 The following example retrieves all the authors from the database using the `GetAll<T>()` method.
 
 ```csharp
@@ -80,7 +78,7 @@ private static void GetAllAuthors()
 }
 ```
 
-If you want to retrieve any specific record from the database, you can use the `Get` method and pass the id as an argument.
+If you want to retrieve any specific record from the database, you can use the `Get` method and pass the `id` as an argument.
 
 ```csharp
 private static void GetAuthor(int id)

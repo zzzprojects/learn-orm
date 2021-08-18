@@ -5,9 +5,9 @@ Name: Multi Mapping
 
 # Multi Mapping
 
-In Dapper, multi mapping is a useful feature that you can use when you have a one-to-one or one-to-many relationship between objects, and you want to load all objects with a single query eagerly. 
+In Dapper, multi-mapping is a useful feature that you can use when you have a one-to-one or one-to-many relationship between objects, and you want to load all objects with a single query eagerly. 
 
- - Let's consider our example where we have a one-to-many relationship between an `Author` and its `Book`. 
+ - As you know that we have a one-to-many relationship between an `Author` and its `Book`. 
  - Instead of having to do two select statements, one for the `Authors` and one for the `Books` as we have used previously, we can also use one simple SQL Statement. 
 
 Let's have a look into the following SQL query which is a straightforward SQL query using `INNER JOIN` which is joining the authors and the books on the `AuthorId` field. 
@@ -25,7 +25,7 @@ When you execute the above query, you will see all their information, such as `F
 This is a typical result of an SQL `INNER JOIN`. Now let's see how we can incorporate this into the C#. 
 
 ```csharp
-private static void GetAuthorWithBooks()
+private static void GetAuthorWithBooks()        
 {
     string sql = "SELECT * FROM Authors A INNER JOIN Books B ON A.Id = B.AuthorId";
 
@@ -72,9 +72,9 @@ In the `Query` method, you can see that there are three generic types.
  - The second type, in this case `Book`, represents the child object. 
  - The third type represents the return type, which happens to be `Author` again, which makes sense because `Author` is the parent. 
 
-The temporary dictionary will store `Id` along with the author entity. Then inside the lambda, it will check to see if we already seen this author or not.
+The temporary dictionary will store `Id` along with the author entity. Then inside the lambda, it will check to see if we have already seen this author or not.
 
-Let's call the `GetAuthorAndTheirBooks` method in the `Main` method.
+Now call the `GetAuthorAndTheirBooks` method in the `Main` method.
 
 ```csharp
 static void Main(string[] args)

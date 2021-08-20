@@ -5,9 +5,11 @@ Name: Delete Data
 
 # Delete Data
 
-Deleting an entity is the easiest because it only requires a unique `Id` to identify the deleted entity. The **Dapper Extensions** library provides `Delete` and `DeleteList` extension methods to delete existing data from the database.
+Deleting an entity is the easiest because it only requires a unique `Id` to identify the deleted entity. 
 
-The following example deletes a single new record using the `Delete` method.
+The **Dapper Extensions** library provides `Delete` and `DeleteList` extension methods to delete existing data from the database.
+
+The following example deletes a single record using the `Delete` method.
 
 ```csharp
 private static void DeleteSingleAuthor()
@@ -23,19 +25,7 @@ private static void DeleteSingleAuthor()
 }
 ```
 
-You can also delete multiple records with where options.
-
-```csharp
-private static void DeleteMultipleBooks()
-{
-    using (IDbConnection db = new SqlConnection(ConnectionString))
-    {
-        db.DeleteList<Book>("where Id > 6");
-    }
-}
-```
-
-You can also delete multiple records with where conditions.
+You can also delete multiple records with the `where` option.
 
 ```csharp
 private static void DeleteMultipleBooks()

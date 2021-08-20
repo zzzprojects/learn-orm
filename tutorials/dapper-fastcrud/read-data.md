@@ -5,7 +5,9 @@ Name: Read Data
 
 # Read Data
 
-Most of the applications would perform the basic operation to retrieve data from the database and display the results. We have two tables in the database that contains the following data.
+Most of the applications would perform the basic operation to retrieve data from the database and display the results. The **Dapper.FastCrud** library provides `Get` and `Find` extension methods to retrieve data from the database.
+
+We have two tables in the database that contains the following data.
 
 <img src="images/database-setup.png" alt="Database data">
 
@@ -59,7 +61,7 @@ In the `Program` class, define the static variable, which contains the connectio
 static string ConnectionString = @"Data Source=(localdb)\ProjectsV13;Initial Catalog=BookStoreDb;Integrated Security=True;";
 ```
 
-The first step is to create a member of type `IDbConnection` with the `SqlConnection` by passing the connection string. The **Dapper.FastCrud** library provides `Get` and `Find` extension methods to retrieve data from the database. The `Find` method retrieves all the records from the database.
+The first step is to create a member of type `IDbConnection` with the `SqlConnection` by passing the connection string.
 
 ```csharp
 private static List<Author> GetAllAuthors()
@@ -73,7 +75,7 @@ private static List<Author> GetAllAuthors()
 }
 ```
 
-To retrieve a single record, you can use the `Get` method and specify the primary key (`id`) as a parameter. 
+The `Find` method retrieves all the records from the database. To retrieve a single record, you can use the `Get` method and specify the primary key (`id`) as a parameter as shown below. 
 
 ```csharp
 private static Author GetAuthor(int id)

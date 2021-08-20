@@ -5,9 +5,9 @@ Name: Getting Started
 
 # Getting Started
 
-**Dapper Extensions** is a small NuGet library that extends the `IDbConnection` for Dapper by adding basic CRUD operations (Get, Insert, Update, Delete) for your domain classes. 
+**Dapper Extensions** is a small NuGet library that extends the `IDbConnection` for **Dapper** by adding basic CRUD operations (Get, Insert, Update, Delete) for your domain classes. 
 
- - For more advanced querying scenarios, Dapper Extensions provides a predicate system. 
+ - **Dapper Extensions** provides a predicate system for more advanced querying scenarios. 
  - This library aims to keep your classes pure by not requiring any attributes or base class inheritance.
 
 The following is the list of extension methods that are provided in **Dapper Extensions**.

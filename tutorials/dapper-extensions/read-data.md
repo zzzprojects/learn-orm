@@ -5,7 +5,11 @@ Name: Read Data
 
 # Read Data
 
-Most of the applications would perform the basic operation to retrieve data from the database and display the results. We have two tables in the database that contains the following data.
+Most of the applications would perform the basic operation to retrieve data from the database and display the results. 
+
+**Dapper Extensions** provides `GetList` and `Get` extension methods to retrieve data from the database and populate data in your object model.
+
+We have two tables in the database that contains the following data.
 
 <img src="images/database-setup.png" alt="Database data">
 

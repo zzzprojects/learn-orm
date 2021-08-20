@@ -5,7 +5,7 @@ Name: Manual Mapping
 
 # Manual Mapping
 
-The **Dapper.FluentMap** library provides the `EntityMap<TEntity>` class which allows you manually to map property names to the column names in the database. As you know that we have two tables in the database that contains the following data.
+The **Dapper.FluentMap** library provides the `EntityMap<TEntity>` class which allows you to map property names to the column names in the database manually. As you know that we have two tables in the database that contains the following data.
 
 <img src="images/database-setup.png" alt="Database data">
 
@@ -97,7 +97,7 @@ namespace DapperFluentMapDemo
 
 When you derive a class from `EntityMap<TEntity>`, the constructor gives you access to the `Map` method, which allows you to specify to which database column should be mapped to a certain property of `TEntity`.
 
-Similarly, create another class and defined it for `Book` class, as shown below.
+Similarly, create another class and defined mappings for the `Book` class, as shown below.
 
 ```csharp
 using System;

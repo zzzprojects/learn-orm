@@ -5,9 +5,9 @@ Name: Getting Started
 
 # Getting Started
 
-**Dapper.SimpleCRUD** is a small NuGet library that extends the `IDbConnection` interface, which adds the basic CRUD operations to Dapper. It adds some generic utility methods to Dapper, and particularly CRUD operations become much simpler with **Dapper.SimpleCRUD**.
+**Dapper.SimpleCRUD** is a small NuGet library that extends the `IDbConnection` interface, which adds the basic CRUD operations to **Dapper**. It adds some generic utility methods and particularly CRUD operations become much simpler with **Dapper.SimpleCRUD**.
 
- - It uses smart defaults without using attributes is your classes, but you can also override the defaults as per your requirements. 
+ - It uses smart defaults without using attributes in your classes, but you can also override the defaults as per your requirements. 
  - By default, the `Id` property is used as a primary key, but you can use other properties as a primary key by specifying an attribute.
  - By default, the table name matches the class name, but you can use another table name by specifying an attribute.
  - Similarly, by default, the column name matches the property name, but you can use another column name by specifying an attribute.

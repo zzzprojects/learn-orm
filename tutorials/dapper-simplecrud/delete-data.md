@@ -7,38 +7,26 @@ Name: Delete Data
 
 Deleting an entity is the easiest because it only requires a unique `Id` to identify the deleted entity. The **Dapper.SimpleCRUD** library provides `Delete` and `DeleteList` extension methods to delete existing data from the database.
 
-The following example deletes a single new record using the `Delete` method.
+The following example deletes a single record using the `Delete` method.
 
 ```csharp
 private static void DeleteSingleAuthor()
 {
     using (IDbConnection db = new SqlConnection(ConnectionString))
     {
-        db.Delete<Author>(new Author { Id = 4 });
+        db.Delete<Author>(new Author { Id = 6 });
     }
 }
 ```
 
-You can also delete multiple records with where options.
+You can also delete multiple records by specifying the `where` condition.
 
 ```csharp
 private static void DeleteMultipleBooks()
 {
     using (IDbConnection db = new SqlConnection(ConnectionString))
     {
-        db.DeleteList<Book>("where Id > 6");
-    }
-}
-```
-
-You can also delete multiple records with where conditions.
-
-```csharp
-private static void DeleteMultipleBooks()
-{
-    using (IDbConnection db = new SqlConnection(ConnectionString))
-    {
-        db.DeleteList<Book>("where Id > 6");
+        db.DeleteList<Book>("where Id > 3");
     }
 }
 ```
@@ -66,3 +54,14 @@ static void Main(string[] args)
 ```
 
 Let's execute the above code, and you will see that they are no longer available.
+
+```csharp
+Title: Introduction to AI        Category: Software
+Title: Introduction to Computing         Category: Software
+Title: Romeo and Juliet          Category: Humor & Entertainment
+Title: The Tempest       Category: Fiction
+Title: The Winter's Tale : Third Series          Category: Fiction
+Title: Introduction to AI        Category: Software
+Title: Introduction to Computing         Category: Software
+Title: Romeo and Juliet          Category: Humor & Entertainment
+```

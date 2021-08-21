@@ -5,9 +5,9 @@ Name: Delete Data
 
 # Delete Data
 
-The **Dapper.Rainbow** library provides `Delete` extension method to delete existing data from the database. Deleting an entity is the easiest because it only requires a unique `Id` to identify the entity being deleted.
+The **Dapper.Rainbow** library provides a `Delete` extension method to delete existing data from the database. Deleting an entity is the easiest because it only requires a unique `Id` to identify the entity being deleted.
 
-The following example deletes a single new record using the `Delete` method.
+The following example deletes a single record using the `Delete` method.
 
 ```csharp
 private static void DeleteSingleAuthor(int id)

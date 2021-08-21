@@ -28,7 +28,7 @@ PM> Install-Package Z.Dapper.Plus
  - With **Dapper Plus** you can insert, update, delete and synchronize data without writing SQL.
  - You will get outstanding customer support and hundreds of [Online Examples](https://dapper-plus.net/online-examples) to help you get started.
 
-## Supported Provider
+## Supported Providers
 
 **Dapper Plus** supports all major database providers;
 

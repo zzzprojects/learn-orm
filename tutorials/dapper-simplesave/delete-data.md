@@ -7,7 +7,7 @@ Name: Delete Data
 
 Deleting an entity is the easiest because it only requires a unique `Id` to identify the entity being deleted. The **Dapper.SimpleSave** library provides `Delete` and `DeleteAll` extension methods to delete existing data from the database.
 
-The following example deletes a single new record using the `Delete` method.
+The following example deletes a single record using the `Delete` method.
 
 ```csharp
 private static void DeleteSingleBook()

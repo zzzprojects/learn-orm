@@ -5,7 +5,7 @@ Name: Query Builder
 
 # Query Builder
 
-**Dapper Query Builder** library lets you build your SQL queries dynamically. In Dapper, you can get all the records from any table as shown in the below example.
+**Dapper Query Builder** library allows you to build your SQL queries dynamically. In **Dapper**, you can get all the records from any table as shown in the below example.
 
 ```csharp
 private static List<Author> GetAuthors()
@@ -19,7 +19,7 @@ private static List<Author> GetAuthors()
 }
 ```
 
-The following example builds a simple `SELECT` query to retrieve all the authors from the database using the **Dapper Query Builder**.
+Now the following example builds a simple `SELECT` query to retrieve all the authors from the database using the **Dapper Query Builder**.
 
 ```csharp
 private static List<Author> GetAuthors()

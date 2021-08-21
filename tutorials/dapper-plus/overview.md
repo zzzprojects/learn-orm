@@ -5,13 +5,13 @@ Name: Overview
 
 # Overview
 
-**Dapper Plus** is a [NuGet](https://www.nuget.org/packages/Z.Dapper.Plus/) library that extends your `IDbConnection` and `IDbTransaction` interface.
+**Dapper Plus** is a [NuGet](https://www.nuget.org/packages/Z.Dapper.Plus/) library that extends your `IDbConnection` and `IDbTransaction` interfaces.
 
  - It provides very useful helper methods that perform bulk operations with high efficiency.
  - You can use this powerful library with or without Dapper.
  - It is compatible with all other Dapper packages.
 
-**Dapper Plus Mapper** allows you to map the entity database table and configure options to perform Bulk Actions.
+**Dapper Plus Mapper** allows you to map the entity to the database table and configure options to perform Bulk Actions.
 
 ## Installation
 
@@ -28,9 +28,9 @@ PM> Install-Package Z.Dapper.Plus
  - With **Dapper Plus** you can insert, update, delete and synchronize data without writing SQL.
  - You will get outstanding customer support and hundreds of [Online Examples](https://dapper-plus.net/online-examples) to help you get started.
 
-## Supported Provider
+## Supported Providers
 
-**Dapper Plus** supports all major database provider;
+**Dapper Plus** supports all major database providers;
 
  - SQL Server 2008+
  - SQL Azure

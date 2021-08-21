@@ -7,7 +7,7 @@ Name: Update Data
 
 Updating an existing entity is similar to inserting a new one. The **Dapper.SimpleCRUD** library provides an `Update` extension method to update existing data into the database.
 
-The following example updates a single new record.
+The following example updates a single record.
 
 ```csharp
 private static void UpdateSingleBook()
@@ -49,6 +49,7 @@ static void Main(string[] args)
     }
 }
 ```
+
 Let's execute the above code, and you will see the following output.
 
 ```csharp

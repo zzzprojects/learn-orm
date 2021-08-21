@@ -16,7 +16,7 @@ The **Dapper.SimpleCRUD** library provides some optional attributes which are ve
 | Column         | Map a column with a specified name in the `Column` attribute for a given property.           |
 | Editable       | Specify if the property is editable or not.                                                 |
 | Required       | You can mark a property as a `Required` if you want to specify the value yourself during the insert such as the primary key. |
-| ReadOnly       | Specify if the property is decorated with ReadOnly(true) are only used for selects and are excluded from inserts and updates. |
+| ReadOnly       | Specify if the property is decorated with ReadOnly(true) is only used for selects and is excluded from inserts and updates. |
 | IgnoreSelect   | Excludes the property from selects            |
 | IgnoreInsert   | Excludes the property from inserts            |
 | IgnoreUpdate   | Excludes the property from updates            |
@@ -24,7 +24,7 @@ The **Dapper.SimpleCRUD** library provides some optional attributes which are ve
 
 ## Key
 
-The `Key` attribute specifies the property is a primary key column in the database.
+The `Key` attribute specifies the property that is a primary key column in the database.
 
 ```csharp
 class Author

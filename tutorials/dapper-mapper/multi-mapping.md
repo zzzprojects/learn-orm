@@ -5,7 +5,7 @@ Name: Multi Mapping
 
 # Multi Mapping
 
-In Dapper, multi mapping is a useful feature that you can use when you have a one-to-one or one-to-many relationship between objects, and you want to load all objects with a single query eagerly. 
+In **Dapper**, multi-mapping is a useful feature that you can use when you have a one-to-one or one-to-many relationship between objects, and you want to load all objects with a single query eagerly. 
 
  - Let's consider our example where we have a one-to-many relationship between an `Author` and its `Book`. 
  - Instead of having to do two select statements, one for the `Authors` and one for the `Books`, we can also use one simple SQL Statement. 
@@ -66,7 +66,7 @@ private static void GetAuthorWithBooks()
 }
 ```
 
-If you are using Dapper, then you will have to write the mapping explicitly, as shown above. But **Dapper.Mapper** can handle the relationships between the returned objects automatically.
+If you are using **Dapper**, then you will have to write the mapping explicitly, as shown above. But **Dapper.Mapper** can handle the relationships between the returned objects automatically.
 
 ```csharp
 private static List<Author> GetAuthorWithBooksUsingMapper()

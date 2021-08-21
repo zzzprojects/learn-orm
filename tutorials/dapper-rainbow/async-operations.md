@@ -51,7 +51,7 @@ private static async Task DeleteSingleAuthorAsync(int id)
 }
 ```
 
-Let's run your application, and you will see we are getting the same results. It is just that behind the scenes, this time we did it asynchronously. 
+Let's run your application, and you will see that we are getting the same results. It is just that behind the scenes that we did it asynchronously this time. 
 
  - The async in **Dapper.Rainbow** is as seamless as the non-async versions. 
  - You can use whichever version you prefer.

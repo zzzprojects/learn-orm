@@ -7,7 +7,7 @@ Name: Update Data
 
 The **Dapper.Rainbow** library provides an `Update` extension method to update existing data into the database. Updating an existing entity is similar to inserting a new one.
 
-The following example updates a single new record.
+The following example updates a single record.
 
 ```csharp
 private static void UpdateSingleBook()

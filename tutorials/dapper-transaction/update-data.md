@@ -7,6 +7,8 @@ Name: Update Data
 
 Updating an existing entity is similar to inserting a new one. All we need is a SQL statement containing an `UPDATE` statement that sets the appropriate columns. We also want to include a `WHERE` clause limiting the update only to the row with the specified `Id`.
 
+The **Dapper.Transaction** provides the `IDbTransaction.Execute` extension method that is also used to update a record.
+
 You can easily update a single row by writing an `UPDATE` statement with parameters for each column you want to update.
 
 ```csharp
@@ -26,9 +28,9 @@ private static void UpdateSingleBook()
 }
 ```
 
-It a simple SQL `UPDATE` statement on the `Books` table. There are the columns and their values corresponding to parameters. 
+It is a simple SQL `UPDATE` statement on the `Books` table. There are the columns and their values corresponding to parameters. 
 
-The `Execute` extension method of **Dapper.Transaction** is used to update a record. You can also use the `Execute` method to update multiple books.
+You can also use the `Execute` method to update multiple books.
 
 ```csharp
 private static void UpdateMultipleBooks()

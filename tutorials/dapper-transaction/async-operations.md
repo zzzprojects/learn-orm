@@ -5,7 +5,7 @@ Name: Async Operations
 
 # Async Operations
 
-When working with outside systems, like making calls to an external database, web API, etc., we typically use async operations to optimize our code while waiting for these external systems to respond, especially if they take more than a few milliseconds. So far, we performed all synchronous operations, but **Dapper.Transaction** also fully supports async versions of all of the primary methods.
+When working with outside systems, like making calls to an external database, web API, etc., we typically use async operations to optimize our code while waiting for these external systems to respond, especially if they take more than a few milliseconds. So far, we have performed all synchronous operations, but **Dapper.Transaction** also fully supports async versions of all of the primary methods.
 
 The following is the async version of the `GetAllAuthors` method.
 
@@ -64,7 +64,7 @@ private static async void InsertSingleAuthorAsync()
 }
 ```
 
-Let's run your application, and you will see we are getting the same result. This time we did it asynchronously. 
+Let's run your application, and you will see that we are getting the same results. It is just that behind the scenes that we did it asynchronously this time.  
 
  - Using async in Dapper is as seamless as the non-async versions. 
  - Feel free to use whichever version you prefer.

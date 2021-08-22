@@ -5,7 +5,9 @@ Name: Delete Data
 
 # Delete Data
 
-Deleting an entity is the easiest because it only requires a unique `Id` to identify the deleted entity. All we need is a SQL statement containing a `DELETE` statement with a `WHERE` clause on the `Id` column.
+Deleting an entity is the easiest because it only requires a unique `Id` to identify the deleted entity. The **Dapper.Transaction** provides the `IDbTransaction.Execute` extension method that is used to delete a record. 
+
+All we need is a SQL statement containing a `DELETE` statement with a `WHERE` clause on the `Id` column.
 
 ```csharp
 private static void DeleteSingleAuthor()
@@ -25,7 +27,7 @@ private static void DeleteSingleAuthor()
 }
 ```
 
-It is a simple SQL `DELETE` statement on the `Authors` table. The `Execute` extension method of Dapper is used to delete a record. You can also use the `Execute` method to delete multiple authors.
+It is a simple SQL `DELETE` statement on the `Authors` table. You can also use the `Execute` method to delete multiple authors.
 
 ```csharp
 private static void DeleteMultipleBooks()

@@ -49,4 +49,4 @@ private static List<dynamic> GetDynamicAuthors(params int[] ids)
 
 You can see that we specified `dynamic` instead of `Author` as the generic type, and also, there is no need to specify the generic type of the `Query` method.
  
-You will notice when you started typing `author.`, you won't get IntelliSense because it's a dynamic object. Let's call this new method and execute the application, and you will see that everything is still working exactly the same. 
+You will notice when you started typing `author.`, you won't get IntelliSense because it's a dynamic object. Let's call this new method and execute the application, and you will see that everything is still working the same. 

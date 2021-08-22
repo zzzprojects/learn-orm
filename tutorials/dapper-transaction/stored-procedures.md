@@ -67,7 +67,7 @@ private static Author GetAuthorAndTheirBooksSP(int id)
 
 You also need to specify `commandType: CommandType.StoredProcedure` as a third parameter. You can see that it is almost identical to how we had it before. 
 
-Let's call the `GetAuthorAndTheirBooks` method in the `Main` method.
+Now call the `GetAuthorAndTheirBooks` method in the `Main` method.
 
 ```csharp
 static void Main(string[] args)

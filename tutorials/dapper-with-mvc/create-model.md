@@ -87,7 +87,6 @@ Now you will see the above-inserted records in the database.
 
 <img src="images/create-model-2.png">
 
-
 ## Setup Connection String
 
 For local development, the ASP.NET Core configuration system reads the connection string from the ***appsettings.json*** file. So let's add the connection to that file as shown below.
@@ -107,5 +106,6 @@ For local development, the ASP.NET Core configuration system reads the connectio
   "AllowedHosts": "*"
 }
 ```
+
 The above connection string specifies that the application will use a `LocalDB` database named `AuthorDb.mdf`.
 

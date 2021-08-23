@@ -5,15 +5,15 @@ Name: DbContext Configuration
 
 # DbContext Configuration
 
-This article shows basic patterns for configuring a DbContext via a DbContextOptions to connect to a database using a specific EF Core provider and optional behaviors.
+This article shows basic patterns for configuring a `DbContext` via a `DbContextOptions` to connect to a database using a specific EF Core provider and optional behaviors.
 
 ## Design-time DbContext Configuration
 
-Some of the EF Core Tools commands such as the Migrations commands require a derived `DbContext` instance to be created at design time to gather details about the application's entity types and how they map to a database schema. In most cases, it is desirable that the DbContext thereby created is configured in a similar way to how it would be configured at run time.
+Some of the EF Core Tools commands such as the **Migrations** commands require a derived `DbContext` instance to be created at design time to gather details about the application's entity types and how they map to a database schema. 
 
-There are various ways the tools try to create the DbContext:
+In most cases, it is desirable that the `DbContext` thereby created is configured in a similar way to how it would be configured at run time. There are various ways the tools try to create the `DbContext`:
 
-### From application services
+### From Application Services
 
 If your startup project uses the ASP.NET Core Web Host or .NET Core Generic Host, the tools try to obtain the `DbContext` object from the application's service provider.
 
@@ -47,15 +47,20 @@ public class EntityContext : DbContext
 }
 ```
 
-When you create a new ASP.NET Core application, this hook is included by default. The `DbContext` itself and any dependencies in its constructor need to be registered as services in the application's service provider. This can be easily achieved by having a constructor on the `DbContext` that takes an instance of `DbContextOptions<TContext>` as an argument and using the `AddDbContext<TContext>` method.
+When you create a new ASP.NET Core application, this hook is included by default. 
 
-### Using a constructor with no parameters
+ - The `DbContext` itself and any dependencies in its constructor need to be registered as services in the application's service provider. 
+ - This can be easily achieved by having a constructor on the `DbContext` that takes an instance of `DbContextOptions<TContext>` as an argument and using the `AddDbContext<TContext>` method.
 
-If the `DbContext` can't be obtained from the application service provider, the tools look for the derived `DbContext` type inside the project. Then they try to create an instance using a constructor with no parameters. This can be the default constructor if the `DbContext` is configured using the `OnConfiguring` method.
+### Using a Constructor without Parameters
 
-### From a design-time factory
+If the `DbContext` can't be obtained from the application service provider, the tools look for the derived `DbContext` type inside the project. Then they try to create an instance using a constructor without parameters. This can be the default constructor if the `DbContext` is configured using the `OnConfiguring` method.
 
-You can also tell the tools how to create your `DbContext` by implementing the `IDesignTimeDbContextFactory<TContext>` interface. If a class implementing this interface is found in either the same project as the derived `DbContext` or in the application's startup project, the tools bypass the other ways of creating the `DbContext` and use the design-time factory instead.
+### From a Design-time Factory
+
+You can also tell the tools how to create your `DbContext` by implementing the `IDesignTimeDbContextFactory<TContext>` interface. 
+
+If a class implementing this interface is found in either the same project as the derived `DbContext` or in the application's startup project, the tools bypass the other ways of creating the `DbContext` and use the design-time factory instead.
 
 ```csharp
 using Microsoft.EntityFrameworkCore;
@@ -79,18 +84,22 @@ namespace MyProject
 
 Before EFCore 5.0, the `args` parameter was unused and it is fixed in EFCore 5.0 and any additional design-time arguments are passed into the application through that parameter.
 
-A design-time factory can be especially useful if you need to configure the `DbContext` differently for design time than at run time, if the `DbContext` constructor takes additional parameters are not registered in DI, if you are not using DI at all, or if for some reason you prefer not to have a `BuildWebHost` method in your ASP.NET Core application's `Main` class. 
+A design-time factory can be especially useful if you need to configure the `DbContext` differently for design time than at run time; 
+
+ - If the `DbContext` constructor takes additional parameters that are not registered in DI
+ - If you are not using DI at all.
+ - If for some reason you prefer not to have a `BuildWebHost` method in your ASP.NET Core application's `Main` class. 
 
 ## Configuring DbContextOptions
 
 The `DbContext` must have an instance of `DbContextOptions` to perform any work. The `DbContextOptions` instance carries configuration information such as:
 
  - The database provider to use, typically selected by invoking a method such as `UseSqlServer` or `UseSqlite` etc. These extension methods require the corresponding provider package, such as `Microsoft.EntityFrameworkCore.SqlServer` or `Microsoft.EntityFrameworkCore.Sqlite`. The methods are defined in the `Microsoft.EntityFrameworkCore` namespace.
- - Any necessary connection string or identifier of the database instance typically passed as an argument to the provider selection method mentioned above
- - Any provider-level optional behavior selectors, typically also chained inside the call to the provider selection method
- - Any general EF Core behavior selectors, typically chained after or before the provider selector method
+ - Any necessary connection string or identifier of the database instance typically passed as an argument to the provider selection method mentioned above.
+ - Any provider-level optional behavior selectors, typically also chained inside the call to the provider selection method.
+ - Any general EF Core behavior selectors, typically chained after or before the provider selector method.
 
-The following example configures the DbContextOptions to use the SQL Server provider, a connection contained in the connectionString variable, a provider-level command timeout, and an EF Core behavior selector that makes all queries executed in the DbContext no-tracking by default:
+The following example configures the `DbContextOptions` to use the SQL Server provider. 
 
 ```csharp
 optionsBuilder
@@ -98,11 +107,11 @@ optionsBuilder
     .UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
 ```
 
-The `DbContextOptions` can be supplied to the `DbContext` by overriding the `OnConfiguring` method or externally via a constructor argument.
+ - A connection contained in the `connectionString` variable, a provider-level command timeout, and an EF Core behavior selector that makes all queries executed in the `DbContext` no-tracking by default:
+ - The `DbContextOptions` can be supplied to the `DbContext` by overriding the `OnConfiguring` method or externally via a constructor argument.
+ - If both are used, `OnConfiguring` is applied last and can overwrite options supplied to the constructor argument.
 
-If both are used, `OnConfiguring` is applied last and can overwrite options supplied to the constructor argument.
-
-### Constructor argument
+### Constructor Argument
 
 Your constructor can simply accept a `DbContextOptions` as follows:
 
@@ -133,9 +142,12 @@ using (var context = new EntityContext(optionsBuilder.Options))
 
 ### OnConfiguring
 
-You can also initialize the `DbContextOptions` within the context itself. While you can use this technique for basic configuration, you will typically still need to get certain configuration details from the outside, e.g. a database connection string. This can be done with a configuration API or any other means.
+You can also initialize the `DbContextOptions` within the context itself. 
 
-To initialize `DbContextOptions` within the context, override the `OnConfiguring` method and call the methods on the provided `DbContextOptionsBuilder`:
+ - While you can use this technique for basic configuration, you will typically still need to get certain configuration details from the outside, e.g. a database connection string. 
+ - This can be done with a configuration API or any other means.
+
+To initialize `DbContextOptions` within the context, override the `OnConfiguring` method and call the methods on the provided `DbContextOptionsBuilder`.
 
 ```csharp
 public class EntityContext : DbContext
@@ -149,7 +161,7 @@ public class EntityContext : DbContext
 }
 ```
 
-An application can simply instantiate such a context without passing anything to its constructor:
+An application can simply instantiate such a context without passing anything to its constructor.
 
 ```csharp
 using (var context = new EntityContext())
@@ -158,13 +170,13 @@ using (var context = new EntityContext())
 }
 ```
 
-### Using DbContext with dependency injection
+### Using DbContext with Dependency Injection
 
 EF Core supports using `DbContext` with a dependency injection container. Your `DbContext` type can be added to the service container by using the `AddDbContext<TContext>` method.
 
 `AddDbContext<TContext>` will make both your `DbContext` type, `TContext`, and the corresponding `DbContextOptions<TContext>` available for injection from the service container.
 
-Add the `DbContext` to dependency injection.
+You can add the `DbContext` to dependency injection as shown below.
 
 ```csharp
 public void ConfigureServices(IServiceCollection services)
@@ -185,7 +197,8 @@ public class EntityContext : DbContext
     public DbSet<Author> Authors { get; set; }
 }
 ```
-Here is the code used in ASP.NET Core application:
+
+Here is the code used in the ASP.NET Core application.
 
 ```csharp
 public class AuthorController
@@ -201,7 +214,7 @@ public class AuthorController
 }
 ```
 
-Here is the code using ServiceProvider directly which is less common:
+Here is the code using `ServiceProvider` directly which is less common.
 
 ```csharp
 using (var context = serviceProvider.GetService<EntityContext>())

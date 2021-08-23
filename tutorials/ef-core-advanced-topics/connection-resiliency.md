@@ -35,7 +35,7 @@ public void ConfigureServices(IServiceCollection services)
 }
 ```
 
-## Custom execution strategy
+## Custom Execution Strategy
 
 You can register a custom execution strategy of your own if you wish to change any of the defaults.
 
@@ -49,7 +49,7 @@ public void ConfigureServices(IServiceCollection services)
 }
 ```
 
-## Execution strategies and transactions
+## Execution Strategies and Transactions
 
 An execution strategy that automatically retries on failures needs to be able to playback each operation in a retry block that fails. 
 
@@ -113,7 +113,7 @@ using (var context1 = new EntityContext())
 }
 ```
 
-## Transaction commit failure and the idempotency issue
+## Transaction Commit Failure and the Idempotency Issue
 
 In general, when there is a connection failure the current transaction is rolled back. However, if the connection is dropped while the transaction is being committed the resulting state of the transaction is unknown.
 
@@ -121,20 +121,20 @@ By default, the execution strategy will retry the operation as if the transactio
 
 There are several ways to deal with this.
 
-## Do (almost) nothing
+### Do (almost) Nothing
 
 The likelihood of a connection failure during transaction commit is low so it may be acceptable for your application to just fail if this condition occurs.
 
  - You need to avoid using store-generated keys to ensure that an exception is thrown instead of adding a duplicate row. 
  - Consider using a client-generated GUID value or a client-side value generator.
 
-## Rebuild application state
+### Rebuild Application State
 
- - Discard the current DbContext.
- - Create a new DbContext and restore the state of your application from the database.
+ - Discard the current `DbContext`.
+ - Create a new `DbContext` and restore the state of your application from the database.
  - Inform the user that the last operation might not have been completed successfully.
 
-## Add state verification
+### Add State Verification
 
 EF provides an extension method `IExecutionStrategy.ExecuteInTransaction` to add code that checks whether it succeeded or not for most of the operations that change the database state.
 
@@ -161,7 +161,7 @@ using (var db = new EntityContext())
 
 In the above code, `SaveChanges` is invoked with `acceptAllChangesOnSuccess` set to `false` to avoid changing the state of the `Author` entity to `Unchanged` if `SaveChanges` succeeds. This allows to retry the same operation if the commit fails and the transaction is rolled back.
 
-## Manually track the transaction
+### Manually Track the Transaction
 
 If you need to use store-generated keys or need a generic way of handling commit failures that don't depend on the operation performed each transaction could be assigned an `ID` that is checked when the commit fails.
 
@@ -171,24 +171,24 @@ If you need to use store-generated keys or need a generic way of handling commit
  4. If the commit is successful, delete the corresponding row to avoid the growth of the table.
 
  ```csharp
- using (var db = new EntityContext())
- {
-     var strategy = db.Database.CreateExecutionStrategy();
- 
-     db.Authors.Add(new Author { FirstName = "Carson", LastName = "Alexander", BirthDate = DateTime.Parse("1985-09-01") });
- 
-     var transaction = new TransactionRow { Id = Guid.NewGuid() };
-     db.Transactions.Add(transaction);
- 
-     strategy.ExecuteInTransaction(db,
-         operation: context =>
-         {
-             context.SaveChanges(acceptAllChangesOnSuccess: false);
-         },
-         verifySucceeded: context => context.Transactions.AsNoTracking().Any(t => t.Id == transaction.Id));
- 
-     db.ChangeTracker.AcceptAllChanges();
-     db.Transactions.Remove(transaction);
-     db.SaveChanges();
- }
- ```
+using (var db = new EntityContext())
+{
+    var strategy = db.Database.CreateExecutionStrategy();
+
+    db.Authors.Add(new Author { FirstName = "Carson", LastName = "Alexander", BirthDate = DateTime.Parse("1985-09-01") });
+
+    var transaction = new TransactionRow { Id = Guid.NewGuid() };
+    db.Transactions.Add(transaction);
+
+    strategy.ExecuteInTransaction(db,
+        operation: context =>
+        {
+            context.SaveChanges(acceptAllChangesOnSuccess: false);
+        },
+        verifySucceeded: context => context.Transactions.AsNoTracking().Any(t => t.Id == transaction.Id));
+
+    db.ChangeTracker.AcceptAllChanges();
+    db.Transactions.Remove(transaction);
+    db.SaveChanges();
+}
+```

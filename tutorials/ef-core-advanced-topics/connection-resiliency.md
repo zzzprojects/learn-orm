@@ -5,7 +5,7 @@ Name: Connection Resiliency
 
 # Connection Resiliency
 
-Connection resiliency is the ability to automatically retry certain transient errors when attempting to connect to the database. In most of the applications, a database connection is always vulnerable to connection breaks due to back-end failures and network instability.
+Connection resiliency is the ability to automatically retry certain transient errors when attempting to connect to the database. In most applications, a database connection is always vulnerable to connection breaks due to back-end failures and network instability.
 
  - With the rise of cloud-based database servers such as Windows Azure and connections over less reliable networks, it is now more common for connection breaks to occur.
  - The feature can be used with any database by supplying an "execution strategy", which encapsulates the logic necessary to detect failures and retry commands.
@@ -56,7 +56,7 @@ An execution strategy that automatically retries on failures needs to be able to
  - When retries are enabled, each operation you perform via EF Core becomes its retriable operation. 
  - Each query and each call to `SaveChanges()` will be retried as a unit if a transient failure occurs.
 
-However, if your code initiates a transaction using `BeginTransaction()` you are defining your own group of operations that need to be treated as a unit, and everything inside the transaction would need to be played back shall a failure occur. You will receive an exception like the following if you attempt to do this when using an execution strategy:
+However, if your code initiates a transaction using `BeginTransaction()`, you are defining your group of operations that need to be treated as a unit, and everything inside the transaction would need to be played back shall a failure occur. You will receive an exception like the following if you attempt to do this when using an execution strategy:
 
 > InvalidOperationException: The configured execution strategy 'SqlServerRetryingExecutionStrategy' does not support user-initiated transactions. Use the execution strategy returned by 'DbContext.Database.CreateExecutionStrategy()' to execute all the operations in the transaction as a retriable unit.
 
@@ -159,7 +159,7 @@ using (var db = new EntityContext())
 }
 ```
 
-In the above code, `SaveChanges` is invoked with `acceptAllChangesOnSuccess` set to `false` to avoid changing the state of the `Author` entity to `Unchanged` if `SaveChanges` succeeds. This allows to retry the same operation if the commit fails and the transaction is rolled back.
+In the above code, `SaveChanges` is invoked with `acceptAllChangesOnSuccess` set to `false` to avoid changing the state of the `Author` entity to `Unchanged` if `SaveChanges` succeeds. This allows you to retry the same operation if the commit fails and the transaction is rolled back.
 
 ### Manually Track the Transaction
 
@@ -170,7 +170,7 @@ If you need to use store-generated keys or need a generic way of handling commit
  3. If the connection fails during the commit, check for the presence of the corresponding row in the database.
  4. If the commit is successful, delete the corresponding row to avoid the growth of the table.
 
- ```csharp
+```csharp
 using (var db = new EntityContext())
 {
     var strategy = db.Database.CreateExecutionStrategy();

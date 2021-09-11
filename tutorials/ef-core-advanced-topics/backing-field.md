@@ -17,7 +17,7 @@ public string Name {get; private set;}
 It covers many cases, but not if you wanted the property to be private. 
 
  - A common use case might be the key property, EF needs to interact with it, but you may not want developers to read it directly or even use it in queries.
- - With this feature, you can map to backing fields whether you explicitly define it or rely on inferred backing fields to comprehend properties. 
+ - With this feature, you can map to backing fields whether you explicitly define them or rely on inferred backing fields to comprehend properties. 
  - This allows EF Core to recognize even private properties when creating migrations, as well as to populate them when materializing query results. 
 
 ```csharp
@@ -25,7 +25,9 @@ private int _authorId;
 private int AuthorId => _authorId;
 ```
 
-If the property is private, but you don't declare a backing field, EF Core will infer it for you when building the data model. In the specific case, if the key property is defined private as shown below.
+If the property is private, but you don't declare a backing field, EF Core will infer it for you when building the data model. 
+
+In the specific case, if the key property is defined with a `private` access modifier as shown below.
 
 ```csharp
 public class Author
@@ -147,7 +149,9 @@ public class Author
 
 ## Field and Property Access
 
-By default, EF will always read and write to the backing field. It will assume that one has been properly configured and will never use the property. However, EF also supports other access patterns. For example, the following sample instructs EF to write to the backing field only while materializing and to use the property in all other cases.
+By default, EF will always read and write to the backing field. It will assume that one has been properly configured and will never use the property. 
+
+EF also supports other access patterns. For example, the following sample instructs EF to write to the backing field only while materializing and to use the property in all other cases.
 
 ```csharp
 class EntityContext : DbContext
@@ -231,7 +235,7 @@ public class Author
 
 EF will attempt to find a CLR property with the given name, or a field if a property isn't found. If neither a property nor a field is found, a shadow property will be set up instead.
 
-You may need to refer to a field-only property from LINQ queries, but such fields are typically private. You can use `EF.Property(...)` method in a LINQ query to refer to the field.
+You may need to refer to a field-only property from LINQ queries, but such fields are typically private. You can use the `EF.Property(...)` method in a LINQ query to refer to the field.
 
 ```csharp
 var authors = db.Authors.OrderBy(a => EF.Property<string>(a, "_validatedName"));

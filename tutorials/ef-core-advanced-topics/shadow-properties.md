@@ -5,13 +5,13 @@ Name: Shadow Properties
 
 # Shadow Properties
 
-In Entity Framework Core, Shadow properties are properties that are not defined in the entity class but can be included in the model and are mapped to database columns. 
+In Entity Framework Core, shadow properties are properties that are not defined in the entity class but can be included in the model and are mapped to database columns. 
 
  - It means that we can have columns for these properties in our tables, but we will not have a corresponding property field in our entity class.
  - The value and state of these properties are maintained purely in the Change Tracker. 
  - These are useful when there is data in the database that should not be exposed to the mapped entity types.
 
-## Foreign key shadow properties
+## Foreign Key Shadow Properties
 
 In most cases, shadow properties are used for foreign key properties, where the relationship between two entities is represented by a foreign key value in the database, but the relationship is managed on the entity types using navigation properties between the entity types. 
 
@@ -34,7 +34,7 @@ public class Book
     public string Title { get; set; }
     public string Content { get; set; }
 
-    // Since there is no CLR property which holds the foreign
+    // Since there is no CLR property that holds the foreign
     // key for this relationship, a shadow property is created.
     public Author Author { get; set; }
 }
@@ -46,7 +46,7 @@ class MyContext : DbContext
 }
 ```
 
-This code creates a shadow property `AuthorId` to the `Book` entity.
+The above code creates a shadow property called `AuthorId` to the `Book` entity.
 
 <img src="images/shadow-properties-1.png">
 
@@ -54,7 +54,7 @@ This code creates a shadow property `AuthorId` to the `Book` entity.
 
 To define the shadow properties, you can use the Fluent API in the `OnModelCreating` using the `Property` method for an entity type. After calling the string overload of the `Property` method, you can chain any of the configurations calls for other properties as well.
 
-The following configure two shadow properties `CreatedDate` and `UpdatedDate` on the `Author` entity.
+The following code configures two shadow properties `CreatedDate` and `UpdatedDate` on the `Author` entity.
 
 ```csharp
 protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -82,7 +82,7 @@ using (var context = new MyContext())
 }
 ```
 
-Shadow properties can be referenced in LINQ queries via the `EF.Property` static method:
+You can reference shadow properties in LINQ queries using the `EF.Property` static method as shown below.
 
 ```csharp
 using (var context = new MyContext())
@@ -93,4 +93,4 @@ using (var context = new MyContext())
 }
 ```
 
-Shadow properties cannot be accessed after a no-tracking query since the entities returned are not tracked by the change tracker.
+You can't access shadow properties after a no-tracking query since the entities returned are not tracked by the change tracker.

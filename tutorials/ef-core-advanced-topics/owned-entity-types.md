@@ -14,7 +14,7 @@ The owned entity was first introduced in EF Core 2.0, the same .NET type can be 
 
 ## Configuration
 
-By convention, EF Core never includes owned entity types in the model. You can annotate the type with `[Owned]` attribute or use the `OwnsOne` method in `OnModelCreating` to configure the type as an owned type.
+By convention, EF Core never includes owned entity types in the model. You can annotate the type with the `[Owned]` attribute or use the `OwnsOne` method in `OnModelCreating` to configure the type as an owned type.
 
 ### Data Annotation
 
@@ -53,7 +53,7 @@ modelBuilder.Entity<Order>().OwnsOne(typeof(Address), "Address");
 
 ## Implicit Keys
 
-Owned types configured with `OwnsOne` or discovered through reference navigation always have a one-to-one relationship with the owner, therefore they don't need their own key values as the foreign key values are unique. 
+Owned types configured with `OwnsOne` or discovered through reference navigation always have a one-to-one relationship with the owner, therefore they don't need their key values as the foreign key values are unique. 
 
  - In the above example, the `Address` type does not need to define a key property.
  - EF Core tracks these objects by creating a primary key as a shadow property for the owned type. 
@@ -65,7 +65,7 @@ When owned types are defined through a collection, it isn't enough to just creat
 
 You can use `OwnsMany` in `OnModelCreating` to configure a collection of owned types. Owned types need a primary key, if there are no good candidates properties on the .NET type, EF Core can try to create one. 
 
-We have two most straightforward solutions.
+We have the two most straightforward solutions.
 
 ### Solution 1
 
@@ -78,7 +78,7 @@ We have two most straightforward solutions.
  - Using the foreign key and an additional property as a composite key, the additional property value now only needs to be unique for a given parent (so if Parent {1} has Child {1,1} then Parent {2} can still have Child {2,1}). 
  - By default, EF Core makes the foreign key part of the primary key the relationship between the owner and the owned entity becomes immutable and reflects aggregate semantics better.
 
-In this example, we will use the Distributor class.
+In this example, we will use the `Distributor` class.
 
 ```csharp
 public class Distributor

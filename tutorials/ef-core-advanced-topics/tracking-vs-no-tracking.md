@@ -28,7 +28,7 @@ using (var context = new EntityContext())
 
 ## No-Tracking Queries
 
-No tracking query executes quickly because there is no need to setup change tracking information. It is useful when the results are used in a read-only scenario.
+No tracking query executes quickly because there is no need to set up change tracking information. It is useful when the results are used in a read-only scenario.
 
 You can convert a query to a no-tracking query by using the `AsNoTracking()` method.
 
@@ -94,7 +94,7 @@ var author = context.Authors
         });
 ```
 
-EF Core supports doing client evaluation in the top-level projection. If EF Core materializes an entity instance for client evaluation, it will be tracked. In this example, we're passing `FirstName` and `LastName` of author entities to the client method `CombineNames`, EF Core will track the blog instances too.
+EF Core supports doing client evaluation in the top-level projection. If EF Core materializes an entity instance for client evaluation, it will be tracked. In this example, we're passing the `FirstName` and `LastName` of author entities to the client method `CombineNames`, EF Core will track the blog instances too.
 
 ```csharp
 var author = context.Authors

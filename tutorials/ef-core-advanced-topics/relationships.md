@@ -5,7 +5,7 @@ Name: Relationships
 
 # Relationships
 
-A relationship defines how two entities relate to each other. In a relational database, a relationship is represented by a foreign key constraint. A foreign key is a column or combination of columns that are used to establish and enforce a link between the data in those two tables. Entity framework Core supports three types of relationships;
+A relationship defines how two entities relate to each other. In a relational database, a relationship is represented by a foreign key constraint. A foreign key is a column or combination of columns that are used to establish and enforce a link between the data in those two tables. Entity Framework Core supports three types of relationships;
 
  - One-to-Many
  - One-to-One
@@ -35,7 +35,7 @@ public class Book
 }
 ```
 
-The `Author` class contains a **Books** navigation property which is a list of Book objects, while the `Book` class also has a navigation property **Author**. Most of the time, one-to-many relationships in an Entity Framework Core model follow conventions and require no additional configuration. Now when you run the migration, you will see the following code in migration file which will create the database.
+The `Author` class contains a **Books** navigation property which is a list of Book objects, while the `Book` class also has a navigation property **Author**. Most of the time, one-to-many relationships in an Entity Framework Core model follow conventions and require no additional configuration. Now when you run the migration, you will see the following code in the migration file which will create the database.
 
 
 ```csharp
@@ -85,16 +85,16 @@ Now, look at the database in SQL Server Object Explorer.
 
 <img src="images/relationships-1.png"> 
 
- - The primary key in Authors table is AuthorId, while in Books table the primary key is BookId. 
- - The AuthorId column in the Books table is a Foreign Key (FK), linking a book to its author. 
- - A book is a dependent entity in the relationship, and Author becomes the principal entity. 
+ - The primary key in the **Authors** table is `AuthorId`, while in the **Books** table the primary key is `BookId`. 
+ - The `AuthorId` column in the **Books** table is a Foreign Key (FK), linking a book to its author. 
+ - A book is a dependent entity in the relationship, and `Author` becomes the principal entity. 
  - Using foreign keys, you can link one author row in the database to many book rows. 
  
 Now if your model does not follow the default conventions, the Fluent API can be used to configure the correct relationship between entities. 
 
  - When configuring relationships with the Fluent API, you will use the Has/With pattern. 
- - The **"Has"** side of the pattern is represented by the `HasOne` and `HasMany` methods. 
- - The **"With"** side of the relationship is represented by the `WithOne` and `WithMany` methods.
+ - The **Has* side of the pattern is represented by the `HasOne` and `HasMany` methods. 
+ - The **With** side of the relationship is represented by the `WithOne` and `WithMany` methods.
 
 
 ```csharp
@@ -106,9 +106,9 @@ protected override void OnModelCreating(Modelbuilder modelBuilder)
 }
 ```
 
-### Fully defined relationships
+### Fully Defined Relationships
 
-In fully defined relationships, navigation properties are defined on both ends of the relationship and a foreign key property defined in the dependent entity class.
+In fully defined relationships, navigation properties are defined on both ends of the relationship, and foreign key property is defined in the dependent entity class.
 
 ```csharp
 public class Author
@@ -134,9 +134,9 @@ If a pair of navigation properties is found between two types, then they will be
  - _\<principal entity name\>\<principal key property name\>_
  - _\<principal entity name\>Id_
 
-### No foreign key property
+### No Foreign Key Property
 
-It is recommended to have a foreign key property defined in the dependent entity class, but it is not required. If no foreign key property is found, a shadow foreign key property will be introduced with the name <navigation property name><principal key property name> or <principal entity name><principal key property name> if no navigation is present on the dependent type.
+It is recommended to have a foreign key property defined in the dependent entity class, but it is not required. If no foreign key property is found, a shadow foreign key property will be introduced with the name `<navigation property name><principal key property name>` or `<principal entity name><principal key property name>` if no navigation is present on the dependent type.
 
 ```csharp
 public class Author
@@ -154,7 +154,7 @@ public class Book
 }
 ```
 
-### Single navigation property
+### Single Navigation Property
 
 By convention, when you include just one navigation property (no inverse navigation and no foreign key property) is enough to have a relationship defined. You can also have a single navigation property and a foreign key property.
 
@@ -179,7 +179,6 @@ When multiple navigation properties are defined between two types, then the rela
 
 In a one-to-one relationship, each row of data in one table is linked to zero or one row in the second table. 
 
-
 ```csharp
 public class Author
 {
@@ -200,7 +199,7 @@ public class AuthorBiography
 }
 ```
 
-The `Author` class contains a **Biography** navigation property, and the `AuthorBiography` class has a navigation property **Author**. Now when you run the migration, you will see the following code in migration file which will create the database.
+The `Author` class contains a **Biography** navigation property, and the `AuthorBiography` class has a navigation property **Author**. Now when you run the migration, you will see the following code in the migration file which will create the database.
 
 
 ```csharp
@@ -315,7 +314,7 @@ public class BookCategory
 }
 ```
 
-The Book and BookCategory have one-to-many relationship and Category and BookCategory also have one-to-many relationship. Now we need to configure the relationship using Fluent API.
+The `Book` and `BookCategory` have a one-to-many relationship and `Category` and `BookCategory` also have a one-to-many relationship. Now we need to configure the relationship using Fluent API.
 
 ```csharp
 public class MyContext : DbContext
@@ -346,7 +345,7 @@ public class MyContext : DbContext
 }
 ```
 
-Now when you run the migration, you will see the following code in migration file which will create three tables in the database.
+Now when you run the migration, you will see the following code in the migration file which will create three tables in the database.
 
 
 ```csharp

@@ -32,7 +32,7 @@ var author = context.Authors
     }).FirstOrDefault();
 ```
 
-## Unsupported client evaluation
+## Unsupported Client Evaluation
 
 Client/Server evaluation has some useful features, but in some cases, it can result in poor performance. In the following query, the helper method is now used in a filter, because this can't be performed in the database.
 
@@ -44,7 +44,7 @@ var authors = context.Authors
     .ToList();
 ```
 
-All the data is pulled into memory, and then the filter is applied on the client. Depending on the amount of data, and how much of that data is filtered out, this could result in poor performance.
+All the data is pulled into memory, and then the filter is applied to the client. Depending on the amount of data, and how much of that data is filtered out, this could result in poor performance.
 
  - By default, EF Core logs a warning when client evaluation is performed. 
  - You can change the behavior in `DbContext.OnConfiguring` when client evaluation occurs to either throw an exception or ignore it.
@@ -65,9 +65,12 @@ Now the configuration is added in the `DbContext.OnConfiguring` to throw an exce
 
 You may need to force into client evaluation explicitly in certain cases like following
 
-The amount of data is small so that evaluating the client doesn't incur a huge performance penalty.
-The LINQ operator being used has no server-side translation.
-In such cases, you can explicitly opt into client evaluation by calling methods like `AsEnumerable` or `ToList` (`AsAsyncEnumerable` or `ToListAsync` for async). By using `AsEnumerable` you would be streaming the results, but using `ToList` would cause buffering by creating a list, which also takes additional memory. Though if you're enumerating multiple times, then storing results in a list helps more since there's only one query to the database. Depending on the particular usage, you should evaluate which method is more useful for the case.
+ - The amount of data is small so that evaluating the client doesn't incur a huge performance penalty.
+ - The LINQ operator being used has no server-side translation.
+ - In such cases, you can explicitly opt into client evaluation by calling methods like `AsEnumerable` or `ToList` (`AsAsyncEnumerable` or `ToListAsync` for async). 
+ - By using `AsEnumerable` you would be streaming the results, but using `ToList` would cause buffering by creating a list, which also takes additional memory. 
+ - Though if you're enumerating multiple times, then storing results in a list helps more since there's only one query to the database. 
+ - Depending on the particular usage, you should evaluate which method is more useful for the case.
 
 ```csharp
 var authors = context.Authors

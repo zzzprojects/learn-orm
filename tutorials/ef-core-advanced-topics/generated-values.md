@@ -11,11 +11,11 @@ A generated property is a property whose value is generated (either by EF or the
  - The value generated on add
  - The value generated on add or update
 
-## No value generation
+## No Value Generation
 
 No value generation means that you will always supply a valid value to be saved to the database. This valid value must be assigned to new entities before they are added to the context.
 
-Disabling value generation on a property is typically necessary if a convention configures it for value generation. For example, if you have a primary key of type int, it will be implicitly set configured as the value generated on add. 
+Disabling value generation on a property is typically necessary if a convention configures it for value generation. For example, if you have a primary key of type `int`, it will be implicitly set configured as the value generated on add. 
 
 ### Data Annotations
 
@@ -28,6 +28,7 @@ public class Author
     public int AuthorId { get; set; }
     public string Name { get; set; }
 }
+```
 
 ### Fluent API
 
@@ -46,7 +47,7 @@ protected override void OnModelCreating(ModelBuilder modelBuilder)
 
 The value generated on add means that a value is generated when new entities are inserted. How the value is generated for added entities will depend on the database provider being used. 
 
- - Database providers may automatically setup value generation for some property types, but others may require you to manually set up how the value is generated.
+ - Database providers may automatically set up value generation for some property types, but others may require you to manually set up how the value is generated.
  - By convention, when entities are added, non-composite primary keys of type `short`, `int`, `long`, or `Guid` are set up to have values generated, if a value isn't provided by the application. 
  - All the necessary configurations are handled by the database provider. For example, a numeric primary key in SQL Server is automatically set up to be an `IDENTITY` column.
 
@@ -77,7 +78,7 @@ protected override void OnModelCreating(ModelBuilder modelBuilder)
 }
 ```
 
-### Default values
+### Default Values
 
 In relational databases, you can configure a column with a default value, if a row is added and no value is specified for that column, then the default value will be used.
 
@@ -136,7 +137,7 @@ protected override void OnModelCreating(ModelBuilder modelBuilder)
 }
 ```
 
-### Computed columns
+### Computed Columns
 
 In some relational databases, you can configure a column in a way that its value is computed in the database.
 

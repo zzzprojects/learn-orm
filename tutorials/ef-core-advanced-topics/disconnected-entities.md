@@ -5,7 +5,7 @@ Name: Disconnected Entities
 
 # Disconnected Entities
 
-A `DbContext` instance automatically tracks entities returned from the database, and any changes made to these entities are detected when SaveChanges is called, and the database is also updated as needed.
+A `DbContext` instance automatically tracks entities returned from the database, and any changes made to these entities are detected when `SaveChanges` is called, and the database is also updated as needed.
 
  - Sometimes entities are queried using one context instance and then saved using a different instance. 
  - In this case, the second context instance needs to know whether the entities are new (should be inserted) or existing (should be updated).
@@ -40,7 +40,6 @@ using (var context = new EntityContext())
 ```
 
 You can use a built-in way to do this for any entity type and key type.
-
 
 ```csharp
 using (var context = new EntityContext())
@@ -94,10 +93,9 @@ using (var context = new EntityContext())
 
 ## Entity Graph
 
-Entity Framework Core provides different methods, like `Add`, `Attach`, `Entry`, `Remove` and `Update` for entity graph-traversal and determine whether an entity should be marked as Added, Modified, Unchanged, or Deleted. These methods work well for individual entities or in cases where you don't mind all properties being included in an UPDATE statement whether they were changed or not.
+Entity Framework Core provides different methods, like `Add`, `Attach`, `Entry`, `Remove` and `Update` for entity graph-traversal and determine whether an entity should be marked as `Added`, `Modified`, `Unchanged`, or `Deleted`. These methods work well for individual entities or in cases where you don't mind all properties being included in an `UPDATE` statement whether they were changed or not.
 
 Here is a simple object graph.
-
 
 ```csharp
 var author = new Author()
@@ -132,7 +130,7 @@ using(var context = new EntityContext())
 }
 ```
 
- - The Update method will mark the root entity and all its related entities as Modified. 
+ - The `Update` method will mark the root entity and all its related entities as `Modified`. 
  - SQL will be generated to update all of their properties (whether they have been changed or not) to the values that have been assigned to the entities. 
  - That means that all of the values for all of the entities have to be present; otherwise, they will be overwritten with null or default values.
 
@@ -140,10 +138,10 @@ using(var context = new EntityContext())
 
 In Entity Framework Core, the `ChangeTracker.TrackGraph()` method was introduced to track the entire entity graph and set custom entity states to each entity in a graph. It is designed for use in disconnected scenarios where entities are retrieved using one instance of the context and then changes are saved using a different instance of the context.
 
- - It starts tracking an entity and any entities that are reachable by traversing it's navigation properties. 
+ - It starts tracking an entity and any entities that are reachable by traversing its navigation properties. 
  - Traversal is recursive, so the navigation properties of any discovered entities will also be scanned. 
- - The specified `callback` is called for each discovered entity and must set the State that each entity should be tracked in. If no state is set, the entity remains untracked.
- - If an entity is discovered that is already tracked by the context, that entity is not processed and it's navigation properties are not traversed.
+ - The specified `callback` is called for each discovered entity and must set the state that each entity should be tracked in. If no state is set, the entity remains untracked.
+ - If an entity is discovered that is already tracked by the context, that entity is not processed and its navigation properties are not traversed.
 
  The `TrackGraph` method provides easy access to each entity in the graph.
  

@@ -11,14 +11,17 @@ When you call `SaveChanges` to insert, delete, or update data to the database, t
  - If the transaction is committed, all of the operations are successfully applied to the database. 
  - If the transaction is rolled back, none of the operations are applied to the database.
 
-## Default transaction behavior
+## Default Transaction Behavior
 
- - By default, all changes in a single call to `SaveChanges` are applied in a transaction. If any of the changes fail, then the transaction is rolled back and none of the changes are applied to the database. 
+By default, all changes in a single call to `SaveChanges` are applied in a transaction. If any of the changes fail, then the transaction is rolled back and none of the changes are applied to the database. 
+
  - It means that `SaveChanges` is guaranteed to either completely succeed, or leave the database unmodified if an error occurs.
- - For most applications, this default behavior is sufficient. You should only manually control transactions if your application requirements deem it necessary.
+ - For most applications, this default behavior is sufficient. 
+ - You should manually control transactions if your application requirements consider them necessary.
 
-In EF Core, you can use multiple `SaveChanges` within a single transaction. You can use the `DbContext.Database` API to begin, commit, and rollback transactions. The following example shows two `SaveChanges` operations and a LINQ query being executed in a single transaction.
+In EF Core, you can use multiple `SaveChanges` within a single transaction. You can use the `DbContext.Database` API to begin, commit, and roll back transactions. 
 
+The following example shows two `SaveChanges` operations and a LINQ query being executed in a single transaction.
 
 ```csharp
 using (var context = new EntityContext())
@@ -60,7 +63,7 @@ To share a transaction, the contexts must share both a `DbConnection` and a `DbT
 
 ### Provide Connection Externally
 
-To a share a `DbConnection`, we need to pass a connection into a context when constructing it. The easiest way to allow `DbConnection` to be externally provided, is to stop using the `OnConfiguring` method to configure the context and externally create `DbContextOptions` and pass them to the context constructor.
+To share a `DbConnection`, we need to pass a connection into a context when constructing it. The easiest way to allow `DbConnection` to be externally provided, is to stop using the `OnConfiguring` method to configure the context and externally create `DbContextOptions` and pass them to the context constructor.
 
 ```csharp
 class EntityContext : DbContext

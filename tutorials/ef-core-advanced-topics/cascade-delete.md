@@ -10,11 +10,11 @@ Cascade delete allows the deletion of a row to trigger the deletion of related r
  - EF Core covers a closely related concept and implements several different delete behaviors and allows for the configuration of the delete behaviors of individual relationships. 
  - In Entity Framework Core, the `OnDelete` Fluent API method is used to specify the delete behavior for a dependent entity when the principal is deleted.
 
-The `OnDelete` method takes a `DeleteBehavior` enum as a parameter:
+The `OnDelete` method takes a `DeleteBehavior` enum as a parameter.
 
- - **Cascade:** Child/dependent entity should be deleted
- - **Restrict:** Dependents are unaffected
- - **SetNull:** The foreign key values in dependent rows should update to NULL
+ - **Cascade:** Child/dependent entity should be deleted.
+ - **Restrict:** Dependents are unaffected.
+ - **SetNull:** The foreign key values in dependent rows should update to `NULL`.
 
 Setting a foreign key value to null is not valid if the foreign key is not nullable. The following example set a foreign key field to null when the principal is deleted.
 
@@ -31,7 +31,7 @@ using (var context = new EntityContext())
 }
 ```
 
-The following example configures the relationship as required and specify that dependant rows are deleted when the principal is deleted.
+The following example configures the relationship as required and specifies that dependant rows are deleted when the principal is deleted.
 
 ```csharp
 using (var context = new EntityContext())
@@ -88,9 +88,9 @@ It is not possible to save a null foreign key value, which results in the follow
 ### SetNull 
 
  - The `SetNull` option is used when you want the database to also try to propagate `null` values to child foreign keys even when the child entity is not loaded. 
- - However, note that the database must support this, and configuring the database like this can result in other restrictions, which in practice often makes this option impractical. This is why SetNull is not the default.
+ - However, note that the database must support this, and configuring the database like this can result in other restrictions, which in practice often makes this option impractical. This is why `SetNull` is not the default.
 
 ### Restrict
 
  - The `Restrict` option is used when you don't want EF Core to ever delete an entity automatically or null out the foreign key automatically. 
- - It requires that your code keep child entities and their foreign key values in sync manually otherwise constraint exceptions will be thrown.
+ - It requires that your code keep child entities and their foreign key values in sync manually, otherwise constraint exceptions will be thrown.

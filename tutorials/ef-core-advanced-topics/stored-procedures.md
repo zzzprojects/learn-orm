@@ -10,14 +10,6 @@ The Entity Framework Core allows you to use stored procedures to perform predefi
  - `DbSet<TEntity>.FromSqlRaw()`
  - `DbContext.Database.ExecuteSqlRaw()`
 
-## Limitations
-
-In EF Core, there are some limitations when using raw SQL queries.
-
- - The return type of a stored procedure must be an entity type, and a stored procedure must return all the columns of the corresponding table of an entity.
- - Related data must not be the part of the result, and a stored procedure cannot perform JOINs to formulate the result.
- - The column names in the result set must match the column names that properties are mapped to. 
-
 ## Create Stored Procedure
 
 To execute a stored procedure in EF Core, we need to create our stored procedure in our database. Here is a script of a simple stored procedure, it will return all the records from the `Authors` table when executed.
@@ -123,3 +115,11 @@ using (var context = new EntityContext())
     context.Database.ExecuteSqlRaw("CreateAuthor @p0, @p1", parameters: new[] { "Mark", "Twain" });
 }
 ```
+
+## Limitations
+
+In EF Core, there are some limitations when using raw SQL queries.
+
+ - The return type of a stored procedure must be an entity type, and a stored procedure must return all the columns of the corresponding table of an entity.
+ - Related data must not be part of the result, and a stored procedure cannot perform JOINs to formulate the result.
+ - The column names in the result set must match the column names that properties are mapped to. 

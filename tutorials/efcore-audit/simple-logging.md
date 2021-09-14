@@ -5,7 +5,7 @@ Name: Simple Logging
 
 # Simple Logging
 
-`Audit.EntityFramework` provides the infrastructure to log various kinds of operations with the EF `DbContext`. It allows you to store detailed information about Insert, Update and Delete operations in your database.
+`Audit.EntityFramework` provides the infrastructure to log various kinds of operations with the EF `DbContext`. It allows you to store detailed information about insert, update and delete operations in your database.
 
 To use logging in your application, you need to change your context class to inherit from `AuditDbContext` instead of `DbContext`, as shown below.
 

@@ -5,7 +5,7 @@ Name: Configuration
 
 # Configuration
 
-The EF audit events are stored using a Data Provider. You can use one of the available data providers or implement your own. This can be set per DbContext instance or globally. If you plan to store the audit logs with EF, you can use the Entity Framework Data Provider.
+The EF audit events are stored using a data provider. You can use one of the available data providers or implement your own. This can be set per the `DbContext` instance or globally. If you plan to store the audit logs with EF, you can use the Entity Framework Data Provider.
 
 ## Global Settings
 

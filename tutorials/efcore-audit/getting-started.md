@@ -12,10 +12,10 @@ Name: Getting Started
 
 ## Features
 
- - You can use the `Log` method that logs an event immediately
- - It provides asynchronous versions of the operations that save audit logs
- - You can also control the creation and saving logic by creating a manual AuditScope
- - It generates an output (`AuditEvent`) for each operation
+ - You can use the `Log` method that logs an event immediately.
+ - It provides asynchronous versions of the operations that save audit logs.
+ - You can also control the creation and saving logic by creating a manual `AuditScope`.
+ - It generates an output (`AuditEvent`) for each operation.
 
 ## Audit Scope
 

@@ -51,7 +51,7 @@ public class User
 
 ## Override Properties
 
-You can override a column value with a constant value by using the `AuditOverride` attribute. The following code overrides the password values with a NULL value.
+You can override a column value with a constant value by using the `AuditOverride` attribute. The following code overrides the password values with a `NULL` value.
 
 ```csharp
 public class User

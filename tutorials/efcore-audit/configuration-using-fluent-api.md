@@ -36,4 +36,4 @@ Audit.EntityFramework.Configuration.Setup()
             .Format(user => user.Password, pass => new String('*', pass.Length))));
 ```
 
-As a result of the above configuration, the `OldPassword` will be always `null` and the `Password` will be set to several stars (`*`) equal to the number of password characters.
+As a result of the above configuration, the `OldPassword` will always be `null`, and the `Password` will be set to several stars (`*`) equal to the number of password characters.

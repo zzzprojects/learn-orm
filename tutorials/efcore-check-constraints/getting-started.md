@@ -5,7 +5,7 @@ Name: Getting Started
 
 # Getting Started
 
-**EFCore.CheckConstraints** is a NuGet library for **Microsoft.EntityFrameworkCore** that allows you to specify check constraints in SQL. The check constraints in SQL help you tighten your data model and ensure that no inconsistent or invalid ever makes it into your tables. It also allows you to define arbitrary validation for the rows of a table. 
+**EFCore.CheckConstraints** is a NuGet library for **Microsoft.EntityFrameworkCore** that allows you to specify check constraints in SQL. The check constraints in SQL help you tighten your data model and ensure that no inconsistent or invalid data ever makes it into your tables. It also allows you to define arbitrary validation for the rows of a table. 
 
 ## Installation
 

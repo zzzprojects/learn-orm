@@ -8,8 +8,9 @@ Name: Getting Started
 **AutoMapper.Collection.EntityFrameworkCore** is a NuGet library that provides support for updating collection using EntityFrameworkCore with AutoMapper. 
 
 It extends `DBSet<T>` and provides the following methods that will find the matching object and perform insert, update and delete operations.
- - Persist<TDto>().InsertUpdate(dto) 
- - Persist<TDto>().Delete(dto)  
+
+ - `Persist<TDto>().InsertUpdate(dto)` 
+ - `Persist<TDto>().Delete(dto)`
 
 ## Installation
 

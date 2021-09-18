@@ -8,10 +8,10 @@ Name: Getting Started
 **EntityFrameworkExtras.EFCore** is a NuGet library that provides some useful additions to Entity Framework, such as executing Stored Procedures with User-Defined Table Types and Output Parameters.
 
  - Many times you need to pass a group of records in stored procedure using user-defined table type. 
- - But Entity framework does not support user-defined type by default. 
- - This library supports user-defined type in entity framework.
+ - But Entity Framework does not support user-defined type by default. 
+ - This library supports user-defined types in Entity Framework.
 
-## User Defined Types
+## User-Defined Types
 
  - The User-Defined Table Types (UDTTs) and Table-Valued Parameters (TVPs) were first introduced in SQL Server 2008.
  - Before SQL Server 2008, it was not possible to pass a table variable in a stored procedure as a parameter.

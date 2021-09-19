@@ -5,7 +5,7 @@ Name: Create Stored Procedure with Output Parameter
 
 # Create Stored Procedure with Output Parameter
 
-A stored procedure can have many output parameters. In addition, the output parameters can be in any valid data type e.g., `integer`, `date`, and varying character. So let's create a stored procedure with an output parameter.
+A stored procedure can have many output parameters. In addition, the output parameters can be in any valid data type e.g., `INT`, `DATE`, and varying characters. So let's create a stored procedure with an output parameter.
 
 ```csharp
 CREATE PROCEDURE GetMaxSalary
@@ -18,7 +18,7 @@ Select @MaxSalary = MAX(Salary) FROM Employees;
 END
 ```
 
-Now we also need to create a class that represents a stored procedure with an output parameter.
+Now let's create a class that represents a stored procedure with an output parameter.
 
 ```csharp
 [StoredProcedure("GetMaxSalary")]
@@ -45,7 +45,7 @@ public static void Example1()
 }
 ```
 
-Now when you run your application and you will see the following output.
+Now when you run your application, you will see the following output.
 
 ```csharp
 Maximum Salary: 35000

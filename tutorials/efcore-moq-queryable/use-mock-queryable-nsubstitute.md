@@ -5,11 +5,11 @@ Name: Use MockQueryable.NSubstitute
 
 # Use MockQueryable.NSubstitute
 
-A `DbSet` represents the collection of all entities in the context, or that can be queried from the database, of a given type. `DbSet` objects are created from a `DbContext` using the `DbContext.Set` method.
+A `DbSet` represents the collection of all entities in the context, or that can be queried from the database, of a given type. The `DbSet` objects are created from a `DbContext` using the `DbContext.Set` method.
 
 The **MockQueryable.NSubstitute** provides `BuildMockDbSet` extension method that creates a mock of type `DbSet`.
 
-Let's consider the following simple example where will moq the `DbSet` as shown below.
+Let's consider the following simple example which mocks the `DbSet` as shown below.
 
 ```csharp
 public static void Example1()

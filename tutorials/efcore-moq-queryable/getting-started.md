@@ -8,7 +8,7 @@ Name: Getting Started
 **MockQueryable.EntityFrameworkCore** is a NuGet library that provides functionality for mocking Entity Framework Core operations such `ToListAsync`, `FirstOrDefaultAsync`, etc. 
 
  - When you write tests for your application it is often desirable to avoid hitting the database. 
- - This library allows you to achieve this functionality by creating a context with behavior defined by your tests that makes use of in-memory data.
+ - **MockQueryable.EntityFrameworkCore** allows you to achieve this functionality by creating a context with the behavior defined by your tests that makes use of in-memory data.
 
 ## Installation
 
@@ -42,7 +42,7 @@ On the **Additional Information** dialog, select the target framework and then c
 
 <img src="images/setup-5.png" alt="Console Application created">
 
-You can see a new web application project is created. Now, to install an **MockQueryable.EntityFrameworkCore**, right-click on the project in **Solution Explorer**, and select **Manage NuGet Packages...**
+You can see a new web application project is created. Now, to install a **MockQueryable.EntityFrameworkCore**, right-click on the project in **Solution Explorer**, and select **Manage NuGet Packages...**
 
 <img src="images/setup-6.png" alt="Install MockQueryable.EntityFrameworkCore">
 

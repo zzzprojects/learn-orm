@@ -35,7 +35,7 @@ public static void Example1()
 }
 ```
 
-Let's execute the above example and you will see the following output.
+Let's execute the above example, and you will see the following output.
 
 ```csharp
 Carson Alexander

@@ -11,7 +11,7 @@ With **MockQueryable.EntityFrameworkCore**, you can use any of the following pac
  - [MockQueryable.NSubstitute](https://www.nuget.org/packages/MockQueryable.NSubstitute)
  - [MockQueryable.FakeItEasy](https://www.nuget.org/packages/MockQueryable.FakeItEasy)
 
-So let's install the following packages from the package manager console.
+So let's install the following packages from the **Package Manager Console**.
 
 ```csharp
 PM> Install-Package MockQueryable.Moq
@@ -19,7 +19,7 @@ PM> Install-Package MockQueryable.NSubstitute
 PM> Install-Package MockQueryable.FakeItEasy
 ```
 
-Once these packages are installed, let's create an author repository interface.
+Once these packages are installed, first we need to create an `IAuthorRepository` interface.
 
 ```csharp
 public interface IAuthorRepository

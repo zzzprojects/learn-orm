@@ -45,7 +45,7 @@ public static void Example2()
 }
 ```
 
-You can also call the `AsExpandable` on the table and skip the call to the `Expand` method because `AsExpandable` automatically calls `Expand` on expressions as shown below.
+You can also call the `AsExpandable` method on the table and skip the call to the `Expand` method because `AsExpandable` automatically calls `Expand` on expressions as shown below.
 
 ```csharp
 public static void Example3()

@@ -13,17 +13,16 @@ public static List<string> GetAuthorsExample1(Expression<Func<Book, bool>> pageC
     using (var context = new BookStore())
     {
         var query = from a in context.Authors
-                    let books = context.Books.Where(b => b.AuthorId == a.AuthorId)
-                    where books.Any(pageCriteria)
-                    select a.Name;
-
+            let books = context.Books.Where(b => b.AuthorId == a.AuthorId)
+            where books.Any(pageCriteria)
+            select a.Name;
 
         return query.ToList();
     }
 }
 ```
 
-Now to make it works, **LinqKit.Microsoft.EntityFrameworkCore** allows you to call `AsExpandable()` on the first table in the query, as shown below.
+Now to make it works, **LinqKit.Microsoft.EntityFrameworkCore** allows you to call `AsExpandable()` method on the first table in the query, as shown below.
 
 ```csharp
 public static List<string> GetAuthorsExample2(Expression<Func<Book, bool>> pageCriteria)

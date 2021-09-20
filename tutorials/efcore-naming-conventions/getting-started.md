@@ -34,7 +34,7 @@ PM> Install-Package EFCore.NamingConventions
 
 ## Environment Setup
 
-To start using the **EFCore.NamingConventions** in your application, you will need to install the [Dabble.EntityFrameworkCore.Temporal.Query](https://www.nuget.org/packages/Dabble.EntityFrameworkCore.Temporal.Query) NuGet package.
+To start using the **EFCore.NamingConventions** in your application, you will need to install the [EFCore.NamingConventions](https://www.nuget.org/packages/EFCore.NamingConventions) NuGet package.
 
 Let's open the Visual Studio and create a new project.
 

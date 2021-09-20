@@ -7,15 +7,17 @@ Name: Getting Started
 
 ## Naming Convention
 
-Entity Framework Core generates the database schema from the model when you use migration or call the `context.Database.EnsureCreated();`. 
+Entity Framework Core generates the database schema from the model when you use migration or call the `context.Database.EnsureCreated()`. 
 
  - The name of generated objects has to be inferred from the name of the classes and properties. 
- - The default names should be ok for lots of people, but sometimes you need to use a specific naming convention. 
+ - The default names should be ok for a lot of people, but sometimes you need to use a specific naming convention. 
  - For example, some developer wants the table name to be upper case or column names to be prefixed by the table name, etc.
 
 **EFCore.NamingConventions** is a NuGet library for **Microsoft.EntityFrameworkCore** provides naming conventions for Entity Framework Core tables and columns.
 
 ## Supported Naming Conventions
+
+**EFCore.NamingConventions** supports the following naming conventions.
 
  - UseSnakeCaseNamingConvention: FullName becomes `full_name`
  - UseLowerCaseNamingConvention: FullName becomes `fullname`

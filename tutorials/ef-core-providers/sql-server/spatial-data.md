@@ -86,7 +86,6 @@ using (var context = new SportsGroundContext())
 
 Let's say we want to query all the sports grounds whose distance to the current location is less than 2 km (2,000 meters).
 
-
 ```csharp
 using (var context = new SportsGroundContext())
 {

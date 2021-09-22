@@ -26,7 +26,7 @@ PM> Install-Package Microsoft.EntityFrameworkCore
 
 You can also install this NuGet package by right-clicking on your project in Solution Explorer and select **Manage Nuget Packages...**. 
 
-<img src="/images/overview-1.png">
+<img src="images/overview-1.png">
 
 Search for **Microsoft.EntityFrameworkCore** and install the latest version by pressing the install button.
 
@@ -91,10 +91,11 @@ public class BookStore : DbContext
     public DbSet<Book> Books { get; set; }
 }
 ```
-In EF Core, the DbContext has a virtual method called `OnConfiguring` which will get called internally by EF Core. 
 
- - It will pass in an `optionsBuilder` instance which can be used to configure options for the `DbContext`.
- - The `optionsBuilder` has the `UseSqlite` method which expects a connection string as a parameter. 
+In EF Core, the `DbContext` has a virtual method called `OnConfiguring` which will get called internally by EF Core. 
+
+ - It will pass in an `DbContextOptionsBuilder` instance which can be used to configure options for the `DbContext`.
+ - The `DbContextOptionsBuilder` has the `UseSqlite` method which expects a connection string as a parameter. 
 
 ## Create Database
 
@@ -211,4 +212,4 @@ Arturo Anand
 
 You can also view the data in the database using SQLite database viewer.
 
-<img src="/images/overview-2.png">
+<img src="images/overview-2.png">

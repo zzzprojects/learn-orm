@@ -5,7 +5,7 @@ Name: Spatial Data
 
 # Spatial Data
 
-Spatial data represents the physical location and the shape of objects. These objects can be point locations or more complex objects such as countries, roads, or lakes.
+Spatial data represents the physical location and the shape of the objects. These objects can be point locations or more complex objects such as countries, roads, or lakes.
 
 SQL Server supports two spatial data types: the geometry data type and the geography data type.
 

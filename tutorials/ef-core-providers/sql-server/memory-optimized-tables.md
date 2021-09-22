@@ -12,7 +12,7 @@ Memory-Optimized Tables are a feature of SQL Server where the entire table resid
 
 ## Configuration
 
-You can specify that the table an entity is mapped to is memory-optimized. When using EF Core to create and maintain a database based on your model, either with migrations or `EnsureCreated`, a memory-optimized table will be created for these entities.
+You can specify that the table that is mapped to an entity is memory-optimized. When using EF Core to create and maintain a database based on your model, either with migrations or `EnsureCreated`, a memory-optimized table will be created for these entities.
 
 ```csharp
 public class BookStore : DbContext

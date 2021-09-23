@@ -12,7 +12,7 @@ Indexes are a common concept across many data stores, and data is stored in the 
 
 ## Indexing in EF Core
 
-By convention, an index is created in each property (or set of properties) used as a foreign key.
+By convention, an index is created in each property or set of properties used as a foreign key.
 
  - EF Core only supports one index per distinct set of properties. 
  - If you use the Fluent API to configure an index on a set of properties that already have an index defined, either by convention or previous configuration, then you will be changing the definition of that index. 
@@ -34,7 +34,7 @@ After database creation, open it in SQLite viewer and you will see an index is c
 
 <img src="images/indexes-1.png">
 
-You can also specify an index over more than one column:
+You can also specify an index over more than one column.
 
 ```csharp
 protected override void OnModelCreating(ModelBuilder modelBuilder)

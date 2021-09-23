@@ -5,17 +5,17 @@ Name: Generated Values
 
 # Generated Values
 
-A generated property is a property whose value is generated (either by EF or the database) when the entity is added and/or updated. Three value generation patterns can be used for properties.
+A generated property is a property whose value is generated either by EF or the database when the entity is added and/or updated. There are three kinds of value generation patterns that you can use for properties.
 
  - No value generation
  - The value generated on add
  - The value generated on add or update
 
-## No value generation
+## No Value Generation
 
 No value generation means that you will always supply a valid value to be saved to the database. This valid value must be assigned to new entities before they are added to the context.
 
-Disabling value generation on a property is typically necessary if a convention configures it for value generation. For example, if you have a primary key of type int, it will be implicitly set configured as the value generated on add. 
+Disabling value generation on a property is typically necessary if a convention configures it for value generation. For example, if you have a primary key of type `int`, it will be implicitly set configured as the value generated on add. 
 
 ### Data Annotations
 
@@ -47,8 +47,8 @@ protected override void OnModelCreating(ModelBuilder modelBuilder)
 
 The value generated on add means that a value is generated when new entities are inserted. How the value is generated for added entities will depend on the database provider being used. 
 
- - Database providers may automatically setup value generation for some property types, but others may require you to manually set up how the value is generated.
- - By convention, when entities are added, non-composite primary keys of type short, int, long, or Guid are set up to have values generated if the application doesn't provide a value.
+ - Database providers may automatically set up value generation for some property types, but others may require you to set up how the value is generated manually.
+ - By convention, when entities are added, non-composite primary keys of type `short`, `int`, `long`, or `Guid` are set up to have values generated if the application doesn't provide a value.
  - All the necessary configurations are handled by the database provider. For example, a numeric primary key in SQL Server is automatically set up as an `IDENTITY` column.
 
 ### Data Annotations
@@ -78,7 +78,7 @@ protected override void OnModelCreating(ModelBuilder modelBuilder)
 }
 ```
 
-### Default values
+### Default Values
 
 In relational databases, you can configure a column with a default value, if a row is added and no value is specified for that column, then the default value will be used.
 

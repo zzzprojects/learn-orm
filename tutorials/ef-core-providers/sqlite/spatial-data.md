@@ -5,7 +5,7 @@ Name: Spatial Data
 
 # Spatial Data
 
-Spatial data represents the physical location and the shape of objects. These objects can be point locations or more complex objects such as countries, roads, or lakes.
+Spatial data represents the physical location and the shape of the objects. These objects can be point locations or more complex objects such as countries, roads, or lakes.
 
 SQLite supports two spatial data types: the geometry data type and the geography data type.
 
@@ -99,7 +99,6 @@ using (var context = new SportsGroundContext())
 ```
 
 Let's say we want to query all the sports grounds whose distance to the current location is less than 2 km (2,000 meters).
-
 
 ```csharp
 using (var context = new SportsGroundContext())

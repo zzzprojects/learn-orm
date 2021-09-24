@@ -9,7 +9,7 @@ InMemory is designed to be a general-purpose database for testing and is not des
 
  - InMemory will allow you to save data that would violate referential integrity constraints in a relational database.
  - If you use `DefaultValueSql(string)` for a property in your model, this is a relational database API and will not affect when running against InMemory.
- - Concurrency via Timestamp/row version ([Timestamp] or IsRowVersion) is not supported. 
+ - Concurrency via Timestamp/row version (`[Timestamp]` or `IsRowVersion`) is not supported. 
  - No `DbUpdateConcurrencyException` will be thrown if an update is done using an old concurrency token.
 
 ## Install Entity Framework Core
@@ -91,8 +91,8 @@ public class BookStore : DbContext
 ```
 In EF Core, the DbContext has a virtual method called `OnConfiguring`, which will get called internally by EF Core. 
 
- - It will pass in an `optionsBuilder` instance, which can be used to configure options for the `DbContext`.
- - The `optionsBuilder` has `UseInMemoryDatabase` method, which expects a connection string as a parameter. 
+ - It will pass in an `DbContextOptionsBuilder` instance, which can be used to configure options for the `DbContext`.
+ - The `DbContextOptionsBuilder` has `UseInMemoryDatabase` method, which expects a connection string as a parameter. 
 
 Now, we are done with the required classes, let's add some authors and book records to the `InMemory` database and then retrieve them.
 

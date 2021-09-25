@@ -16,7 +16,7 @@ public class Author
 }
 ```
 
-You also need to enable hierarchyid support by calling `UseHierarchyId` inside `UseSqlServer`. 
+You also need to enable hierarchyid support by calling `UseHierarchyId` inside the `UseSqlServer` method. 
 
 ```csharp
 public class BookStore : DbContext
@@ -33,7 +33,7 @@ public class BookStore : DbContext
 }
 ```
 
-The `UseSqlServer`  is typically called inside `Startup.ConfigureServices` or `OnConfiguring` method of your DbContext type.
+The `UseSqlServer`  is typically called inside `Startup.ConfigureServices` or `OnConfiguring` method of your `DbContext` type.
 
 You can add the hierarchyid in your primary key as shown below.
 

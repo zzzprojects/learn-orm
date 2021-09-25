@@ -28,7 +28,7 @@ Search for **Microsoft.EntityFrameworkCore** and install the latest version by p
 
 ## Register EF Core Provider
 
-First, for Devart MySql we need to install [dotConnect for MySQL Professional Trial](https://www.devart.com/dotconnect/mysql/download.html) to start your 30 days trial period.
+First, for Devart MySql, we need to install [dotConnect for MySQL Professional Trial](https://www.devart.com/dotconnect/mysql/download.html) to start your 30 days trial period.
 
 Once the installation is completed, install [Devart.Data.MySql.EFCore](https://www.nuget.org/packages/Devart.Data.MySql.EFCore) in your project using **Package Manager Console** window. It will get all the packages required for EF Core.
 
@@ -91,8 +91,8 @@ public class BookStore : DbContext
 ```
 In EF Core, the DbContext has a virtual method called `OnConfiguring`, which will get called internally by EF Core. 
 
- - It will pass in an `optionsBuilder` instance, which can be used to configure options for the `DbContext`.
- - The `optionsBuilder` has the `UseMySql` method, which expects a connection string as a parameter. 
+ - It will pass in an `DbContextOptionsBuilder` instance, which can be used to configure options for the `DbContext`.
+ - The `DbContextOptionsBuilder` has the `UseMySql` method, which expects a connection string as a parameter. 
 
 ## Create Database
 

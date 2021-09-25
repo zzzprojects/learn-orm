@@ -5,7 +5,7 @@ Name: Implement Soft Delete
 
 # Implement Soft Delete
 
-To implement soft delete in your application, we need to inherit our db context class from `SoftDeletes.Core.DbContext`.
+To implement soft delete in your application, you need to inherit your db context class from `SoftDeletes.Core.DbContext`.
 
 ```csharp
 public class BookStore : SoftDeletes.Core.DbContext
@@ -22,7 +22,7 @@ public class BookStore : SoftDeletes.Core.DbContext
 
 In entities, you want to add soft delete support, implement `SoftDeletes.ModelTools.ISoftDelete` or `ModelExtenstion` abstract class that implements `ITimestamps` and `ISoftDelete` interfaces.
 
-So let's inherit both `Author` and `Book` entities from `ModelExtenstion` abstract class and implement the `abstract` methods.
+So let's inherit both `Author` and `Book` entities from the `ModelExtenstion` abstract class and implement the `abstract` methods.
 
 ```csharp
 public class Author : ModelExtension
@@ -100,10 +100,10 @@ It will add a column named `DeletedAt` to your entity. You need to add a migrati
  - In `LoadRelationsAsync` and `LoadRelations` methods, load relations you want to delete in soft deleting the entity. 
  - in `OnSoftDeleteAsync` and `OnSoftDelete` methods, delete relations you want to delete in soft deleting the entity.
  - For soft deleting an entity, use `Remove` and `RemoveAsync` methods. 
- - These methods will soft delete an `ISoftDelete` implemented entity and force delete an not implemented entity.
- - For force deleting any entity use `ForceRemove` method.
+ - These methods will soft delete an entity that implements an `ISoftDelete`.
+ - For force deleting any entity use the `ForceRemove` method.
 
-Let's configure the relationship in `OnModelCreating` method as shown below.
+Let's configure the relationship in the `OnModelCreating` method as shown below.
   
 ```csharp
 protected override void OnModelCreating(ModelBuilder modelBuilder)

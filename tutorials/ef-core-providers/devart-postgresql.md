@@ -5,7 +5,7 @@ Name: Devart PostgreSQL
 
 # Devart PostgreSQL Provider
 
-The dotConnect for PostgreSQL is a high-performance ORM enabled data provider for PostgreSQL that builds on ADO.NET technology to present a complete solution for developing PostgreSQL-based database applications. 
+The dotConnect for PostgreSQL is a high-performance ORM-enabled data provider for PostgreSQL that builds on ADO.NET technology to present a complete solution for developing PostgreSQL-based database applications. 
 
  - It introduces new approaches for designing application architecture, boosts productivity, and leverages database applications.
  - It offers both high-performance connectivity to the PostgreSQL database and many innovative development tools and technologies.
@@ -91,8 +91,8 @@ public class BookStore : DbContext
 ```
 In EF Core, the DbContext has a virtual method called `OnConfiguring`, which will get called internally by EF Core. 
 
- - It will pass in an `optionsBuilder` instance, which can be used to configure options for the `DbContext`.
- - The `optionsBuilder` has the `UsePostgreSql` method, which expects a connection string as a parameter. 
+ - It will pass in an `DbContextOptionsBuilder` instance, which can be used to configure options for the `DbContext`.
+ - The `DbContextOptionsBuilder` has the `UsePostgreSql` method, which expects a connection string as a parameter. 
 
 ## Create Database
 

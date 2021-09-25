@@ -88,8 +88,8 @@ public class BookStore : DbContext
 ```
 In EF Core, the `DbContext` has a virtual method called `OnConfiguring`, which will get called internally by EF Core. 
 
- - It will pass in an `optionsBuilder` instance, which can be used to configure options for the `DbContext`.
- - The `optionsBuilder` has the `UseMySql` method, which expects a connection string, server version, and CharSetBehavior as a parameter. 
+ - It will pass in an `DbContextOptionsBuilder` instance, which can be used to configure options for the `DbContext`.
+ - The `DbContextOptionsBuilder` has the `UseMySql` method, which expects a connection string, server version, and CharSetBehavior as a parameter. 
 
 ## Create Database
 

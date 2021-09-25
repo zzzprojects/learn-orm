@@ -7,7 +7,7 @@ Name: Getting Started
 
 ## HierarchyId
 
-The hierarchyid data type is a variable-length system data type. You can use the hierarchyid to represent the position in a hierarchy. 
+The hierarchyid data type is a variable-length system data type that you can use to represent the position in a hierarchy. 
 
  - A column of type hierarchyid does not automatically represent a tree. 
  - It is up to the application to generate and assign hierarchyid values in such a way that the desired relationship between rows is reflected in the values.

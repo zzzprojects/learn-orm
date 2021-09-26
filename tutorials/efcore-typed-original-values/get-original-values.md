@@ -5,7 +5,7 @@ Name: Get Original Values
 
 # Get Original Values
 
-**EntityFrameworkCore.TypedOriginalValues** allows you to get typed access to the original values of your entity properties when you update it. It provides the `GetOriginal` extension method to retrieve the original values of an entity.
+**EntityFrameworkCore.TypedOriginalValues** allows you to get typed access to the original values of your entity properties when you update it. It provides the `GetOriginal()` extension method to retrieve the original values of an entity.
 
 Let's consider the following simple example where we have retrieved an author and update his name.
  

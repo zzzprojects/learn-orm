@@ -11,21 +11,21 @@ The `DATEPART` function returns an integer representing the specified datepart o
 
 The **SimplerSoftware.EntityFrameworkCore.SqlServer.NodaTime** provides the following methods which use the `DATEPART` function.
 
- - Year
- - Quarter
- - Month
- - DayOfYear
- - Day
- - Week
- - WeekDay
- - Hour
- - Minute
- - Second
- - Millisecond
- - Microsecond
- - Nanosecond
- - TzOffset
- - IsoWeek
+ - `Year`
+ - `Quarter`
+ - `Month`
+ - `DayOfYear`
+ - `Day`
+ - `Week`
+ - `WeekDay`
+ - `Hour`
+ - `Minute`
+ - `Second`
+ - `Millisecond`
+ - `Microsecond`
+ - `Nanosecond`
+ - `TzOffset`
+ - `IsoWeek`
 
 Let's consider the following simple example where we want to get all the tasks that started in 2021.
 

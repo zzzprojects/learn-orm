@@ -11,10 +11,10 @@ The `DATEDIFF_BIG` function returns the count (as a signed big integer value) of
 
 The **SimplerSoftware.EntityFrameworkCore.SqlServer.NodaTime** provides the following methods which use the `DATEDIFF_BIG` function.
 
- - DateDiffBigMicrosecond
- - DateDiffBigMillisecond
- - DateDiffBigNanosecond
- - DateDiffBigSecond
+ - `DateDiffBigMicrosecond`
+ - `DateDiffBigMillisecond`
+ - `DateDiffBigNanosecond`
+ - `DateDiffBigSecond`
 
 Let's consider the following simple example which uses the `DateDiffBigSecond` method.
 

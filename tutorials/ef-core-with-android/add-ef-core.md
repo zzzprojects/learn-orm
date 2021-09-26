@@ -17,20 +17,22 @@ It is widely used and well known for the following features.
 
 ## Get Started with Entity Framework Core
 
-The other project in your Solution with the same name as your Solution is a **Class Library (.NET Standard)**. The .NET Standard is a formal specification of the .NET APIs that are intended to be available on all .NET runtimes. This library is where we’ll place all our shared application code, including our Entity Framework Core logic. 
+The other project in your solution with the same name as your solution is a **Class Library (.NET Standard)**. The .NET Standard is a formal specification of the .NET APIs that are intended to be available on all .NET runtimes. This library is where we'll place all our shared application code, including our Entity Framework Core logic. 
 
 ### Install EF Core
 
-To install EF Core, right-click on the **EFWithXamarin** project in Solution Explorer, and select **Manage NuGet Packages…**, and install the following packages.
- - Microsoft.EntityFrameworkCore
- - Microsoft.EntityFrameworkCore.Sqlite
+To install EF Core, right-click on the **EFWithXamarin** project in **Solution Explorer**, and select **Manage NuGet Packages…**, and install the following packages.
+
+ - `Microsoft.EntityFrameworkCore`
+ - `Microsoft.EntityFrameworkCore.Sqlite`
 
 We are ready to start writing some Entity Framework code.
 
 ### Create a Model
 
 The model plays a significant part in the Entity Framework. It contains configurations, mapping properties, relationships, and defines which objects map to which tables.
-Let’s create a new **Models** folder and add a **Customer** class in **..Model\Customer.cs** file.
+
+Let's create a new **Models** folder and add a **Customer** class in **..Model\Customer.cs** file.
 
 ```csharp
 using System;
@@ -104,7 +106,7 @@ namespace EFWithXamarin.Data
 }
 ```
 
-To make things simple, we will add another service class in which we will all the CRUD operations.
+To make things simple, we will add another service class in which we will do all the CRUD operations.
 
 ```csharp
 using EFWithXamarin.Data;
@@ -165,4 +167,4 @@ namespace EFWithXamarin.Services
 }
 ```
 
-Once you are done with context class, let’s build the class library project.
+Once you are done with the context class, let's build the class library project.

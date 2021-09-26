@@ -11,22 +11,22 @@ The `DATEADD` function adds a specified number value (as a signed integer) to a 
 
 The SQL `DATEADD` function is supported for the following types.
 
- - Instant (extension methods)
- - OffsetDateTime (native and some extension methods)
- - LocalDateTime (native and some extension methods)
- - LocalDate (native and some extension methods)
- - LocalTime (native and some extension methods)
- - Duration (native and some extension methods)
+ - `Instant (extension methods)`
+ - `OffsetDateTime (native and some extension methods)`
+ - `LocalDateTime (native and some extension methods)`
+ - `LocalDate (native and some extension methods)`
+ - `LocalTime (native and some extension methods)`
+ - `Duration (native and some extension methods)`
 
-The **SimplerSoftware.EntityFrameworkCore.SqlServer.NodaTime** provides the following methods which uses the `DATEADD` function.
+The **SimplerSoftware.EntityFrameworkCore.SqlServer.NodaTime** provides the following methods which use the `DATEADD` function.
 
- - PlusYears
- - PlusMonths
- - PlusDays
- - PlusHours
- - PlusMinutes
- - PlusSeconds
- - PlusMilliseconds
+ - `PlusYears`
+ - `PlusMonths`
+ - `PlusDays`
+ - `PlusHours`
+ - `PlusMinutes`
+ - `PlusSeconds`
+ - `PlusMilliseconds`
 
 Let's consider the following simple example. 
 

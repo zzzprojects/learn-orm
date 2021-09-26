@@ -29,7 +29,9 @@ protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 }
 ```
 
-In the previous articles, we have set up the database, which contains two tables, `Authors` and `Books`. The problem is the tables created by EF Core are not a system-versioned temporal table. Let's run the following script by updating the `Initialize` method to make the `Authors` table a system-versioned temporal table.  
+In the previous articles, we have set up the database, which contains two tables, `Authors` and `Books`. The problem is the tables created by EF Core are not a system-versioned temporal table. 
+
+Let's run the following script by updating the `Initialize` method to make the `Authors` table a system-versioned temporal table.  
 
 ```csharp
 public static void Initialize()

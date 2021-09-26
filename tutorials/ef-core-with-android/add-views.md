@@ -5,7 +5,7 @@ Name: Add Views
 
 # Add Views 
 
-In the Xamarin.Forms, views are the building blocks of cross-platform mobile user interfaces. Views are user-interface objects such as labels, buttons, and sliders that are commonly known as controls or widgets in other graphical programming environments.
+In the **Xamarin.Forms**, views are the building blocks of cross-platform mobile user interfaces. Views are user-interface objects such as labels, buttons, and sliders that are commonly known as controls or widgets in other graphical programming environments.
 
 Let’s create a **Views** folder and then add a content page.
 
@@ -76,7 +76,7 @@ public App()
 }
 ```
 
-Now let’s seed the data base with dummy data in the **OnStart()** method using the following code.
+Now let’s seed the database with dummy data in the **OnStart()** method using the following code.
 
 ```csharp
 using EFWithXamarin.Data;

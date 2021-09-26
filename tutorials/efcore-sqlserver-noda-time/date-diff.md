@@ -11,16 +11,16 @@ The `DATEPART` function returns the count (as a signed integer value) of the spe
 
 The **SimplerSoftware.EntityFrameworkCore.SqlServer.NodaTime** provides the following methods which use the `DATEDIFF` function.
 
- - DateDiffDay
- - DateDiffHour
- - DateDiffMicrosecond
- - DateDiffMillisecond
- - DateDiffMinute
- - DateDiffMonth
- - DateDiffNanosecond
- - DateDiffSecond
- - DateDiffWeek
- - DateDiffYear
+ - `DateDiffDay`
+ - `DateDiffHour`
+ - `DateDiffMicrosecond`
+ - `DateDiffMillisecond`
+ - `DateDiffMinute`
+ - `DateDiffMonth`
+ - `DateDiffNanosecond`
+ - `DateDiffSecond`
+ - `DateDiffWeek`
+ - `DateDiffYear`
 
 Let's consider the following simple example which uses the `DateDiffDay` method.
 

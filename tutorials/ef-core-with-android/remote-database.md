@@ -10,7 +10,7 @@ Those who are new to Xamarin, and coming from a web background will have a quest
 In this case, you need a way to accept requests from a client and pass them on to a database. 
 
  - The most common way to achieve this is via a REST-based API. 
- - An API is like a webpage, but instead of a user viewing it and seeing HTML, a mobile application or another client connects to it, sends it commands and receives data back from it, most commonly JSON formatted data.
+ - An API is like a webpage, but instead of a user viewing it and seeing HTML, a mobile application or another client connects to it, sends it commands, and receives data back from it, most commonly JSON formatted data.
 
 ## What is REST Web Service (API)?
 
@@ -38,7 +38,7 @@ Enter the project name and choose a location for your project to Configure your 
 
 <img src="images/remote-database-3.png">
 
-In the Create a new ASP.NET Core Web Application dialog, confirm that .NET Core and ASP.NET Core 3.1 is selected. Select the API template and click Create.
+In the Create a new ASP.NET Core Web Application dialog, confirm that .NET Core and ASP.NET Core 3.1 are selected. Select the API template and click Create.
 
 ### Install EF Core
 
@@ -130,7 +130,7 @@ namespace EFWebServices.Data
 }
 ```
 
-In ASP.NET Core, services such as the DB context must be registered with the dependency injection (DI) container. The container provides the service to controllers, so we need to update ConfigureServices in Startup.cs with the following code.
+In ASP.NET Core, services such as the DB context must be registered with the dependency injection (DI) container. The container provides the service to controllers, so we need to update ConfigureServices in `Startup.cs` with the following code.
 
 ```csharp
 public void ConfigureServices(IServiceCollection services)
@@ -150,7 +150,7 @@ Select API Controller with actions, using Entity Framework, and then select Add.
 
 <img src="images/remote-database-5.png">
 
-In the Add API Controller with actions, using Entity Framework dialog. Select Customer (EFWebServices.Models) in the Model class, EntityContext (EFWebServices.Data) in the Data context class and enter CustomerController in the Controller name. Click the Add button.
+In the Add API Controller with actions, using Entity Framework dialog. Select **Customer (EFWebServices.Models)** in the **Model** class, `EntityContext (EFWebServices.Data)` in the **Data context class**, and enter **CustomerController** in the **Controller name** and click the **Add** button.
 
 ```csharp
 using System;
@@ -276,7 +276,7 @@ The HTTP POST method, as indicated by the [HttpPost] attribute gets the value of
 
 Now let’s say we want to export all the customers from our local SQLite database to the remote database. So, we need to add a method to Web Service which will get a list of customers from the body of the HTTP request.
 
-Let’s update the PostCustomer method in a CustomerController so that it gets a list of customers instead of a single customer object and save that list to the database.
+Let’s update the PostCustomer method in a CustomerController so that it gets a list of customers instead of a single customer object and saves that list to the database.
 
 ```csharp
 [HttpPost]
@@ -296,7 +296,7 @@ When you want to insert hundreds, thousands, or millions of entities, and your a
 
 ### Insert Multiple Records
 
-The most significant and recommended solution is BulkInsert provided by Entity Framework Extensions library. So let’s install the Z.EntityFramework.Extensions.EFCore NuGet Package and replace the following code in the PostCustomer method.
+The most significant and recommended solution is BulkInsert provided by the **Entity Framework Extensions** library. So let’s install the **Z.EntityFramework.Extensions.EFCore** NuGet Package and replace the following code in the `PostCustomer` method.
 
 ```csharp
 [HttpPost]

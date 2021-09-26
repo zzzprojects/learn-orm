@@ -22,7 +22,7 @@ Entity Framework Core is a lightweight, extensible, cross-platform version of En
 
 ## What is Android?
 
-Android is an open-source operating system based on Linux kernel. Android was originally developed by Android Inc. and subsequently purchased by Google. Android provides a rich application framework that allows you to build innovative apps and games for mobile devices.
+Android is an open-source operating system based on the Linux kernel. Android was originally developed by Android Inc. and subsequently purchased by Google. Android provides a rich application framework that allows you to build innovative apps and games for mobile devices.
 
 ### Xamarin.Android
 

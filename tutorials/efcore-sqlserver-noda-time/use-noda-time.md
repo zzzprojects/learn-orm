@@ -15,7 +15,7 @@ protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     optionsBuilder.UseSqlServer(@"Data Source=(localdb)\ProjectsV13;Initial Catalog=EmployeeContextDb;",
             x => x.UseNodaTime());
 }
-```by 6htgb
+```
 
 Let's add a new model class called `Task` as shown below.
 

@@ -1,9 +1,9 @@
 ---
 PermaID: 100005
-Name: CLR User-defined Aggregates
+Name: CLR User-Defined Aggregates
 ---
 
-# CLR User-defined Aggregates
+# CLR User-Defined Aggregates
 
 Aggregate functions perform a calculation on a set of values and return a single value. T-SQL has a number of built-in aggregates, such as SUM, AVG, and MAX, etc. 
 

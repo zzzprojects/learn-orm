@@ -1,8 +1,6 @@
 ---
 PermaID: 100018
-Name: EFCore.BulkExtensions vs EF Extensions in EF Core
-Title: EFCore.BulkExtensions vs EF Extensions in EF Core
-Description: Test
+Name: EFCore.BulkExtensions vs EF Extensions
 ---
 
 # EFCore.BulkExtensions vs EF Extensions in EF Core 7

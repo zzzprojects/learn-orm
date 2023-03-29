@@ -18,7 +18,7 @@ So the first step I had to do was to compare both libraries.
 
 In this section, I will just compare some basic features to get a good overview of both libraries.
 
-| Features | [EFCore.BulkExtensions](https://www.codis.tech/efcorebulk/) | [Z.EntityFramework.Extensions](https://entityframework-extensions.net/) | 
+| Features | [EFCore.BulkExtensions](/ef-core-advanced-topics/learn/100019/efcore-bulkextensions) | [Z.EntityFramework.Extensions](https://entityframework-extensions.net/) | 
 |:---|:---:|:---:|
 |  BulkSaveChanges | Yes (many bugs) | Yes | 
 |  BulkInsert + Identity | Yes | Yes |  
@@ -37,7 +37,7 @@ The library works really great for basic scenarios, but as soon as I start to pl
 
 Another big surprise I found out was when inserting in bulk and returning the identity. For hundreds of entities, the performance was very close to the `Z.EntityFramework.Extensions`. However, as I was inserting more entities, the gap was getting bigger and bigger.
 
-| BulkInsert + Identity Retured | [EFCore.BulkExtensions](https://www.codis.tech/efcorebulk/) | [Z.EntityFramework.Extensions](https://entityframework-extensions.net/) | 
+| BulkInsert + Identity Retured | [EFCore.BulkExtensions](/ef-core-advanced-topics/learn/100019/efcore-bulkextensions) | [Z.EntityFramework.Extensions](https://entityframework-extensions.net/) | 
 |:---|:---:|:---:|
 |  1,000 Entities + Identity | 350 ms | 125 ms | 
 |  100,000 Entities + Identity | 9200 ms | 833 ms | 
@@ -50,13 +50,13 @@ Obviously, that's a big problem within the library as the primary purpose is to 
 
 ### Winner
 
-For features, [Z.EntityFramework.Extensions](https://entityframework-extensions.net/) is the clear winner. So far, it has supported all scenarios we tried, and we have never run into a problem.
+For features, [Z.EntityFramework.Extensions](/ef-core-advanced-topics/learn/100019/efcore-bulkextensions) is the clear winner. So far, it has supported all scenarios we tried, and we have never run into a problem.
 
 ## Developer Experience Comparisons
 
 In this section, I will compare the developer experience that you can expect to get with both companies
 
-| Category | [EFCore.BulkExtensions](https://www.codis.tech/efcorebulk/) | [Z.EntityFramework.Extensions](https://entityframework-extensions.net/) | 
+| Category | [EFCore.BulkExtensions](http://localhost:60229/ef-core-advanced-topics/learn/100018/efcore-bulkextensions-vs-ef-extensions) | [Z.EntityFramework.Extensions](https://entityframework-extensions.net/) | 
 |:---|:---|:---|
 |  Pricing | Starting at $500 | Starting at $999 | 
 |  Customer Support | 2/5 | 4.5/5 |

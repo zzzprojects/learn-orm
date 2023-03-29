@@ -1,3 +1,4 @@
+- [EFCore.BulkExtensions](efcore-bulkextensions.md)
 - [EFCore.BulkExtensions vs. EFE](efcore-bulkextensions-vs-efe.md)
 - [DbContext Configuration](dbcontext-configuration.md)
 - [Connection Resiliency](connection-resiliency.md)

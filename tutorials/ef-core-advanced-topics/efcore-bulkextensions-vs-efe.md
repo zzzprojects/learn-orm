@@ -7,7 +7,7 @@ Name: EFCore.BulkExtensions vs EF Extensions
 
 I recently found myself having to use bulk operations in EF Core 7. A quick search on Google always leads to 2 popular solutions :
 
-- [EFCore.BulkExtensions](https://www.codis.tech/efcorebulk/) from CODIS (Starting at $500)
+- [EFCore.BulkExtensions](https://www.codis.tech/efcorebulk) from CODIS (Starting at $800)
 - [Z.EntityFramework.Extensions](https://entityframework-extensions.net/) from ZZZ Projects (Starting at $999)
 
 For an enterprise, **in both cases, the solution is not free**, and a license needs to be purchased.
@@ -58,7 +58,7 @@ In this section, I will compare the developer experience that you can expect to 
 
 | Category | [EFCore.BulkExtensions](http://localhost:60229/ef-core-advanced-topics/learn/100018/efcore-bulkextensions-vs-ef-extensions) | [Z.EntityFramework.Extensions](https://entityframework-extensions.net/) | 
 |:---|:---|:---|
-|  Pricing | Starting at $500 | Starting at $999 | 
+|  Pricing | Starting at $800 | Starting at $999 | 
 |  Customer Support | 2/5 | 4.5/5 |
 |  Product Support | 2/5 | 5/5 | 
 |  Documentation | 2/5 | 3.5/5 | 
@@ -67,7 +67,7 @@ In this section, I will compare the developer experience that you can expect to 
 
 You can see their price here:
 
-- [EFCore.BulkExtensions (Starting at $500)](https://www.codis.tech/efcorebulk/)
+- [EFCore.BulkExtensions (Starting at $800)](https://www.codis.tech/efcorebulk)
 - [Z.EntityFramework.Extensions (Starting at $999)](https://entityframework-extensions.net/pricing)
 
 ### Customer Support
